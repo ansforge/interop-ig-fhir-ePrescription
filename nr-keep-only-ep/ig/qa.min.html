@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for eP</h1>
- <p>Generated Tue Oct 28 16:14:38 UTC 2025, FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/eprescription">https://interop.esante.gouv.fr/ig/fhir/eprescription</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Tue Oct 28 16:52:34 UTC 2025, FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/eprescription">https://interop.esante.gouv.fr/ig/fhir/eprescription</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.0.23</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ans.fhir.fr.eprescription, Canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription</td></tr>
@@ -2140,28 +2140,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-9-Presc-Roprinirole*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l549">log</a>, or see <a href="#vmi3859" onClick="document.getElementById('vmi3859').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi3859" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000499 ("ROPINIROLE comprimé 1mg")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000499"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000499 ("ROPINIROLE comprimé 1mg")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000499"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-9-Presc-Roprinirole*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00000499)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l549">log</a>, or see <a href="#vmi3860" onClick="document.getElementById('vmi3860').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi3860" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000499 ("ROPINIROLE comprimé 1mg")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000499"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000499 ("ROPINIROLE comprimé 1mg")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000499"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -2586,28 +2586,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-13-Presc-Desloratadine*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l554">log</a>, or see <a href="#vmi3943" onClick="document.getElementById('vmi3943').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi3943" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000161 ("DESLORATADINE 5 mg comprimé")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000161"
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000161 ("DESLORATADINE 5 mg comprimé")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000161"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-13-Presc-Desloratadine*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00000161)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l554">log</a>, or see <a href="#vmi3944" onClick="document.getElementById('vmi3944').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi3944" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000161 ("DESLORATADINE 5 mg comprimé")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000161"
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000161 ("DESLORATADINE 5 mg comprimé")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000161"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -2649,30 +2649,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l555">log</a>, or see <a href="#vmi3954" onClick="document.getElementById('vmi3954').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi3954" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047 ("CODOLIPRANE 500/30MG CPR")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047 ("CODOLIPRANE 500/30MG CPR")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l555">log</a>, or see <a href="#vmi3955" onClick="document.getElementById('vmi3955').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi3955" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047 ("CODOLIPRANE 500/30MG CPR")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047 ("CODOLIPRANE 500/30MG CPR")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -2846,28 +2846,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-16-Presc-Racecadotril*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l557">log</a>, or see <a href="#vmi3989" onClick="document.getElementById('vmi3989').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi3989" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000139 ("RACECADOTRIL 100 mg gélule")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000139"
+0 0: tx-op
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 15: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000139 ("RACECADOTRIL 100 mg gélule")]"
+15 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000139"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-16-Presc-Racecadotril*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00000139)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l557">log</a>, or see <a href="#vmi3990" onClick="document.getElementById('vmi3990').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi3990" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000139 ("RACECADOTRIL 100 mg gélule")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000139"
+0 0: tx-op
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 15: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000139 ("RACECADOTRIL 100 mg gélule")]"
+15 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000139"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -2909,28 +2909,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-17-Presc-Budesonide*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l559">log</a>, or see <a href="#vmi4000" onClick="document.getElementById('vmi4000').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi4000" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004231 ("Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004231"
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004231 ("Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004231"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-17-Presc-Budesonide*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00004231)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l559">log</a>, or see <a href="#vmi4001" onClick="document.getElementById('vmi4001').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi4001" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004231 ("Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004231"
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004231 ("Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004231"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -2972,28 +2972,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-18-Presc-Budesonide*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l559">log</a>, or see <a href="#vmi4011" onClick="document.getElementById('vmi4011').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi4011" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004231 ("Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004231"
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004231 ("Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004231"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-18-Presc-Budesonide*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00004231)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l559">log</a>, or see <a href="#vmi4012" onClick="document.getElementById('vmi4012').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi4012" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004231 ("Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004231"
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004231 ("Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004231"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -3035,28 +3035,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-19-Presc-Paracetamol*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l560">log</a>, or see <a href="#vmi4022" onClick="document.getElementById('vmi4022').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi4022" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-31 16: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-31 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002414 ("PARACETAMOL 1000 mg comprimé")]"
-31 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002414"
+32 32: tx-op
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002414 ("PARACETAMOL 1000 mg comprimé")]"
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002414"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-19-Presc-Paracetamol*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00002414)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l560">log</a>, or see <a href="#vmi4023" onClick="document.getElementById('vmi4023').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi4023" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-31 16: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-31 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002414 ("PARACETAMOL 1000 mg comprimé")]"
-31 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002414"
+32 32: tx-op
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002414 ("PARACETAMOL 1000 mg comprimé")]"
+32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002414"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -3098,28 +3098,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-20-Presc-Hydrocortisone*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l561">log</a>, or see <a href="#vmi4033" onClick="document.getElementById('vmi4033').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi4033" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000089 ("HYDROCORTISONE 10 mg comprimé")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000089"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000089 ("HYDROCORTISONE 10 mg comprimé")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000089"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-20-Presc-Hydrocortisone*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00000089)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l561">log</a>, or see <a href="#vmi4034" onClick="document.getElementById('vmi4034').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi4034" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000089 ("HYDROCORTISONE 10 mg comprimé")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000089"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000089 ("HYDROCORTISONE 10 mg comprimé")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000089"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -3413,28 +3413,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-24-1-Presc-Doxycyline*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l564">log</a>, or see <a href="#vmi4088" onClick="document.getElementById('vmi4088').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi4088" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000833 ("Doxycycline 100 mg comprimé")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000833"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000833 ("Doxycycline 100 mg comprimé")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000833"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-24-1-Presc-Doxycyline*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00000833)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l564">log</a>, or see <a href="#vmi4089" onClick="document.getElementById('vmi4089').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi4089" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000833 ("Doxycycline 100 mg comprimé")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000833"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000833 ("Doxycycline 100 mg comprimé")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000833"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -3476,28 +3476,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-24-1-Presc-Topiramate*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l565">log</a>, or see <a href="#vmi4099" onClick="document.getElementById('vmi4099').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi4099" style="display:none"><br/><pre>0 0 : start
-31 31: tx-op
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002365 ("TOPIRAMATE 15 mg gélule")]"
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002365"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002365 ("TOPIRAMATE 15 mg gélule")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002365"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-24-1-Presc-Topiramate*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00002365)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l565">log</a>, or see <a href="#vmi4100" onClick="document.getElementById('vmi4100').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi4100" style="display:none"><br/><pre>0 0 : start
-31 31: tx-op
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002365 ("TOPIRAMATE 15 mg gélule")]"
-31 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002365"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002365 ("TOPIRAMATE 15 mg gélule")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002365"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -3539,30 +3539,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-25-NOVORAPID*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l566">log</a>, or see <a href="#vmi4110" onClick="document.getElementById('vmi4110').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi4110" style="display:none"><br/><pre>0 0 : start
-32 32: tx-op
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892402437 ("NOVORAPID FLEXPEN STYLO3ML")]"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892402437"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892402437 ("NOVORAPID FLEXPEN STYLO3ML")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892402437"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-25-NOVORAPID*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l566">log</a>, or see <a href="#vmi4111" onClick="document.getElementById('vmi4111').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi4111" style="display:none"><br/><pre>0 0 : start
-32 32: tx-op
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892402437 ("NOVORAPID FLEXPEN STYLO3ML")]"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892402437"
-32 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892402437 ("NOVORAPID FLEXPEN STYLO3ML")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892402437"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -3735,28 +3735,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-27-2-presc-Rifampicine*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l570">log</a>, or see <a href="#vmi4144" onClick="document.getElementById('vmi4144').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi4144" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002500 ("RIFAMPICINE 300 mg en gélule")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002500"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002500 ("RIFAMPICINE 300 mg en gélule")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002500"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-27-2-presc-Rifampicine*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00002500)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l570">log</a>, or see <a href="#vmi4145" onClick="document.getElementById('vmi4145').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi4145" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002500 ("RIFAMPICINE 300 mg en gélule")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002500"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00002500 ("RIFAMPICINE 300 mg en gélule")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00002500"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -3872,30 +3872,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-29-Presc-LOVENOX*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l572">log</a>, or see <a href="#vmi4169" onClick="document.getElementById('vmi4169').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi4169" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669465 ("LOVENOX 6000UI SRG0,6ML +ERIS")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669465"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+0 0: tx-op
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 16: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669465 ("LOVENOX 6000UI SRG0,6ML +ERIS")]"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669465"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-29-Presc-LOVENOX*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l572">log</a>, or see <a href="#vmi4170" onClick="document.getElementById('vmi4170').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi4170" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669465 ("LOVENOX 6000UI SRG0,6ML +ERIS")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669465"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+0 0: tx-op
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+0 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 16: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669465 ("LOVENOX 6000UI SRG0,6ML +ERIS")]"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669465"
+16 0: 16ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -3940,28 +3940,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-30-1-Presc-Hydrocortisone*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l561">log</a>, or see <a href="#vmi4181" onClick="document.getElementById('vmi4181').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi4181" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000089 ("HYDROCORTISONE 10 mg comprimé")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000089"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000089 ("HYDROCORTISONE 10 mg comprimé")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000089"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-30-1-Presc-Hydrocortisone*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00000089)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l561">log</a>, or see <a href="#vmi4182" onClick="document.getElementById('vmi4182').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi4182" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000089 ("HYDROCORTISONE 10 mg comprimé")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000089"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00000089 ("HYDROCORTISONE 10 mg comprimé")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00000089"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -4134,30 +4134,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-32-1-Presc-LOVENOX*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l575">log</a>, or see <a href="#vmi4215" onClick="document.getElementById('vmi4215').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi4215" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669236 ("LOVENOX 4000UI SRG0,4ML +ERIS")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669236"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669236 ("LOVENOX 4000UI SRG0,4ML +ERIS")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669236"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-HAS-32-1-Presc-LOVENOX*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l34&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l575">log</a>, or see <a href="#vmi4216" onClick="document.getElementById('vmi4216').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi4216" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669236 ("LOVENOX 4000UI SRG0,4ML +ERIS")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669236"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669236 ("LOVENOX 4000UI SRG0,4ML +ERIS")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400892669236"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -4647,30 +4647,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-MultiLine-Presc-Sucralfate*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l23&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l582">log</a>, or see <a href="#vmi4318" onClick="document.getElementById('vmi4318').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi4318" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091545 ("sucralfate")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091545"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/codeSMS
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091545 ("sucralfate")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091545"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/codeSMS
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-MultiLine-Presc-Sucralfate*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l23&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/codeSMS| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l582">log</a>, or see <a href="#vmi4319" onClick="document.getElementById('vmi4319').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi4319" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091545 ("sucralfate")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091545"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/codeSMS
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091545 ("sucralfate")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091545"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/codeSMS
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -4996,30 +4996,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l23&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l585">log</a>, or see <a href="#vmi4399" onClick="document.getElementById('vmi4399').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi4399" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l23&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l585">log</a>, or see <a href="#vmi4400" onClick="document.getElementById('vmi4400').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi4400" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -5067,30 +5067,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Presc-CLARADOL-TL6h-MedCodeableConcept*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l23&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l586">log</a>, or see <a href="#vmi4412" onClick="document.getElementById('vmi4412').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi4412" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Presc-CLARADOL-TL6h-MedCodeableConcept*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l23&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l586">log</a>, or see <a href="#vmi4413" onClick="document.getElementById('vmi4413').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi4413" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -5145,9 +5145,9 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
 16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
 16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
 16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-31 15: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
-31 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
-31 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -5159,9 +5159,9 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
 16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
 16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
 16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-31 15: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
-31 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
-31 0: 15ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256 ("CLARADOL 500MG CPR")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400891705256"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -5212,30 +5212,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Presc-CODOLIPRANE-MedCodeableConcept*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l23&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l588">log</a>, or see <a href="#vmi4439" onClick="document.getElementById('vmi4439').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi4439" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047 ("CODOLIPRANE 500/30MG CPR")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047 ("CODOLIPRANE 500/30MG CPR")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Presc-CODOLIPRANE-MedCodeableConcept*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l23&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l588">log</a>, or see <a href="#vmi4440" onClick="document.getElementById('vmi4440').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi4440" style="display:none"><br/><pre>0 0 : start
-16 16: tx-op
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047 ("CODOLIPRANE 500/30MG CPR")]"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047"
-16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+15 15: tx-op
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047 ("CODOLIPRANE 500/30MG CPR")]"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400893936047"
+15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -5691,28 +5691,28 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Presc-MV-PerfGl-NaCl-KCl*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l23&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l589">log</a>, or see <a href="#vmi4568" onClick="document.getElementById('vmi4568').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNKNOWN_CODESYSTEM</span><div id="vmi4568" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004216 ("GLUCOSE 5 % + POTASSIUM CHLORURE 0,2 % + SODIUM CHLORURE 0,4 % sol p perf")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004216"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004216 ("GLUCOSE 5 % + POTASSIUM CHLORURE 0,2 % + SODIUM CHLORURE 0,4 % sol p perf")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004216"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Bundle&#8203;.entry[0]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Presc-MV-PerfGl-NaCl-KCl*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l23&#8203;/c10)</b></td><td><b>error</b></td><td><b>None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00004216)</b> (from <a href="qa-txservers.html#server">server</a>, see <a href="qa-tx.html#l589">log</a>, or see <a href="#vmi4569" onClick="document.getElementById('vmi4569').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_1_CC</span><div id="vmi4569" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004216 ("GLUCOSE 5 % + POTASSIUM CHLORURE 0,2 % + SODIUM CHLORURE 0,4 % sol p perf")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004216"
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://BogusSystemMedicabase.com#MV00004216 ("GLUCOSE 5 % + POTASSIUM CHLORURE 0,2 % + SODIUM CHLORURE 0,4 % sol p perf")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://BogusSystemMedicabase.com#MV00004216"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -6890,30 +6890,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[1]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Trad-Presc-Alt-METFORMINE*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l157&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l593">log</a>, or see <a href="#vmi4905" onClick="document.getElementById('vmi4905').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi4905" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400890020275 ("METFORMINE ACC 1000MG CPR")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400890020275"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400890020275 ("METFORMINE ACC 1000MG CPR")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400890020275"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[1]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Trad-Presc-Alt-METFORMINE*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l157&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l593">log</a>, or see <a href="#vmi4906" onClick="document.getElementById('vmi4906').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi4906" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400890020275 ("METFORMINE ACC 1000MG CPR")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400890020275"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/UCD#3400890020275 ("METFORMINE ACC 1000MG CPR")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/UCD#3400890020275"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/UCD
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -7204,30 +7204,30 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[1]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Trad-Presc-Morphine-PCA*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.system (l157&#8203;/c10)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l596">log</a>, or see <a href="#vmi4985" onClick="document.getElementById('vmi4985').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi4985" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091372 ("morphine")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091372"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/codeSMS
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091372 ("morphine")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091372"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/codeSMS
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Bundle&#8203;.entry[1]&#8203;.resource&#8203;/*MedicationRequest&#8203;/medicationrequest-Trad-Presc-Morphine-PCA*&#8203;/&#8203;.medication&#8203;.ofType(CodeableConcept) (l157&#8203;/c10)</b></td><td><b>warning</b></td><td><b>Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/codeSMS| was not found</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l596">log</a>, or see <a href="#vmi4986" onClick="document.getElementById('vmi4986').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_CHECK_IF_THE_PROVIDED_CODES_ARE_IN_THE_VALUE_SET_CS</span><div id="vmi4986" style="display:none"><br/><pre>0 0 : start
-15 15: tx-op
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091372 ("morphine")]"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091372"
-15 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/codeSMS
+16 16: tx-op
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Analysing
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Parameters: disp-lang=fr, default-to-latest
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/UCD"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: "http://data.esante.gouv.fr/ansm/medicament/substance"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Validate "[http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091372 ("morphine")]"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: Check "http://data.esante.gouv.fr/ansm/medicament/codeSMS#100000091372"
+16 0: 0ms https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0: CodeSystem not found: http://data.esante.gouv.fr/ansm/medicament/codeSMS
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -13678,24 +13678,24 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[5]&#8203;.example[0]&#8203;.value&#8203;.ofType(Ratio)&#8203;.numerator&#8203;.code (l1&#8203;/c77954)</b></td><td><b>error</b></td><td><b>Unknown code 'µg' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l533">log</a>, or see <a href="#vmi6891" onClick="document.getElementById('vmi6891').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unknown_Code_in_Version</span><div id="vmi6891" style="display:none"><br/><pre>0 0 : start
-0 0: tx-op
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=fr, default-to-latest
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate "[http://unitsofmeasure.org#µg ("")]"
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check "http://unitsofmeasure.org#µg"
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
+15 15: tx-op
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate "[http://unitsofmeasure.org#µg ("")]"
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check "http://unitsofmeasure.org#µg"
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[5]&#8203;.example[0]&#8203;.value&#8203;.ofType(Ratio)&#8203;.numerator&#8203;.code (l1&#8203;/c77954)</b></td><td><b>information</b></td><td><b>Error processing Unit_ &quot;µg&quot;: unexpected character &quot;µ&quot; at position 1</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l533">log</a>, or see <a href="#vmi6892" onClick="document.getElementById('vmi6892').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi6892" style="display:none"><br/><pre>0 0 : start
-0 0: tx-op
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=fr, default-to-latest
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate "[http://unitsofmeasure.org#µg ("")]"
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check "http://unitsofmeasure.org#µg"
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
+15 15: tx-op
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate "[http://unitsofmeasure.org#µg ("")]"
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check "http://unitsofmeasure.org#µg"
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -13799,24 +13799,24 @@ hl7.terminology.r4#6.5.0:     <a href="http://terminology.hl7.org/6.5.0/CodeSyst
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>StructureDefinition&#8203;.differential&#8203;.element[5]&#8203;.example[0]&#8203;.value&#8203;.ofType(Ratio)&#8203;.numerator&#8203;.code (l1&#8203;/c89278)</b></td><td><b>error</b></td><td><b>Unknown code 'µg' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l533">log</a>, or see <a href="#vmi6926" onClick="document.getElementById('vmi6926').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unknown_Code_in_Version</span><div id="vmi6926" style="display:none"><br/><pre>0 0 : start
-0 0: tx-op
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=fr, default-to-latest
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate "[http://unitsofmeasure.org#µg ("")]"
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check "http://unitsofmeasure.org#µg"
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
+15 15: tx-op
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate "[http://unitsofmeasure.org#µg ("")]"
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check "http://unitsofmeasure.org#µg"
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>StructureDefinition&#8203;.differential&#8203;.element[5]&#8203;.example[0]&#8203;.value&#8203;.ofType(Ratio)&#8203;.numerator&#8203;.code (l1&#8203;/c89278)</b></td><td><b>information</b></td><td><b>Error processing Unit_ &quot;µg&quot;: unexpected character &quot;µ&quot; at position 1</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l533">log</a>, or see <a href="#vmi6927" onClick="document.getElementById('vmi6927').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi6927" style="display:none"><br/><pre>0 0 : start
-0 0: tx-op
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=fr, default-to-latest
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate "[http://unitsofmeasure.org#µg ("")]"
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check "http://unitsofmeasure.org#µg"
-0 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
+15 15: tx-op
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Analysing
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Parameters: disp-lang=fr, default-to-latest
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Version Rules: http://snomed.info/sct#http://snomed.info/sct/11000315107/0
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Validate "[http://unitsofmeasure.org#µg ("")]"
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Check "http://unitsofmeasure.org#µg"
+15 0: 0ms http://hl7.org/fhir/ValueSet/@all: Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">

@@ -38,7 +38,7 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Inpatient MedicationReques
   "name" : "FrPN13FHIRMedicationPrescriptionPractitionerIdSeulConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le professionnel prescripteur d'une prescription de médicaments avec uniquement un identifiant fourni",
   "status" : "draft",
-  "date" : "2025-10-28T16:07:35+00:00",
+  "date" : "2025-10-28T16:42:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
