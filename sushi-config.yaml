@@ -82,6 +82,7 @@ menu:
 
   Ressources de conformité: artifacts.html
   Autres ressources:
+      Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/
       Historique des travaux: suivitravaux.html
       Téléchargements et usages: downloads.html
       "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
