@@ -10,7 +10,7 @@
   <name value="FrPN13FHIRMedicationPrescriptionPatientSansINSConceptMap"/>
   <title value="Conversion PN13 vers FHIR pour un patient sans INS qualifiée d'une prescription de médicaments"/>
   <status value="draft"/>
-  <date value="2025-10-28T15:26:04+00:00"/>
+  <date value="2025-10-28T16:05:01+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>

@@ -17,6 +17,7 @@
 * [Prescription PN13 médicament composite](PN13-prescription-compound.md)
 * [Transformation de FHIR vers PN13](transformation-FHIR-vers-PN13.md)
 * [La prescription - Exemples](prescription-Exemples.md)
+* [La prescription au format document](prescription-Document.md)
 * [Téléchargements et usages](downloads.md)
 
 ## Resources

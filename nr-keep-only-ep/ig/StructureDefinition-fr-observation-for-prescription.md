@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-observation-for-p
   "name" : "FRObservationForPrescription",
   "title" : "FR Observation For Prescription",
   "status" : "draft",
-  "date" : "2025-10-28T15:26:04+00:00",
+  "date" : "2025-10-28T16:05:01+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

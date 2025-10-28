@@ -170,7 +170,7 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Core Patient INS Profile](
   "name" : "FrPN13FHIRMedicationPrescriptionPatientINSConceptMap",
   "title" : "Conversion PN13 vers FHIR pour un patient avec INS qualifiée d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-10-28T15:26:04+00:00",
+  "date" : "2025-10-28T16:05:01+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
