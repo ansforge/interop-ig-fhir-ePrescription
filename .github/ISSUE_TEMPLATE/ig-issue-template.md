@@ -1,16 +1,22 @@
 ---
 name: IG issue template
-about: Issue template for InteropSante Implementation Guide
+about: Issue template for the Annuaire FHIR modeling
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-# Description du problème | Description of the issue
+<!---
+Issues in this repo should only be about FHIR modeling of the french healthcare professional directory.
+Please report issues related to the national API implementation in https://github.com/ansforge/annuaire-sante-fhir-documentation
+-->
 
 
-# Fichier•s concerné•s | Concerned files
+# Description du problème
 
 
-# Solution proposée | Proposed resolution
+# Fichier•s concerné•s
+
+
+# Solution proposée
