@@ -65,14 +65,14 @@ menu:
       Vue d'ensemble: prescription-VueEnsemble.html
       Cas d'usage: prescription-CasUsage.html
       Exemples: prescription-Exemples.html
-  PrescriptionDocument:
+  Prescription Document:
       Prescription document: prescription-Document.html
   Transformation PN13-FHIR:
       Introduction: transformationPN13-FHIR-Intro.html
       Transformation PN13 vers FHIR: transformation-PN13-vers-FHIR.html
       Transformation FHIR vers PN13: transformation-FHIR-vers-PN13.html
   Fichiers PN13 exemples:
-      Inroduction: PN13-exemples-Intro.html
+      Inroduction: PN13-exemples-intro.html
       Prescription PN13 médicament simple en DC: PN13-prescription-DC.html
       Prescription PN13 médicament simple en spécialité: PN13-prescription-specialite.html
       Prescription PN13 médicament composite: PN13-prescription-compound.html
