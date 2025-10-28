@@ -37,7 +37,7 @@ Le système de codage pour la qualification du périmètre des notes en FHIR.
   "title" : "code system Interop'Santé - Codes pour le périmètre des notes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:07:48+00:00",
+  "date" : "2025-10-28T16:07:35+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

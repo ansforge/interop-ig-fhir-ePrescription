@@ -37,7 +37,7 @@ Le système de codage du statut éditorial d’une valeur.
   "title" : "code system Interop'Santé - Statut éditorial d'une valeur",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:07:48+00:00",
+  "date" : "2025-10-28T16:07:35+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

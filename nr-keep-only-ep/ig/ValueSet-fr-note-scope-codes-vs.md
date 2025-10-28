@@ -58,7 +58,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "title" : "value set Interop'Santé - Codes pour le périmètre des notes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:07:48+00:00",
+  "date" : "2025-10-28T16:07:35+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

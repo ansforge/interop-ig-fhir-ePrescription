@@ -172,6 +172,9 @@
     </a>
     <ul class="dropdown-menu">
       <li>
+        <a href="https://interop.esante.gouv.fr/ig/documentation/" target="_blank">Documentation des IGs</a>
+      </li>
+      <li>
         <a href="suivitravaux.html">Historique des travaux</a>
       </li>
       <li>
@@ -324,17 +327,17 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul>
   <li>indication spécifique de prise.
     <ul>
-      <li><a name="l849">​</a>ex: “administrer le contenu avec un peu de compote” <a href="Bundle-HAS-24-1-Topiramate.html">HAS - topiramate 15 mg gélule: 1 gélule par jour. Si difficulté à prendre la gélule, l’ouvrir et en administrer le contenu avec un peu de compote (id_poso=24)</a></li>
+      <li><a name="l855">​</a>ex: “administrer le contenu avec un peu de compote” <a href="Bundle-HAS-24-1-Topiramate.html">HAS - topiramate 15 mg gélule: 1 gélule par jour. Si difficulté à prendre la gélule, l’ouvrir et en administrer le contenu avec un peu de compote (id_poso=24)</a></li>
     </ul>
   </li>
   <li>moment de prise non codé dans le jeu de valeurs FHIR <a href="https://hl7.org/fhir/R4/valueset-event-timing.html">event-timing</a> associé à l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.timing.repeat.when</code> ni dans le jeu de valeurs complémentaire <a href="ValueSet-fr-additional-when-codes.html">fr-additional-when-codes</a> associé à l’extension <a href="StructureDefinition-fr-additional-when-values.html">fr-additional-when-values</a>
     <ul>
-      <li><a name="l872">​</a>ex: “à débuter 12 heures avant l’intervention chirurgicale” <a href="Bundle-HAS-28-Presc-LOVENOX">HAS - enoxaparine sodique 4 000 UI (40 mg)/0,4 mL (LOVENOX&reg;), solution injectable en seringue préremplie: 1 seringue, 1 fois par jour en sous-cutanée, à débuter 12 heures avant l’intervention chirurgicale. à poursuivre pendant 10 jours après l’intervention. (id_poso=28)</a></li>
+      <li><a name="l878">​</a>ex: “à débuter 12 heures avant l’intervention chirurgicale” <a href="Bundle-HAS-28-Presc-LOVENOX">HAS - enoxaparine sodique 4 000 UI (40 mg)/0,4 mL (LOVENOX&reg;), solution injectable en seringue préremplie: 1 seringue, 1 fois par jour en sous-cutanée, à débuter 12 heures avant l’intervention chirurgicale. à poursuivre pendant 10 jours après l’intervention. (id_poso=28)</a></li>
     </ul>
   </li>
   <li>multiplicité des caractéristiques de moment de prise qui ne peuvent pas être codés dans <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.timing.repeat.when</code> qui est monovalué
     <ul>
-      <li><a name="l886">​</a>ex: “matin et soir, au cours ou à la fin des repas​” <a href="Bundle-HAS-27-1-Presc-GLUCOPHAGE.html">HAS - GLUCOPHAGE&reg; 500 mg comprimé : 1 comprimé matin et 1 comprimé soir, au cours ou à la fin des repas (id_poso=27)</a></li>
+      <li><a name="l892">​</a>ex: “matin et soir, au cours ou à la fin des repas​” <a href="Bundle-HAS-27-1-Presc-GLUCOPHAGE.html">HAS - GLUCOPHAGE&reg; 500 mg comprimé : 1 comprimé matin et 1 comprimé soir, au cours ou à la fin des repas (id_poso=27)</a></li>
     </ul>
   </li>
   <li>indication de condition de prise qui n’est pas facilement codable dans l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.asNeededCodeableConcept</code>
@@ -350,7 +353,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </li>
   <li>l’alternance de doses ne pouvant pas être représentée en FHIR
     <ul>
-      <li><a name="l927">​</a>“0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours” <a href="Bundle-HAS-23-1-Presc-Fluindione">HAS - fluindione 20 mg comprimé quadrisécable: 0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours, à répéter sur le mois (id_poso=23)</a></li>
+      <li><a name="l933">​</a>“0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours” <a href="Bundle-HAS-23-1-Presc-Fluindione">HAS - fluindione 20 mg comprimé quadrisécable: 0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours, à répéter sur le mois (id_poso=23)</a></li>
     </ul>
   </li>
 </ul>
