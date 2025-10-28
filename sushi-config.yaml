@@ -1,5 +1,5 @@
 id: ans.fhir.fr.eprescription
-canonical: https://hl7.fr/ig/fhir/eprescription
+canonical: https://interop.esante.gouv.fr/ig/fhir/eprescription
 name: eP
 title: Guide d'implémentation de la ePrescription
 publisher:
