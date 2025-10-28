@@ -75,7 +75,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
   "name" : "FRCurrentMedicationMedicationStatement",
   "title" : "FR Current Medication MedicationStatement",
   "status" : "draft",
-  "date" : "2025-10-28T16:05:01+00:00",
+  "date" : "2025-10-28T16:06:33+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

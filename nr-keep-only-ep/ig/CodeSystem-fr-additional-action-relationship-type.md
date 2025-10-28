@@ -37,7 +37,7 @@ Codes to specify relationship between action in a RequestGroup that are not in t
   "title" : "Interop'Santé code system - Additional codes for relationship between action",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:05:01+00:00",
+  "date" : "2025-10-28T16:06:33+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

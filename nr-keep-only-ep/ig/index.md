@@ -26,6 +26,10 @@ Cet IG est en développement continu. Certaines sections n’ont pas encore ét�
 
 L’IG intègre également une partie indiquant [comment passer de flux PN13 à des ressources FHIR](transformation-PN13-vers-FHIR.md) et inversement.
 
+### Auteurs
+
+Ce guide d’implémentation est issu du [GT médicament](https://groups.google.com/g/pn13-is---interopsante) organisé par Interopsanté et dirigé par Manuel Metz. L’ANS a participé à ce GT.
+
 #### Dépendances
 
 
@@ -83,7 +87,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-10-28T16:05:01+00:00",
+  "date" : "2025-10-28T16:06:33+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
