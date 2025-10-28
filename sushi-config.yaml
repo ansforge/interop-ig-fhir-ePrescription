@@ -36,6 +36,8 @@ pages:
       title: La prescription - Cas d'usage
     prescription-Exemples.md:
       title: La prescription - Exemples
+    prescription-Document.md:
+      title: La prescription au format document
     transformationPN13-FHIR-Intro.md:
       title: Transformation de PN13 en FHIR
     transformation-PN13-vers-FHIR.md:
