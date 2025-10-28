@@ -14,11 +14,7 @@
 
 > **Attention !**Cet Implementation Guide n'est pas la version courante. La version courante sera accessible via l'URL canonique (https://interop.esante.gouv.fr/ig/fhir/eprescription) lorsque celui-ci sera publié.
 
-Ce guide d’implémentation (IG) a pour vocation à spécifier les flux d’information autour du médicament pour un patient dans un contexte hospitalier dans un premier temps. Trois cas d’usage sont pris en compte dans la version actuelle de cet IG:
-
-1. [La prescription](prescription-Intro.md)
-1. [La dispensation](dispensation-Intro.md)
-1. [La concilation](conciliation-Intro.md)
+Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription](prescription-Intro.md).
 
 Ce domaine est pris en charge par le GT Pharmacie d’HL7 France au sein de l’association [Interop’Santé](https://www.interopsante.org/) après une première version développée au sein de la communauté SIPh. L’historique des versions et des travaux est détaillé dans la page de [suivi des travaux](suivitravaux.md).
 
@@ -87,7 +83,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-10-28T16:58:49+00:00",
+  "date" : "2025-10-28T17:06:42+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

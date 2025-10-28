@@ -58,7 +58,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "title" : "value set Interop'Santé - Statut éditorial d'une valeur",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:58:49+00:00",
+  "date" : "2025-10-28T17:06:42+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

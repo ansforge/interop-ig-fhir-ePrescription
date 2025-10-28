@@ -198,8 +198,6 @@ Generic: line 0, col 0, Error - The link 'Patient/14603' for "Patient/14603" can
 Generic: line 0, col 0, Error - The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'PN13-prescription-MV' for "Prescritpion PN13 médicament virtuel" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'StructureDefinition-fr-posologie.xlsx' for "Excel" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'dispensation-Intro.html' for "La dispensation" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link 'conciliation-Intro.html' for "La concilation" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'prescription-Exemples.html#perfusion-et-seringues-électriques' for "Perfusions et seringues électriques" cannot be resolved (valid targets: 53 targets) (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'Bundle-HAS-24-1-Topiramate.html' for "HAS - topiramate 15 mg gélule: 1 gélule par jour. Si difficulté à prendre la gélule, l’ouvrir et en administrer le contenu avec un peu de compote (id_poso=24)" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'Bundle-HAS-28-Presc-LOVENOX' for "HAS - enoxaparine sodique 4 000 UI (40 mg)/0,4 mL (LOVENOX®), solution injectable en seringue préremplie: 1 seringue, 1 fois par jour en sous-cutanée, à débuter 12 heures avant l’intervention chirurgicale. à poursuivre pendant 10 jours après l’intervention. (id_poso=28)" cannot be resolved (NOTFOUND)
