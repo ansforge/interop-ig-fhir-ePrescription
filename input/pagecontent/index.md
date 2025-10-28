@@ -24,6 +24,14 @@ Cet IG est en développement continu. Certaines sections n’ont pas encore ét�
 
 L'IG intègre également une partie indiquant [comment passer de flux PN13 à des ressources FHIR](transformation-PN13-vers-FHIR.html) et inversement.
 
+### Auteurs
+
+Ce guide d'implémentation est issu du [GT médicament](https://groups.google.com/g/pn13-is---interopsante) organisé par Interopsanté et dirigé par Manuel Metz. L'ANS a participé à ce GT.
+
+<div class="figure" style="width:20%;">
+    <img style="height: auto; width: 100%;" src="LOGO_IS.png" alt="LOGO-IS" title="Logo IS">
+</div>
+
 #### Dépendances
 
 {% include dependency-table.xhtml %}
