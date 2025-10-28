@@ -51,7 +51,7 @@ Prescription textuelle: ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à adminis
   "id" : "HAS-32-2-Presc-ULTIBRO-BREES",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à adminis
         "id" : "medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

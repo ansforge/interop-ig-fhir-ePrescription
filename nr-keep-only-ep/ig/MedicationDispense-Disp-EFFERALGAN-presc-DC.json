@@ -2,7 +2,7 @@
   "resourceType" : "MedicationDispense",
   "id" : "Disp-EFFERALGAN-presc-DC",
   "meta" : {
-    "profile" : ["https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"]
   },
   "text" : {
     "status" : "generated",

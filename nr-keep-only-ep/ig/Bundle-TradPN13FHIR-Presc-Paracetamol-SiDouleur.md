@@ -122,7 +122,7 @@ Commentaire: Test paracetamol DC 2 (à la demande)
   "id" : "TradPN13FHIR-Presc-Paracetamol-SiDouleur",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -217,7 +217,7 @@ Commentaire: Test paracetamol DC 2 (à la demande)
         "id" : "medication-TradPN13FHIR-Presc-Paracetamol-SiDouleur",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
           ]
         },
         "text" : {
@@ -330,7 +330,7 @@ Commentaire: Test paracetamol DC 2 (à la demande)
         "id" : "medicationrequest-TradPN13FHIR-Presc-Paracetamol-SiDouleur",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
           ]
         },
         "text" : {
@@ -362,7 +362,7 @@ Commentaire: Test paracetamol DC 2 (à la demande)
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
                 "valueCode" : "UFMED"
               }
             ],
@@ -390,7 +390,7 @@ Commentaire: Test paracetamol DC 2 (à la demande)
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
                 "valueCode" : "LIPRESCTXT"
               }
             ],
@@ -399,7 +399,7 @@ Commentaire: Test paracetamol DC 2 (à la demande)
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
                 "valueCode" : "LIPRESCIND"
               }
             ],
@@ -408,7 +408,7 @@ Commentaire: Test paracetamol DC 2 (à la demande)
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
                 "valueCode" : "LIPRESCCOMM"
               }
             ],

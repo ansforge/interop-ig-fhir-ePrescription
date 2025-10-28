@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrAdditionalActionRelationshipType |
 
  
@@ -31,13 +31,13 @@ Codes to specify relationship between action in a RequestGroup that are not in t
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
-  "url" : "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type",
   "version" : "0.1.0",
   "name" : "FrAdditionalActionRelationshipType",
   "title" : "Interop'Santé code system - Additional codes for relationship between action",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

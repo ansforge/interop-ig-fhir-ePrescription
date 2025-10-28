@@ -40,7 +40,7 @@ Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medica
   "id" : "InLine-presc-Paracetamol2",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
     ]
   },
   "status" : "active",

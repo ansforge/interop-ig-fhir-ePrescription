@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrTeatmentIntent |
 
 The overall intention of the treatment
@@ -47,12 +47,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-treatment-intent.
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-treatment-intent",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent",
   "version" : "0.1.0",
   "name" : "FrTeatmentIntent",
   "title" : "MedicationRequest overall treatment intent",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -125,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-treatment-intent.
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent"
       },
       {
         "id" : "Extension.value[x]",
@@ -141,7 +141,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-treatment-intent.
         "binding" : {
           "strength" : "extensible",
           "description" : "SNOMED CT encoded treatment overall intent",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent"
         }
       }
     ]

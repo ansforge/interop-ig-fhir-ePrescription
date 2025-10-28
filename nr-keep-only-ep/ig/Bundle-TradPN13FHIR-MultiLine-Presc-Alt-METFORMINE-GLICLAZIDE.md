@@ -139,7 +139,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
   "id" : "TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -242,7 +242,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
         "id" : "medicationrequest-Trad-Presc-Alt-METFORMINE",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
           ]
         },
         "text" : {
@@ -279,7 +279,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
                 "valueCode" : "UFHEB"
               }
             ],
@@ -292,7 +292,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
                 "valueCode" : "UFMED"
               }
             ],
@@ -318,7 +318,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
                 "valueCode" : "LIPRESCTXT"
               }
             ],
@@ -368,7 +368,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
         "id" : "medicationrequest-Trad-Presc-Alt-GLICLAZIDE",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
           ]
         },
         "text" : {
@@ -405,7 +405,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
                 "valueCode" : "UFHEB"
               }
             ],
@@ -418,7 +418,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
                 "valueCode" : "UFMED"
               }
             ],
@@ -444,7 +444,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
                 "valueCode" : "LIPRESCTXT"
               }
             ],
@@ -492,7 +492,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
         "id" : "requestgroup-Trad-Presc-Alt-METFORMINE-GLICLAZIDE",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"
           ]
         },
         "text" : {
@@ -517,7 +517,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
               {
                 "extension" : [
                   {
-                    "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
+                    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
                     "valueCode" : "ALT"
                   }
                 ],
@@ -536,7 +536,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
               {
                 "extension" : [
                   {
-                    "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
+                    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
                     "valueCode" : "ALT"
                   }
                 ],

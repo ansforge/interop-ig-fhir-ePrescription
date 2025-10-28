@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-medication-composition | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-medication-composition | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FROnAdmissionMedicationComposition |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-on-admission-medi
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-on-admission-medication-composition",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-medication-composition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-medication-composition",
   "version" : "0.1.0",
   "name" : "FROnAdmissionMedicationComposition",
   "title" : "FR On Admission Medication Composition",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -110,7 +110,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-on-admission-medi
   "kind" : "resource",
   "abstract" : false,
   "type" : "Composition",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition",
+  "baseDefinition" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition",
   "derivation" : "constraint",
   "differential" : {
     "element" : [

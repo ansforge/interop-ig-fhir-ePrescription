@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-composition | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-composition | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationReconciliationComposition |
 
  
@@ -39,12 +39,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-reconciliation-composition",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-composition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-composition",
   "version" : "0.1.0",
   "name" : "FRMedicationReconciliationComposition",
   "title" : "FR Medication Reconciliation Composition",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -147,7 +147,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
         "mustSupport" : true,
         "binding" : {
           "strength" : "extensible",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-document-type"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-document-type"
         }
       },
       {
@@ -312,7 +312,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-composition"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-composition"
             ]
           }
         ],
@@ -386,7 +386,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition"
             ]
           }
         ],
@@ -467,7 +467,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement"
             ]
           }
         ],

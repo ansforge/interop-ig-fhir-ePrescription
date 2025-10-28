@@ -51,7 +51,7 @@ Prescription textuelle: EVRA® 203 µg/24h + 33,9µg/24h dispositif transdermiqu
   "id" : "HAS-11-2-Presc-EVRA",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: EVRA® 203 µg/24h + 33,9µg/24h dispositif transdermiqu
         "id" : "medicationrequest-HAS-11-2-Presc-EVRA",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

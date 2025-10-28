@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-encounter-conceptmap | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-encounter-conceptmap | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrPN13FHIRMedicationPrescriptionEncounterConceptMap |
 
  
@@ -35,12 +35,12 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Inpatient MedicationReques
 {
   "resourceType" : "ConceptMap",
   "id" : "PN13-FHIR-prescmed-encounter-conceptmap",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-encounter-conceptmap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-encounter-conceptmap",
   "version" : "0.1.0",
   "name" : "FrPN13FHIRMedicationPrescriptionEncounterConceptMap",
   "title" : "Conversion PN13 vers FHIR pour un séjour d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -79,7 +79,7 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Inpatient MedicationReques
     }
   ],
   "sourceUri" : "https://interopsante.org/pn13/xsd",
-  "targetUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest",
+  "targetUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest",
   "group" : [
     {
       "element" : [

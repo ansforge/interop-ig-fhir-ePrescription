@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-gender-conceptmap | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-gender-conceptmap | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrPN13FHIRGenderConceptMap |
 
  
@@ -43,12 +43,12 @@ Mapping de https://interopsante.org/pn13/SIPh_sexe vers [http://hl7.org/fhir/adm
 {
   "resourceType" : "ConceptMap",
   "id" : "PN13-FHIR-gender-conceptmap",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-gender-conceptmap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-gender-conceptmap",
   "version" : "0.1.0",
   "name" : "FrPN13FHIRGenderConceptMap",
   "title" : "Conversion PN13 FHIR des code de sexe administratif",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

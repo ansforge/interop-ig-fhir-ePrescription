@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrUFRole |
 
 Caracterization of the role of a functionnal unit for the patient encounter
@@ -48,12 +48,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-uf-role.csv), [Ex
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-uf-role",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
   "version" : "0.1.0",
   "name" : "FrUFRole",
   "title" : "UF Role",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-uf-role.csv), [Ex
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role"
       },
       {
         "id" : "Extension.value[x]",
@@ -138,7 +138,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-uf-role.csv), [Ex
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription"
         }
       }
     ]

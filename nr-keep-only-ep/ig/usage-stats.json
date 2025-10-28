@@ -5,28 +5,28 @@
   "jurisdiction": "FR",
   "extensions": [
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
       "title": "Additional relatedAction relationship",
       "types": [
         "code"
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values",
       "title": "Additional values for when element",
       "types": [
         "code"
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component",
       "title": "Medication component Basis of dose",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic",
       "title": "Medication descriptive properties",
       "types": [
         "CodeableConcept",
@@ -88,14 +88,14 @@
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle",
       "title": "Medication component which is the vehicle of the compound Medication",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources",
       "title": "FRMedicationHistorySources",
       "types": [
         "positiveInt",
@@ -204,14 +204,14 @@
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
       "title": "Scope for note element in MedicationRequest",
       "types": [
         "code"
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties",
       "title": "FRMedicationStatementReconciliationProperties",
       "types": [
         "Coding",
@@ -995,21 +995,21 @@
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept",
       "title": "Strength CodeableConcept",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent",
       "title": "MedicationRequest overall treatment intent",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
       "title": "UF Role",
       "types": [
         "code"
@@ -1019,53 +1019,53 @@
   "profiles": {
     "Composition": [
       {
-        "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-medication-composition",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-medication-composition",
         "title": "FR On Admission Medication Composition"
       },
       {
-        "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-retroactive-reconciliation-composition",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-retroactive-reconciliation-composition",
         "title": "FR On Admission Retroactive Reconciliation Composition"
       }
     ],
     "MedicationStatement": [
       {
-        "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement",
         "title": "FR Medication Reconciliation MedicationStatement"
       }
     ],
     "MedicationDispense": [
       {
-        "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense",
         "title": "FR Inpatient MedicationDispense"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest",
         "title": "FR Medication Request"
       }
     ],
     "Medication": [
       {
-        "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-virtual",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-virtual",
         "title": "FR Medication Virtual"
       }
     ],
     "Observation": [
       {
-        "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription",
         "title": "FR Observation For Prescription"
       }
     ],
     "Bundle": [
       {
-        "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example",
         "title": "FR Prescription Bundle For Example"
       }
     ],
     "RequestGroup": [
       {
-        "url": "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription",
         "title": "FR RequestGroup For Prescription"
       }
     ]
@@ -1140,39 +1140,39 @@
     "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name": [
       "Bundle.entry.resource.name"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship": [
       "Bundle.entry.resource.action.relatedAction",
       "RequestGroup.action.relatedAction"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values": [
       "MedicationRequest.dosageInstruction.timing.repeat"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component": [
       "Bundle.entry.resource.dosageInstruction.doseAndRate",
       "MedicationRequest.dosageInstruction.doseAndRate"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic": [
       "Medication"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle": [
       "Bundle.entry.resource.ingredient",
       "Medication.ingredient"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources": [
       "Composition.section",
       "MedicationStatement"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope": [
       "Bundle.entry.resource.note",
       "MedicationRequest.note"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties": [
       "MedicationStatement"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent": [
       "MedicationRequest"
     ],
-    "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role": [
+    "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role": [
       "Bundle.entry.resource.supportingInformation",
       "MedicationRequest.supportingInformation"
     ]

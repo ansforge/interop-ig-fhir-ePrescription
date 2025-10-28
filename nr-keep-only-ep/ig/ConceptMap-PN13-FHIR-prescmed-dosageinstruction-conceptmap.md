@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap |
 
  
@@ -2241,12 +2241,12 @@ Mapping de https://interopsante.org/pn13/xsd/M_prescription_medicaments/Prescrip
 {
   "resourceType" : "ConceptMap",
   "id" : "PN13-FHIR-prescmed-dosageinstruction-conceptmap",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap",
   "version" : "0.1.0",
   "name" : "FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap",
   "title" : "Conversion PN13 vers FHIR pour la posologie d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

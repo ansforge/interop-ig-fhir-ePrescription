@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-FreeSetCIODC-Forme-ConceptMap> a fhir:ConceptMap ;
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-FreeSetCIODC-Forme-ConceptMap> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "PN13-FHIR-FreeSetCIODC-Forme-ConceptMap"] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 

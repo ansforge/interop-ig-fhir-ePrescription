@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrRouteOfAdministration |
 
  
@@ -52,13 +52,13 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration",
   "version" : "0.1.0",
   "name" : "FrRouteOfAdministration",
   "title" : "French Route of Administration",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

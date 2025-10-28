@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrAdditionalWhenCodes |
 
  
@@ -31,13 +31,13 @@ Le système de codage pour des périodes d’occurrence qui ne sont pas définie
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
-  "url" : "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes",
   "version" : "0.1.0",
   "name" : "FrAdditionalWhenCodes",
   "title" : "code system Interop'Santé - Codes additionnels pour l'élément when",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

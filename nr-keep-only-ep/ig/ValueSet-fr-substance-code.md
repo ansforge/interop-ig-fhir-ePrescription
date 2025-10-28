@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-substance-code | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrSubstanceCode |
 
  
@@ -52,13 +52,13 @@ No Expansion for this valueset (Unknown Code System)
 {
   "resourceType" : "ValueSet",
   "id" : "fr-substance-code",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-substance-code",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code",
   "version" : "0.1.0",
   "name" : "FrSubstanceCode",
   "title" : "value set Interop'Santé - Codes identifiant les substances",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

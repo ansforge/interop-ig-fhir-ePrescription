@@ -91,7 +91,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
   "id" : "MultiLine-Presc-METHOTREXATE-LEDERFOLINE",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -102,7 +102,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
         "id" : "medicationrequest-Presc-METHOTREXATE",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
           ]
         },
         "text" : {
@@ -175,7 +175,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
         "id" : "medicationrequest-Presc-LEDERFOLINE",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
           ]
         },
         "text" : {
@@ -248,7 +248,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
         "id" : "requestgroup-Presc-METHOTREXATE-LEDERFOLINE",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"
           ]
         },
         "text" : {

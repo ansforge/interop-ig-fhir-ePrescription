@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrRedicationCompound |
 
  
@@ -39,13 +39,13 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-compound",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound",
   "version" : "0.1.0",
   "name" : "FrRedicationCompound",
   "title" : "FR Medication Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -125,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
         "path" : "Medication.form",
         "binding" : {
           "strength" : "extensible",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form"
         }
       },
       {
@@ -160,7 +160,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle"
             ]
           }
         ]
@@ -191,7 +191,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
             ]
           }
         ]

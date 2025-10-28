@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrStrengthCodeableConcept |
 
 Additional non unit value for strength
@@ -47,12 +47,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-strength-codeable
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-strength-codeableconcept",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept",
   "version" : "0.1.0",
   "name" : "FrStrengthCodeableConcept",
   "title" : "Strength CodeableConcept",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -125,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-strength-codeable
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept"
       },
       {
         "id" : "Extension.value[x]",

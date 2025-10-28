@@ -64,7 +64,7 @@ Prescription textuelle: ENOXAPARINE 4 000 UI (40 mg)/0,4 mL, solution injectable
   "id" : "HAS-12-3-Presc-Enoxaparine",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -75,7 +75,7 @@ Prescription textuelle: ENOXAPARINE 4 000 UI (40 mg)/0,4 mL, solution injectable
         "id" : "medication-HAS-12-3-Presc-Enoxaparine",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
           ]
         },
         "text" : {
@@ -133,7 +133,7 @@ Prescription textuelle: ENOXAPARINE 4 000 UI (40 mg)/0,4 mL, solution injectable
         "id" : "medicationrequest-HAS-12-3-Presc-Enoxaparine",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRPrescriptionBundleForExample |
 
  
@@ -39,12 +39,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-prescription-bund
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-prescription-bundle-for-example",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example",
   "version" : "0.1.0",
   "name" : "FRPrescriptionBundleForExample",
   "title" : "FR Prescription Bundle For Example",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

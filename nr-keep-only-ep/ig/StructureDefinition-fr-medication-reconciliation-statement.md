@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationReconciliationMedicationStatement |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-reconciliation-statement",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement",
   "version" : "0.1.0",
   "name" : "FRMedicationReconciliationMedicationStatement",
   "title" : "FR Medication Reconciliation MedicationStatement",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -152,7 +152,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties"
             ]
           }
         ],
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
             ]
           }
         ],
@@ -249,7 +249,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement"
             ]
           }
         ],
@@ -281,7 +281,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement"
             ]
           }
         ],
@@ -316,7 +316,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Range",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
             ]
           }
         ],
@@ -331,7 +331,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Ratio",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
             ]
           }
         ],
@@ -344,7 +344,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Ratio",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
             ]
           }
         ],
@@ -357,7 +357,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ],
@@ -370,7 +370,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-reconc
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ],

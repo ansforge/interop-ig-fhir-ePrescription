@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMPSubstance |
 
  
@@ -36,13 +36,13 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-mp-substance",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance",
   "version" : "0.1.0",
   "name" : "FRMPSubstance",
   "title" : "FR Meditinal Product Substance",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -144,7 +144,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
         "binding" : {
           "strength" : "required",
           "description" : "Medicinal product Substance",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-substance-code"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code"
         }
       }
     ]

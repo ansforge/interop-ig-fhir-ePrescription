@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrRangeMedication |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
 {
   "resourceType" : "StructureDefinition",
   "id" : "FrRangeMedication",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication",
   "version" : "0.1.0",
   "name" : "FrRangeMedication",
   "title" : "Range with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -113,7 +113,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]
@@ -125,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]

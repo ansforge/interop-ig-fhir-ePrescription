@@ -64,7 +64,7 @@ Prescription textuelle: PANTOPRAZOLE 40 mg comprimé: 40 mg le soir
   "id" : "HAS-01-Presc-Pantoprazole-DC",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -75,7 +75,7 @@ Prescription textuelle: PANTOPRAZOLE 40 mg comprimé: 40 mg le soir
         "id" : "medication-HAS-1-Presc-Pantoprazole-DC",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
           ]
         },
         "text" : {
@@ -132,7 +132,7 @@ Prescription textuelle: PANTOPRAZOLE 40 mg comprimé: 40 mg le soir
         "id" : "medicationrequest-HAS-1-Presc-Pantoprazole-DC",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrDrugCharacteristic |
 
 Specifies descriptive properties of the medicine
@@ -47,12 +47,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-drug-characterist
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-drug-characteristic",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic",
   "version" : "0.1.0",
   "name" : "FrDrugCharacteristic",
   "title" : "Medication descriptive properties",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -194,7 +194,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-drug-characterist
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic"
       },
       {
         "id" : "Extension.value[x]",

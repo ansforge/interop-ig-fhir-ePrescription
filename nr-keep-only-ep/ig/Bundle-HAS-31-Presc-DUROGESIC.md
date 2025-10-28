@@ -51,7 +51,7 @@ Prescription textuelle: DUROGESIC® dispositif transdermique 25 μg : un disposi
   "id" : "HAS-31-Presc-DUROGESIC",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: DUROGESIC® dispositif transdermique 25 μg : un disposi
         "id" : "medicationrequest-HAS-31-Presc-DUROGESIC",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

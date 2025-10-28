@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationHistorySources |
 
 Sources des lignes du Bilan Médicamenteux que représente la ressource **Composition** ou de chacune de ses lignes que représente la ressource **MedicationStatement** référencée par l’élément **entry** de la ressource **Composition** (nombre de sources ET le type de source, défini codé avec, si possible, son auteur, défini ès qualités et, si possible, nominativement)
@@ -50,11 +50,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-history-sources",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources",
   "version" : "0.1.0",
   "name" : "FRMedicationHistorySources",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -219,7 +219,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
         "binding" : {
           "strength" : "extensible",
           "description" : "fr-medication-history-source-type",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-history-source-type"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-history-source-type"
         }
       },
       {
@@ -276,7 +276,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources"
       },
       {
         "id" : "Extension.value[x]",

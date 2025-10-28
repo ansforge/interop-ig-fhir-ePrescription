@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrRatioMedication |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-FrRatioMedication.cs
 {
   "resourceType" : "StructureDefinition",
   "id" : "FrRatioMedication",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication",
   "version" : "0.1.0",
   "name" : "FrRatioMedication",
   "title" : "Ratio with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -112,7 +112,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRatioMedication.cs
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]
@@ -124,7 +124,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRatioMedication.cs
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]

@@ -51,7 +51,7 @@ Prescription textuelle: DAFALGAN CODEINE®, comprimé un à deux comprimés tout
   "id" : "HAS-04b-Presc-DAFALGANCODEINE",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: DAFALGAN CODEINE®, comprimé un à deux comprimés tout
         "id" : "medicationrequest-HAS-4b-Presc-DAFALGANCODEINE",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

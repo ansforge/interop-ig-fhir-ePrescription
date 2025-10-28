@@ -51,7 +51,7 @@ Prescription textuelle: DOXYCYCLINE 100 mg comprime : 1 comprimé le soir. Ne pa
   "id" : "HAS-24-1-presc-Doxycyline",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: DOXYCYCLINE 100 mg comprime : 1 comprimé le soir. Ne pa
         "id" : "medicationrequest-HAS-24-1-Presc-Doxycyline",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

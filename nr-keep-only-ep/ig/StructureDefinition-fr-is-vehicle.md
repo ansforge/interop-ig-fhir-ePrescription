@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrIsVehicle |
 
 Medication component which is the vehicle of the compound Medication
@@ -46,12 +46,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-is-vehicle.csv), 
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-is-vehicle",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle",
   "version" : "0.1.0",
   "name" : "FrIsVehicle",
   "title" : "Medication component which is the vehicle of the compound Medication",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -124,7 +124,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-is-vehicle.csv), 
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle"
       },
       {
         "id" : "Extension.value[x]",

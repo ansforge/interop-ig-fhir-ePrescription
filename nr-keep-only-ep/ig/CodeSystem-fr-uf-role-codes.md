@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrUFRoleCodes |
 
  
@@ -31,13 +31,13 @@ Le système de codage pour les types de rôle qu’une UF peut avoir par rapport
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
-  "url" : "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes",
   "version" : "0.1.0",
   "name" : "FrUFRoleCodes",
   "title" : "code system Interop'Santé - Codes pour typer le rôle des UF par rapport à un séjour patient",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

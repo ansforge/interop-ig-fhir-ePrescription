@@ -51,7 +51,7 @@ VERSATIS® 700 mg emplâtre médicamenteux: 1 emplâtre par jour à 20 h, à lai
   "id" : "HAS-33-Presc-VERSATIS",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ VERSATIS® 700 mg emplâtre médicamenteux: 1 emplâtre par jour à 20 h, à lai
         "id" : "medicationrequest-HAS-33-Presc-VERSATIS",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

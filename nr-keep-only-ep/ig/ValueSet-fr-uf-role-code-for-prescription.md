@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrUfRoleCodesForPrescriptionValueSet |
 
  
@@ -20,7 +20,7 @@ Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF r�
 
 ### Logical Definition (CLD)
 
-* Include tous les codes définis dans [`https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes`](CodeSystem-fr-uf-role-codes.md)version 📦0.1.0
+* Include tous les codes définis dans [`https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes`](CodeSystem-fr-uf-role-codes.md)version 📦0.1.0
 
  
 
@@ -47,13 +47,13 @@ Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF r�
 {
   "resourceType" : "ValueSet",
   "id" : "fr-uf-role-code-for-prescription",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription",
   "version" : "0.1.0",
   "name" : "FrUfRoleCodesForPrescriptionValueSet",
   "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -95,7 +95,7 @@ Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF r�
   "compose" : {
     "include" : [
       {
-        "system" : "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes"
+        "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes"
       }
     ]
   }

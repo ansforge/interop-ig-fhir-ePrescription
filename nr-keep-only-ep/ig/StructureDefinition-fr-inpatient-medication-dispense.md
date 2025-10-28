@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRInpatientMedicationDispense |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-inpatient-medication-dispense",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense",
   "version" : "0.1.0",
   "name" : "FRInpatientMedicationDispense",
   "title" : "FR Inpatient MedicationDispense",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -128,7 +128,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
             ]
           }
         ]
@@ -165,7 +165,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
             ]
           }
         ]

@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/eprescription/MedicationDispense/Disp-group01-2> a fhir:MedicationDispense ;
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/MedicationDispense/Disp-group01-2> a fhir:MedicationDispense ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Disp-group01-2"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense>
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"^^xsd:anyURI ;
+       fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense>
      ] )
   ] ; # 
   fhir:text [
@@ -22,37 +22,37 @@
   fhir:status [ fhir:v "completed"] ; # 
   fhir:medication [
      a fhir:Reference ;
-     fhir:l <https://hl7.fr/ig/fhir/eprescription/Medication/InLine-med-DOLIPRANE> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Medication/InLine-med-DOLIPRANE> ;
      fhir:reference [ fhir:v "Medication/InLine-med-DOLIPRANE" ]
   ] ; # 
   fhir:subject [
-     fhir:l <https://hl7.fr/ig/fhir/eprescription/Group/InLine-patient-group01> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Group/InLine-patient-group01> ;
      fhir:reference [ fhir:v "Group/InLine-patient-group01" ]
   ] ; # 
   fhir:supportingInformation ( [
-     fhir:l <https://hl7.fr/ig/fhir/eprescription/MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC> ;
      fhir:reference [ fhir:v "MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC" ]
   ] [
-     fhir:l <https://hl7.fr/ig/fhir/eprescription/MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC> ;
      fhir:reference [ fhir:v "MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC" ]
   ] [
-     fhir:l <https://hl7.fr/ig/fhir/eprescription/MedicationDispense/Disp-DOLIPRANE-Refill-Substit> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/MedicationDispense/Disp-DOLIPRANE-Refill-Substit> ;
      fhir:reference [ fhir:v "MedicationDispense/Disp-DOLIPRANE-Refill-Substit" ]
   ] ) ; # 
   fhir:performer ( [
      fhir:actor [
-       fhir:l <https://hl7.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-7148xxxx> ;
+       fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-7148xxxx> ;
        fhir:reference [ fhir:v "Practitioner/smart-Practitioner-7148xxxx" ]
      ]
   ] ) ; # 
   fhir:authorizingPrescription ( [
-     fhir:l <https://hl7.fr/ig/fhir/eprescription/MedicationRequest/InLine-presc-Paracetamol1> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/MedicationRequest/InLine-presc-Paracetamol1> ;
      fhir:reference [ fhir:v "MedicationRequest/InLine-presc-Paracetamol1" ]
   ] [
-     fhir:l <https://hl7.fr/ig/fhir/eprescription/MedicationRequest/InLine-presc-Paracetamol2> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/MedicationRequest/InLine-presc-Paracetamol2> ;
      fhir:reference [ fhir:v "MedicationRequest/InLine-presc-Paracetamol2" ]
   ] [
-     fhir:l <https://hl7.fr/ig/fhir/eprescription/MedicationRequest/InLine-presc-EFFERALGAN2> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/MedicationRequest/InLine-presc-EFFERALGAN2> ;
      fhir:reference [ fhir:v "MedicationRequest/InLine-presc-EFFERALGAN2" ]
   ] ) ; # 
   fhir:type [

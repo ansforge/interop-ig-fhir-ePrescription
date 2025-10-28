@@ -51,7 +51,7 @@ Prescription textuelle: ROPINIROLE comprimé 1mg : 1 comprimé à 7h, 12h 18h
   "id" : "HAS-09-Presc-Ropinirole",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: ROPINIROLE comprimé 1mg : 1 comprimé à 7h, 12h 18h
         "id" : "medicationrequest-HAS-9-Presc-Roprinirole",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

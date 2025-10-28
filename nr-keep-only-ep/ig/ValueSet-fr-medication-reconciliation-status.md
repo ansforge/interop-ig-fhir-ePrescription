@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationReconciliationStatus |
 
  
@@ -22,7 +22,7 @@ Le jeu de valeurs à utiliser pour coder le statut d’une ligne de traitement d
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include tous les codes définis dans [`https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status`](CodeSystem-fr-medication-reconciliation-status.md)version 📦0.1.0
+* Include tous les codes définis dans [`https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status`](CodeSystem-fr-medication-reconciliation-status.md)version 📦0.1.0
 
  
 
@@ -52,13 +52,13 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status",
   "version" : "0.1.0",
   "name" : "FRMedicationReconciliationStatus",
   "title" : "value set Interop'Santé - Statut d'une ligne de traitement d'une FCT",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -100,7 +100,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "compose" : {
     "include" : [
       {
-        "system" : "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status"
+        "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status"
       }
     ]
   }

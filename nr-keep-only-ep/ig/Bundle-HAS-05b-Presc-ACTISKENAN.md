@@ -51,7 +51,7 @@ Prescription textuelle: ACTISKENAN® 10 mg gélule : dix milligrammes par jour p
   "id" : "HAS-05b-Presc-ACTISKENAN",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: ACTISKENAN® 10 mg gélule : dix milligrammes par jour p
         "id" : "medicationrequest-HAS-5b-Presc-ACTISKENAN",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

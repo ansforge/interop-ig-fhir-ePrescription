@@ -29,7 +29,7 @@ Profil: [FR Medication](StructureDefinition-fr-medication.md)
   "id" : "InLine-DOLIPRANE",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
     ]
   },
   "code" : {

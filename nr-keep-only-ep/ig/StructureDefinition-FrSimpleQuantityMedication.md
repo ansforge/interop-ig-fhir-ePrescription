@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrSimpleQuantityMedication |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
 {
   "resourceType" : "StructureDefinition",
   "id" : "FrSimpleQuantityMedication",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication",
   "version" : "0.1.0",
   "name" : "FrSimpleQuantityMedication",
   "title" : "SimpleQuantity with UCUM or EDQM codes or code not used",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -119,14 +119,14 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
             "severity" : "error",
             "human" : "system SHALL be UCUM or EDQM if code is used",
             "expression" : "code.exists() implies (system.exists() and (system = 'http://standardterms.edqm.eu' or system = 'http://unitsofmeasure.org'))",
-            "source" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+            "source" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
           },
           {
             "key" : "fr-med-smpl-quant-2",
             "severity" : "error",
             "human" : "system SHALL not be used if code is not used",
             "expression" : "code.empty() implies system.empty()",
-            "source" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+            "source" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
           }
         ]
       }

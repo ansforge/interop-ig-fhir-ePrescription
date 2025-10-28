@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-virtual | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-virtual | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationVirtual |
 
  
@@ -36,13 +36,13 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-virtua
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-virtual",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-virtual",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-virtual",
   "version" : "0.1.0",
   "name" : "FRMedicationVirtual",
   "title" : "FR Medication Virtual",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -138,7 +138,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-virtua
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic"
             ]
           }
         ]
@@ -150,7 +150,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-virtua
         "min" : 1,
         "binding" : {
           "strength" : "extensible",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form"
         }
       },
       {
@@ -166,7 +166,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-virtua
           {
             "code" : "Ratio",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
             ]
           }
         ]

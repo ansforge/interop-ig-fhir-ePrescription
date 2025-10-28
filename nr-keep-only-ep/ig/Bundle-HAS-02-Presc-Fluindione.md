@@ -51,7 +51,7 @@ Prescription textuelle: FLUINDIONE 20 mg comprimé : 0,5 comprimé par jour
   "id" : "HAS-02-Presc-Fluindione",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: FLUINDIONE 20 mg comprimé : 0,5 comprimé par jour
         "id" : "medicationrequest-HAS-2-Presc-Fluindione",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

@@ -71,7 +71,7 @@ Prescription textuelle: NOVORAPID Flexpen® 100 UI / mL : A administrer avant ch
   "id" : "HAS-25-NOVORAPID",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -82,7 +82,7 @@ Prescription textuelle: NOVORAPID Flexpen® 100 UI / mL : A administrer avant ch
         "id" : "medicationrequest-HAS-25-NOVORAPID",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

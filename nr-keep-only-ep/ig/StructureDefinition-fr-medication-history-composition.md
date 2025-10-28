@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-composition | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-composition | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationHistoryComposition |
 
  
@@ -39,12 +39,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-history-composition",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-composition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-composition",
   "version" : "0.1.0",
   "name" : "FRMedicationHistoryComposition",
   "title" : "FR Medication History Composition",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -276,7 +276,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources"
             ]
           }
         ],
@@ -341,7 +341,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement"
             ]
           }
         ],

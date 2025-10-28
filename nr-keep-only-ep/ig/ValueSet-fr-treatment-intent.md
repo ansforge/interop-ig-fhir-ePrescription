@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrTreatmentIntent |
 
  
@@ -56,13 +56,13 @@ Ce jeu de valeur (ValueSet) contient 16 concepts
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent",
   "version" : "0.1.0",
   "name" : "FrTreatmentIntent",
   "title" : "French overall intention of the treatment",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

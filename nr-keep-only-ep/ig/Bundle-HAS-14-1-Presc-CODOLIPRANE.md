@@ -51,7 +51,7 @@ Prescription textuelle: CODOLIPRANE®: 1 comprimé si douleur, avec un maximum d
   "id" : "HAS-14-1-Presc-CODOLIPRANE",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: CODOLIPRANE®: 1 comprimé si douleur, avec un maximum d
         "id" : "medicationrequest-HAS-14-1-Presc-CODOLIPRANE",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

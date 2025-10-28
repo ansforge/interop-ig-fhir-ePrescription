@@ -59,7 +59,7 @@ Prescription textuelle: Doliprane cpr 3x1g/j x 3j
   "id" : "TradPN13FHIR-Presc-DOLIPRANE-Interpret",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -70,7 +70,7 @@ Prescription textuelle: Doliprane cpr 3x1g/j x 3j
         "id" : "medication-TradPN13FHIR-Presc-DOLIPRANE-Interpret",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
           ]
         },
         "text" : {
@@ -95,7 +95,7 @@ Prescription textuelle: Doliprane cpr 3x1g/j x 3j
         "id" : "medicationrequest-TradPN13FHIR-Presc-DOLIPRANE-Interpret",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
           ]
         },
         "text" : {
@@ -130,7 +130,7 @@ Prescription textuelle: Doliprane cpr 3x1g/j x 3j
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
                 "valueCode" : "UFMED"
               }
             ],
@@ -156,7 +156,7 @@ Prescription textuelle: Doliprane cpr 3x1g/j x 3j
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
                 "valueCode" : "LIPRESCTXT"
               }
             ],

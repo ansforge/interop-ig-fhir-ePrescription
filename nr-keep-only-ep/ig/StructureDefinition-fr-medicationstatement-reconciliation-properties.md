@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationStatementReconciliationProperties |
 
 Propiétés spécifiques de la ligne de médicament, ajoutée à la ressource MedicationStatement dans la Fiche de Conciliation des Traitements médicamenteux (FCT)
@@ -47,11 +47,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medicationstatement-reconciliation-properties",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties",
   "version" : "0.1.0",
   "name" : "FRMedicationStatementReconciliationProperties",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status"
         }
       },
       {
@@ -254,7 +254,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "required",
           "description" : "fr-editorial-status",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
         }
       },
       {
@@ -443,7 +443,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "required",
           "description" : "fr-editorial-status",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
         }
       },
       {
@@ -569,7 +569,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "required",
           "description" : "fr-medication-reconciliation-qualified-discrepancy",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy"
         }
       },
       {
@@ -638,7 +638,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "required",
           "description" : "fr-editorial-status",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
         }
       },
       {
@@ -829,7 +829,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "required",
           "description" : "fr-editorial-status",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
         }
       },
       {
@@ -953,7 +953,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "extensible",
           "description" : "fr-medication-reconciliation-type",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-type"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-type"
         }
       },
       {
@@ -1021,7 +1021,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
         }
       },
       {
@@ -1146,7 +1146,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "required",
           "description" : "fr-medication-reconciliation-outcome",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-outcome"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-outcome"
         }
       },
       {
@@ -1215,7 +1215,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "required",
           "description" : "fr-editorial-status",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
         }
       },
       {
@@ -1340,7 +1340,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "extensible",
           "description" : "fr-medication-reconciliation-resolution",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-resolution"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-resolution"
         }
       },
       {
@@ -1409,7 +1409,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
         "binding" : {
           "strength" : "required",
           "description" : "fr-editorial-status",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status"
         }
       },
       {
@@ -1473,7 +1473,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationstateme
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties"
       },
       {
         "id" : "Extension.value[x]",

@@ -51,7 +51,7 @@ Prescription textuelle: VITAMINE D 100 000 UI solution buvable : 1 ampoule, le p
   "id" : "HAS-11-1-Presc-VitamineD",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: VITAMINE D 100 000 UI solution buvable : 1 ampoule, le p
         "id" : "medicationrequest-HAS-11-1-Presc-VitamineD",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationHistoryMedicationStatement |
 
  
@@ -39,12 +39,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-history-medicationstatement",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement",
   "version" : "0.1.0",
   "name" : "FRMedicationHistoryMedicationStatement",
   "title" : "FR Medication History MedicationStatement",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -163,7 +163,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources"
             ]
           }
         ],
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
             ]
           }
         ],
@@ -251,7 +251,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
           {
             "code" : "Range",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
             ]
           }
         ],
@@ -264,7 +264,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
           {
             "code" : "Ratio",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
             ]
           }
         ],
@@ -279,7 +279,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
           {
             "code" : "Ratio",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
             ]
           }
         ],
@@ -294,7 +294,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ],
@@ -308,7 +308,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-histor
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ],

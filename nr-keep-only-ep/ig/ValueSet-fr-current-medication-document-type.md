@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrCurrentMedicationDocumentType |
 
  
@@ -22,7 +22,7 @@ Le jeu de valeurs à utiliser pour coder le type de document de la ressource**Co
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include codes provenant de[`https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-document-type`](CodeSystem-fr-document-type.md)version 📦0.1.0 où isCurrentMedication = true
+* Include codes provenant de[`https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type`](CodeSystem-fr-document-type.md)version 📦0.1.0 où isCurrentMedication = true
 
  
 
@@ -52,13 +52,13 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type",
   "version" : "0.1.0",
   "name" : "FrCurrentMedicationDocumentType",
   "title" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -100,7 +100,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "compose" : {
     "include" : [
       {
-        "system" : "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
+        "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
         "filter" : [
           {
             "property" : "isCurrentMedication",

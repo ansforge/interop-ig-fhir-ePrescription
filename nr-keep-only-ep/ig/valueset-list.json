@@ -14,7 +14,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1426"]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrMethodOfAdministration",
@@ -23,51 +23,51 @@
       "systems" : ["http://standardterms.edqm.eu"]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-additional-action-relationship-type-value-set",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-action-relationship-type-value-set",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrAdditionalRequestGroupRelationshipValueSet",
       "title" : "Interop'Santé value set - Additional codes for relationship between action",
       "description" : "Codes to specify relationship between action in a RequestGroup that are not in the valueSet http://hl7.org/fhir/ValueSet/action-relationship-type.",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrAdditionalWhenCodes",
       "title" : "value set Interop'Santé - Codes additionnels pour l'élément when",
       "description" : "Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing.",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrCurrentMedicationDocumentType",
       "title" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
       "description" : "Le jeu de valeurs à utiliser pour coder le type de document de la ressource *Composition* d'une liste des Traitements Médicamenteux Courants.",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-document-type"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrEditorialStatus",
       "title" : "value set Interop'Santé - Statut éditorial d'une valeur",
       "description" : "Le jeu de valeurs à utiliser pour coder le statut éditorial d'une valeur.",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-code",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FRMedicationCodes",
@@ -80,84 +80,84 @@
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-history-source-type",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-history-source-type",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FRMedicationHistorySourceType",
       "title" : "value set SIPh - Nature des sources d'un Bilan Médicamenteux",
       "description" : "Un jeu de valeurs à utiliser pour coder les sources d'un Bilan Médicamenteux.",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-document-type",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-document-type",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FRMedicationReconciliationDocumentType",
       "title" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
       "description" : "Le jeu de valeurs à utiliser pour coder le type de document de la ressource *Composition* d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-document-type"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-outcome",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-outcome",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FRMedicationReconciliationOutcome",
       "title" : "value set Interop'Santé - Gravité de l'erreur sur une ligne de traitement d'une FCT",
       "description" : "Le jeu de valeurs à utiliser pour coder la gravité de l'erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FRMedicationReconciliationQualifiedDiscrepancy",
       "title" : "value set Interop'Santé - qualification de la divergence identifiée sur une ligne de traitement d'une FCT",
       "description" : "Le jeu de valeurs à utiliser pour coder la qualification de la divergence identifiée sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-resolution",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-resolution",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FRMedicationReconciliationResolution",
       "title" : "value set Interop'Santé - Résolution d'une divergence sur une ligne de traitement d'une FCT",
       "description" : "Un jeu de valeurs à utiliser pour coder la résolution d'une divergence sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FRMedicationReconciliationStatus",
       "title" : "value set Interop'Santé - Statut d'une ligne de traitement d'une FCT",
       "description" : "Le jeu de valeurs à utiliser pour coder le statut d'une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-type",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-type",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FRMedicationReconciliationType",
       "title" : "value set Interop'Santé - Type d'écart/erreur sur une ligne de traitement d'une FCT",
       "description" : "Le jeu de valeurs à utiliser pour coder le type d'écart/erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrMpDoseForm",
@@ -166,18 +166,18 @@
       "systems" : ["http://standardterms.edqm.eu"]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrNoteScopeCodeValueSet",
       "title" : "value set Interop'Santé - Codes pour le périmètre des notes",
       "description" : "Le jeu de valeurs à utiliser pour coder le périmètre des notes par exemple lors de la transformation de message PN13 en ressources FHIR",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-note-scope-codes"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-note-scope-codes"
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrRouteOfAdministration",
@@ -186,7 +186,7 @@
       "systems" : ["http://standardterms.edqm.eu"]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-substance-code",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrSubstanceCode",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrTreatmentIntent",
@@ -207,14 +207,14 @@
       "systems" : ["http://snomed.info/sct"]
     },
     {
-      "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "FrUfRoleCodesForPrescriptionValueSet",
       "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
       "description" : "Le jeu de valeurs à utiliser dans l'extension pour indiquer le type d'UF référencée dans Medication.supportingInfo",
       "systems" : [
-        "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes"
+        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes"
       ]
     }
   ]

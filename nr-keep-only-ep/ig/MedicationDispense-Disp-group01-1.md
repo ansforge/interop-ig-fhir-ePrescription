@@ -53,7 +53,7 @@ Profil: [FR Inpatient MedicationDispense](StructureDefinition-fr-inpatient-medic
   "id" : "Disp-group01-1",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"
     ]
   },
   "extension" : [

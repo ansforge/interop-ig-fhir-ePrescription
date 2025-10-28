@@ -91,7 +91,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
   "id" : "MultiLine-Presc-Sucralfate-Paracetamol",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -102,7 +102,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
         "id" : "medicationrequest-MultiLine-Presc-Sucralfate",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
           ]
         },
         "text" : {
@@ -174,7 +174,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
         "id" : "medicationrequest-MultiLine-Presc-Paracetamol",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
           ]
         },
         "text" : {
@@ -261,7 +261,7 @@ Profil: [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-f
         "id" : "requestgroup-Presc-Sucralfate-Paracetamol",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"
           ]
         },
         "text" : {

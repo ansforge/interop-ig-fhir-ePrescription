@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/eprescription/Bundle/TradPN13FHIR-Presc-DOLIPRANE> a fhir:Bundle ;
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/TradPN13FHIR-Presc-DOLIPRANE> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TradPN13FHIR-Presc-DOLIPRANE"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -22,8 +22,8 @@
        fhir:id [ fhir:v "medication-TradPN13FHIR-Presc-DOLIPRANE" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -48,8 +48,8 @@
        fhir:id [ fhir:v "medicationrequest-TradPN13FHIR-Presc-DOLIPRANE" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -92,8 +92,8 @@
        fhir:supportingInformation ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role>
+             fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role"^^xsd:anyURI ;
+             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role>
            ] ;
            fhir:value [
              a fhir:Code ;
@@ -132,8 +132,8 @@
        fhir:note ( [
          fhir:extension ( [
            fhir:url [
-             fhir:v "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
-             fhir:l <https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope>
+             fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope"^^xsd:anyURI ;
+             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope>
            ] ;
            fhir:value [
              a fhir:Code ;

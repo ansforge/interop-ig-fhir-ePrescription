@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRCurrentMedicationMedicationStatement |
 
  
@@ -70,12 +70,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-current-medication-medicationstatement",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement",
   "version" : "0.1.0",
   "name" : "FRCurrentMedicationMedicationStatement",
   "title" : "FR Current Medication MedicationStatement",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -175,7 +175,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
             ]
           }
         ],
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
           {
             "code" : "Range",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
             ]
           }
         ],
@@ -253,7 +253,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
           {
             "code" : "Ratio",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
             ]
           }
         ],
@@ -266,7 +266,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
           {
             "code" : "Ratio",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
             ]
           }
         ],
@@ -279,7 +279,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ],
@@ -292,7 +292,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ],

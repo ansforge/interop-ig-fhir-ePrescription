@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hl7.fr/ig/fhir/eprescription/Bundle/Presc-Nicotine-15mgPar16h> a fhir:Bundle ;
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-Nicotine-15mgPar16h> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "Presc-Nicotine-15mgPar16h"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
+       fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
      ] )
   ] ; # 
   fhir:type [ fhir:v "searchset"] ; # 
@@ -22,8 +22,8 @@
        fhir:id [ fhir:v "medication-Presc-Nicotine-15mgPar16h" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
          ] )
        ] ;
        fhir:text [
@@ -48,8 +48,8 @@
        fhir:id [ fhir:v "medicationrequest-Presc-Nicotine-15mgPar16h" ] ;
        fhir:meta [
          fhir:profile ( [
-           fhir:v "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
+           fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
          ] )
        ] ;
        fhir:text [
@@ -65,12 +65,12 @@
          fhir:reference [ fhir:v "#medication-Presc-Nicotine-15mgPar16h" ]
        ] ;
        fhir:subject [
-         fhir:l <https://hl7.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
          fhir:reference [ fhir:v "Patient/14602" ]
        ] ;
        fhir:authoredOn [ fhir:v "2021-07-19T18:33:41.714Z"^^xsd:dateTime ] ;
        fhir:requester [
-         fhir:l <https://hl7.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
          fhir:reference [ fhir:v "Practitioner/smart-Practitioner-71482713" ]
        ] ;
        fhir:groupIdentifier [

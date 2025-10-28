@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrAdditionalWhenValues |
 
 Additional values for Timing.repeat.when
@@ -47,12 +47,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-when-v
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-additional-when-values",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values",
   "version" : "0.1.0",
   "name" : "FrAdditionalWhenValues",
   "title" : "Additional values for when element",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -125,7 +125,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-when-v
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values"
       },
       {
         "id" : "Extension.value[x]",
@@ -137,7 +137,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-when-v
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes"
         }
       }
     ]

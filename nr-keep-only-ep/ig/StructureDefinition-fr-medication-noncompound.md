@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationNonCompound |
 
  
@@ -39,13 +39,13 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-noncompound",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound",
   "version" : "0.1.0",
   "name" : "FRMedicationNonCompound",
   "title" : "FR Medication Non Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
             "severity" : "error",
             "human" : "If fr-medication is a simple medication, ingredient SHALL NOT be a Reference",
             "expression" : "code.coding.system.exists() implies (ingredient.item as Reference).empty()",
-            "source" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
+            "source" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"
           }
         ]
       },
@@ -154,7 +154,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic"
             ]
           }
         ]
@@ -193,7 +193,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
         "binding" : {
           "strength" : "required",
           "description" : "UCD, SMS or ANSM code",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-code"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code"
         }
       },
       {
@@ -207,7 +207,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
         "comment" : "When branded medication is referenced from MedicationRequest, this is the ordered form.  When Medication is referenced within MedicationDispense, this is the dispensed form.  When branded medication is referenced within MedicationAdministration, this is administered form.",
         "binding" : {
           "strength" : "extensible",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form"
         }
       },
       {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
           {
             "code" : "CodeableConcept",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance"
             ]
           }
         ]
@@ -245,7 +245,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
           {
             "code" : "Ratio",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
             ]
           }
         ]

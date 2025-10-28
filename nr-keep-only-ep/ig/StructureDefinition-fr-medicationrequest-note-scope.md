@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationRequestNoteScope |
 
 Scope of a note associated in a MedicationRequest resource
@@ -48,12 +48,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medicationrequest-note-scope",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
   "version" : "0.1.0",
   "name" : "FRMedicationRequestNoteScope",
   "title" : "Scope for note element in MedicationRequest",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope"
       },
       {
         "id" : "Extension.value[x]",
@@ -138,7 +138,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs"
         }
       }
     ]

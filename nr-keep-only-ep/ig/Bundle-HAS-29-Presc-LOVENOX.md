@@ -51,7 +51,7 @@ Prescription textuelle: ENOXAPARINE sodique 6000 UI (LOVENOX®), solution inject
   "id" : "HAS-29-Presc-LOVENOX",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: ENOXAPARINE sodique 6000 UI (LOVENOX®), solution inject
         "id" : "medicationrequest-HAS-29-Presc-LOVENOX",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

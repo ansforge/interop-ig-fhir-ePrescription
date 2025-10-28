@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationReconciliationQualifiedDiscrepancy |
 
  
@@ -22,7 +22,7 @@ Le jeu de valeurs à utiliser pour coder la qualification de la divergence ident
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include codes provenant de[`https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy`](CodeSystem-fr-medication-reconciliation-discrepancy.md)version 📦0.1.0 où isQualified = true
+* Include codes provenant de[`https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy`](CodeSystem-fr-medication-reconciliation-discrepancy.md)version 📦0.1.0 où isQualified = true
 
  
 
@@ -52,13 +52,13 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "meta" : {
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy",
   "version" : "0.1.0",
   "name" : "FRMedicationReconciliationQualifiedDiscrepancy",
   "title" : "value set Interop'Santé - qualification de la divergence identifiée sur une ligne de traitement d'une FCT",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -100,7 +100,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "compose" : {
     "include" : [
       {
-        "system" : "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy",
+        "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy",
         "filter" : [
           {
             "property" : "isQualified",

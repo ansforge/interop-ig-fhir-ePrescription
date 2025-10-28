@@ -73,7 +73,7 @@ Prescription textuelle: Par voie intraveineuse : PCA Morphine 120 mg/24h Bolus 1
   "id" : "TradPN13FHIR-Presc-Morphine-PCA",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -176,7 +176,7 @@ Prescription textuelle: Par voie intraveineuse : PCA Morphine 120 mg/24h Bolus 1
         "id" : "medicationrequest-Trad-Presc-Morphine-PCA",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
           ]
         },
         "text" : {
@@ -213,7 +213,7 @@ Prescription textuelle: Par voie intraveineuse : PCA Morphine 120 mg/24h Bolus 1
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
                 "valueCode" : "UFHEB"
               }
             ],
@@ -226,7 +226,7 @@ Prescription textuelle: Par voie intraveineuse : PCA Morphine 120 mg/24h Bolus 1
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
                 "valueCode" : "UFMED"
               }
             ],
@@ -252,7 +252,7 @@ Prescription textuelle: Par voie intraveineuse : PCA Morphine 120 mg/24h Bolus 1
           {
             "extension" : [
               {
-                "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+                "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
                 "valueCode" : "LIPRESCTXT"
               }
             ],

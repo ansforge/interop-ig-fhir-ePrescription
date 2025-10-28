@@ -51,7 +51,7 @@ Prescription textuelle: INNOHEP® 14 000 UI anti-Xa/0,7 ml (tinzaparine sodique)
   "id" : "HAS-03-Presc-INNOHEP",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: INNOHEP® 14 000 UI anti-Xa/0,7 ml (tinzaparine sodique)
         "id" : "medicationrequest-HAS-3-Presc-INNOHEP",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRObservationForPrescription |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-observation-for-p
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-observation-for-prescription",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription",
   "version" : "0.1.0",
   "name" : "FRObservationForPrescription",
   "title" : "FR Observation For Prescription",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

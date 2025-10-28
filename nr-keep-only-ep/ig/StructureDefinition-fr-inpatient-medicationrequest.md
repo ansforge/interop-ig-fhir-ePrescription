@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRInpatientMedicationRequest |
 
  
@@ -37,12 +37,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-inpatient-medicationrequest",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest",
   "version" : "0.1.0",
   "name" : "FRInpatientMedicationRequest",
   "title" : "FR Inpatient MedicationRequest",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -111,7 +111,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
   "kind" : "resource",
   "abstract" : false,
   "type" : "MedicationRequest",
-  "baseDefinition" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest",
+  "baseDefinition" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest",
   "derivation" : "constraint",
   "differential" : {
     "element" : [
@@ -129,7 +129,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role"
             ]
           }
         ]
@@ -147,7 +147,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope"
             ]
           }
         ]

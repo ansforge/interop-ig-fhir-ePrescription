@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRCurrentMedicationComposition |
 
  
@@ -40,12 +40,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-current-medication-composition",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition",
   "version" : "0.1.0",
   "name" : "FRCurrentMedicationComposition",
   "title" : "FR Current Medication Composition",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -147,7 +147,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
         "binding" : {
           "strength" : "extensible",
           "description" : "Type of a Current Medciation.",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type"
         }
       },
       {
@@ -289,7 +289,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-current-medicatio
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement"
             ]
           }
         ],

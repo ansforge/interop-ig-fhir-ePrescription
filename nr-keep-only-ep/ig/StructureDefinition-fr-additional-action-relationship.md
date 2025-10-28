@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrAdditionalActionRelationship |
 
 Extension to specify relationship between action in a RequestGroup
@@ -48,12 +48,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-action
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-additional-action-relationship",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
   "version" : "0.1.0",
   "name" : "FrAdditionalActionRelationship",
   "title" : "Additional relatedAction relationship",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -126,7 +126,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-action
       {
         "id" : "Extension.url",
         "path" : "Extension.url",
-        "fixedUri" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship"
+        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship"
       },
       {
         "id" : "Extension.value[x]",
@@ -138,7 +138,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-action
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-additional-action-relationship-type-value-set"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-action-relationship-type-value-set"
         }
       }
     ]

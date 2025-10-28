@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:Posologie |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-posologie",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie",
   "version" : "0.1.0",
   "name" : "Posologie",
   "title" : "Posologie",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -82,7 +82,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
   "fhirVersion" : "4.0.1",
   "kind" : "logical",
   "abstract" : false,
-  "type" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie",
+  "type" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
   "derivation" : "specialization",
   "differential" : {

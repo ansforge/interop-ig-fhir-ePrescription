@@ -1,19 +1,19 @@
 {
-  "url" : "https://hl7.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "description" : "",
   "status" : "draft",
   "package-id" : "ans.fhir.fr.eprescription",
   "ig-ver" : "0.1.0",
-  "date" : "Tue, 28 Oct, 2025 16:06:33 +0000",
-  "dateISO8601" : "2025-10-28T16:06:33+00:00",
-  "errs" : 1069,
-  "warnings" : 2104,
+  "date" : "Tue, 28 Oct, 2025 16:07:48 +0000",
+  "dateISO8601" : "2025-10-28T16:07:48+00:00",
+  "errs" : 1045,
+  "warnings" : 2121,
   "hints" : 112,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2770328792
+  "maxMemory" : 2816720120
 }

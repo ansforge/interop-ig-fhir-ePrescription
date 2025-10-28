@@ -73,7 +73,7 @@ Prescription textuelle: HYDROCORTISONE 10 mg : 1 comprimé matin et 1 comprimé 
   "id" : "HAS-30-1-Presc-Hydrocortisone",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -84,7 +84,7 @@ Prescription textuelle: HYDROCORTISONE 10 mg : 1 comprimé matin et 1 comprimé 
         "id" : "medicationrequest-HAS-30-1-Presc-Hydrocortisone",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

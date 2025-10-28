@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-document-type | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FrDocumentType |
 
  
@@ -32,13 +32,13 @@ Le système de codage SIPh du type de document d’une ressource**Composition**d
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
-  "url" : "https://hl7.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
   "version" : "0.1.0",
   "name" : "FrDocumentType",
   "title" : "code system Interop'Santé - Type de document d'une ressource Composition du domaine Pharmacy",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

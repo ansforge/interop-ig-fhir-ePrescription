@@ -55,7 +55,7 @@ A administrer en 20 min à 8h, 14h, 18h, et 22h à partir du 16/03/2023
   "id" : "HAS-17-Presc-Budesonide",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -66,7 +66,7 @@ A administrer en 20 min à 8h, 14h, 18h, et 22h à partir du 16/03/2023
         "id" : "medicationrequest-HAS-17-Presc-Budesonide",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {

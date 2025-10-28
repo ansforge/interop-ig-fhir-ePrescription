@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest | *Version*:0.1.0 |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest | *Version*:0.1.0 |
 | Draft as of 2025-10-28 | *Computable Name*:FRMedicationRequest |
 
  
@@ -36,12 +36,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
 {
   "resourceType" : "StructureDefinition",
   "id" : "fr-medicationrequest",
-  "url" : "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest",
   "version" : "0.1.0",
   "name" : "FRMedicationRequest",
   "title" : "FR Medication Request",
   "status" : "draft",
-  "date" : "2025-10-28T16:06:33+00:00",
+  "date" : "2025-10-28T16:07:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -159,7 +159,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent"
             ]
           }
         ],
@@ -194,8 +194,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Reference",
             "targetProfile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound",
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound",
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound"
             ]
           }
         ]
@@ -213,7 +213,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
         ],
         "binding" : {
           "strength" : "required",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-medication-code"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code"
         }
       },
       {
@@ -280,7 +280,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values"
             ]
           }
         ]
@@ -290,7 +290,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
         "path" : "MedicationRequest.dosageInstruction.route",
         "binding" : {
           "strength" : "extensible",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration"
         }
       },
       {
@@ -298,7 +298,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
         "path" : "MedicationRequest.dosageInstruction.method",
         "binding" : {
           "strength" : "extensible",
-          "valueSet" : "https://hl7.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration"
+          "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration"
         }
       },
       {
@@ -311,7 +311,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Extension",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component"
             ]
           }
         ]
@@ -340,7 +340,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Range",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
             ]
           }
         ]
@@ -355,7 +355,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]
@@ -385,7 +385,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Ratio",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication"
             ]
           }
         ]
@@ -400,7 +400,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Range",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication"
             ]
           }
         ]
@@ -415,7 +415,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]
@@ -427,7 +427,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]
@@ -439,7 +439,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]
@@ -451,7 +451,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]
@@ -463,7 +463,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
           {
             "code" : "Quantity",
             "profile" : [
-              "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+              "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
             ]
           }
         ]

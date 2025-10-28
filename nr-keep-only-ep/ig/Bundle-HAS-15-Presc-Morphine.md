@@ -51,7 +51,7 @@ Prescription textuelle: MORPHINE SULFATE LP 10 mg gélule microgranule à libér
   "id" : "HAS-15-Presc-Morphine",
   "meta" : {
     "profile" : [
-      "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
+      "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     ]
   },
   "type" : "searchset",
@@ -62,7 +62,7 @@ Prescription textuelle: MORPHINE SULFATE LP 10 mg gélule microgranule à libér
         "id" : "medicationrequest-HAS-15-Presc-Morphine",
         "meta" : {
           "profile" : [
-            "https://hl7.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
+            "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"
           ]
         },
         "text" : {
