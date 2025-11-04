@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle | *Version*:0.1.0 |
-| Draft as of 2025-10-28 | *Computable Name*:FrIsVehicle |
+| Draft as of 2025-11-04 | *Computable Name*:FrIsVehicle |
 
 Medication component which is the vehicle of the compound Medication
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-is-vehicle.csv), 
   "name" : "FrIsVehicle",
   "title" : "Medication component which is the vehicle of the compound Medication",
   "status" : "draft",
-  "date" : "2025-10-28T17:06:42+00:00",
+  "date" : "2025-11-04T08:50:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

@@ -1,21 +1,5 @@
 [
   {
-    "id" : "medication-ingredient-strength-codes",
-    "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/CodeSystem/medication-ingredientstrength",
-    "version" : "0.1.0",
-    "name" : "Medication_Ingredient_Strength_Codes",
-    "oids" : ["2.16.840.1.113883.4.642.1.1427"]
-  },
-  {
-    "id" : "medication-ingredient-strength-codes",
-    "type" : "ValueSet",
-    "url" : "http://hl7.org/fhir/ValueSet/medication-ingredientstrength",
-    "version" : "0.1.0",
-    "name" : "MedicationIngredientStrengthCodes",
-    "oids" : ["2.16.840.1.113883.4.642.3.1426"]
-  },
-  {
     "id" : "PN13-FHIR-FreeSetCIODC-Forme-ConceptMap",
     "type" : "ConceptMap",
     "url" : "https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap",
@@ -49,62 +33,6 @@
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes",
     "version" : "0.1.0",
     "name" : "FrAdditionalWhenCodes"
-  },
-  {
-    "id" : "fr-document-type",
-    "type" : "CodeSystem",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-    "version" : "0.1.0",
-    "name" : "FrDocumentType"
-  },
-  {
-    "id" : "fr-editorial-status",
-    "type" : "CodeSystem",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status",
-    "version" : "0.1.0",
-    "name" : "FrEditorialStatus"
-  },
-  {
-    "id" : "fr-medication-history-source-type",
-    "type" : "CodeSystem",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-    "version" : "0.1.0",
-    "name" : "FRMedicationHistorySourceType"
-  },
-  {
-    "id" : "fr-medication-reconciliation-discrepancy",
-    "type" : "CodeSystem",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationDiscrepancy"
-  },
-  {
-    "id" : "fr-medication-reconciliation-outcome",
-    "type" : "CodeSystem",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationOutcome"
-  },
-  {
-    "id" : "fr-medication-reconciliation-resolution",
-    "type" : "CodeSystem",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationResolution"
-  },
-  {
-    "id" : "fr-medication-reconciliation-status",
-    "type" : "CodeSystem",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationStatus"
-  },
-  {
-    "id" : "fr-medication-reconciliation-type",
-    "type" : "CodeSystem",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationType"
   },
   {
     "id" : "fr-note-scope-codes",
@@ -254,32 +182,11 @@
     "name" : "FrBasisOfDoseComponent"
   },
   {
-    "id" : "fr-current-medication-composition",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition",
-    "version" : "0.1.0",
-    "name" : "FRCurrentMedicationComposition"
-  },
-  {
-    "id" : "fr-current-medication-medicationstatement",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement",
-    "version" : "0.1.0",
-    "name" : "FRCurrentMedicationMedicationStatement"
-  },
-  {
     "id" : "fr-drug-characteristic",
     "type" : "StructureDefinition",
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic",
     "version" : "0.1.0",
     "name" : "FrDrugCharacteristic"
-  },
-  {
-    "id" : "fr-inpatient-medication-dispense",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense",
-    "version" : "0.1.0",
-    "name" : "FRInpatientMedicationDispense"
   },
   {
     "id" : "fr-inpatient-medicationrequest",
@@ -317,53 +224,11 @@
     "name" : "FrRedicationCompound"
   },
   {
-    "id" : "fr-medication-history-composition",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-composition",
-    "version" : "0.1.0",
-    "name" : "FRMedicationHistoryComposition"
-  },
-  {
-    "id" : "fr-medication-history-medicationstatement",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement",
-    "version" : "0.1.0",
-    "name" : "FRMedicationHistoryMedicationStatement"
-  },
-  {
-    "id" : "fr-medication-history-sources",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources",
-    "version" : "0.1.0",
-    "name" : "FRMedicationHistorySources"
-  },
-  {
     "id" : "fr-medication-noncompound",
     "type" : "StructureDefinition",
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound",
     "version" : "0.1.0",
     "name" : "FRMedicationNonCompound"
-  },
-  {
-    "id" : "fr-medication-reconciliation-composition",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-composition",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationComposition"
-  },
-  {
-    "id" : "fr-medication-reconciliation-statement",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationMedicationStatement"
-  },
-  {
-    "id" : "fr-medication-virtual",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-virtual",
-    "version" : "0.1.0",
-    "name" : "FRMedicationVirtual"
   },
   {
     "id" : "fr-medicationrequest",
@@ -380,13 +245,6 @@
     "name" : "FRMedicationRequestNoteScope"
   },
   {
-    "id" : "fr-medicationstatement-reconciliation-properties",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties",
-    "version" : "0.1.0",
-    "name" : "FRMedicationStatementReconciliationProperties"
-  },
-  {
     "id" : "fr-mp-substance",
     "type" : "StructureDefinition",
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance",
@@ -399,20 +257,6 @@
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription",
     "version" : "0.1.0",
     "name" : "FRObservationForPrescription"
-  },
-  {
-    "id" : "fr-on-admission-medication-composition",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-medication-composition",
-    "version" : "0.1.0",
-    "name" : "FROnAdmissionMedicationComposition"
-  },
-  {
-    "id" : "fr-on-admission-retroactive-reconciliation-composition",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-retroactive-reconciliation-composition",
-    "version" : "0.1.0",
-    "name" : "FROnAdmissionRetroactiveReconciliationComposition"
   },
   {
     "id" : "fr-posologie",
@@ -434,13 +278,6 @@
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription",
     "version" : "0.1.0",
     "name" : "FRRequestGroupForPrescription"
-  },
-  {
-    "id" : "fr-strength-codeableconcept",
-    "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept",
-    "version" : "0.1.0",
-    "name" : "FrStrengthCodeableConcept"
   },
   {
     "id" : "fr-treatment-intent",
@@ -478,74 +315,11 @@
     "name" : "FrAdditionalWhenCodes"
   },
   {
-    "id" : "fr-current-medication-document-type",
-    "type" : "ValueSet",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type",
-    "version" : "0.1.0",
-    "name" : "FrCurrentMedicationDocumentType"
-  },
-  {
-    "id" : "fr-editorial-status",
-    "type" : "ValueSet",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status",
-    "version" : "0.1.0",
-    "name" : "FrEditorialStatus"
-  },
-  {
     "id" : "fr-medication-code",
     "type" : "ValueSet",
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code",
     "version" : "0.1.0",
     "name" : "FRMedicationCodes"
-  },
-  {
-    "id" : "fr-medication-history-source-type",
-    "type" : "ValueSet",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-history-source-type",
-    "version" : "0.1.0",
-    "name" : "FRMedicationHistorySourceType"
-  },
-  {
-    "id" : "fr-medication-reconciliation-document-type",
-    "type" : "ValueSet",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-document-type",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationDocumentType"
-  },
-  {
-    "id" : "fr-medication-reconciliation-outcome",
-    "type" : "ValueSet",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-outcome",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationOutcome"
-  },
-  {
-    "id" : "fr-medication-reconciliation-qualified-discrepancy",
-    "type" : "ValueSet",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationQualifiedDiscrepancy"
-  },
-  {
-    "id" : "fr-medication-reconciliation-resolution",
-    "type" : "ValueSet",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-resolution",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationResolution"
-  },
-  {
-    "id" : "fr-medication-reconciliation-status",
-    "type" : "ValueSet",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationStatus"
-  },
-  {
-    "id" : "fr-medication-reconciliation-type",
-    "type" : "ValueSet",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-type",
-    "version" : "0.1.0",
-    "name" : "FRMedicationReconciliationType"
   },
   {
     "id" : "fr-mp-dose-form",

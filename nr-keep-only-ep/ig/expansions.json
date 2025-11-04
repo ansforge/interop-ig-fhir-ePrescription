@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "94a0b948-c5b5-459f-9315-c9db8f0a7ec1",
+  "id" : "7f5d1065-1656-48d0-814d-8c8233bf4bfb",
   "meta" : {
-    "lastUpdated" : "2025-10-28T17:06:42.697+00:00"
+    "lastUpdated" : "2025-11-04T08:50:53.778+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -22,7 +22,7 @@
       "title" : "French Method Of Administration",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
+      "date" : "2025-11-04T08:50:53+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -32,8 +32,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:70821742-4406-4102-9289-4fff1d79773b",
-        "timestamp" : "2025-10-28T17:13:27+00:00",
+        "identifier" : "urn:uuid:8168e738-9a45-4ac6-a9d3-649691e98135",
+        "timestamp" : "2025-11-04T08:54:55+00:00",
         "total" : 1203,
         "offset" : 0,
         "parameter" : [{
@@ -8080,7 +8080,7 @@
       "title" : "Interop'Santé value set - Additional codes for relationship between action",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
+      "date" : "2025-11-04T08:50:53+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -8090,8 +8090,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:ef30b3b7-5a3d-4ddd-a41f-de38fc7ae87b",
-        "timestamp" : "2025-10-28T17:13:28+00:00",
+        "identifier" : "urn:uuid:cbb2cbb3-b565-4b4a-a890-dca95be6e30b",
+        "timestamp" : "2025-11-04T08:54:56+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -8138,7 +8138,7 @@
       "title" : "value set Interop'Santé - Codes additionnels pour l'élément when",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
+      "date" : "2025-11-04T08:50:53+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -8148,8 +8148,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:6e856524-aae9-425f-8e26-5fbd53bbc019",
-        "timestamp" : "2025-10-28T17:13:28+00:00",
+        "identifier" : "urn:uuid:bd0790d7-9fb3-4114-a5c1-d5a5e94d7e28",
+        "timestamp" : "2025-11-04T08:54:56+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -8240,732 +8240,6 @@
     }
   },
   {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-fr-document-type.html\">codesystem code system Interop'Santé - Type de document d'une ressource Composition du domaine Pharmacy v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000012\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000012\">10000012</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000012&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000012&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000013\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000013\">10000013</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000013&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000013&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000014\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000014\">10000014</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000014&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000014&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type",
-      "version" : "0.1.0",
-      "name" : "FrCurrentMedicationDocumentType",
-      "title" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "immutable" : false,
-      "expansion" : {
-        "identifier" : "urn:uuid:b8cbc226-07a3-4a98-86ed-1b9a52f1137f",
-        "timestamp" : "2025-10-28T17:13:28+00:00",
-        "total" : 3,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000012"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000013"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000014"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-fr-editorial-status.html\">codesystem code system Interop'Santé - Statut éditorial d'une valeur v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status-10000001\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-editorial-status.html#fr-editorial-status-10000001\">10000001</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status-10000002\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-editorial-status.html#fr-editorial-status-10000002\">10000002</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status-10000003\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-editorial-status.html#fr-editorial-status-10000003\">10000003</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status-10000004\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-editorial-status.html#fr-editorial-status-10000004\">10000004</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status",
-      "version" : "0.1.0",
-      "name" : "FrEditorialStatus",
-      "title" : "value set Interop'Santé - Statut éditorial d'une valeur",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "immutable" : false,
-      "expansion" : {
-        "identifier" : "urn:uuid:5dc7bd1f-82c1-428a-9766-d16d8d95672d",
-        "timestamp" : "2025-10-28T17:13:28+00:00",
-        "total" : 4,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status",
-          "code" : "10000001"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status",
-          "code" : "10000002"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status",
-          "code" : "10000003"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status",
-          "code" : "10000004"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-history-source-type",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-fr-medication-history-source-type.html\">codesystem code system Interop'Santé - Nature des sources d'un Bilan Médicamenteux v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 18 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000001\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000001\">10000001</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000002\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000002\">10000002</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000003\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000003\">10000003</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000004\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000004\">10000004</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000005\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000005\">10000005</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000006\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000006\">10000006</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000007\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000007\">10000007</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000008\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000008\">10000008</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000008&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000009\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000009\">10000009</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000009&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000009&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000010\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000010\">10000010</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000010&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000010&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000011\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000011\">10000011</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000011&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000011&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000012\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000012\">10000012</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000012&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000012&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000013\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000013\">10000013</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000013&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000013&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000014\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000014\">10000014</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000014&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000014&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000015\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000015\">10000015</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000015&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000015&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000016\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000016\">10000016</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000016&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000016&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000017\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000017\">10000017</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000017&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000017&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type-10000018\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-history-source-type.html#fr-medication-history-source-type-10000018\">10000018</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000018&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000018&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-history-source-type",
-      "version" : "0.1.0",
-      "name" : "FRMedicationHistorySourceType",
-      "title" : "value set SIPh - Nature des sources d'un Bilan Médicamenteux",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "immutable" : false,
-      "expansion" : {
-        "identifier" : "urn:uuid:1be91447-76ec-4260-9fb1-3fe94b919daf",
-        "timestamp" : "2025-10-28T17:13:30+00:00",
-        "total" : 18,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000001"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000002"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000003"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000004"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000005"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000006"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000007"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000008"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000009"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000010"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000011"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000012"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000013"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000014"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000015"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000016"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000017"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type",
-          "code" : "10000018"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-document-type",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-fr-document-type.html\">codesystem code system Interop'Santé - Type de document d'une ressource Composition du domaine Pharmacy v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 11 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000001\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000001\">10000001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000002\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000002\">10000002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000003\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000003\">10000003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000004\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000004\">10000004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000005\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000005\">10000005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000006\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000006\">10000006</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000007\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000007\">10000007</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000008\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000008\">10000008</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000008&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000008&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000009\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000009\">10000009</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000009&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000009&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000010\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000010\">10000010</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000010&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000010&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type-10000011\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-document-type.html#fr-document-type-10000011\">10000011</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000011&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000011&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-document-type",
-      "version" : "0.1.0",
-      "name" : "FRMedicationReconciliationDocumentType",
-      "title" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "immutable" : false,
-      "expansion" : {
-        "identifier" : "urn:uuid:74f56a88-792d-473e-a866-8f037a929f1c",
-        "timestamp" : "2025-10-28T17:13:30+00:00",
-        "total" : 11,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000001"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000002"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000003"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000004"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000005"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000006"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000007"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000008"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000009"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000010"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type",
-          "code" : "10000011"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-outcome",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-fr-medication-reconciliation-outcome.html\">codesystem code system Interop'Santé - Gravité de l'erreur sur une ligne de traitement d'une FCT v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome-10000001\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-outcome.html#fr-medication-reconciliation-outcome-10000001\">10000001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome-10000002\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-outcome.html#fr-medication-reconciliation-outcome-10000002\">10000002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome-10000003\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-outcome.html#fr-medication-reconciliation-outcome-10000003\">10000003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome-10000004\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-outcome.html#fr-medication-reconciliation-outcome-10000004\">10000004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome-10000005\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-outcome.html#fr-medication-reconciliation-outcome-10000005\">10000005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-outcome",
-      "version" : "0.1.0",
-      "name" : "FRMedicationReconciliationOutcome",
-      "title" : "value set Interop'Santé - Gravité de l'erreur sur une ligne de traitement d'une FCT",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "immutable" : false,
-      "expansion" : {
-        "identifier" : "urn:uuid:53e1540e-9ae9-44a0-bbe2-42702b557192",
-        "timestamp" : "2025-10-28T17:13:30+00:00",
-        "total" : 5,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome",
-          "code" : "10000001"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome",
-          "code" : "10000002"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome",
-          "code" : "10000003"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome",
-          "code" : "10000004"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome",
-          "code" : "10000005"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-fr-medication-reconciliation-discrepancy.html\">codesystem code system Interop'Santé - divergence identifiée sur une ligne de traitement d'une FCT v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy-10000003\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-discrepancy.html#fr-medication-reconciliation-discrepancy-10000003\">10000003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy-10000004\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-discrepancy.html#fr-medication-reconciliation-discrepancy-10000004\">10000004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy",
-      "version" : "0.1.0",
-      "name" : "FRMedicationReconciliationQualifiedDiscrepancy",
-      "title" : "value set Interop'Santé - qualification de la divergence identifiée sur une ligne de traitement d'une FCT",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "immutable" : false,
-      "expansion" : {
-        "identifier" : "urn:uuid:11fb0f38-4a23-4211-98ad-63f5509277d0",
-        "timestamp" : "2025-10-28T17:13:30+00:00",
-        "total" : 2,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy",
-          "code" : "10000003"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy",
-          "code" : "10000004"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-resolution",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-fr-medication-reconciliation-resolution.html\">codesystem code system Interop'Santé - Résolution d'une divergence sur une ligne de traitement d'une FCT v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution-10000001\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-resolution.html#fr-medication-reconciliation-resolution-10000001\">10000001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution-10000002\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-resolution.html#fr-medication-reconciliation-resolution-10000002\">10000002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution-10000003\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-resolution.html#fr-medication-reconciliation-resolution-10000003\">10000003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution-10000004\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-resolution.html#fr-medication-reconciliation-resolution-10000004\">10000004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution-10000005\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-resolution.html#fr-medication-reconciliation-resolution-10000005\">10000005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-resolution",
-      "version" : "0.1.0",
-      "name" : "FRMedicationReconciliationResolution",
-      "title" : "value set Interop'Santé - Résolution d'une divergence sur une ligne de traitement d'une FCT",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "immutable" : false,
-      "expansion" : {
-        "identifier" : "urn:uuid:af7bbf64-5048-4991-ab36-1a2f811b483b",
-        "timestamp" : "2025-10-28T17:13:30+00:00",
-        "total" : 5,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution",
-          "code" : "10000001"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution",
-          "code" : "10000002"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution",
-          "code" : "10000003"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution",
-          "code" : "10000004"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution",
-          "code" : "10000005"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-fr-medication-reconciliation-status.html\">codesystem code system Interop'Santé - Statut d'une ligne de traitement d'une FCT v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 5 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status-10000001\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-status.html#fr-medication-reconciliation-status-10000001\">10000001</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status-10000002\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-status.html#fr-medication-reconciliation-status-10000002\">10000002</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status-10000003\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-status.html#fr-medication-reconciliation-status-10000003\">10000003</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status-10000004\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-status.html#fr-medication-reconciliation-status-10000004\">10000004</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status-10000005\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-status.html#fr-medication-reconciliation-status-10000005\">10000005</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status",
-      "version" : "0.1.0",
-      "name" : "FRMedicationReconciliationStatus",
-      "title" : "value set Interop'Santé - Statut d'une ligne de traitement d'une FCT",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "immutable" : false,
-      "expansion" : {
-        "identifier" : "urn:uuid:f51405a5-fe39-4ace-ba44-d938359ba745",
-        "timestamp" : "2025-10-28T17:13:30+00:00",
-        "total" : 5,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status",
-          "code" : "10000001"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status",
-          "code" : "10000002"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status",
-          "code" : "10000003"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status",
-          "code" : "10000004"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status",
-          "code" : "10000005"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-type",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-fr-medication-reconciliation-type.html\">codesystem code system Interop'Santé - Type d'écart/erreur sur une ligne de traitement d'une FCT v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>Définition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type-10000001\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-type.html#fr-medication-reconciliation-type-10000001\">10000001</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000001&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000001&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type-10000002\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-type.html#fr-medication-reconciliation-type-10000002\">10000002</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000002&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000002&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type-10000003\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-type.html#fr-medication-reconciliation-type-10000003\">10000003</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000003&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000003&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type-10000004\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-type.html#fr-medication-reconciliation-type-10000004\">10000004</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000004&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000004&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type-10000005\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-type.html#fr-medication-reconciliation-type-10000005\">10000005</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000005&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000005&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type-10000006\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-type.html#fr-medication-reconciliation-type-10000006\">10000006</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000006&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000006&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type-10000007\"> </a><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-fr-medication-reconciliation-type.html#fr-medication-reconciliation-type-10000007\">10000007</a></td><td/><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;10000007&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;10000007&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-type",
-      "version" : "0.1.0",
-      "name" : "FRMedicationReconciliationType",
-      "title" : "value set Interop'Santé - Type d'écart/erreur sur une ligne de traitement d'une FCT",
-      "status" : "draft",
-      "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "immutable" : false,
-      "expansion" : {
-        "identifier" : "urn:uuid:77a5f041-0e72-45cc-89b4-d8e136a37bdf",
-        "timestamp" : "2025-10-28T17:13:30+00:00",
-        "total" : 7,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type",
-          "code" : "10000001"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type",
-          "code" : "10000002"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type",
-          "code" : "10000003"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type",
-          "code" : "10000004"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type",
-          "code" : "10000005"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type",
-          "code" : "10000006"
-        },
-        {
-          "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type",
-          "code" : "10000007"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -8982,7 +8256,7 @@
       "title" : "French Medicinal product Dose form",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
+      "date" : "2025-11-04T08:50:53+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -8992,8 +8266,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:e0aff4ce-2e3e-4fae-911b-d2c641366ae2",
-        "timestamp" : "2025-10-28T17:13:30+00:00",
+        "identifier" : "urn:uuid:c0288602-1bfb-4b32-b7dd-0e92423fb708",
+        "timestamp" : "2025-11-04T08:54:57+00:00",
         "total" : 1203,
         "offset" : 0,
         "parameter" : [{
@@ -17040,7 +16314,7 @@
       "title" : "value set Interop'Santé - Codes pour le périmètre des notes",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
+      "date" : "2025-11-04T08:50:53+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -17050,8 +16324,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:9b7a3d9b-261d-4f76-bbbd-8adea5cdfae8",
-        "timestamp" : "2025-10-28T17:13:31+00:00",
+        "identifier" : "urn:uuid:edde364e-c6d8-4c43-af0b-234466746793",
+        "timestamp" : "2025-11-04T08:54:58+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -17130,7 +16404,7 @@
       "title" : "French Route of Administration",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
+      "date" : "2025-11-04T08:50:53+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -17140,8 +16414,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:511253c6-3a17-4ade-b998-e77af9eacf82",
-        "timestamp" : "2025-10-28T17:13:31+00:00",
+        "identifier" : "urn:uuid:dbad12ab-8b92-41a8-9f52-e80546ee850d",
+        "timestamp" : "2025-11-04T08:54:58+00:00",
         "total" : 1203,
         "offset" : 0,
         "parameter" : [{
@@ -25188,7 +24462,7 @@
       "title" : "French overall intention of the treatment",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
+      "date" : "2025-11-04T08:50:53+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -25198,8 +24472,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:4bdcc7ec-7b16-4c3e-95c1-bd1b82744c7c",
-        "timestamp" : "2025-10-28T17:13:34+00:00",
+        "identifier" : "urn:uuid:a878201d-dbe5-4829-b42a-8044b1837d54",
+        "timestamp" : "2025-11-04T08:55:00+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -25331,7 +24605,7 @@
       "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-10-28T17:06:42+00:00",
+      "date" : "2025-11-04T08:50:53+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -25341,8 +24615,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:890afb14-3401-4952-9737-88058bfbba40",
-        "timestamp" : "2025-10-28T17:13:34+00:00",
+        "identifier" : "urn:uuid:8b32c762-34a5-426f-8227-cf87068bf8c9",
+        "timestamp" : "2025-11-04T08:55:00+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
@@ -25376,69 +24650,6 @@
         {
           "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes",
           "code" : "UFHEB"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/ValueSet/medication-ingredientstrength",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "meta" : {
-        "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
-      },
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-medication-ingredient-strength-codes.html\">codesystem Medication_Ingredient_Strength_Codes v0.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"http://hl7.org/fhir/CodeSystem/medication-ingredientstrength|0.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 2 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/CodeSystem/medication-ingredientstrength-qs\"> </a><code>http://hl7.org/fhir/CodeSystem/medication-ingredientstrength</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-medication-ingredient-strength-codes.html#medication-ingredient-strength-codes-qs\">qs</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/CodeSystem/medication-ingredientstrength&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;qs&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/CodeSystem/medication-ingredientstrength&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;qs&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://hl7.org/fhir/CodeSystem/medication-ingredientstrength-trace\"> </a><code>http://hl7.org/fhir/CodeSystem/medication-ingredientstrength</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-medication-ingredient-strength-codes.html#medication-ingredient-strength-codes-trace\">trace</a></td><td/><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://hl7.org/fhir/CodeSystem/medication-ingredientstrength&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;trace&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/CodeSystem/medication-ingredientstrength&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;trace&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/ValueSet/medication-ingredientstrength",
-      "identifier" : [{
-        "system" : "urn:ietf:rfc:3986",
-        "value" : "urn:oid:2.16.840.1.113883.4.642.3.1426"
-      }],
-      "version" : "0.1.0",
-      "name" : "MedicationIngredientStrengthCodes",
-      "status" : "draft",
-      "date" : "2025-10-28T17:06:42+00:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:907ddf9c-ef2c-453d-9649-f9ddc00b41f4",
-        "timestamp" : "2025-10-28T17:13:35+00:00",
-        "total" : 2,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "displayLanguage",
-          "valueCode" : "fr"
-        },
-        {
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://hl7.org/fhir/CodeSystem/medication-ingredientstrength|0.1.0"
-        }],
-        "contains" : [{
-          "system" : "http://hl7.org/fhir/CodeSystem/medication-ingredientstrength",
-          "code" : "qs"
-        },
-        {
-          "system" : "http://hl7.org/fhir/CodeSystem/medication-ingredientstrength",
-          "code" : "trace"
         }]
       }
     }

@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:0.1.0 |
-| Draft as of 2025-10-28 | *Computable Name*:eP |
+| Draft as of 2025-11-04 | *Computable Name*:eP |
 
 ### Introduction
 
@@ -38,17 +38,17 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * ISO maintains the copyright on the country codes, and controls its use carefully. For further details see the ISO 3166 web page: [https://www.iso.org/iso-3166-country-codes.html](https://www.iso.org/iso-3166-country-codes.html)
 
-* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.5.0/CodeSystem-ISO3166Part1.html): [FRCurrentMedicationComposition](StructureDefinition-fr-current-medication-composition.md), [FRCurrentMedicationMedicationStatement](StructureDefinition-fr-current-medication-medicationstatement.md)...Show 75 more,[FRInpatientMedicationDispense](StructureDefinition-fr-inpatient-medication-dispense.md),[FRInpatientMedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md),[FRMPSubstance](StructureDefinition-fr-mp-substance.md),[FRMedication](StructureDefinition-fr-medication.md),[FRMedicationCodes](ValueSet-fr-medication-code.md),[FRMedicationHistoryComposition](StructureDefinition-fr-medication-history-composition.md),[FRMedicationHistoryMedicationStatement](StructureDefinition-fr-medication-history-medicationstatement.md),[FRMedicationHistorySourceType](ValueSet-fr-medication-history-source-type.md),[FRMedicationHistorySources](StructureDefinition-fr-medication-history-sources.md),[FRMedicationNonCompound](StructureDefinition-fr-medication-noncompound.md),[FRMedicationReconciliationComposition](StructureDefinition-fr-medication-reconciliation-composition.md),[FRMedicationReconciliationDiscrepancy](CodeSystem-fr-medication-reconciliation-discrepancy.md),[FRMedicationReconciliationDocumentType](ValueSet-fr-medication-reconciliation-document-type.md),[FRMedicationReconciliationMedicationStatement](StructureDefinition-fr-medication-reconciliation-statement.md),[FRMedicationReconciliationOutcome](ValueSet-fr-medication-reconciliation-outcome.md),[FRMedicationReconciliationQualifiedDiscrepancy](ValueSet-fr-medication-reconciliation-qualified-discrepancy.md),[FRMedicationReconciliationResolution](ValueSet-fr-medication-reconciliation-resolution.md),[FRMedicationReconciliationStatus](ValueSet-fr-medication-reconciliation-status.md),[FRMedicationReconciliationType](ValueSet-fr-medication-reconciliation-type.md),[FRMedicationRequest](StructureDefinition-fr-medicationrequest.md),[FRMedicationRequestNoteScope](StructureDefinition-fr-medicationrequest-note-scope.md),[FRMedicationStatementReconciliationProperties](StructureDefinition-fr-medicationstatement-reconciliation-properties.md),[FRMedicationVirtual](StructureDefinition-fr-medication-virtual.md),[FRObservationForPrescription](StructureDefinition-fr-observation-for-prescription.md),[FROnAdmissionMedicationComposition](StructureDefinition-fr-on-admission-medication-composition.md),[FROnAdmissionRetroactiveReconciliationComposition](StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.md),[FRPrescriptionBundleForExample](StructureDefinition-fr-prescription-bundle-for-example.md),[FRRequestGroupForPrescription](StructureDefinition-fr-requestgroup-for-prescription.md),[FrAdditionalActionRelationship](StructureDefinition-fr-additional-action-relationship.md),[FrAdditionalActionRelationshipType](CodeSystem-fr-additional-action-relationship-type.md),[FrAdditionalRequestGroupRelationshipValueSet](ValueSet-fr-additional-action-relationship-type-value-set.md),[FrAdditionalWhenCodes](ValueSet-fr-additional-when-codes.md),[FrAdditionalWhenValues](StructureDefinition-fr-additional-when-values.md),[FrBasisOfDoseComponent](StructureDefinition-fr-basis-of-dose-component.md),[FrCurrentMedicationDocumentType](ValueSet-fr-current-medication-document-type.md),[FrDocumentType](CodeSystem-fr-document-type.md),[FrDrugCharacteristic](StructureDefinition-fr-drug-characteristic.md),[FrEditorialStatus](ValueSet-fr-editorial-status.md),[FrIsVehicle](StructureDefinition-fr-is-vehicle.md),[FrMethodOfAdministration](ValueSet-FrMethodOfAdministration.md),[FrMpDoseForm](ValueSet-fr-mp-dose-form.md),[FrNoteScopeCodeValueSet](ValueSet-fr-note-scope-codes-vs.md),[FrNoteScopeCodes](CodeSystem-fr-note-scope-codes.md),[FrPN13FHIRFreeSetCIODCFormeConceptMap](ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.md),[FrPN13FHIRFreeSetCIODCUniteConceptMap](ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap.md),[FrPN13FHIRFreeSetCIODCVoieConceptMap](ConceptMap-PN13-FHIR-FreeSetCIODC-Voie-ConceptMap.md),[FrPN13FHIRGenderConceptMap](ConceptMap-PN13-FHIR-gender-conceptmap.md),[FrPN13FHIRMedicationNonCompoundConceptMap](ConceptMap-PN13-FHIR-prescmed-medicationnoncompound-conceptmap.md),[FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap](ConceptMap-PN13-FHIR-prescmed-dosageinstruction-conceptmap.md),[FrPN13FHIRMedicationPrescriptionEncounterConceptMap](ConceptMap-PN13-FHIR-prescmed-encounter-conceptmap.md),[FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap](ConceptMap-PN13-FHIR-prescmed-medicationcomp-conceptmap.md),[FrPN13FHIRMedicationPrescriptionMedicationRequestConceptMap](ConceptMap-PN13-FHIR-prescmed-medicationrequest-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPatientINSConceptMap](ConceptMap-PN13-FHIR-prescmed-patient-avec-INS-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap](ConceptMap-PN13-FHIR-prescmed-patient-id-seul-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPatientSansINSConceptMap](ConceptMap-PN13-FHIR-prescmed-patient-sans-INS-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPractitionerIdSeulConceptMap](ConceptMap-PN13-FHIR-prescmed-practitioner-id-seul-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap](ConceptMap-PN13-FHIR-prescmed-practitioner-identite-conceptmap.md),[FrPN13FHIRObservationConceptMap](ConceptMap-PN13-FHIR-observation-conceptmap.md),[FrRangeMedication](StructureDefinition-FrRangeMedication.md),[FrRatioMedication](StructureDefinition-FrRatioMedication.md),[FrRedicationCompound](StructureDefinition-fr-medication-compound.md),[FrRouteOfAdministration](ValueSet-fr-route-of-administration.md),[FrSimpleQuantityMedication](StructureDefinition-FrSimpleQuantityMedication.md),[FrStrengthCodeableConcept](StructureDefinition-fr-strength-codeableconcept.md),[FrSubstanceCode](ValueSet-fr-substance-code.md),[FrTeatmentIntent](StructureDefinition-fr-treatment-intent.md),[FrTreatmentIntent](ValueSet-fr-treatment-intent.md),[FrUFRole](StructureDefinition-fr-uf-role.md),[FrUFRoleCodes](CodeSystem-fr-uf-role-codes.md),[FrUfRoleCodesForPrescriptionValueSet](ValueSet-fr-uf-role-code-for-prescription.md),[LignePrescription](StructureDefinition-fr-ligne-prescription.md),[MedicationIngredientStrengthCodes](ValueSet-medication-ingredient-strength-codes.md),[Medication_Ingredient_Strength_Codes](CodeSystem-medication-ingredient-strength-codes.md),[Posologie](StructureDefinition-fr-posologie.md)and[eP](index.md)
+* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.5.0/CodeSystem-ISO3166Part1.html): [FRInpatientMedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md), [FRMPSubstance](StructureDefinition-fr-mp-substance.md)...Show 49 more,[FRMedication](StructureDefinition-fr-medication.md),[FRMedicationCodes](ValueSet-fr-medication-code.md),[FRMedicationNonCompound](StructureDefinition-fr-medication-noncompound.md),[FRMedicationRequest](StructureDefinition-fr-medicationrequest.md),[FRMedicationRequestNoteScope](StructureDefinition-fr-medicationrequest-note-scope.md),[FRObservationForPrescription](StructureDefinition-fr-observation-for-prescription.md),[FRPrescriptionBundleForExample](StructureDefinition-fr-prescription-bundle-for-example.md),[FRRequestGroupForPrescription](StructureDefinition-fr-requestgroup-for-prescription.md),[FrAdditionalActionRelationship](StructureDefinition-fr-additional-action-relationship.md),[FrAdditionalActionRelationshipType](CodeSystem-fr-additional-action-relationship-type.md),[FrAdditionalRequestGroupRelationshipValueSet](ValueSet-fr-additional-action-relationship-type-value-set.md),[FrAdditionalWhenCodes](ValueSet-fr-additional-when-codes.md),[FrAdditionalWhenValues](StructureDefinition-fr-additional-when-values.md),[FrBasisOfDoseComponent](StructureDefinition-fr-basis-of-dose-component.md),[FrDrugCharacteristic](StructureDefinition-fr-drug-characteristic.md),[FrIsVehicle](StructureDefinition-fr-is-vehicle.md),[FrMethodOfAdministration](ValueSet-FrMethodOfAdministration.md),[FrMpDoseForm](ValueSet-fr-mp-dose-form.md),[FrNoteScopeCodeValueSet](ValueSet-fr-note-scope-codes-vs.md),[FrNoteScopeCodes](CodeSystem-fr-note-scope-codes.md),[FrPN13FHIRFreeSetCIODCFormeConceptMap](ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.md),[FrPN13FHIRFreeSetCIODCUniteConceptMap](ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap.md),[FrPN13FHIRFreeSetCIODCVoieConceptMap](ConceptMap-PN13-FHIR-FreeSetCIODC-Voie-ConceptMap.md),[FrPN13FHIRGenderConceptMap](ConceptMap-PN13-FHIR-gender-conceptmap.md),[FrPN13FHIRMedicationNonCompoundConceptMap](ConceptMap-PN13-FHIR-prescmed-medicationnoncompound-conceptmap.md),[FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap](ConceptMap-PN13-FHIR-prescmed-dosageinstruction-conceptmap.md),[FrPN13FHIRMedicationPrescriptionEncounterConceptMap](ConceptMap-PN13-FHIR-prescmed-encounter-conceptmap.md),[FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap](ConceptMap-PN13-FHIR-prescmed-medicationcomp-conceptmap.md),[FrPN13FHIRMedicationPrescriptionMedicationRequestConceptMap](ConceptMap-PN13-FHIR-prescmed-medicationrequest-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPatientINSConceptMap](ConceptMap-PN13-FHIR-prescmed-patient-avec-INS-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap](ConceptMap-PN13-FHIR-prescmed-patient-id-seul-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPatientSansINSConceptMap](ConceptMap-PN13-FHIR-prescmed-patient-sans-INS-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPractitionerIdSeulConceptMap](ConceptMap-PN13-FHIR-prescmed-practitioner-id-seul-conceptmap.md),[FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap](ConceptMap-PN13-FHIR-prescmed-practitioner-identite-conceptmap.md),[FrPN13FHIRObservationConceptMap](ConceptMap-PN13-FHIR-observation-conceptmap.md),[FrRangeMedication](StructureDefinition-FrRangeMedication.md),[FrRatioMedication](StructureDefinition-FrRatioMedication.md),[FrRedicationCompound](StructureDefinition-fr-medication-compound.md),[FrRouteOfAdministration](ValueSet-fr-route-of-administration.md),[FrSimpleQuantityMedication](StructureDefinition-FrSimpleQuantityMedication.md),[FrSubstanceCode](ValueSet-fr-substance-code.md),[FrTeatmentIntent](StructureDefinition-fr-treatment-intent.md),[FrTreatmentIntent](ValueSet-fr-treatment-intent.md),[FrUFRole](StructureDefinition-fr-uf-role.md),[FrUFRoleCodes](CodeSystem-fr-uf-role-codes.md),[FrUfRoleCodesForPrescriptionValueSet](ValueSet-fr-uf-role-code-for-prescription.md),[LignePrescription](StructureDefinition-fr-ligne-prescription.md),[Posologie](StructureDefinition-fr-posologie.md)and[eP](index.md)
 
 
 * The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. [https://ucum.org/trac/wiki/TermsOfUse](https://ucum.org/trac/wiki/TermsOfUse)
 
-* [Unified Code for Units of Measure (UCUM)](http://terminology.hl7.org/6.5.0/CodeSystem-v3-ucum.html): [Bundle/HAS-01-Presc-Pantoprazole-DC](Bundle-HAS-01-Presc-Pantoprazole-DC.md), [Bundle/HAS-01-Presc-Pantoprazole-MV](Bundle-HAS-01-Presc-Pantoprazole-MV.md)...Show 55 more,[Bundle/HAS-04b-Presc-DAFALGANCODEINE](Bundle-HAS-04b-Presc-DAFALGANCODEINE.md),[Bundle/HAS-05b-Presc-ACTISKENAN](Bundle-HAS-05b-Presc-ACTISKENAN.md),[Bundle/HAS-06-2-Presc-Methotrexate](Bundle-HAS-06-2-Presc-Methotrexate.md),[Bundle/HAS-07-Presc-Paracetamol](Bundle-HAS-07-Presc-Paracetamol.md),[Bundle/HAS-12-2-Presc-Methotrexate](Bundle-HAS-12-2-Presc-Methotrexate.md),[Bundle/HAS-12-3-Presc-Enoxaparine](Bundle-HAS-12-3-Presc-Enoxaparine.md),[Bundle/HAS-14-1-Presc-CODOLIPRANE](Bundle-HAS-14-1-Presc-CODOLIPRANE.md),[Bundle/HAS-14-2-Presc-Betamethasone](Bundle-HAS-14-2-Presc-Betamethasone.md),[Bundle/HAS-17-Presc-Budesonide](Bundle-HAS-17-Presc-Budesonide.md),[Bundle/HAS-18-Presc-Budesonide-MV](Bundle-HAS-18-Presc-Budesonide-MV.md),[Bundle/HAS-19-Presc-Paracetamol](Bundle-HAS-19-Presc-Paracetamol.md),[Bundle/HAS-20-Presc-Hydrocortisone](Bundle-HAS-20-Presc-Hydrocortisone.md),[Bundle/HAS-21-Presc-Prednisolone](Bundle-HAS-21-Presc-Prednisolone.md),[Bundle/HAS-22-Presc-Prednisolone](Bundle-HAS-22-Presc-Prednisolone.md),[Bundle/HAS-30-1-Presc-Hydrocortisone](Bundle-HAS-30-1-Presc-Hydrocortisone.md),[Bundle/MultiLine-Presc-Sucralfate-Paracetamol](Bundle-MultiLine-Presc-Sucralfate-Paracetamol.md),[Bundle/Presc-Betamethasone-ApplCut](Bundle-Presc-Betamethasone-ApplCut.md),[Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin](Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin.md),[Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md),[Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md),[Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md),[Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md),[Bundle/Presc-Fentanyl-patch72h-TL3j](Bundle-Presc-Fentanyl-patch72h-TL3j.md),[Bundle/Presc-MATRIFEN-patch-TL72h](Bundle-Presc-MATRIFEN-patch-TL72h.md),[Bundle/Presc-MV-PerfGl-NaCl-KCl](Bundle-Presc-MV-PerfGl-NaCl-KCl.md),[Bundle/Presc-Methylpredinosolone-DosesEvolutives](Bundle-Presc-Methylpredinosolone-DosesEvolutives.md),[Bundle/Presc-MiniperfCefotaxime-En20min-Pdt3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.md),[Bundle/Presc-MiniperfCefotaxime-En20min-Pdt4j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.md),[Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md),[Bundle/Presc-Nicotine-15mgPar16h](Bundle-Presc-Nicotine-15mgPar16h.md),[Bundle/Presc-Paracetamol](Bundle-Presc-Paracetamol.md),[Bundle/Presc-Paracetamol-DoseEvolutive](Bundle-Presc-Paracetamol-DoseEvolutive.md),[Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin](Bundle-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin.md),[Bundle/Presc-Paracetamol-TL6h](Bundle-Presc-Paracetamol-TL6h.md),[Bundle/Presc-ParacetamolCodeine-500mg30mg](Bundle-Presc-ParacetamolCodeine-500mg30mg.md),[Bundle/Presc-PerfDobutamine-Qsp40mL](Bundle-Presc-PerfDobutamine-Qsp40mL.md),[Bundle/Presc-PerfGl-NaCl-KCl-1l](Bundle-Presc-PerfGl-NaCl-KCl-1l.md),[Bundle/Presc-PerfGl-NaCl-KCl-500ml](Bundle-Presc-PerfGl-NaCl-KCl-500ml.md),[Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md),[Bundle/TradPN13FHIR-Presc-Morphine-PCA](Bundle-TradPN13FHIR-Presc-Morphine-PCA.md),[Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md),[Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md),[Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md),[Medication/InLine-DOLIPRANE](Medication-InLine-DOLIPRANE.md),[Medication/InLine-med-EFFERALGAN](Medication-InLine-med-EFFERALGAN.md),[MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.md),[MedicationDispense/Disp-DOLIPRANE-Refill-Substit](MedicationDispense-Disp-DOLIPRANE-Refill-Substit.md),[MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.md),[MedicationDispense/Disp-EFFERALGAN](MedicationDispense-Disp-EFFERALGAN.md),[MedicationDispense/Disp-EFFERALGAN-presc-DC](MedicationDispense-Disp-EFFERALGAN-presc-DC.md),[MedicationDispense/Disp-group01-1](MedicationDispense-Disp-group01-1.md),[MedicationDispense/Disp-group01-2](MedicationDispense-Disp-group01-2.md),[MedicationRequest/InLine-presc-Paracetamol1](MedicationRequest-InLine-presc-Paracetamol1.md),[MedicationRequest/InLine-presc-Paracetamol2](MedicationRequest-InLine-presc-Paracetamol2.md)and[Posologie](StructureDefinition-fr-posologie.md)
+* [Unified Code for Units of Measure (UCUM)](http://terminology.hl7.org/6.5.0/CodeSystem-v3-ucum.html): [Bundle/HAS-01-Presc-Pantoprazole-DC](Bundle-HAS-01-Presc-Pantoprazole-DC.md), [Bundle/HAS-01-Presc-Pantoprazole-MV](Bundle-HAS-01-Presc-Pantoprazole-MV.md)...Show 44 more,[Bundle/HAS-04b-Presc-DAFALGANCODEINE](Bundle-HAS-04b-Presc-DAFALGANCODEINE.md),[Bundle/HAS-05b-Presc-ACTISKENAN](Bundle-HAS-05b-Presc-ACTISKENAN.md),[Bundle/HAS-06-2-Presc-Methotrexate](Bundle-HAS-06-2-Presc-Methotrexate.md),[Bundle/HAS-07-Presc-Paracetamol](Bundle-HAS-07-Presc-Paracetamol.md),[Bundle/HAS-12-2-Presc-Methotrexate](Bundle-HAS-12-2-Presc-Methotrexate.md),[Bundle/HAS-12-3-Presc-Enoxaparine](Bundle-HAS-12-3-Presc-Enoxaparine.md),[Bundle/HAS-14-1-Presc-CODOLIPRANE](Bundle-HAS-14-1-Presc-CODOLIPRANE.md),[Bundle/HAS-14-2-Presc-Betamethasone](Bundle-HAS-14-2-Presc-Betamethasone.md),[Bundle/HAS-17-Presc-Budesonide](Bundle-HAS-17-Presc-Budesonide.md),[Bundle/HAS-18-Presc-Budesonide-MV](Bundle-HAS-18-Presc-Budesonide-MV.md),[Bundle/HAS-19-Presc-Paracetamol](Bundle-HAS-19-Presc-Paracetamol.md),[Bundle/HAS-20-Presc-Hydrocortisone](Bundle-HAS-20-Presc-Hydrocortisone.md),[Bundle/HAS-21-Presc-Prednisolone](Bundle-HAS-21-Presc-Prednisolone.md),[Bundle/HAS-22-Presc-Prednisolone](Bundle-HAS-22-Presc-Prednisolone.md),[Bundle/HAS-30-1-Presc-Hydrocortisone](Bundle-HAS-30-1-Presc-Hydrocortisone.md),[Bundle/MultiLine-Presc-Sucralfate-Paracetamol](Bundle-MultiLine-Presc-Sucralfate-Paracetamol.md),[Bundle/Presc-Betamethasone-ApplCut](Bundle-Presc-Betamethasone-ApplCut.md),[Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin](Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin.md),[Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md),[Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md),[Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md),[Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md),[Bundle/Presc-Fentanyl-patch72h-TL3j](Bundle-Presc-Fentanyl-patch72h-TL3j.md),[Bundle/Presc-MATRIFEN-patch-TL72h](Bundle-Presc-MATRIFEN-patch-TL72h.md),[Bundle/Presc-MV-PerfGl-NaCl-KCl](Bundle-Presc-MV-PerfGl-NaCl-KCl.md),[Bundle/Presc-Methylpredinosolone-DosesEvolutives](Bundle-Presc-Methylpredinosolone-DosesEvolutives.md),[Bundle/Presc-MiniperfCefotaxime-En20min-Pdt3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.md),[Bundle/Presc-MiniperfCefotaxime-En20min-Pdt4j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.md),[Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md),[Bundle/Presc-Nicotine-15mgPar16h](Bundle-Presc-Nicotine-15mgPar16h.md),[Bundle/Presc-Paracetamol](Bundle-Presc-Paracetamol.md),[Bundle/Presc-Paracetamol-DoseEvolutive](Bundle-Presc-Paracetamol-DoseEvolutive.md),[Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin](Bundle-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin.md),[Bundle/Presc-Paracetamol-TL6h](Bundle-Presc-Paracetamol-TL6h.md),[Bundle/Presc-ParacetamolCodeine-500mg30mg](Bundle-Presc-ParacetamolCodeine-500mg30mg.md),[Bundle/Presc-PerfDobutamine-Qsp40mL](Bundle-Presc-PerfDobutamine-Qsp40mL.md),[Bundle/Presc-PerfGl-NaCl-KCl-1l](Bundle-Presc-PerfGl-NaCl-KCl-1l.md),[Bundle/Presc-PerfGl-NaCl-KCl-500ml](Bundle-Presc-PerfGl-NaCl-KCl-500ml.md),[Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md),[Bundle/TradPN13FHIR-Presc-Morphine-PCA](Bundle-TradPN13FHIR-Presc-Morphine-PCA.md),[Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md),[Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md),[Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)and[Posologie](StructureDefinition-fr-posologie.md)
 
 
 * This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the [license](http://loinc.org/license). LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
 
-* [LOINC](http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md)...Show 4 more,[Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md),[FRMedicationHistoryComposition](StructureDefinition-fr-medication-history-composition.md),[FRMedicationReconciliationComposition](StructureDefinition-fr-medication-reconciliation-composition.md)and[FROnAdmissionRetroactiveReconciliationComposition](StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.md)
+* [LOINC](http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
 
 
 * This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact [https://www.snomed.org/get-snomed](https://www.snomed.org/get-snomed) or [info@snomed.org](mailto:info@snomed.org).
@@ -58,16 +58,15 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
 
-* [DoseAndRateType](http://terminology.hl7.org/6.5.0/CodeSystem-dose-rate-type.html): [Bundle/Presc-CODOLIPRANE-MedCodeableConcept](Bundle-Presc-CODOLIPRANE-MedCodeableConcept.md), [Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md)...Show 14 more,[Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md),[Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md),[Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md),[Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md),[Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md),[MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.md),[MedicationDispense/Disp-DOLIPRANE-Refill-Substit](MedicationDispense-Disp-DOLIPRANE-Refill-Substit.md),[MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.md),[MedicationDispense/Disp-EFFERALGAN](MedicationDispense-Disp-EFFERALGAN.md),[MedicationDispense/Disp-EFFERALGAN-presc-DC](MedicationDispense-Disp-EFFERALGAN-presc-DC.md),[MedicationRequest/InLine-Presc-EFFERALGAN](MedicationRequest-InLine-Presc-EFFERALGAN.md),[MedicationRequest/InLine-presc-EFFERALGAN2](MedicationRequest-InLine-presc-EFFERALGAN2.md),[MedicationRequest/InLine-presc-Paracetamol1](MedicationRequest-InLine-presc-Paracetamol1.md)and[MedicationRequest/InLine-presc-Paracetamol2](MedicationRequest-InLine-presc-Paracetamol2.md)
+* [DoseAndRateType](http://terminology.hl7.org/6.5.0/CodeSystem-dose-rate-type.html): [Bundle/Presc-CODOLIPRANE-MedCodeableConcept](Bundle-Presc-CODOLIPRANE-MedCodeableConcept.md), [Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md)...Show 5 more,[Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md),[Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md),[Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md),[Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md)and[Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md)
 * [MedicationKnowledge Characteristic Codes](http://terminology.hl7.org/6.5.0/CodeSystem-medicationknowledge-characteristic.html): [FrDrugCharacteristic](StructureDefinition-fr-drug-characteristic.md)
 * [Observation Category Codes](http://terminology.hl7.org/6.5.0/CodeSystem-observation-category.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
 * [identifierType](http://terminology.hl7.org/6.5.0/CodeSystem-v2-0203.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
-* [ActCode](http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html): [MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.md), [MedicationDispense/Disp-DOLIPRANE-Refill-Substit](MedicationDispense-Disp-DOLIPRANE-Refill-Substit.md)...Show 5 more,[MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.md),[MedicationDispense/Disp-EFFERALGAN](MedicationDispense-Disp-EFFERALGAN.md),[MedicationDispense/Disp-EFFERALGAN-presc-DC](MedicationDispense-Disp-EFFERALGAN-presc-DC.md),[MedicationDispense/Disp-group01-1](MedicationDispense-Disp-group01-1.md)and[MedicationDispense/Disp-group01-2](MedicationDispense-Disp-group01-2.md)
 
 
 * Unless otherwise indicated, reproduction of material posted on Council of Europe websites, and reproduction of photographs for which the Council of Europe holds copyright – see legal notice \“photo credits\” – is authorised for private use and for informational and educational uses relating to the Council of Europe’s work. This authorisation is subject to the condition that the source be indicated and no charge made for reproduction. Persons wishing to make some other use than those specified above, including commercial use, of information and text posted on these sites are asked to apply for prior written authorisation to the Council of Europe, Directorate of Communication.
 
-* [EDQM Standard Terms](http://tx.fhir.org/r4/ValueSet/edqm): [Bundle/HAS-01-Presc-Pantoprazole-DC](Bundle-HAS-01-Presc-Pantoprazole-DC.md), [Bundle/HAS-02-Presc-Fluindione](Bundle-HAS-02-Presc-Fluindione.md)...Show 87 more,[Bundle/HAS-03-Presc-INNOHEP](Bundle-HAS-03-Presc-INNOHEP.md),[Bundle/HAS-04a-Presc-Paracetamol](Bundle-HAS-04a-Presc-Paracetamol.md),[Bundle/HAS-04b-Presc-DAFALGANCODEINE](Bundle-HAS-04b-Presc-DAFALGANCODEINE.md),[Bundle/HAS-05a-Presc-Fluindione](Bundle-HAS-05a-Presc-Fluindione.md),[Bundle/HAS-06-1-Presc-Methotrexate](Bundle-HAS-06-1-Presc-Methotrexate.md),[Bundle/HAS-09-Presc-Ropinirole](Bundle-HAS-09-Presc-Ropinirole.md),[Bundle/HAS-10-Presc-Methotrexate](Bundle-HAS-10-Presc-Methotrexate.md),[Bundle/HAS-11-1-Presc-VitamineD](Bundle-HAS-11-1-Presc-VitamineD.md),[Bundle/HAS-11-2-Presc-EVRA](Bundle-HAS-11-2-Presc-EVRA.md),[Bundle/HAS-12-3-Presc-Enoxaparine](Bundle-HAS-12-3-Presc-Enoxaparine.md),[Bundle/HAS-13-Presc-Desloratadine](Bundle-HAS-13-Presc-Desloratadine.md),[Bundle/HAS-14-1-Presc-CODOLIPRANE](Bundle-HAS-14-1-Presc-CODOLIPRANE.md),[Bundle/HAS-15-Presc-Morphine](Bundle-HAS-15-Presc-Morphine.md),[Bundle/HAS-16-Presc-Racecadotril](Bundle-HAS-16-Presc-Racecadotril.md),[Bundle/HAS-19-Presc-Paracetamol](Bundle-HAS-19-Presc-Paracetamol.md),[Bundle/HAS-23-1-Presc-Fluindione](Bundle-HAS-23-1-Presc-Fluindione.md),[Bundle/HAS-23-2-Presc-Amiodarone](Bundle-HAS-23-2-Presc-Amiodarone.md),[Bundle/HAS-24-1-presc-Doxycyline](Bundle-HAS-24-1-presc-Doxycyline.md),[Bundle/HAS-24-1-presc-Topiramate](Bundle-HAS-24-1-presc-Topiramate.md),[Bundle/HAS-26-Diazepam](Bundle-HAS-26-Diazepam.md),[Bundle/HAS-27-1-presc-GLUCOPHAGE](Bundle-HAS-27-1-presc-GLUCOPHAGE.md),[Bundle/HAS-27-2-presc-Rifampicine](Bundle-HAS-27-2-presc-Rifampicine.md),[Bundle/HAS-28-Presc-LOVENOX](Bundle-HAS-28-Presc-LOVENOX.md),[Bundle/HAS-29-Presc-LOVENOX](Bundle-HAS-29-Presc-LOVENOX.md),[Bundle/HAS-30-1-Presc-Hydrocortisone](Bundle-HAS-30-1-Presc-Hydrocortisone.md),[Bundle/HAS-30-2-Presc-Cetirizine](Bundle-HAS-30-2-Presc-Cetirizine.md),[Bundle/HAS-31-Presc-DUROGESIC](Bundle-HAS-31-Presc-DUROGESIC.md),[Bundle/HAS-32-1-Presc-LOVENOX](Bundle-HAS-32-1-Presc-LOVENOX.md),[Bundle/HAS-32-2-Presc-ULTIBRO-BREES](Bundle-HAS-32-2-Presc-ULTIBRO-BREES.md),[Bundle/HAS-33-Presc-VERSATIS](Bundle-HAS-33-Presc-VERSATIS.md),[Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE](Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.md),[Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE](Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.md),[Bundle/MultiLine-Presc-Sucralfate-Paracetamol](Bundle-MultiLine-Presc-Sucralfate-Paracetamol.md),[Bundle/Presc-BISOPROLOL-SANDOZ-DosesRationnelles](Bundle-Presc-BISOPROLOL-SANDOZ-DosesRationnelles.md),[Bundle/Presc-Betamethasone-ApplCut](Bundle-Presc-Betamethasone-ApplCut.md),[Bundle/Presc-CLARADOL-DoseDiffParHoraire](Bundle-Presc-CLARADOL-DoseDiffParHoraire.md),[Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin](Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin.md),[Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept](Bundle-Presc-CLARADOL-TL6h-MedCodeableConcept.md),[Bundle/Presc-CLARADOL-TLMardisVendredis](Bundle-Presc-CLARADOL-TLMardisVendredis.md),[Bundle/Presc-CODOLIPRANE-MedCodeableConcept](Bundle-Presc-CODOLIPRANE-MedCodeableConcept.md),[Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md),[Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md),[Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md),[Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md),[Bundle/Presc-Fentanyl-patch72h-TL3j](Bundle-Presc-Fentanyl-patch72h-TL3j.md),[Bundle/Presc-MATRIFEN-patch-TL72h](Bundle-Presc-MATRIFEN-patch-TL72h.md),[Bundle/Presc-MV-PerfGl-NaCl-KCl](Bundle-Presc-MV-PerfGl-NaCl-KCl.md),[Bundle/Presc-Methylpredinosolone-DosesEvolutives](Bundle-Presc-Methylpredinosolone-DosesEvolutives.md),[Bundle/Presc-MiniperfCefotaxime-En20min-Pdt3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.md),[Bundle/Presc-MiniperfCefotaxime-En20min-Pdt4j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.md),[Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md),[Bundle/Presc-Nicotine-15mgPar16h](Bundle-Presc-Nicotine-15mgPar16h.md),[Bundle/Presc-Paracetamol](Bundle-Presc-Paracetamol.md),[Bundle/Presc-Paracetamol-DoseEvolutive](Bundle-Presc-Paracetamol-DoseEvolutive.md),[Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin](Bundle-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin.md),[Bundle/Presc-Paracetamol-TL6h](Bundle-Presc-Paracetamol-TL6h.md),[Bundle/Presc-ParacetamolCodeine-500mg30mg](Bundle-Presc-ParacetamolCodeine-500mg30mg.md),[Bundle/Presc-PerfDobutamine-Qsp40mL](Bundle-Presc-PerfDobutamine-Qsp40mL.md),[Bundle/Presc-PerfGl-NaCl-KCl-1l](Bundle-Presc-PerfGl-NaCl-KCl-1l.md),[Bundle/Presc-PerfGl-NaCl-KCl-500ml](Bundle-Presc-PerfGl-NaCl-KCl-500ml.md),[Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md),[Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE](Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE.md),[Bundle/TradPN13FHIR-Presc-DOLIPRANE](Bundle-TradPN13FHIR-Presc-DOLIPRANE.md),[Bundle/TradPN13FHIR-Presc-DOLIPRANE-Interpret](Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.md),[Bundle/TradPN13FHIR-Presc-Morphine-PCA](Bundle-TradPN13FHIR-Presc-Morphine-PCA.md),[Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md),[Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md),[Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md),[FRMedicationNonCompound](StructureDefinition-fr-medication-noncompound.md),[FRMedicationRequest](StructureDefinition-fr-medicationrequest.md),[FRMedicationVirtual](StructureDefinition-fr-medication-virtual.md),[FrMethodOfAdministration](ValueSet-FrMethodOfAdministration.md),[FrMpDoseForm](ValueSet-fr-mp-dose-form.md),[FrRedicationCompound](StructureDefinition-fr-medication-compound.md),[FrRouteOfAdministration](ValueSet-fr-route-of-administration.md),[Medication/InLine-DOLIPRANE](Medication-InLine-DOLIPRANE.md),[Medication/InLine-med-EFFERALGAN](Medication-InLine-med-EFFERALGAN.md),[MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.md),[MedicationDispense/Disp-DOLIPRANE-Refill-Substit](MedicationDispense-Disp-DOLIPRANE-Refill-Substit.md),[MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC](MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.md),[MedicationDispense/Disp-EFFERALGAN](MedicationDispense-Disp-EFFERALGAN.md),[MedicationDispense/Disp-EFFERALGAN-presc-DC](MedicationDispense-Disp-EFFERALGAN-presc-DC.md),[MedicationRequest/InLine-Presc-EFFERALGAN](MedicationRequest-InLine-Presc-EFFERALGAN.md),[MedicationRequest/InLine-presc-EFFERALGAN2](MedicationRequest-InLine-presc-EFFERALGAN2.md),[MedicationRequest/InLine-presc-Paracetamol1](MedicationRequest-InLine-presc-Paracetamol1.md),[MedicationRequest/InLine-presc-Paracetamol2](MedicationRequest-InLine-presc-Paracetamol2.md)and[Posologie](StructureDefinition-fr-posologie.md)
+* [EDQM Standard Terms](http://tx.fhir.org/r4/ValueSet/edqm): [Bundle/HAS-01-Presc-Pantoprazole-DC](Bundle-HAS-01-Presc-Pantoprazole-DC.md), [Bundle/HAS-02-Presc-Fluindione](Bundle-HAS-02-Presc-Fluindione.md)...Show 75 more,[Bundle/HAS-03-Presc-INNOHEP](Bundle-HAS-03-Presc-INNOHEP.md),[Bundle/HAS-04a-Presc-Paracetamol](Bundle-HAS-04a-Presc-Paracetamol.md),[Bundle/HAS-04b-Presc-DAFALGANCODEINE](Bundle-HAS-04b-Presc-DAFALGANCODEINE.md),[Bundle/HAS-05a-Presc-Fluindione](Bundle-HAS-05a-Presc-Fluindione.md),[Bundle/HAS-06-1-Presc-Methotrexate](Bundle-HAS-06-1-Presc-Methotrexate.md),[Bundle/HAS-09-Presc-Ropinirole](Bundle-HAS-09-Presc-Ropinirole.md),[Bundle/HAS-10-Presc-Methotrexate](Bundle-HAS-10-Presc-Methotrexate.md),[Bundle/HAS-11-1-Presc-VitamineD](Bundle-HAS-11-1-Presc-VitamineD.md),[Bundle/HAS-11-2-Presc-EVRA](Bundle-HAS-11-2-Presc-EVRA.md),[Bundle/HAS-12-3-Presc-Enoxaparine](Bundle-HAS-12-3-Presc-Enoxaparine.md),[Bundle/HAS-13-Presc-Desloratadine](Bundle-HAS-13-Presc-Desloratadine.md),[Bundle/HAS-14-1-Presc-CODOLIPRANE](Bundle-HAS-14-1-Presc-CODOLIPRANE.md),[Bundle/HAS-15-Presc-Morphine](Bundle-HAS-15-Presc-Morphine.md),[Bundle/HAS-16-Presc-Racecadotril](Bundle-HAS-16-Presc-Racecadotril.md),[Bundle/HAS-19-Presc-Paracetamol](Bundle-HAS-19-Presc-Paracetamol.md),[Bundle/HAS-23-1-Presc-Fluindione](Bundle-HAS-23-1-Presc-Fluindione.md),[Bundle/HAS-23-2-Presc-Amiodarone](Bundle-HAS-23-2-Presc-Amiodarone.md),[Bundle/HAS-24-1-presc-Doxycyline](Bundle-HAS-24-1-presc-Doxycyline.md),[Bundle/HAS-24-1-presc-Topiramate](Bundle-HAS-24-1-presc-Topiramate.md),[Bundle/HAS-26-Diazepam](Bundle-HAS-26-Diazepam.md),[Bundle/HAS-27-1-presc-GLUCOPHAGE](Bundle-HAS-27-1-presc-GLUCOPHAGE.md),[Bundle/HAS-27-2-presc-Rifampicine](Bundle-HAS-27-2-presc-Rifampicine.md),[Bundle/HAS-28-Presc-LOVENOX](Bundle-HAS-28-Presc-LOVENOX.md),[Bundle/HAS-29-Presc-LOVENOX](Bundle-HAS-29-Presc-LOVENOX.md),[Bundle/HAS-30-1-Presc-Hydrocortisone](Bundle-HAS-30-1-Presc-Hydrocortisone.md),[Bundle/HAS-30-2-Presc-Cetirizine](Bundle-HAS-30-2-Presc-Cetirizine.md),[Bundle/HAS-31-Presc-DUROGESIC](Bundle-HAS-31-Presc-DUROGESIC.md),[Bundle/HAS-32-1-Presc-LOVENOX](Bundle-HAS-32-1-Presc-LOVENOX.md),[Bundle/HAS-32-2-Presc-ULTIBRO-BREES](Bundle-HAS-32-2-Presc-ULTIBRO-BREES.md),[Bundle/HAS-33-Presc-VERSATIS](Bundle-HAS-33-Presc-VERSATIS.md),[Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE](Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.md),[Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE](Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.md),[Bundle/MultiLine-Presc-Sucralfate-Paracetamol](Bundle-MultiLine-Presc-Sucralfate-Paracetamol.md),[Bundle/Presc-BISOPROLOL-SANDOZ-DosesRationnelles](Bundle-Presc-BISOPROLOL-SANDOZ-DosesRationnelles.md),[Bundle/Presc-Betamethasone-ApplCut](Bundle-Presc-Betamethasone-ApplCut.md),[Bundle/Presc-CLARADOL-DoseDiffParHoraire](Bundle-Presc-CLARADOL-DoseDiffParHoraire.md),[Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin](Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin.md),[Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept](Bundle-Presc-CLARADOL-TL6h-MedCodeableConcept.md),[Bundle/Presc-CLARADOL-TLMardisVendredis](Bundle-Presc-CLARADOL-TLMardisVendredis.md),[Bundle/Presc-CODOLIPRANE-MedCodeableConcept](Bundle-Presc-CODOLIPRANE-MedCodeableConcept.md),[Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md),[Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md),[Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md),[Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md),[Bundle/Presc-Fentanyl-patch72h-TL3j](Bundle-Presc-Fentanyl-patch72h-TL3j.md),[Bundle/Presc-MATRIFEN-patch-TL72h](Bundle-Presc-MATRIFEN-patch-TL72h.md),[Bundle/Presc-MV-PerfGl-NaCl-KCl](Bundle-Presc-MV-PerfGl-NaCl-KCl.md),[Bundle/Presc-Methylpredinosolone-DosesEvolutives](Bundle-Presc-Methylpredinosolone-DosesEvolutives.md),[Bundle/Presc-MiniperfCefotaxime-En20min-Pdt3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.md),[Bundle/Presc-MiniperfCefotaxime-En20min-Pdt4j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.md),[Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md),[Bundle/Presc-Nicotine-15mgPar16h](Bundle-Presc-Nicotine-15mgPar16h.md),[Bundle/Presc-Paracetamol](Bundle-Presc-Paracetamol.md),[Bundle/Presc-Paracetamol-DoseEvolutive](Bundle-Presc-Paracetamol-DoseEvolutive.md),[Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin](Bundle-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin.md),[Bundle/Presc-Paracetamol-TL6h](Bundle-Presc-Paracetamol-TL6h.md),[Bundle/Presc-ParacetamolCodeine-500mg30mg](Bundle-Presc-ParacetamolCodeine-500mg30mg.md),[Bundle/Presc-PerfDobutamine-Qsp40mL](Bundle-Presc-PerfDobutamine-Qsp40mL.md),[Bundle/Presc-PerfGl-NaCl-KCl-1l](Bundle-Presc-PerfGl-NaCl-KCl-1l.md),[Bundle/Presc-PerfGl-NaCl-KCl-500ml](Bundle-Presc-PerfGl-NaCl-KCl-500ml.md),[Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md),[Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE](Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE.md),[Bundle/TradPN13FHIR-Presc-DOLIPRANE](Bundle-TradPN13FHIR-Presc-DOLIPRANE.md),[Bundle/TradPN13FHIR-Presc-DOLIPRANE-Interpret](Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.md),[Bundle/TradPN13FHIR-Presc-Morphine-PCA](Bundle-TradPN13FHIR-Presc-Morphine-PCA.md),[Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md),[Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md),[Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md),[FRMedicationNonCompound](StructureDefinition-fr-medication-noncompound.md),[FRMedicationRequest](StructureDefinition-fr-medicationrequest.md),[FrMethodOfAdministration](ValueSet-FrMethodOfAdministration.md),[FrMpDoseForm](ValueSet-fr-mp-dose-form.md),[FrRedicationCompound](StructureDefinition-fr-medication-compound.md),[FrRouteOfAdministration](ValueSet-fr-route-of-administration.md)and[Posologie](StructureDefinition-fr-posologie.md)
 
 
 
@@ -83,7 +82,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-10-28T17:06:42+00:00",
+  "date" : "2025-11-04T08:50:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -971,118 +970,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/fr-medication-reconciliation-discrepancy"
-        },
-        "name" : "code system Interop'Santé - divergence identifiée sur une ligne de traitement d'une FCT",
-        "description" : "Le système de codage de la divergence identifiée sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/fr-medication-reconciliation-outcome"
-        },
-        "name" : "code system Interop'Santé - Gravité de l'erreur sur une ligne de traitement d'une FCT",
-        "description" : "Le système de codage de la gravité de l'erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/fr-medication-history-source-type"
-        },
-        "name" : "code system Interop'Santé - Nature des sources d'un Bilan Médicamenteux",
-        "description" : "Le système de codage des sources d'un Bilan Médicamenteux.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/fr-medication-reconciliation-resolution"
-        },
-        "name" : "code system Interop'Santé - Résolution d'une divergence sur une ligne de traitement d'une FCT",
-        "description" : "Le système de codage de la résolution d'une divergence sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/fr-medication-reconciliation-status"
-        },
-        "name" : "code system Interop'Santé - Statut d'une ligne de traitement d'une FCT",
-        "description" : "Le système de codage du statut d'une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/fr-editorial-status"
-        },
-        "name" : "code system Interop'Santé - Statut éditorial d'une valeur",
-        "description" : "Le système de codage du statut éditorial d'une valeur.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/fr-medication-reconciliation-type"
-        },
-        "name" : "code system Interop'Santé - Type d'écart/erreur sur une ligne de traitement d'une FCT",
-        "description" : "Le système de codage du type d'écart/erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/fr-document-type"
-        },
-        "name" : "code system Interop'Santé - Type de document d'une ressource Composition du domaine Pharmacy",
-        "description" : "Le système de codage SIPh du type de document d'une ressource *Composition* du domaine Pharmacy",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ConceptMap"
           }
         ],
@@ -1251,146 +1138,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationDispense"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC"
-        },
-        "name" : "Disp-DOLIPRANE-Refill-Compl-presc-DC",
-        "description" : "Prescription complémentaire et finale de DOLIPRANE sur une prescription de Paracétamol",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationDispense"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC"
-        },
-        "name" : "Disp-DOLIPRANE-Refill-presc-DC",
-        "description" : "Dispensation complémentaire et partielle de DOLIPRANE sur une prescription de Paracétamol",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationDispense"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationDispense/Disp-DOLIPRANE-Refill-Substit"
-        },
-        "name" : "Disp-DOLIPRANE-Refill-Substit",
-        "description" : "Dispensation complémentaire et partielle de DOLIPRANE sur une prescription d'EFFERALGAN",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationDispense"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationDispense/Disp-EFFERALGAN"
-        },
-        "name" : "Disp-EFFERALGAN",
-        "description" : "Dispensation complète d'EFFERALGANT sur une prescription d'EFFERALGAN",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationDispense"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationDispense/Disp-EFFERALGAN-presc-DC"
-        },
-        "name" : "Disp-EFFERALGAN-presc-DC",
-        "description" : "Dispensation complète de Paracétamol sur une prescription d'EFFERALGAN",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationDispense"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationDispense/Disp-group01-1"
-        },
-        "name" : "Disp-group01-1",
-        "description" : "Délivrance reglobalisée, cumulant 3 dispensations nominatives",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationDispense"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationDispense/Disp-group01-2"
-        },
-        "name" : "Disp-group01-2",
-        "description" : "Délivrance reglobalisée, cumulant 3 dispensations nominatives - Option 2",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medication-dispense"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-current-medication-composition"
-        },
-        "name" : "FR Current Medication Composition",
-        "description" : "Profil de la ressource Composition du traitement médicamenteux courant.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-current-medication-medicationstatement"
-        },
-        "name" : "FR Current Medication MedicationStatement",
-        "description" : "Profil de la ressource *MedicationStatement* du traitement médicamenteux courant.\nCurrent Medication MedicationStatement resource profile",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-inpatient-medication-dispense"
-        },
-        "name" : "FR Inpatient MedicationDispense",
-        "description" : "French medication dispense profile",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "StructureDefinition:resource"
           }
         ],
@@ -1437,34 +1184,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/fr-medication-history-composition"
-        },
-        "name" : "FR Medication History Composition",
-        "description" : "Profil de la ressource Composition du Bilan Médicamenteux.\nMedication Assessment Composition resource profile.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-medication-history-medicationstatement"
-        },
-        "name" : "FR Medication History MedicationStatement",
-        "description" : "Profil de la ressource *MedicationStatement* du Bilan médicamenteux.\nMedication History MedicationStatement resource profile",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
           "reference" : "StructureDefinition/fr-medication-noncompound"
         },
         "name" : "FR Medication Non Compound",
@@ -1479,52 +1198,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/fr-medication-reconciliation-composition"
-        },
-        "name" : "FR Medication Reconciliation Composition",
-        "description" : "Profil de la ressource *Composition* la Fiche de Conciliation des Traitements médicamenteux (FCT).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-medication-reconciliation-statement"
-        },
-        "name" : "FR Medication Reconciliation MedicationStatement",
-        "description" : "Profil de la ressource *MedicationStatement* référencée dans la ressource *Composition* de la Fiche de Conciliation des Traitements médicamenteux (FCT).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
           "reference" : "StructureDefinition/fr-medicationrequest"
         },
         "name" : "FR Medication Request",
         "description" : "French medication request profile",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-medication-virtual"
-        },
-        "name" : "FR Medication Virtual",
-        "description" : "Virtual medication composed of one to many substances.",
         "exampleBoolean" : false
       },
       {
@@ -1553,34 +1230,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         },
         "name" : "FR Observation For Prescription",
         "description" : "Observation provided as context of the prescription (ex. weight, height...)",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-on-admission-medication-composition"
-        },
-        "name" : "FR On Admission Medication Composition",
-        "description" : "Profil de la ressource *Composition* du traitement médicamenteux prescrit à l'admission.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:resource"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-on-admission-retroactive-reconciliation-composition"
-        },
-        "name" : "FR On Admission Retroactive Reconciliation Composition",
-        "description" : "Profil de la ressource *Composition* de la Fiche de Conciliation des Traitements médicamenteux (FCT) rétroactive d'admission.",
         "exampleBoolean" : false
       },
       {
@@ -1665,34 +1314,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         },
         "name" : "French Route of Administration",
         "description" : "Le jeu de valeurs à utiliser pour coder l'élément *dosageInstruction.route* de la ressource *FRMedicationRequest*.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-medication-history-sources"
-        },
-        "name" : "FRMedicationHistorySources",
-        "description" : "Sources des lignes du Bilan Médicamenteux que représente la ressource *Composition* ou de chacune de ses lignes que représente la ressource *MedicationStatement* référencée par l'élément *entry* de la ressource *Composition* (nombre de sources ET le type de source, défini codé avec, si possible, son auteur, défini ès qualités et, si possible, nominativement)",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-medicationstatement-reconciliation-properties"
-        },
-        "name" : "FRMedicationStatementReconciliationProperties",
-        "description" : "Propiétés spécifiques de la ligne de médicament, ajoutée à la ressource MedicationStatement dans la Fiche de Conciliation des Traitements médicamenteux (FCT)",
         "exampleBoolean" : false
       },
       {
@@ -2357,118 +1978,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "Medication"
-          }
-        ],
-        "reference" : {
-          "reference" : "Medication/InLine-DOLIPRANE"
-        },
-        "name" : "InLine-DOLIPRANE",
-        "description" : "Medication DOLIPRANE® pour exemple de dispensation",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "Medication"
-          }
-        ],
-        "reference" : {
-          "reference" : "Medication/InLine-med-EFFERALGAN"
-        },
-        "name" : "InLine-med-EFFERALGAN",
-        "description" : "Medication EFFERALGAN® pour exemple de dispensation",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "Medication"
-          }
-        ],
-        "reference" : {
-          "reference" : "Medication/InLine-med-Paracetamol"
-        },
-        "name" : "InLine-med-Paracetamol",
-        "description" : "Medication Paracétamol pour exemple de dispensation",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "Group"
-          }
-        ],
-        "reference" : {
-          "reference" : "Group/InLine-patient-group-01"
-        },
-        "name" : "InLine-patient-group-01",
-        "description" : "Groupe de patient pour exemple de délivrance reglobalisée",
-        "exampleBoolean" : true
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationRequest"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationRequest/InLine-Presc-EFFERALGAN"
-        },
-        "name" : "InLine-Presc-EFFERALGAN",
-        "description" : "Prescription d'EFFERALGAN® pour exemple de dispensation",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationRequest"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationRequest/InLine-presc-EFFERALGAN2"
-        },
-        "name" : "InLine-presc-EFFERALGAN2",
-        "description" : "Prescription d'EFFERALGAN® pour exemple de dispensation",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationRequest"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationRequest/InLine-presc-Paracetamol1"
-        },
-        "name" : "InLine-presc-Paracetamol1",
-        "description" : "Prescription de Paracétamol pour exemple de dispensation",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "MedicationRequest"
-          }
-        ],
-        "reference" : {
-          "reference" : "MedicationRequest/InLine-presc-Paracetamol2"
-        },
-        "name" : "InLine-presc-Paracetamol2",
-        "description" : "Prescription de Paracétamol pour exemple de dispensation",
-        "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "CodeSystem"
           }
         ],
@@ -2595,20 +2104,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/medication-ingredient-strength-codes"
-        },
-        "name" : "MedicationIngredientStrengthCodes",
-        "description" : "Medication Ingredient Strength Codes",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "StructureDefinition:extension"
           }
         ],
@@ -2617,19 +2112,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         },
         "name" : "MedicationRequest overall treatment intent",
         "description" : "The overall intention of the treatment",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/medication-ingredient-strength-codes"
-        },
-        "name" : "Medication_Ingredient_Strength_Codes",
         "exampleBoolean" : false
       },
       {
@@ -3140,20 +2622,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/fr-strength-codeableconcept"
-        },
-        "name" : "Strength CodeableConcept",
-        "description" : "Additional non unit value for strength",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "Bundle"
           }
         ],
@@ -3326,136 +2794,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           }
         ],
         "reference" : {
-          "reference" : "ValueSet/fr-medication-reconciliation-outcome"
-        },
-        "name" : "value set Interop'Santé - Gravité de l'erreur sur une ligne de traitement d'une FCT",
-        "description" : "Le jeu de valeurs à utiliser pour coder la gravité de l'erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/fr-medication-reconciliation-qualified-discrepancy"
-        },
-        "name" : "value set Interop'Santé - qualification de la divergence identifiée sur une ligne de traitement d'une FCT",
-        "description" : "Le jeu de valeurs à utiliser pour coder la qualification de la divergence identifiée sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/fr-medication-reconciliation-resolution"
-        },
-        "name" : "value set Interop'Santé - Résolution d'une divergence sur une ligne de traitement d'une FCT",
-        "description" : "Un jeu de valeurs à utiliser pour coder la résolution d'une divergence sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/fr-medication-reconciliation-status"
-        },
-        "name" : "value set Interop'Santé - Statut d'une ligne de traitement d'une FCT",
-        "description" : "Le jeu de valeurs à utiliser pour coder le statut d'une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/fr-editorial-status"
-        },
-        "name" : "value set Interop'Santé - Statut éditorial d'une valeur",
-        "description" : "Le jeu de valeurs à utiliser pour coder le statut éditorial d'une valeur.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/fr-medication-reconciliation-type"
-        },
-        "name" : "value set Interop'Santé - Type d'écart/erreur sur une ligne de traitement d'une FCT",
-        "description" : "Le jeu de valeurs à utiliser pour coder le type d'écart/erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/fr-current-medication-document-type"
-        },
-        "name" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
-        "description" : "Le jeu de valeurs à utiliser pour coder le type de document de la ressource *Composition* d'une liste des Traitements Médicamenteux Courants.",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/fr-medication-reconciliation-document-type"
-        },
-        "name" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
-        "description" : "Le jeu de valeurs à utiliser pour coder le type de document de la ressource *Composition* d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
           "reference" : "ValueSet/fr-uf-role-code-for-prescription"
         },
         "name" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
         "description" : "Le jeu de valeurs à utiliser dans l'extension pour indiquer le type d'UF référencée dans Medication.supportingInfo",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "ValueSet"
-          }
-        ],
-        "reference" : {
-          "reference" : "ValueSet/fr-medication-history-source-type"
-        },
-        "name" : "value set SIPh - Nature des sources d'un Bilan Médicamenteux",
-        "description" : "Un jeu de valeurs à utiliser pour coder les sources d'un Bilan Médicamenteux.",
         "exampleBoolean" : false
       }
     ],

@@ -1,18 +1,18 @@
 eP : Validation Results
 =========================================
 
-err = 1045, warn = 2121, info = 112
-IG Publisher Version: 2.0.23
-Generated Tue Oct 28 17:14:38 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
- Build Errors : 211 / 4 / 0
+err = 939, warn = 2051, info = 83
+IG Publisher Version: 2.0.25
+Generated Tue Nov 04 08:55:43 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
+ Build Errors : 181 / 3 / 0
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-DC : 12 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-MV : 7 / 3 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-02-Presc-Fluindione : 7 / 4 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-03-Presc-INNOHEP : 7 / 4 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-03-Presc-INNOHEP : 7 / 3 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-04a-Presc-Paracetamol : 5 / 4 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-04b-Presc-DAFALGANCODEINE : 4 / 6 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-04b-Presc-DAFALGANCODEINE : 4 / 5 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-05a-Presc-Fluindione : 7 / 4 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-05b-Presc-ACTISKENAN : 6 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-05b-Presc-ACTISKENAN : 6 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-06-1-Presc-Methotrexate : 7 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-06-2-Presc-Methotrexate : 7 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-07-Presc-Paracetamol : 7 / 4 / 3
@@ -21,12 +21,12 @@ Generated Tue Oct 28 17:14:38 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.epres
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-09-Presc-Ropinirole : 7 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-10-Presc-Methotrexate : 7 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-11-1-Presc-VitamineD : 7 / 4 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-11-2-Presc-EVRA : 6 / 5 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-12-1-Presc-BEPANTHEN : 6 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-11-2-Presc-EVRA : 6 / 4 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-12-1-Presc-BEPANTHEN : 6 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-12-2-Presc-Methotrexate : 7 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-12-3-Presc-Enoxaparine : 13 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-13-Presc-Desloratadine : 7 / 4 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-14-1-Presc-CODOLIPRANE : 6 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-14-1-Presc-CODOLIPRANE : 6 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-14-2-Presc-Betamethasone : 7 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-15-Presc-Morphine : 8 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-16-Presc-Racecadotril : 8 / 4 / 3
@@ -40,28 +40,28 @@ Generated Tue Oct 28 17:14:38 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.epres
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-23-2-Presc-Amiodarone : 7 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-24-1-presc-Doxycyline : 7 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-24-1-presc-Topiramate : 7 / 4 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-25-NOVORAPID : 6 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-25-NOVORAPID : 6 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-26-Diazepam : 8 / 4 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-27-1-presc-GLUCOPHAGE : 6 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-27-1-presc-GLUCOPHAGE : 6 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-27-2-presc-Rifampicine : 7 / 4 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-28-Presc-LOVENOX : 8 / 5 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-29-Presc-LOVENOX : 7 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-28-Presc-LOVENOX : 8 / 4 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-29-Presc-LOVENOX : 7 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-30-1-Presc-Hydrocortisone : 8 / 4 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-30-2-Presc-Cetirizine : 7 / 4 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-31-Presc-DUROGESIC : 6 / 5 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-32-1-Presc-LOVENOX : 7 / 5 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-32-2-Presc-ULTIBRO-BREES : 7 / 5 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-33-Presc-VERSATIS : 6 / 5 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE : 23 / 11 / 7
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE : 22 / 11 / 7
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-Sucralfate-Paracetamol : 22 / 11 / 7
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-31-Presc-DUROGESIC : 6 / 4 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-32-1-Presc-LOVENOX : 7 / 4 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-32-2-Presc-ULTIBRO-BREES : 7 / 4 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-33-Presc-VERSATIS : 6 / 4 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE : 23 / 9 / 7
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE : 22 / 9 / 7
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-Sucralfate-Paracetamol : 22 / 9 / 7
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-BISOPROLOL-SANDOZ-DosesRationnelles : 13 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Betamethasone-ApplCut : 11 / 4 / 6
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-DoseDiffParHoraire : 8 / 6 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin : 7 / 6 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-TL6h-MedCodeableConcept : 7 / 6 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-TLMardisVendredis : 7 / 6 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CODOLIPRANE-MedCodeableConcept : 7 / 6 / 4
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-DoseDiffParHoraire : 8 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin : 7 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-TL6h-MedCodeableConcept : 7 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-TLMardisVendredis : 7 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CODOLIPRANE-MedCodeableConcept : 7 / 5 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Capecitabine-Dose-Calculee : 11 / 4 / 8
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-DIPROSONE-AppCut : 13 / 5 / 7
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-DOLIPRANE-20DoseParKG : 14 / 5 / 7
@@ -83,26 +83,17 @@ Generated Tue Oct 28 17:14:38 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.epres
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-PerfGl-NaCl-KCl-1l : 26 / 7 / 14
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-PerfGl-NaCl-KCl-500ml : 24 / 7 / 14
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h : 12 / 4 / 7
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE : 19 / 22 / 14
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE : 19 / 20 / 14
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-DOLIPRANE : 6 / 10 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret : 6 / 9 / 6
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-Morphine-PCA : 7 / 13 / 10
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-Morphine-PCA : 7 / 12 / 10
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-Paracetamol : 23 / 15 / 20
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur : 22 / 13 / 20
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-perfusion-6-composants : 51 / 19 / 38
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-additional-action-relationship-type : 0 / 1 / 2
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-additional-when-codes : 0 / 1 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-document-type : 0 / 1 / 4
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-editorial-status : 0 / 1 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-medication-history-source-type : 0 / 1 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-medication-reconciliation-discrepancy : 0 / 1 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-medication-reconciliation-outcome : 0 / 1 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-medication-reconciliation-resolution : 0 / 1 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-medication-reconciliation-status : 0 / 1 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-medication-reconciliation-type : 0 / 1 / 2
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-note-scope-codes : 1 / 1 / 2
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-fr-uf-role-codes : 0 / 1 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-medication-ingredient-strength-codes : 5 / 2 / 2
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap : 4 / 327 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap : 4 / 47 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ConceptMap-PN13-FHIR-FreeSetCIODC-Voie-ConceptMap : 4 / 73 / 1
@@ -118,81 +109,42 @@ Generated Tue Oct 28 17:14:38 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.epres
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-patient-sans-INS-conceptmap : 1 / 27 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-practitioner-id-seul-conceptmap : 1 / 5 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-practitioner-identite-conceptmap : 1 / 12 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Group-InLine-patient-group-01 : 6 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.eprescription : 1 / 1 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Medication-InLine-DOLIPRANE : 1 / 2 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Medication-InLine-med-EFFERALGAN : 1 / 2 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Medication-InLine-med-Paracetamol : 0 / 1 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC : 7 / 0 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-Substit : 8 / 0 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC : 8 / 0 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationDispense-Disp-EFFERALGAN : 6 / 0 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationDispense-Disp-EFFERALGAN-presc-DC : 5 / 0 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationDispense-Disp-group01-1 : 8 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationDispense-Disp-group01-2 : 7 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationRequest-InLine-Presc-EFFERALGAN : 5 / 1 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationRequest-InLine-presc-EFFERALGAN2 : 5 / 0 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationRequest-InLine-presc-Paracetamol1 : 5 / 0 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/MedicationRequest-InLine-presc-Paracetamol2 : 5 / 0 / 2
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-FrRangeMedication : 0 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-FrRatioMedication : 0 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-FrSimpleQuantityMedication : 2 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-additional-action-relationship : 1 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-additional-when-values : 0 / 1 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-basis-of-dose-component : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-current-medication-composition : 5 / 1 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-current-medication-medicationstatement : 1 / 1 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-drug-characteristic : 0 / 1 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-inpatient-medication-dispense : 0 / 0 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-inpatient-medicationrequest : 0 / 0 / 1
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-inpatient-medicationrequest : 0 / 0 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-is-vehicle : 0 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-ligne-prescription : 0 / 22 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication : 0 / 0 / 1
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication : 0 / 1 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication-compound : 0 / 0 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication-history-composition : 3 / 6 / 6
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication-history-medicationstatement : 1 / 1 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication-history-sources : 0 / 1 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication-noncompound : 0 / 1 / 4
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication-reconciliation-composition : 9 / 1 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication-reconciliation-statement : 2 / 1 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medication-virtual : 0 / 1 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medicationrequest : 0 / 0 / 2
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medicationrequest-note-scope : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-medicationstatement-reconciliation-properties : 0 / 1 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-mp-substance : 1 / 4 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-observation-for-prescription : 0 / 1 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-on-admission-medication-composition : 0 / 4 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-on-admission-retroactive-reconciliation-composition : 0 / 3 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-posologie : 9 / 60 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-prescription-bundle-for-example : 1 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-requestgroup-for-prescription : 0 / 0 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-strength-codeableconcept : 0 / 1 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-treatment-intent : 0 / 1 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/StructureDefinition-fr-uf-role : 0 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-FrMethodOfAdministration : 0 / 0 / 2
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-additional-action-relationship-type-value-set : 0 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-additional-when-codes : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-current-medication-document-type : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-editorial-status : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-medication-code : 0 / 4 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-medication-history-source-type : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-medication-reconciliation-document-type : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-medication-reconciliation-outcome : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-medication-reconciliation-qualified-discrepancy : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-medication-reconciliation-resolution : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-medication-reconciliation-status : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-medication-reconciliation-type : 0 / 0 / 1
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-medication-code : 1 / 3 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-mp-dose-form : 0 / 0 / 2
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-note-scope-codes-vs : 0 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-route-of-administration : 0 / 0 / 2
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-substance-code : 0 / 3 / 1
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-substance-code : 1 / 2 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-treatment-intent : 0 / 0 / 1
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-uf-role-code-for-prescription : 0 / 0 / 1
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-medication-ingredient-strength-codes : 5 / 2 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[26].value: Supressed messages file not found
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CodeSystem/medication-ingredient-strength-codes.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Bundle-HAS-01-Presc-Pantoprazole-DC.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 284, column 113: The link 'Patient/14602' for "Patient/14602" cannot be resolved
 ERROR: Bundle-HAS-01-Presc-Pantoprazole-DC.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 284, column 229: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
 ERROR: Bundle-HAS-01-Presc-Pantoprazole-MV.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 284, column 113: The link 'Patient/14602' for "Patient/14602" cannot be resolved
@@ -356,36 +308,6 @@ ERROR: Bundle-Presc-PerfGl-NaCl-KCl-500ml.html#/html/body/div/div/div/div/div/di
 ERROR: Bundle-Presc-PerfGl-NaCl-KCl-500ml.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 283, column 5287: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
 ERROR: Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 283, column 2571: The link 'Patient/14602' for "Patient/14602" cannot be resolved
 ERROR: Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 283, column 2687: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
-ERROR: Group-InLine-patient-group-01.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 283, column 228: The link 'Patient/14602' for "Patient/14602" cannot be resolved
-ERROR: Group-InLine-patient-group-01.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 283, column 336: The link 'Patient/14603' for "Patient/14603" cannot be resolved
-ERROR: Group-InLine-patient-group-01.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 283, column 444: The link 'Patient/14604' for "Patient/14604" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 541: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 641: The link 'Patient/14603' for "Patient/14603" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 283, column 827: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Substit.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 527: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Substit.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 627: The link 'Patient/14604' for "Patient/14604" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-Substit.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 283, column 813: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 529: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 629: The link 'Patient/14602' for "Patient/14602" cannot be resolved
-ERROR: MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 283, column 815: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
-ERROR: MedicationDispense-Disp-EFFERALGAN-presc-DC.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 627: The link 'Patient/14602' for "Patient/14602" cannot be resolved
-ERROR: MedicationDispense-Disp-EFFERALGAN-presc-DC.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 283, column 813: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
-ERROR: MedicationDispense-Disp-EFFERALGAN.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 609: The link 'Patient/14602' for "Patient/14602" cannot be resolved
-ERROR: MedicationDispense-Disp-EFFERALGAN.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 283, column 795: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 1495: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 1595: The link 'Group/InLine-patient-group01' for "Group/InLine-patient-group01" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-1.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 283, column 1811: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-2.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 497: The link 'Medication/InLine-med-DOLIPRANE' for "Medication/InLine-med-DOLIPRANE" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-2.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 597: The link 'Group/InLine-patient-group01' for "Group/InLine-patient-group01" cannot be resolved
-ERROR: MedicationDispense-Disp-group01-2.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 283, column 1812: The link 'Practitioner/smart-Practitioner-7148xxxx' for "Practitioner/smart-Practitioner-7148xxxx" cannot be resolved
-ERROR: MedicationRequest-InLine-Presc-EFFERALGAN.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 677: The link 'Patient/14602' for "Patient/14602" cannot be resolved
-ERROR: MedicationRequest-InLine-Presc-EFFERALGAN.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 793: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
-ERROR: MedicationRequest-InLine-presc-EFFERALGAN2.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 648: The link 'Patient/14604' for "Patient/14604" cannot be resolved
-ERROR: MedicationRequest-InLine-presc-EFFERALGAN2.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 764: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
-ERROR: MedicationRequest-InLine-presc-Paracetamol1.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 638: The link 'Patient/14602' for "Patient/14602" cannot be resolved
-ERROR: MedicationRequest-InLine-presc-Paracetamol1.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 754: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
-ERROR: MedicationRequest-InLine-presc-Paracetamol2.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 638: The link 'Patient/14603' for "Patient/14603" cannot be resolved
-ERROR: MedicationRequest-InLine-presc-Paracetamol2.html#/html/body/div/div/div/div/div/div/p/a at Line 283, column 754: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
 ERROR: PN13-exemples-intro.html#/html/body/div/div/div/div/div/ul/li/a at Line 264, column 8: The link 'PN13-prescription-MV' for "Prescritpion PN13 médicament virtuel" cannot be resolved
 ERROR: StructureDefinition-fr-posologie.html#/html/body/div/div/div/div/div/p/a at Line 1876, column 97: The link 'StructureDefinition-fr-posologie.xlsx' for "Excel" cannot be resolved
 ERROR: prescription-Exemples.html#/html/body/div/div/div/div/div/ul/li/a at Line 302, column 247: The link 'prescription-Exemples.html#perfusion-et-seringues-électriques' for "Perfusions et seringues électriques" cannot be resolved (valid targets: 53 targets)
@@ -455,7 +377,6 @@ ERROR: Bundle/HAS-03-Presc-INNOHEP: Bundle.entry[0].resource/*MedicationRequest/
 ERROR: Bundle/HAS-03-Presc-INNOHEP: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-3-Presc-INNOHEP*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-03-Presc-INNOHEP: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-3-Presc-INNOHEP*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 ERROR: Bundle/HAS-03-Presc-INNOHEP: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-3-Presc-INNOHEP*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie sous-cutanée' for http://standardterms.edqm.eu#20066000. Valid display is 'Subcutaneous use' (for the language(s) 'fr-FR')
-WARNING: Bundle/HAS-03-Presc-INNOHEP: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-3-Presc-INNOHEP*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-03-Presc-INNOHEP: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-03-Presc-INNOHEP: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-03-Presc-INNOHEP: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -476,7 +397,6 @@ ERROR: Bundle/HAS-04b-Presc-DAFALGANCODEINE: Bundle.entry[0].resource/*Medicatio
 ERROR: Bundle/HAS-04b-Presc-DAFALGANCODEINE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4b-Presc-DAFALGANCODEINE*/.subject: Unable to resolve resource with reference 'Patient/14602'
 WARNING: Bundle/HAS-04b-Presc-DAFALGANCODEINE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4b-Presc-DAFALGANCODEINE*/.requester.identifier.system: No definition could be found for URL value 'urn:oid:1.2.250.1.71.4.2.1'
 WARNING: Bundle/HAS-04b-Presc-DAFALGANCODEINE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4b-Presc-DAFALGANCODEINE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-04b-Presc-DAFALGANCODEINE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4b-Presc-DAFALGANCODEINE*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-04b-Presc-DAFALGANCODEINE: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-04b-Presc-DAFALGANCODEINE: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-04b-Presc-DAFALGANCODEINE: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -500,7 +420,6 @@ ERROR: Bundle/HAS-05b-Presc-ACTISKENAN: Bundle.entry[0].resource/*MedicationRequ
 ERROR: Bundle/HAS-05b-Presc-ACTISKENAN: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-5b-Presc-ACTISKENAN*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-05b-Presc-ACTISKENAN: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-5b-Presc-ACTISKENAN*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/HAS-05b-Presc-ACTISKENAN: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-5b-Presc-ACTISKENAN*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-05b-Presc-ACTISKENAN: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-5b-Presc-ACTISKENAN*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-05b-Presc-ACTISKENAN: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-05b-Presc-ACTISKENAN: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-05b-Presc-ACTISKENAN: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -608,7 +527,6 @@ ERROR: Bundle/HAS-11-2-Presc-EVRA: Bundle.entry[0].resource/*MedicationRequest/m
 ERROR: Bundle/HAS-11-2-Presc-EVRA: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-11-2-Presc-EVRA*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-11-2-Presc-EVRA: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-11-2-Presc-EVRA*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/HAS-11-2-Presc-EVRA: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-11-2-Presc-EVRA*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-11-2-Presc-EVRA: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-11-2-Presc-EVRA*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-11-2-Presc-EVRA: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-11-2-Presc-EVRA: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-11-2-Presc-EVRA: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -620,7 +538,6 @@ ERROR: Bundle/HAS-12-1-Presc-BEPANTHEN: Bundle.entry[0].resource/*MedicationRequ
 ERROR: Bundle/HAS-12-1-Presc-BEPANTHEN: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-12-1-Presc-BEPANTHEN*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-12-1-Presc-BEPANTHEN: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-12-1-Presc-BEPANTHEN*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/HAS-12-1-Presc-BEPANTHEN: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-12-1-Presc-BEPANTHEN*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-12-1-Presc-BEPANTHEN: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-12-1-Presc-BEPANTHEN*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-12-1-Presc-BEPANTHEN: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-12-1-Presc-BEPANTHEN: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-12-1-Presc-BEPANTHEN: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -675,7 +592,6 @@ ERROR: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRe
 ERROR: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -845,7 +761,6 @@ ERROR: Bundle/HAS-25-NOVORAPID: Bundle.entry[0].resource/*MedicationRequest/medi
 ERROR: Bundle/HAS-25-NOVORAPID: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-25-NOVORAPID*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-25-NOVORAPID: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-25-NOVORAPID*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/HAS-25-NOVORAPID: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-25-NOVORAPID*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-25-NOVORAPID: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-25-NOVORAPID*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-25-NOVORAPID: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-25-NOVORAPID: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-25-NOVORAPID: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -870,7 +785,6 @@ ERROR: Bundle/HAS-27-1-presc-GLUCOPHAGE: Bundle.entry[0].resource/*MedicationReq
 ERROR: Bundle/HAS-27-1-presc-GLUCOPHAGE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-27-1-presc-GLUCOPHAGE*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-27-1-presc-GLUCOPHAGE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-27-1-presc-GLUCOPHAGE*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/HAS-27-1-presc-GLUCOPHAGE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-27-1-presc-GLUCOPHAGE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-27-1-presc-GLUCOPHAGE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-27-1-presc-GLUCOPHAGE*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-27-1-presc-GLUCOPHAGE: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-27-1-presc-GLUCOPHAGE: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-27-1-presc-GLUCOPHAGE: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -896,7 +810,6 @@ ERROR: Bundle/HAS-28-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/
 ERROR: Bundle/HAS-28-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-28-Presc-LOVENOX*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie sous-cutanée' for http://standardterms.edqm.eu#20066000. Valid display is 'Subcutaneous use' (for the language(s) 'fr-FR')
 ERROR: Bundle/HAS-28-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-28-Presc-LOVENOX*/.dosageInstruction[1].route.coding[0].display: Wrong Display Name 'Voie sous-cutanée' for http://standardterms.edqm.eu#20066000. Valid display is 'Subcutaneous use' (for the language(s) 'fr-FR')
 WARNING: Bundle/HAS-28-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-28-Presc-LOVENOX*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-28-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-28-Presc-LOVENOX*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-28-Presc-LOVENOX: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-28-Presc-LOVENOX: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-28-Presc-LOVENOX: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -909,7 +822,6 @@ ERROR: Bundle/HAS-29-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/
 ERROR: Bundle/HAS-29-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-29-Presc-LOVENOX*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 ERROR: Bundle/HAS-29-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-29-Presc-LOVENOX*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie sous-cutanée' for http://standardterms.edqm.eu#20066000. Valid display is 'Subcutaneous use' (for the language(s) 'fr-FR')
 WARNING: Bundle/HAS-29-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-29-Presc-LOVENOX*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-29-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-29-Presc-LOVENOX*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-29-Presc-LOVENOX: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-29-Presc-LOVENOX: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-29-Presc-LOVENOX: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -946,7 +858,6 @@ ERROR: Bundle/HAS-31-Presc-DUROGESIC: Bundle.entry[0].resource/*MedicationReques
 ERROR: Bundle/HAS-31-Presc-DUROGESIC: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-31-Presc-DUROGESIC*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-31-Presc-DUROGESIC: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-31-Presc-DUROGESIC*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/HAS-31-Presc-DUROGESIC: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-31-Presc-DUROGESIC*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-31-Presc-DUROGESIC: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-31-Presc-DUROGESIC*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-31-Presc-DUROGESIC: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-31-Presc-DUROGESIC: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-31-Presc-DUROGESIC: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -959,7 +870,6 @@ ERROR: Bundle/HAS-32-1-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationReques
 ERROR: Bundle/HAS-32-1-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-1-Presc-LOVENOX*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 ERROR: Bundle/HAS-32-1-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-1-Presc-LOVENOX*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie sous-cutanée' for http://standardterms.edqm.eu#20066000. Valid display is 'Subcutaneous use' (for the language(s) 'fr-FR')
 WARNING: Bundle/HAS-32-1-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-1-Presc-LOVENOX*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-32-1-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-1-Presc-LOVENOX*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-32-1-Presc-LOVENOX: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-32-1-Presc-LOVENOX: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-32-1-Presc-LOVENOX: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -972,7 +882,6 @@ ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*Medication
 ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie inhalée' for http://standardterms.edqm.eu#20020000. Valid display is 'Inhalation use' (for the language(s) 'fr-FR')
 WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -984,7 +893,6 @@ ERROR: Bundle/HAS-33-Presc-VERSATIS: Bundle.entry[0].resource/*MedicationRequest
 ERROR: Bundle/HAS-33-Presc-VERSATIS: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-33-Presc-VERSATIS*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-33-Presc-VERSATIS: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-33-Presc-VERSATIS*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/HAS-33-Presc-VERSATIS: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-33-Presc-VERSATIS*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-33-Presc-VERSATIS: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-33-Presc-VERSATIS*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/HAS-33-Presc-VERSATIS: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-33-Presc-VERSATIS: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-33-Presc-VERSATIS: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -998,7 +906,6 @@ ERROR: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[0].resource/*M
 WARNING: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-METFORMINE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-METFORMINE*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-METFORMINE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-METFORMINE*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-GLICLAZIDE*/.medication.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
 ERROR: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[1]: Bundle entry missing fullUrl
 ERROR: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-GLICLAZIDE*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
@@ -1008,7 +915,6 @@ ERROR: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*M
 WARNING: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-GLICLAZIDE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-GLICLAZIDE*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-GLICLAZIDE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-GLICLAZIDE*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[2].resource/*RequestGroup/requestgroup-Presc-METFORMINE-GLICLAZIDE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[2]: Bundle entry missing fullUrl
 ERROR: Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE: Bundle.entry[2].resource/*RequestGroup/requestgroup-Presc-METFORMINE-GLICLAZIDE*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
@@ -1033,7 +939,6 @@ ERROR: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[0].resource
 WARNING: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-METHOTREXATE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-METHOTREXATE*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie intramusculaire' for http://standardterms.edqm.eu#20035000. Valid display is 'Intramuscular use' (for the language(s) 'fr-FR')
 WARNING: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-METHOTREXATE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-METHOTREXATE*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-LEDERFOLINE*/.medication.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
 ERROR: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[1]: Bundle entry missing fullUrl
 ERROR: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-LEDERFOLINE*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
@@ -1043,7 +948,6 @@ ERROR: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[1].resource
 WARNING: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-LEDERFOLINE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-LEDERFOLINE*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-LEDERFOLINE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-LEDERFOLINE*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[2].resource/*RequestGroup/requestgroup-Presc-METHOTREXATE-LEDERFOLINE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[2]: Bundle entry missing fullUrl
 ERROR: Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE: Bundle.entry[2].resource/*RequestGroup/requestgroup-Presc-METHOTREXATE-LEDERFOLINE*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
@@ -1067,7 +971,6 @@ ERROR: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[0].resource/*
 WARNING: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Sucralfate*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescription-ID'
 ERROR: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Sucralfate*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Sucralfate*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
-WARNING: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Sucralfate*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/codeSMS| was not found
 WARNING: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Paracetamol*/.medication.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
 ERROR: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[1]: Bundle entry missing fullUrl
 ERROR: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Paracetamol*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
@@ -1077,7 +980,6 @@ ERROR: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[1].resource/*
 WARNING: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Paracetamol*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescription-ID'
 ERROR: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Paracetamol*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Paracetamol*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
-WARNING: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-MultiLine-Presc-Paracetamol*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/codeSMS| was not found
 WARNING: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[2].resource/*RequestGroup/requestgroup-Presc-Sucralfate-Paracetamol*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescription-ID'
 ERROR: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[2]: Bundle entry missing fullUrl
 ERROR: Bundle/MultiLine-Presc-Sucralfate-Paracetamol: Bundle.entry[2].resource/*RequestGroup/requestgroup-Presc-Sucralfate-Paracetamol*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
@@ -1138,7 +1040,6 @@ WARNING: Bundle/Presc-CLARADOL-DoseDiffParHoraire: Bundle.entry[0].resource/*Med
 ERROR: Bundle/Presc-CLARADOL-DoseDiffParHoraire: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-DoseDiffPraHoraire*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 ERROR: Bundle/Presc-CLARADOL-DoseDiffParHoraire: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-DoseDiffPraHoraire*/.dosageInstruction[1].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/Presc-CLARADOL-DoseDiffParHoraire: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-DoseDiffPraHoraire*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/Presc-CLARADOL-DoseDiffParHoraire: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-DoseDiffPraHoraire*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/Presc-CLARADOL-DoseDiffParHoraire: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/Presc-CLARADOL-DoseDiffParHoraire: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/Presc-CLARADOL-DoseDiffParHoraire: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -1152,7 +1053,6 @@ ERROR: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resou
 WARNING: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -1166,7 +1066,6 @@ ERROR: Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept: Bundle.entry[0].resource/*
 WARNING: Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-TL6h-MedCodeableConcept*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-TL6h-MedCodeableConcept*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-TL6h-MedCodeableConcept*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-TL6h-MedCodeableConcept*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -1180,7 +1079,6 @@ ERROR: Bundle/Presc-CLARADOL-TLMardisVendredis: Bundle.entry[0].resource/*Medica
 WARNING: Bundle/Presc-CLARADOL-TLMardisVendredis: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-TLMardisVendredis*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/Presc-CLARADOL-TLMardisVendredis: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-TLMardisVendredis*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/Presc-CLARADOL-TLMardisVendredis: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-TLMardisVendredis*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/Presc-CLARADOL-TLMardisVendredis: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-TLMardisVendredis*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/Presc-CLARADOL-TLMardisVendredis: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/Presc-CLARADOL-TLMardisVendredis: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/Presc-CLARADOL-TLMardisVendredis: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -1195,7 +1093,6 @@ WARNING: Bundle/Presc-CODOLIPRANE-MedCodeableConcept: Bundle.entry[0].resource/*
 ERROR: Bundle/Presc-CODOLIPRANE-MedCodeableConcept: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CODOLIPRANE-MedCodeableConcept*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 INFORMATION: Bundle/Presc-CODOLIPRANE-MedCodeableConcept: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CODOLIPRANE-MedCodeableConcept*/.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
 WARNING: Bundle/Presc-CODOLIPRANE-MedCodeableConcept: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CODOLIPRANE-MedCodeableConcept*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/Presc-CODOLIPRANE-MedCodeableConcept: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CODOLIPRANE-MedCodeableConcept*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/Presc-CODOLIPRANE-MedCodeableConcept: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/Presc-CODOLIPRANE-MedCodeableConcept: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/Presc-CODOLIPRANE-MedCodeableConcept: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -1683,7 +1580,6 @@ WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.e
 WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-METFORMINE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-METFORMINE*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-METFORMINE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-METFORMINE*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[2].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-GLICLAZIDE*/.medication.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
 ERROR: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[2].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-GLICLAZIDE*/.subject: Unable to resolve resource with reference '#patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE'
 ERROR: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[2].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-GLICLAZIDE*/.subject: Constraint failed: ref-1: 'SHALL have a contained resource if a local reference is provided (reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids')))' (url: patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE; ids: ) (log:  (url: patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE; ids: ))
@@ -1694,7 +1590,6 @@ WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.e
 WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[2].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-GLICLAZIDE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[2].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-GLICLAZIDE*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[2].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-GLICLAZIDE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[2].resource/*MedicationRequest/medicationrequest-Trad-Presc-Alt-GLICLAZIDE*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/UCD| was not found
 WARNING: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[3].resource/*RequestGroup/requestgroup-Trad-Presc-Alt-METFORMINE-GLICLAZIDE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[3].resource/*RequestGroup/requestgroup-Trad-Presc-Alt-METFORMINE-GLICLAZIDE*/.subject: Unable to resolve resource with reference '#patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE'
 ERROR: Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE: Bundle.entry[3].resource/*RequestGroup/requestgroup-Trad-Presc-Alt-METFORMINE-GLICLAZIDE*/.subject: Constraint failed: ref-1: 'SHALL have a contained resource if a local reference is provided (reference.startsWith('#').not() or (reference.substring(1).trace('url') in %rootResource.contained.id.trace('ids')))' (url: patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE; ids: ) (log:  (url: patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE; ids: ))
@@ -1766,7 +1661,6 @@ WARNING: Bundle/TradPN13FHIR-Presc-Morphine-PCA: Bundle.entry[1].resource/*Medic
 ERROR: Bundle/TradPN13FHIR-Presc-Morphine-PCA: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Trad-Presc-Morphine-PCA*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie intraveineuse' for http://standardterms.edqm.eu#20045000. Valid display is 'Intravenous use' (for the language(s) 'fr-FR')
 ERROR: Bundle/TradPN13FHIR-Presc-Morphine-PCA: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Trad-Presc-Morphine-PCA*/.dosageInstruction[1].route.coding[0].display: Wrong Display Name 'Voie intraveineuse' for http://standardterms.edqm.eu#20045000. Valid display is 'Intravenous use' (for the language(s) 'fr-FR')
 WARNING: Bundle/TradPN13FHIR-Presc-Morphine-PCA: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Trad-Presc-Morphine-PCA*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
-WARNING: Bundle/TradPN13FHIR-Presc-Morphine-PCA: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Trad-Presc-Morphine-PCA*/.medication.ofType(CodeableConcept): Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0' because the code system http://data.esante.gouv.fr/ansm/medicament/codeSMS| was not found
 WARNING: Bundle/TradPN13FHIR-Presc-Morphine-PCA: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/TradPN13FHIR-Presc-Morphine-PCA: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/TradPN13FHIR-Presc-Morphine-PCA: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
@@ -1937,33 +1831,6 @@ WARNING: CodeSystem/fr-additional-action-relationship-type: CodeSystem: Publishe
 == fsh-generated/resources/CodeSystem-fr-additional-when-codes.json ==
 INFORMATION: CodeSystem/fr-additional-when-codes: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/fr-additional-when-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-fr-document-type.json ==
-INFORMATION: CodeSystem/fr-document-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/fr-document-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-INFORMATION: CodeSystem/fr-document-type: CodeSystem.property[0]: This property has only a code ('isMedicationReconciliation') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-INFORMATION: CodeSystem/fr-document-type: CodeSystem.property[1]: This property has only a code ('isCurrentMedication') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== fsh-generated/resources/CodeSystem-fr-editorial-status.json ==
-INFORMATION: CodeSystem/fr-editorial-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/fr-editorial-status: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-fr-medication-history-source-type.json ==
-INFORMATION: CodeSystem/fr-medication-history-source-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/fr-medication-history-source-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-fr-medication-reconciliation-discrepancy.json ==
-INFORMATION: CodeSystem/fr-medication-reconciliation-discrepancy: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/fr-medication-reconciliation-discrepancy: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-INFORMATION: CodeSystem/fr-medication-reconciliation-discrepancy: CodeSystem.property[0]: This property has only a code ('isQualified') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
-== fsh-generated/resources/CodeSystem-fr-medication-reconciliation-outcome.json ==
-INFORMATION: CodeSystem/fr-medication-reconciliation-outcome: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/fr-medication-reconciliation-outcome: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-fr-medication-reconciliation-resolution.json ==
-INFORMATION: CodeSystem/fr-medication-reconciliation-resolution: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/fr-medication-reconciliation-resolution: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-fr-medication-reconciliation-status.json ==
-INFORMATION: CodeSystem/fr-medication-reconciliation-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/fr-medication-reconciliation-status: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-fr-medication-reconciliation-type.json ==
-INFORMATION: CodeSystem/fr-medication-reconciliation-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/fr-medication-reconciliation-type: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/CodeSystem-fr-note-scope-codes.json ==
 INFORMATION: CodeSystem/fr-note-scope-codes: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 ERROR: CodeSystem/fr-note-scope-codes: CodeSystem.count: The code system is complete, but the number of concepts (9) does not match the stated total number (10)
@@ -1971,15 +1838,6 @@ WARNING: CodeSystem/fr-note-scope-codes: CodeSystem: Published code systems SHOU
 == fsh-generated/resources/CodeSystem-fr-uf-role-codes.json ==
 INFORMATION: CodeSystem/fr-uf-role-codes: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 WARNING: CodeSystem/fr-uf-role-codes: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-medication-ingredient-strength-codes.json ==
-ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/CodeSystem/medication-ingredientstrength'): Conformance resource /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-medication-ingredient-strength-codes.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/medication-ingredient-strength-codes) does not match the URL (http://hl7.org/fhir/CodeSystem/medication-ingredientstrength). Use the special-url parameter if you really mean for it not to match
-ERROR: CodeSystem/medication-ingredient-strength-codes: CodeSystem: CodeSystem.description: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1)
-WARNING: CodeSystem/medication-ingredient-strength-codes: CodeSystem: The nominated WG 'phx' means that the publisher should be 'HL7 International / Pharmacy' but 'Interop'Santé' was found
-WARNING: CodeSystem/medication-ingredient-strength-codes: CodeSystem: The nominated WG 'phx' means that the contact url should be 'http://www.hl7.org/Special/committees/medication' but it was not found
-INFORMATION: CodeSystem/medication-ingredient-strength-codes: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
-ERROR: CodeSystem/medication-ingredient-strength-codes: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
-ERROR: CodeSystem/medication-ingredient-strength-codes: CodeSystem: Code systems published by HL7 SHALL conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
-ERROR: /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/CodeSystem-medication-ingredient-strength-codes: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/medication-ingredient-strength-codes vs http://hl7.org/fhir/CodeSystem/medication-ingredientstrength
 == fsh-generated/resources/ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.json ==
 ERROR: ConceptMap.where(url = 'https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap'): Conformance resource /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-FreeSetCIODC-Forme-ConceptMap) does not match the URL (https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap). Use the special-url parameter if you really mean for it not to match
 ERROR: ConceptMap.where(url = 'https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap'): Conformance resource /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-FreeSetCIODC-Forme-ConceptMap) does not match the URL (https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap). Use the special-url parameter if you really mean for it not to match
@@ -3515,119 +3373,9 @@ WARNING: ConceptMap/PN13-FHIR-prescmed-practitioner-identite-conceptmap: Concept
 WARNING: ConceptMap/PN13-FHIR-prescmed-practitioner-identite-conceptmap: ConceptMap.group[3]: No Source Code System, so the source codes cannot be checked
 WARNING: ConceptMap/PN13-FHIR-prescmed-practitioner-identite-conceptmap: ConceptMap.group[3]: No Target Code System, so the target codes cannot be checked
 WARNING: ConceptMap/PN13-FHIR-prescmed-practitioner-identite-conceptmap: ConceptMap: Published concept maps SHOULD conform to the ShareableConceptMap profile, which says that the element ConceptMap.experimental is mandatory, but it is not present
-== fsh-generated/resources/Group-InLine-patient-group-01.json ==
-ERROR: Group/InLine-patient-group-01: Group.member[0].entity: Unable to resolve resource with reference 'Patient/14602'
-ERROR: Group/InLine-patient-group-01: Group.member[1].entity: Unable to resolve resource with reference 'Patient/14603'
-ERROR: Group/InLine-patient-group-01: Group.member[2].entity: Unable to resolve resource with reference 'Patient/14604'
-ERROR: Group.text.div: Hyperlink 'Patient/14602' at 'div/blockquote/p/a' for 'Patient/14602' does not resolve
-ERROR: Group.text.div: Hyperlink 'Patient/14603' at 'div/blockquote/p/a' for 'Patient/14603' does not resolve
-ERROR: Group.text.div: Hyperlink 'Patient/14604' at 'div/blockquote/p/a' for 'Patient/14604' does not resolve
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.eprescription.json ==
 ERROR: ImplementationGuide/ans.fhir.fr.eprescription: ImplementationGuide.definition.extension[28].url: No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
 WARNING: ImplementationGuide/ans.fhir.fr.eprescription: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
-== fsh-generated/resources/Medication-InLine-DOLIPRANE.json ==
-WARNING: Medication/InLine-DOLIPRANE: Medication.code.coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-ERROR: Medication/InLine-DOLIPRANE: Medication.form.coding[0].display: Wrong Display Name 'Gélule' for http://standardterms.edqm.eu#10210000. Valid display is 'Capsule, hard' (for the language(s) 'fr-FR')
-WARNING: Medication/InLine-DOLIPRANE: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
-== fsh-generated/resources/Medication-InLine-med-EFFERALGAN.json ==
-WARNING: Medication/InLine-med-EFFERALGAN: Medication.code.coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-ERROR: Medication/InLine-med-EFFERALGAN: Medication.form.coding[0].display: Wrong Display Name 'Comprimé' for http://standardterms.edqm.eu#10219000. Valid display is 'Tablet' (for the language(s) 'fr-FR')
-WARNING: Medication/InLine-med-EFFERALGAN: Medication.ingredient[0].item.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
-== fsh-generated/resources/Medication-InLine-med-Paracetamol.json ==
-WARNING: Medication/InLine-med-Paracetamol: Medication.code.coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
-== fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-Compl-presc-DC.json ==
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.medication.ofType(Reference): Unable to resolve resource with reference 'Medication/InLine-med-DOLIPRANE'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.subject: Unable to resolve resource with reference 'Patient/14603'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
-INFORMATION: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.type.coding[0].display: 'Refill - Complete' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-ActCode has no Display Names for the language fr-FR
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationDispense/Disp-DOLIPRANE-Refill-Compl-presc-DC: MedicationDispense.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
-ERROR: MedicationDispense.text.div: Hyperlink 'Medication/InLine-med-DOLIPRANE' at 'div/p/a' for 'Medication/InLine-med-DOLIPRANE' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Patient/14603' at 'div/p/a' for 'Patient/14603' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
-== fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-Substit.json ==
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Substit: MedicationDispense.medication.ofType(Reference): Unable to resolve resource with reference 'Medication/InLine-med-DOLIPRANE'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Substit: MedicationDispense.subject: Unable to resolve resource with reference 'Patient/14604'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Substit: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Substit: MedicationDispense.type.coding[0].display: Wrong Display Name 'Refill - Part' for http://terminology.hl7.org/CodeSystem/v3-ActCode#RFP. There are no valid display names found for language(s) 'fr-FR'. Default display is 'Refill - Part Fill'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-Substit: MedicationDispense.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationDispense/Disp-DOLIPRANE-Refill-Substit: MedicationDispense.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
-ERROR: MedicationDispense.text.div: Hyperlink 'Medication/InLine-med-DOLIPRANE' at 'div/p/a' for 'Medication/InLine-med-DOLIPRANE' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Patient/14604' at 'div/p/a' for 'Patient/14604' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
-== fsh-generated/resources/MedicationDispense-Disp-DOLIPRANE-Refill-presc-DC.json ==
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC: MedicationDispense.medication.ofType(Reference): Unable to resolve resource with reference 'Medication/InLine-med-DOLIPRANE'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC: MedicationDispense.subject: Unable to resolve resource with reference 'Patient/14602'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC: MedicationDispense.type.coding[0].display: Wrong Display Name 'Refill - Part' for http://terminology.hl7.org/CodeSystem/v3-ActCode#RFP. There are no valid display names found for language(s) 'fr-FR'. Default display is 'Refill - Part Fill'
-ERROR: MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC: MedicationDispense.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationDispense/Disp-DOLIPRANE-Refill-presc-DC: MedicationDispense.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
-ERROR: MedicationDispense.text.div: Hyperlink 'Medication/InLine-med-DOLIPRANE' at 'div/p/a' for 'Medication/InLine-med-DOLIPRANE' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Patient/14602' at 'div/p/a' for 'Patient/14602' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
-== fsh-generated/resources/MedicationDispense-Disp-EFFERALGAN.json ==
-ERROR: MedicationDispense/Disp-EFFERALGAN: MedicationDispense.subject: Unable to resolve resource with reference 'Patient/14602'
-ERROR: MedicationDispense/Disp-EFFERALGAN: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
-ERROR: MedicationDispense/Disp-EFFERALGAN: MedicationDispense.authorizingPrescription[0]: Unable to resolve resource with reference 'MedicationRequest/medicationrequest-Presc-EFFERALGAN'
-INFORMATION: MedicationDispense/Disp-EFFERALGAN: MedicationDispense.type.coding[0].display: 'First Fill - Complete' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-ActCode has no Display Names for the language fr-FR
-ERROR: MedicationDispense/Disp-EFFERALGAN: MedicationDispense.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationDispense/Disp-EFFERALGAN: MedicationDispense.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
-ERROR: MedicationDispense.text.div: Hyperlink 'Patient/14602' at 'div/p/a' for 'Patient/14602' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
-== fsh-generated/resources/MedicationDispense-Disp-EFFERALGAN-presc-DC.json ==
-ERROR: MedicationDispense/Disp-EFFERALGAN-presc-DC: MedicationDispense.subject: Unable to resolve resource with reference 'Patient/14602'
-ERROR: MedicationDispense/Disp-EFFERALGAN-presc-DC: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
-INFORMATION: MedicationDispense/Disp-EFFERALGAN-presc-DC: MedicationDispense.type.coding[0].display: 'First Fill - Complete' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-ActCode has no Display Names for the language fr-FR
-ERROR: MedicationDispense/Disp-EFFERALGAN-presc-DC: MedicationDispense.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationDispense/Disp-EFFERALGAN-presc-DC: MedicationDispense.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
-ERROR: MedicationDispense.text.div: Hyperlink 'Patient/14602' at 'div/p/a' for 'Patient/14602' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
-== fsh-generated/resources/MedicationDispense-Disp-group01-1.json ==
-ERROR: MedicationDispense/Disp-group01-1: MedicationDispense: The extension http://hl7.org/fhir/StructureDefinition/event-basedOn is not allowed to be used at this point (this element is [MedicationDispense]; allowed for this version = e:Condition, e:ChargeItem, e:ClinicalImpression, e:Composition, e:Consent, e:Coverage, e:DetectedIssue, e:EpisodeOfCare, e:ExplanationOfBenefit, e:FamilyMemberHistory, e:ImmunizationEvaluation, e:InventoryReport, e:MedicationStatement, e:PaymentNotice, e:PaymentReconciliation)
-ERROR: MedicationDispense/Disp-group01-1: MedicationDispense.medication.ofType(Reference): Unable to resolve resource with reference 'Medication/InLine-med-DOLIPRANE'
-ERROR: MedicationDispense/Disp-group01-1: MedicationDispense.subject: Unable to resolve resource with reference 'Group/InLine-patient-group01'
-ERROR: MedicationDispense/Disp-group01-1: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
-ERROR: MedicationDispense/Disp-group01-1: MedicationDispense.type.coding[0].display: Wrong Display Name 'Refill - Part' for http://terminology.hl7.org/CodeSystem/v3-ActCode#RFP. There are no valid display names found for language(s) 'fr-FR'. Default display is 'Refill - Part Fill'
-ERROR: MedicationDispense.text.div: Hyperlink 'Medication/InLine-med-DOLIPRANE' at 'div/p/a' for 'Medication/InLine-med-DOLIPRANE' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Group/InLine-patient-group01' at 'div/p/a' for 'Group/InLine-patient-group01' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
-== fsh-generated/resources/MedicationDispense-Disp-group01-2.json ==
-ERROR: MedicationDispense/Disp-group01-2: MedicationDispense.medication.ofType(Reference): Unable to resolve resource with reference 'Medication/InLine-med-DOLIPRANE'
-ERROR: MedicationDispense/Disp-group01-2: MedicationDispense.subject: Unable to resolve resource with reference 'Group/InLine-patient-group01'
-ERROR: MedicationDispense/Disp-group01-2: MedicationDispense.performer[0].actor: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-7148xxxx'
-ERROR: MedicationDispense/Disp-group01-2: MedicationDispense.type.coding[0].display: Wrong Display Name 'Refill - Part' for http://terminology.hl7.org/CodeSystem/v3-ActCode#RFP. There are no valid display names found for language(s) 'fr-FR'. Default display is 'Refill - Part Fill'
-ERROR: MedicationDispense.text.div: Hyperlink 'Medication/InLine-med-DOLIPRANE' at 'div/p/a' for 'Medication/InLine-med-DOLIPRANE' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Group/InLine-patient-group01' at 'div/p/a' for 'Group/InLine-patient-group01' does not resolve
-ERROR: MedicationDispense.text.div: Hyperlink 'Practitioner/smart-Practitioner-7148xxxx' at 'div/table/tr/td/a' for 'Practitioner/smart-Practitioner-7148xxxx' does not resolve
-== fsh-generated/resources/MedicationRequest-InLine-Presc-EFFERALGAN.json ==
-ERROR: MedicationRequest/InLine-Presc-EFFERALGAN: MedicationRequest.subject: Unable to resolve resource with reference 'Patient/14602'
-ERROR: MedicationRequest/InLine-Presc-EFFERALGAN: MedicationRequest.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
-WARNING: MedicationRequest/InLine-Presc-EFFERALGAN: MedicationRequest.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
-ERROR: MedicationRequest/InLine-Presc-EFFERALGAN: MedicationRequest.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationRequest/InLine-Presc-EFFERALGAN: MedicationRequest.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
-ERROR: MedicationRequest.text.div: Hyperlink 'Patient/14602' at 'div/p/a' for 'Patient/14602' does not resolve
-ERROR: MedicationRequest.text.div: Hyperlink 'Practitioner/smart-Practitioner-71482713' at 'div/p/a' for 'Practitioner/smart-Practitioner-71482713' does not resolve
-== fsh-generated/resources/MedicationRequest-InLine-presc-EFFERALGAN2.json ==
-ERROR: MedicationRequest/InLine-presc-EFFERALGAN2: MedicationRequest.subject: Unable to resolve resource with reference 'Patient/14604'
-ERROR: MedicationRequest/InLine-presc-EFFERALGAN2: MedicationRequest.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
-ERROR: MedicationRequest/InLine-presc-EFFERALGAN2: MedicationRequest.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationRequest/InLine-presc-EFFERALGAN2: MedicationRequest.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
-ERROR: MedicationRequest.text.div: Hyperlink 'Patient/14604' at 'div/p/a' for 'Patient/14604' does not resolve
-ERROR: MedicationRequest.text.div: Hyperlink 'Practitioner/smart-Practitioner-71482713' at 'div/p/a' for 'Practitioner/smart-Practitioner-71482713' does not resolve
-== fsh-generated/resources/MedicationRequest-InLine-presc-Paracetamol1.json ==
-ERROR: MedicationRequest/InLine-presc-Paracetamol1: MedicationRequest.subject: Unable to resolve resource with reference 'Patient/14602'
-ERROR: MedicationRequest/InLine-presc-Paracetamol1: MedicationRequest.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
-ERROR: MedicationRequest/InLine-presc-Paracetamol1: MedicationRequest.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationRequest/InLine-presc-Paracetamol1: MedicationRequest.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
-ERROR: MedicationRequest.text.div: Hyperlink 'Patient/14602' at 'div/p/a' for 'Patient/14602' does not resolve
-ERROR: MedicationRequest.text.div: Hyperlink 'Practitioner/smart-Practitioner-71482713' at 'div/p/a' for 'Practitioner/smart-Practitioner-71482713' does not resolve
-== fsh-generated/resources/MedicationRequest-InLine-presc-Paracetamol2.json ==
-ERROR: MedicationRequest/InLine-presc-Paracetamol2: MedicationRequest.subject: Unable to resolve resource with reference 'Patient/14603'
-ERROR: MedicationRequest/InLine-presc-Paracetamol2: MedicationRequest.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
-ERROR: MedicationRequest/InLine-presc-Paracetamol2: MedicationRequest.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
-INFORMATION: MedicationRequest/InLine-presc-Paracetamol2: MedicationRequest.dosageInstruction[0].doseAndRate[0].type: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/dose-rate-type|1.0.0
-ERROR: MedicationRequest.text.div: Hyperlink 'Patient/14603' at 'div/p/a' for 'Patient/14603' does not resolve
-ERROR: MedicationRequest.text.div: Hyperlink 'Practitioner/smart-Practitioner-71482713' at 'div/p/a' for 'Practitioner/smart-Practitioner-71482713' does not resolve
 == fsh-generated/resources/StructureDefinition-FrRangeMedication.json ==
 == fsh-generated/resources/StructureDefinition-FrRatioMedication.json ==
 == fsh-generated/resources/StructureDefinition-FrSimpleQuantityMedication.json ==
@@ -3638,22 +3386,11 @@ ERROR: StructureDefinition/fr-additional-action-relationship: StructureDefinitio
 == fsh-generated/resources/StructureDefinition-fr-additional-when-values.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-basis-of-dose-component.json ==
-== fsh-generated/resources/StructureDefinition-fr-current-medication-composition.json ==
-INFORMATION: StructureDefinition/fr-current-medication-composition: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
-ERROR: StructureDefinition/fr-current-medication-composition: StructureDefinition: Constraint failed: sdf-21: 'Default values can only be specified on specializations (differential.element.defaultValue.exists() implies (derivation = 'specialization'))'
-ERROR: StructureDefinition/fr-current-medication-composition: StructureDefinition.differential.element[4]: The element definition for Composition.subject has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-current-medication-composition: StructureDefinition.differential.element[8]: The element definition for Composition.author has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-current-medication-composition: StructureDefinition.differential.element[11]: The element definition for Composition.section has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-current-medication-composition: StructureDefinition.differential.element[17]: The element definition for Composition.section.entry has a property meaningWhenMissing which is not allowed in a profile
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-composition'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-current-medication-medicationstatement.json ==
-ERROR: StructureDefinition/fr-current-medication-medicationstatement: StructureDefinition: Constraint failed: sdf-21: 'Default values can only be specified on specializations (differential.element.defaultValue.exists() implies (derivation = 'specialization'))'
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-current-medication-medicationstatement'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-drug-characteristic.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-fr-inpatient-medication-dispense.json ==
-INFORMATION: StructureDefinition/fr-inpatient-medication-dispense: StructureDefinition.snapshot.element[28].mapping[0].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-fr-inpatient-medicationrequest.json ==
+INFORMATION: StructureDefinition/fr-inpatient-medicationrequest: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+INFORMATION: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest'): The Implementation Guide contains no explicitly linked examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-is-vehicle.json ==
 == fsh-generated/resources/StructureDefinition-fr-ligne-prescription.json ==
 WARNING: StructureDefinition/fr-ligne-prescription: StructureDefinition.snapshot.element[0]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
@@ -3679,55 +3416,17 @@ WARNING: StructureDefinition/fr-ligne-prescription: StructureDefinition.differen
 WARNING: StructureDefinition/fr-ligne-prescription: StructureDefinition.differential.element[9]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
 WARNING: StructureDefinition/fr-ligne-prescription: StructureDefinition.differential.element[10]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
 == fsh-generated/resources/StructureDefinition-fr-medication.json ==
+WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-medication-compound.json ==
 INFORMATION: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound'): The Implementation Guide contains no explicitly linked examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-medication-history-composition.json ==
-INFORMATION: StructureDefinition/fr-medication-history-composition: StructureDefinition.snapshot.element[14].pattern.ofType(Coding).display: There are no valid display names found for the code http://loinc.org#10160-0 for language(s) 'fr'. The display is 'History of Medication use Narrative' the default language display
-WARNING: StructureDefinition/fr-medication-history-composition: StructureDefinition.snapshot.element[14].pattern.ofType(Coding): There are no valid display names found for the code http://loinc.org#10160-0 for language(s) 'fr'. The display is 'History of Medication use Narrative' the default language display (for 'http://loinc.org#10160-0')
-INFORMATION: StructureDefinition/fr-medication-history-composition: StructureDefinition.snapshot.element[65].fixed.ofType(Coding).display: There are no valid display names found for the code http://loinc.org#10160-0 for language(s) 'fr'. The display is 'History of Medication use Narrative' the default language display
-WARNING: StructureDefinition/fr-medication-history-composition: StructureDefinition.snapshot.element[65].fixed.ofType(Coding): There are no valid display names found for the code http://loinc.org#10160-0 for language(s) 'fr'. The display is 'History of Medication use Narrative' the default language display (for 'http://loinc.org#10160-0')
-INFORMATION: StructureDefinition/fr-medication-history-composition: StructureDefinition.differential.element[4].pattern.ofType(Coding).display: There are no valid display names found for the code http://loinc.org#10160-0 for language(s) 'fr'. The display is 'History of Medication use Narrative' the default language display
-WARNING: StructureDefinition/fr-medication-history-composition: StructureDefinition.differential.element[4].pattern.ofType(Coding): There are no valid display names found for the code http://loinc.org#10160-0 for language(s) 'fr'. The display is 'History of Medication use Narrative' the default language display (for 'http://loinc.org#10160-0')
-INFORMATION: StructureDefinition/fr-medication-history-composition: StructureDefinition.differential.element[18].fixed.ofType(Coding).display: There are no valid display names found for the code http://loinc.org#10160-0 for language(s) 'fr'. The display is 'History of Medication use Narrative' the default language display
-WARNING: StructureDefinition/fr-medication-history-composition: StructureDefinition.differential.element[18].fixed.ofType(Coding): There are no valid display names found for the code http://loinc.org#10160-0 for language(s) 'fr'. The display is 'History of Medication use Narrative' the default language display (for 'http://loinc.org#10160-0')
-ERROR: StructureDefinition/fr-medication-history-composition: StructureDefinition: Constraint failed: sdf-21: 'Default values can only be specified on specializations (differential.element.defaultValue.exists() implies (derivation = 'specialization'))'
-ERROR: StructureDefinition/fr-medication-history-composition: StructureDefinition.differential.element[14]: The element definition for Composition.section has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-medication-history-composition: StructureDefinition.differential.element[23]: The element definition for Composition.section.entry has a property meaningWhenMissing which is not allowed in a profile
-INFORMATION: StructureDefinition/fr-medication-history-composition: StructureDefinition.snapshot.element[65].fixed.ofType(Coding): The repeating element has a fixed. The fixed will apply to all the repeats (this has not been clear to all users)
-WARNING: StructureDefinition/fr-medication-history-composition: StructureDefinition.snapshot.element[65].fixed.ofType(Coding): For the complex type Coding, consider using a pattern rather than a fixed value to avoid over-constraining the instance
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-composition'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-medication-history-medicationstatement.json ==
-ERROR: StructureDefinition/fr-medication-history-medicationstatement: StructureDefinition.differential.element[3]: The element definition for MedicationStatement.language has a property meaningWhenMissing which is not allowed in a profile
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-medicationstatement'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-medication-history-sources.json ==
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-history-sources'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-medication-noncompound.json ==
 INFORMATION: StructureDefinition/fr-medication-noncompound: StructureDefinition.differential.element[4].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 WARNING: StructureDefinition/fr-medication-noncompound: StructureDefinition.snapshot.element[0].constraint[5]: frmed-med-1: The left side is inherently a collection, and so the expression 'ingredient.item as Reference' may fail or return false if there is more than one item in the content being evaluated
 INFORMATION: StructureDefinition/fr-medication-noncompound: StructureDefinition.snapshot.element[14].slicing.discriminator[0]: The discriminator type 'pattern' is deprecated in R5+. For future compatibility, you could consider using type=value with a pattern[x] instead (if this is not an inherited slicing)
 INFORMATION: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound'): The Implementation Guide contains no explicitly linked examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-medication-reconciliation-composition.json ==
-ERROR: StructureDefinition/fr-medication-reconciliation-composition: StructureDefinition: Constraint failed: sdf-21: 'Default values can only be specified on specializations (differential.element.defaultValue.exists() implies (derivation = 'specialization'))'
-ERROR: StructureDefinition/fr-medication-reconciliation-composition: StructureDefinition.differential.element[7]: The element definition for Composition.author has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-medication-reconciliation-composition: StructureDefinition.differential.element[13]: The element definition for Composition.section has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-medication-reconciliation-composition: StructureDefinition.differential.element[14]: The element definition for Composition.section has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-medication-reconciliation-composition: StructureDefinition.differential.element[17]: The element definition for Composition.section.author has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-medication-reconciliation-composition: StructureDefinition.differential.element[23]: The element definition for Composition.section has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-medication-reconciliation-composition: StructureDefinition.differential.element[25]: The element definition for Composition.section.author has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-medication-reconciliation-composition: StructureDefinition.differential.element[33]: The element definition for Composition.section.author has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-medication-reconciliation-composition: StructureDefinition.differential.element[39]: The element definition for Composition.section.entry has a property meaningWhenMissing which is not allowed in a profile
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-composition'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-medication-reconciliation-statement.json ==
-ERROR: StructureDefinition/fr-medication-reconciliation-statement: StructureDefinition.differential.element[13]: The element definition for MedicationStatement.derivedFrom has a property meaningWhenMissing which is not allowed in a profile
-ERROR: StructureDefinition/fr-medication-reconciliation-statement: StructureDefinition.differential.element[19]: The element definition for MedicationStatement.note has a property meaningWhenMissing which is not allowed in a profile
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-reconciliation-statement'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-medication-virtual.json ==
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-virtual'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-medicationrequest.json ==
 INFORMATION: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest'): The Implementation Guide contains no explicitly linked examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-medicationrequest-note-scope.json ==
-== fsh-generated/resources/StructureDefinition-fr-medicationstatement-reconciliation-properties.json ==
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationstatement-reconciliation-properties'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-mp-substance.json ==
 WARNING: StructureDefinition/fr-mp-substance: StructureDefinition.snapshot.element[0].example[0].value.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
 WARNING: StructureDefinition/fr-mp-substance: StructureDefinition.snapshot.element[0].example[1].value.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
@@ -3736,15 +3435,6 @@ WARNING: StructureDefinition/fr-mp-substance: StructureDefinition.differential.e
 ERROR: StructureDefinition/fr-mp-substance: StructureDefinition.snapshot.element[0]: The element example is prohibited on the element CodeableConcept in the context of a constraint
 == fsh-generated/resources/StructureDefinition-fr-observation-for-prescription.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-on-admission-medication-composition.json ==
-WARNING: StructureDefinition/fr-on-admission-medication-composition: StructureDefinition.snapshot.element[11].fixed.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.fr/fhir/fr/medication/CodeSystem/fr-document-type' could not be found, so the code cannot be validated
-WARNING: StructureDefinition/fr-on-admission-medication-composition: StructureDefinition.differential.element[1].fixed.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'https://hl7.fr/fhir/fr/medication/CodeSystem/fr-document-type' could not be found, so the code cannot be validated
-WARNING: StructureDefinition/fr-on-admission-medication-composition: StructureDefinition.snapshot.element[11].fixed.ofType(CodeableConcept): For the complex type CodeableConcept, consider using a pattern rather than a fixed value to avoid over-constraining the instance
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-medication-composition'): The Implementation Guide contains no examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-on-admission-retroactive-reconciliation-composition.json ==
-WARNING: StructureDefinition/fr-on-admission-retroactive-reconciliation-composition: StructureDefinition.snapshot.element[11].pattern.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://hl7.fr/fhir/fr/medication/CodeSystem/fr-document-type' could not be found, so the code cannot be validated
-WARNING: StructureDefinition/fr-on-admission-retroactive-reconciliation-composition: StructureDefinition.differential.element[1].pattern.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'https://hl7.fr/fhir/fr/medication/CodeSystem/fr-document-type' could not be found, so the code cannot be validated
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-on-admission-retroactive-reconciliation-composition'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-fr-posologie.json ==
 WARNING: StructureDefinition/fr-posologie: StructureDefinition.snapshot.element[0]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
 WARNING: StructureDefinition/fr-posologie: StructureDefinition.snapshot.element[1]: Constraint failed: eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken (path.matches('[A-Za-z][A-Za-z0-9]*(\\.[a-z][A-Za-z0-9]*(\\[x])?)*'))'
@@ -3821,8 +3511,6 @@ ERROR: StructureDefinition: Error Rendering Resource: type == null
 ERROR: StructureDefinition/fr-prescription-bundle-for-example: StructureDefinition: Constraint failed: sdf-21: 'Default values can only be specified on specializations (differential.element.defaultValue.exists() implies (derivation = 'specialization'))'
 == fsh-generated/resources/StructureDefinition-fr-requestgroup-for-prescription.json ==
 INFORMATION: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription'): The Implementation Guide contains no explicitly linked examples for this profile
-== fsh-generated/resources/StructureDefinition-fr-strength-codeableconcept.json ==
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-strength-codeableconcept'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-treatment-intent.json ==
 WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-fr-uf-role.json ==
@@ -3830,20 +3518,11 @@ WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/fhir
 INFORMATION: ValueSet.where(id = 'FrMethodOfAdministration'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-fr-additional-action-relationship-type-value-set.json ==
 == fsh-generated/resources/ValueSet-fr-additional-when-codes.json ==
-== fsh-generated/resources/ValueSet-fr-current-medication-document-type.json ==
-== fsh-generated/resources/ValueSet-fr-editorial-status.json ==
 == fsh-generated/resources/ValueSet-fr-medication-code.json ==
 WARNING: ValueSet/fr-medication-code: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://data.esante.gouv.fr/ansm/medicament/UCD'
 WARNING: ValueSet/fr-medication-code: ValueSet.compose.include[1].system: No definition could be found for URL value 'http://data.esante.gouv.fr/ansm/medicament/codeSMS'
 WARNING: ValueSet/fr-medication-code: ValueSet.compose.include[2].system: No definition could be found for URL value 'http://data.esante.gouv.fr/ansm/medicament/substance'
-WARNING: ValueSet.where(id = 'fr-medication-code'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://data.esante.gouv.fr/ansm/medicament/UCD
-== fsh-generated/resources/ValueSet-fr-medication-history-source-type.json ==
-== fsh-generated/resources/ValueSet-fr-medication-reconciliation-document-type.json ==
-== fsh-generated/resources/ValueSet-fr-medication-reconciliation-outcome.json ==
-== fsh-generated/resources/ValueSet-fr-medication-reconciliation-qualified-discrepancy.json ==
-== fsh-generated/resources/ValueSet-fr-medication-reconciliation-resolution.json ==
-== fsh-generated/resources/ValueSet-fr-medication-reconciliation-status.json ==
-== fsh-generated/resources/ValueSet-fr-medication-reconciliation-type.json ==
+ERROR: ValueSet.where(id = 'fr-medication-code'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-fr-mp-dose-form.json ==
 INFORMATION: ValueSet.where(id = 'fr-mp-dose-form'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-fr-note-scope-codes-vs.json ==
@@ -3852,14 +3531,6 @@ INFORMATION: ValueSet.where(id = 'fr-route-of-administration'): The value set ex
 == fsh-generated/resources/ValueSet-fr-substance-code.json ==
 WARNING: ValueSet/fr-substance-code: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://data.esante.gouv.fr/ansm/medicament/codeSMS'
 WARNING: ValueSet/fr-substance-code: ValueSet.compose.include[1].system: No definition could be found for URL value 'http://data.esante.gouv.fr/ansm/medicament/substance'
-WARNING: ValueSet.where(id = 'fr-substance-code'): Error from https://tx.fhir.org/r4: Unable to provide support for code system http://data.esante.gouv.fr/ansm/medicament/codeSMS
+ERROR: ValueSet.where(id = 'fr-substance-code'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the value set cannot be expanded
 == fsh-generated/resources/ValueSet-fr-treatment-intent.json ==
 == fsh-generated/resources/ValueSet-fr-uf-role-code-for-prescription.json ==
-== fsh-generated/resources/ValueSet-medication-ingredient-strength-codes.json ==
-ERROR: ValueSet.where(url = 'http://hl7.org/fhir/ValueSet/medication-ingredientstrength'): Conformance resource /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-medication-ingredient-strength-codes.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/medication-ingredient-strength-codes) does not match the URL (http://hl7.org/fhir/ValueSet/medication-ingredientstrength). Use the special-url parameter if you really mean for it not to match
-ERROR: ValueSet/medication-ingredient-strength-codes: ValueSet: ValueSet.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1)
-WARNING: ValueSet/medication-ingredient-strength-codes: ValueSet: The nominated WG 'phx' means that the publisher should be 'HL7 International / Pharmacy' but 'Interop'Santé' was found
-WARNING: ValueSet/medication-ingredient-strength-codes: ValueSet: The nominated WG 'phx' means that the contact url should be 'http://www.hl7.org/Special/committees/medication' but it was not found
-ERROR: ValueSet/medication-ingredient-strength-codes: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet/medication-ingredient-strength-codes: ValueSet: Value sets published by HL7 SHALL conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-ERROR: /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-medication-ingredient-strength-codes: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/medication-ingredient-strength-codes vs http://hl7.org/fhir/ValueSet/medication-ingredientstrength

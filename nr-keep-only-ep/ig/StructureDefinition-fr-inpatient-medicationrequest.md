@@ -9,15 +9,14 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest | *Version*:0.1.0 |
-| Draft as of 2025-10-28 | *Computable Name*:FRInpatientMedicationRequest |
+| Draft as of 2025-11-04 | *Computable Name*:FRInpatientMedicationRequest |
 
  
 French inpatient medication request profile 
 
 **Usages:**
 
-* Refer to this Profile: [FR Inpatient MedicationDispense](StructureDefinition-fr-inpatient-medication-dispense.md)
-* Examples for this Profile: [MedicationRequest/InLine-Presc-EFFERALGAN](MedicationRequest-InLine-Presc-EFFERALGAN.md), [MedicationRequest/InLine-presc-EFFERALGAN2](MedicationRequest-InLine-presc-EFFERALGAN2.md), [MedicationRequest/InLine-presc-Paracetamol1](MedicationRequest-InLine-presc-Paracetamol1.md) and [MedicationRequest/InLine-presc-Paracetamol2](MedicationRequest-InLine-presc-Paracetamol2.md)
+* This Profile is not used by any profiles in this Implementation Guide
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-inpatient-medicationrequest)
 
@@ -42,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
   "name" : "FRInpatientMedicationRequest",
   "title" : "FR Inpatient MedicationRequest",
   "status" : "draft",
-  "date" : "2025-10-28T17:06:42+00:00",
+  "date" : "2025-11-04T08:50:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

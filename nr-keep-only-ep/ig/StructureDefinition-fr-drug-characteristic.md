@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic | *Version*:0.1.0 |
-| Draft as of 2025-10-28 | *Computable Name*:FrDrugCharacteristic |
+| Draft as of 2025-11-04 | *Computable Name*:FrDrugCharacteristic |
 
 Specifies descriptive properties of the medicine
 
@@ -23,7 +23,7 @@ This extension may be used on the following element(s):
 
 **Usages:**
 
-* Use this Extension: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md) and [FR Medication Virtual](StructureDefinition-fr-medication-virtual.md)
+* Use this Extension: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-drug-characteristic)
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-drug-characterist
   "name" : "FrDrugCharacteristic",
   "title" : "Medication descriptive properties",
   "status" : "draft",
-  "date" : "2025-10-28T17:06:42+00:00",
+  "date" : "2025-11-04T08:50:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

@@ -1,19 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://hl7.org/fhir/ValueSet/medication-ingredientstrength",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "MedicationIngredientStrengthCodes",
-      "title" : null,
-      "description" : "Medication Ingredient Strength Codes",
-      "systems" : [
-        "http://hl7.org/fhir/CodeSystem/medication-ingredientstrength"
-      ],
-      "oids" : ["2.16.840.1.113883.4.642.3.1426"],
-      "sources" : ["2.16.840.1.113883.4.642.3.1426"]
-    },
-    {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration",
       "version" : "0.1.0",
       "status" : "draft",
@@ -45,28 +32,6 @@
       ]
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-current-medication-document-type",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "FrCurrentMedicationDocumentType",
-      "title" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
-      "description" : "Le jeu de valeurs à utiliser pour coder le type de document de la ressource *Composition* d'une liste des Traitements Médicamenteux Courants.",
-      "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-editorial-status",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "FrEditorialStatus",
-      "title" : "value set Interop'Santé - Statut éditorial d'une valeur",
-      "description" : "Le jeu de valeurs à utiliser pour coder le statut éditorial d'une valeur.",
-      "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-editorial-status"
-      ]
-    },
-    {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code",
       "version" : "0.1.0",
       "status" : "draft",
@@ -77,83 +42,6 @@
         "http://data.esante.gouv.fr/ansm/medicament/codeSMS",
         "http://data.esante.gouv.fr/ansm/medicament/substance",
         "http://data.esante.gouv.fr/ansm/medicament/UCD"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-history-source-type",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "FRMedicationHistorySourceType",
-      "title" : "value set SIPh - Nature des sources d'un Bilan Médicamenteux",
-      "description" : "Un jeu de valeurs à utiliser pour coder les sources d'un Bilan Médicamenteux.",
-      "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-history-source-type"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-document-type",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "FRMedicationReconciliationDocumentType",
-      "title" : "value set Interop'Santé - type de document de la ressource Composition d'une FCT",
-      "description" : "Le jeu de valeurs à utiliser pour coder le type de document de la ressource *Composition* d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-      "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-document-type"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-outcome",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "FRMedicationReconciliationOutcome",
-      "title" : "value set Interop'Santé - Gravité de l'erreur sur une ligne de traitement d'une FCT",
-      "description" : "Le jeu de valeurs à utiliser pour coder la gravité de l'erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-      "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-outcome"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-qualified-discrepancy",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "FRMedicationReconciliationQualifiedDiscrepancy",
-      "title" : "value set Interop'Santé - qualification de la divergence identifiée sur une ligne de traitement d'une FCT",
-      "description" : "Le jeu de valeurs à utiliser pour coder la qualification de la divergence identifiée sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-      "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-discrepancy"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-resolution",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "FRMedicationReconciliationResolution",
-      "title" : "value set Interop'Santé - Résolution d'une divergence sur une ligne de traitement d'une FCT",
-      "description" : "Un jeu de valeurs à utiliser pour coder la résolution d'une divergence sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-      "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-resolution"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-status",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "FRMedicationReconciliationStatus",
-      "title" : "value set Interop'Santé - Statut d'une ligne de traitement d'une FCT",
-      "description" : "Le jeu de valeurs à utiliser pour coder le statut d'une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-      "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-status"
-      ]
-    },
-    {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-reconciliation-type",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "FRMedicationReconciliationType",
-      "title" : "value set Interop'Santé - Type d'écart/erreur sur une ligne de traitement d'une FCT",
-      "description" : "Le jeu de valeurs à utiliser pour coder le type d'écart/erreur sur une ligne de traitement d'une FCT (Fiche de Conciliation des Traitements médicamenteux).",
-      "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-medication-reconciliation-type"
       ]
     },
     {
