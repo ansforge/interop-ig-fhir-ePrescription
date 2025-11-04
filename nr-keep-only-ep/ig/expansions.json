@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "7f5d1065-1656-48d0-814d-8c8233bf4bfb",
+  "id" : "7c2b5bc1-1867-406d-9f29-36d3c11bf21e",
   "meta" : {
-    "lastUpdated" : "2025-11-04T08:50:53.778+00:00"
+    "lastUpdated" : "2025-11-04T08:57:27.839+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -22,7 +22,7 @@
       "title" : "French Method Of Administration",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-11-04T08:50:53+00:00",
+      "date" : "2025-11-04T08:57:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -32,8 +32,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:8168e738-9a45-4ac6-a9d3-649691e98135",
-        "timestamp" : "2025-11-04T08:54:55+00:00",
+        "identifier" : "urn:uuid:6e35ace5-4968-4cb3-a83b-88df99e96c9e",
+        "timestamp" : "2025-11-04T09:02:00+00:00",
         "total" : 1203,
         "offset" : 0,
         "parameter" : [{
@@ -8080,7 +8080,7 @@
       "title" : "Interop'Santé value set - Additional codes for relationship between action",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-11-04T08:50:53+00:00",
+      "date" : "2025-11-04T08:57:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -8090,8 +8090,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:cbb2cbb3-b565-4b4a-a890-dca95be6e30b",
-        "timestamp" : "2025-11-04T08:54:56+00:00",
+        "identifier" : "urn:uuid:29b678ab-331a-4a1f-869d-9dad4d731773",
+        "timestamp" : "2025-11-04T09:02:01+00:00",
         "total" : 1,
         "offset" : 0,
         "parameter" : [{
@@ -8138,7 +8138,7 @@
       "title" : "value set Interop'Santé - Codes additionnels pour l'élément when",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-11-04T08:50:53+00:00",
+      "date" : "2025-11-04T08:57:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -8148,8 +8148,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:bd0790d7-9fb3-4114-a5c1-d5a5e94d7e28",
-        "timestamp" : "2025-11-04T08:54:56+00:00",
+        "identifier" : "urn:uuid:697feda6-1f26-440f-a5f5-94271beeff98",
+        "timestamp" : "2025-11-04T09:02:01+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -8256,7 +8256,7 @@
       "title" : "French Medicinal product Dose form",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-11-04T08:50:53+00:00",
+      "date" : "2025-11-04T08:57:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -8266,8 +8266,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:c0288602-1bfb-4b32-b7dd-0e92423fb708",
-        "timestamp" : "2025-11-04T08:54:57+00:00",
+        "identifier" : "urn:uuid:bf6c5c91-c8f8-4b96-b693-9285f9684b55",
+        "timestamp" : "2025-11-04T09:02:02+00:00",
         "total" : 1203,
         "offset" : 0,
         "parameter" : [{
@@ -16314,7 +16314,7 @@
       "title" : "value set Interop'Santé - Codes pour le périmètre des notes",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-11-04T08:50:53+00:00",
+      "date" : "2025-11-04T08:57:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -16324,8 +16324,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:edde364e-c6d8-4c43-af0b-234466746793",
-        "timestamp" : "2025-11-04T08:54:58+00:00",
+        "identifier" : "urn:uuid:fc804cb4-2216-4dcb-ade5-ac346a095752",
+        "timestamp" : "2025-11-04T09:02:04+00:00",
         "total" : 9,
         "offset" : 0,
         "parameter" : [{
@@ -16404,7 +16404,7 @@
       "title" : "French Route of Administration",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-11-04T08:50:53+00:00",
+      "date" : "2025-11-04T08:57:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -16414,8 +16414,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:dbad12ab-8b92-41a8-9f52-e80546ee850d",
-        "timestamp" : "2025-11-04T08:54:58+00:00",
+        "identifier" : "urn:uuid:027e7939-4590-4b56-8cf8-ece22bdeb098",
+        "timestamp" : "2025-11-04T09:02:04+00:00",
         "total" : 1203,
         "offset" : 0,
         "parameter" : [{
@@ -24454,7 +24454,7 @@
       },
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from smt.esante.gouv.fr based on SNOMED CT 11000315107 edition 21-Jun 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20250621\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 16 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-421974008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/421974008\">421974008</a></td><td>Adjunct - intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;421974008&quot;, &quot;display&quot;: &quot;Adjunct - intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;421974008&quot;&gt;&lt;display value=&quot;Adjunct - intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-373846009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/373846009\">373846009</a></td><td>adjuvant</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;373846009&quot;, &quot;display&quot;: &quot;adjuvant&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;373846009&quot;&gt;&lt;display value=&quot;adjuvant&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1279505009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1279505009\">1279505009</a></td><td>Combined diagnostic and therapeutic intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;1279505009&quot;, &quot;display&quot;: &quot;Combined diagnostic and therapeutic intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;1279505009&quot;&gt;&lt;display value=&quot;Combined diagnostic and therapeutic intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-373808002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/373808002\">373808002</a></td><td>à visée curative</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;373808002&quot;, &quot;display&quot;: &quot;à visée curative&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;373808002&quot;&gt;&lt;display value=&quot;à visée curative&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-261004008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/261004008\">261004008</a></td><td>à visée diagnostique</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;261004008&quot;, &quot;display&quot;: &quot;à visée diagnostique&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;261004008&quot;&gt;&lt;display value=&quot;à visée diagnostique&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-447295008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/447295008\">447295008</a></td><td>Forensic intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;447295008&quot;, &quot;display&quot;: &quot;Forensic intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;447295008&quot;&gt;&lt;display value=&quot;Forensic intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-429892002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/429892002\">429892002</a></td><td>Guidance intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;429892002&quot;, &quot;display&quot;: &quot;Guidance intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;429892002&quot;&gt;&lt;display value=&quot;Guidance intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1290527003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1290527003\">1290527003</a></td><td>Life-sustaining intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;1290527003&quot;, &quot;display&quot;: &quot;Life-sustaining intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;1290527003&quot;&gt;&lt;display value=&quot;Life-sustaining intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-373847000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/373847000\">373847000</a></td><td>Neoadjuvant intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;373847000&quot;, &quot;display&quot;: &quot;Neoadjuvant intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;373847000&quot;&gt;&lt;display value=&quot;Neoadjuvant intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-363676003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/363676003\">363676003</a></td><td>à visée palliative</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;363676003&quot;, &quot;display&quot;: &quot;à visée palliative&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;363676003&quot;&gt;&lt;display value=&quot;à visée palliative&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129428001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129428001\">129428001</a></td><td>à visée préventive</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;129428001&quot;, &quot;display&quot;: &quot;à visée préventive&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;129428001&quot;&gt;&lt;display value=&quot;à visée préventive&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-360271000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/360271000\">360271000</a></td><td>Prophylaxis - intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;360271000&quot;, &quot;display&quot;: &quot;Prophylaxis - intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;360271000&quot;&gt;&lt;display value=&quot;Prophylaxis - intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-360156006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/360156006\">360156006</a></td><td>à visée de dépistage</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;360156006&quot;, &quot;display&quot;: &quot;à visée de dépistage&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;360156006&quot;&gt;&lt;display value=&quot;à visée de dépistage&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-373825000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/373825000\">373825000</a></td><td>à visée de stadification</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;373825000&quot;, &quot;display&quot;: &quot;à visée de stadification&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;373825000&quot;&gt;&lt;display value=&quot;à visée de stadification&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-399707004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/399707004\">399707004</a></td><td>Supportive - procedure intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;399707004&quot;, &quot;display&quot;: &quot;Supportive - procedure intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;399707004&quot;&gt;&lt;display value=&quot;Supportive - procedure intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-262202000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/262202000\">262202000</a></td><td>thérapeutique</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;262202000&quot;, &quot;display&quot;: &quot;thérapeutique&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;262202000&quot;&gt;&lt;display value=&quot;thérapeutique&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from smt.esante.gouv.fr based on SNOMED CT 11000315107 edition 21-Jun 2025<span class=\"copy-text-inline\"><button data-clipboard-text=\"http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20250621\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>Ce jeu de valeur (ValueSet) contient 16 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Système</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (fr)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-http://snomed.info/sct-421974008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/421974008\">421974008</a></td><td>Adjunct - intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;421974008&quot;, &quot;display&quot;: &quot;Adjunct - intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;421974008&quot;&gt;&lt;display value=&quot;Adjunct - intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-373846009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/373846009\">373846009</a></td><td>Adjuvant - intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;373846009&quot;, &quot;display&quot;: &quot;Adjuvant - intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;373846009&quot;&gt;&lt;display value=&quot;Adjuvant - intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1279505009\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1279505009\">1279505009</a></td><td>Combined diagnostic and therapeutic intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;1279505009&quot;, &quot;display&quot;: &quot;Combined diagnostic and therapeutic intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;1279505009&quot;&gt;&lt;display value=&quot;Combined diagnostic and therapeutic intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-373808002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/373808002\">373808002</a></td><td>Curative - procedure intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;373808002&quot;, &quot;display&quot;: &quot;Curative - procedure intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;373808002&quot;&gt;&lt;display value=&quot;Curative - procedure intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-261004008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/261004008\">261004008</a></td><td>Diagnostic intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;261004008&quot;, &quot;display&quot;: &quot;Diagnostic intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;261004008&quot;&gt;&lt;display value=&quot;Diagnostic intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-447295008\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/447295008\">447295008</a></td><td>Forensic intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;447295008&quot;, &quot;display&quot;: &quot;Forensic intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;447295008&quot;&gt;&lt;display value=&quot;Forensic intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-429892002\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/429892002\">429892002</a></td><td>Guidance intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;429892002&quot;, &quot;display&quot;: &quot;Guidance intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;429892002&quot;&gt;&lt;display value=&quot;Guidance intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-1290527003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/1290527003\">1290527003</a></td><td>Life-sustaining intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;1290527003&quot;, &quot;display&quot;: &quot;Life-sustaining intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;1290527003&quot;&gt;&lt;display value=&quot;Life-sustaining intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-373847000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/373847000\">373847000</a></td><td>Neoadjuvant intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;373847000&quot;, &quot;display&quot;: &quot;Neoadjuvant intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;373847000&quot;&gt;&lt;display value=&quot;Neoadjuvant intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-363676003\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/363676003\">363676003</a></td><td>Palliative intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;363676003&quot;, &quot;display&quot;: &quot;Palliative intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;363676003&quot;&gt;&lt;display value=&quot;Palliative intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-129428001\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/129428001\">129428001</a></td><td>Preventive intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;129428001&quot;, &quot;display&quot;: &quot;Preventive intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;129428001&quot;&gt;&lt;display value=&quot;Preventive intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-360271000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/360271000\">360271000</a></td><td>Prophylaxis - intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;360271000&quot;, &quot;display&quot;: &quot;Prophylaxis - intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;360271000&quot;&gt;&lt;display value=&quot;Prophylaxis - intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-360156006\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/360156006\">360156006</a></td><td>Screening intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;360156006&quot;, &quot;display&quot;: &quot;Screening intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;360156006&quot;&gt;&lt;display value=&quot;Screening intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-373825000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/373825000\">373825000</a></td><td>Staging - procedure intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;373825000&quot;, &quot;display&quot;: &quot;Staging - procedure intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;373825000&quot;&gt;&lt;display value=&quot;Staging - procedure intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-399707004\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/399707004\">399707004</a></td><td>Supportive - procedure intent</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;399707004&quot;, &quot;display&quot;: &quot;Supportive - procedure intent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;399707004&quot;&gt;&lt;display value=&quot;Supportive - procedure intent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-http://snomed.info/sct-262202000\"> </a><code>http://snomed.info/sct</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"http://snomed.info/id/262202000\">262202000</a></td><td>Therapeutic</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000315107&quot;, &quot;code&quot;: &quot;262202000&quot;, &quot;display&quot;: &quot;Therapeutic&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000315107&quot;&gt;&lt;code value=&quot;262202000&quot;&gt;&lt;display value=&quot;Therapeutic&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent",
       "version" : "0.1.0",
@@ -24462,7 +24462,7 @@
       "title" : "French overall intention of the treatment",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-11-04T08:50:53+00:00",
+      "date" : "2025-11-04T08:57:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -24472,8 +24472,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:a878201d-dbe5-4829-b42a-8044b1837d54",
-        "timestamp" : "2025-11-04T08:55:00+00:00",
+        "identifier" : "urn:uuid:e3836b5b-b2d0-4124-bebc-1cb3c399a34a",
+        "timestamp" : "2025-11-04T09:02:05+00:00",
         "total" : 16,
         "offset" : 0,
         "parameter" : [{
@@ -24507,6 +24507,10 @@
         {
           "name" : "used-codesystem",
           "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20250621"
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "fr-FR"
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
@@ -24516,7 +24520,7 @@
         {
           "system" : "http://snomed.info/sct",
           "code" : "373846009",
-          "display" : "adjuvant"
+          "display" : "Adjuvant - intent"
         },
         {
           "system" : "http://snomed.info/sct",
@@ -24526,12 +24530,12 @@
         {
           "system" : "http://snomed.info/sct",
           "code" : "373808002",
-          "display" : "à visée curative"
+          "display" : "Curative - procedure intent"
         },
         {
           "system" : "http://snomed.info/sct",
           "code" : "261004008",
-          "display" : "à visée diagnostique"
+          "display" : "Diagnostic intent"
         },
         {
           "system" : "http://snomed.info/sct",
@@ -24556,12 +24560,12 @@
         {
           "system" : "http://snomed.info/sct",
           "code" : "363676003",
-          "display" : "à visée palliative"
+          "display" : "Palliative intent"
         },
         {
           "system" : "http://snomed.info/sct",
           "code" : "129428001",
-          "display" : "à visée préventive"
+          "display" : "Preventive intent"
         },
         {
           "system" : "http://snomed.info/sct",
@@ -24571,12 +24575,12 @@
         {
           "system" : "http://snomed.info/sct",
           "code" : "360156006",
-          "display" : "à visée de dépistage"
+          "display" : "Screening intent"
         },
         {
           "system" : "http://snomed.info/sct",
           "code" : "373825000",
-          "display" : "à visée de stadification"
+          "display" : "Staging - procedure intent"
         },
         {
           "system" : "http://snomed.info/sct",
@@ -24586,7 +24590,7 @@
         {
           "system" : "http://snomed.info/sct",
           "code" : "262202000",
-          "display" : "thérapeutique"
+          "display" : "Therapeutic"
         }]
       }
     }
@@ -24605,7 +24609,7 @@
       "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2025-11-04T08:50:53+00:00",
+      "date" : "2025-11-04T08:57:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -24615,8 +24619,8 @@
       }],
       "immutable" : false,
       "expansion" : {
-        "identifier" : "urn:uuid:8b32c762-34a5-426f-8227-cf87068bf8c9",
-        "timestamp" : "2025-11-04T08:55:00+00:00",
+        "identifier" : "urn:uuid:bdc43366-72f4-4706-a8da-ba3cc2fe384b",
+        "timestamp" : "2025-11-04T09:02:06+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
