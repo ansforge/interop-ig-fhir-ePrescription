@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for eP</h1>
- <p>Generated Fri Nov 07 09:36:28 UTC 2025, FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/eprescription">https://interop.esante.gouv.fr/ig/fhir/eprescription</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html">history</a>))</p>
+ <p>Generated Fri Nov 07 09:52:19 UTC 2025, FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/eprescription">https://interop.esante.gouv.fr/ig/fhir/eprescription</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -1042,18 +1042,11 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://www.phast.fr/ciodm/|2025</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
+    <td>Found candidate server https://tx.fhir.org/r4</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>https://www.phast.fr/ciodm/|2025</td>
-    <td>auth = , candidates=</td>
+    <td>auth = , candidates=https://tx.fhir.org/r4</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -2694,18 +2687,11 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://www.phast.fr/ciodm/|2025</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
+    <td>Found candidate server https://tx.fhir.org/r4</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>https://www.phast.fr/ciodm/|2025</td>
-    <td>auth = , candidates=</td>
+    <td>auth = , candidates=https://tx.fhir.org/r4</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -7020,18 +7006,11 @@
     <td>auth = , candidates=https://tx.fhir.org/r4</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
+    <td>Found candidate server https://tx.fhir.org/r4</td>
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>http://data.esante.gouv.fr/ansm/medicament/codeSMS</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>http://data.esante.gouv.fr/ansm/medicament/codeSMS</td>
-    <td>auth = , candidates=</td>
+    <td>auth = , candidates=https://tx.fhir.org/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -7688,6 +7667,18 @@
     </td>
     <td>
       <b>Message</b>
+    </td>
+  </tr>
+  <tr>
+    <td>http://data.esante.gouv.fr/ansm/medicament/codeSMS</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fdata.esante.gouv.fr%2Fansm%2Fmedicament%2FcodeSMS&amp;usage=publication">Error resolving system http://data.esante.gouv.fr/ansm/medicament/codeSMS: Connect timed out</span>
+    </td>
+  </tr>
+  <tr>
+    <td>https://www.phast.fr/ciodm/|2025</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fwww.phast.fr%2Fciodm%2F%7C2025&amp;usage=publication">Error resolving system https://www.phast.fr/ciodm/|2025: Connect timed out</span>
     </td>
   </tr>
   <tr>

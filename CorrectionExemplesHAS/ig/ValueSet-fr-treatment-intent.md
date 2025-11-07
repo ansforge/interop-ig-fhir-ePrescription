@@ -62,7 +62,7 @@ Ce jeu de valeur (ValueSet) contient 16 concepts
   "title" : "French overall intention of the treatment",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-07T09:32:00+00:00",
+  "date" : "2025-11-07T09:34:21+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

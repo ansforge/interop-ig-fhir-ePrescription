@@ -22,12 +22,12 @@ Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
 **Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
 
-en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution
+en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l'arrêt selon évolution
 
 **status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
 > 
 
-Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution
+Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l'arrêt selon évolution
 
 
 > **dosageInstruction****sequence**: 1**additionalInstruction**:Jusqu'à obtenir 3 bandelettes urinaires négatives**timing**: Matin, Une fois
@@ -40,7 +40,7 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
 | * | 60 mg(Détails : code UCUMmg = 'mg') |
 
 
-> **dosageInstruction****sequence**: 2**timing**: Durée 1week , Matin, Une fois
+> **dosageInstruction****sequence**: 2**timing**: Matin, Une fois
 
 ### DoseAndRates
 
@@ -50,7 +50,7 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
 | * | 50 mg(Détails : code UCUMmg = 'mg') |
 
 
-> **dosageInstruction****sequence**: 3**timing**: Durée 1week , Matin, Une fois
+> **dosageInstruction****sequence**: 3**timing**: Matin, Une fois
 
 ### DoseAndRates
 
@@ -60,7 +60,7 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
 | * | 40 mg(Détails : code UCUMmg = 'mg') |
 
 
-> **dosageInstruction****sequence**: 4**timing**: Durée 1week , Matin, Une fois
+> **dosageInstruction****sequence**: 4**timing**: Matin, Une fois
 
 ### DoseAndRates
 
@@ -70,7 +70,7 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
 | * | 30 mg(Détails : code UCUMmg = 'mg') |
 
 
-> **dosageInstruction****sequence**: 5**timing**: Durée 1week , Matin, Une fois
+> **dosageInstruction****sequence**: 5**timing**: Matin, Une fois
 
 ### DoseAndRates
 
@@ -80,7 +80,7 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
 | * | 20 mg(Détails : code UCUMmg = 'mg') |
 
 
-> **dosageInstruction****sequence**: 6**timing**: Durée 2weeks , Matin, Une fois
+> **dosageInstruction****sequence**: 6**timing**: Matin, Une fois
 
 ### DoseAndRates
 
@@ -118,12 +118,12 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
         },
         "text" : {
           "status" : "extensions",
-          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_medicationrequest-HAS-22-Presc-Prednisolone\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-22-Presc-Prednisolone</b></p><a name=\"medicationrequest-HAS-22-Presc-Prednisolone\"> </a><a name=\"hcmedicationrequest-HAS-22-Presc-Prednisolone\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medicationrequest.html\">FR Medication Request</a></p></div><p><b>Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0</b>: </p><div><p>en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution</p>\n</div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <span title=\"Codes :{http://BogusSystemMedicabase.com MV00002248}\">PREDNISOLONE 20 mg comprimé</span></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2025-07-23 10:33:00+0100</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>note</b>: </p><blockquote><div><p>Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution</p>\n</div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 1</p><p><b>additionalInstruction</b>: <span title=\"Codes :\">Jusqu'à obtenir 3 bandelettes urinaires négatives</span></p><p><b>timing</b>: Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>60 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 2</p><p><b>timing</b>: Durée 1week , Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>50 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 3</p><p><b>timing</b>: Durée 1week , Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>40 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 4</p><p><b>timing</b>: Durée 1week , Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>30 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 5</p><p><b>timing</b>: Durée 1week , Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>20 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 6</p><p><b>timing</b>: Durée 2weeks , Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>10 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 7</p><p><b>additionalInstruction</b>: <span title=\"Codes :\">Revoir pour l'arrêt selon évolution</span></p></blockquote></div>"
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_medicationrequest-HAS-22-Presc-Prednisolone\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-22-Presc-Prednisolone</b></p><a name=\"medicationrequest-HAS-22-Presc-Prednisolone\"> </a><a name=\"hcmedicationrequest-HAS-22-Presc-Prednisolone\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medicationrequest.html\">FR Medication Request</a></p></div><p><b>Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0</b>: </p><div><p>en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l'arrêt selon évolution</p>\n</div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <span title=\"Codes :{http://BogusSystemMedicabase.com MV00002248}\">PREDNISOLONE 20 mg comprimé</span></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2025-07-23 10:33:00+0100</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>note</b>: </p><blockquote><div><p>Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l'arrêt selon évolution</p>\n</div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 1</p><p><b>additionalInstruction</b>: <span title=\"Codes :\">Jusqu'à obtenir 3 bandelettes urinaires négatives</span></p><p><b>timing</b>: Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>60 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 2</p><p><b>timing</b>: Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>50 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 3</p><p><b>timing</b>: Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>40 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 4</p><p><b>timing</b>: Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>30 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 5</p><p><b>timing</b>: Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>20 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 6</p><p><b>timing</b>: Matin, Une fois</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>10 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 7</p><p><b>additionalInstruction</b>: <span title=\"Codes :\">Revoir pour l'arrêt selon évolution</span></p></blockquote></div>"
         },
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
-            "valueMarkdown" : "en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution"
+            "valueMarkdown" : "en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l'arrêt selon évolution"
           }
         ],
         "status" : "active",
@@ -147,7 +147,7 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
         },
         "note" : [
           {
-            "text" : "Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution"
+            "text" : "Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l'arrêt selon évolution"
           }
         ],
         "dosageInstruction" : [
@@ -160,8 +160,6 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
             ],
             "timing" : {
               "repeat" : {
-                "frequency" : 1,
-                "periodUnit" : "wk",
                 "when" : ["MORN"]
               }
             },
@@ -180,10 +178,12 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
             "sequence" : 2,
             "timing" : {
               "repeat" : {
-                "duration" : 1,
-                "durationUnit" : "wk",
-                "frequency" : 1,
-                "periodUnit" : "wk",
+                "boundsDuration" : {
+                  "value" : 1,
+                  "unit" : "semaine",
+                  "system" : "http://unitsofmeasure.org",
+                  "code" : "wk"
+                },
                 "when" : ["MORN"]
               }
             },
@@ -202,10 +202,12 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
             "sequence" : 3,
             "timing" : {
               "repeat" : {
-                "duration" : 1,
-                "durationUnit" : "wk",
-                "frequency" : 1,
-                "periodUnit" : "wk",
+                "boundsDuration" : {
+                  "value" : 1,
+                  "unit" : "semaine",
+                  "system" : "http://unitsofmeasure.org",
+                  "code" : "wk"
+                },
                 "when" : ["MORN"]
               }
             },
@@ -224,10 +226,12 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
             "sequence" : 4,
             "timing" : {
               "repeat" : {
-                "duration" : 1,
-                "durationUnit" : "wk",
-                "frequency" : 1,
-                "periodUnit" : "wk",
+                "boundsDuration" : {
+                  "value" : 1,
+                  "unit" : "semaine",
+                  "system" : "http://unitsofmeasure.org",
+                  "code" : "wk"
+                },
                 "when" : ["MORN"]
               }
             },
@@ -246,10 +250,12 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
             "sequence" : 5,
             "timing" : {
               "repeat" : {
-                "duration" : 1,
-                "durationUnit" : "wk",
-                "frequency" : 1,
-                "periodUnit" : "wk",
+                "boundsDuration" : {
+                  "value" : 1,
+                  "unit" : "semaine",
+                  "system" : "http://unitsofmeasure.org",
+                  "code" : "wk"
+                },
                 "when" : ["MORN"]
               }
             },
@@ -268,10 +274,12 @@ Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise l
             "sequence" : 6,
             "timing" : {
               "repeat" : {
-                "duration" : 2,
-                "durationUnit" : "wk",
-                "frequency" : 1,
-                "periodUnit" : "wk",
+                "boundsDuration" : {
+                  "value" : 2,
+                  "unit" : "semaine",
+                  "system" : "http://unitsofmeasure.org",
+                  "code" : "wk"
+                },
                 "when" : ["MORN"]
               }
             },
