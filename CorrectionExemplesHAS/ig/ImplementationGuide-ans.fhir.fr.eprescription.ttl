@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "eP"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la ePrescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-07T09:34:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-07T09:59:21+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -1939,7 +1939,7 @@
          fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance> ;
          fhir:reference [ fhir:v "StructureDefinition/fr-mp-substance" ]
        ] ;
-       fhir:name [ fhir:v "FR Meditinal Product Substance" ] ;
+       fhir:name [ fhir:v "FR Medicinal Product Substance" ] ;
        fhir:description [ fhir:v "code for the medicinal product substance" ] ;
        fhir:example [
          a fhir:Boolean ;

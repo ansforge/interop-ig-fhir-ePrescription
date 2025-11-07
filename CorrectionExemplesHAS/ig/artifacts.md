@@ -37,7 +37,7 @@ These define constraints on FHIR data types for systems conforming to this imple
 
 | | |
 | :--- | :--- |
-| [FR Meditinal Product Substance](StructureDefinition-fr-mp-substance.md) | code for the medicinal product substance |
+| [FR Medicinal Product Substance](StructureDefinition-fr-mp-substance.md) | code for the medicinal product substance |
 | [Range with UCUM or EDQM codes if code is used](StructureDefinition-FrRangeMedication.md) | Range with low and high unit UCUM or EDQM codes if code is used |
 | [Ratio with UCUM or EDQM codes if code is used](StructureDefinition-FrRatioMedication.md) | Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used |
 | [SimpleQuantity with UCUM or EDQM codes or code not used](StructureDefinition-FrSimpleQuantityMedication.md) | simple quantity datatype requiring a UCUM or EDQM code or no code (only unti) |

@@ -16,7 +16,7 @@ Le jeu de valeurs à utiliser pour indiquer un ingrédient composant un médicam
 
  **References** 
 
-* [FR Meditinal Product Substance](StructureDefinition-fr-mp-substance.md)
+* [FR Medicinal Product Substance](StructureDefinition-fr-mp-substance.md)
 
 ### Logical Definition (CLD)
 
@@ -58,7 +58,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "title" : "value set Interop'Santé - Codes identifiant les substances",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-07T09:34:21+00:00",
+  "date" : "2025-11-07T09:59:21+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

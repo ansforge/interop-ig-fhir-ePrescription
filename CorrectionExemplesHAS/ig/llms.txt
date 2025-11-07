@@ -52,7 +52,7 @@
 * [Range with UCUM or EDQM codes if code is used](StructureDefinition-FrRangeMedication.md)
 * [Ratio with UCUM or EDQM codes if code is used](StructureDefinition-FrRatioMedication.md)
 * [SimpleQuantity with UCUM or EDQM codes or code not used](StructureDefinition-FrSimpleQuantityMedication.md)
-* [FR Meditinal Product Substance](StructureDefinition-fr-mp-substance.md)
+* [FR Medicinal Product Substance](StructureDefinition-fr-mp-substance.md)
 
 ### Resource Profiles
 

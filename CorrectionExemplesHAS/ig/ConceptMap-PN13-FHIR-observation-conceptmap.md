@@ -355,7 +355,7 @@ Mapping de https://interopsante.org/pn13/xsd vers https://hl7.org/fhir/R4/observ
   "name" : "FrPN13FHIRObservationConceptMap",
   "title" : "Conversion PN13 vers FHIR pour les renseignements complémentaires d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-11-07T09:34:21+00:00",
+  "date" : "2025-11-07T09:59:21+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
