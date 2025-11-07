@@ -20,43 +20,26 @@ Usage: #inline
 * requester.reference = "Practitioner/smart-Practitioner-71482713"
 * dosageInstruction[0].sequence = 1
 * dosageInstruction[=].additionalInstruction.text = "Jusqu'à obtenir 3 bandelettes urinaires négatives"
-* dosageInstruction[=].timing.repeat.frequency = 1
-* dosageInstruction[=].timing.repeat.periodUnit = #wk
 * dosageInstruction[=].timing.repeat.when = #MORN
 * dosageInstruction[=].doseAndRate.doseQuantity = 60 $unitsofmeasure#mg "mg"
 * dosageInstruction[+].sequence = 2
-* dosageInstruction[=].timing.repeat.duration = 1
-* dosageInstruction[=].timing.repeat.durationUnit = #wk
-* dosageInstruction[=].timing.repeat.frequency = 1
-* dosageInstruction[=].timing.repeat.periodUnit = #wk
+* dosageInstruction[=].timing.repeat.boundsDuration = 1 $unitsofmeasure#wk "semaine"
 * dosageInstruction[=].timing.repeat.when = #MORN
 * dosageInstruction[=].doseAndRate.doseQuantity = 50 $unitsofmeasure#mg "mg"
 * dosageInstruction[+].sequence = 3
-* dosageInstruction[=].timing.repeat.duration = 1
-* dosageInstruction[=].timing.repeat.durationUnit = #wk
-* dosageInstruction[=].timing.repeat.frequency = 1
-* dosageInstruction[=].timing.repeat.periodUnit = #wk
+* dosageInstruction[=].timing.repeat.boundsDuration = 1 $unitsofmeasure#wk "semaine"
 * dosageInstruction[=].timing.repeat.when = #MORN
 * dosageInstruction[=].doseAndRate.doseQuantity = 40 $unitsofmeasure#mg "mg"
 * dosageInstruction[+].sequence = 4
-* dosageInstruction[=].timing.repeat.duration = 1
-* dosageInstruction[=].timing.repeat.durationUnit = #wk
-* dosageInstruction[=].timing.repeat.frequency = 1
-* dosageInstruction[=].timing.repeat.periodUnit = #wk
+* dosageInstruction[=].timing.repeat.boundsDuration = 1 $unitsofmeasure#wk "semaine"
 * dosageInstruction[=].timing.repeat.when = #MORN
 * dosageInstruction[=].doseAndRate.doseQuantity = 30 $unitsofmeasure#mg "mg"
 * dosageInstruction[+].sequence = 5
-* dosageInstruction[=].timing.repeat.duration = 1
-* dosageInstruction[=].timing.repeat.durationUnit = #wk
-* dosageInstruction[=].timing.repeat.frequency = 1
-* dosageInstruction[=].timing.repeat.periodUnit = #wk
+* dosageInstruction[=].timing.repeat.boundsDuration = 1 $unitsofmeasure#wk "semaine"
 * dosageInstruction[=].timing.repeat.when = #MORN
 * dosageInstruction[=].doseAndRate.doseQuantity = 20 $unitsofmeasure#mg "mg"
 * dosageInstruction[+].sequence = 6
-* dosageInstruction[=].timing.repeat.duration = 1
-* dosageInstruction[=].timing.repeat.durationUnit = #wk
-* dosageInstruction[=].timing.repeat.frequency = 1
-* dosageInstruction[=].timing.repeat.periodUnit = #wk
+* dosageInstruction[=].timing.repeat.boundsDuration = 1 $unitsofmeasure#wk "semaine"
 * dosageInstruction[=].timing.repeat.when = #MORN
 * dosageInstruction[=].doseAndRate.doseQuantity = 10 $unitsofmeasure#mg "mg"
 * dosageInstruction[+].sequence = 7
