@@ -1,7 +1,7 @@
 Profile: FRMPSubstance
 Parent: CodeableConcept
 Id: fr-mp-substance
-Title: "FR Meditinal Product Substance"
+Title: "FR Medicinal Product Substance"
 Description: "code for the medicinal product substance"
 * ^version = "1.0.0"
 * ^status = #draft
