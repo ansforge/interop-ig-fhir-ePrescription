@@ -10,7 +10,7 @@
   <name value="eP"/>
   <title value="Guide d'implémentation de la ePrescription"/>
   <status value="draft"/>
-  <date value="2025-11-05T08:58:38+00:00"/>
+  <date value="2025-11-07T10:40:44+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -767,7 +767,7 @@
       <reference>
         <reference value="StructureDefinition/fr-mp-substance"/>
       </reference>
-      <name value="FR Meditinal Product Substance"/>
+      <name value="FR Medicinal Product Substance"/>
       <description value="code for the medicinal product substance"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1186,7 +1186,7 @@
         <reference value="Bundle/HAS-22-Presc-Prednisolone"/>
       </reference>
       <name value="HAS-22-Presc-Prednisolone"/>
-      <description value="PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution"/>
+      <description value="PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l'arrêt selon évolution"/>
       <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
     </resource>
     <resource>

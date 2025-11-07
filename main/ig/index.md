@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:0.1.0 |
-| Draft as of 2025-11-05 | *Computable Name*:eP |
+| Draft as of 2025-11-07 | *Computable Name*:eP |
 
 ### Introduction
 
@@ -82,7 +82,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-11-05T08:58:38+00:00",
+  "date" : "2025-11-07T10:40:44+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -1214,7 +1214,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
         "reference" : {
           "reference" : "StructureDefinition/fr-mp-substance"
         },
-        "name" : "FR Meditinal Product Substance",
+        "name" : "FR Medicinal Product Substance",
         "description" : "code for the medicinal product substance",
         "exampleBoolean" : false
       },
@@ -1747,7 +1747,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "Bundle/HAS-22-Presc-Prednisolone"
         },
         "name" : "HAS-22-Presc-Prednisolone",
-        "description" : "PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution",
+        "description" : "PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l'arrêt selon évolution",
         "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
       },
       {

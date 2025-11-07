@@ -1,15 +1,15 @@
-# FR Meditinal Product Substance - Guide d'implémentation de la ePrescription v0.1.0
+# FR Medicinal Product Substance - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **FR Meditinal Product Substance**
+* **FR Medicinal Product Substance**
 
-## Data Type Profile: FR Meditinal Product Substance 
+## Data Type Profile: FR Medicinal Product Substance 
 
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance | *Version*:0.1.0 |
-| Draft as of 2025-11-05 | *Computable Name*:FRMPSubstance |
+| Draft as of 2025-11-07 | *Computable Name*:FRMPSubstance |
 
  
 code for the medicinal product substance 
@@ -39,10 +39,10 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance",
   "version" : "0.1.0",
   "name" : "FRMPSubstance",
-  "title" : "FR Meditinal Product Substance",
+  "title" : "FR Medicinal Product Substance",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-05T08:58:38+00:00",
+  "date" : "2025-11-07T10:40:44+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

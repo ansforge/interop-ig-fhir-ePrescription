@@ -10,10 +10,10 @@
   <url value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance"/>
   <version value="0.1.0"/>
   <name value="FRMPSubstance"/>
-  <title value="FR Meditinal Product Substance"/>
+  <title value="FR Medicinal Product Substance"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2025-11-05T08:58:38+00:00"/>
+  <date value="2025-11-07T10:40:44+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>

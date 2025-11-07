@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "eP"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la ePrescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-05T08:58:38+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-07T10:40:44+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -1939,7 +1939,7 @@
          fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance> ;
          fhir:reference [ fhir:v "StructureDefinition/fr-mp-substance" ]
        ] ;
-       fhir:name [ fhir:v "FR Meditinal Product Substance" ] ;
+       fhir:name [ fhir:v "FR Medicinal Product Substance" ] ;
        fhir:description [ fhir:v "code for the medicinal product substance" ] ;
        fhir:example [
          a fhir:Boolean ;
@@ -2768,7 +2768,7 @@
          fhir:reference [ fhir:v "Bundle/HAS-22-Presc-Prednisolone" ]
        ] ;
        fhir:name [ fhir:v "HAS-22-Presc-Prednisolone" ] ;
-       fhir:description [ fhir:v "PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution" ] ;
+       fhir:description [ fhir:v "PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l'arrêt selon évolution" ] ;
        fhir:example [
          a fhir:Canonical ;
          fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
