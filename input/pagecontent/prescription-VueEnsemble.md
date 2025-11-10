@@ -1,4 +1,25 @@
-### Vue d'ensemble
+### Modelisation d'une prescription
+
+Une prescrption est un ensemble d'un ou plusieurs traitements prescrits associé(s) à sa/leur posologie. Afin de pouvoir représenter ces concepts sous format informatique, ils sont modélisés sous la forme d'une liste d'informations.
+
+#### Exemple d'informations portées par une prescription
+
+![ExempleModelisationPrescription](ExemplePrescriptionAnnotee.jpg)
+
+Note: cet exemple se concentre sur les données spécifique à un ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur...) est traitée dans le guide d'integration FRCore
+
+#### Exemple d'informations portées par une posologie
+
+![ExempleModelisationPosologie1](PosologieAnnotee1.jpg)
+
+![ExempleModelisationPosologie2](PosologieAnnotee2.jpg)
+
+#### Modélisation complète
+
+- [Modélisation d'une ligne de prescription](StructureDefinition-fr-ligne-prescription.html.html)
+- [Modélisation d'une posologie](StructureDefinition-fr-posologie.html)
+
+### Représentation FHIR d'une prescription
 
 La prescription est un ensemble de **lignes de prescription**, représentées chacune par une ressource *MedicationRequest* profilée *FrMedicationRequest* pour les prescriptions de médecine de ville et les prescriptions hospitalières exécutables en ville (PHEV) et *FrInPatientMedicationRequest* pour les prescriptions intrahospitalières.
 
