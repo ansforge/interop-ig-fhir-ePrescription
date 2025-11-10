@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs | *Version*:0.1.0 |
-| Draft as of 2025-11-07 | *Computable Name*:FrNoteScopeCodeValueSet |
+| Draft as of 2025-11-10 | *Computable Name*:FrNoteScopeCodeValueSet |
 
  
 Le jeu de valeurs à utiliser pour coder le périmètre des notes par exemple lors de la transformation de message PN13 en ressources FHIR 
@@ -58,7 +58,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "title" : "value set Interop'Santé - Codes pour le périmètre des notes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-07T17:12:42+00:00",
+  "date" : "2025-11-10T13:55:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

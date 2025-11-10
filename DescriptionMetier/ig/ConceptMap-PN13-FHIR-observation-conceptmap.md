@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-observation-conceptmap | *Version*:0.1.0 |
-| Draft as of 2025-11-07 | *Computable Name*:FrPN13FHIRObservationConceptMap |
+| Draft as of 2025-11-10 | *Computable Name*:FrPN13FHIRObservationConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR d’un renseignement complémentare d’une prescritpion de médicament 
@@ -355,7 +355,7 @@ Mapping de https://interopsante.org/pn13/xsd vers https://hl7.org/fhir/R4/observ
   "name" : "FrPN13FHIRObservationConceptMap",
   "title" : "Conversion PN13 vers FHIR pour les renseignements complémentaires d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-11-07T17:12:42+00:00",
+  "date" : "2025-11-10T13:55:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

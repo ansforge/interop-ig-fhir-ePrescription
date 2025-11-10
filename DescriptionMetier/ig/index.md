@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:0.1.0 |
-| Draft as of 2025-11-07 | *Computable Name*:eP |
+| Draft as of 2025-11-10 | *Computable Name*:eP |
 
 ### Introduction
 
@@ -82,7 +82,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-11-07T17:12:42+00:00",
+  "date" : "2025-11-10T13:55:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

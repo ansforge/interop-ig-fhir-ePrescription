@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication | *Version*:0.1.0 |
-| Draft as of 2025-11-07 | *Computable Name*:FRMedication |
+| Draft as of 2025-11-10 | *Computable Name*:FRMedication |
 
  
 profil de la ressource Medication décrivant le médicament dans une ressource MedicationRequest ou MedicationStatement profilée par InterOp’Santé 
@@ -44,7 +44,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication.csv), 
   "name" : "FRMedication",
   "title" : "FR Medication",
   "status" : "draft",
-  "date" : "2025-11-07T17:12:42+00:00",
+  "date" : "2025-11-10T13:55:53+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
