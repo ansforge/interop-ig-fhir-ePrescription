@@ -58,7 +58,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "title" : "value set Interop'Santé - Codes identifiant les substances",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-18T10:37:29+00:00",
+  "date" : "2025-11-18T10:47:05+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
