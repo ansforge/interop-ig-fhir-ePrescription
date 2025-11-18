@@ -10,10 +10,11 @@ Note: cet exemple se concentre sur les données spécifique à un ligne de presc
 
 #### Exemple d'informations portées par une posologie
 
-<div class=“figure” style=“width:100%;“>
-    <img style=“height: auto; width: 100%;” src=“PosologieAnnotee1.jpg” alt=“posologie annontée 1” title=“psologie annontée 1”>
+<div class="figure" style="width:100%; overflow-x:auto;">
+  <p style="margin: 0; padding: 0;">
+    {% include PosologieAnnoteeI.svg %}
+  </p>
 </div>
-
 
 ![ExempleModelisationPosologie2](PosologieAnnotee2.jpg)  
 
