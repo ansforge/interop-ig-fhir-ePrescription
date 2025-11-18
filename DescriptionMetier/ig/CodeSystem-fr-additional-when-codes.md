@@ -37,7 +37,7 @@ Le système de codage pour des périodes d’occurrence qui ne sont pas définie
   "title" : "code system Interop'Santé - Codes additionnels pour l'élément when",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-18T15:51:09+00:00",
+  "date" : "2025-11-18T15:52:49+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

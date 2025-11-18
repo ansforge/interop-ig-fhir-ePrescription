@@ -7,11 +7,13 @@
 
 ### Modelisation d’une prescription
 
-Une prescrption est un ensemble d’un ou plusieurs traitements prescrits associé(s) à sa/leur posologie. Afin de pouvoir représenter ces concepts sous format informatique, ils sont modélisés sous la forme d’une liste d’informations.
+Une prescription est un ensemble d’un ou plusieurs traitements prescrits associé(s) à sa/leur posologie. Afin de pouvoir représenter ces concepts sous format informatique, ils sont modélisés sous la forme d’une liste d’informations.
 
 #### Exemple d’informations portées par une prescription
 
-![](ExemplePrescriptionAnnotee.jpg)
+Exemple de modélisation d’une prescription
+
+<div class=“figure” style=“width:100%;“> <img style=“height: auto; width: 100%;” src=“ExemplePrescriptionAnnotee.jpg” alt=“Exemple prescription Annotée” title=“Exemple prescription Annotée”> </div>
 
 Note: cet exemple se concentre sur les données spécifique à un ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur…) est traitée dans le guide d’integration FRCore
 
