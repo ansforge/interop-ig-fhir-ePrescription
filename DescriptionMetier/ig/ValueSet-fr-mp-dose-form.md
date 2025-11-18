@@ -59,7 +59,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "title" : "French Medicinal product Dose form",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-18T15:52:49+00:00",
+  "date" : "2025-11-18T16:02:22+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

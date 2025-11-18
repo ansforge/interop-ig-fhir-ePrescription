@@ -13,19 +13,13 @@ Une prescription est un ensemble d’un ou plusieurs traitements prescrits assoc
 
 Exemple de modélisation d’une prescription
 
-<div class=“figure” style=“width:100%;“> <img style=“height: auto; width: 100%;” src=“ExemplePrescriptionAnnotee.jpg” alt=“Exemple prescription Annotée” title=“Exemple prescription Annotée”> </div>
-
 Note: cet exemple se concentre sur les données spécifique à un ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur…) est traitée dans le guide d’integration FRCore
 
 #### Exemple d’informations portées par une posologie
 
 Exemple 1 de posologie annotée :
 
-<div class=“figure” style=“width:100%;“> <img style=“height: auto; width: 100%;” src=“PosologieAnnotee1.jpg” alt=“Posologie Annotée 1” title=“Posologie Annotée 1”> </div>
-
 Exemple 2 de posologie annotée :
-
-<div class=“figure” style=“width:100%;“> <img style=“height: auto; width: 100%;” src=“PosologieAnnotee2.jpg” alt=“Posologie Annotée 2” title=“Posologie Annotée 2”> </div>
 
 #### Modélisation complète
 

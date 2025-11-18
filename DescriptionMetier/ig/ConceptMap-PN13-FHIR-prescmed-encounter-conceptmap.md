@@ -40,7 +40,7 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Inpatient MedicationReques
   "name" : "FrPN13FHIRMedicationPrescriptionEncounterConceptMap",
   "title" : "Conversion PN13 vers FHIR pour un séjour d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-11-18T15:52:49+00:00",
+  "date" : "2025-11-18T16:02:22+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
