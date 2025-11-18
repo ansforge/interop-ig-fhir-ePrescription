@@ -10,13 +10,18 @@ Note: cet exemple se concentre sur les données spécifique à un ligne de presc
 
 #### Exemple d'informations portées par une posologie
 
-<div class="figure" style="width:100%; overflow-x:auto;">
-  <p style="margin: 0; padding: 0;">
-    {% include PosologieAnnoteeI.svg %}
-  </p>
+Exemple 1 de posologie annotée :
+
+<div class=“figure” style=“width:100%;“>
+    <img style=“height: auto; width: 100%;” src=“PosologieAnnotee1.jpg” alt=“Posologie Annotée 1” title=“Posologie Annotée 1”>
 </div>
 
-![ExempleModelisationPosologie2](PosologieAnnotee2.jpg)  
+
+Exemple 2 de posologie annotée :
+
+<div class=“figure” style=“width:100%;“>
+    <img style=“height: auto; width: 100%;” src=“PosologieAnnotee2.jpg” alt=“Posologie Annotée 2” title=“Posologie Annotée 2”>
+</div>
 
 
 #### Modélisation complète
