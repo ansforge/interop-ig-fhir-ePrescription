@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form | *Version*:0.1.0 |
-| Draft as of 2025-11-10 | *Computable Name*:FrMpDoseForm |
+| Draft as of 2025-11-18 | *Computable Name*:FrMpDoseForm |
 
  
 Le jeu de valeurs à utiliser pour coder l’élément**doseForm**des ressources**FrMedication**. 
@@ -59,7 +59,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "title" : "French Medicinal product Dose form",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-10T13:55:53+00:00",
+  "date" : "2025-11-18T09:59:03+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

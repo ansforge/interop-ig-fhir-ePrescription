@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship | *Version*:0.1.0 |
-| Draft as of 2025-11-10 | *Computable Name*:FrAdditionalActionRelationship |
+| Draft as of 2025-11-18 | *Computable Name*:FrAdditionalActionRelationship |
 
 Extension to specify relationship between action in a RequestGroup
 
@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-action
   "name" : "FrAdditionalActionRelationship",
   "title" : "Additional relatedAction relationship",
   "status" : "draft",
-  "date" : "2025-11-10T13:55:53+00:00",
+  "date" : "2025-11-18T09:59:03+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

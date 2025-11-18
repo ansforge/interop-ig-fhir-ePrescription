@@ -18,7 +18,7 @@ Langue : fr-FR
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de `https://www.phast.fr/ciodm/|2025` to [Unified Code for Units of Measure (UCUM)](http://terminology.hl7.org/6.5.0/CodeSystem-v3-ucum.html)
+**Groupe 1**Mapping de `https://www.phast.fr/ciodm/|2025` to [Unified Code for Units of Measure (UCUM)](http://terminology.hl7.org/6.0.2/CodeSystem-v3-ucum.html)
 
 * **Code source**: 10*3.bq
   * **relation**: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)

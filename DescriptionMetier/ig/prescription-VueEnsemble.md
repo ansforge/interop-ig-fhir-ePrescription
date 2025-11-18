@@ -23,7 +23,7 @@ Note: cet exemple se concentre sur les données spécifique à un ligne de presc
 
 #### Modélisation complète
 
-* [Modélisation d’une ligne de prescription](StructureDefinition-fr-ligne-prescription.md.md)
+* [Modélisation d’une ligne de prescription](StructureDefinition-fr-ligne-prescription.md)
 * [Modélisation d’une posologie](StructureDefinition-fr-posologie.md)
 
 ### Représentation FHIR d’une prescription

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code | *Version*:0.1.0 |
-| Draft as of 2025-11-10 | *Computable Name*:FrSubstanceCode |
+| Draft as of 2025-11-18 | *Computable Name*:FrSubstanceCode |
 
  
 Le jeu de valeurs à utiliser pour indiquer un ingrédient composant un médicament dans Medication.ingredient.itemCodeableConcept.coding.code 
@@ -58,7 +58,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "title" : "value set Interop'Santé - Codes identifiant les substances",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-10T13:55:53+00:00",
+  "date" : "2025-11-18T09:59:03+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
