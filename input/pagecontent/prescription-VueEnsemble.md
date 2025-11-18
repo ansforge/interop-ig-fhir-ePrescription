@@ -10,9 +10,9 @@ Note: cet exemple se concentre sur les données spécifique à un ligne de presc
 
 #### Exemple d'informations portées par une posologie
 
-![ExempleModelisationPosologie1](PosologieAnnotee1.jpg)  
+![ExempleModelisationPosologie1](PosologieAnnotee1.jpg)\
 
-![ExempleModelisationPosologie2](PosologieAnnotee2.jpg)  
+![ExempleModelisationPosologie2](PosologieAnnotee2.jpg)\ 
 
 #### Modélisation complète
 
