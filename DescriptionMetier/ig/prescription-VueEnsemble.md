@@ -17,7 +17,7 @@ Note: cet exemple se concentre sur les données spécifique à un ligne de presc
 
 #### Exemple d’informations portées par une posologie
 
-![](PosologieAnnotee1.jpg)
+<div class=“figure” style=“width:100%;“> <img style=“height: auto; width: 100%;” src=“PosologieAnnotee1.jpg” alt=“posologie annontée 1” title=“psologie annontée 1”> </div>
 
 ![](PosologieAnnotee2.jpg)
 

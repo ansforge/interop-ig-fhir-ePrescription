@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
   "name" : "FRMedicationRequest",
   "title" : "FR Medication Request",
   "status" : "draft",
-  "date" : "2025-11-18T10:47:05+00:00",
+  "date" : "2025-11-18T14:02:28+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
