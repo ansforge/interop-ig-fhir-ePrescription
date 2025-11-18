@@ -58,7 +58,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "title" : "French Route of Administration",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-18T14:02:28+00:00",
+  "date" : "2025-11-18T15:51:09+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

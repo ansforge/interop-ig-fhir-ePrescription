@@ -2246,7 +2246,7 @@ Mapping de https://interopsante.org/pn13/xsd/M_prescription_medicaments/Prescrip
   "name" : "FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap",
   "title" : "Conversion PN13 vers FHIR pour la posologie d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-11-18T14:02:28+00:00",
+  "date" : "2025-11-18T15:51:09+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

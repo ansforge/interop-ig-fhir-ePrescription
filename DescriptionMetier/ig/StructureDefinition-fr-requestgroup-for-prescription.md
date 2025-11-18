@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-requestgroup-for-
   "title" : "FR RequestGroup For Prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-18T14:02:28+00:00",
+  "date" : "2025-11-18T15:51:09+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
