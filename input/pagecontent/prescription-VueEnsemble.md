@@ -10,7 +10,7 @@ Exemple de modélisation d'une prescription
     <img style="height: auto; width: 100%;" src="ExemplePrescriptionAnnotee.jpg" alt="Exemple prescription Annotée" title="Exemple prescription Annotée">
 </div>
 
-Note: cet exemple se concentre sur les données spécifique à un ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur...) est traitée dans le guide d'integration FRCore
+Note: cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur...) est traitée dans le guide d'integration FRCore
 
 #### Exemple d'informations portées par une posologie
 
