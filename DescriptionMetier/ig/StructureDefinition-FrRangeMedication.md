@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication | *Version*:0.1.0 |
-| Draft as of 2025-11-18 | *Computable Name*:FrRangeMedication |
+| Draft as of 2025-11-25 | *Computable Name*:FrRangeMedication |
 
  
 Range with low and high unit UCUM or EDQM codes if code is used 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
   "name" : "FrRangeMedication",
   "title" : "Range with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2025-11-18T16:02:22+00:00",
+  "date" : "2025-11-25T08:13:47+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

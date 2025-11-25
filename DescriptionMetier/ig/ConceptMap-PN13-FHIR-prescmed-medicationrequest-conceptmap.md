@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-medicationrequest-conceptmap | *Version*:0.1.0 |
-| Draft as of 2025-11-18 | *Computable Name*:FrPN13FHIRMedicationPrescriptionMedicationRequestConceptMap |
+| Draft as of 2025-11-25 | *Computable Name*:FrPN13FHIRMedicationPrescriptionMedicationRequestConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR d’une ligne de prescription d’une prescritpion de médicament 
@@ -728,7 +728,7 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Inpatient MedicationReques
   "name" : "FrPN13FHIRMedicationPrescriptionMedicationRequestConceptMap",
   "title" : "Conversion PN13 vers FHIR pour la ligne de prescription d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-11-18T16:02:22+00:00",
+  "date" : "2025-11-25T08:13:47+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

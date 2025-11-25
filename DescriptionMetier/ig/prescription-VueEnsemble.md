@@ -13,7 +13,7 @@ Une prescription est un ensemble d’un ou plusieurs traitements prescrits assoc
 
 Exemple de modélisation d’une prescription
 
-Note: cet exemple se concentre sur les données spécifique à un ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur…) est traitée dans le guide d’integration FRCore
+Note: cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur…) est traitée dans le guide d’integration FRCore
 
 #### Exemple d’informations portées par une posologie
 

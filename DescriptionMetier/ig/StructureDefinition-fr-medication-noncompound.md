@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound | *Version*:0.1.0 |
-| Draft as of 2025-11-18 | *Computable Name*:FRMedicationNonCompound |
+| Draft as of 2025-11-25 | *Computable Name*:FRMedicationNonCompound |
 
  
 Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
   "title" : "FR Medication Non Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-18T16:02:22+00:00",
+  "date" : "2025-11-25T08:13:47+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
