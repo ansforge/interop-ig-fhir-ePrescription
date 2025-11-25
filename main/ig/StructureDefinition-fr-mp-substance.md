@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance | *Version*:0.1.0 |
-| Draft as of 2025-11-07 | *Computable Name*:FRMPSubstance |
+| Draft as of 2025-11-25 | *Computable Name*:FRMPSubstance |
 
  
 code for the medicinal product substance 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
   "title" : "FR Medicinal Product Substance",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-07T10:40:44+00:00",
+  "date" : "2025-11-25T08:22:04+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

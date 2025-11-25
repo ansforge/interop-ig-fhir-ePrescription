@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes | *Version*:0.1.0 |
-| Draft as of 2025-11-07 | *Computable Name*:FrAdditionalWhenCodes |
+| Draft as of 2025-11-25 | *Computable Name*:FrAdditionalWhenCodes |
 
  
 Le jeu de valeurs à utiliser pour coder des périodes d’occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing. 
@@ -58,7 +58,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "title" : "value set Interop'Santé - Codes additionnels pour l'élément when",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-07T10:40:44+00:00",
+  "date" : "2025-11-25T08:22:04+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
