@@ -25,13 +25,41 @@ Le paysage français de la prescription électronique s'appuie historiquement su
 Ce guide d'implémentation s'inscrit dans une démarche de convergence des travaux nationaux et européens visant à :
 
 - **Uniformiser l'interopérabilité** de la prescription en rassemblant les différentes approches (flux API REST et documents) au sein d'un IG unique
-- **Assurer la compatibilité** avec les standards internationaux (HL7 International, IHE MPD, eHealth Network)
-- **S'harmoniser** avec les travaux de structuration de la posologie de la Haute Autorité de Santé (HAS)
+- **Assurer la compatibilité** avec les standards internationaux (HL7 International, HL7 Europe, IHE, Xt-EHR)
+- **S'harmoniser** avec les travaux de [structuration de la posologie](https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments) de la Haute Autorité de Santé (HAS)
 - **Faciliter la transition** depuis les standards existants (PN-13, CDA) vers FHIR
 
 Cette convergence est le fruit d'une collaboration étroite entre l'ANS, Interop'Santé, les industriels et les professionnels de santé, avec un alignement sur les orientations européennes.
 
 ### Introduction métier (i.e. professionnels de santé)
+
+La prescription électronique est un enjeu majeur pour la qualité et la sécurité des soins. Elle permet de :
+
+- **Réduire les erreurs médicamenteuses** liées à la lisibilité ou à l'interprétation des prescriptions
+- **Améliorer la continuité des soins** en facilitant le partage d'informations entre professionnels (médecins, pharmaciens, infirmiers)
+- **Optimiser la prise en charge** grâce à une meilleure traçabilité du parcours médicamenteux
+- **Faciliter la conciliation médicamenteuse** lors des transitions de soins (ville-hôpital, inter-établissements)
+- **Favoriser la recherche clinique et épidémiologique** en rendant disponibles des données structurées de prescription pour l'analyse et l'amélioration des pratiques
+
+#### À qui s'adresse ce guide ?
+
+Ce guide concerne l'ensemble des acteurs impliqués dans le circuit du médicament :
+
+- **Médecins prescripteurs** (médecine de ville, hospitaliers, spécialistes)
+- **Pharmaciens** (officine, hospitaliers)
+- **Infirmiers** et autres professionnels paramédicaux
+- **Établissements de santé** et leurs systèmes d'information
+- **Éditeurs de logiciels** développant des solutions de prescription et de dispensation
+
+#### Conformité et structuration de la posologie
+
+Le guide intègre les recommandations de la HAS pour la structuration de la posologie, ayant pour objectif :
+
+- Une **expression standardisée** de la posologie (dose, fréquence, durée, ...)
+- Une **interprétation uniforme** par les différents acteurs du circuit
+- Une **compatibilité** avec les outils d'aide à la prescription et à la dispensation
+
+#### Documentation détaillée
 
 Une documentation spécifique aux professionnels de santé est accessible [ici](https://ansforge.github.io/IG-documentation/nr-add-ps-doc/ig/doc_ps.html)
 <!-- TODO mettre à jour le lien avec la version publiée -->
@@ -39,15 +67,6 @@ Une documentation spécifique aux professionnels de santé est accessible [ici](
 ### Introduction développeurs
 
 Ce guide d'implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, ...) pour un usage national français.
-
-#### Fondements et alignements
-
-L'IG s'appuie sur :
-
-- Le **standard PN-13** pour la continuité avec les systèmes existants
-- La **structuration de la posologie** définie par la Haute Autorité de Santé (HAS)
-- Les **spécifications européennes** (Xt-EHR 6.2, profils MPD d'HL7 et IHE Europe)
-- Les **travaux d'Interop'Santé** pour la transition de PN-13 vers FHIR
 
 #### Structure du guide
 
