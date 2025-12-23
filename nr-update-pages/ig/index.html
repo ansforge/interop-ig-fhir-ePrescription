@@ -313,8 +313,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <ul>
   <li><strong>Uniformiser l’interopérabilité</strong> de la prescription en rassemblant les différentes approches (flux API REST et documents) au sein d’un IG unique</li>
-  <li><strong>Assurer la compatibilité</strong> avec les standards internationaux (HL7 International, IHE MPD, eHealth Network)</li>
-  <li><strong>S’harmoniser</strong> avec les travaux de structuration de la posologie de la Haute Autorité de Santé (HAS)</li>
+  <li><strong>Assurer la compatibilité</strong> avec les standards internationaux (HL7 International, HL7 Europe, IHE, Xt-EHR)</li>
+  <li><strong>S’harmoniser</strong> avec les travaux de <a href="https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments">structuration de la posologie</a> de la Haute Autorité de Santé (HAS)</li>
   <li><strong>Faciliter la transition</strong> depuis les standards existants (PN-13, CDA) vers FHIR</li>
 </ul>
 
@@ -322,23 +322,46 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="introduction-métier-ie-professionnels-de-santé">Introduction métier (i.e. professionnels de santé)</h3>
 
+<p>La prescription électronique est un enjeu majeur pour la qualité et la sécurité des soins. Elle permet de :</p>
+
+<ul>
+  <li><strong>Réduire les erreurs médicamenteuses</strong> liées à la lisibilité ou à l’interprétation des prescriptions</li>
+  <li><strong>Améliorer la continuité des soins</strong> en facilitant le partage d’informations entre professionnels (médecins, pharmaciens, infirmiers)</li>
+  <li><strong>Optimiser la prise en charge</strong> grâce à une meilleure traçabilité du parcours médicamenteux</li>
+  <li><strong>Faciliter la conciliation médicamenteuse</strong> lors des transitions de soins (ville-hôpital, inter-établissements)</li>
+  <li><strong>Favoriser la recherche clinique et épidémiologique</strong> en rendant disponibles des données structurées de prescription pour l’analyse et l’amélioration des pratiques</li>
+</ul>
+
+<h4 id="à-qui-sadresse-ce-guide-">À qui s’adresse ce guide ?</h4>
+
+<p>Ce guide concerne l’ensemble des acteurs impliqués dans le circuit du médicament :</p>
+
+<ul>
+  <li><strong>Médecins prescripteurs</strong> (médecine de ville, hospitaliers, spécialistes)</li>
+  <li><strong>Pharmaciens</strong> (officine, hospitaliers)</li>
+  <li><strong>Infirmiers</strong> et autres professionnels paramédicaux</li>
+  <li><strong>Établissements de santé</strong> et leurs systèmes d’information</li>
+  <li><strong>Éditeurs de logiciels</strong> développant des solutions de prescription et de dispensation</li>
+</ul>
+
+<h4 id="conformité-et-structuration-de-la-posologie">Conformité et structuration de la posologie</h4>
+
+<p>Le guide intègre les recommandations de la HAS pour la structuration de la posologie, ayant pour objectif :</p>
+
+<ul>
+  <li>Une <strong>expression standardisée</strong> de la posologie (dose, fréquence, durée, …)</li>
+  <li>Une <strong>interprétation uniforme</strong> par les différents acteurs du circuit</li>
+  <li>Une <strong>compatibilité</strong> avec les outils d’aide à la prescription et à la dispensation</li>
+</ul>
+
+<h4 id="documentation-détaillée">Documentation détaillée</h4>
+
 <p>Une documentation spécifique aux professionnels de santé est accessible <a href="https://ansforge.github.io/IG-documentation/nr-add-ps-doc/ig/doc_ps.html">ici</a>
 <!-- TODO mettre à jour le lien avec la version publiée --></p>
 
 <h3 id="introduction-développeurs">Introduction développeurs</h3>
 
 <p>Ce guide d’implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, …) pour un usage national français.</p>
-
-<h4 id="fondements-et-alignements">Fondements et alignements</h4>
-
-<p>L’IG s’appuie sur :</p>
-
-<ul>
-  <li>Le <strong>standard PN-13</strong> pour la continuité avec les systèmes existants</li>
-  <li>La <strong>structuration de la posologie</strong> définie par la Haute Autorité de Santé (HAS)</li>
-  <li>Les <strong>spécifications européennes</strong> (Xt-EHR 6.2, profils MPD d’HL7 et IHE Europe)</li>
-  <li>Les <strong>travaux d’Interop’Santé</strong> pour la transition de PN-13 vers FHIR</li>
-</ul>
 
 <h4 id="structure-du-guide">Structure du guide</h4>
 
@@ -466,7 +489,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 13:30+0000">2025-12-23</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 13:47+0000">2025-12-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

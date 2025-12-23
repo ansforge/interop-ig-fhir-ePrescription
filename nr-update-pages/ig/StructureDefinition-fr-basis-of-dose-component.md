@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-basis-of-dose-com
   "name" : "FrBasisOfDoseComponent",
   "title" : "Medication component Basis of dose",
   "status" : "draft",
-  "date" : "2025-12-23T13:30:37+00:00",
+  "date" : "2025-12-23T13:47:13+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR du professionnel prescripteur d’u
   "name" : "FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le professionnel prescripteur d'une prescription de médicaments avec d'autres éléments qu'uniquement l'identifiant",
   "status" : "draft",
-  "date" : "2025-12-23T13:30:37+00:00",
+  "date" : "2025-12-23T13:47:13+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

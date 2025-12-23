@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’un patient avec INS qualifiée 
   "name" : "FrPN13FHIRMedicationPrescriptionPatientINSConceptMap",
   "title" : "Conversion PN13 vers FHIR pour un patient avec INS qualifiée d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-12-23T13:30:37+00:00",
+  "date" : "2025-12-23T13:47:13+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
