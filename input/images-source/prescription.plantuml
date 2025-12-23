@@ -16,8 +16,8 @@ package "Informations contextuelles" {
 }
 
 package "Médicament prescrit" {
-  class FrMedicationNonCompound [[./StructureDefinition-fr-medication-noncompound.html]]
-  class FrMedicationCompound [[./StructureDefinition-fr-medication-compound.html]]
+  class FRMedicationNonCompound [[./StructureDefinition-fr-medication-noncompound.html]]
+  class FRMedicationCompound [[./StructureDefinition-fr-medication-compound.html]]
 }
 
 class "FRMedicationRequest" [[./StructureDefinition-fr-medicationrequest.html]]
@@ -48,6 +48,6 @@ FRMedicationRequest --> "Informations contextuelles"
 
 FRMedicationRequest --> "Médicament prescrit"
 
-FRMedicationNonCompound --> FrMedicationCompound
+FRMedicationNonCompound --> FRMedicationCompound
 
 @enduml
