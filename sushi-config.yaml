@@ -28,30 +28,32 @@ dependencies:
 pages:
     index.md: 
       title: Accueil
-    prescription-Intro.md:
-      title: La prescription - Introduction
-    prescription-VueEnsemble.md:
-      title: La prescription - Vue d'ensemble
-    prescription-CasUsage.md:
-      title: La prescription - Cas d'usage
-    prescription-Exemples.md:
-      title: La prescription - Exemples
-    prescription-Document.md:
-      title: La prescription au format document
-    transformationPN13-FHIR-Intro.md:
-      title: Transformation de PN13 en FHIR
-    transformation-PN13-vers-FHIR.md:
-      title: Transformation de PN13 vers FHIR
-    transformation-FHIR-vers-PN13.md:
-      title: Transformation de FHIR vers PN13
-    PN13-prescription-DC.md:
-      title: Exemple de prescription PN13 médicament simple en DC
-    PN13-prescription-specialite.md:
-      title: Exemple de prescription PN13 médicament simple en spécialité
-    PN13-prescription-compound.md:
-      title: Exemple de prescription PN13 médicament composite
-    PN13-prescription-MV.md:
-      title: Exemple de prescription PN13 médicament virtuel
+    prescription.md:
+      prescription-Intro.md:
+        title: La prescription - Introduction
+      prescription-VueEnsemble.md:
+        title: La prescription - Vue d'ensemble
+      prescription-CasUsage.md:
+        title: La prescription - Cas d'usage
+      prescription-Exemples.md:
+        title: La prescription - Exemples
+      prescription-Document.md:
+        title: La prescription au format document
+    transformation.md:
+      transformationPN13-FHIR-Intro.md:
+        title: Transformation de PN13 en FHIR
+      transformation-PN13-vers-FHIR.md:
+        title: Transformation de PN13 vers FHIR
+      transformation-FHIR-vers-PN13.md:
+        title: Transformation de FHIR vers PN13
+      PN13-prescription-DC.md:
+        title: Exemple de prescription PN13 médicament simple en DC
+      PN13-prescription-specialite.md:
+        title: Exemple de prescription PN13 médicament simple en spécialité
+      PN13-prescription-compound.md:
+        title: Exemple de prescription PN13 médicament composite
+      PN13-prescription-MV.md:
+        title: Exemple de prescription PN13 médicament virtuel
     downloads.md:
       title: Téléchargements et usages
     suivitravaux.md:

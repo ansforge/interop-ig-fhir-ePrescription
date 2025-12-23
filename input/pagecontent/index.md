@@ -8,7 +8,28 @@
   </div>
 {% endif %}
 
-Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilité de la [ePrescription](prescription-Intro.html).
+Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilité de la [ePrescription](prescription-Intro.html) en FHIR pour l'écosystème français de santé.
+
+### Contexte et enjeux
+
+#### Situation actuelle
+
+Le paysage français de la prescription électronique s'appuie historiquement sur plusieurs standards :
+
+- **PN-13** : standard de type "message" pour les flux intra-hospitaliers de prescription
+- **CDA ePrescription** : format documentaire pour la prescription de médicaments et dispositifs médicaux
+- Les spécifications européennes émergentes dans le cadre de l'Espace Européen des Données de Santé (EEDS)
+
+#### Objectifs de convergence
+
+Ce guide d'implémentation s'inscrit dans une démarche de convergence des travaux nationaux et européens visant à :
+
+- **Uniformiser l'interopérabilité** de la prescription en rassemblant les différentes approches (flux API REST et documents) au sein d'un IG unique
+- **Assurer la compatibilité** avec les standards internationaux (HL7 International, IHE MPD, eHealth Network)
+- **S'harmoniser** avec les travaux de structuration de la posologie de la Haute Autorité de Santé (HAS)
+- **Faciliter la transition** depuis les standards existants (PN-13, CDA) vers FHIR
+
+Cette convergence est le fruit d'une collaboration étroite entre l'ANS, Interop'Santé, les industriels et les professionnels de santé, avec un alignement sur les orientations européennes.
 
 ### Introduction métier (i.e. professionnels de santé)
 
@@ -17,15 +38,24 @@ Une documentation spécifique aux professionnels de santé est accessible [ici](
 
 ### Introduction développeurs
 
-Ce guide d'implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, ...) pour utilisation nationale. 
+Ce guide d'implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, ...) pour un usage national français.
 
-Il s'appuie sur le standard PN-13 et sur la structuration de la posologie définie par la Haute Autorité de Santé.
+#### Fondements et alignements
 
-L'IG intègre plusieurs pages :
+L'IG s'appuie sur :
 
-- une partie définissant les profils FHIR autour de la ePrescription ainsi qu'un nombre conséquent d'exemples, pour utilisation générique (API Rest, Document, ...). Ces profils permettent à n'importe quel acteur souhaitant travailler sur la ePrescription en FHIR à s'appuyer sur cette base nationale.
-- une partie indiquant [comment passer de flux PN-13 à des ressources FHIR](transformation-PN13-vers-FHIR.html) et inversement.
-- Le guide contiendra également ultérieurement une partie document pour rassembler les lignes de prescription sous forme d'ordonnance
+- Le **standard PN-13** pour la continuité avec les systèmes existants
+- La **structuration de la posologie** définie par la Haute Autorité de Santé (HAS)
+- Les **spécifications européennes** (Xt-EHR 6.2, profils MPD d'HL7 et IHE Europe)
+- Les **travaux d'Interop'Santé** pour la transition de PN-13 vers FHIR
+
+#### Structure du guide
+
+L'IG intègre plusieurs volets complémentaires :
+
+- **Profils FHIR génériques** : définition des profils autour de la ePrescription avec de nombreux exemples, utilisables dans différents contextes (API REST, documents, messages). Ces profils constituent une base nationale commune pour tous les acteurs travaillant sur la prescription électronique en FHIR.
+- **Transformation PN-13** : spécifications pour [passer des flux PN-13 aux ressources FHIR](transformation-PN13-vers-FHIR.html) et inversement, garantissant l'interopérabilité avec les systèmes existants.
+- **Volet documentaire** : le guide intégrera ultérieurement une partie document (Bundle de type Document) pour rassembler les lignes de prescription sous forme d'ordonnance complète.
 
 ### Auteurs
 
