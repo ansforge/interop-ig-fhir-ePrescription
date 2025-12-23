@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
   "title" : "FR Medication Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-23T14:00:44+00:00",
+  "date" : "2025-12-23T14:16:40+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
