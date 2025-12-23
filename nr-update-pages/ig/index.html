@@ -198,7 +198,7 @@
 
             <a href="#bottom">bottom</a>
 
-          | <a href="prescription-Intro.html">next&gt;</a>
+          | <a href="prescription.html">next&gt;</a>
 
           </span>
 
@@ -277,6 +277,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
+  <li><a href="#contexte-et-enjeux" id="markdown-toc-contexte-et-enjeux">Contexte et enjeux</a></li>
   <li><a href="#introduction-métier-ie-professionnels-de-santé" id="markdown-toc-introduction-métier-ie-professionnels-de-santé">Introduction métier (i.e. professionnels de santé)</a></li>
   <li><a href="#introduction-développeurs" id="markdown-toc-introduction-développeurs">Introduction développeurs</a></li>
   <li><a href="#auteurs" id="markdown-toc-auteurs">Auteurs</a></li>
@@ -292,7 +293,32 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </blockquote>
   </div>
 
-<p>Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la <a href="prescription-Intro.html">ePrescription</a>.</p>
+<p>Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la <a href="prescription-Intro.html">ePrescription</a> en FHIR pour l’écosystème français de santé.</p>
+
+<h3 id="contexte-et-enjeux">Contexte et enjeux</h3>
+
+<h4 id="situation-actuelle">Situation actuelle</h4>
+
+<p>Le paysage français de la prescription électronique s’appuie historiquement sur plusieurs standards :</p>
+
+<ul>
+  <li><strong>PN-13</strong> : standard de type “message” pour les flux intra-hospitaliers de prescription</li>
+  <li><strong>CDA ePrescription</strong> : format documentaire pour la prescription de médicaments et dispositifs médicaux</li>
+  <li>Les spécifications européennes émergentes dans le cadre de l’Espace Européen des Données de Santé (EEDS)</li>
+</ul>
+
+<h4 id="objectifs-de-convergence">Objectifs de convergence</h4>
+
+<p>Ce guide d’implémentation s’inscrit dans une démarche de convergence des travaux nationaux et européens visant à :</p>
+
+<ul>
+  <li><strong>Uniformiser l’interopérabilité</strong> de la prescription en rassemblant les différentes approches (flux API REST et documents) au sein d’un IG unique</li>
+  <li><strong>Assurer la compatibilité</strong> avec les standards internationaux (HL7 International, IHE MPD, eHealth Network)</li>
+  <li><strong>S’harmoniser</strong> avec les travaux de structuration de la posologie de la Haute Autorité de Santé (HAS)</li>
+  <li><strong>Faciliter la transition</strong> depuis les standards existants (PN-13, CDA) vers FHIR</li>
+</ul>
+
+<p>Cette convergence est le fruit d’une collaboration étroite entre l’ANS, Interop’Santé, les industriels et les professionnels de santé, avec un alignement sur les orientations européennes.</p>
 
 <h3 id="introduction-métier-ie-professionnels-de-santé">Introduction métier (i.e. professionnels de santé)</h3>
 
@@ -301,16 +327,27 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="introduction-développeurs">Introduction développeurs</h3>
 
-<p>Ce guide d’implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, …) pour utilisation nationale.</p>
+<p>Ce guide d’implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, …) pour un usage national français.</p>
 
-<p>Il s’appuie sur le standard PN-13 et sur la structuration de la posologie définie par la Haute Autorité de Santé.</p>
+<h4 id="fondements-et-alignements">Fondements et alignements</h4>
 
-<p>L’IG intègre plusieurs pages :</p>
+<p>L’IG s’appuie sur :</p>
 
 <ul>
-  <li>une partie définissant les profils FHIR autour de la ePrescription ainsi qu’un nombre conséquent d’exemples, pour utilisation générique (API Rest, Document, …). Ces profils permettent à n’importe quel acteur souhaitant travailler sur la ePrescription en FHIR à s’appuyer sur cette base nationale.</li>
-  <li>une partie indiquant <a href="transformation-PN13-vers-FHIR.html">comment passer de flux PN-13 à des ressources FHIR</a> et inversement.</li>
-  <li>Le guide contiendra également ultérieurement une partie document pour rassembler les lignes de prescription sous forme d’ordonnance</li>
+  <li>Le <strong>standard PN-13</strong> pour la continuité avec les systèmes existants</li>
+  <li>La <strong>structuration de la posologie</strong> définie par la Haute Autorité de Santé (HAS)</li>
+  <li>Les <strong>spécifications européennes</strong> (Xt-EHR 6.2, profils MPD d’HL7 et IHE Europe)</li>
+  <li>Les <strong>travaux d’Interop’Santé</strong> pour la transition de PN-13 vers FHIR</li>
+</ul>
+
+<h4 id="structure-du-guide">Structure du guide</h4>
+
+<p>L’IG intègre plusieurs volets complémentaires :</p>
+
+<ul>
+  <li><strong>Profils FHIR génériques</strong> : définition des profils autour de la ePrescription avec de nombreux exemples, utilisables dans différents contextes (API REST, documents, messages). Ces profils constituent une base nationale commune pour tous les acteurs travaillant sur la prescription électronique en FHIR.</li>
+  <li><strong>Transformation PN-13</strong> : spécifications pour <a href="transformation-PN13-vers-FHIR.html">passer des flux PN-13 aux ressources FHIR</a> et inversement, garantissant l’interopérabilité avec les systèmes existants.</li>
+  <li><strong>Volet documentaire</strong> : le guide intégrera ultérieurement une partie document (Bundle de type Document) pour rassembler les lignes de prescription sous forme d’ordonnance complète.</li>
 </ul>
 
 <h3 id="auteurs">Auteurs</h3>
@@ -419,7 +456,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="prescription-Intro.html">next&gt;</a>
+                <a href="prescription.html">next&gt;</a>
 
               </td>
             </tr>
@@ -429,7 +466,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 13:19+0000">2025-12-23</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Dec 23, 2025 13:30+0000">2025-12-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

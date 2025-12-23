@@ -12,7 +12,28 @@
 
 > **Attention !**Ce guide d'implémentation n'est pas en version courante. La version courante sera accessible via l'URL canonique (https://interop.esante.gouv.fr/ig/fhir/eprescription) lorsque celui-ci sera publié.
 
-Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription](prescription-Intro.md).
+Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription](prescription-Intro.md) en FHIR pour l’écosystème français de santé.
+
+### Contexte et enjeux
+
+#### Situation actuelle
+
+Le paysage français de la prescription électronique s’appuie historiquement sur plusieurs standards :
+
+* **PN-13** : standard de type “message” pour les flux intra-hospitaliers de prescription
+* **CDA ePrescription** : format documentaire pour la prescription de médicaments et dispositifs médicaux
+* Les spécifications européennes émergentes dans le cadre de l’Espace Européen des Données de Santé (EEDS)
+
+#### Objectifs de convergence
+
+Ce guide d’implémentation s’inscrit dans une démarche de convergence des travaux nationaux et européens visant à :
+
+* **Uniformiser l’interopérabilité** de la prescription en rassemblant les différentes approches (flux API REST et documents) au sein d’un IG unique
+* **Assurer la compatibilité** avec les standards internationaux (HL7 International, IHE MPD, eHealth Network)
+* **S’harmoniser** avec les travaux de structuration de la posologie de la Haute Autorité de Santé (HAS)
+* **Faciliter la transition** depuis les standards existants (PN-13, CDA) vers FHIR
+
+Cette convergence est le fruit d’une collaboration étroite entre l’ANS, Interop’Santé, les industriels et les professionnels de santé, avec un alignement sur les orientations européennes.
 
 ### Introduction métier (i.e. professionnels de santé)
 
@@ -20,15 +41,24 @@ Une documentation spécifique aux professionnels de santé est accessible [ici](
 
 ### Introduction développeurs
 
-Ce guide d’implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, …) pour utilisation nationale.
+Ce guide d’implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, …) pour un usage national français.
 
-Il s’appuie sur le standard PN-13 et sur la structuration de la posologie définie par la Haute Autorité de Santé.
+#### Fondements et alignements
 
-L’IG intègre plusieurs pages :
+L’IG s’appuie sur :
 
-* une partie définissant les profils FHIR autour de la ePrescription ainsi qu’un nombre conséquent d’exemples, pour utilisation générique (API Rest, Document, …). Ces profils permettent à n’importe quel acteur souhaitant travailler sur la ePrescription en FHIR à s’appuyer sur cette base nationale.
-* une partie indiquant [comment passer de flux PN-13 à des ressources FHIR](transformation-PN13-vers-FHIR.md) et inversement.
-* Le guide contiendra également ultérieurement une partie document pour rassembler les lignes de prescription sous forme d’ordonnance
+* Le **standard PN-13** pour la continuité avec les systèmes existants
+* La **structuration de la posologie** définie par la Haute Autorité de Santé (HAS)
+* Les **spécifications européennes** (Xt-EHR 6.2, profils MPD d’HL7 et IHE Europe)
+* Les **travaux d’Interop’Santé** pour la transition de PN-13 vers FHIR
+
+#### Structure du guide
+
+L’IG intègre plusieurs volets complémentaires :
+
+* **Profils FHIR génériques** : définition des profils autour de la ePrescription avec de nombreux exemples, utilisables dans différents contextes (API REST, documents, messages). Ces profils constituent une base nationale commune pour tous les acteurs travaillant sur la prescription électronique en FHIR.
+* **Transformation PN-13** : spécifications pour [passer des flux PN-13 aux ressources FHIR](transformation-PN13-vers-FHIR.md) et inversement, garantissant l’interopérabilité avec les systèmes existants.
+* **Volet documentaire** : le guide intégrera ultérieurement une partie document (Bundle de type Document) pour rassembler les lignes de prescription sous forme d’ordonnance complète.
 
 ### Auteurs
 
@@ -92,7 +122,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-12-23T13:19:08+00:00",
+  "date" : "2025-12-23T13:30:37+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -2837,133 +2867,159 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription-Intro.html"
+              "valueUrl" : "prescription.html"
             }
           ],
-          "nameUrl" : "prescription-Intro.html",
-          "title" : "La prescription - Introduction",
-          "generation" : "markdown"
+          "nameUrl" : "prescription.html",
+          "title" : "Prescription",
+          "generation" : "markdown",
+          "page" : [
+            {
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "prescription-Intro.html"
+                }
+              ],
+              "nameUrl" : "prescription-Intro.html",
+              "title" : "La prescription - Introduction",
+              "generation" : "markdown"
+            },
+            {
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "prescription-VueEnsemble.html"
+                }
+              ],
+              "nameUrl" : "prescription-VueEnsemble.html",
+              "title" : "La prescription - Vue d'ensemble",
+              "generation" : "markdown"
+            },
+            {
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "prescription-CasUsage.html"
+                }
+              ],
+              "nameUrl" : "prescription-CasUsage.html",
+              "title" : "La prescription - Cas d'usage",
+              "generation" : "markdown"
+            },
+            {
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "prescription-Exemples.html"
+                }
+              ],
+              "nameUrl" : "prescription-Exemples.html",
+              "title" : "La prescription - Exemples",
+              "generation" : "markdown"
+            },
+            {
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "prescription-Document.html"
+                }
+              ],
+              "nameUrl" : "prescription-Document.html",
+              "title" : "La prescription au format document",
+              "generation" : "markdown"
+            }
+          ]
         },
         {
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription-VueEnsemble.html"
+              "valueUrl" : "transformation.html"
             }
           ],
-          "nameUrl" : "prescription-VueEnsemble.html",
-          "title" : "La prescription - Vue d'ensemble",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+          "nameUrl" : "transformation.html",
+          "title" : "Transformation",
+          "generation" : "markdown",
+          "page" : [
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription-CasUsage.html"
-            }
-          ],
-          "nameUrl" : "prescription-CasUsage.html",
-          "title" : "La prescription - Cas d'usage",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "transformationPN13-FHIR-Intro.html"
+                }
+              ],
+              "nameUrl" : "transformationPN13-FHIR-Intro.html",
+              "title" : "Transformation de PN13 en FHIR",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription-Exemples.html"
-            }
-          ],
-          "nameUrl" : "prescription-Exemples.html",
-          "title" : "La prescription - Exemples",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "transformation-PN13-vers-FHIR.html"
+                }
+              ],
+              "nameUrl" : "transformation-PN13-vers-FHIR.html",
+              "title" : "Transformation de PN13 vers FHIR",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription-Document.html"
-            }
-          ],
-          "nameUrl" : "prescription-Document.html",
-          "title" : "La prescription au format document",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "transformation-FHIR-vers-PN13.html"
+                }
+              ],
+              "nameUrl" : "transformation-FHIR-vers-PN13.html",
+              "title" : "Transformation de FHIR vers PN13",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "transformationPN13-FHIR-Intro.html"
-            }
-          ],
-          "nameUrl" : "transformationPN13-FHIR-Intro.html",
-          "title" : "Transformation de PN13 en FHIR",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "PN13-prescription-DC.html"
+                }
+              ],
+              "nameUrl" : "PN13-prescription-DC.html",
+              "title" : "Exemple de prescription PN13 médicament simple en DC",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "transformation-PN13-vers-FHIR.html"
-            }
-          ],
-          "nameUrl" : "transformation-PN13-vers-FHIR.html",
-          "title" : "Transformation de PN13 vers FHIR",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "PN13-prescription-specialite.html"
+                }
+              ],
+              "nameUrl" : "PN13-prescription-specialite.html",
+              "title" : "Exemple de prescription PN13 médicament simple en spécialité",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "transformation-FHIR-vers-PN13.html"
-            }
-          ],
-          "nameUrl" : "transformation-FHIR-vers-PN13.html",
-          "title" : "Transformation de FHIR vers PN13",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "PN13-prescription-compound.html"
+                }
+              ],
+              "nameUrl" : "PN13-prescription-compound.html",
+              "title" : "Exemple de prescription PN13 médicament composite",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "PN13-prescription-DC.html"
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "PN13-prescription-MV.html"
+                }
+              ],
+              "nameUrl" : "PN13-prescription-MV.html",
+              "title" : "Exemple de prescription PN13 médicament virtuel",
+              "generation" : "markdown"
             }
-          ],
-          "nameUrl" : "PN13-prescription-DC.html",
-          "title" : "Exemple de prescription PN13 médicament simple en DC",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "PN13-prescription-specialite.html"
-            }
-          ],
-          "nameUrl" : "PN13-prescription-specialite.html",
-          "title" : "Exemple de prescription PN13 médicament simple en spécialité",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "PN13-prescription-compound.html"
-            }
-          ],
-          "nameUrl" : "PN13-prescription-compound.html",
-          "title" : "Exemple de prescription PN13 médicament composite",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "PN13-prescription-MV.html"
-            }
-          ],
-          "nameUrl" : "PN13-prescription-MV.html",
-          "title" : "Exemple de prescription PN13 médicament virtuel",
-          "generation" : "markdown"
+          ]
         },
         {
           "extension" : [

@@ -1,6 +1,7 @@
 # La prescription - Exemples - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
+* [**Prescription**](prescription.md)
 * **La prescription - Exemples**
 
 ## La prescription - Exemples
