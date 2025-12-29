@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-ligne-prescriptio
   "name" : "LignePrescription",
   "title" : "Ligne de prescription",
   "status" : "draft",
-  "date" : "2025-12-29T14:27:33+00:00",
+  "date" : "2025-12-29T14:28:10+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
