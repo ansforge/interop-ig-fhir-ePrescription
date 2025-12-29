@@ -182,13 +182,18 @@ Pour garantir qu'une prescription de, par exemple, 3 doses par jour pendant 5 jo
 *Illustration*
 Date de fin prescrite exclue : 15 doses (3/j x 5j = 15)
 
-![IllustrationDateFinPrescriteExclue](Prescription2.jpg)
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="Prescription2.jpg" alt="IllustrationDateFinPrescriteExclue" title="IllustrationDateFinPrescriteExclue">
+</div>
 
 En effet, si la date de début prescrite est égale à la date de début de la premiére dose, un intervalle fermé incluant de la date de fin prescrite conduira à la prescription de 16 doses.
 
 *Illustration*
 Si la date de fin prescrite était incluse : 16 doses (3/j x 5j = 16) !
-![IllustrationDateFinPrescriteIncluse](Prescription3.jpg)
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="Prescription3.jpg" alt="IllustrationDateFinPrescriteIncluse" title="IllustrationDateFinPrescriteIncluse">
+</div>
 
 **Note**:
 Dans FHIR, le type *Period*, utilisé pour porter le couple (*date de début*, *date de fin*), stipule que les bornes, *start* et *end*, sont incluses. L'interval est *fermé*.
@@ -231,7 +236,10 @@ Les règles de gestion suivantes doivent être appliquées pour définir ces deu
 
 *Illustration*
 1 comprimé 3 fois par jour (7h, 12h, 18h) pendant 5 jours, prescrit à 10h30, à partir de maintenant (10h30), donc 1ère dose à 12h.
-![DateEffective1](Prescription5.jpg)
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="Prescription5.jpg" alt="DateEffective1" title="DateEffective1">
+</div>
 
 Notes
 
@@ -245,7 +253,10 @@ Notes
 
 *Illustration*
 G5 1L sur 12h, 2 fois par jour (10h, 22h) pendant 5 jours, prescrit à 9h30, à partir de maintenant (9h30), donc 1ère dose à 10h.
-![DateEffective2](Prescription6.jpg)
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="Prescription6.jpg" alt="DateEffective2" title="DateEffective2">
+</div>
 
 Note
 
