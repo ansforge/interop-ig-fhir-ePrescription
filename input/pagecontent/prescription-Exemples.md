@@ -1,3 +1,7 @@
+<div style="background-color: #f5f5f5; border-left: 5px solid #9c27b0; padding: 12px 15px; margin-bottom: 20px; border-radius: 3px;">
+<strong>📚 Exemples FHIR</strong> – Cette page présente des instances FHIR concrètes illustrant les cas d'usage. Utile pour tous les profils : compréhension métier et référence d'implémentation.
+</div>
+
 Pour des raisons de lisibilité, les exemples présentés en FHIR sont considérés comme le résultat d'une recherche de prescription par identifiant (i.e. élément `groupIdentifier`) sous forme de *Bundle* de type `searchset`.
 Ce formalisme n'est pas obligatoire, la manière dont les ressources FHIR constituant une prescription sont mises à disposition dépend du serveur FHIR (ex. operation spécifique pour la recherche de prescription par identifiant, mise en oeuvre de `_include` et de `_revInclude`)
 

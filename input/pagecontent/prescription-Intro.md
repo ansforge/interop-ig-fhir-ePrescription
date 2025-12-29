@@ -1,3 +1,7 @@
+<div style="background-color: #e8f4f8; border-left: 5px solid #0077be; padding: 12px 15px; margin-bottom: 20px; border-radius: 3px;">
+<strong>📘 Introduction générale</strong> – Cette page présente les concepts de base et oriente vers les sections métier ou techniques selon votre profil.
+</div>
+
 Une **prescription médicamenteuse** est un ensemble d'un ou plusieurs traitements prescrits, chacun associé à sa posologie. Ce guide spécifie comment représenter ces prescriptions sous forme numérique interopérable en utilisant le standard FHIR.
 
 ### Périmètre couvert
@@ -51,7 +55,6 @@ Exemple 1 de posologie annotée :
 <div class="figure" style="width:100%;">
     <img style="height: auto; width: 100%;" src="PosologieAnnotee1.jpg" alt="Posologie Annotée 1" title="Posologie Annotée 1">
 </div>
-
 
 Exemple 2 de posologie annotée :
 

@@ -1,6 +1,10 @@
+<div style="background-color: #fff4e6; border-left: 5px solid #ff9800; padding: 12px 15px; margin-bottom: 20px; border-radius: 3px;">
+<strong>👤 Volet métier</strong> – Cette page présente les différents scénarios et types de prescription couverts. Destinée aux professionnels de santé et chefs de projet.
+</div>
+
 ### La ligne de prescription initiale
 
-En situation réelle, n'émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c'est la base qui permet d'explorer la complexité de la prescription selon deux axes, le médicament prescrit et la posologie.
+En situation réelle, n'émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c'est la base qui permet d'explorer la complexité de la prescription selon deux axes : le médicament prescrit et la posologie.
 
 La complexité du *médicament prescrit*
 
