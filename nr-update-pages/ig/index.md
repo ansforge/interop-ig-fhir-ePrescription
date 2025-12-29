@@ -14,6 +14,18 @@
 
 Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription](prescription-Intro.md) en FHIR pour l’écosystème français.
 
+### Guide de lecture
+
+**👤 Professionnels de santé et chefs de projet métier**
+* Consultez la section [Introduction professionnels de santé](#introduction-destinée-aux-professionnels-de-santé) ci-dessous
+* Explorez les [cas d'usage](prescription-CasUsage.md) pour comprendre les scénarios couverts
+* Parcourez les [exemples concrets](prescription-Exemples.md) basés sur les travaux de la HAS
+
+**⚙️ Développeurs et intégrateurs**
+* Consultez la section [Introduction développeurs](#introduction-destinée-aux-développeurs) ci-dessous
+* Accédez à la [vue d'ensemble technique](prescription-VueEnsemble.md) pour la modélisation FHIR
+* Utilisez les [spécifications de transformation PN-13](transformation-PN13-vers-FHIR.md)
+
 ### Contexte et enjeux
 
 Le paysage français de la prescription électronique s’appuie historiquement sur plusieurs standards :
@@ -34,6 +46,10 @@ Ce guide d’implémentation s’inscrit dans une démarche de convergence des t
 Cette convergence est le fruit d’une collaboration étroite entre l’ANS, Interop’Santé, les entreprises du numérique en santé et les professionnels de santé, avec un alignement sur les orientations européennes.
 
 ### Introduction destinée aux professionnels de santé
+
+**👤 Vous êtes professionnel de santé ou chef de projet métier ?**
+
+Cette section vous présente les enjeux, les bénéfices et les acteurs concernés par la prescription électronique.
 
 La prescription électronique est un enjeu majeur pour la qualité et la sécurité des soins. Elle permet de :
 
@@ -64,6 +80,10 @@ Le guide intègre les recommandations de la HAS pour la structuration de la poso
 Pour en savoir plus sur l’interopérabilité en général, une documentation spécifique aux professionnels de santé est accessible [ici](https://ansforge.github.io/IG-documentation/nr-add-ps-doc/ig/doc_ps.html) 
 
 ### Introduction destinée aux développeurs
+
+**⚙️ Vous êtes développeur ou intégrateur ?**
+
+Cette section détaille la structure technique du guide, les profils FHIR et les transformations PN-13.
 
 Ce guide d’implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, …) pour un usage national français.
 
@@ -137,7 +157,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-12-29T15:27:17+00:00",
+  "date" : "2025-12-29T15:39:17+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

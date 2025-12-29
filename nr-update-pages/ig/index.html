@@ -277,6 +277,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
+  <li><a href="#guide-de-lecture" id="markdown-toc-guide-de-lecture">Guide de lecture</a></li>
   <li><a href="#contexte-et-enjeux" id="markdown-toc-contexte-et-enjeux">Contexte et enjeux</a></li>
   <li><a href="#introduction-destinée-aux-professionnels-de-santé" id="markdown-toc-introduction-destinée-aux-professionnels-de-santé">Introduction destinée aux professionnels de santé</a></li>
   <li><a href="#introduction-destinée-aux-développeurs" id="markdown-toc-introduction-destinée-aux-développeurs">Introduction destinée aux développeurs</a></li>
@@ -294,6 +295,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </div>
 
 <p>Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la <a href="prescription-Intro.html">ePrescription</a> en FHIR pour l’écosystème français.</p>
+
+<h3 id="guide-de-lecture">Guide de lecture</h3>
+
+<div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
+<strong>👤 Professionnels de santé et chefs de projet métier</strong>
+<ul style="margin: 10px 0 0 0;">
+<li>Consultez la section <a href="#introduction-destinée-aux-professionnels-de-santé">Introduction professionnels de santé</a> ci-dessous</li>
+<li>Explorez les <a href="prescription-CasUsage.html">cas d'usage</a> pour comprendre les scénarios couverts</li>
+<li>Parcourez les <a href="prescription-Exemples.html">exemples concrets</a> basés sur les travaux de la HAS</li>
+</ul>
+</div>
+
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
+<strong>⚙️ Développeurs et intégrateurs</strong>
+<ul style="margin: 10px 0 0 0;">
+<li>Consultez la section <a href="#introduction-destinée-aux-développeurs">Introduction développeurs</a> ci-dessous</li>
+<li>Accédez à la <a href="prescription-VueEnsemble.html">vue d'ensemble technique</a> pour la modélisation FHIR</li>
+<li>Utilisez les <a href="transformation-PN13-vers-FHIR.html">spécifications de transformation PN-13</a></li>
+</ul>
+</div>
 
 <h3 id="contexte-et-enjeux">Contexte et enjeux</h3>
 
@@ -319,6 +340,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Cette convergence est le fruit d’une collaboration étroite entre l’ANS, Interop’Santé, les entreprises du numérique en santé et les professionnels de santé, avec un alignement sur les orientations européennes.</p>
 
 <h3 id="introduction-destinée-aux-professionnels-de-santé">Introduction destinée aux professionnels de santé</h3>
+
+<div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
+<strong>👤 Vous êtes professionnel de santé ou chef de projet métier ?</strong><br />
+Cette section vous présente les enjeux, les bénéfices et les acteurs concernés par la prescription électronique.
+</div>
 
 <p>La prescription électronique est un enjeu majeur pour la qualité et la sécurité des soins. Elle permet de :</p>
 
@@ -356,6 +382,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <!-- TODO mettre à jour le lien avec la version publiée --></p>
 
 <h3 id="introduction-destinée-aux-développeurs">Introduction destinée aux développeurs</h3>
+
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
+<strong>⚙️ Vous êtes développeur ou intégrateur ?</strong><br />
+Cette section détaille la structure technique du guide, les profils FHIR et les transformations PN-13.
+</div>
 
 <p>Ce guide d’implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, …) pour un usage national français.</p>
 
@@ -485,7 +516,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 15:27+0000">2025-12-29</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 15:39+0000">2025-12-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
