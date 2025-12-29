@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
   "name" : "FrRangeMedication",
   "title" : "Range with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2025-12-29T15:39:17+00:00",
+  "date" : "2025-12-29T15:51:46+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

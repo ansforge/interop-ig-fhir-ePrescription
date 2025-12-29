@@ -24,7 +24,7 @@ Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérab
 **⚙️ Développeurs et intégrateurs**
 * Consultez la section [Introduction développeurs](#introduction-destinée-aux-développeurs) ci-dessous
 * Accédez à la [vue d'ensemble technique](prescription-VueEnsemble.md) pour la modélisation FHIR
-* Utilisez les [spécifications de transformation PN-13](transformation-PN13-vers-FHIR.md)
+* Consultez les [spécifications de transformation PN-13](transformation-PN13-vers-FHIR.md)
 
 ### Contexte et enjeux
 
@@ -97,9 +97,7 @@ L’IG intègre plusieurs volets complémentaires :
 
 ### Auteurs
 
-Ce domaine est pris en charge par le [GT pharmacie](https://groups.google.com/g/pn13-is---interopsante) d’HL7 France au sein de l’association [Interop’Santé](https://www.interopsante.org) après une première version développée au sein de la communauté SIPh.
-
-L’historique des versions et des travaux est détaillé dans la page de [suivi des travaux](suivitravaux.md).
+Ce domaine est pris en charge par le [GT pharmacie](https://groups.google.com/g/pn13-is---interopsante) d’HL7 France au sein de l’association [Interop’Santé](https://www.interopsante.org) après une première version développée au sein de la communauté SIPh. L’historique des versions et des travaux est détaillé dans la page de [suivi des travaux](suivitravaux.md).
 
 #### Dépendances
 
@@ -157,7 +155,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-12-29T15:39:17+00:00",
+  "date" : "2025-12-29T15:51:46+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
