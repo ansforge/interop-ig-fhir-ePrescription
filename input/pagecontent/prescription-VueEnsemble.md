@@ -10,7 +10,7 @@ Exemple de modélisation d'une prescription
     <img style="height: auto; width: 100%;" src="ExemplePrescriptionAnnotee.jpg" alt="Exemple prescription Annotée" title="Exemple prescription Annotée">
 </div>
 
-Note: cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur...) est traitée dans le guide d'integration FRCore
+Note: cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur...) est traitée dans le guide d'intégration FRCore
 
 #### Exemple d'informations portées par une posologie
 
@@ -67,7 +67,7 @@ La **posologie** est représentée par l'élément `dosageInstruction` de la res
 
 Elles traduisent la période d'exécution de la prescription.
 
-Cette information est portée indivuellement par chaque ligne de prescription, c'est à dire au niveau de la ressource *MedicationRequest* profilée par *FRMedicationRequest* ou *FrInpatientMedicationRequest*, comme paramètre de la posologie prescrite, dans l'élément `dosageInstruction` de type *Dosage*, sous-élément `timing` de type *Timing*
+Cette information est portée individuellement par chaque ligne de prescription, c'est à dire au niveau de la ressource *MedicationRequest* profilée par *FRMedicationRequest* ou *FrInpatientMedicationRequest*, comme paramètre de la posologie prescrite, dans l'élément `dosageInstruction` de type *Dosage*, sous-élément `timing` de type *Timing*
 
 - date de début : `.dosageInstruction.timing.repeat.boundsPeriod.start`
 - date de fin : `.dosageInstruction.timing.repeat.boundsPeriod.end`
@@ -147,7 +147,7 @@ Lorsqu'une unité d'administration n'est pas en UCUM et EDQM et qu'il est donc d
 
 #### Précision sur le rattrapage de dose
 
-Sauf indication contraire dans la prescription via l'élément `MedicationRequest.dosageInstruction.additionalInstruction.text`, la structuration de la posologie (ex. l'utilisation de l'élément `MedicationRequest.dosageInstruction.timing.repreat.when`) ne doit pas interdire de rattraper une dose qui n'a pas été prise au bon moment.
+Sauf indication contraire dans la prescription via l'élément `MedicationRequest.dosageInstruction.additionalInstruction.text`, la structuration de la posologie (ex. l'utilisation de l'élément `MedicationRequest.dosageInstruction.timing.repeat.when`) ne doit pas interdire de rattraper une dose qui n'a pas été prise au bon moment.
 
 #### Précisions sur dates et durée de prescription
 
@@ -180,8 +180,8 @@ Définit la date/heure de fin exprimée par le médecin lors de sa prescription.
 
 **La dernière dose prescrite**:
 
-- si la date de fin est expimée:
-  - celle dont la date/heure de début d’administration est *immédiatement inférieure à la date/heure de fin prescrite*
+- si la date de fin est exprimée:
+  - celle dont la date/heure de début d'administration est *immédiatement inférieure à la date/heure de fin prescrite*
   - calculée à partir de la *date/heure de fin prescrite*, en fonction de la posologie définie par la collection `dosageInstruction`
 - si la date de fin n'est pas exprimée:
   - celle dont la date/heure de début d'administration est *immédiatement inférieure à la date de fin calculée (durée du traitement après la date de la première prise)
@@ -192,7 +192,7 @@ La *date/heure de fin d’administration* de la dernière dose (sa date/heure de
 **Durée de prescription**:
 
 Elle est liée aux deux paramètres précédents. Quand ces trois paramètres sont exposés à l'utilisateur pour saisie, en général il en fixe deux et le troisième est calculé.
-Pour les prescriptions de médecine de ville ou les prescriptions hospitalières à éxecution en ville, il est possible que seule la durée de prescription soit exprimée les dates de début et fin dépendant de quand le patient se fait délivrer les médicaments.
+Pour les prescriptions de médecine de ville ou les prescriptions hospitalières à exécution en ville, il est possible que seule la durée de prescription soit exprimée les dates de début et fin dépendant de quand le patient se fait délivrer les médicaments.
 
 Les unités UCUM suivantes sont utilisées :
 

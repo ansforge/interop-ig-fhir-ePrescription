@@ -57,7 +57,7 @@ Le guide intègre les recommandations de la HAS pour la structuration de la poso
 - Une **interprétation uniforme** par les différents acteurs du circuit
 - Une **compatibilité** avec les outils d'aide à la prescription et à la dispensation
 
-Pour en savoir plus sur l'interopérabilité en général, une documentation spécifique aux professionnels de santé permettant est accessible [ici](https://ansforge.github.io/IG-documentation/nr-add-ps-doc/ig/doc_ps.html)
+Pour en savoir plus sur l'interopérabilité en général, une documentation spécifique aux professionnels de santé est accessible [ici](https://ansforge.github.io/IG-documentation/nr-add-ps-doc/ig/doc_ps.html)
 <!-- TODO mettre à jour le lien avec la version publiée -->
 
 ### Introduction destinée aux développeurs

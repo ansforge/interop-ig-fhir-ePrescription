@@ -1,4 +1,4 @@
-### Exemples PN13 de prescritpion en spécialité
+### Exemples PN13 de prescription en spécialité
 
 #### PARACETAMOL MYLAN CONSEIL 1000 MG en cas de douleur
 
@@ -116,7 +116,7 @@ A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pen
 #### DOLIPRANE 1000 MG 3x/jour
 
 Cette prescription PN13 est traduite en FHIR:
-- dans l'instance [TradPN13FHIR-Presc-DOLIPRANE](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-DOLIPRANE.html) sans interpétation de la terminologie locale de fréquence;
+- dans l'instance [TradPN13FHIR-Presc-DOLIPRANE](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-DOLIPRANE.html) sans interprétation de la terminologie locale de fréquence;
 - dans l'instance [TradPN13FHIR-Presc-DOLIPRANE-Interpret](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.html) avec interprétation de la terminologie locale de fréquence.
 
 ```xml
