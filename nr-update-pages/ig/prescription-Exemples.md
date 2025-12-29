@@ -224,7 +224,7 @@ Ces 4 expressions permettent de déterminer la quantité de(s) principe(s) actif
 * `20 mg` (de principe actif = furosémide)
  
 * Les 3 autres ne permettent pas de déterminer la quantité de(s) prinicipe(s) actif(s) 
-* `1 [unité de présentation]`(unité de présentation non définie dans `medication`ni dans le RUIM)
+* `1 [unité de présentation]`(unité de présentation non définie dans `medication`ni dans le RIUM)
 * `1` (unité [de présentation de l’unité de médicament prescrit] = furosémide en quantité non définie)
 * `2 mL` (de produit = un produit qui contient du furosémide en concentration non définie)
  
