@@ -3,7 +3,7 @@ eP : Validation Results
 
 err = 939, warn = 2044, info = 81
 IG Publisher Version: 2.0.29
-Generated Mon Dec 29 13:11:19 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
+Generated Mon Dec 29 13:21:07 UTC 2025. FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
  Build Errors : 181 / 3 / 0
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-DC : 12 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-MV : 7 / 3 / 3
@@ -324,7 +324,7 @@ ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/ul/li/u
 ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 302, column 105: The link '$FrCorePatient' for "FRCorePatient" cannot be resolved
 ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 334, column 644: The link '$FrCorePractitioner' for "FrCorePractitioner" cannot be resolved
 ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/p/a at Line 358, column 70: The link 'StructureDefinition-fr-inpatient-medicationrequest' for "FrInpatientMedicationRequest" cannot be resolved
-ERROR: transformationPN13-FHIR-Intro.html#/html/body/div/div/div/div/div/ul/li/a at Line 269, column 8: The link 'PN13-prescription-MV' for "Prescritpion PN13 médicament virtuel" cannot be resolved
+ERROR: transformationPN13-FHIR-Intro.html#/html/body/div/div/div/div/div/ul/li/a at Line 269, column 8: The link 'PN13-prescription-MV' for "Prescription PN13 médicament virtuel" cannot be resolved
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide

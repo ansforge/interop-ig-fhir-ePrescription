@@ -255,7 +255,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <img src="ExemplePrescriptionAnnotee.jpg" alt="Exemple prescription Annotée" style="height: auto; width: 100%;" title="Exemple prescription Annotée"/>
 </div>
 
-<p>Note: cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur…) est traitée dans le guide d’integration FRCore</p>
+<p>Note: cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur…) est traitée dans le guide d’intégration FRCore</p>
 
 <h4 id="exemple-dinformations-portées-par-une-posologie">Exemple d’informations portées par une posologie</h4>
 
@@ -317,7 +317,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Elles traduisent la période d’exécution de la prescription.</p>
 
-<p>Cette information est portée indivuellement par chaque ligne de prescription, c’est à dire au niveau de la ressource <em>MedicationRequest</em> profilée par <em>FRMedicationRequest</em> ou <em>FrInpatientMedicationRequest</em>, comme paramètre de la posologie prescrite, dans l’élément <code class="language-plaintext highlighter-rouge">dosageInstruction</code> de type <em>Dosage</em>, sous-élément <code class="language-plaintext highlighter-rouge">timing</code> de type <em>Timing</em></p>
+<p>Cette information est portée individuellement par chaque ligne de prescription, c’est à dire au niveau de la ressource <em>MedicationRequest</em> profilée par <em>FRMedicationRequest</em> ou <em>FrInpatientMedicationRequest</em>, comme paramètre de la posologie prescrite, dans l’élément <code class="language-plaintext highlighter-rouge">dosageInstruction</code> de type <em>Dosage</em>, sous-élément <code class="language-plaintext highlighter-rouge">timing</code> de type <em>Timing</em></p>
 
 <ul>
   <li>date de début : <code class="language-plaintext highlighter-rouge">.dosageInstruction.timing.repeat.boundsPeriod.start</code></li>
@@ -432,7 +432,7 @@ Toute unité utilisée pour une posologie qui ne correspond pas à un code natif
 
 <h4 id="précision-sur-le-rattrapage-de-dose">Précision sur le rattrapage de dose</h4>
 
-<p>Sauf indication contraire dans la prescription via l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>, la structuration de la posologie (ex. l’utilisation de l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.timing.repreat.when</code>) ne doit pas interdire de rattraper une dose qui n’a pas été prise au bon moment.</p>
+<p>Sauf indication contraire dans la prescription via l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>, la structuration de la posologie (ex. l’utilisation de l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.timing.repeat.when</code>) ne doit pas interdire de rattraper une dose qui n’a pas été prise au bon moment.</p>
 
 <h4 id="précisions-sur-dates-et-durée-de-prescription">Précisions sur dates et durée de prescription</h4>
 
@@ -476,7 +476,7 @@ Toute unité utilisée pour une posologie qui ne correspond pas à un code natif
 <p><strong>La dernière dose prescrite</strong>:</p>
 
 <ul>
-  <li>si la date de fin est expimée:
+  <li>si la date de fin est exprimée:
     <ul>
       <li>celle dont la date/heure de début d’administration est <em>immédiatement inférieure à la date/heure de fin prescrite</em></li>
       <li>calculée à partir de la <em>date/heure de fin prescrite</em>, en fonction de la posologie définie par la collection <code class="language-plaintext highlighter-rouge">dosageInstruction</code></li>
@@ -495,7 +495,7 @@ Toute unité utilisée pour une posologie qui ne correspond pas à un code natif
 <p><strong>Durée de prescription</strong>:</p>
 
 <p>Elle est liée aux deux paramètres précédents. Quand ces trois paramètres sont exposés à l’utilisateur pour saisie, en général il en fixe deux et le troisième est calculé.
-Pour les prescriptions de médecine de ville ou les prescriptions hospitalières à éxecution en ville, il est possible que seule la durée de prescription soit exprimée les dates de début et fin dépendant de quand le patient se fait délivrer les médicaments.</p>
+Pour les prescriptions de médecine de ville ou les prescriptions hospitalières à exécution en ville, il est possible que seule la durée de prescription soit exprimée les dates de début et fin dépendant de quand le patient se fait délivrer les médicaments.</p>
 
 <p>Les unités UCUM suivantes sont utilisées :</p>
 
@@ -699,7 +699,7 @@ L’utilisation de la ressource <code class="language-plaintext highlighter-roug
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:00+0000">2025-12-29</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:15+0000">2025-12-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

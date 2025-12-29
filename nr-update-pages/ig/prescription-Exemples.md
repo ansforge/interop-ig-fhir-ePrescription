@@ -10,7 +10,7 @@
 
 Pour des raisons de lisibilité, les exemples présentés en FHIR sont considérés comme le résultat d’une recherche de prescription par identifiant (i.e. élément `groupIdentifier`) sous forme de **Bundle** de type `searchset`. Ce formalisme n’est pas obligatoire, la manière dont les ressources FHIR constituant une prescription sont mises à disposition dépend du serveur FHIR (ex. operation spécifique pour la recherche de prescription par identifiant, mise en oeuvre de `_include` et de `_revInclude`)
 
-Les travaux de la HAS sur la structuration de la posologie des prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) ont été intégrés aux exemples. Ils sont identifiées par le prefixe HAS et le suffixe entre parenthèses id_poso indiqué dans le document de la HAS. Dans le cas où ils représentent des spécificités pour les prescriptions de médecine de ville (qui valent également pour les prescriptions hospitalières à exécution en ville), il sont précédés par la mention ****spécificité ville****
+Les travaux de la HAS sur la structuration de la posologie des prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) ont été intégrés aux exemples. Ils sont identifiés par le préfixe HAS et le suffixe entre parenthèses id_poso indiqué dans le document de la HAS. Dans le cas où ils représentent des spécificités pour les prescriptions de médecine de ville (qui valent également pour les prescriptions hospitalières à exécution en ville), il sont précédés par la mention ****spécificité ville****
 
 #### Exemples généraux
 
@@ -179,7 +179,7 @@ Un premier niveau de complexité est adressé par les cas d’usage précédents
 * [HAS - BEPANTHEN®5% crème : 1 application, 2 fois par jour, en couche mince (id_poso=12)](Bundle-HAS-12-1-Presc-BEPANTHEN.md)
  
 
-##### Les modifcations de la ligne prescription initiale
+##### Les modifications de la ligne prescription initiale
 
 Il n’y a pas d’exemple, pour l’instant.
 
@@ -224,7 +224,7 @@ Ces 4 expressions permettent de déterminer la quantité de(s) principe(s) actif
 * `20 mg` (de principe actif = furosémide)
  
 * Les 3 autres ne permettent pas de déterminer la quantité de(s) prinicipe(s) actif(s) 
-* `1 [unité de présentation]`(unité de présentation non définie dans `medication`ni dans le RIUM)
+* `1 [unité de présentation]`(unité de présentation non définie dans `medication`ni dans le RUIM)
 * `1` (unité [de présentation de l’unité de médicament prescrit] = furosémide en quantité non définie)
 * `2 mL` (de produit = un produit qui contient du furosémide en concentration non définie)
  
@@ -474,5 +474,5 @@ Voir exemple [capécitabine 1800 mg (1000 mg/m²), 7h et 18h per os, pendant 14j
 
 ****spécifité ville**** La dose réélle pertinente (valeur absolue) doit être la seule indiquée dans la partie structurée de la posologie. La dose théorique en fonction de paramètres patient (valeur relative) peut être exprimée dans la partie textuelle (i.e. dans `MedicationRequest.dosageInstruction.additionalInstruction.text`). Voir exemple [HAS - INNOHEP® 14 000 UI anti-Xa/0,7 ml (tinzaparine sodique) solution injectable : 12 000UI anti-Xa (soit 170 UI anti-Xa /kg) , 1 fois/jour - voie sous-cutanée (id_poso=3)](Bundle-HAS-03-Presc-INNOHEP.md)
 
-**Note**: Il est tout à fait possible de prescrire plus simplement capécitabine 1000 mg/m², accompagnée de la `surface corporelle` (1,85 m²), voire seulement de la `taille` (1,75 m) et du `poids` (70 kg) du patient dans des ressources **Observation** référencées par `MedicationRequest.supportingInfoormation`. Mais c’est un autre cas d’usage, qui, quand bien même il déboucherait sur la même délivrance, **capécitabine 1800 mg**, laisserait au pharmacien l’arbitrage de l’arrondi par rapport à la dose prescrite. C’est un cas d’usage différent parce que l’acteur et le temps où se fait l’arrondi ne sont pas les mêmes.
+**Note**: Il est tout à fait possible de prescrire plus simplement capécitabine 1000 mg/m², accompagnée de la `surface corporelle` (1,85 m²), voire seulement de la `taille` (1,75 m) et du `poids` (70 kg) du patient dans des ressources **Observation** référencées par `MedicationRequest.supportingInformation`. Mais c’est un autre cas d’usage, qui, quand bien même il déboucherait sur la même délivrance, **capécitabine 1800 mg**, laisserait au pharmacien l’arbitrage de l’arrondi par rapport à la dose prescrite. C’est un cas d’usage différent parce que l’acteur et le temps où se fait l’arrondi ne sont pas les mêmes.
 

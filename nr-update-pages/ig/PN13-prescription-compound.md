@@ -6,7 +6,7 @@
 
 ## Exemple de prescription PN13 médicament composite
 
-### Exemples PN13 de prescritpion de médicaments composés
+### Exemples PN13 de prescription de médicaments composés
 
 #### Perfusion 6 composants sur 12h par jour
 

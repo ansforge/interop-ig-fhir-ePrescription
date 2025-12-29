@@ -61,7 +61,7 @@ Le guide intègre les recommandations de la HAS pour la structuration de la poso
 * Une **interprétation uniforme** par les différents acteurs du circuit
 * Une **compatibilité** avec les outils d’aide à la prescription et à la dispensation
 
-Pour en savoir plus sur l’interopérabilité en général, une documentation spécifique aux professionnels de santé permettant est accessible [ici](https://ansforge.github.io/IG-documentation/nr-add-ps-doc/ig/doc_ps.html) 
+Pour en savoir plus sur l’interopérabilité en général, une documentation spécifique aux professionnels de santé est accessible [ici](https://ansforge.github.io/IG-documentation/nr-add-ps-doc/ig/doc_ps.html) 
 
 ### Introduction destinée aux développeurs
 
@@ -137,7 +137,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-12-29T13:00:32+00:00",
+  "date" : "2025-12-29T13:15:57+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

@@ -8,7 +8,7 @@
 
 ### Cas d’usage
 
-#### La ligne de prescription initale
+#### La ligne de prescription initiale
 
 En situation réelle, n’émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c’est la base qui permet d’explorer la complexité de la prescription selon deux axes, le médicament prescrit et la posologie.
 

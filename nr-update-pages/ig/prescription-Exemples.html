@@ -244,7 +244,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Pour des raisons de lisibilité, les exemples présentés en FHIR sont considérés comme le résultat d’une recherche de prescription par identifiant (i.e. élément <code class="language-plaintext highlighter-rouge">groupIdentifier</code>) sous forme de <em>Bundle</em> de type <code class="language-plaintext highlighter-rouge">searchset</code>.
 Ce formalisme n’est pas obligatoire, la manière dont les ressources FHIR constituant une prescription sont mises à disposition dépend du serveur FHIR (ex. operation spécifique pour la recherche de prescription par identifiant, mise en oeuvre de <code class="language-plaintext highlighter-rouge">_include</code> et de <code class="language-plaintext highlighter-rouge">_revInclude</code>)</p>
 
-<p>Les travaux de la HAS sur la structuration de la posologie des prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) ont été intégrés aux exemples. Ils sont identifiées par le prefixe HAS et le suffixe entre parenthèses id_poso indiqué dans le document de la HAS.
+<p>Les travaux de la HAS sur la structuration de la posologie des prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) ont été intégrés aux exemples. Ils sont identifiés par le préfixe HAS et le suffixe entre parenthèses id_poso indiqué dans le document de la HAS.
 Dans le cas où ils représentent des spécificités pour les prescriptions de médecine de ville (qui valent également pour les prescriptions hospitalières à exécution en ville), il sont précédés par la mention <strong><em>spécificité ville</em></strong></p>
 
 <h4 id="exemples-généraux">Exemples généraux</h4>
@@ -475,7 +475,7 @@ Les niveaux de complexité supplémentaires adressent</p>
   </li>
 </ul>
 
-<h5 id="les-modifcations-de-la-ligne-prescription-initiale">Les modifcations de la ligne prescription initiale</h5>
+<h5 id="les-modifications-de-la-ligne-prescription-initiale">Les modifications de la ligne prescription initiale</h5>
 
 <p>Il n’y a pas d’exemple, pour l’instant.</p>
 
@@ -536,7 +536,7 @@ Les niveaux de complexité supplémentaires adressent</p>
   </li>
   <li>Les 3 autres ne permettent pas de déterminer la quantité de(s) prinicipe(s) actif(s)
     <ul>
-      <li><code class="language-plaintext highlighter-rouge">1 [unité de présentation]</code>(unité de présentation non définie dans <code class="language-plaintext highlighter-rouge">medication</code>ni dans le RIUM)</li>
+      <li><code class="language-plaintext highlighter-rouge">1 [unité de présentation]</code>(unité de présentation non définie dans <code class="language-plaintext highlighter-rouge">medication</code>ni dans le RUIM)</li>
       <li><code class="language-plaintext highlighter-rouge">1</code> (unité [de présentation de l’unité de médicament prescrit] = furosémide en quantité non définie)</li>
       <li><code class="language-plaintext highlighter-rouge">2 mL</code> (de produit = un produit qui contient du furosémide en concentration non définie)</li>
     </ul>
@@ -818,7 +818,7 @@ délivré de principe(s) actif(s).</li>
 <p><strong><em>spécifité ville</em></strong> La dose réélle pertinente (valeur absolue) doit être la seule indiquée dans la partie structurée de la posologie. La dose théorique en fonction de paramètres patient (valeur relative) peut être exprimée dans la partie textuelle (i.e. dans <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>). Voir exemple <a href="Bundle-HAS-03-Presc-INNOHEP.html">HAS - INNOHEP&reg; 14 000 UI anti-Xa/0,7 ml (tinzaparine sodique) solution injectable : 12 000UI anti-Xa (soit 170 UI anti-Xa /kg) , 1 fois/jour - voie sous-cutanée (id_poso=3)</a></p>
 
 <p><strong>Note</strong>:
-Il est tout à fait possible de prescrire plus simplement capécitabine 1000 mg/m², accompagnée de la <code class="language-plaintext highlighter-rouge">surface corporelle</code> (1,85 m²), voire seulement de la <code class="language-plaintext highlighter-rouge">taille</code> (1,75 m) et du <code class="language-plaintext highlighter-rouge">poids</code> (70 kg) du patient dans des ressources <em>Observation</em> référencées par <code class="language-plaintext highlighter-rouge">MedicationRequest.supportingInfoormation</code>.
+Il est tout à fait possible de prescrire plus simplement capécitabine 1000 mg/m², accompagnée de la <code class="language-plaintext highlighter-rouge">surface corporelle</code> (1,85 m²), voire seulement de la <code class="language-plaintext highlighter-rouge">taille</code> (1,75 m) et du <code class="language-plaintext highlighter-rouge">poids</code> (70 kg) du patient dans des ressources <em>Observation</em> référencées par <code class="language-plaintext highlighter-rouge">MedicationRequest.supportingInformation</code>.
 Mais c’est un autre cas d’usage, qui, quand bien même il déboucherait sur la même délivrance, <em>capécitabine 1800 mg</em>, laisserait au pharmacien l’arbitrage de l’arrondi par rapport à la dose prescrite. C’est un cas d’usage différent parce que l’acteur et le temps où se fait l’arrondi ne sont pas les mêmes.</p>
 
 
@@ -862,7 +862,7 @@ Mais c’est un autre cas d’usage, qui, quand bien même il déboucherait sur 
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:00+0000">2025-12-29</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:15+0000">2025-12-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
