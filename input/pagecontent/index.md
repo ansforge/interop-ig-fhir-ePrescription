@@ -10,6 +10,26 @@
 
 Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilité de la [ePrescription](prescription-Intro.html) en FHIR pour l'écosystème français.
 
+### Guide de lecture
+
+<div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
+<strong>👤 Professionnels de santé et chefs de projet métier</strong>
+<ul style="margin: 10px 0 0 0;">
+<li>Consultez la section <a href="#introduction-destinée-aux-professionnels-de-santé">Introduction professionnels de santé</a> ci-dessous</li>
+<li>Explorez les <a href="prescription-CasUsage.html">cas d'usage</a> pour comprendre les scénarios couverts</li>
+<li>Parcourez les <a href="prescription-Exemples.html">exemples concrets</a> basés sur les travaux de la HAS</li>
+</ul>
+</div>
+
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
+<strong>⚙️ Développeurs et intégrateurs</strong>
+<ul style="margin: 10px 0 0 0;">
+<li>Consultez la section <a href="#introduction-destinée-aux-développeurs">Introduction développeurs</a> ci-dessous</li>
+<li>Accédez à la <a href="prescription-VueEnsemble.html">vue d'ensemble technique</a> pour la modélisation FHIR</li>
+<li>Utilisez les <a href="transformation-PN13-vers-FHIR.html">spécifications de transformation PN-13</a></li>
+</ul>
+</div>
+
 ### Contexte et enjeux
 
 Le paysage français de la prescription électronique s'appuie historiquement sur plusieurs standards :
@@ -30,6 +50,11 @@ Ce guide d'implémentation s'inscrit dans une démarche de convergence des trava
 Cette convergence est le fruit d'une collaboration étroite entre l'ANS, Interop'Santé, les entreprises du numérique en santé et les professionnels de santé, avec un alignement sur les orientations européennes.
 
 ### Introduction destinée aux professionnels de santé
+
+<div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
+<strong>👤 Vous êtes professionnel de santé ou chef de projet métier ?</strong><br/>
+Cette section vous présente les enjeux, les bénéfices et les acteurs concernés par la prescription électronique.
+</div>
 
 La prescription électronique est un enjeu majeur pour la qualité et la sécurité des soins. Elle permet de :
 
@@ -61,6 +86,11 @@ Pour en savoir plus sur l'interopérabilité en général, une documentation sp�
 <!-- TODO mettre à jour le lien avec la version publiée -->
 
 ### Introduction destinée aux développeurs
+
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
+<strong>⚙️ Vous êtes développeur ou intégrateur ?</strong><br/>
+Cette section détaille la structure technique du guide, les profils FHIR et les transformations PN-13.
+</div>
 
 Ce guide d'implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, ...) pour un usage national français.
 
