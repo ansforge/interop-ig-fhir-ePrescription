@@ -239,10 +239,44 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
+<p>Une prescription est un ensemble d’un ou plusieurs traitements prescrits associé(s) à sa/leur posologie. Afin de pouvoir représenter ces concepts sous format informatique, ils sont modélisés sous la forme d’une liste d’informations.</p>
+
 <h3 id="prescription">Prescription</h3>
 
-<p>Le domaine couvert inclut les prescriptions hospitalières, les  prescriptions de médecine de ville ainsi que les prescriptions hospitalières exécutables en ville (PHEV).
-Les spécifications sont issues des travaux du groupe de travail Interop’Santé. Ils s’appuient sur la version précédente du Guide d’Integration, des travaux de la HAS sur la structuration de la posologie pour les prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) et s’inspirent des profils européens pour la <a href="http://hl7.eu/fhir/mpd">prescription</a> (profils en concertation lorsque ces travaux ont été menés).</p>
+<p>Le domaine couvert inclut les prescriptions hospitalières, les  prescriptions de médecine de ville ainsi que les prescriptions hospitalières exécutables en ville (PHEV).</p>
+
+<p>Les spécifications sont issues des travaux du groupe de travail Interop’Santé. Ils s’appuient sur la version précédente du guide d’implémentation, des travaux de la HAS sur la structuration de la posologie pour les prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) et s’inspirent des profils européens pour la <a href="http://hl7.eu/fhir/mpd">prescription</a> (profils en concertation lorsque ces travaux ont été menés).</p>
+
+<h4 id="exemple-dinformations-portées-par-une-prescription">Exemple d’informations portées par une prescription</h4>
+
+<p>Exemple de modélisation d’une prescription</p>
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="ExemplePrescriptionAnnotee.jpg" alt="Exemple prescription Annotée" title="Exemple prescription Annotée" />
+</div>
+
+<p>Note : cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur…) est traitée dans le guide d’intégration FRCore</p>
+
+<h4 id="exemple-dinformations-portées-par-une-posologie">Exemple d’informations portées par une posologie</h4>
+
+<p>Exemple 1 de posologie annotée :</p>
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="PosologieAnnotee1.jpg" alt="Posologie Annotée 1" title="Posologie Annotée 1" />
+</div>
+
+<p>Exemple 2 de posologie annotée :</p>
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="PosologieAnnotee2.jpg" alt="Posologie Annotée 2" title="Posologie Annotée 2" />
+</div>
+
+<h4 id="modélisation-complète">Modélisation complète</h4>
+
+<ul>
+  <li><a href="StructureDefinition-fr-ligne-prescription.html">Modélisation d’une ligne de prescription</a></li>
+  <li><a href="StructureDefinition-fr-posologie.html">Modélisation d’une posologie</a></li>
+</ul>
 
 <h4 id="détail">Détail</h4>
 
@@ -293,7 +327,7 @@ Les spécifications sont issues des travaux du groupe de travail Interop’Sant�
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:15+0000">2025-12-29</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:18+0000">2025-12-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

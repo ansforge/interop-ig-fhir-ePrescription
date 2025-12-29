@@ -27,7 +27,7 @@ ConceptMap pour la conversion des codes de sexe administratif entre PN13 et FHIR
   "name" : "FrPN13FHIRGenderConceptMap",
   "title" : "Conversion PN13 FHIR des code de sexe administratif",
   "status" : "draft",
-  "date" : "2025-12-29T13:15:57+00:00",
+  "date" : "2025-12-29T13:18:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
