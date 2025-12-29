@@ -46,7 +46,7 @@ Ces dates de début et de fin de prescription, de même que la durée de prescri
 
 En prescription intrahospitalière, il n'y a généralement pas de consigne de dispensation formulée par le prescripteur. Il n'y a donc généralement pas usage de l'élément `.dispensationRequest`.
 
-### Précision sur les parties textuelles
+### Précisions sur les parties textuelles
 
 Les prescriptions FHIR peuvent contenir plusieurs parties textuelles:
 
@@ -112,7 +112,7 @@ En particulier, les non unit UCUM (code entre accolades {} ou entre crochets [])
 
 Lorsqu'une unité d'administration n'est pas en UCUM et EDQM et qu'il est donc difficile de traduire la prescription en nombre de "boite" de médicament à dispenser, il est recommandé que le prescripteur mette une indication de ce qui doit être dispensé dans une unité "convertible". L'extension `prescribedQuantity`, héritée du profil européen, est à utiliser dans ce cas.  
 
-### Précision sur le rattrapage de dose
+### Précisions sur le rattrapage de dose
 
 Sauf indication contraire dans la prescription via l'élément `MedicationRequest.dosageInstruction.additionalInstruction.text`, la structuration de la posologie (ex. l'utilisation de l'élément `MedicationRequest.dosageInstruction.timing.repeat.when`) ne doit pas interdire de rattraper une dose qui n'a pas été prise au bon moment.
 
@@ -273,7 +273,7 @@ Pour les **posologies conditionnelles d’un évènement aléatoire**, « si dou
 - Exemple : Paracétamol 1 g si douleur de J0 à J+3.
 - Les dates/heures début/fin de MedicationRequest sont respectivement J0 et J+3.
 
-### Précision sur les liens entre lignes de prescription
+### Précisions sur les liens entre lignes de prescription
 
 Les liens entre lignes de prescription peuvent bien sûr être indiqués dans les éléments `MedicationRequest.dosageInstruction.additionalInstruction.text`. Cependant, afin de faciliter la constitution automatisée de plan de prise et assurer une meilleure sécurité de prise, il est possible d'en modéliser certains via une ressource `RequestGroup`. La ressource `RequestGroup` utilisée pour représenter ces liens est liée aux ressources `MedicationRequest`concernées par l'élément `groupIdentifier`
 
