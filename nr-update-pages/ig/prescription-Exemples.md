@@ -258,7 +258,7 @@ L’unité est pertinente (donc autorisée), en fonction de son type,
 
 On inclut dans définie, la possibilité de calcul à partir des propriétés connues. Par exemple, quantité connue 20 mg et volume connu 2 ml, implique que la concentration est définie, 10 mg/mL et que l’unité mL pour exprimer la quantité de la dose, par exemple 3 mL, est pertinente parce qu’elle détermine sa quantité de principe actif, 30 mg.
 
-### Durée d’administration
+### Précisions sur la durée d’administration
 
 Quand elle n’est pas négligeable, sa valeur exprimée **DOIT** figurer au dénominateur de la dose prescrite.
 
@@ -328,7 +328,7 @@ ou
 
 La seconde implique une **interprétation du code UCUM par le logiciel** pour avoir connaissance de la notion de débit (savoir reconnaitre une unité de débit UCUM).
 
-### Perfusions et seringues électriques
+### Précisions sur les perfusions et seringues électriques
 
 Elles présentent la particularité d’avoir un médicament prescrit composé de plusieurs médicaments simples, exprimés en spécialité et/ou en DC.
 
@@ -394,7 +394,7 @@ En [R5](https://hl7.org/fhir/medication.html), la ressource **Medication** voit 
 
 Voir exemple [HAS - hydrocortisone 10 mg : 1 comprimé matin et 1 comprimé midi. En cas de fièvre, de forte chaleur, d’infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre > 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h. Avec un maximum de 6 comprimés par jour. QSP 6 mois (id_poso=30)](Bundle-HAS-30-1-Presc-Hydrocortisone.md)
 
-### Patchs
+### Précisions sur les patchs
 
 #### Propriétés du patch
 
@@ -418,7 +418,7 @@ Elle **DOIT** être exprimée en tant que telle dans les éléments `dosageInstr
 
 Voir exemple [HAS - EVRA® 203 µg/24h + 33,9µg/24h dispositif transdermique : Pendant 6 mois poser/remplacer un dispositif aux 1er, 8e et 15e jours du cycle ; La quatrième semaine à partir du 22ème jour est un intervalle libre sans dispositif transdermique (id_poso=11)](Bundle-HAS-11-2-Presc-EVRA.md)
 
-### Dose calculée / dose prescrite
+### Précisions sur le lien dose calculée et dose prescrite
 
 Il arrive que la dose prescrite découle d’un dose de référence formulée en quantité de principe actif par unité de poids ou de surface corporelle. La dose effectivement prescrite est arrondie à une valeur réalisable.
 

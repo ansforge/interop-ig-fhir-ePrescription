@@ -238,11 +238,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#précision-sur-les-parties-textuelles" id="markdown-toc-précision-sur-les-parties-textuelles">Précision sur les parties textuelles</a></li>
+  <li><a href="#précisions-sur-les-parties-textuelles" id="markdown-toc-précisions-sur-les-parties-textuelles">Précisions sur les parties textuelles</a></li>
   <li><a href="#précisions-sur-les-terminologies-utilisables-pour-les-unités" id="markdown-toc-précisions-sur-les-terminologies-utilisables-pour-les-unités">Précisions sur les terminologies utilisables pour les unités</a></li>
-  <li><a href="#précision-sur-le-rattrapage-de-dose" id="markdown-toc-précision-sur-le-rattrapage-de-dose">Précision sur le rattrapage de dose</a></li>
+  <li><a href="#précisions-sur-le-rattrapage-de-dose" id="markdown-toc-précisions-sur-le-rattrapage-de-dose">Précisions sur le rattrapage de dose</a></li>
   <li><a href="#précisions-sur-dates-et-durée-de-prescription" id="markdown-toc-précisions-sur-dates-et-durée-de-prescription">Précisions sur dates et durée de prescription</a></li>
-  <li><a href="#précision-sur-les-liens-entre-lignes-de-prescription" id="markdown-toc-précision-sur-les-liens-entre-lignes-de-prescription">Précision sur les liens entre lignes de prescription</a></li>
+  <li><a href="#précisions-sur-les-liens-entre-lignes-de-prescription" id="markdown-toc-précisions-sur-les-liens-entre-lignes-de-prescription">Précisions sur les liens entre lignes de prescription</a></li>
 </ul>
 
 </div>
@@ -304,7 +304,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>En prescription intrahospitalière, il n’y a généralement pas de consigne de dispensation formulée par le prescripteur. Il n’y a donc généralement pas usage de l’élément <code class="language-plaintext highlighter-rouge">.dispensationRequest</code>.</p>
 
-<h3 id="précision-sur-les-parties-textuelles">Précision sur les parties textuelles</h3>
+<h3 id="précisions-sur-les-parties-textuelles">Précisions sur les parties textuelles</h3>
 
 <p>Les prescriptions FHIR peuvent contenir plusieurs parties textuelles:</p>
 
@@ -400,7 +400,7 @@ Toute unité utilisée pour une posologie qui ne correspond pas à un code natif
 
 <p>Lorsqu’une unité d’administration n’est pas en UCUM et EDQM et qu’il est donc difficile de traduire la prescription en nombre de “boite” de médicament à dispenser, il est recommandé que le prescripteur mette une indication de ce qui doit être dispensé dans une unité “convertible”. L’extension <code class="language-plaintext highlighter-rouge">prescribedQuantity</code>, héritée du profil européen, est à utiliser dans ce cas.</p>
 
-<h3 id="précision-sur-le-rattrapage-de-dose">Précision sur le rattrapage de dose</h3>
+<h3 id="précisions-sur-le-rattrapage-de-dose">Précisions sur le rattrapage de dose</h3>
 
 <p>Sauf indication contraire dans la prescription via l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>, la structuration de la posologie (ex. l’utilisation de l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.timing.repeat.when</code>) ne doit pas interdire de rattraper une dose qui n’a pas été prise au bon moment.</p>
 
@@ -608,7 +608,7 @@ G5 1L sur 12h, 2 fois par jour (10h, 22h) pendant 5 jours, prescrit à 9h30, à 
   <li>Les dates/heures début/fin de MedicationRequest sont respectivement J0 et J+3.</li>
 </ul>
 
-<h3 id="précision-sur-les-liens-entre-lignes-de-prescription">Précision sur les liens entre lignes de prescription</h3>
+<h3 id="précisions-sur-les-liens-entre-lignes-de-prescription">Précisions sur les liens entre lignes de prescription</h3>
 
 <p>Les liens entre lignes de prescription peuvent bien sûr être indiqués dans les éléments <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>. Cependant, afin de faciliter la constitution automatisée de plan de prise et assurer une meilleure sécurité de prise, il est possible d’en modéliser certains via une ressource <code class="language-plaintext highlighter-rouge">RequestGroup</code>. La ressource <code class="language-plaintext highlighter-rouge">RequestGroup</code> utilisée pour représenter ces liens est liée aux ressources <code class="language-plaintext highlighter-rouge">MedicationRequest</code>concernées par l’élément <code class="language-plaintext highlighter-rouge">groupIdentifier</code></p>
 
@@ -680,7 +680,7 @@ L’utilisation de la ressource <code class="language-plaintext highlighter-roug
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 16:00+0000">2025-12-29</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 16:05+0000">2025-12-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -240,10 +240,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul id="markdown-toc">
   <li><a href="#exemples-généraux" id="markdown-toc-exemples-généraux">Exemples généraux</a></li>
   <li><a href="#médicament-prescrit-et-doses" id="markdown-toc-médicament-prescrit-et-doses">Médicament prescrit et dose(s)</a></li>
-  <li><a href="#durée-dadministration" id="markdown-toc-durée-dadministration">Durée d’administration</a></li>
-  <li><a href="#perfusions-et-seringues-électriques" id="markdown-toc-perfusions-et-seringues-électriques">Perfusions et seringues électriques</a></li>
-  <li><a href="#patchs" id="markdown-toc-patchs">Patchs</a></li>
-  <li><a href="#dose-calculée--dose-prescrite" id="markdown-toc-dose-calculée--dose-prescrite">Dose calculée / dose prescrite</a></li>
+  <li><a href="#précisions-sur-la-durée-dadministration" id="markdown-toc-précisions-sur-la-durée-dadministration">Précisions sur la durée d’administration</a></li>
+  <li><a href="#précisions-sur-les-perfusions-et-seringues-électriques" id="markdown-toc-précisions-sur-les-perfusions-et-seringues-électriques">Précisions sur les perfusions et seringues électriques</a></li>
+  <li><a href="#précisions-sur-les-patchs" id="markdown-toc-précisions-sur-les-patchs">Précisions sur les patchs</a></li>
+  <li><a href="#précisions-sur-le-lien-dose-calculée-et-dose-prescrite" id="markdown-toc-précisions-sur-le-lien-dose-calculée-et-dose-prescrite">Précisions sur le lien dose calculée et dose prescrite</a></li>
 </ul>
 
 </div>
@@ -591,7 +591,7 @@ Les niveaux de complexité supplémentaires adressent</p>
 <p>On inclut dans définie, la possibilité de calcul à partir des propriétés connues.
 Par exemple, quantité connue 20 mg et volume connu 2 ml, implique que la concentration est définie, 10 mg/mL et que l’unité mL pour exprimer la quantité de la dose, par exemple 3 mL, est pertinente parce qu’elle détermine sa quantité de principe actif, 30 mg.</p>
 
-<h3 id="durée-dadministration">Durée d’administration</h3>
+<h3 id="précisions-sur-la-durée-dadministration">Précisions sur la durée d’administration</h3>
 
 <p>Quand elle n’est pas négligeable, sa valeur exprimée <strong>DOIT</strong> figurer au dénominateur de la dose prescrite.</p>
 
@@ -660,7 +660,7 @@ Il y deux façons d’exprimer un débit dans une dose FHIR :</p>
 
 <p>La seconde implique une <strong>interprétation du code UCUM par le logiciel</strong> pour avoir connaissance de la notion de débit (savoir reconnaitre une unité de débit UCUM).</p>
 
-<h3 id="perfusions-et-seringues-électriques">Perfusions et seringues électriques</h3>
+<h3 id="précisions-sur-les-perfusions-et-seringues-électriques">Précisions sur les perfusions et seringues électriques</h3>
 
 <p>Elles présentent la particularité d’avoir un médicament prescrit composé de plusieurs médicaments simples, exprimés en spécialité et/ou en DC.</p>
 
@@ -741,7 +741,7 @@ En R5 l’élément amount est renommé <strong>totalVolume</strong> pour lever 
 
 <p>Voir exemple <a href="Bundle-HAS-30-1-Presc-Hydrocortisone.html">HAS - hydrocortisone 10 mg : 1 comprimé matin et 1 comprimé midi. En cas de fièvre, de forte chaleur, d’infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre &gt; 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h. Avec un maximum de 6 comprimés par jour. QSP 6 mois (id_poso=30)</a></p>
 
-<h3 id="patchs">Patchs</h3>
+<h3 id="précisions-sur-les-patchs">Précisions sur les patchs</h3>
 
 <h4 id="propriétés-du-patch">Propriétés du patch</h4>
 
@@ -771,7 +771,7 @@ délivré de principe(s) actif(s).</li>
 
 <p>Voir exemple <a href="Bundle-HAS-11-2-Presc-EVRA.html">HAS - EVRA&reg; 203 µg/24h + 33,9µg/24h dispositif transdermique : Pendant 6 mois poser/remplacer un dispositif aux 1er, 8e et 15e jours du cycle ; La quatrième semaine à partir du 22ème jour est un intervalle libre sans dispositif transdermique (id_poso=11)</a></p>
 
-<h3 id="dose-calculée--dose-prescrite">Dose calculée / dose prescrite</h3>
+<h3 id="précisions-sur-le-lien-dose-calculée-et-dose-prescrite">Précisions sur le lien dose calculée et dose prescrite</h3>
 
 <p>Il arrive que la dose prescrite découle d’un dose de référence formulée en quantité de principe actif par unité de poids ou de surface corporelle. La dose effectivement prescrite est arrondie à une valeur réalisable.</p>
 
@@ -872,7 +872,7 @@ Mais c’est un autre cas d’usage, qui, quand bien même il déboucherait sur 
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 16:00+0000">2025-12-29</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 16:05+0000">2025-12-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

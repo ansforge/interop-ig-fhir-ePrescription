@@ -54,7 +54,7 @@ Le jeu de valeurs à utiliser pour coder l’élément**dosageInstruction.method
   "title" : "French Method Of Administration",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-29T16:00:26+00:00",
+  "date" : "2025-12-29T16:05:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
