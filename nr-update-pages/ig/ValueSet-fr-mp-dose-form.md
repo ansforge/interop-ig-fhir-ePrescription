@@ -55,7 +55,7 @@ Le jeu de valeurs à utiliser pour coder l’élément**doseForm**des ressources
   "title" : "French Medicinal product Dose form",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-29T13:29:27+00:00",
+  "date" : "2025-12-29T13:42:20+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

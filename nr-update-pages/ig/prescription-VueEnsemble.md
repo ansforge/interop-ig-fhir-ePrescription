@@ -192,11 +192,9 @@ Pour garantir qu’une prescription de, par exemple, 3 doses par jour pendant 5 
 
 **Illustration** Date de fin prescrite exclue : 15 doses (3/j x 5j = 15)
 
-![](Prescription2.jpg)
-
 En effet, si la date de début prescrite est égale à la date de début de la premiére dose, un intervalle fermé incluant de la date de fin prescrite conduira à la prescription de 16 doses.
 
-**Illustration** Si la date de fin prescrite était incluse : 16 doses (3/j x 5j = 16) ! ![](Prescription3.jpg)
+**Illustration** Si la date de fin prescrite était incluse : 16 doses (3/j x 5j = 16) !
 
 **Note**: Dans FHIR, le type **Period**, utilisé pour porter le couple (**date de début**, **date de fin**), stipule que les bornes, **start** et **end**, sont incluses. L’interval est **fermé**.
 
@@ -232,7 +230,7 @@ Les règles de gestion suivantes doivent être appliquées pour définir ces deu
 1. La Date/heure de début effective doit être égale à la date/heure de début d’administration de la première dose décrite par la collection de`dosageInstruction`.
 1. La Date/heure de fin effective doit être égale à la date/heure de fin d’administration de la dernière dose décrite par la collection de`dosageInstruction`.
 
-**Illustration** 1 comprimé 3 fois par jour (7h, 12h, 18h) pendant 5 jours, prescrit à 10h30, à partir de maintenant (10h30), donc 1ère dose à 12h. ![](Prescription5.jpg)
+**Illustration** 1 comprimé 3 fois par jour (7h, 12h, 18h) pendant 5 jours, prescrit à 10h30, à partir de maintenant (10h30), donc 1ère dose à 12h.
 
 Notes
 
@@ -244,7 +242,7 @@ Notes
 1. Si l’administration s’effectue sur une certaine durée, perfusion, seringue électrique, etc., le calcul de la date/heure de fin d’administration de la dernière dose à partir de**dosageInstruction**doit ajouter la durée de l’administration,`dosageInstruction.doseAndRate.RateRatio.denominator`, à la date/heure de début d’administration de cette dernière dose.
 1. Pour les posologies complexes, impliquant une description au travers d’une collection d’éléments`dosageInstruction`rattachés à**MedicationRequest**, c’est l’interprétation de la collection de`dosageInstruction`qui doit conduire au calcul de ces dates/heures début/fin effectives de**MedicationRequest**(fonction min() pour les dates de début, fonction max() pour les date de fin).
 
-**Illustration** G5 1L sur 12h, 2 fois par jour (10h, 22h) pendant 5 jours, prescrit à 9h30, à partir de maintenant (9h30), donc 1ère dose à 10h. ![](Prescription6.jpg)
+**Illustration** G5 1L sur 12h, 2 fois par jour (10h, 22h) pendant 5 jours, prescrit à 9h30, à partir de maintenant (9h30), donc 1ère dose à 10h.
 
 Note
 
