@@ -2,9 +2,11 @@ Profile: FRMedication
 Parent: Medication
 Id: fr-medication
 Title: "FR Medication"
-Description: "profil de la ressource Medication décrivant le médicament dans une ressource MedicationRequest ou MedicationStatement profilée par InterOp'Santé"
+Description: """French medication profile\r\n 
+Profil de la ressource Medication décrivant le médicament. Ce profil peut être référencé dans une ressource MedicationRequest ou MedicationStatement profilée par Interop'Santé afin de décrire le médicament prescrit ou le médicament déclaré dans un bilan médicamenteux ou une conciliation médicamenteuse."""
+
 * ^status = #draft
-* ^purpose = "décrit le médicament figurant dans une ressource InterOp'Santé (fr) MedicationStatement (Bilan Médicamenteux, Conciliation) ou MedicationRequest (prescription)"
+* ^purpose = "décrit le médicament figurant dans une ressource Interop'Santé (fr) MedicationStatement (Bilan Médicamenteux, Conciliation) ou MedicationRequest (prescription)"
 
 * implicitRules ..0
 * amount ..0 MS

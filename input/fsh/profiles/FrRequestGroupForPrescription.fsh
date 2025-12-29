@@ -2,7 +2,9 @@ Profile: FRRequestGroupForPrescription
 Parent: RequestGroup
 Id: fr-requestgroup-for-prescription
 Title: "FR RequestGroup For Prescription"
-Description: "RequestGroup for expressing links between lines of a prescription"
+Description: """RequestGroup for expressing links between lines of a prescription\r\n
+Profil de la ressource RequestGroup pour exprimer les liens entre les lignes d'une prescription."""
+
 * ^status = #draft
 * ^experimental = false
 

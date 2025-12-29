@@ -2,12 +2,13 @@ Profile: FRMedicationNonCompound
 Parent: Medication
 Id: fr-medication-noncompound
 Title: "FR Medication Non Compound"
-Description: "Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined."
+Description: """Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement).\r\n
+Profil de la ressource Medication décrivant un médicament simple (vs médicament composé) dans la ligne de prescription, la dispensation ou l'administration représentée par une MedicationRequest, une MedicationDispense ou une MedicationStatement. Si le médicament est composé de plusieurs substances, la concentration de chaque substance doit être définie (ingredient.strength).
+"""
 * ^status = #draft
 * ^experimental = false
 * ^purpose = "Simple medication description, include those composed of many substances."
 * . ^short = "Simple Medication"
-* . ^definition = "This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement)."
 * . ^comment = "A simple medication is made of one single component made of one to many substances.\r\nOptionality of doseForm, amount and strehgth attributes supports different levels of granularity.\r\nThe coarser level only defines the substances it's made of. For instance, contaning only paracetamol or containing only glucose.\r\nThe finest level is the defines the composition and the dose form. For instance, paracetamol 500 mg tablet or  500 mL glucose 5% (50 mg/mL) solution for injection."
 
 * obeys frmed-med-1

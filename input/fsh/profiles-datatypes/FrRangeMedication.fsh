@@ -2,7 +2,8 @@ Profile: FrRangeMedication
 Parent: Range
 Id: FrRangeMedication
 Title: "Range with UCUM or EDQM codes if code is used"
-Description: "Range with low and high unit UCUM or EDQM codes if code is used"
+Description: """Range with low and high unit UCUM or EDQM codes if code is used\r\n
+Plage avec des unités UCUM ou EDQM si un code est utilisé."""
 * ^status = #draft
 * . ^short = "Set of values bounded by precise low and high fixed quantity (no comparator)"
 * . ^definition = "A set of ordered Quantities defined by a precise low and high limit defined by a fixed quantity (no comparator)"
