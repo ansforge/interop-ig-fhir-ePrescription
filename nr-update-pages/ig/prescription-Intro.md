@@ -26,14 +26,26 @@ Exemple 1 de posologie annotée :
 
 Exemple 2 de posologie annotée :
 
-#### Modélisation complète
+#### Modélisation métier de la ligne de prescription et de la posologie
+
+Pour faciliter la compréhension par les professionnels de santé, des **modèles métier** ont été élaborés pour décrire de manière exhaustive les données qui constituent une ligne de prescription et une posologie.
+
+Ces modèles utilisent le formalisme des **“modèles logiques”** d’HL7, qui permettent de représenter les concepts métier de façon indépendante des contraintes techniques de FHIR. Contrairement aux profils FHIR techniques destinés aux développeurs, ces modèles logiques offrent une vision métier claire et accessible, facilitant le dialogue entre professionnels de santé, éditeurs de logiciels et experts FHIR.
+
+**Avantages pour les professionnels de santé :**
+
+* Vue d’ensemble complète des informations d’une prescription, sans jargon technique
+* Langage commun entre les prescripteurs et les équipes informatiques
+* Référentiel métier pour valider que tous les besoins sont bien couverts
+
+**Modèles disponibles :**
 
 * [Modélisation d’une ligne de prescription](StructureDefinition-fr-ligne-prescription.md)
 * [Modélisation d’une posologie](StructureDefinition-fr-posologie.md)
 
-#### Détail
+#### Sommaire
 
-* [Vue d’ensemble](prescription-VueEnsemble.md)
-* [Cas d’usage](prescription-CasUsage.md)
-* [Exemples](prescription-Exemples.md)
+* [Vue d’ensemble](prescription-VueEnsemble.md) : modélisation FHIR d’une prescription (ressources, profils, structuration du médicament prescrit et de la posologie)
+* [Cas d’usage](prescription-CasUsage.md) : scénarios de prescription couverts (médicaments simples/composés, spécialité/DC, posologies simples/complexes)
+* [Exemples](prescription-Exemples.md) : instances FHIR concrètes illustrant les différents cas d’usage, incluant les exemples de la HAS sur la structuration de la posologie
 

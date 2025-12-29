@@ -51,7 +51,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-is-vehicle.csv), 
   "name" : "FrIsVehicle",
   "title" : "Medication component which is the vehicle of the compound Medication",
   "status" : "draft",
-  "date" : "2025-12-29T13:18:38+00:00",
+  "date" : "2025-12-29T13:24:54+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

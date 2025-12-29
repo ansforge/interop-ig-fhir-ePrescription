@@ -271,19 +271,31 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <img style="height: auto; width: 100%;" src="PosologieAnnotee2.jpg" alt="Posologie Annotée 2" title="Posologie Annotée 2" />
 </div>
 
-<h4 id="modélisation-complète">Modélisation complète</h4>
+<h4 id="modélisation-métier-de-la-ligne-de-prescription-et-de-la-posologie">Modélisation métier de la ligne de prescription et de la posologie</h4>
 
+<p>Pour faciliter la compréhension par les professionnels de santé, des <strong>modèles métier</strong> ont été élaborés pour décrire de manière exhaustive les données qui constituent une ligne de prescription et une posologie.</p>
+
+<p>Ces modèles utilisent le formalisme des <strong>“modèles logiques”</strong> d’HL7, qui permettent de représenter les concepts métier de façon indépendante des contraintes techniques de FHIR. Contrairement aux profils FHIR techniques destinés aux développeurs, ces modèles logiques offrent une vision métier claire et accessible, facilitant le dialogue entre professionnels de santé, éditeurs de logiciels et experts FHIR.</p>
+
+<p><strong>Avantages pour les professionnels de santé :</strong></p>
+<ul>
+  <li>Vue d’ensemble complète des informations d’une prescription, sans jargon technique</li>
+  <li>Langage commun entre les prescripteurs et les équipes informatiques</li>
+  <li>Référentiel métier pour valider que tous les besoins sont bien couverts</li>
+</ul>
+
+<p><strong>Modèles disponibles :</strong></p>
 <ul>
   <li><a href="StructureDefinition-fr-ligne-prescription.html">Modélisation d’une ligne de prescription</a></li>
   <li><a href="StructureDefinition-fr-posologie.html">Modélisation d’une posologie</a></li>
 </ul>
 
-<h4 id="détail">Détail</h4>
+<h4 id="sommaire">Sommaire</h4>
 
 <ul>
-  <li><a href="prescription-VueEnsemble.html">Vue d’ensemble</a></li>
-  <li><a href="prescription-CasUsage.html">Cas d’usage</a></li>
-  <li><a href="prescription-Exemples.html">Exemples</a></li>
+  <li><a href="prescription-VueEnsemble.html">Vue d’ensemble</a> : modélisation FHIR d’une prescription (ressources, profils, structuration du médicament prescrit et de la posologie)</li>
+  <li><a href="prescription-CasUsage.html">Cas d’usage</a> : scénarios de prescription couverts (médicaments simples/composés, spécialité/DC, posologies simples/complexes)</li>
+  <li><a href="prescription-Exemples.html">Exemples</a> : instances FHIR concrètes illustrant les différents cas d’usage, incluant les exemples de la HAS sur la structuration de la posologie</li>
 </ul>
 
 
@@ -327,7 +339,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:18+0000">2025-12-29</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:24+0000">2025-12-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
