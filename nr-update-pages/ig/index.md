@@ -8,15 +8,13 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:0.1.0 |
-| Draft as of 2025-12-23 | *Computable Name*:eP |
+| Draft as of 2025-12-29 | *Computable Name*:eP |
 
 > **Attention !**Ce guide d'implémentation n'est pas en version courante. La version courante sera accessible via l'URL canonique (https://interop.esante.gouv.fr/ig/fhir/eprescription) lorsque celui-ci sera publié.
 
 Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription](prescription-Intro.md) en FHIR pour l’écosystème français.
 
 ### Contexte et enjeux
-
-#### Situation actuelle
 
 Le paysage français de la prescription électronique s’appuie historiquement sur plusieurs standards :
 
@@ -35,7 +33,7 @@ Ce guide d’implémentation s’inscrit dans une démarche de convergence des t
 
 Cette convergence est le fruit d’une collaboration étroite entre l’ANS, Interop’Santé, les entreprises du numérique en santé et les professionnels de santé, avec un alignement sur les orientations européennes.
 
-### Introduction pour les professionnels de santé
+### Introduction destinée aux professionnels de santé
 
 La prescription électronique est un enjeu majeur pour la qualité et la sécurité des soins. Elle permet de :
 
@@ -139,7 +137,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-12-23T14:16:40+00:00",
+  "date" : "2025-12-29T12:28:59+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

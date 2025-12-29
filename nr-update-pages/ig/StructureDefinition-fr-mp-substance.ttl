@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "FR Medicinal Product Substance"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-12-23T14:16:40+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-29T12:28:59+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;

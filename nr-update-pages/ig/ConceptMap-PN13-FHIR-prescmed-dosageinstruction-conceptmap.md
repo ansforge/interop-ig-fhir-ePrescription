@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap | *Version*:0.1.0 |
-| Draft as of 2025-12-23 | *Computable Name*:FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap |
+| Draft as of 2025-12-29 | *Computable Name*:FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR d’une posologie d’une prescritpion de médicament 
@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’une posologie d’une prescritp
   "name" : "FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap",
   "title" : "Conversion PN13 vers FHIR pour la posologie d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-12-23T14:16:40+00:00",
+  "date" : "2025-12-29T12:28:59+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

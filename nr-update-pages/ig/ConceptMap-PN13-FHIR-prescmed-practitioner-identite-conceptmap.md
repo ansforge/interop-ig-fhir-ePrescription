@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-practitioner-identite-conceptmap | *Version*:0.1.0 |
-| Draft as of 2025-12-23 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap |
+| Draft as of 2025-12-29 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR du professionnel prescripteur d’une prescritpion de médicament avec d’autres éléments qu’uniquement l’identifiant 
@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR du professionnel prescripteur d’u
   "name" : "FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le professionnel prescripteur d'une prescription de médicaments avec d'autres éléments qu'uniquement l'identifiant",
   "status" : "draft",
-  "date" : "2025-12-23T14:16:40+00:00",
+  "date" : "2025-12-29T12:28:59+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

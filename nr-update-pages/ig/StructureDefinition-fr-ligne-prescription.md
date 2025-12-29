@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-ligne-prescription | *Version*:0.1.0 |
-| Draft as of 2025-12-23 | *Computable Name*:LignePrescription |
+| Draft as of 2025-12-29 | *Computable Name*:LignePrescription |
 
  
 Structuration d’une ligne de prescription [WIP - à compléter]. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-ligne-prescriptio
   "name" : "LignePrescription",
   "title" : "Ligne de prescription",
   "status" : "draft",
-  "date" : "2025-12-23T14:16:40+00:00",
+  "date" : "2025-12-29T12:28:59+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
