@@ -1,12 +1,10 @@
-# La prescription - Vue d'ensemble - Guide d'implémentation de la ePrescription v0.1.0
+# La prescription - Vue d'ensemble de la modélisation FHIR - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Prescription**](prescription.md)
-* **La prescription - Vue d'ensemble**
+* **La prescription - Vue d'ensemble de la modélisation FHIR**
 
-## La prescription - Vue d'ensemble
-
-### Modélisation d’une prescription dans le standard FHIR
+## La prescription - Vue d'ensemble de la modélisation FHIR
 
 La prescription est un ensemble de **lignes de prescription**, représentées chacune par une ressource **MedicationRequest** profilée **FRMedicationRequest** pour les prescriptions de médecine de ville et les prescriptions hospitalières exécutables en ville (PHEV) et **FRInPatientMedicationRequest** pour les prescriptions intrahospitalières.
 
@@ -50,7 +48,7 @@ Ces dates de début et de fin de prescription, de même que la durée de prescri
 
 En prescription intrahospitalière, il n’y a généralement pas de consigne de dispensation formulée par le prescripteur. Il n’y a donc généralement pas usage de l’élément `.dispensationRequest`.
 
-#### Précision sur les parties textuelles
+### Précision sur les parties textuelles
 
 Les prescriptions FHIR peuvent contenir plusieurs parties textuelles:
 
@@ -109,7 +107,7 @@ Même si une version textuelle de la prescription est produite automatiquement d
 
 PN13 intègre beaucoup d’éléments textuels qui ne peuvent être indiqués que dans l’élément `MedicationRequest.note`. Afin de permettre de discriminer la portée de chaque note, l’extension [fr-medicationrequest-note-scope](StructureDefinition-fr-medicationrequest-note-scope.md) a été créée. Elle n’est utilisée que dans le cas de prescription initalement en PN13 retranscrites en FHIR.
 
-#### Précisions sur les terminologies utilisables pour les unités
+### Précisions sur les terminologies utilisables pour les unités
 
 Les deux terminologies utilisables pour représenter les unités d’administration dans les posologies sont UCUM et EDQM. Toute unité utilisée pour une posologie qui ne correspond pas à un code natif de ces terminologies ne doit être exprimé que par l’élément `unit` du datatype `Quantity` et des datatypes dérivés, les éléments `code` et `system` ne doivent pas à utiliser.
 
@@ -121,11 +119,11 @@ En particulier, les non unit UCUM (code entre accolades {} ou entre crochets [])
 
 Lorsqu’une unité d’administration n’est pas en UCUM et EDQM et qu’il est donc difficile de traduire la prescription en nombre de “boite” de médicament à dispenser, il est recommandé que le prescripteur mette une indication de ce qui doit être dispensé dans une unité “convertible”. L’extension `prescribedQuantity`, héritée du profil européen, est à utiliser dans ce cas.
 
-#### Précision sur le rattrapage de dose
+### Précision sur le rattrapage de dose
 
 Sauf indication contraire dans la prescription via l’élément `MedicationRequest.dosageInstruction.additionalInstruction.text`, la structuration de la posologie (ex. l’utilisation de l’élément `MedicationRequest.dosageInstruction.timing.repeat.when`) ne doit pas interdire de rattraper une dose qui n’a pas été prise au bon moment.
 
-#### Précisions sur dates et durée de prescription
+### Précisions sur dates et durée de prescription
 
 Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource **MedicationRequest** profilée **FRMedicationRequest** ou **FRInPatientMedicationRequest**.
 
@@ -257,7 +255,7 @@ Pour les **posologies conditionnelles d’un évènement aléatoire**, « si dou
 * Exemple : Paracétamol 1 g si douleur de J0 à J+3.
 * Les dates/heures début/fin de MedicationRequest sont respectivement J0 et J+3.
 
-#### Précision sur les liens entre lignes de prescription
+### Précision sur les liens entre lignes de prescription
 
 Les liens entre lignes de prescription peuvent bien sûr être indiqués dans les éléments `MedicationRequest.dosageInstruction.additionalInstruction.text`. Cependant, afin de faciliter la constitution automatisée de plan de prise et assurer une meilleure sécurité de prise, il est possible d’en modéliser certains via une ressource `RequestGroup`. La ressource `RequestGroup` utilisée pour représenter ces liens est liée aux ressources `MedicationRequest`concernées par l’élément `groupIdentifier`
 

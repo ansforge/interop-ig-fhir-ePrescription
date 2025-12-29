@@ -10,7 +10,7 @@
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-12-29T14:28:10+00:00",
+  "date" : "2025-12-29T14:39:46+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -2365,7 +2365,7 @@
             "valueUrl" : "prescription-VueEnsemble.html"
           }],
           "nameUrl" : "prescription-VueEnsemble.html",
-          "title" : "La prescription - Vue d'ensemble",
+          "title" : "La prescription - Vue d'ensemble de la modélisation FHIR",
           "generation" : "markdown"
         },
         {

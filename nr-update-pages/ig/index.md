@@ -137,7 +137,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-12-29T14:28:10+00:00",
+  "date" : "2025-12-29T14:39:46+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -2908,7 +2908,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
                 }
               ],
               "nameUrl" : "prescription-VueEnsemble.html",
-              "title" : "La prescription - Vue d'ensemble",
+              "title" : "La prescription - Vue d'ensemble de la modélisation FHIR",
               "generation" : "markdown"
             },
             {

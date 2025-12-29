@@ -10,7 +10,7 @@
 * [Artifacts Summary](artifacts.md)
 * [Exemple de prescription PN13 médicament simple en DC](PN13-prescription-DC.md)
 * [Transformation de PN13 en FHIR](transformationPN13-FHIR-Intro.md)
-* [La prescription - Vue d'ensemble](prescription-VueEnsemble.md)
+* [La prescription - Vue d'ensemble de la modélisation FHIR](prescription-VueEnsemble.md)
 * [Transformation](transformation.md)
 * [La prescription - Introduction](prescription-Intro.md)
 * [La prescription - Cas d'usage](prescription-CasUsage.md)

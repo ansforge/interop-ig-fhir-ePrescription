@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
   "name" : "FRInpatientMedicationRequest",
   "title" : "FR Inpatient MedicationRequest",
   "status" : "draft",
-  "date" : "2025-12-29T14:28:10+00:00",
+  "date" : "2025-12-29T14:39:46+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

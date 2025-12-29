@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "eP"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la ePrescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-29T14:28:10+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-29T14:39:46+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -4497,7 +4497,7 @@
              fhir:v "prescription-VueEnsemble.html"^^xsd:anyURI ;
              fhir:l fhir:prescription-VueEnsemble.html
            ] ;
-           fhir:title [ fhir:v "La prescription - Vue d'ensemble" ] ;
+           fhir:title [ fhir:v "La prescription - Vue d'ensemble de la modélisation FHIR" ] ;
            fhir:generation [ fhir:v "markdown" ]
          ] [
            fhir:extension ( [
