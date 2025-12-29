@@ -12,7 +12,7 @@
   <name value="FRObservationForPrescription"/>
   <title value="FR Observation For Prescription"/>
   <status value="draft"/>
-  <date value="2025-12-29T12:28:59+00:00"/>
+  <date value="2025-12-29T12:57:50+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -32,7 +32,7 @@
       <value value="monserviceclient.annuaire@esante.gouv.fr"/>
     </telecom>
   </contact>
-  <description value="Observation provided as context of the prescription (ex. weight, height...)"/>
+  <description value="French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height...)&#xD;&#xA;&#xA;Profil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille...)."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

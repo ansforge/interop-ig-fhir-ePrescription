@@ -13,6 +13,7 @@
 
  
 Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used 
+Ratio avec des unités UCUM ou EDQM si un code est utilisé. 
 
 **Utilisations:**
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRatioMedication.cs
   "name" : "FrRatioMedication",
   "title" : "Ratio with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRatioMedication.cs
       ]
     }
   ],
-  "description" : "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used",
+  "description" : "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used\r\n\nRatio avec des unités UCUM ou EDQM si un code est utilisé.",
   "jurisdiction" : [
     {
       "coding" : [

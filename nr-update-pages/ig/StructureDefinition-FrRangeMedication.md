@@ -13,6 +13,7 @@
 
  
 Range with low and high unit UCUM or EDQM codes if code is used 
+Plage avec des unités UCUM ou EDQM si un code est utilisé. 
 
 **Utilisations:**
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
   "name" : "FrRangeMedication",
   "title" : "Range with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
       ]
     }
   ],
-  "description" : "Range with low and high unit UCUM or EDQM codes if code is used",
+  "description" : "Range with low and high unit UCUM or EDQM codes if code is used\r\n\nPlage avec des unités UCUM ou EDQM si un code est utilisé.",
   "jurisdiction" : [
     {
       "coding" : [

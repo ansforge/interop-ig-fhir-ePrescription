@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "FR Medicinal Product Substance"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-12-29T12:28:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-29T12:57:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -40,7 +40,7 @@
        fhir:value [ fhir:v "monserviceclient.annuaire@esante.gouv.fr" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "code for the medicinal product substance"] ; # 
+  fhir:description [ fhir:v "A FHIR CodeableConcept profile representing a coded medicinal product substance \r\n\nProfil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l'ANS)."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FRInpatientMedicationRequest"] ; # 
   fhir:title [ fhir:v "FR Inpatient MedicationRequest"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-29T12:28:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-29T12:57:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -39,7 +39,7 @@
        fhir:value [ fhir:v "monserviceclient.annuaire@esante.gouv.fr" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "French inpatient medication request profile"] ; # 
+  fhir:description [ fhir:v "French inpatient medication request profile\r\n \nProfil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

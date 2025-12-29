@@ -12,7 +12,8 @@
 | Draft as of 2025-12-29 | *Computable Name*:FRObservationForPrescription |
 
  
-Observation provided as context of the prescription (ex. weight, height…) 
+French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height…) 
+Profil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille…). 
 
 **Utilisations:**
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-observation-for-p
   "name" : "FRObservationForPrescription",
   "title" : "FR Observation For Prescription",
   "status" : "draft",
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-observation-for-p
       ]
     }
   ],
-  "description" : "Observation provided as context of the prescription (ex. weight, height...)",
+  "description" : "French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height...)\r\n\nProfil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille...).",
   "jurisdiction" : [
     {
       "coding" : [

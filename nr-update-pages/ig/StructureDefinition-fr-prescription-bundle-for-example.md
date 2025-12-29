@@ -44,7 +44,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-prescription-bund
   "name" : "FRPrescriptionBundleForExample",
   "title" : "FR Prescription Bundle For Example",
   "status" : "draft",
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

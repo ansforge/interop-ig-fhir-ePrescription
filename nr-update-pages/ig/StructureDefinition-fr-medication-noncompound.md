@@ -12,7 +12,8 @@
 | Draft as of 2025-12-29 | *Computable Name*:FRMedicationNonCompound |
 
  
-Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. 
+Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement). 
+Profil de la ressource Medication décrivant un médicament simple (vs médicament composé) dans la ligne de prescription, la dispensation ou l’administration représentée par une MedicationRequest, une MedicationDispense ou une MedicationStatement. Si le médicament est composé de plusieurs substances, la concentration de chaque substance doit être définie (ingredient.strength). 
 
  
 Simple medication description, include those composed of many substances. 
@@ -45,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
   "title" : "FR Medication Non Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -71,7 +72,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
       ]
     }
   ],
-  "description" : "Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined.",
+  "description" : "Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement).\r\n\nProfil de la ressource Medication décrivant un médicament simple (vs médicament composé) dans la ligne de prescription, la dispensation ou l'administration représentée par une MedicationRequest, une MedicationDispense ou une MedicationStatement. Si le médicament est composé de plusieurs substances, la concentration de chaque substance doit être définie (ingredient.strength).",
   "jurisdiction" : [
     {
       "coding" : [
@@ -118,7 +119,6 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
         "id" : "Medication",
         "path" : "Medication",
         "short" : "Simple Medication",
-        "definition" : "This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement).",
         "comment" : "A simple medication is made of one single component made of one to many substances.\r\nOptionality of doseForm, amount and strehgth attributes supports different levels of granularity.\r\nThe coarser level only defines the substances it's made of. For instance, contaning only paracetamol or containing only glucose.\r\nThe finest level is the defines the composition and the dose form. For instance, paracetamol 500 mg tablet or  500 mL glucose 5% (50 mg/mL) solution for injection.",
         "constraint" : [
           {

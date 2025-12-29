@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "eP"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la ePrescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-29T12:28:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-29T12:57:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -1835,7 +1835,7 @@
          fhir:reference [ fhir:v "StructureDefinition/fr-inpatient-medicationrequest" ]
        ] ;
        fhir:name [ fhir:v "FR Inpatient MedicationRequest" ] ;
-       fhir:description [ fhir:v "French inpatient medication request profile" ] ;
+       fhir:description [ fhir:v "French inpatient medication request profile\r\n \nProfil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1856,7 +1856,7 @@
          fhir:reference [ fhir:v "StructureDefinition/fr-medication" ]
        ] ;
        fhir:name [ fhir:v "FR Medication" ] ;
-       fhir:description [ fhir:v "profil de la ressource Medication décrivant le médicament dans une ressource MedicationRequest ou MedicationStatement profilée par InterOp'Santé" ] ;
+       fhir:description [ fhir:v "French medication profile\r\n \nProfil de la ressource Medication décrivant le médicament. Ce profil peut être référencé dans une ressource MedicationRequest ou MedicationStatement profilée par Interop'Santé afin de décrire le médicament prescrit ou le médicament déclaré dans un bilan médicamenteux ou une conciliation médicamenteuse." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1877,7 +1877,7 @@
          fhir:reference [ fhir:v "StructureDefinition/fr-medication-compound" ]
        ] ;
        fhir:name [ fhir:v "FR Medication Compound" ] ;
-       fhir:description [ fhir:v "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound." ] ;
+       fhir:description [ fhir:v "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.\r\n\nProfil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d'éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1898,7 +1898,7 @@
          fhir:reference [ fhir:v "StructureDefinition/fr-medication-noncompound" ]
        ] ;
        fhir:name [ fhir:v "FR Medication Non Compound" ] ;
-       fhir:description [ fhir:v "Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined." ] ;
+       fhir:description [ fhir:v "Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement).\r\n\nProfil de la ressource Medication décrivant un médicament simple (vs médicament composé) dans la ligne de prescription, la dispensation ou l'administration représentée par une MedicationRequest, une MedicationDispense ou une MedicationStatement. Si le médicament est composé de plusieurs substances, la concentration de chaque substance doit être définie (ingredient.strength)." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1919,7 +1919,7 @@
          fhir:reference [ fhir:v "StructureDefinition/fr-medicationrequest" ]
        ] ;
        fhir:name [ fhir:v "FR Medication Request" ] ;
-       fhir:description [ fhir:v "French medication request profile" ] ;
+       fhir:description [ fhir:v "French medication request profile\r\n \nProfil français de modélisation de la ligne de prescription médicamenteuse." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1940,7 +1940,7 @@
          fhir:reference [ fhir:v "StructureDefinition/fr-mp-substance" ]
        ] ;
        fhir:name [ fhir:v "FR Medicinal Product Substance" ] ;
-       fhir:description [ fhir:v "code for the medicinal product substance" ] ;
+       fhir:description [ fhir:v "A FHIR CodeableConcept profile representing a coded medicinal product substance \r\n\nProfil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l'ANS)." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -1961,7 +1961,7 @@
          fhir:reference [ fhir:v "StructureDefinition/fr-observation-for-prescription" ]
        ] ;
        fhir:name [ fhir:v "FR Observation For Prescription" ] ;
-       fhir:description [ fhir:v "Observation provided as context of the prescription (ex. weight, height...)" ] ;
+       fhir:description [ fhir:v "French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height...)\r\n\nProfil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille...)." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -2003,7 +2003,7 @@
          fhir:reference [ fhir:v "StructureDefinition/fr-requestgroup-for-prescription" ]
        ] ;
        fhir:name [ fhir:v "FR RequestGroup For Prescription" ] ;
-       fhir:description [ fhir:v "RequestGroup for expressing links between lines of a prescription" ] ;
+       fhir:description [ fhir:v "RequestGroup for expressing links between lines of a prescription\r\n\nProfil de la ressource RequestGroup pour exprimer les liens entre les lignes d'une prescription." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -4055,7 +4055,7 @@
          fhir:reference [ fhir:v "StructureDefinition/FrRangeMedication" ]
        ] ;
        fhir:name [ fhir:v "Range with UCUM or EDQM codes if code is used" ] ;
-       fhir:description [ fhir:v "Range with low and high unit UCUM or EDQM codes if code is used" ] ;
+       fhir:description [ fhir:v "Range with low and high unit UCUM or EDQM codes if code is used\r\n\nPlage avec des unités UCUM ou EDQM si un code est utilisé." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -4076,7 +4076,7 @@
          fhir:reference [ fhir:v "StructureDefinition/FrRatioMedication" ]
        ] ;
        fhir:name [ fhir:v "Ratio with UCUM or EDQM codes if code is used" ] ;
-       fhir:description [ fhir:v "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used" ] ;
+       fhir:description [ fhir:v "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used\r\n\nRatio avec des unités UCUM ou EDQM si un code est utilisé." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -4118,7 +4118,7 @@
          fhir:reference [ fhir:v "StructureDefinition/FrSimpleQuantityMedication" ]
        ] ;
        fhir:name [ fhir:v "SimpleQuantity with UCUM or EDQM codes or code not used" ] ;
-       fhir:description [ fhir:v "simple quantity datatype requiring a UCUM or EDQM code or no code (only unti)" ] ;
+       fhir:description [ fhir:v "Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit)\r\n\nSimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

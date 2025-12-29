@@ -19,7 +19,7 @@
   <title value="FR Medication Compound"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2025-12-29T12:28:59+00:00"/>
+  <date value="2025-12-29T12:57:50+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -39,7 +39,7 @@
       <value value="monserviceclient.annuaire@esante.gouv.fr"/>
     </telecom>
   </contact>
-  <description value="A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound."/>
+  <description value="A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.&#xD;&#xA;&#xA;Profil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d'éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

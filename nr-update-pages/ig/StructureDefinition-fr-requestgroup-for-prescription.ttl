@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "FR RequestGroup For Prescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-12-29T12:28:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-29T12:57:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -40,7 +40,7 @@
        fhir:value [ fhir:v "monserviceclient.annuaire@esante.gouv.fr" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "RequestGroup for expressing links between lines of a prescription"] ; # 
+  fhir:description [ fhir:v "RequestGroup for expressing links between lines of a prescription\r\n\nProfil de la ressource RequestGroup pour exprimer les liens entre les lignes d'une prescription."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FrRatioMedication"] ; # 
   fhir:title [ fhir:v "Ratio with UCUM or EDQM codes if code is used"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-29T12:28:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-29T12:57:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -39,7 +39,7 @@
        fhir:value [ fhir:v "monserviceclient.annuaire@esante.gouv.fr" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used"] ; # 
+  fhir:description [ fhir:v "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used\r\n\nRatio avec des unités UCUM ou EDQM si un code est utilisé."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

@@ -13,6 +13,7 @@
 
  
 A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound. 
+Profil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d’éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound. 
 
  
 Compound medication description 
@@ -45,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
   "title" : "FR Medication Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -71,7 +72,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
       ]
     }
   ],
-  "description" : "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.",
+  "description" : "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.\r\n\nProfil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d'éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound.",
   "jurisdiction" : [
     {
       "coding" : [

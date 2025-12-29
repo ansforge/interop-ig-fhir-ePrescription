@@ -12,7 +12,8 @@
 | Draft as of 2025-12-29 | *Computable Name*:FrSimpleQuantityMedication |
 
  
-simple quantity datatype requiring a UCUM or EDQM code or no code (only unti) 
+Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit) 
+SimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé. 
 
 **Utilisations:**
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
   "name" : "FrSimpleQuantityMedication",
   "title" : "SimpleQuantity with UCUM or EDQM codes or code not used",
   "status" : "draft",
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
       ]
     }
   ],
-  "description" : "simple quantity datatype requiring a UCUM or EDQM code or no code (only unti)",
+  "description" : "Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit)\r\n\nSimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé.",
   "jurisdiction" : [
     {
       "coding" : [

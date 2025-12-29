@@ -13,6 +13,7 @@
 
  
 French medication request profile 
+Profil français de modélisation de la ligne de prescription médicamenteuse. 
 
 **Utilisations:**
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
   "name" : "FRMedicationRequest",
   "title" : "FR Medication Request",
   "status" : "draft",
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
       ]
     }
   ],
-  "description" : "French medication request profile",
+  "description" : "French medication request profile\r\n \nProfil français de modélisation de la ligne de prescription médicamenteuse.",
   "jurisdiction" : [
     {
       "coding" : [

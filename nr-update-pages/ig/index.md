@@ -137,7 +137,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -1200,7 +1200,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-inpatient-medicationrequest"
         },
         "name" : "FR Inpatient MedicationRequest",
-        "description" : "French inpatient medication request profile",
+        "description" : "French inpatient medication request profile\r\n \nProfil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier.",
         "exampleBoolean" : false
       },
       {
@@ -1214,7 +1214,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-medication"
         },
         "name" : "FR Medication",
-        "description" : "profil de la ressource Medication décrivant le médicament dans une ressource MedicationRequest ou MedicationStatement profilée par InterOp'Santé",
+        "description" : "French medication profile\r\n \nProfil de la ressource Medication décrivant le médicament. Ce profil peut être référencé dans une ressource MedicationRequest ou MedicationStatement profilée par Interop'Santé afin de décrire le médicament prescrit ou le médicament déclaré dans un bilan médicamenteux ou une conciliation médicamenteuse.",
         "exampleBoolean" : false
       },
       {
@@ -1228,7 +1228,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-medication-compound"
         },
         "name" : "FR Medication Compound",
-        "description" : "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.",
+        "description" : "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.\r\n\nProfil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d'éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound.",
         "exampleBoolean" : false
       },
       {
@@ -1242,7 +1242,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-medication-noncompound"
         },
         "name" : "FR Medication Non Compound",
-        "description" : "Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined.",
+        "description" : "Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement).\r\n\nProfil de la ressource Medication décrivant un médicament simple (vs médicament composé) dans la ligne de prescription, la dispensation ou l'administration représentée par une MedicationRequest, une MedicationDispense ou une MedicationStatement. Si le médicament est composé de plusieurs substances, la concentration de chaque substance doit être définie (ingredient.strength).",
         "exampleBoolean" : false
       },
       {
@@ -1256,7 +1256,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-medicationrequest"
         },
         "name" : "FR Medication Request",
-        "description" : "French medication request profile",
+        "description" : "French medication request profile\r\n \nProfil français de modélisation de la ligne de prescription médicamenteuse.",
         "exampleBoolean" : false
       },
       {
@@ -1270,7 +1270,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-mp-substance"
         },
         "name" : "FR Medicinal Product Substance",
-        "description" : "code for the medicinal product substance",
+        "description" : "A FHIR CodeableConcept profile representing a coded medicinal product substance \r\n\nProfil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l'ANS).",
         "exampleBoolean" : false
       },
       {
@@ -1284,7 +1284,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-observation-for-prescription"
         },
         "name" : "FR Observation For Prescription",
-        "description" : "Observation provided as context of the prescription (ex. weight, height...)",
+        "description" : "French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height...)\r\n\nProfil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille...).",
         "exampleBoolean" : false
       },
       {
@@ -1312,7 +1312,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-requestgroup-for-prescription"
         },
         "name" : "FR RequestGroup For Prescription",
-        "description" : "RequestGroup for expressing links between lines of a prescription",
+        "description" : "RequestGroup for expressing links between lines of a prescription\r\n\nProfil de la ressource RequestGroup pour exprimer les liens entre les lignes d'une prescription.",
         "exampleBoolean" : false
       },
       {
@@ -2628,7 +2628,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/FrRangeMedication"
         },
         "name" : "Range with UCUM or EDQM codes if code is used",
-        "description" : "Range with low and high unit UCUM or EDQM codes if code is used",
+        "description" : "Range with low and high unit UCUM or EDQM codes if code is used\r\n\nPlage avec des unités UCUM ou EDQM si un code est utilisé.",
         "exampleBoolean" : false
       },
       {
@@ -2642,7 +2642,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/FrRatioMedication"
         },
         "name" : "Ratio with UCUM or EDQM codes if code is used",
-        "description" : "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used",
+        "description" : "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used\r\n\nRatio avec des unités UCUM ou EDQM si un code est utilisé.",
         "exampleBoolean" : false
       },
       {
@@ -2670,7 +2670,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/FrSimpleQuantityMedication"
         },
         "name" : "SimpleQuantity with UCUM or EDQM codes or code not used",
-        "description" : "simple quantity datatype requiring a UCUM or EDQM code or no code (only unti)",
+        "description" : "Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit)\r\n\nSimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé.",
         "exampleBoolean" : false
       },
       {

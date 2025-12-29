@@ -12,7 +12,8 @@
 | Draft as of 2025-12-29 | *Computable Name*:FRMPSubstance |
 
  
-code for the medicinal product substance 
+A FHIR CodeableConcept profile representing a coded medicinal product substance 
+Profil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l’ANS). 
 
 **Utilisations:**
 
@@ -42,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
   "title" : "FR Medicinal Product Substance",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -68,7 +69,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
       ]
     }
   ],
-  "description" : "code for the medicinal product substance",
+  "description" : "A FHIR CodeableConcept profile representing a coded medicinal product substance \r\n\nProfil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l'ANS).",
   "jurisdiction" : [
     {
       "coding" : [

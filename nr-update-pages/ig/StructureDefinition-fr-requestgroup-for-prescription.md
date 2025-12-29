@@ -13,6 +13,7 @@
 
  
 RequestGroup for expressing links between lines of a prescription 
+Profil de la ressource RequestGroup pour exprimer les liens entre les lignes d’une prescription. 
 
 **Utilisations:**
 
@@ -42,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-requestgroup-for-
   "title" : "FR RequestGroup For Prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -68,7 +69,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-requestgroup-for-
       ]
     }
   ],
-  "description" : "RequestGroup for expressing links between lines of a prescription",
+  "description" : "RequestGroup for expressing links between lines of a prescription\r\n\nProfil de la ressource RequestGroup pour exprimer les liens entre les lignes d'une prescription.",
   "jurisdiction" : [
     {
       "coding" : [

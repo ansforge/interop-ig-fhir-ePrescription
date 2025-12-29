@@ -299,7 +299,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/fr-inpatient-medicationrequest">FR Inpatient MedicationRequest</a>
             </td>
             <td>
-<p>French inpatient medication request profile</p>
+<p>French inpatient medication request profile</p>
+
+<p>Profil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier.</p>
 </td>
          </tr>
          <tr>
@@ -308,7 +310,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/fr-medication">FR Medication</a>
             </td>
             <td>
-<p>profil de la ressource Medication décrivant le médicament dans une ressource MedicationRequest ou MedicationStatement profilée par InterOp’Santé</p>
+<p>French medication profile</p>
+
+<p>Profil de la ressource Medication décrivant le médicament. Ce profil peut être référencé dans une ressource MedicationRequest ou MedicationStatement profilée par Interop’Santé afin de décrire le médicament prescrit ou le médicament déclaré dans un bilan médicamenteux ou une conciliation médicamenteuse.</p>
 </td>
          </tr>
          <tr>
@@ -317,7 +321,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/fr-medication-compound">FR Medication Compound</a>
             </td>
             <td>
-<p>A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.</p>
+<p>A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.</p>
+
+<p>Profil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d’éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound.</p>
 </td>
          </tr>
          <tr>
@@ -326,7 +332,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/fr-medication-noncompound">FR Medication Non Compound</a>
             </td>
             <td>
-<p>Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined.</p>
+<p>Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement).</p>
+
+<p>Profil de la ressource Medication décrivant un médicament simple (vs médicament composé) dans la ligne de prescription, la dispensation ou l’administration représentée par une MedicationRequest, une MedicationDispense ou une MedicationStatement. Si le médicament est composé de plusieurs substances, la concentration de chaque substance doit être définie (ingredient.strength).</p>
 </td>
          </tr>
          <tr>
@@ -335,7 +343,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/fr-medicationrequest">FR Medication Request</a>
             </td>
             <td>
-<p>French medication request profile</p>
+<p>French medication request profile</p>
+
+<p>Profil français de modélisation de la ligne de prescription médicamenteuse.</p>
 </td>
          </tr>
          <tr>
@@ -344,7 +354,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/fr-observation-for-prescription">FR Observation For Prescription</a>
             </td>
             <td>
-<p>Observation provided as context of the prescription (ex. weight, height…)</p>
+<p>French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height…)</p>
+
+<p>Profil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille…).</p>
 </td>
          </tr>
          <tr>
@@ -362,7 +374,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/fr-requestgroup-for-prescription">FR RequestGroup For Prescription</a>
             </td>
             <td>
-<p>RequestGroup for expressing links between lines of a prescription</p>
+<p>RequestGroup for expressing links between lines of a prescription</p>
+
+<p>Profil de la ressource RequestGroup pour exprimer les liens entre les lignes d’une prescription.</p>
 </td>
          </tr>
       </tbody>
@@ -379,7 +393,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/fr-mp-substance">FR Medicinal Product Substance</a>
             </td>
             <td>
-<p>code for the medicinal product substance</p>
+<p>A FHIR CodeableConcept profile representing a coded medicinal product substance </p>
+
+<p>Profil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l’ANS).</p>
 </td>
          </tr>
          <tr>
@@ -388,7 +404,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/FrRangeMedication">Range with UCUM or EDQM codes if code is used</a>
             </td>
             <td>
-<p>Range with low and high unit UCUM or EDQM codes if code is used</p>
+<p>Range with low and high unit UCUM or EDQM codes if code is used</p>
+
+<p>Plage avec des unités UCUM ou EDQM si un code est utilisé.</p>
 </td>
          </tr>
          <tr>
@@ -397,7 +415,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/FrRatioMedication">Ratio with UCUM or EDQM codes if code is used</a>
             </td>
             <td>
-<p>Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used</p>
+<p>Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used</p>
+
+<p>Ratio avec des unités UCUM ou EDQM si un code est utilisé.</p>
 </td>
          </tr>
          <tr>
@@ -406,7 +426,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="StructureDefinition/FrSimpleQuantityMedication">SimpleQuantity with UCUM or EDQM codes or code not used</a>
             </td>
             <td>
-<p>simple quantity datatype requiring a UCUM or EDQM code or no code (only unti)</p>
+<p>Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit)</p>
+
+<p>SimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé.</p>
 </td>
          </tr>
       </tbody>
@@ -1600,7 +1622,7 @@ Avec un maximum de 6 comprimés par jour. QSP 6 mois.</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 12:28+0000">2025-12-29</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 12:57+0000">2025-12-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

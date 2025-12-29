@@ -12,10 +12,11 @@
 | Draft as of 2025-12-29 | *Computable Name*:FRMedication |
 
  
-profil de la ressource Medication décrivant le médicament dans une ressource MedicationRequest ou MedicationStatement profilée par InterOp’Santé 
+French medication profile 
+Profil de la ressource Medication décrivant le médicament. Ce profil peut être référencé dans une ressource MedicationRequest ou MedicationStatement profilée par Interop’Santé afin de décrire le médicament prescrit ou le médicament déclaré dans un bilan médicamenteux ou une conciliation médicamenteuse. 
 
  
-décrit le médicament figurant dans une ressource InterOp’Santé (fr) MedicationStatement (Bilan Médicamenteux, Conciliation) ou MedicationRequest (prescription) 
+décrit le médicament figurant dans une ressource Interop’Santé (fr) MedicationStatement (Bilan Médicamenteux, Conciliation) ou MedicationRequest (prescription) 
 
 **Utilisations:**
 
@@ -44,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication.csv), 
   "name" : "FRMedication",
   "title" : "FR Medication",
   "status" : "draft",
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -70,7 +71,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication.csv), 
       ]
     }
   ],
-  "description" : "profil de la ressource Medication décrivant le médicament dans une ressource MedicationRequest ou MedicationStatement profilée par InterOp'Santé",
+  "description" : "French medication profile\r\n \nProfil de la ressource Medication décrivant le médicament. Ce profil peut être référencé dans une ressource MedicationRequest ou MedicationStatement profilée par Interop'Santé afin de décrire le médicament prescrit ou le médicament déclaré dans un bilan médicamenteux ou une conciliation médicamenteuse.",
   "jurisdiction" : [
     {
       "coding" : [
@@ -82,7 +83,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication.csv), 
       ]
     }
   ],
-  "purpose" : "décrit le médicament figurant dans une ressource InterOp'Santé (fr) MedicationStatement (Bilan Médicamenteux, Conciliation) ou MedicationRequest (prescription)",
+  "purpose" : "décrit le médicament figurant dans une ressource Interop'Santé (fr) MedicationStatement (Bilan Médicamenteux, Conciliation) ou MedicationRequest (prescription)",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

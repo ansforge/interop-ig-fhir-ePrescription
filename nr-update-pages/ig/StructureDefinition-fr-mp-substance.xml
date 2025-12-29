@@ -13,7 +13,7 @@
   <title value="FR Medicinal Product Substance"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2025-12-29T12:28:59+00:00"/>
+  <date value="2025-12-29T12:57:50+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -33,7 +33,7 @@
       <value value="monserviceclient.annuaire@esante.gouv.fr"/>
     </telecom>
   </contact>
-  <description value="code for the medicinal product substance"/>
+  <description value="A FHIR CodeableConcept profile representing a coded medicinal product substance &#xD;&#xA;&#xA;Profil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l'ANS)."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

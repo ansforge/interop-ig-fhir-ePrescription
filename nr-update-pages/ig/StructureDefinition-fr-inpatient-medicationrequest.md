@@ -13,6 +13,7 @@
 
  
 French inpatient medication request profile 
+Profil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier. 
 
 **Utilisations:**
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
   "name" : "FRInpatientMedicationRequest",
   "title" : "FR Inpatient MedicationRequest",
   "status" : "draft",
-  "date" : "2025-12-29T12:28:59+00:00",
+  "date" : "2025-12-29T12:57:50+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
       ]
     }
   ],
-  "description" : "French inpatient medication request profile",
+  "description" : "French inpatient medication request profile\r\n \nProfil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier.",
   "jurisdiction" : [
     {
       "coding" : [
