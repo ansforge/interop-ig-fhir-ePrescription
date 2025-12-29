@@ -32,7 +32,7 @@ pages:
       prescription-Intro.md:
         title: La prescription - Introduction
       prescription-VueEnsemble.md:
-        title: La prescription - Vue d'ensemble
+        title: La prescription - Vue d'ensemble de la modélisation FHIR
       prescription-CasUsage.md:
         title: La prescription - Cas d'usage
       prescription-Exemples.md:
