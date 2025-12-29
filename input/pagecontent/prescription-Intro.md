@@ -1,8 +1,40 @@
-Une prescription est un ensemble d'un ou plusieurs traitements prescrits associé(s) à sa/leur posologie. Afin de pouvoir représenter ces concepts sous format informatique, ils sont modélisés sous la forme d'une liste d'informations.
+### Présentation générale
 
-Le domaine couvert inclut les prescriptions hospitalières, les  prescriptions de médecine de ville ainsi que les prescriptions hospitalières exécutables en ville (PHEV).
+Une **prescription médicamenteuse** est un ensemble d'un ou plusieurs traitements prescrits, chacun associé à sa posologie. Ce guide spécifie comment représenter ces prescriptions sous forme numérique interopérable en utilisant le standard FHIR.
 
-Les spécifications sont issues des travaux du groupe de travail Interop'Santé. Ils s'appuient sur la version précédente du guide d'implémentation, des travaux de la HAS sur la structuration de la posologie pour les prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) et s'inspirent des profils européens pour la [prescription](http://hl7.eu/fhir/mpd) (profils en concertation lorsque ces travaux ont été menés).
+#### Périmètre couvert
+
+Cette spécification couvre l'ensemble des prescriptions médicamenteuses dans l'écosystème français :
+- **Prescriptions hospitalières** : pour usage intra-hospitalier
+- **Prescriptions de médecine de ville** : pour délivrance en pharmacie d'officine
+- **Prescriptions hospitalières exécutables en ville (PHEV)** : prescriptions réalisées à l'hôpital mais exécutées en ville
+
+#### Origine et alignements
+
+Les spécifications sont issues des travaux du groupe de travail Interop'Santé et s'appuient sur :
+- La version précédente de ce guide d'implémentation
+- Les travaux de la HAS sur la [structuration de la posologie](https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments) pour les prescriptions de médecine de ville
+- Les profils européens pour la [prescription](http://hl7.eu/fhir/mpd) (MPD - Medication Prescription and Dispense)
+
+#### Guide de lecture
+
+<div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
+<strong>👤 Vous êtes professionnel de santé ou chef de projet métier ?</strong>
+<ul>
+<li>Consultez les <strong>modèles logiques métier</strong> ci-dessous pour comprendre les données d'une prescription</li>
+<li>Parcourez la page <a href="prescription-CasUsage.html">Cas d'usage</a> pour découvrir les scénarios couverts</li>
+<li>Explorez les <a href="prescription-Exemples.html">exemples concrets</a> basés sur les travaux de la HAS</li>
+</ul>
+</div>
+
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
+<strong>⚙️ Vous êtes développeur ou intégrateur ?</strong>
+<ul>
+<li>Allez directement à la <a href="prescription-VueEnsemble.html">Vue d'ensemble technique</a> pour la modélisation FHIR</li>
+<li>Consultez les profils, ressources et règles de validation détaillés</li>
+<li>Utilisez les <a href="prescription-Exemples.html">instances FHIR</a> comme référence d'implémentation</li>
+</ul>
+</div>
 
 ### Exemple d'informations portées par une prescription
 
