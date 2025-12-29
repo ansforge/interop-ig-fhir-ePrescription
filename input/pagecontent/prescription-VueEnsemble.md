@@ -1,4 +1,4 @@
-<div style="background-color: #f0f0f0; border-left: 5px solid #666; padding: 12px 15px; margin-bottom: 20px; border-radius: 3px;">
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
 <strong>⚙️ Volet technique</strong> – Cette page détaille la modélisation FHIR complète (ressources, profils, contraintes). Destinée aux développeurs et intégrateurs.
 </div>
 
