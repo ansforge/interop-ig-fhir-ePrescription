@@ -1,4 +1,4 @@
-<div style="background-color: #fff4e6; border-left: 5px solid #ff9800; padding: 12px 15px; margin-bottom: 20px; border-radius: 3px;">
+<div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
 <strong>👤 Volet métier</strong> – Cette page présente les différents scénarios et types de prescription couverts. Destinée aux professionnels de santé et chefs de projet.
 </div>
 

@@ -1,4 +1,4 @@
-<div style="background-color: #e8f4f8; border-left: 5px solid #0077be; padding: 12px 15px; margin-bottom: 20px; border-radius: 3px;">
+<div style="background-color: #e3f2fd; border-left: 4px solid #2196f3; padding: 15px; margin: 20px 0;">
 <strong>📘 Introduction générale</strong> – Cette page présente les concepts de base et oriente vers les sections métier ou techniques selon votre profil.
 </div>
 
