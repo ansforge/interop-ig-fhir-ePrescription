@@ -12,8 +12,6 @@ Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilit
 
 ### Contexte et enjeux
 
-#### Situation actuelle
-
 Le paysage français de la prescription électronique s'appuie historiquement sur plusieurs standards :
 
 - **PN-13** : standard de type "message" pour les flux intra-hospitaliers de prescription
@@ -31,7 +29,7 @@ Ce guide d'implémentation s'inscrit dans une démarche de convergence des trava
 
 Cette convergence est le fruit d'une collaboration étroite entre l'ANS, Interop'Santé, les entreprises du numérique en santé et les professionnels de santé, avec un alignement sur les orientations européennes.
 
-### Introduction pour les professionnels de santé
+### Introduction destinée aux professionnels de santé
 
 La prescription électronique est un enjeu majeur pour la qualité et la sécurité des soins. Elle permet de :
 

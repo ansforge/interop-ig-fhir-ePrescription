@@ -55,6 +55,8 @@ La communauté SIPh met à disposition les travaux préliminaires qu'elle entrep
 
 ##### Version 1.1
 
+Chair : Manuel Metz
+
 - Lifen
   - Manuel Metz
 - Phast
