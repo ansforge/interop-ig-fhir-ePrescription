@@ -10,7 +10,7 @@
 
 #### PARACETAMOL MYLAN CONSEIL 1000 MG en cas de douleur
 
-Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Presc-Paracetamol](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-Paracetamol.html).
+Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Presc-Paracetamol](./Bundle-TradPN13FHIR-Presc-Paracetamol.md).
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -126,8 +126,8 @@ A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pen
 
 Cette prescription PN13 est traduite en FHIR:
 
-* dans l’instance [TradPN13FHIR-Presc-DOLIPRANE](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-DOLIPRANE.html) sans interprétation de la terminologie locale de fréquence;
-* dans l’instance [TradPN13FHIR-Presc-DOLIPRANE-Interpret](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.html) avec interprétation de la terminologie locale de fréquence.
+* dans l’instance [TradPN13FHIR-Presc-DOLIPRANE](./Bundle-TradPN13FHIR-Presc-DOLIPRANE.md) sans interprétation de la terminologie locale de fréquence;
+* dans l’instance [TradPN13FHIR-Presc-DOLIPRANE-Interpret](./Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.md) avec interprétation de la terminologie locale de fréquence.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

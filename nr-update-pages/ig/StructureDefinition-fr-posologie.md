@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
   "name" : "Posologie",
   "title" : "Posologie",
   "status" : "draft",
-  "date" : "2025-12-29T13:24:54+00:00",
+  "date" : "2025-12-29T13:29:27+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

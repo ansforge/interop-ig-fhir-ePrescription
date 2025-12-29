@@ -241,25 +241,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <h3 id="modélisation-dune-prescription-dans-le-standard-fhir">Modélisation d’une prescription dans le standard FHIR</h3>
 
-<p>La prescription est un ensemble de <strong>lignes de prescription</strong>, représentées chacune par une ressource <em>MedicationRequest</em> profilée <em>FrMedicationRequest</em> pour les prescriptions de médecine de ville et les prescriptions hospitalières exécutables en ville (PHEV) et <em>FrInPatientMedicationRequest</em> pour les prescriptions intrahospitalières.</p>
+<p>La prescription est un ensemble de <strong>lignes de prescription</strong>, représentées chacune par une ressource <em>MedicationRequest</em> profilée <em>FRMedicationRequest</em> pour les prescriptions de médecine de ville et les prescriptions hospitalières exécutables en ville (PHEV) et <em>FRInPatientMedicationRequest</em> pour les prescriptions intrahospitalières.</p>
 
 <p>La prescription en tant que telle (le regroupement de lignes de prescription), n’est pas représentée par une ressource FHIR. En accord avec les guidelines d’HL7 International, le lien entre les différentes ressources regroupées dans une prescription est représenté par l’élément <em>MedicationRequest.groupIdentifier</em>.</p>
 
 <p>Chaque <strong>ligne de prescription</strong> est composée d’un <strong>médicament prescrit</strong> et de sa <strong>posologie</strong>.</p>
 
-<p>Le <strong>médicament prescrit</strong> est représenté par l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.medication[x]</code> (1..1) du profil <em>FrMedicationRequest</em> ou <em>FrInpatientMedicationRequest</em>, celui-ci peut être représenté sous forme d’une référence vers une ressource <em>Medication</em> suivant le profil idoine (cf. paragraphe suivant) ou d’un concept codé (CodeableConcept).</p>
+<p>Le <strong>médicament prescrit</strong> est représenté par l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.medication[x]</code> (1..1) du profil <em>FRMedicationRequest</em> ou <em>FRInpatientMedicationRequest</em>, celui-ci peut être représenté sous forme d’une référence vers une ressource <em>Medication</em> suivant le profil idoine (cf. paragraphe suivant) ou d’un concept codé (CodeableConcept).</p>
 
 <p>Selon qu’un médicament prescrit référencé est un <strong>médicament simple</strong> ou un <strong>médicament composé</strong> de plusieurs médicaments simples, le <strong>médicament prescrit</strong> est représenté par deux variantes de ressource <em>Medication</em>:</p>
 
 <ul>
-  <li><em>FrMedicationNonCompound</em>: médicament simple exprimé:
+  <li><em>FRMedicationNonCompound</em>: médicament simple exprimé:
     <ul>
       <li>en spécialité identifié par son <strong>code UCD</strong>. Ex: <em>EFFERALGAN 1 000 mg, cpr dont le code UCD est 3400893766521</em></li>
       <li>en DC (dénomination commune) identifié par son <strong>code SMS</strong> ou son <strong>code technique ANSM</strong> (dans l’attente de l’attribution d’un code SMS). Ex: <em>paracétamol dont le code SMS est 100000090270</em></li>
       <li>en MV (médicament virtuel) identifié par son <strong>code Medicabase</strong>. Ex. <em>BETAMETHASONE 0,05% voie cutanée pom dont le code Medicabase est MV00000063</em></li>
     </ul>
   </li>
-  <li><em>FrMedicationCompound</em>: médicament composé de plusieurs médicaments simples exprimés en DC ou en spécialité. Ex: <em>glucose 5% 1L + sodium chlorure 3g + potassium chlorure 2g, composé de 3 médicaments simples, glucose, sodium chlorure et potassium chlorure, en quantités de 1L, 3g et 2g</em>.</li>
+  <li><em>FRMedicationCompound</em>: médicament composé de plusieurs médicaments simples exprimés en DC ou en spécialité. Ex: <em>glucose 5% 1L + sodium chlorure 3g + potassium chlorure 2g, composé de 3 médicaments simples, glucose, sodium chlorure et potassium chlorure, en quantités de 1L, 3g et 2g</em>.</li>
 </ul>
 
 <p>Dépendance des ressources profilées par Interop’Santé</p>
@@ -270,7 +270,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </p>
 </div>
 
-<p>Noter qu’un médicament simple peut être une association de plusieurs principes actifs. Ce n’en est pas moins un médicament simple représenté par une ressource <em>FrMedicationNonCompound</em>. Ex : <em>CODOLIPRANE 500 mg/30 mg, cpr dont le code UCD est 3400893936047</em> contenant 500 mg de paracétamol et 30 mg de codéine*</p>
+<p>Noter qu’un médicament simple peut être une association de plusieurs principes actifs. Ce n’en est pas moins un médicament simple représenté par une ressource <em>FRMedicationNonCompound</em>. Ex : <em>CODOLIPRANE 500 mg/30 mg, cpr dont le code UCD est 3400893936047</em> contenant 500 mg de paracétamol et 30 mg de codéine*</p>
 
 <p>La <strong>posologie</strong> est représentée par l’élément <code class="language-plaintext highlighter-rouge">dosageInstruction</code> de la ressource <em>MedicationRequest</em>.</p>
 
@@ -278,7 +278,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Elles traduisent la période d’exécution de la prescription.</p>
 
-<p>Cette information est portée individuellement par chaque ligne de prescription, c’est à dire au niveau de la ressource <em>MedicationRequest</em> profilée par <em>FRMedicationRequest</em> ou <em>FrInpatientMedicationRequest</em>, comme paramètre de la posologie prescrite, dans l’élément <code class="language-plaintext highlighter-rouge">dosageInstruction</code> de type <em>Dosage</em>, sous-élément <code class="language-plaintext highlighter-rouge">timing</code> de type <em>Timing</em></p>
+<p>Cette information est portée individuellement par chaque ligne de prescription, c’est à dire au niveau de la ressource <em>MedicationRequest</em> profilée par <em>FRMedicationRequest</em> ou <em>FRInpatientMedicationRequest</em>, comme paramètre de la posologie prescrite, dans l’élément <code class="language-plaintext highlighter-rouge">dosageInstruction</code> de type <em>Dosage</em>, sous-élément <code class="language-plaintext highlighter-rouge">timing</code> de type <em>Timing</em></p>
 
 <ul>
   <li>date de début : <code class="language-plaintext highlighter-rouge">.dosageInstruction.timing.repeat.boundsPeriod.start</code></li>
@@ -308,7 +308,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Certains éléments de posologie ne peuvent pas être représentés de manière complètement structurée ou doivent obligatoirement être représentés sous forme textuelle. Ces éléments sont renseignés dans un élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>.</p>
 
-<p><em>Note 1:</em> L’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.patientInstruction</code> pourrait également être utilisé pour certaines indications complémentaires pour la posologie. Mais le choix entre <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.patientInstruction</code> et <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code> n’est pas toujours évident. Afin de simplifier le profil, il a été décidé de n’utiliser que <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code> qui peut être multivalué et éventuellement associé à un code. En conséquence, le profil <code class="language-plaintext highlighter-rouge">FrMedicationRequest</code>interdit l’usage de <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.patientInstruction</code></p>
+<p><em>Note 1:</em> L’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.patientInstruction</code> pourrait également être utilisé pour certaines indications complémentaires pour la posologie. Mais le choix entre <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.patientInstruction</code> et <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code> n’est pas toujours évident. Afin de simplifier le profil, il a été décidé de n’utiliser que <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code> qui peut être multivalué et éventuellement associé à un code. En conséquence, le profil <code class="language-plaintext highlighter-rouge">FRMedicationRequest</code>interdit l’usage de <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.patientInstruction</code></p>
 
 <p><em>Note 2:</em> L’élement <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code> est réservé pour les éléments de posologie qui ont été renseignés “à la main” et ne peuvent pas être représentés de manière structurée. Il ne doit pas être utilisé pour du texte généré automatiquement à partir de données structurées.</p>
 
@@ -397,7 +397,7 @@ Toute unité utilisée pour une posologie qui ne correspond pas à un code natif
 
 <h4 id="précisions-sur-dates-et-durée-de-prescription">Précisions sur dates et durée de prescription</h4>
 
-<p>Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource <em>MedicationRequest</em> profilée <em>FrMedicationRequest</em> ou <em>FrInPatientMedicationRequest</em>.</p>
+<p>Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource <em>MedicationRequest</em> profilée <em>FRMedicationRequest</em> ou <em>FRInPatientMedicationRequest</em>.</p>
 
 <p>Elles concernent également les règles définissant la <strong>première dose prescrite</strong> et la <strong>dernière dose prescrite</strong>.</p>
 
@@ -660,7 +660,7 @@ L’utilisation de la ressource <code class="language-plaintext highlighter-roug
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:24+0000">2025-12-29</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 29, 2025 13:29+0000">2025-12-29</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

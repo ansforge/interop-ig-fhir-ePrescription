@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-treatment-intent.
   "name" : "FrTeatmentIntent",
   "title" : "MedicationRequest overall treatment intent",
   "status" : "draft",
-  "date" : "2025-12-29T13:24:54+00:00",
+  "date" : "2025-12-29T13:29:27+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
