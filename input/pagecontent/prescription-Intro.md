@@ -31,13 +31,23 @@ Exemple 2 de posologie annotée :
     <img style="height: auto; width: 100%;" src="PosologieAnnotee2.jpg" alt="Posologie Annotée 2" title="Posologie Annotée 2">
 </div>
 
-#### Modélisation complète
+#### Modélisation métier de la ligne de prescription et de la posologie
 
+Pour faciliter la compréhension par les professionnels de santé, des **modèles métier** ont été élaborés pour décrire de manière exhaustive les données qui constituent une ligne de prescription et une posologie.
+
+Ces modèles utilisent le formalisme des **"modèles logiques"** d'HL7, qui permettent de représenter les concepts métier de façon indépendante des contraintes techniques de FHIR. Contrairement aux profils FHIR techniques destinés aux développeurs, ces modèles logiques offrent une vision métier claire et accessible, facilitant le dialogue entre professionnels de santé, éditeurs de logiciels et experts FHIR.
+
+**Avantages pour les professionnels de santé :**
+- Vue d'ensemble complète des informations d'une prescription, sans jargon technique
+- Langage commun entre les prescripteurs et les équipes informatiques
+- Référentiel métier pour valider que tous les besoins sont bien couverts
+
+**Modèles disponibles :**
 - [Modélisation d'une ligne de prescription](StructureDefinition-fr-ligne-prescription.html)
 - [Modélisation d'une posologie](StructureDefinition-fr-posologie.html)
 
-#### Détail
+#### Sommaire
 
-- [Vue d'ensemble](prescription-VueEnsemble.html)
-- [Cas d'usage](prescription-CasUsage.html)
-- [Exemples](prescription-Exemples.html)
+- [Vue d'ensemble](prescription-VueEnsemble.html) : modélisation FHIR d'une prescription (ressources, profils, structuration du médicament prescrit et de la posologie)
+- [Cas d'usage](prescription-CasUsage.html) : scénarios de prescription couverts (médicaments simples/composés, spécialité/DC, posologies simples/complexes)
+- [Exemples](prescription-Exemples.html) : instances FHIR concrètes illustrant les différents cas d'usage, incluant les exemples de la HAS sur la structuration de la posologie
