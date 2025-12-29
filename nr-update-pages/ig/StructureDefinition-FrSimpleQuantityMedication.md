@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
   "name" : "FrSimpleQuantityMedication",
   "title" : "SimpleQuantity with UCUM or EDQM codes or code not used",
   "status" : "draft",
-  "date" : "2025-12-29T13:42:20+00:00",
+  "date" : "2025-12-29T14:29:02+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

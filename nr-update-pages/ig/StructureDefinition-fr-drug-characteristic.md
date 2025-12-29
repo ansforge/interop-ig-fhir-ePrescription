@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-drug-characterist
   "name" : "FrDrugCharacteristic",
   "title" : "Medication descriptive properties",
   "status" : "draft",
-  "date" : "2025-12-29T13:42:20+00:00",
+  "date" : "2025-12-29T14:29:02+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
