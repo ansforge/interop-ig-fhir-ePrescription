@@ -26,7 +26,7 @@ Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilit
 <ul style="margin: 10px 0 0 0;">
 <li>Consultez la section <a href="#introduction-destinée-aux-développeurs">Introduction développeurs</a> ci-dessous</li>
 <li>Accédez à la <a href="prescription-VueEnsemble.html">vue d'ensemble technique</a> pour la modélisation FHIR</li>
-<li>Utilisez les <a href="transformation-PN13-vers-FHIR.html">spécifications de transformation PN-13</a></li>
+<li>Consultez les <a href="transformation-PN13-vers-FHIR.html">spécifications de transformation PN-13</a></li>
 </ul>
 </div>
 
@@ -105,12 +105,11 @@ L'IG intègre plusieurs volets complémentaires :
 ### Auteurs
 
 Ce domaine est pris en charge par le [GT pharmacie](https://groups.google.com/g/pn13-is---interopsante) d'HL7 France au sein de l'association [Interop’Santé](https://www.interopsante.org) après une première version développée au sein de la communauté SIPh.
+L'historique des versions et des travaux est détaillé dans la page de [suivi des travaux](suivitravaux.html).
 
 <div class="figure" style="width:20%;">
     <img style="height: auto; width: 100%;" src="LOGO_IS.png" alt="LOGO-IS" title="Logo IS">
 </div>
-
-L'historique des versions et des travaux est détaillé dans la page de [suivi des travaux](suivitravaux.html).
 
 #### Dépendances
 
