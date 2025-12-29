@@ -275,11 +275,11 @@
       },
       "StructureDefinition-fr-medication.html" : "FR Medication",
       "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-      "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
-      "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
-      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
       "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example",
       "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+      "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
+      "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
+      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
       "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription"
     },
     {
@@ -311,9 +311,9 @@
       },
       "StructureDefinition-fr-medication.html" : "FR Medication",
       "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
+      "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
       "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
-      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-      "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest"
+      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-form-codes",
@@ -604,8 +604,8 @@
       "uses" : {
       },
       "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-      "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
-      "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest"
+      "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+      "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-status",
@@ -767,8 +767,8 @@
       "uses" : {
       },
       "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-      "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest"
+      "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form",
@@ -836,8 +836,8 @@
       "uses" : {
       },
       "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-      "StructureDefinition-fr-treatment-intent.html" : "MedicationRequest overall treatment intent",
-      "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest"
+      "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+      "StructureDefinition-fr-treatment-intent.html" : "MedicationRequest overall treatment intent"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription",
