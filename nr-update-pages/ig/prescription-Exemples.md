@@ -164,7 +164,7 @@ Un premier niveau de complexité est adressé par les cas d’usage précédents
  
 * l’expression d’une dose réelle pertinente à partir d’une dose théorique fonction de paramètres patient 
 * [capécitabine 1800 mg (1000 mg/m²), 7h et 18h per os, pendant 14j](Bundle-Presc-Capecitabine-Dose-Calculee.md)
-* ****spécifité ville**** La dose réélle pertinente (valeur aboslue) doit être la seule indiquée dans la partie structurée de la posologie. La dose théorique en fonction de paramètres patient (valeur relative) peut être exprimée dans une partie textuelle (i.e. dans `MedicationRequest.dosageInstruction.additionalInstruction.text`) 
+* ****spécificité ville**** La dose réelle pertinente (valeur absolue) doit être la seule indiquée dans la partie structurée de la posologie. La dose théorique en fonction de paramètres patient (valeur relative) peut être exprimée dans une partie textuelle (i.e. dans `MedicationRequest.dosageInstruction.additionalInstruction.text`) 
 * [HAS - INNOHEP® 14 000 UI anti-Xa/0,7 ml (tinzaparine sodique) solution injectable : 12 000UI anti-Xa (soit 170 UI anti-Xa /kg) , 1 fois/jour - voie sous-cutanée (id_poso=3)](Bundle-HAS-03-Presc-INNOHEP.md)
  
  
@@ -224,7 +224,7 @@ Ces 4 expressions permettent de déterminer la quantité de(s) principe(s) actif
 * `20 mg` (de principe actif = furosémide)
  
 * Les 3 autres ne permettent pas de déterminer la quantité de(s) prinicipe(s) actif(s) 
-* `1 [unité de présentation]`(unité de présentation non définie dans `medication`ni dans le RIUM)
+* `1 [unité de présentation]`(unité de présentation non définie dans `medication`ni dans le RUIM)
 * `1` (unité [de présentation de l’unité de médicament prescrit] = furosémide en quantité non définie)
 * `2 mL` (de produit = un produit qui contient du furosémide en concentration non définie)
  
