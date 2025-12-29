@@ -1,22 +1,20 @@
-### Présentation générale
-
 Une **prescription médicamenteuse** est un ensemble d'un ou plusieurs traitements prescrits, chacun associé à sa posologie. Ce guide spécifie comment représenter ces prescriptions sous forme numérique interopérable en utilisant le standard FHIR.
 
-#### Périmètre couvert
+### Périmètre couvert
 
 Cette spécification couvre l'ensemble des prescriptions médicamenteuses dans l'écosystème français :
 - **Prescriptions hospitalières** : pour usage intra-hospitalier
 - **Prescriptions de médecine de ville** : pour délivrance en pharmacie d'officine
 - **Prescriptions hospitalières exécutables en ville (PHEV)** : prescriptions réalisées à l'hôpital mais exécutées en ville
 
-#### Origine et alignements
+### Origine et alignements
 
 Les spécifications sont issues des travaux du groupe de travail Interop'Santé et s'appuient sur :
 - La version précédente de ce guide d'implémentation
 - Les travaux de la HAS sur la [structuration de la posologie](https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments) pour les prescriptions de médecine de ville
 - Les profils européens pour la [prescription](http://hl7.eu/fhir/mpd) (MPD - Medication Prescription and Dispense)
 
-#### Guide de lecture
+### Guide de lecture
 
 <div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
 <strong>👤 Vous êtes professionnel de santé ou chef de projet métier ?</strong>
