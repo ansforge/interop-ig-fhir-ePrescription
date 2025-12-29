@@ -6,6 +6,8 @@
 
 ## La prescription - Exemples
 
+**📚 Exemples FHIR**– Cette page présente des instances FHIR concrètes illustrant les cas d'usage. Utile pour tous les profils : compréhension métier et référence d'implémentation.
+
 Pour des raisons de lisibilité, les exemples présentés en FHIR sont considérés comme le résultat d’une recherche de prescription par identifiant (i.e. élément `groupIdentifier`) sous forme de **Bundle** de type `searchset`. Ce formalisme n’est pas obligatoire, la manière dont les ressources FHIR constituant une prescription sont mises à disposition dépend du serveur FHIR (ex. operation spécifique pour la recherche de prescription par identifiant, mise en oeuvre de `_include` et de `_revInclude`)
 
 Les travaux de la HAS sur la structuration de la posologie des prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) ont été intégrés aux exemples. Ils sont identifiés par le préfixe HAS et le suffixe entre parenthèses id_poso indiqué dans le document de la HAS. Dans le cas où ils représentent des spécificités pour les prescriptions de médecine de ville (qui valent également pour les prescriptions hospitalières à exécution en ville), il sont précédés par la mention ****spécificité ville****

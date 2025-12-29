@@ -6,6 +6,8 @@
 
 ## La prescription - Introduction
 
+**📘 Introduction générale**– Cette page présente les concepts de base et oriente vers les sections métier ou techniques selon votre profil.
+
 Une **prescription médicamenteuse** est un ensemble d’un ou plusieurs traitements prescrits, chacun associé à sa posologie. Ce guide spécifie comment représenter ces prescriptions sous forme numérique interopérable en utilisant le standard FHIR.
 
 ### Périmètre couvert

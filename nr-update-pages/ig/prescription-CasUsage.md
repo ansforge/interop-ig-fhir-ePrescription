@@ -6,9 +6,11 @@
 
 ## La prescription - Cas d'usage
 
+**👤 Volet métier**– Cette page présente les différents scénarios et types de prescription couverts. Destinée aux professionnels de santé et chefs de projet.
+
 ### La ligne de prescription initiale
 
-En situation réelle, n’émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c’est la base qui permet d’explorer la complexité de la prescription selon deux axes, le médicament prescrit et la posologie.
+En situation réelle, n’émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c’est la base qui permet d’explorer la complexité de la prescription selon deux axes : le médicament prescrit et la posologie.
 
 La complexité du **médicament prescrit**
 

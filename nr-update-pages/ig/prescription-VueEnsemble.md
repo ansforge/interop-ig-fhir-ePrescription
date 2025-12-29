@@ -6,6 +6,8 @@
 
 ## La prescription - Vue d'ensemble de la modélisation FHIR
 
+**⚙️ Volet technique**– Cette page détaille la modélisation FHIR complète (ressources, profils, contraintes). Destinée aux développeurs et intégrateurs.
+
 La prescription est un ensemble de **lignes de prescription**, représentées chacune par une ressource **MedicationRequest** profilée **FRMedicationRequest** pour les prescriptions de médecine de ville et les prescriptions hospitalières exécutables en ville (PHEV) et **FRInPatientMedicationRequest** pour les prescriptions intrahospitalières.
 
 La prescription en tant que telle (le regroupement de lignes de prescription), n’est pas représentée par une ressource FHIR. En accord avec les guidelines d’HL7 International, le lien entre les différentes ressources regroupées dans une prescription est représenté par l’élément **MedicationRequest.groupIdentifier**.
