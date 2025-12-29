@@ -137,7 +137,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-12-29T15:10:06+00:00",
+  "date" : "2025-12-29T15:27:17+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -2882,24 +2882,13 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription.html"
+              "valueUrl" : "prescription-Intro.html"
             }
           ],
-          "nameUrl" : "prescription.html",
-          "title" : "Prescription",
+          "nameUrl" : "prescription-Intro.html",
+          "title" : "La prescription - Introduction",
           "generation" : "markdown",
           "page" : [
-            {
-              "extension" : [
-                {
-                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-                  "valueUrl" : "prescription-Intro.html"
-                }
-              ],
-              "nameUrl" : "prescription-Intro.html",
-              "title" : "La prescription - Introduction",
-              "generation" : "markdown"
-            },
             {
               "extension" : [
                 {
@@ -2950,24 +2939,13 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "extension" : [
             {
               "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "transformation.html"
+              "valueUrl" : "transformationPN13-FHIR-Intro.html"
             }
           ],
-          "nameUrl" : "transformation.html",
-          "title" : "Transformation",
+          "nameUrl" : "transformationPN13-FHIR-Intro.html",
+          "title" : "Transformation de PN13 en FHIR",
           "generation" : "markdown",
           "page" : [
-            {
-              "extension" : [
-                {
-                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-                  "valueUrl" : "transformationPN13-FHIR-Intro.html"
-                }
-              ],
-              "nameUrl" : "transformationPN13-FHIR-Intro.html",
-              "title" : "Transformation de PN13 en FHIR",
-              "generation" : "markdown"
-            },
             {
               "extension" : [
                 {

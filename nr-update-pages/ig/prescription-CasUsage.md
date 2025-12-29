@@ -1,12 +1,12 @@
 # La prescription - Cas d'usage - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
-* [**Prescription**](prescription.md)
+* [**La prescription - Introduction**](prescription-Intro.md)
 * **La prescription - Cas d'usage**
 
 ## La prescription - Cas d'usage
 
-**👤 Volet métier**– Cette page présente les différents scénarios et types de prescription couverts. Destinée aux professionnels de santé et chefs de projet.
+**👥 Cas d'usage**– Cette page présente les différents scénarios et types de prescription couverts. Utile pour tous les profils : compréhension des besoins métier et périmètre d'implémentation.
 
 ### La ligne de prescription initiale
 

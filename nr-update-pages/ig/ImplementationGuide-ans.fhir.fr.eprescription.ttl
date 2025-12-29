@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "eP"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la ePrescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-12-29T15:10:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-29T15:27:17+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -4450,37 +4450,18 @@
            ] ;
            fhir:value [
              a fhir:Url ;
-             fhir:v "prescription.html"^^xsd:anyURI ;
-             fhir:l fhir:prescription.html
+             fhir:v "prescription-Intro.html"^^xsd:anyURI ;
+             fhir:l fhir:prescription-Intro.html
            ]
          ] ) ;
          fhir:name [
            a fhir:Url ;
-           fhir:v "prescription.html"^^xsd:anyURI ;
-           fhir:l fhir:prescription.html
+           fhir:v "prescription-Intro.html"^^xsd:anyURI ;
+           fhir:l fhir:prescription-Intro.html
          ] ;
-         fhir:title [ fhir:v "Prescription" ] ;
+         fhir:title [ fhir:v "La prescription - Introduction" ] ;
          fhir:generation [ fhir:v "markdown" ] ;
          fhir:page ( [
-           fhir:extension ( [
-             fhir:url [
-               fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
-               fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
-             ] ;
-             fhir:value [
-               a fhir:Url ;
-               fhir:v "prescription-Intro.html"^^xsd:anyURI ;
-               fhir:l fhir:prescription-Intro.html
-             ]
-           ] ) ;
-           fhir:name [
-             a fhir:Url ;
-             fhir:v "prescription-Intro.html"^^xsd:anyURI ;
-             fhir:l fhir:prescription-Intro.html
-           ] ;
-           fhir:title [ fhir:v "La prescription - Introduction" ] ;
-           fhir:generation [ fhir:v "markdown" ]
-         ] [
            fhir:extension ( [
              fhir:url [
                fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
@@ -4565,37 +4546,18 @@
            ] ;
            fhir:value [
              a fhir:Url ;
-             fhir:v "transformation.html"^^xsd:anyURI ;
-             fhir:l fhir:transformation.html
+             fhir:v "transformationPN13-FHIR-Intro.html"^^xsd:anyURI ;
+             fhir:l fhir:transformationPN13-FHIR-Intro.html
            ]
          ] ) ;
          fhir:name [
            a fhir:Url ;
-           fhir:v "transformation.html"^^xsd:anyURI ;
-           fhir:l fhir:transformation.html
+           fhir:v "transformationPN13-FHIR-Intro.html"^^xsd:anyURI ;
+           fhir:l fhir:transformationPN13-FHIR-Intro.html
          ] ;
-         fhir:title [ fhir:v "Transformation" ] ;
+         fhir:title [ fhir:v "Transformation de PN13 en FHIR" ] ;
          fhir:generation [ fhir:v "markdown" ] ;
          fhir:page ( [
-           fhir:extension ( [
-             fhir:url [
-               fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
-               fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
-             ] ;
-             fhir:value [
-               a fhir:Url ;
-               fhir:v "transformationPN13-FHIR-Intro.html"^^xsd:anyURI ;
-               fhir:l fhir:transformationPN13-FHIR-Intro.html
-             ]
-           ] ) ;
-           fhir:name [
-             a fhir:Url ;
-             fhir:v "transformationPN13-FHIR-Intro.html"^^xsd:anyURI ;
-             fhir:l fhir:transformationPN13-FHIR-Intro.html
-           ] ;
-           fhir:title [ fhir:v "Transformation de PN13 en FHIR" ] ;
-           fhir:generation [ fhir:v "markdown" ]
-         ] [
            fhir:extension ( [
              fhir:url [
                fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;

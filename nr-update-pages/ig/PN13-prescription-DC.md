@@ -1,7 +1,7 @@
 # Exemple de prescription PN13 médicament simple en DC - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
-* [**Transformation**](transformation.md)
+* [**Transformation de PN13 en FHIR**](transformationPN13-FHIR-Intro.md)
 * **Exemple de prescription PN13 médicament simple en DC**
 
 ## Exemple de prescription PN13 médicament simple en DC
