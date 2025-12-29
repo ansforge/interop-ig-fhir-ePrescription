@@ -1,5 +1,5 @@
-<div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
-<strong>👤 Volet métier</strong> – Cette page présente les différents scénarios et types de prescription couverts. Destinée aux professionnels de santé et chefs de projet.
+<div style="background-color: #fff9e6; border-left: 4px solid #ff9800; padding: 15px; margin: 20px 0;">
+<strong>👥 Cas d'usage</strong> – Cette page présente les différents scénarios et types de prescription couverts. Utile pour tous les profils : compréhension des besoins métier et périmètre d'implémentation.
 </div>
 
 ### La ligne de prescription initiale

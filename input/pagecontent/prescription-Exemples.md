@@ -1,4 +1,4 @@
-<div style="background-color: #f5f5f5; border-left: 5px solid #9c27b0; padding: 12px 15px; margin-bottom: 20px; border-radius: 3px;">
+<div style="background-color: #f5f5f5; border-left: 4px solid #757575; padding: 15px; margin: 20px 0;">
 <strong>📚 Exemples FHIR</strong> – Cette page présente des instances FHIR concrètes illustrant les cas d'usage. Utile pour tous les profils : compréhension métier et référence d'implémentation.
 </div>
 
