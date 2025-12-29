@@ -28,9 +28,8 @@ dependencies:
 pages:
     index.md: 
       title: Accueil
-    prescription.md:
-      prescription-Intro.md:
-        title: La prescription - Introduction
+    prescription-Intro.md:
+      title: La prescription - Introduction
       prescription-VueEnsemble.md:
         title: La prescription - Vue d'ensemble de la modélisation FHIR
       prescription-CasUsage.md:
@@ -62,7 +61,7 @@ pages:
 
 menu:
   Accueil: index.html
-  Prescription:
+  Prescription: 
       Introduction: prescription-Intro.html
       Vue d'ensemble: prescription-VueEnsemble.html
       Cas d'usage: prescription-CasUsage.html
