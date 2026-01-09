@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic | *Version*:0.1.0 |
-| Draft as of 2025-12-29 | *Computable Name*:FrDrugCharacteristic |
+| Draft as of 2026-01-09 | *Computable Name*:FrDrugCharacteristic |
 
 Specifies descriptive properties of the medicine
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-drug-characterist
   "name" : "FrDrugCharacteristic",
   "title" : "Medication descriptive properties",
   "status" : "draft",
-  "date" : "2025-12-29T16:05:48+00:00",
+  "date" : "2026-01-09T13:44:02+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

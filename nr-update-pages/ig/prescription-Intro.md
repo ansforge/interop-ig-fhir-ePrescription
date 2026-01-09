@@ -1,9 +1,9 @@
-# La prescription - Introduction - Guide d'implémentation de la ePrescription v0.1.0
+# La prescription - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
-* **La prescription - Introduction**
+* **La prescription**
 
-## La prescription - Introduction
+## La prescription
 
 **📘 Introduction générale**– Cette page présente les concepts de base et oriente vers les sections métier ou techniques selon votre profil.
 

@@ -1,7 +1,7 @@
 # La prescription au format document - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
-* [**La prescription - Introduction**](prescription-Intro.md)
+* [**La prescription**](prescription-Intro.md)
 * **La prescription au format document**
 
 ## La prescription au format document

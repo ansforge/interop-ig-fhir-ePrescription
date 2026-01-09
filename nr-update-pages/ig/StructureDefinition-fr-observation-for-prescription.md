@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription | *Version*:0.1.0 |
-| Draft as of 2025-12-29 | *Computable Name*:FRObservationForPrescription |
+| Draft as of 2026-01-09 | *Computable Name*:FRObservationForPrescription |
 
  
 French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height…) 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-observation-for-p
   "name" : "FRObservationForPrescription",
   "title" : "FR Observation For Prescription",
   "status" : "draft",
-  "date" : "2025-12-29T16:05:48+00:00",
+  "date" : "2026-01-09T13:44:02+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

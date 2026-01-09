@@ -1,7 +1,7 @@
 # La prescription - Cas d'usage - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
-* [**La prescription - Introduction**](prescription-Intro.md)
+* [**La prescription**](prescription-Intro.md)
 * **La prescription - Cas d'usage**
 
 ## La prescription - Cas d'usage
