@@ -29,7 +29,7 @@ pages:
     index.md: 
       title: Accueil
     prescription-Intro.md:
-      title: La prescription - Introduction
+      title: La prescription
       prescription-VueEnsemble.md:
         title: La prescription - Vue d'ensemble de la modélisation FHIR
       prescription-CasUsage.md:
