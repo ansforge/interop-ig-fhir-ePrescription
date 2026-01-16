@@ -2,10 +2,6 @@
 
 La transformation de messages PN13 en ressources FHIR se fait à partir de *ConceptMap* indiquant la correspondance entre les éléments XML des messages PN13 et les attributs des ressources FHIR. Elle dépend de certains éléments du message PN13 (ex. nombre d'élément `Composant_prescrit`, présence d'élément `Elément_lié` pour la prescription) et dans le cas du sens PN13 vers FHIR de la préexistence des instances de ressources pour les ressources référencées (ex. *Patient*, *Practitioner*, *Encounter*).
 
-#### La conciliation
-
-Prévu pour une version ultérieure de ce guide.
-
 #### La prescription
 
 La traduction d'un message de prescription PN13 en ressources FHIR résulte en plusieurs ressources FHIR qui peuvent être constituées à l'aide des ressources *ConceptMap* fournies dans ce guide.
@@ -164,9 +160,3 @@ Le lien de type "Suggestion" est utilisé dans le cas d'usage de l'analyse pharm
 **Lien de type "Remplacement"**
 
 Le lien de type "Remplacement" est utilisé dans le cas d'usage de l'analyse pharmaceutique, le mapping PN13 FHIR sera réalisé dans une version ultérieure de ce guide
-
-#### La dispensation
-
-Prévu pour une version ultérieure de ce guide.
-
-{% include markdown-link-references.md %}
