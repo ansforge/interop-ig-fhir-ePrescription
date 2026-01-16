@@ -8,45 +8,46 @@ skinparam rectangle {
 
 ' Contexte
 package "Informations contextuelles" {
-  class FrCorePatient [[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient]]
-  class FrCoreOrganization [[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization]]
-  class FrCoreEncounter [[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-encounter]]
-  class FrCorePractitioner [[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner]]
+  class FRCorePatient [[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient]]
+  class FRCoreOrganization [[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-organization]]
+  class FRCoreEncounter [[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-encounter]]
+  class FRCorePractitioner [[https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner]]
   class "Observation (*)" as Observation
 }
 
 package "Médicament prescrit" {
-  class FrMedicationNonCompound [[./StructureDefinition-fr-medication-noncompound.html]]
-  class FrMedicationCompound [[./StructureDefinition-fr-medication-compound.html]]
+  class FRMedicationNonCompound [[./StructureDefinition-fr-medication-noncompound.html]]
+  class FRMedicationCompound [[./StructureDefinition-fr-medication-compound.html]]
 }
 
-class "FrInpatientMedicationRequest" [[./StructureDefinition-fr-inpatient-medicationrequest.html]]
+class "FRMedicationRequest" [[./StructureDefinition-fr-medicationrequest.html]]
+class "FRInpatientMedicationRequest" [[./StructureDefinition-fr-inpatient-medicationrequest.html]]
 
 
 ' Notes pour les ValueSets
-note right of FrInpatientMedicationRequest
+note right of FRMedicationRequest
   ValueSet:
   - FRRouteOfAdministration
   - FRMethodOfAdministration
 end note
 
-note right of FrMedicationNonCompound
+note right of FRMedicationNonCompound
   ValueSet:
   - FRMedicationCode
   - MpSubstanceActive
   - FRMpDoseForm
 end note
 
-note right of FrMedicationCompound
+note right of FRMedicationCompound
   ValueSet:
   - FRMpDoseForm
 end note
 
 ' Relations principales
-FrInpatientMedicationRequest --> "Informations contextuelles"
+FRMedicationRequest --> "Informations contextuelles"
 
-FrInpatientMedicationRequest --> "Médicament prescrit"
+FRMedicationRequest --> "Médicament prescrit"
 
-FrMedicationNonCompound --> FrMedicationCompound
+FRMedicationNonCompound --> FRMedicationCompound
 
 @enduml

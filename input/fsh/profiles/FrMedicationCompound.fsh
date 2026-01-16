@@ -2,7 +2,9 @@ Profile: FrRedicationCompound
 Parent: Medication
 Id: fr-medication-compound
 Title: "FR Medication Compound"
-Description: "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound."
+Description: """A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.\r\n
+Profil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d'éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound.
+"""
 * ^status = #draft
 * ^experimental = false
 * ^purpose = "Compound medication description"

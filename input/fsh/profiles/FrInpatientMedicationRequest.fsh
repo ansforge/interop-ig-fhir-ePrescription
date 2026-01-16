@@ -2,7 +2,9 @@ Profile: FRInpatientMedicationRequest
 Parent: FRMedicationRequest
 Id: fr-inpatient-medicationrequest
 Title: "FR Inpatient MedicationRequest"
-Description: "French inpatient medication request profile"
+Description: """French inpatient medication request profile\r\n 
+Profil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier."""
+
 
 * supportingInformation.extension contains fr-uf-role named UFRole 0..1
 

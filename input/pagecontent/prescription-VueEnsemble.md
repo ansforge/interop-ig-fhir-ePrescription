@@ -1,55 +1,22 @@
-### Modelisation d'une prescription
-
-Une prescription est un ensemble d'un ou plusieurs traitements prescrits associé(s) à sa/leur posologie. Afin de pouvoir représenter ces concepts sous format informatique, ils sont modélisés sous la forme d'une liste d'informations.
-
-#### Exemple d'informations portées par une prescription
-
-Exemple de modélisation d'une prescription
-
-<div class="figure" style="width:100%;">
-    <img style="height: auto; width: 100%;" src="ExemplePrescriptionAnnotee.jpg" alt="Exemple prescription Annotée" title="Exemple prescription Annotée">
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
+<strong>⚙️ Volet technique</strong> – Cette page détaille la modélisation FHIR complète (ressources, profils, contraintes). Destinée aux développeurs et intégrateurs.
 </div>
 
-Note: cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur...) est traitée dans le guide d'integration FRCore
-
-#### Exemple d'informations portées par une posologie
-
-Exemple 1 de posologie annotée :
-
-<div class="figure" style="width:100%;">
-    <img style="height: auto; width: 100%;" src="PosologieAnnotee1.jpg" alt="Posologie Annotée 1" title="Posologie Annotée 1">
-</div>
-
-
-Exemple 2 de posologie annotée :
-
-<div class="figure" style="width:100%;">
-    <img style="height: auto; width: 100%;" src="PosologieAnnotee2.jpg" alt="Posologie Annotée 2" title="Posologie Annotée 2">
-</div>
-
-
-#### Modélisation complète
-
-- [Modélisation d'une ligne de prescription](StructureDefinition-fr-ligne-prescription.html)
-- [Modélisation d'une posologie](StructureDefinition-fr-posologie.html)
-
-### Représentation FHIR d'une prescription
-
-La prescription est un ensemble de **lignes de prescription**, représentées chacune par une ressource *MedicationRequest* profilée *FrMedicationRequest* pour les prescriptions de médecine de ville et les prescriptions hospitalières exécutables en ville (PHEV) et *FrInPatientMedicationRequest* pour les prescriptions intrahospitalières.
+La prescription est un ensemble de **lignes de prescription**, représentées chacune par une ressource *MedicationRequest* profilée *FRMedicationRequest* pour les prescriptions de médecine de ville et les prescriptions hospitalières exécutables en ville (PHEV) et *FRInPatientMedicationRequest* pour les prescriptions intrahospitalières.
 
 La prescription en tant que telle (le regroupement de lignes de prescription), n'est pas représentée par une ressource FHIR. En accord avec les guidelines d'HL7 International, le lien entre les différentes ressources regroupées dans une prescription est représenté par l'élément *MedicationRequest.groupIdentifier*.
 
 Chaque **ligne de prescription** est composée d'un **médicament prescrit** et de sa **posologie**.
 
-Le **médicament prescrit** est représenté par l'élément `MedicationRequest.medication[x]` (1..1) du profil *FrMedicationRequest* ou *FrInpatientMedicationRequest*, celui-ci peut être représenté sous forme d'une référence vers une ressource *Medication* suivant le profil idoine (cf. paragraphe suivant) ou d'un concept codé (CodeableConcept).
+Le **médicament prescrit** est représenté par l'élément `MedicationRequest.medication[x]` (1..1) du profil *FRMedicationRequest* ou *FRInpatientMedicationRequest*, celui-ci peut être représenté sous forme d'une référence vers une ressource *Medication* suivant le profil idoine (cf. paragraphe suivant) ou d'un concept codé (CodeableConcept).
 
 Selon qu'un médicament prescrit référencé est un **médicament simple** ou un **médicament composé** de plusieurs médicaments simples, le **médicament prescrit** est représenté par deux variantes de ressource *Medication*:
 
-- *FrMedicationNonCompound*: médicament simple exprimé: 
+- *FRMedicationNonCompound*: médicament simple exprimé: 
   - en spécialité identifié par son **code UCD**. Ex: *EFFERALGAN 1 000 mg, cpr dont le code UCD est 3400893766521*
   - en DC (dénomination commune) identifié par son **code SMS** ou son **code technique ANSM** (dans l'attente de l'attribution d'un code SMS). Ex: *paracétamol dont le code SMS est 100000090270*
   - en MV (médicament virtuel) identifié par son **code Medicabase**. Ex. *BETAMETHASONE 0,05% voie cutanée pom dont le code Medicabase est MV00000063*
-- *FrMedicationCompound*: médicament composé de plusieurs médicaments simples exprimés en DC ou en spécialité. Ex: *glucose 5% 1L + sodium chlorure 3g + potassium chlorure 2g, composé de 3 médicaments simples, glucose, sodium chlorure et potassium chlorure, en quantités de 1L, 3g et 2g*.
+- *FRMedicationCompound*: médicament composé de plusieurs médicaments simples exprimés en DC ou en spécialité. Ex: *glucose 5% 1L + sodium chlorure 3g + potassium chlorure 2g, composé de 3 médicaments simples, glucose, sodium chlorure et potassium chlorure, en quantités de 1L, 3g et 2g*.
 
 Dépendance des ressources profilées par Interop'Santé
 
@@ -59,7 +26,7 @@ Dépendance des ressources profilées par Interop'Santé
   </p>
 </div>
 
-Noter qu'un médicament simple peut être une association de plusieurs principes actifs. Ce n'en est pas moins un médicament simple représenté par une ressource *FrMedicationNonCompound*. Ex : *CODOLIPRANE 500 mg/30 mg, cpr dont le code UCD est 3400893936047* contenant 500 mg de paracétamol et 30 mg de codéine*
+Noter qu'un médicament simple peut être une association de plusieurs principes actifs. Ce n'en est pas moins un médicament simple représenté par une ressource *FRMedicationNonCompound*. Ex : *CODOLIPRANE 500 mg/30 mg, cpr dont le code UCD est 3400893936047* contenant 500 mg de paracétamol et 30 mg de codéine*
 
 La **posologie** est représentée par l'élément `dosageInstruction` de la ressource *MedicationRequest*.
 
@@ -67,7 +34,7 @@ La **posologie** est représentée par l'élément `dosageInstruction` de la res
 
 Elles traduisent la période d'exécution de la prescription.
 
-Cette information est portée indivuellement par chaque ligne de prescription, c'est à dire au niveau de la ressource *MedicationRequest* profilée par *FRMedicationRequest* ou *FrInpatientMedicationRequest*, comme paramètre de la posologie prescrite, dans l'élément `dosageInstruction` de type *Dosage*, sous-élément `timing` de type *Timing*
+Cette information est portée individuellement par chaque ligne de prescription, c'est à dire au niveau de la ressource *MedicationRequest* profilée par *FRMedicationRequest* ou *FRInpatientMedicationRequest*, comme paramètre de la posologie prescrite, dans l'élément `dosageInstruction` de type *Dosage*, sous-élément `timing` de type *Timing*
 
 - date de début : `.dosageInstruction.timing.repeat.boundsPeriod.start`
 - date de fin : `.dosageInstruction.timing.repeat.boundsPeriod.end`
@@ -79,7 +46,7 @@ Ces dates de début et de fin de prescription, de même que la durée de prescri
 
 En prescription intrahospitalière, il n'y a généralement pas de consigne de dispensation formulée par le prescripteur. Il n'y a donc généralement pas usage de l'élément `.dispensationRequest`.
 
-#### Précision sur les parties textuelles
+### Précisions sur les parties textuelles
 
 Les prescriptions FHIR peuvent contenir plusieurs parties textuelles:
 
@@ -90,7 +57,7 @@ Les prescriptions FHIR peuvent contenir plusieurs parties textuelles:
 
 Certains éléments de posologie ne peuvent pas être représentés de manière complètement structurée ou doivent obligatoirement être représentés sous forme textuelle. Ces éléments sont renseignés dans un élément `MedicationRequest.dosageInstruction.additionalInstruction.text`. 
 
-*Note 1:* L'élément `MedicationRequest.dosageInstruction.patientInstruction` pourrait également être utilisé pour certaines indications complémentaires pour la posologie. Mais le choix entre `MedicationRequest.dosageInstruction.patientInstruction` et `MedicationRequest.dosageInstruction.additionalInstruction.text` n'est pas toujours évident. Afin de simplifier le profil, il a été décidé de n'utiliser que `MedicationRequest.dosageInstruction.additionalInstruction.text` qui peut être multivalué et éventuellement associé à un code. En conséquence, le profil `FrMedicationRequest`interdit l'usage de `MedicationRequest.dosageInstruction.patientInstruction`
+*Note 1:* L'élément `MedicationRequest.dosageInstruction.patientInstruction` pourrait également être utilisé pour certaines indications complémentaires pour la posologie. Mais le choix entre `MedicationRequest.dosageInstruction.patientInstruction` et `MedicationRequest.dosageInstruction.additionalInstruction.text` n'est pas toujours évident. Afin de simplifier le profil, il a été décidé de n'utiliser que `MedicationRequest.dosageInstruction.additionalInstruction.text` qui peut être multivalué et éventuellement associé à un code. En conséquence, le profil `FRMedicationRequest`interdit l'usage de `MedicationRequest.dosageInstruction.patientInstruction`
 
 *Note 2:* L'élement `MedicationRequest.dosageInstruction.additionalInstruction.text` est réservé pour les éléments de posologie qui ont été renseignés "à la main" et ne peuvent pas être représentés de manière structurée. Il ne doit pas être utilisé pour du texte généré automatiquement à partir de données structurées.
 
@@ -132,7 +99,7 @@ Même si une version textuelle de la prescription est produite automatiquement d
 
 PN13 intègre beaucoup d'éléments textuels qui ne peuvent être indiqués que dans l'élément `MedicationRequest.note`. Afin de permettre de discriminer la portée de chaque note, l'extension [fr-medicationrequest-note-scope](StructureDefinition-fr-medicationrequest-note-scope.html) a été créée. Elle n'est utilisée que dans le cas de prescription initalement en PN13 retranscrites en FHIR.
 
-#### Précisions sur les terminologies utilisables pour les unités
+### Précisions sur les terminologies utilisables pour les unités
 
 Les deux terminologies utilisables pour représenter les unités d'administration dans les posologies sont UCUM et EDQM.
 Toute unité utilisée pour une posologie qui ne correspond pas à un code natif de ces terminologies ne doit être exprimé que par l'élément `unit` du datatype `Quantity` et des datatypes dérivés, les éléments `code` et `system` ne doivent pas à utiliser.
@@ -145,13 +112,13 @@ En particulier, les non unit UCUM (code entre accolades {} ou entre crochets [])
 
 Lorsqu'une unité d'administration n'est pas en UCUM et EDQM et qu'il est donc difficile de traduire la prescription en nombre de "boite" de médicament à dispenser, il est recommandé que le prescripteur mette une indication de ce qui doit être dispensé dans une unité "convertible". L'extension `prescribedQuantity`, héritée du profil européen, est à utiliser dans ce cas.  
 
-#### Précision sur le rattrapage de dose
+### Précisions sur le rattrapage de dose
 
-Sauf indication contraire dans la prescription via l'élément `MedicationRequest.dosageInstruction.additionalInstruction.text`, la structuration de la posologie (ex. l'utilisation de l'élément `MedicationRequest.dosageInstruction.timing.repreat.when`) ne doit pas interdire de rattraper une dose qui n'a pas été prise au bon moment.
+Sauf indication contraire dans la prescription via l'élément `MedicationRequest.dosageInstruction.additionalInstruction.text`, la structuration de la posologie (ex. l'utilisation de l'élément `MedicationRequest.dosageInstruction.timing.repeat.when`) ne doit pas interdire de rattraper une dose qui n'a pas été prise au bon moment.
 
-#### Précisions sur dates et durée de prescription
+### Précisions sur dates et durée de prescription
 
-Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource *MedicationRequest* profilée *FrMedicationRequest* ou *FrInPatientMedicationRequest*.
+Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource *MedicationRequest* profilée *FRMedicationRequest* ou *FRInPatientMedicationRequest*.
 
 Elles concernent également les règles définissant la **première dose prescrite** et la **dernière dose prescrite**.
 
@@ -180,8 +147,8 @@ Définit la date/heure de fin exprimée par le médecin lors de sa prescription.
 
 **La dernière dose prescrite**:
 
-- si la date de fin est expimée:
-  - celle dont la date/heure de début d’administration est *immédiatement inférieure à la date/heure de fin prescrite*
+- si la date de fin est exprimée:
+  - celle dont la date/heure de début d'administration est *immédiatement inférieure à la date/heure de fin prescrite*
   - calculée à partir de la *date/heure de fin prescrite*, en fonction de la posologie définie par la collection `dosageInstruction`
 - si la date de fin n'est pas exprimée:
   - celle dont la date/heure de début d'administration est *immédiatement inférieure à la date de fin calculée (durée du traitement après la date de la première prise)
@@ -192,7 +159,7 @@ La *date/heure de fin d’administration* de la dernière dose (sa date/heure de
 **Durée de prescription**:
 
 Elle est liée aux deux paramètres précédents. Quand ces trois paramètres sont exposés à l'utilisateur pour saisie, en général il en fixe deux et le troisième est calculé.
-Pour les prescriptions de médecine de ville ou les prescriptions hospitalières à éxecution en ville, il est possible que seule la durée de prescription soit exprimée les dates de début et fin dépendant de quand le patient se fait délivrer les médicaments.
+Pour les prescriptions de médecine de ville ou les prescriptions hospitalières à exécution en ville, il est possible que seule la durée de prescription soit exprimée les dates de début et fin dépendant de quand le patient se fait délivrer les médicaments.
 
 Les unités UCUM suivantes sont utilisées :
 
@@ -217,13 +184,18 @@ Pour garantir qu'une prescription de, par exemple, 3 doses par jour pendant 5 jo
 *Illustration*
 Date de fin prescrite exclue : 15 doses (3/j x 5j = 15)
 
-![IllustrationDateFinPrescriteExclue](Prescription2.jpg)
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="Prescription2.jpg" alt="IllustrationDateFinPrescriteExclue" title="IllustrationDateFinPrescriteExclue">
+</div>
 
 En effet, si la date de début prescrite est égale à la date de début de la premiére dose, un intervalle fermé incluant de la date de fin prescrite conduira à la prescription de 16 doses.
 
 *Illustration*
 Si la date de fin prescrite était incluse : 16 doses (3/j x 5j = 16) !
-![IllustrationDateFinPrescriteIncluse](Prescription3.jpg)
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="Prescription3.jpg" alt="IllustrationDateFinPrescriteIncluse" title="IllustrationDateFinPrescriteIncluse">
+</div>
 
 **Note**:
 Dans FHIR, le type *Period*, utilisé pour porter le couple (*date de début*, *date de fin*), stipule que les bornes, *start* et *end*, sont incluses. L'interval est *fermé*.
@@ -266,7 +238,10 @@ Les règles de gestion suivantes doivent être appliquées pour définir ces deu
 
 *Illustration*
 1 comprimé 3 fois par jour (7h, 12h, 18h) pendant 5 jours, prescrit à 10h30, à partir de maintenant (10h30), donc 1ère dose à 12h.
-![DateEffective1](Prescription5.jpg)
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="Prescription5.jpg" alt="DateEffective1" title="DateEffective1">
+</div>
 
 Notes
 
@@ -280,7 +255,10 @@ Notes
 
 *Illustration*
 G5 1L sur 12h, 2 fois par jour (10h, 22h) pendant 5 jours, prescrit à 9h30, à partir de maintenant (9h30), donc 1ère dose à 10h.
-![DateEffective2](Prescription6.jpg)
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="Prescription6.jpg" alt="DateEffective2" title="DateEffective2">
+</div>
 
 Note
 
@@ -295,7 +273,7 @@ Pour les **posologies conditionnelles d’un évènement aléatoire**, « si dou
 - Exemple : Paracétamol 1 g si douleur de J0 à J+3.
 - Les dates/heures début/fin de MedicationRequest sont respectivement J0 et J+3.
 
-#### Précision sur les liens entre lignes de prescription
+### Précisions sur les liens entre lignes de prescription
 
 Les liens entre lignes de prescription peuvent bien sûr être indiqués dans les éléments `MedicationRequest.dosageInstruction.additionalInstruction.text`. Cependant, afin de faciliter la constitution automatisée de plan de prise et assurer une meilleure sécurité de prise, il est possible d'en modéliser certains via une ressource `RequestGroup`. La ressource `RequestGroup` utilisée pour représenter ces liens est liée aux ressources `MedicationRequest`concernées par l'élément `groupIdentifier`
 

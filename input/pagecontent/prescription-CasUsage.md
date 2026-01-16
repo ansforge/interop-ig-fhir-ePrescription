@@ -1,8 +1,10 @@
-### Cas d'usage
+<div style="background-color: #fff9e6; border-left: 4px solid #ff9800; padding: 15px; margin: 20px 0;">
+<strong>👥 Cas d'usage</strong> – Cette page présente les différents scénarios et types de prescription couverts. Utile pour tous les profils : compréhension des besoins métier et périmètre d'implémentation.
+</div>
 
-#### La ligne de prescription initale
+### La ligne de prescription initiale
 
-En situation réelle, n'émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c'est la base qui permet d'explorer la complexité de la prescription selon deux axes, le médicament prescrit et la posologie.
+En situation réelle, n'émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c'est la base qui permet d'explorer la complexité de la prescription selon deux axes : le médicament prescrit et la posologie.
 
 La complexité du *médicament prescrit*
 
@@ -45,7 +47,7 @@ La complexité du *médicament prescrit*
   - durée d'administration : négligeable (assimilée à nulle) ou déterminée
   - dose : exprimée en nombre d'unités de médicament prescrit (comprimé, dose-kg , application, patch, flacon) ou quantité de principe actif (mg, g)
 
-#### Les différentes variations de la ligne de prescription initiale
+### Les différentes variations de la ligne de prescription initiale
 
 On entend par variation de la ligne prescription toute évolution de celle-ci **prescrite** par le médecin.
 

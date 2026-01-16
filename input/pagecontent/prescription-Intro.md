@@ -1,10 +1,84 @@
-### Prescription
+<div style="background-color: #fff9e6; border-left: 4px solid #ff9800; padding: 15px; margin: 20px 0;">
+<strong>📘 Introduction générale</strong> – Cette page présente les concepts de base et oriente vers les sections métier ou techniques selon votre profil.
+</div>
 
-Le domaine couvert inclut les prescriptions hospitalières, les  prescriptions de médecine de ville ainsi que les prescriptions hospitalières exécutables en ville (PHEV).
-Les spécifications sont issues des travaux du groupe de travail Interop'Santé. Ils s'appuient sur la version précédente du Guide d'Integration, des travaux de la HAS sur la structuration de la posologie pour les prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) et s'inspirent des profils européens pour la [prescription](http://hl7.eu/fhir/mpd) (profils en concertation lorsque ces travaux ont été menés).
+Une **prescription médicamenteuse** est un ensemble d'un ou plusieurs traitements prescrits, chacun associé à sa posologie. Ce guide spécifie comment représenter ces prescriptions sous forme numérique interopérable en utilisant le standard FHIR.
 
-#### Détail
+### Périmètre couvert
 
-- [Vue d'ensemble](prescription-VueEnsemble.html)
-- [Cas d'usage](prescription-CasUsage.html)
-- [Exemples](prescription-Exemples.html)
+Cette spécification couvre l'ensemble des prescriptions médicamenteuses dans l'écosystème français :
+- **Prescriptions hospitalières** : pour usage intra-hospitalier
+- **Prescriptions de médecine de ville** : pour délivrance en pharmacie d'officine
+- **Prescriptions hospitalières exécutables en ville (PHEV)** : prescriptions réalisées à l'hôpital mais exécutées en ville
+
+### Origine et alignements
+
+Les spécifications sont issues des travaux du groupe de travail Interop'Santé et s'appuient sur :
+- La version précédente de ce guide d'implémentation
+- Les travaux de la HAS sur la [structuration de la posologie](https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments) pour les prescriptions de médecine de ville
+- Les profils européens pour la [prescription](http://hl7.eu/fhir/mpd) (MPD - Medication Prescription and Dispense)
+
+### Guide de lecture
+
+<div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
+<strong>👤 Vous êtes professionnel de santé ou chef de projet métier ?</strong>
+<ul>
+<li>Consultez les <strong>modèles logiques métier</strong> ci-dessous pour comprendre les données d'une prescription</li>
+<li>Parcourez la page <a href="prescription-CasUsage.html">Cas d'usage</a> pour découvrir les scénarios couverts</li>
+<li>Explorez les <a href="prescription-Exemples.html">exemples concrets</a> basés sur les travaux de la HAS</li>
+</ul>
+</div>
+
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
+<strong>⚙️ Vous êtes développeur ou intégrateur ?</strong>
+<ul>
+<li>Allez directement à la <a href="prescription-VueEnsemble.html">Vue d'ensemble technique</a> pour la modélisation FHIR</li>
+<li>Consultez les profils, ressources et règles de validation détaillés</li>
+<li>Utilisez les <a href="prescription-Exemples.html">instances FHIR</a> comme référence d'implémentation</li>
+</ul>
+</div>
+
+### Exemple d'informations portées par une prescription
+
+Exemple de modélisation d'une prescription
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="ExemplePrescriptionAnnotee.jpg" alt="Exemple prescription Annotée" title="Exemple prescription Annotée">
+</div>
+
+Note : cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur...) est traitée dans le guide d'intégration FRCore
+
+### Exemple d'informations portées par une posologie
+
+Exemple 1 de posologie annotée :
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="PosologieAnnotee1.jpg" alt="Posologie Annotée 1" title="Posologie Annotée 1">
+</div>
+
+Exemple 2 de posologie annotée :
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="PosologieAnnotee2.jpg" alt="Posologie Annotée 2" title="Posologie Annotée 2">
+</div>
+
+### Modélisation métier de la ligne de prescription et de la posologie
+
+Pour faciliter la compréhension par les professionnels de santé, des **modèles métier** ont été élaborés pour décrire de manière exhaustive les données qui constituent une ligne de prescription et une posologie.
+
+Ces modèles utilisent le formalisme des **"modèles logiques"** d'HL7, qui permettent de représenter les concepts métier de façon indépendante des contraintes techniques de FHIR. Contrairement aux profils FHIR techniques destinés aux développeurs, ces modèles logiques offrent une vision métier claire et accessible, facilitant le dialogue entre professionnels de santé, éditeurs de logiciels et experts FHIR.
+
+**Avantages pour les professionnels de santé :**
+- Vue d'ensemble complète des informations d'une prescription, sans jargon technique
+- Langage commun entre les prescripteurs et les équipes informatiques
+- Référentiel métier pour valider que tous les besoins sont bien couverts
+
+**Modèles disponibles :**
+- [Modélisation d'une ligne de prescription](StructureDefinition-fr-ligne-prescription.html)
+- [Modélisation d'une posologie](StructureDefinition-fr-posologie.html)
+
+### Sommaire de la partie prescription
+
+- [Vue d'ensemble](prescription-VueEnsemble.html) : modélisation FHIR d'une prescription (ressources, profils, structuration du médicament prescrit et de la posologie)
+- [Cas d'usage](prescription-CasUsage.html) : scénarios de prescription couverts (médicaments simples/composés, spécialité/DC, posologies simples/complexes)
+- [Exemples](prescription-Exemples.html) : instances FHIR concrètes illustrant les différents cas d'usage, incluant les exemples de la HAS sur la structuration de la posologie

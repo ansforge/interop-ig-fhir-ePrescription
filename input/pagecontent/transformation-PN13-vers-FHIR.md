@@ -2,10 +2,6 @@
 
 La transformation de messages PN13 en ressources FHIR se fait à partir de *ConceptMap* indiquant la correspondance entre les éléments XML des messages PN13 et les attributs des ressources FHIR. Elle dépend de certains éléments du message PN13 (ex. nombre d'élément `Composant_prescrit`, présence d'élément `Elément_lié` pour la prescription) et dans le cas du sens PN13 vers FHIR de la préexistence des instances de ressources pour les ressources référencées (ex. *Patient*, *Practitioner*, *Encounter*).
 
-#### La conciliation
-
-Prévu pour une version ultérieure de ce guide.
-
 #### La prescription
 
 La traduction d'un message de prescription PN13 en ressources FHIR résulte en plusieurs ressources FHIR qui peuvent être constituées à l'aide des ressources *ConceptMap* fournies dans ce guide.
@@ -13,7 +9,7 @@ La manière dont les ressources FHIR résultantes sont mises à disposition dép
 
 ##### La notion de prescription multiligne
 
-Il n'existe pas de ressource FHIR pour représenter l'objet prescription. Beaucoup d'implémentations internationales ne traitent que de prescriptions monolignes pour lesquelles la notion de prescription et la notion de ligne de prescription sont confondues dans la ressource FHIR *MedicationRequest*. Les groupes de travail FHIR au niveau international, interrogés sur la question des prescriptions multilignes, ont fournis des recommandations d'utiliser l'élément `groupIdentifier` comme lien entre les différentes lignes de prescritpion d'une prescription multiligne. Une évolution est en cours pour permettre l'interrogation d'un serveur FHIR de manière indiscriminée sur les éléments `identifier` et `groupIdentifier` afin d'obtenir tous les composants d'une prescription que celle-ci soit monoligne ou multiligne.
+Il n'existe pas de ressource FHIR pour représenter l'objet prescription. Beaucoup d'implémentations internationales ne traitent que de prescriptions monolignes pour lesquelles la notion de prescription et la notion de ligne de prescription sont confondues dans la ressource FHIR *MedicationRequest*. Les groupes de travail FHIR au niveau international, interrogés sur la question des prescriptions multilignes, ont fournis des recommandations d'utiliser l'élément `groupIdentifier` comme lien entre les différentes lignes de prescription d'une prescription multiligne. Une évolution est en cours pour permettre l'interrogation d'un serveur FHIR de manière indiscriminée sur les éléments `identifier` et `groupIdentifier` afin d'obtenir tous les composants d'une prescription que celle-ci soit monoligne ou multiligne.
 Dans le cas de prescription comportant des liens entre les lignes (ex. exclusivité entre une ligne de prescription et une autre) une ressource *RequestGroup* en FHIR R4 ou *RequestOrchestration* en FHIR R5 peut être utilisée pour représenter ces liens. Elle porte également le même 'groupIdentifier' que les ressources *MedicationRequest* qui représentent les lignes de prescription.
 
 ##### Ressources FHIR créées par la transformation d'un flux PN13 de prescription en FHIR
@@ -43,7 +39,7 @@ Les "ressources de contexte" qui sont à référencer par la prescription FHIR (
 Dans le message PN13, à partir des sous-éléments de `Message/M_Prescription_médicaments/Patient` identifier si une ressource *Patient* existe déjà:
 
 - S'il existe une ressource *Patient* correspondante, récupérer `Patient.id` pour alimenter `MedicationRequest.subject.reference`
-- S'il n'exite pas de ressource *Patient* correspondante:
+- S'il n'existe pas de ressource *Patient* correspondante:
   - Si seul l'élément `Message/M_Prescription_médicaments/Patient/Ipp` est fourni, l'utiliser pour alimenter `MedicationRequest.subject.identifier.value` cf. ressource *ConceptMap* [PN13-FHIR-prescmed-patient-id-seul-conceptmap].
   - Si le patient a une INS qualifiée (i.e. présence de l'élément `Message/M_Prescription_médicaments/Patient/INS` renseigné et élément `Message/M_Prescription_médicaments/Patient/Statut_idpat` valorisé à `VALI`), créer la ressource *Patient* suivant le profil [FRCorePatientINS]($FrCorePatientINS) (éventuellement directement sur le serveur ou dans la ressource *Bundle* représentant la prescription comme c'est le cas pour les exemples fournis) en utilisant la ressource *ConceptMap* [PN13-FHIR-prescmed-patient-avec-INS-conceptmap].
   - Si le patient n'a pas d'INS qualifiée, créer la ressource *Patient* suivant le profil [FRCorePatient]($FrCorePatient) (éventuellement directement sur le serveur ou dans la ressource *Bundle* représentant la prescription comme c'est le cas pour les exemples fournis) en utilisant la ressource *ConceptMap* [PN13-FHIR-prescmed-patient-sans-INS-conceptmap].
@@ -53,7 +49,7 @@ Dans le message PN13, à partir des sous-éléments de `Message/M_Prescription_m
 Dans le message PN13, à partir des sous-éléments de `Message/M_Prescription_médicaments/Séjour` identifier si une ressource *Encounter* existe déjà:
 
 - S'il existe une ressource *Encounter* correspondante, récupérer `Encounter.id` pour alimenter `MedicationRequest.encounter.reference`
-- S'il n'exite pas de ressource *Encounter* correspondante, comme seul l'identifiant du séjour est fourni dans le message PN13, utiliser `Message/M_Prescription_médicaments/Séjour/Id_séjour` pour alimenter `MedicationRequest.encounter.identifier.value` et éventuellement `Message/M_Prescription_médicaments/Séjour/DI_séjour` s'il est fourni pour alimenter `MedicationRequest.encounter.identifier.system` cf. ressource *ConceptMap* [PN13-FHIR-prescmed-patient-id-seul-conceptmap].
+- S'il n'existe pas de ressource *Encounter* correspondante, comme seul l'identifiant du séjour est fourni dans le message PN13, utiliser `Message/M_Prescription_médicaments/Séjour/Id_séjour` pour alimenter `MedicationRequest.encounter.identifier.value` et éventuellement `Message/M_Prescription_médicaments/Séjour/DI_séjour` s'il est fourni pour alimenter `MedicationRequest.encounter.identifier.system` cf. ressource *ConceptMap* [PN13-FHIR-prescmed-patient-id-seul-conceptmap].
 
 ###### Observation
 
@@ -68,7 +64,7 @@ Pour chaque élément `Message/M_Prescription_médicaments/Prescription/Rens_com
 Dans le message PN13, à partir des sous-éléments de `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Id_prescripteur` ou `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur` identifier si une ressource *Practioner* existe déjà:
 
 - S'il existe une ressource *Practictioner* correspondante, récupérer `Practitioner.id` pour alimenter `MedicationRequest.requester.reference`.
-- S'il n'exite pas de ressource *Practitioner* correspondante:
+- S'il n'existe pas de ressource *Practitioner* correspondante:
   - Si l'élément `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Id_prescripteur` est fourni, l'utiliser pour alimenter `MedicationRequest.requester.identifier.value` cf. ressource *ConceptMap* [PN13-FHIR-prescmed-practitioner-id-seul-conceptmap].
   - Si l'élément `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Identifiant` est fourni seul ou avec uniquement `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Domaine_identification`, utiliser `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Identifiant` pour alimenter `MedicationRequest.requester.identifier.value`et éventuellement `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Domaine_identification` pour alimenter `MedicationRequest.requester.identifier.system` en le transformant si nécessaire pour être au format uri accepté par FHIR.
   - Si d'autres sous éléments de `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur`sont renseignés en plus de `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Identifiant`et éventuellement `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Domaine_identification`, créer la ressource *Practitioner* suivant le profil [FrCorePractitioner]($FrCorePractitioner) en utilisant la ressource *ConceptMap* [PN13-FHIR-prescmed-practitioner-identite-conceptmap].
@@ -91,7 +87,7 @@ Pour chaque élément `Message/M_Prescription_médicaments/Prescription/Elément
 Pour chaque élément `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Elément_posologie` comportant un élément `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Elément_posologie/Type_événement_début` valorisé à `4` ET un autre élément (utilisation de `Type_événement_début` et de `Type_événement2_début`), créer une instance de `MedicationRequest.dosageInstruction` en utilisant la ressource *ConceptMap* [PN13-FHIR-prescmed-dosageinstruction-conceptmap].
 
 Pour chaque élément `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Elément_posologie` comportant uniquement un (ou deux) élément(s) `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Elément_posologie/Type_événement_début` valorisé(s) à `4` utiliser la ressource *ConceptMap* [PN13-FHIR-prescmed-dosageinstruction-conceptmap] pour mettre à jour les instances de `MedicationRequest.dosageInstruction` précédemment créées auxquelles il s'applique.
-*Point d'attention:* Les `Type_événement_début`valorisés à `4`avec `Evénement_début`de type `1`ne sont pas forcément applicable à tous les autres `Elément_posologie`. En particulier, dans le cadre de la PCA (Patient Controled Analgesiae), ils ne s'appliquent qu'au bolus. 
+*Point d'attention:* Les `Type_événement_début`valorisés à `4`avec `Evénement_début`de type `1`ne sont pas forcément applicable à tous les autres `Elément_posologie`. En particulier, dans le cadre de la PCA (Patient Controlled Analgesia), ils ne s'appliquent qu'au bolus. 
 
 ###### Unité dose en PN13
 En PN13, il est possible d'exprimer le concept de dose au niveau de `Messages/M_prescription_médicaments/Prescription/Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Composant_prescrit/Quantité_composant_prescrite` et de faire référence à cette dose dans `Message/M_Prescription_médicaments/Prescription/Elément_prescr_médic/Elément_posologie`. Cette possibilité n'existe pas en FHIR.
@@ -164,9 +160,3 @@ Le lien de type "Suggestion" est utilisé dans le cas d'usage de l'analyse pharm
 **Lien de type "Remplacement"**
 
 Le lien de type "Remplacement" est utilisé dans le cas d'usage de l'analyse pharmaceutique, le mapping PN13 FHIR sera réalisé dans une version ultérieure de ce guide
-
-#### La dispensation
-
-Prévu pour une version ultérieure de ce guide.
-
-{% include markdown-link-references.md %}
