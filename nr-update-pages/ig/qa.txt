@@ -3,7 +3,7 @@ eP : Validation Results
 
 err = 939, warn = 2044, info = 81
 IG Publisher Version: 2.0.29
-Generated Fri Jan 09 13:48:44 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
+Generated Fri Jan 16 18:09:02 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
  Build Errors : 181 / 3 / 0
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-DC : 12 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-MV : 7 / 3 / 3
@@ -320,10 +320,10 @@ ERROR: prescription-VueEnsemble.html#/html/body/div/div/div/div/div/ul/li/ul/li/
 ERROR: prescription-VueEnsemble.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 339, column 65: The link 'Bundle-HAS-27-1-Presc-GLUCOPHAGE.html' for "HAS - GLUCOPHAGE® 500 mg comprimé : 1 comprimé matin et 1 comprimé soir, au cours ou à la fin des repas (id_poso=27)" cannot be resolved
 ERROR: prescription-VueEnsemble.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 355, column 103: The link 'Bundle-HAS-23-1-Presc-Fluindione' for "HAS - fluindione 20 mg comprimé quadrisécable: 0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours, à répéter sur le mois (id_poso=23)" cannot be resolved
 ERROR: suivitravaux.html#/html/body/div/div/div/div/div/ul/li/ul/li/ul/li/a at Line 297, column 125: The link 'prescription-EtudeComplementaire.html' for "Etude complémentaire" cannot be resolved
-ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 301, column 444: The link '$FrCorePatientINS' for "FRCorePatientINS" cannot be resolved
-ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 302, column 105: The link '$FrCorePatient' for "FRCorePatient" cannot be resolved
-ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 334, column 644: The link '$FrCorePractitioner' for "FrCorePractitioner" cannot be resolved
-ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/p/a at Line 358, column 70: The link 'StructureDefinition-fr-inpatient-medicationrequest' for "FrInpatientMedicationRequest" cannot be resolved
+ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 297, column 444: The link '$FrCorePatientINS' for "FRCorePatientINS" cannot be resolved
+ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 298, column 105: The link '$FrCorePatient' for "FRCorePatient" cannot be resolved
+ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/ul/li/ul/li/a at Line 330, column 644: The link '$FrCorePractitioner' for "FrCorePractitioner" cannot be resolved
+ERROR: transformation-PN13-vers-FHIR.html#/html/body/div/div/div/div/div/p/a at Line 354, column 70: The link 'StructureDefinition-fr-inpatient-medicationrequest' for "FrInpatientMedicationRequest" cannot be resolved
 ERROR: transformationPN13-FHIR-Intro.html#/html/body/div/div/div/div/div/ul/li/a at Line 269, column 8: The link 'PN13-prescription-MV' for "Prescription PN13 médicament virtuel" cannot be resolved
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide

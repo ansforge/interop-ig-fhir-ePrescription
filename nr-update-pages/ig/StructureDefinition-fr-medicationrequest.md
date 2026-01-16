@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest | *Version*:0.1.0 |
-| Draft as of 2026-01-09 | *Computable Name*:FRMedicationRequest |
+| Draft as of 2026-01-16 | *Computable Name*:FRMedicationRequest |
 
  
 French medication request profile 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
   "name" : "FRMedicationRequest",
   "title" : "FR Medication Request",
   "status" : "draft",
-  "date" : "2026-01-09T13:44:02+00:00",
+  "date" : "2026-01-16T18:03:49+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

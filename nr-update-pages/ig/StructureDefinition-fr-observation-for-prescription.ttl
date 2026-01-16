@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FRObservationForPrescription"] ; # 
   fhir:title [ fhir:v "FR Observation For Prescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-01-09T13:44:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-16T18:03:49+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
