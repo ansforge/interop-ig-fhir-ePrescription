@@ -6,52 +6,6 @@
 
 ## Example Bundle: Presc-NICORETTESKIN-patch
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-NICORETTESKIN-patch de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:NICORETTESKIN® 15MG/16H DISP
-
-### Ingredients
-
-| | |
-| :--- | :--- |
-| - | **IsActive** |
-| * | true |
-
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14628**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-07-29 13:27:21+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Durée 16?? , Une fois**route**:Voie transdermique
-
-### DoseAndRates
-
-| | | |
-| :--- | :--- | :--- |
-| - | **Type** | **Dose[x]** |
-| * | Ordered | 1 patch(Détails : code EDQM Standard Terms15036000 = 'Patch') |
-
-
-
 
 
 ## Resource Content

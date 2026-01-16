@@ -6,42 +6,6 @@
 
 ## Example Bundle: Presc-CLARADOL-DoseDiffParHoraire
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-CLARADOL-DoseDiffParHoraire de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14641**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-08-12 14:08:35+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 2 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-
-
 
 
 ## Resource Content

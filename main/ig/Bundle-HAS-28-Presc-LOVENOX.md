@@ -6,51 +6,6 @@
 
 ## Example Bundle: HAS-28-Presc-LOVENOX
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-28-Presc-LOVENOX de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-1 seringue, 1 fois par jour en sous-cutanée, à débuter 12 heures avant l'intervention chirurgicale. à poursuivre pendant 10 jours après l'intervention
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: ENOXAPARINE sodique 4 000 UI (40 mg)/0,4 mL (LOVENOX®), solution injectable en seringue préremplie: 1 seringue, 1 fois par jour en sous-cutanée, à débuter 12 heures avant l'intervention chirurgicale. à poursuivre pendant 10 jours après l'intervention.
-
-
-> **dosageInstruction****sequence**: 1**additionalInstruction**:à débuter 12 heures avant l'intervention chirurgicale**timing**: Une fois par 1 day**route**:Voie sous-cutanée
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Seringue(Détails : code EDQM Standard Terms15052000 = 'Syringe') |
-
-
-> **dosageInstruction****sequence**: 2**additionalInstruction**:après l'intervention**timing**: Une fois par 1 day**route**:Voie sous-cutanée
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Seringue(Détails : code EDQM Standard Terms15052000 = 'Syringe') |
-
-
-
 
 
 ## Resource Content

@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-03-Presc-INNOHEP
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-03-Presc-INNOHEP de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-12 000UI anti-Xa (soit 170UI anti-Xa /kg) , 1 fois/jour - voie sous-cutanée
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: INNOHEP® 14 000 UI anti-Xa/0,7 ml (tinzaparine sodique) solution injectable : 12 000UI anti-Xa (soit 170 UI anti-Xa /kg) , 1 fois/jour - voie sous-cutanée
-
-
-> **dosageInstruction****additionalInstruction**:soit 170UI anti-Xa /kg**timing**: Une fois par 1 day**route**:Voie sous-cutanée
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 12000 UI anti-Xa |
-
-
-
 
 
 ## Resource Content

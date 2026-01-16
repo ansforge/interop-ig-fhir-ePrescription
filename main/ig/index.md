@@ -8,23 +8,96 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:eP |
+| Draft as of 2026-01-16 | *Computable Name*:eP |
 
-### Introduction
+> **Attention !**Ce guide d'implémentation n'est pas en version courante. La version courante sera accessible via l'URL canonique (https://interop.esante.gouv.fr/ig/fhir/eprescription) lorsque celui-ci sera publié.
 
-> **Attention !**Cet Implementation Guide n'est pas la version courante. La version courante sera accessible via l'URL canonique (https://interop.esante.gouv.fr/ig/fhir/eprescription) lorsque celui-ci sera publié.
+Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription](prescription-Intro.md) en FHIR pour l’écosystème français.
 
-Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription](prescription-Intro.md).
+### Guide de lecture
 
-Ce domaine est pris en charge par le GT Pharmacie d’HL7 France au sein de l’association [Interop’Santé](https://www.interopsante.org/) après une première version développée au sein de la communauté SIPh. L’historique des versions et des travaux est détaillé dans la page de [suivi des travaux](suivitravaux.md).
+**👤 Professionnels de santé et chefs de projet métier**
+* Consultez la section [Introduction professionnels de santé](#introduction-destinée-aux-professionnels-de-santé) ci-dessous
+* Explorez les [cas d'usage](prescription-CasUsage.md) pour comprendre les scénarios couverts
+* Parcourez les [exemples concrets](prescription-Exemples.md) basés sur les travaux de la HAS
 
-Cet IG est en développement continu. Certaines sections n’ont pas encore été complètement développées dans cette version. Ces sections sont néanmoins identifiées pour référence.
+**⚙️ Développeurs et intégrateurs**
+* Consultez la section [Introduction développeurs](#introduction-destinée-aux-développeurs) ci-dessous
+* Accédez à la [vue d'ensemble technique](prescription-VueEnsemble.md) pour la modélisation FHIR
+* Consultez les [spécifications de transformation PN-13](transformation-PN13-vers-FHIR.md)
 
-L’IG intègre également une partie indiquant [comment passer de flux PN13 à des ressources FHIR](transformation-PN13-vers-FHIR.md) et inversement.
+### Contexte et enjeux
+
+Le paysage français de la prescription électronique s’appuie historiquement sur plusieurs standards :
+
+* **PN-13** : standard de type “message” pour les flux intra-hospitaliers de prescription
+* **CDA ePrescription** : format documentaire pour la prescription de médicaments et dispositifs médicaux
+* Les spécifications européennes émergentes dans le cadre de l’Espace Européen des Données de Santé (EEDS)
+
+#### Objectifs de convergence
+
+Ce guide d’implémentation s’inscrit dans une démarche de convergence des travaux nationaux et européens visant à :
+
+* **Uniformiser l’interopérabilité** de la prescription en rassemblant les différentes approches (flux API REST et documents) au sein d’un IG unique
+* **Assurer la compatibilité** avec les standards internationaux (HL7 International, HL7 Europe, IHE, Xt-EHR)
+* **S’harmoniser** avec les travaux de [structuration de la posologie](https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments) de la Haute Autorité de Santé (HAS)
+* **Faciliter la transition** depuis les standards existants (PN-13, CDA) vers FHIR
+
+Cette convergence est le fruit d’une collaboration étroite entre l’ANS, Interop’Santé, les entreprises du numérique en santé et les professionnels de santé, avec un alignement sur les orientations européennes.
+
+### Introduction destinée aux professionnels de santé
+
+**👤 Vous êtes professionnel de santé ou chef de projet métier ?**
+
+Cette section vous présente les enjeux, les bénéfices et les acteurs concernés par la prescription électronique.
+
+La prescription électronique est un enjeu majeur pour la qualité et la sécurité des soins. Elle permet de :
+
+* **Réduire les erreurs médicamenteuses** liées à la lisibilité ou à l’interprétation des prescriptions
+* **Améliorer la continuité des soins** en facilitant le partage d’informations entre professionnels (médecins, pharmaciens, infirmiers)
+* **Optimiser la prise en charge** grâce à une meilleure traçabilité du parcours médicamenteux
+* **Faciliter la conciliation médicamenteuse** lors des transitions de soins (ville-hôpital, inter-établissements)
+* **Favoriser la recherche clinique et épidémiologique** en rendant disponibles des données structurées de prescription pour l’analyse et l’amélioration des pratiques
+
+#### À qui s’adresse ce guide ?
+
+Ce guide concerne l’ensemble des acteurs impliqués dans le circuit du médicament :
+
+* **Médecins prescripteurs** (médecine de ville, hospitaliers, spécialistes)
+* **Pharmaciens** (officine, hospitaliers)
+* **Infirmiers** et autres professionnels paramédicaux
+* **Établissements de santé** et leurs systèmes d’information
+* **Éditeurs de logiciels** développant des solutions de prescription et de dispensation
+
+#### Conformité et structuration de la posologie
+
+Le guide intègre les recommandations de la HAS pour la structuration de la posologie, ayant pour objectif :
+
+* Une **expression standardisée** de la posologie (dose, fréquence, durée, …)
+* Une **interprétation uniforme** par les différents acteurs du circuit
+* Une **compatibilité** avec les outils d’aide à la prescription et à la dispensation
+
+Pour en savoir plus sur l’interopérabilité en général, une documentation spécifique aux professionnels de santé est accessible [ici](https://ansforge.github.io/IG-documentation/nr-add-ps-doc/ig/doc_ps.html) 
+
+### Introduction destinée aux développeurs
+
+**⚙️ Vous êtes développeur ou intégrateur ?**
+
+Cette section détaille la structure technique du guide, les profils FHIR et les transformations PN-13.
+
+Ce guide d’implémentation spécifie comment utiliser les ressources FHIR internationales (MedicationRequest, Medication, …) pour un usage national français.
+
+#### Structure du guide
+
+L’IG intègre plusieurs volets complémentaires :
+
+* **Profils FHIR génériques** : définition des profils autour de la ePrescription avec de nombreux exemples, utilisables dans différents contextes (API REST, documents, messages). Ces profils constituent une base nationale commune pour tous les acteurs travaillant sur la prescription électronique en FHIR.
+* **Transformation PN-13** : spécifications pour [passer des flux PN-13 aux ressources FHIR](transformation-PN13-vers-FHIR.md) et inversement, garantissant l’interopérabilité avec les systèmes existants.
+* **Volet documentaire** : le guide intégrera ultérieurement une partie document (Bundle de type Document) pour rassembler les lignes de prescription sous forme d’ordonnance complète.
 
 ### Auteurs
 
-Ce guide d’implémentation est issu du [GT médicament](https://groups.google.com/g/pn13-is---interopsante) organisé par Interopsanté et dirigé par Manuel Metz. L’ANS a participé à ce GT.
+Ce domaine est pris en charge par le [GT pharmacie](https://groups.google.com/g/pn13-is---interopsante) d’HL7 France au sein de l’association [Interop’Santé](https://www.interopsante.org) après une première version développée au sein de la communauté SIPh. L’historique des versions et des travaux est détaillé dans la page de [suivi des travaux](suivitravaux.md).
 
 #### Dépendances
 
@@ -58,10 +131,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
 
-* [DoseAndRateType](http://terminology.hl7.org/7.0.0/CodeSystem-dose-rate-type.html): [Bundle/Presc-CODOLIPRANE-MedCodeableConcept](Bundle-Presc-CODOLIPRANE-MedCodeableConcept.md), [Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md)...Show 5 more,[Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md),[Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md),[Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md),[Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md)and[Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md)
-* [MedicationKnowledge Characteristic Codes](http://terminology.hl7.org/7.0.0/CodeSystem-medicationknowledge-characteristic.html): [FrDrugCharacteristic](StructureDefinition-fr-drug-characteristic.md)
-* [Observation Category Codes](http://terminology.hl7.org/7.0.0/CodeSystem-observation-category.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
-* [identifierType](http://terminology.hl7.org/7.0.0/CodeSystem-v2-0203.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
+* [DoseAndRateType](http://terminology.hl7.org/7.0.1/CodeSystem-dose-rate-type.html): [Bundle/Presc-CODOLIPRANE-MedCodeableConcept](Bundle-Presc-CODOLIPRANE-MedCodeableConcept.md), [Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md)...Show 5 more,[Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md),[Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md),[Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md),[Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md)and[Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md)
+* [MedicationKnowledge Characteristic Codes](http://terminology.hl7.org/7.0.1/CodeSystem-medicationknowledge-characteristic.html): [FrDrugCharacteristic](StructureDefinition-fr-drug-characteristic.md)
+* [Observation Category Codes](http://terminology.hl7.org/7.0.1/CodeSystem-observation-category.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
+* [identifierType](http://terminology.hl7.org/7.0.1/CodeSystem-v2-0203.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
 
 
 * Unless otherwise indicated, reproduction of material posted on Council of Europe websites, and reproduction of photographs for which the Council of Europe holds copyright – see legal notice \“photo credits\” – is authorised for private use and for informational and educational uses relating to the Council of Europe’s work. This authorisation is subject to the condition that the source be indicated and no charge made for reproduction. Persons wishing to make some other use than those specified above, including commercial use, of information and text posted on these sites are asked to apply for prior written authorisation to the Council of Europe, Directorate of Communication.
@@ -82,7 +155,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -133,7 +206,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       ],
       "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
       "packageId" : "hl7.terminology.r4",
-      "version" : "7.0.0"
+      "version" : "7.0.1"
     },
     {
       "id" : "hl7ext",
@@ -528,7 +601,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       },
       {
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-        "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
+        "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
       },
       {
         "extension" : [
@@ -1145,7 +1218,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-inpatient-medicationrequest"
         },
         "name" : "FR Inpatient MedicationRequest",
-        "description" : "French inpatient medication request profile",
+        "description" : "French inpatient medication request profile\r\n \nProfil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier.",
         "exampleBoolean" : false
       },
       {
@@ -1159,7 +1232,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-medication"
         },
         "name" : "FR Medication",
-        "description" : "profil de la ressource Medication décrivant le médicament dans une ressource MedicationRequest ou MedicationStatement profilée par InterOp'Santé",
+        "description" : "French medication profile\r\n \nProfil de la ressource Medication décrivant le médicament. Ce profil peut être référencé dans une ressource MedicationRequest ou MedicationStatement profilée par Interop'Santé afin de décrire le médicament prescrit ou le médicament déclaré dans un bilan médicamenteux ou une conciliation médicamenteuse.",
         "exampleBoolean" : false
       },
       {
@@ -1173,7 +1246,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-medication-compound"
         },
         "name" : "FR Medication Compound",
-        "description" : "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.",
+        "description" : "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.\r\n\nProfil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d'éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound.",
         "exampleBoolean" : false
       },
       {
@@ -1187,7 +1260,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-medication-noncompound"
         },
         "name" : "FR Medication Non Compound",
-        "description" : "Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined.",
+        "description" : "Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement).\r\n\nProfil de la ressource Medication décrivant un médicament simple (vs médicament composé) dans la ligne de prescription, la dispensation ou l'administration représentée par une MedicationRequest, une MedicationDispense ou une MedicationStatement. Si le médicament est composé de plusieurs substances, la concentration de chaque substance doit être définie (ingredient.strength).",
         "exampleBoolean" : false
       },
       {
@@ -1201,7 +1274,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-medicationrequest"
         },
         "name" : "FR Medication Request",
-        "description" : "French medication request profile",
+        "description" : "French medication request profile\r\n \nProfil français de modélisation de la ligne de prescription médicamenteuse.",
         "exampleBoolean" : false
       },
       {
@@ -1215,7 +1288,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-mp-substance"
         },
         "name" : "FR Medicinal Product Substance",
-        "description" : "code for the medicinal product substance",
+        "description" : "A FHIR CodeableConcept profile representing a coded medicinal product substance \r\n\nProfil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l'ANS).",
         "exampleBoolean" : false
       },
       {
@@ -1229,7 +1302,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-observation-for-prescription"
         },
         "name" : "FR Observation For Prescription",
-        "description" : "Observation provided as context of the prescription (ex. weight, height...)",
+        "description" : "French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height...)\r\n\nProfil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille...).",
         "exampleBoolean" : false
       },
       {
@@ -1257,7 +1330,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/fr-requestgroup-for-prescription"
         },
         "name" : "FR RequestGroup For Prescription",
-        "description" : "RequestGroup for expressing links between lines of a prescription",
+        "description" : "RequestGroup for expressing links between lines of a prescription\r\n\nProfil de la ressource RequestGroup pour exprimer les liens entre les lignes d'une prescription.",
         "exampleBoolean" : false
       },
       {
@@ -2573,7 +2646,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/FrRangeMedication"
         },
         "name" : "Range with UCUM or EDQM codes if code is used",
-        "description" : "Range with low and high unit UCUM or EDQM codes if code is used",
+        "description" : "Range with low and high unit UCUM or EDQM codes if code is used\r\n\nPlage avec des unités UCUM ou EDQM si un code est utilisé.",
         "exampleBoolean" : false
       },
       {
@@ -2587,7 +2660,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/FrRatioMedication"
         },
         "name" : "Ratio with UCUM or EDQM codes if code is used",
-        "description" : "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used",
+        "description" : "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used\r\n\nRatio avec des unités UCUM ou EDQM si un code est utilisé.",
         "exampleBoolean" : false
       },
       {
@@ -2615,7 +2688,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           "reference" : "StructureDefinition/FrSimpleQuantityMedication"
         },
         "name" : "SimpleQuantity with UCUM or EDQM codes or code not used",
-        "description" : "simple quantity datatype requiring a UCUM or EDQM code or no code (only unti)",
+        "description" : "Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit)\r\n\nSimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé.",
         "exampleBoolean" : false
       },
       {
@@ -2831,52 +2904,54 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
             }
           ],
           "nameUrl" : "prescription-Intro.html",
-          "title" : "La prescription - Introduction",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+          "title" : "La prescription",
+          "generation" : "markdown",
+          "page" : [
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription-VueEnsemble.html"
-            }
-          ],
-          "nameUrl" : "prescription-VueEnsemble.html",
-          "title" : "La prescription - Vue d'ensemble",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "prescription-VueEnsemble.html"
+                }
+              ],
+              "nameUrl" : "prescription-VueEnsemble.html",
+              "title" : "La prescription - Vue d'ensemble de la modélisation FHIR",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription-CasUsage.html"
-            }
-          ],
-          "nameUrl" : "prescription-CasUsage.html",
-          "title" : "La prescription - Cas d'usage",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "prescription-CasUsage.html"
+                }
+              ],
+              "nameUrl" : "prescription-CasUsage.html",
+              "title" : "La prescription - Cas d'usage",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription-Exemples.html"
-            }
-          ],
-          "nameUrl" : "prescription-Exemples.html",
-          "title" : "La prescription - Exemples",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "prescription-Exemples.html"
+                }
+              ],
+              "nameUrl" : "prescription-Exemples.html",
+              "title" : "La prescription - Exemples",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "prescription-Document.html"
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "prescription-Document.html"
+                }
+              ],
+              "nameUrl" : "prescription-Document.html",
+              "title" : "La prescription au format document",
+              "generation" : "markdown"
             }
-          ],
-          "nameUrl" : "prescription-Document.html",
-          "title" : "La prescription au format document",
-          "generation" : "markdown"
+          ]
         },
         {
           "extension" : [
@@ -2887,84 +2962,75 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           ],
           "nameUrl" : "transformationPN13-FHIR-Intro.html",
           "title" : "Transformation de PN13 en FHIR",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+          "generation" : "markdown",
+          "page" : [
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "transformation-PN13-vers-FHIR.html"
-            }
-          ],
-          "nameUrl" : "transformation-PN13-vers-FHIR.html",
-          "title" : "Transformation de PN13 vers FHIR",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "transformation-PN13-vers-FHIR.html"
+                }
+              ],
+              "nameUrl" : "transformation-PN13-vers-FHIR.html",
+              "title" : "Transformation de PN13 vers FHIR",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "transformation-FHIR-vers-PN13.html"
-            }
-          ],
-          "nameUrl" : "transformation-FHIR-vers-PN13.html",
-          "title" : "Transformation de FHIR vers PN13",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "transformation-FHIR-vers-PN13.html"
+                }
+              ],
+              "nameUrl" : "transformation-FHIR-vers-PN13.html",
+              "title" : "Transformation de FHIR vers PN13",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "PN13-exemples-intro.html"
-            }
-          ],
-          "nameUrl" : "PN13-exemples-intro.html",
-          "title" : "Exemples PN13 - Introduction",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "PN13-prescription-DC.html"
+                }
+              ],
+              "nameUrl" : "PN13-prescription-DC.html",
+              "title" : "Exemple de prescription PN13 médicament simple en DC",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "PN13-prescription-DC.html"
-            }
-          ],
-          "nameUrl" : "PN13-prescription-DC.html",
-          "title" : "Prescription PN13 médicament simple en DC",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "PN13-prescription-specialite.html"
+                }
+              ],
+              "nameUrl" : "PN13-prescription-specialite.html",
+              "title" : "Exemple de prescription PN13 médicament simple en spécialité",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "PN13-prescription-specialite.html"
-            }
-          ],
-          "nameUrl" : "PN13-prescription-specialite.html",
-          "title" : "Prescription PN13 médicament simple en spécialité",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "PN13-prescription-compound.html"
+                }
+              ],
+              "nameUrl" : "PN13-prescription-compound.html",
+              "title" : "Exemple de prescription PN13 médicament composite",
+              "generation" : "markdown"
+            },
             {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "PN13-prescription-compound.html"
+              "extension" : [
+                {
+                  "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+                  "valueUrl" : "PN13-prescription-MV.html"
+                }
+              ],
+              "nameUrl" : "PN13-prescription-MV.html",
+              "title" : "Exemple de prescription PN13 médicament virtuel",
+              "generation" : "markdown"
             }
-          ],
-          "nameUrl" : "PN13-prescription-compound.html",
-          "title" : "Prescription PN13 médicament composite",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [
-            {
-              "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-              "valueUrl" : "PN13-prescription-MV.html"
-            }
-          ],
-          "nameUrl" : "PN13-prescription-MV.html",
-          "title" : "Prescription PN13 médicament virtuel",
-          "generation" : "markdown"
+          ]
         },
         {
           "extension" : [

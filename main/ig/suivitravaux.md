@@ -17,7 +17,7 @@ Les prochains travaux prévus sur l’IG portent sur la mapping des données PN1
 
 ##### La prescription v1.1
 
-Les travaux du GT PN13 - FHIR sur la prescription se sont déroulés de janvier 2024 à septembre 2025 La concertation publique a lieu du XXX au XXX Ils ont portés sur: Le mapping des données PN13 - FHIR L’intégration des extensions FrIsVehicle et FrBasisOfDoseComponent dans les profils Prise en compte du [Référentiel Unique d’Interopérabilité du Médicament](https://smt.esante.gouv.fr/explorer-les-concepts/terminologie-ref_interop_med) Le prise en compte des travaux de la HAS sur la structuration de la posologie
+Les travaux du GT PN13 - FHIR sur la prescription se sont déroulés de janvier 2024 à septembre 2025 La concertation publique a lieu du XXX au XXX Ils ont porté sur : Le mapping des données PN13 - FHIR L’intégration des extensions FrIsVehicle et FrBasisOfDoseComponent dans les profils Prise en compte du [Référentiel Unique d’Interopérabilité du Médicament](https://smt.esante.gouv.fr/explorer-les-concepts/terminologie-ref_interop_med) La prise en compte des travaux de la HAS sur la structuration de la posologie
 
 #### Version 1.0 - Version Initiale publiée en janvier 2022
 
@@ -27,7 +27,7 @@ Les travaux ont été initiés au sein de la communauté SIPh le 13 septembre 20
 
 ##### La prescription v1.0
 
-Les travaux ont été initiés également au sein de la communauté SIPh en 2019. Mais ils n’ont pas abouti à un premier niveau de ressources FHIR livrables. En 2021 le groupe Pharmacie d’InterOp’Santé a repris le projet pour aboutir à un profilage de la ressource MedicationRequest et de la ressource Medication adpaté à la prescription en DC et en spécialité identifiée par le code UCD. Cette première version, en date du 31 janvier 2022, voit ses ressources publiées au statut draft, en attente de retours des premières implémentations. Toute remarque, commentaire ou suggestion est bienvenu sur la [mailing list PN13-FHIR](https://groups.google.com/g/pn13-is---interopsante) animée par InterOp’Santé.
+Les travaux ont été initiés également au sein de la communauté SIPh en 2019. Mais ils n’ont pas abouti à un premier niveau de ressources FHIR livrables. En 2021 le groupe Pharmacie d’InterOp’Santé a repris le projet pour aboutir à un profilage de la ressource MedicationRequest et de la ressource Medication adapté à la prescription en DC et en spécialité identifiée par le code UCD. Cette première version, en date du 31 janvier 2022, voit ses ressources publiées au statut draft, en attente de retours des premières implémentations. Toute remarque, commentaire ou suggestion est bienvenu sur la [mailing list PN13-FHIR](https://groups.google.com/g/pn13-is---interopsante) animée par InterOp’Santé.
 
 ###### Déroulé des travaux
 
@@ -39,10 +39,10 @@ Les travaux ont été initiés également au sein de la communauté SIPh en 2019
 * L’usage de profils multiples de la ressource Medication plutôt qu’un seul profil avec des slice par type de médicament (spécialité, DC, coumpound)
  
 * Conséquences 
-* Le binding à SNOMED CT est relaché : ‘extensible’
+* Le binding à SNOMED CT est relâché : ‘extensible’
 * Une étude est réalisée pour remplacer les 3 profils de la ressource Medication par un seul profil slicé
  
-* Le 31 janvier 2022, la version draft finalel est publiée. 
+* Le 31 janvier 2022, la version draft finale est publiée. 
 * L’étude d’un seul profil slicé de la ressource Medication n’a pas abouti à une solution valide (voir la page [Etude complémentaire](prescription-EtudeComplementaire.md)).
  
  
@@ -54,6 +54,8 @@ La communauté SIPh met à disposition les travaux préliminaires qu’elle entr
 #### Liste des contributeurs
 
 ##### Version 1.1
+
+Chair : Manuel Metz
 
 * Lifen 
 * Manuel Metz

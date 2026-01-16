@@ -6,63 +6,6 @@
 
 ## Example Bundle: HAS-30-1-Presc-Hydrocortisone
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-30-1-Presc-Hydrocortisone de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-1 comprimé matin et 1 comprimé midi En cas de fièvre, de forte chaleur, d'infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre > 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h. Avec un maximum de 6 comprimés par jour.
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: HYDROCORTISONE 10 mg : 1 comprimé matin et 1 comprimé midi En cas de fièvre, de forte chaleur, d'infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre > 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h. Avec un maximum de 6 comprimés par jour. QSP 6 mois.
-
-
-> **dosageInstruction****timing**: Matin, Midi, Une fois
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-**maxDosePerPeriod**: 6 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet')/1 jour(Détails : code UCUMd = 'd')
-
-> **dosageInstruction****additionalInstruction**:En cas de fièvre, de forte chaleur, d'infection, de diarrhée, de stress important**timing**: Matin, Midi, Une fois
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 2 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-**maxDosePerPeriod**: 6 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet')/1 jour(Détails : code UCUMd = 'd')
-
-> **dosageInstruction****additionalInstruction**:En cas de fièvre > 40°C**timing**: Matin, Midi, Une fois
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 2 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-**maxDosePerPeriod**: 6 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet')/1 jour(Détails : code UCUMd = 'd')
-
 
 
 ## Resource Content

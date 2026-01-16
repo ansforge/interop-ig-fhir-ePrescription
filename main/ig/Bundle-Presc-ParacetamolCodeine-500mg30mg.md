@@ -6,47 +6,6 @@
 
 ## Example Bundle: Presc-ParacetamolCodeine-500mg30mg
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-ParacetamolCodeine-500mg30mg de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Compound](StructureDefinition-fr-medication-compound.md)
-
-**code**:PARACETAMOL+CODEINE 500mg+30mg
-> **ingredient**
-
-> **ingredient**
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14658**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-07-19 16:22:39+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-
-
 
 
 ## Resource Content

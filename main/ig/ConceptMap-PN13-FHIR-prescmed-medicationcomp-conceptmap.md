@@ -9,47 +9,10 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-medicationcomp-conceptmap | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap |
+| Draft as of 2026-01-16 | *Computable Name*:FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR d’un médicament composé d’une prescritpion de médicament 
-
-Mapping de https://interopsante.org/pn13/xsd vers [FR Medication Compound](StructureDefinition-fr-medication-compound.md)
-
-**Groupe 1**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Codes**de: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Forme
-  * **Forme@Phastnomenclature**: 
-  * : SIPh-CIO_Forme
-  * **Codes**de: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Medication.form.coding.system**: Medication.form.coding.code
-  * : 
-  * ?: 
-  * ?: le code cible est à trouver dans le mapping Free Set CIO-DC FORME
-* **Codes**de: 
-  * **Forme@Phastnomenclature**: 
-  * : {Absent}
-  * **Codes**de: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Medication.form.coding.system**: Medication.form.coding.code
-  * : 
-  * ?: 
-  * ?: le code cible est à trouver dans le mapping Free Set CIO-DC FORME
-* **Codes**de: 
-  * **Forme@Phastnomenclature**: 
-  * : EDQM
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Medication.form.coding.system**: Medication.form.coding.code
-  * : 
-  * ?: http://standardterms.edqm.eu
-  * ?: 
-* **Codes**de: 
-  * **Forme@Phastnomenclature**: 
-  * : SIPh-Forme
-  * **Codes**de: [is related to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto)
-  * **Medication.form.coding.system**: Medication.form.coding.code
-  * : 
-  * ?: 
-  * ?: Certains codes cibles peuvent être trouvés dans le mapping Free Set CIO-DC FORME. Dans le cas contraire, si la traduction en EDQM n'est pas possible, Medication.form.text peut être utilisé mais pourrait poser des problèmes d'interprétation
 
 
 
@@ -64,7 +27,7 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Medication Compound](Struc
   "name" : "FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap",
   "title" : "Conversion PN13 vers FHIR pour un médicament composé d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

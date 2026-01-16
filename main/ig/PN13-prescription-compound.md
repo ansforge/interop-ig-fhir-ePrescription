@@ -1,15 +1,16 @@
-# Prescription PN13 médicament composite - Guide d'implémentation de la ePrescription v0.1.0
+# Exemple de prescription PN13 médicament composite - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
-* **Prescription PN13 médicament composite**
+* [**Transformation de PN13 en FHIR**](transformationPN13-FHIR-Intro.md)
+* **Exemple de prescription PN13 médicament composite**
 
-## Prescription PN13 médicament composite
+## Exemple de prescription PN13 médicament composite
 
-### Exemples PN13 de prescritpion de médicaments composés
+### Exemples PN13 de prescription de médicaments composés
 
 #### Perfusion 6 composants sur 12h par jour
 
-Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Presc-perfusion-6-composants](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-perfusion-6-composants.html)
+Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Presc-perfusion-6-composants](./Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

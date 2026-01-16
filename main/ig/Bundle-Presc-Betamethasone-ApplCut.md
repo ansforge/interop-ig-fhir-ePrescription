@@ -6,44 +6,6 @@
 
 ## Example Bundle: Presc-Betamethasone-ApplCut
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-Betamethasone-ApplCut de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:BETAMETHASONE
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14620**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-07-13 08:48:39+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie cutanée
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Appln |
-
-
-
 
 
 ## Resource Content

@@ -9,14 +9,15 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FRObservationForPrescription |
+| Draft as of 2026-01-16 | *Computable Name*:FRObservationForPrescription |
 
  
-Observation provided as context of the prescription (ex. weight, height…) 
+French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height…) 
+Profil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille…). 
 
-**Usages:**
+**Utilisations:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Ce Profil nest utilisé par aucun profil dans ce guide dimplémentation
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-observation-for-prescription)
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-observation-for-p
   "name" : "FRObservationForPrescription",
   "title" : "FR Observation For Prescription",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-observation-for-p
       ]
     }
   ],
-  "description" : "Observation provided as context of the prescription (ex. weight, height...)",
+  "description" : "French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height...)\r\n\nProfil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille...).",
   "jurisdiction" : [
     {
       "coding" : [

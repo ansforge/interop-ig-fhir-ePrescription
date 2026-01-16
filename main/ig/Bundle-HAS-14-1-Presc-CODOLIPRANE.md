@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-14-1-Presc-CODOLIPRANE
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-14-1-Presc-CODOLIPRANE de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-1 comprimé si douleur, avec un maximum de 2 cp/prise, avec un maximum de 8 cp/jour, en respectant 4 heures minimales entre 2 prises
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: CODOLIPRANE®: 1 comprimé si douleur, avec un maximum de 2 cp/prise, avec un maximum de 8 cp/jour, en respectant 4 heures minimales entre 2 prises
-
-
-> **dosageInstruction****timing**: Une fois par 4 hours
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1-? comprimé |
-
-**maxDosePerPeriod**: 8 comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet')/24 h(Détails : code UCUMh = 'h')**maxDosePerAdministration**: 2 comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet')
-
 
 
 ## Resource Content

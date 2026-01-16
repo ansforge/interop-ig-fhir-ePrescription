@@ -9,14 +9,15 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrRangeMedication |
+| Draft as of 2026-01-16 | *Computable Name*:FrRangeMedication |
 
  
 Range with low and high unit UCUM or EDQM codes if code is used 
+Plage avec des unités UCUM ou EDQM si un code est utilisé. 
 
-**Usages:**
+**Utilisations:**
 
-* Use this DataType Profile: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+* Utiliser ce Profil de type de données: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/FrRangeMedication)
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
   "name" : "FrRangeMedication",
   "title" : "Range with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
       ]
     }
   ],
-  "description" : "Range with low and high unit UCUM or EDQM codes if code is used",
+  "description" : "Range with low and high unit UCUM or EDQM codes if code is used\r\n\nPlage avec des unités UCUM ou EDQM si un code est utilisé.",
   "jurisdiction" : [
     {
       "coding" : [

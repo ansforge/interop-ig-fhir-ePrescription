@@ -6,32 +6,6 @@
 
 ## Example Bundle: Presc-CLARADOL-TLMardisVendredis
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-CLARADOL-TLMardisVendredis de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14645**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-08-13 09:28:14+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-
-
 
 
 ## Resource Content

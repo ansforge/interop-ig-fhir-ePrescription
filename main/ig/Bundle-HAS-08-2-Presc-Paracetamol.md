@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-08-2-Presc-Paracetamol
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-08-2-Presc-Paracetamol de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-1 dose correspondant à la graduation de 7 kg, toutes les 6 heures - Si température supérieure ou égale à 38,5°C
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: PARACETAMOL 24 mg/mL (DOLIPRANE 2.4%), susp buv, flac 100 mL : 1 dose correspondant à la graduation de 7 kg, toutes les 6 heures - Si température supérieure ou égale à 38,5°C
-
-
-> **dosageInstruction****additionalInstruction**:Si température supérieure ou égale à 38,5°C**timing**: Une fois par 6 hours
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 dose correspondant à la graduation de 7 kg |
-
-
-
 
 
 ## Resource Content

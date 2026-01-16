@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>La prescription - Introduction - Guide d'implémentation de la ePrescription v0.1.0</title>
+    <title>La prescription - Guide d'implémentation de la ePrescription v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,7 +43,7 @@
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"2"}
-    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -139,27 +139,17 @@
       <li>
         <a href="transformation-FHIR-vers-PN13.html">Transformation FHIR vers PN13</a>
       </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Fichiers PN13 exemples
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
       <li>
-        <a href="PN13-exemples-intro.html">Inroduction</a>
+        <a href="PN13-prescription-DC.html">Exemple de Prescription PN13 médicament simple en DC</a>
       </li>
       <li>
-        <a href="PN13-prescription-DC.html">Prescription PN13 médicament simple en DC</a>
+        <a href="PN13-prescription-specialite.html">Exemple de Prescription PN13 médicament simple en spécialité</a>
       </li>
       <li>
-        <a href="PN13-prescription-specialite.html">Prescription PN13 médicament simple en spécialité</a>
+        <a href="PN13-prescription-compound.html">Exemple de Prescription PN13 médicament composite</a>
       </li>
       <li>
-        <a href="PN13-prescription-compound.html">Prescription PN13 médicament composite</a>
-      </li>
-      <li>
-        <a href="PN13-prescription-MV.html">Prescritpion PN13 médicament virtuel</a>
+        <a href="PN13-prescription-MV.html">Exemple de Prescription PN13 médicament virtuel</a>
       </li>
     </ul>
   </li>
@@ -200,7 +190,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>La prescription - Introduction</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>La prescription</b></li>
 
           <span style="float:right;">
 
@@ -230,8 +220,8 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>La prescription - Introduction</h2>
+  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <h2>La prescription</h2>
   
 
 
@@ -246,20 +236,111 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#périmètre-couvert" id="markdown-toc-périmètre-couvert">Périmètre couvert</a></li>
+  <li><a href="#origine-et-alignements" id="markdown-toc-origine-et-alignements">Origine et alignements</a></li>
+  <li><a href="#guide-de-lecture" id="markdown-toc-guide-de-lecture">Guide de lecture</a></li>
+  <li><a href="#exemple-dinformations-portées-par-une-prescription" id="markdown-toc-exemple-dinformations-portées-par-une-prescription">Exemple d’informations portées par une prescription</a></li>
+  <li><a href="#exemple-dinformations-portées-par-une-posologie" id="markdown-toc-exemple-dinformations-portées-par-une-posologie">Exemple d’informations portées par une posologie</a></li>
+  <li><a href="#modélisation-métier-de-la-ligne-de-prescription-et-de-la-posologie" id="markdown-toc-modélisation-métier-de-la-ligne-de-prescription-et-de-la-posologie">Modélisation métier de la ligne de prescription et de la posologie</a></li>
+  <li><a href="#sommaire-de-la-partie-prescription" id="markdown-toc-sommaire-de-la-partie-prescription">Sommaire de la partie prescription</a></li>
+</ul>
+
 </div>
-<h3 id="prescription">Prescription</h3>
+<div style="background-color: #fff9e6; border-left: 4px solid #ff9800; padding: 15px; margin: 20px 0;">
+<strong>📘 Introduction générale</strong> – Cette page présente les concepts de base et oriente vers les sections métier ou techniques selon votre profil.
+</div>
 
-<p>Le domaine couvert inclut les prescriptions hospitalières, les  prescriptions de médecine de ville ainsi que les prescriptions hospitalières exécutables en ville (PHEV).
-Les spécifications sont issues des travaux du groupe de travail Interop’Santé. Ils s’appuient sur la version précédente du Guide d’Integration, des travaux de la HAS sur la structuration de la posologie pour les prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) et s’inspirent des profils européens pour la <a href="http://hl7.eu/fhir/mpd">prescription</a> (profils en concertation lorsque ces travaux ont été menés).</p>
+<p>Une <strong>prescription médicamenteuse</strong> est un ensemble d’un ou plusieurs traitements prescrits, chacun associé à sa posologie. Ce guide spécifie comment représenter ces prescriptions sous forme numérique interopérable en utilisant le standard FHIR.</p>
 
-<h4 id="détail">Détail</h4>
+<h3 id="périmètre-couvert">Périmètre couvert</h3>
+
+<p>Cette spécification couvre l’ensemble des prescriptions médicamenteuses dans l’écosystème français :</p>
+<ul>
+  <li><strong>Prescriptions hospitalières</strong> : pour usage intra-hospitalier</li>
+  <li><strong>Prescriptions de médecine de ville</strong> : pour délivrance en pharmacie d’officine</li>
+  <li><strong>Prescriptions hospitalières exécutables en ville (PHEV)</strong> : prescriptions réalisées à l’hôpital mais exécutées en ville</li>
+</ul>
+
+<h3 id="origine-et-alignements">Origine et alignements</h3>
+
+<p>Les spécifications sont issues des travaux du groupe de travail Interop’Santé et s’appuient sur :</p>
+<ul>
+  <li>La version précédente de ce guide d’implémentation</li>
+  <li>Les travaux de la HAS sur la <a href="https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments">structuration de la posologie</a> pour les prescriptions de médecine de ville</li>
+  <li>Les profils européens pour la <a href="http://hl7.eu/fhir/mpd">prescription</a> (MPD - Medication Prescription and Dispense)</li>
+</ul>
+
+<h3 id="guide-de-lecture">Guide de lecture</h3>
+
+<div style="background-color: #e8f4f8; border-left: 4px solid #0077be; padding: 15px; margin: 20px 0;">
+<strong>👤 Vous êtes professionnel de santé ou chef de projet métier ?</strong>
+<ul>
+<li>Consultez les <strong>modèles logiques métier</strong> ci-dessous pour comprendre les données d'une prescription</li>
+<li>Parcourez la page <a href="prescription-CasUsage.html">Cas d'usage</a> pour découvrir les scénarios couverts</li>
+<li>Explorez les <a href="prescription-Exemples.html">exemples concrets</a> basés sur les travaux de la HAS</li>
+</ul>
+</div>
+
+<div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
+<strong>⚙️ Vous êtes développeur ou intégrateur ?</strong>
+<ul>
+<li>Allez directement à la <a href="prescription-VueEnsemble.html">Vue d'ensemble technique</a> pour la modélisation FHIR</li>
+<li>Consultez les profils, ressources et règles de validation détaillés</li>
+<li>Utilisez les <a href="prescription-Exemples.html">instances FHIR</a> comme référence d'implémentation</li>
+</ul>
+</div>
+
+<h3 id="exemple-dinformations-portées-par-une-prescription">Exemple d’informations portées par une prescription</h3>
+
+<p>Exemple de modélisation d’une prescription</p>
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="ExemplePrescriptionAnnotee.jpg" alt="Exemple prescription Annotée" title="Exemple prescription Annotée" />
+</div>
+
+<p>Note : cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur…) est traitée dans le guide d’intégration FRCore</p>
+
+<h3 id="exemple-dinformations-portées-par-une-posologie">Exemple d’informations portées par une posologie</h3>
+
+<p>Exemple 1 de posologie annotée :</p>
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="PosologieAnnotee1.jpg" alt="Posologie Annotée 1" title="Posologie Annotée 1" />
+</div>
+
+<p>Exemple 2 de posologie annotée :</p>
+
+<div class="figure" style="width:100%;">
+    <img style="height: auto; width: 100%;" src="PosologieAnnotee2.jpg" alt="Posologie Annotée 2" title="Posologie Annotée 2" />
+</div>
+
+<h3 id="modélisation-métier-de-la-ligne-de-prescription-et-de-la-posologie">Modélisation métier de la ligne de prescription et de la posologie</h3>
+
+<p>Pour faciliter la compréhension par les professionnels de santé, des <strong>modèles métier</strong> ont été élaborés pour décrire de manière exhaustive les données qui constituent une ligne de prescription et une posologie.</p>
+
+<p>Ces modèles utilisent le formalisme des <strong>“modèles logiques”</strong> d’HL7, qui permettent de représenter les concepts métier de façon indépendante des contraintes techniques de FHIR. Contrairement aux profils FHIR techniques destinés aux développeurs, ces modèles logiques offrent une vision métier claire et accessible, facilitant le dialogue entre professionnels de santé, éditeurs de logiciels et experts FHIR.</p>
+
+<p><strong>Avantages pour les professionnels de santé :</strong></p>
+<ul>
+  <li>Vue d’ensemble complète des informations d’une prescription, sans jargon technique</li>
+  <li>Langage commun entre les prescripteurs et les équipes informatiques</li>
+  <li>Référentiel métier pour valider que tous les besoins sont bien couverts</li>
+</ul>
+
+<p><strong>Modèles disponibles :</strong></p>
+<ul>
+  <li><a href="StructureDefinition-fr-ligne-prescription.html">Modélisation d’une ligne de prescription</a></li>
+  <li><a href="StructureDefinition-fr-posologie.html">Modélisation d’une posologie</a></li>
+</ul>
+
+<h3 id="sommaire-de-la-partie-prescription">Sommaire de la partie prescription</h3>
 
 <ul>
-  <li><a href="prescription-VueEnsemble.html">Vue d’ensemble</a></li>
-  <li><a href="prescription-CasUsage.html">Cas d’usage</a></li>
-  <li><a href="prescription-Exemples.html">Exemples</a></li>
+  <li><a href="prescription-VueEnsemble.html">Vue d’ensemble</a> : modélisation FHIR d’une prescription (ressources, profils, structuration du médicament prescrit et de la posologie)</li>
+  <li><a href="prescription-CasUsage.html">Cas d’usage</a> : scénarios de prescription couverts (médicaments simples/composés, spécialité/DC, posologies simples/complexes)</li>
+  <li><a href="prescription-Exemples.html">Exemples</a> : instances FHIR concrètes illustrant les différents cas d’usage, incluant les exemples de la HAS sur la structuration de la posologie</li>
 </ul>
 
 
@@ -303,7 +384,7 @@ Les spécifications sont issues des travaux du groupe de travail Interop’Sant�
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 25, 2025 08:22+0000">2025-11-25</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 16, 2026 18:04+0000">2026-01-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

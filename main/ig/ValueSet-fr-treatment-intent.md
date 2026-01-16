@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrTreatmentIntent |
+| Draft as of 2026-01-16 | *Computable Name*:FrTreatmentIntent |
 
  
 Le jeu de valeurs à utiliser pour coder l’élément**treatmentIntent**de la ressource**FRInpatientMedicationRequest**. 
@@ -18,19 +18,11 @@ Le jeu de valeurs à utiliser pour coder l’élément**treatmentIntent**de la r
 
 * [MedicationRequest overall treatment intent](StructureDefinition-fr-treatment-intent.md)
 
-### Logical Definition (CLD)
-
-Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include codes provenant de[`http://snomed.info/sct`](http://www.snomed.org/)version Not Stated (use latest from terminology server) où constraint = < 363675004 |Intents (nature of procedure values) (qualifier value)|
+### Définition logique (CLD)
 
  
 
 ### Expansion
-
-Expansion from smt.esante.gouv.fr based on SNOMED CT 11000315107 edition 21-Jun 2025
-
-Ce jeu de valeur (ValueSet) contient 16 concepts
 
 -------
 
@@ -62,7 +54,7 @@ Ce jeu de valeur (ValueSet) contient 16 concepts
   "title" : "French overall intention of the treatment",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

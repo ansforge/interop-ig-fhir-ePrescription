@@ -6,54 +6,6 @@
 
 ## Example Bundle: Presc-Paracetamol-DoseEvolutive
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-Paracetamol-DoseEvolutive de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:PARACETAMOL
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14642**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-08-12 14:29:15+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 g(Détails : code UCUMg = 'g') |
-
-
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 500 mg(Détails : code UCUMmg = 'mg') |
-
-
-
 
 
 ## Resource Content

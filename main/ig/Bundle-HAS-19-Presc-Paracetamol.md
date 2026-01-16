@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-19-Presc-Paracetamol
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-19-Presc-Paracetamol de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-1 comprimé, 3 prises par jour, espacés d’au moins 4 heures.
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: PARACETAMOL 1000 mg comprimé: 1 comprimé, 3 prises par jour, espacés d’au moins 4 heures.
-
-
-> **dosageInstruction****timing**: 3 par 1 day
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-**maxDosePerPeriod**: 1 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet')/4 heure(Détails : code UCUMh = 'h')
-
 
 
 ## Resource Content

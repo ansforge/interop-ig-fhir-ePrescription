@@ -1,15 +1,16 @@
-# Prescription PN13 médicament simple en DC - Guide d'implémentation de la ePrescription v0.1.0
+# Exemple de prescription PN13 médicament simple en DC - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
-* **Prescription PN13 médicament simple en DC**
+* [**Transformation de PN13 en FHIR**](transformationPN13-FHIR-Intro.md)
+* **Exemple de prescription PN13 médicament simple en DC**
 
-## Prescription PN13 médicament simple en DC
+## Exemple de prescription PN13 médicament simple en DC
 
-### Exemples PN13 de prescritpion en DC
+### Exemples PN13 de prescription en DC
 
 #### Paracétamol en cas de douleur
 
-Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Presc-Paracetamol-SiDouleur](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.html)
+Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Presc-Paracetamol-SiDouleur](./Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md)
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -118,7 +119,7 @@ Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Pre
 
 ```
 
-#### Morphine en PCA (Patient Controled Analgesiae)
+#### Morphine en PCA (Patient Controlled Analgesia)
 
 Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Presc-Morphine-PCA](https://interop-sante.github.io/hl7.fhir.fr.medication/RelationEtMedicamentsVirtuels/ig/Bundle-TradPN13FHIR-Presc-Morphine-PCA.html)
 

@@ -6,64 +6,6 @@
 
 ## Example Bundle: Presc-Methylpredinosolone-DosesEvolutives
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-Methylpredinosolone-DosesEvolutives de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:METHYLPREDNISOLONE
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14647**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-08-14 18:17:26+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 6 mg(Détails : code UCUMmg = 'mg') |
-
-
-> **dosageInstruction****sequence**: 2**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 4 mg(Détails : code UCUMmg = 'mg') |
-
-
-> **dosageInstruction****sequence**: 3**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 2 mg(Détails : code UCUMmg = 'mg') |
-
-
-
 
 
 ## Resource Content

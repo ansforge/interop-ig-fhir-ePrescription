@@ -6,63 +6,6 @@
 
 ## Example Bundle: TradPN13FHIR-Presc-Morphine-PCA
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle TradPN13FHIR-Presc-Morphine-PCA de type searchset
-
--------
-
-Entrée 1
-
-Ressource Patient :
-
-> 
-
-Profil: [FR Core Patient INS Profile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient-ins.html)
-
-ARASGAIN Female, Date de Naissance :1989-01-02 ( Identifiant interne: 6032486 (use: usual, ))
--------
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**identifier**: https://somehospital.fr/Medication-ID**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/10543745**status**: Active**intent**: Order**priority**: Routine**subject**:`#patient-Trad-Presc-Morphine-PCA`**encounter**: Identifier:`https://somehospital.fr/Sejour`/765093464568**supportingInformation**:
-* Identifier: `https://somehospital.fr/UF`/603
-* Identifier: `https://somehospital.fr/UF`/506
-**authoredOn**: 2025-05-07 15:35:00+0200**requester**: Identifier:`urn:oid:1.2.250.1.71.4.2.1`/899999999999**note**:
-> 
-
-Prescription textuelle: Par voie intraveineuse : PCA Morphine 120 mg/24h Bolus 10 mg Période refractaire 2h -- À partir du 07/05/2025 à 17:30 jusqu'au 11/05/2025 à 17h30
-
-
-> **dosageInstruction****timing**: Une fois**route**:Voie intraveineuse
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Rate[x]** |
-| * | 5 mg(Détails : code UCUMmg = 'mg')/1 h(Détails : code UCUMh = 'h') |
-
-
-> **dosageInstruction****timing**: Une fois par 2 hours**route**:Voie intraveineuse
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 10 mg(Détails : code UCUMmg = 'mg') |
-
-
-
 
 
 ## Resource Content

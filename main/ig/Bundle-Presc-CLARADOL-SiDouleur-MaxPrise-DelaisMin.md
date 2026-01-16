@@ -6,32 +6,6 @@
 
 ## Example Bundle: Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14639**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-08-11 18:21:20+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**additionalInstruction**:Délais minimum entre 2 prises : 4h**timing**: Une fois par 4 hours**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-**maxDosePerPeriod**: 6 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet')/24 h(Détails : code UCUMh = 'h')**maxDosePerAdministration**: 2 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet')
-
 
 
 ## Resource Content

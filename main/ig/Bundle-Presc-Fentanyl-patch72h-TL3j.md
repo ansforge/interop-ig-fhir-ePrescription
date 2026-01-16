@@ -6,45 +6,6 @@
 
 ## Example Bundle: Presc-Fentanyl-patch72h-TL3j
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-Fentanyl-patch72h-TL3j de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:FENTANYL
-> **ingredient**
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14622**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-07-20 19:05:30+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****timing**: Une fois par 3 days**route**:Voie transdermique
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Patch(Détails : code EDQM Standard Terms15036000 = 'Patch') |
-
-
-
 
 
 ## Resource Content

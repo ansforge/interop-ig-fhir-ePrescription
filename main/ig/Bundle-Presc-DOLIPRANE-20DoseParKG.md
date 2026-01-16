@@ -6,52 +6,6 @@
 
 ## Example Bundle: Presc-DOLIPRANE-20DoseParKG
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-DOLIPRANE-20DoseParKG de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:DOLIPRANE® 2.4% ss sucre, susp buv
-
-### Ingredients
-
-| | |
-| :--- | :--- |
-| - | **IsActive** |
-| * | true |
-
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14626**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-07-28 15:20:31+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | | |
-| :--- | :--- | :--- |
-| - | **Type** | **Dose[x]** |
-| * | Ordered | 20 dose_kg |
-
-
-
 
 
 ## Resource Content

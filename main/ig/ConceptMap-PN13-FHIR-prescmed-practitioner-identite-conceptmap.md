@@ -9,82 +9,10 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-practitioner-identite-conceptmap | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap |
+| Draft as of 2026-01-16 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR du professionnel prescripteur d’une prescritpion de médicament avec d’autres éléments qu’uniquement l’identifiant 
-
-Mapping de https://interopsante.org/pn13/xsd vers [FR Core Practitioner Profile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-practitioner.html)
-
-**Groupe 1**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Code source**: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Identifiant
-  * **relation**: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Code cible**: Practitioner.identifier.value
-  * **Commentaire**: 
-* **Code source**: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Domaine_identification
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: Practitioner.identifier.system
-  * **Commentaire**: Le domaine d'identification PN13 doit être exprimé sous le format uri pour alimenter patient.identifer.system. Par exemple, les domaines d'identification sous forme d'OID doivent être préfixés par urn:oid:
-
--------
-
-**Groupe 2**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Codes**de: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Nom_usage
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Practitioner.name.use**: Practitioner.name.family
-  * : 
-  * ?: usual
-  * ?: 
-* **Codes**de: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Prénom_usage
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Practitioner.name.use**: Practitioner.name.given
-  * : 
-  * ?: 
-  * ?: 
-* **Codes**de: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Civilité
-  * : 
-  * **Codes**de: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Practitioner.name.use**: Practitioner.name.prefix
-  * : 
-  * ?: 
-  * ?: Les civilités sont libres dans PN13 alors qu'elles proviennent d'un jeu de valeurs extensible dans le profil FrCorePractitioner
-* **Codes**de: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Titre
-  * : 
-  * **Codes**de: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Practitioner.name.use**: Practitioner.name.suffix
-  * : 
-  * ?: 
-  * ?: Les titres sont libres dans PN13 alors qu'ils proviennent d'un jeu de valeurs extensible dans le profil FrCorePractitioner
-
--------
-
-**Groupe 3**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Codes**de: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Nom_famille
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Practitioner.name.use**: Practitioner.name.family
-  * : 
-  * ?: official
-  * ?: 
-* **Codes**de: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Prénoms
-  * : 
-  * **Codes**de: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Practitioner.name.use**: Practitioner.name.given
-  * : 
-  * ?: 
-  * ?: L'élément PN13 contient une liste de prénoms difficile à parser pour en extraire les différents prénoms à mettre dans une répétition de given en FHIR
-
--------
-
-**Groupe 4**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Code source**: Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Identification_prescripteur/Initiales
-  * **relation**: (not mapped)
 
 
 
@@ -99,7 +27,7 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Core Practitioner Profile]
   "name" : "FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le professionnel prescripteur d'une prescription de médicaments avec d'autres éléments qu'uniquement l'identifiant",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

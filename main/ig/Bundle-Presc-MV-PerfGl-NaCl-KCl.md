@@ -6,32 +6,6 @@
 
 ## Example Bundle: Presc-MV-PerfGl-NaCl-KCl
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-MV-PerfGl-NaCl-KCl de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14631**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-07-30 11:42:16+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****timing**: Une fois**route**:Voie intraveineuse
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Rate[x]** |
-| * | 500 ml(Détails : code UCUMmL = 'mL')/12 h(Détails : code UCUMh = 'h') |
-
-
-
 
 
 ## Resource Content

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Prescription PN13 médicament simple en spécialité - Guide d'implémentation de la ePrescription v0.1.0</title>
+    <title>Exemple de prescription PN13 médicament simple en spécialité - Guide d'implémentation de la ePrescription v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"12"}
-    h3,h4,h5,h6{--heading-prefix:"12"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.4"}
+    h3,h4,h5,h6{--heading-prefix:"3.4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -139,27 +139,17 @@
       <li>
         <a href="transformation-FHIR-vers-PN13.html">Transformation FHIR vers PN13</a>
       </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Fichiers PN13 exemples
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
       <li>
-        <a href="PN13-exemples-intro.html">Inroduction</a>
+        <a href="PN13-prescription-DC.html">Exemple de Prescription PN13 médicament simple en DC</a>
       </li>
       <li>
-        <a href="PN13-prescription-DC.html">Prescription PN13 médicament simple en DC</a>
+        <a href="PN13-prescription-specialite.html">Exemple de Prescription PN13 médicament simple en spécialité</a>
       </li>
       <li>
-        <a href="PN13-prescription-specialite.html">Prescription PN13 médicament simple en spécialité</a>
+        <a href="PN13-prescription-compound.html">Exemple de Prescription PN13 médicament composite</a>
       </li>
       <li>
-        <a href="PN13-prescription-compound.html">Prescription PN13 médicament composite</a>
-      </li>
-      <li>
-        <a href="PN13-prescription-MV.html">Prescritpion PN13 médicament virtuel</a>
+        <a href="PN13-prescription-MV.html">Exemple de Prescription PN13 médicament virtuel</a>
       </li>
     </ul>
   </li>
@@ -200,7 +190,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Prescription PN13 médicament simple en spécialité</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='transformationPN13-FHIR-Intro.html'><b>Transformation de PN13 en FHIR</b></a></li><li><b>Exemple de prescription PN13 médicament simple en spécialité</b></li>
 
           <span style="float:right;">
 
@@ -230,8 +220,8 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Prescription PN13 médicament simple en spécialité</h2>
+  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <h2>Exemple de prescription PN13 médicament simple en spécialité</h2>
   
 
 
@@ -249,11 +239,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
 <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
 </div>
-<h3 id="exemples-pn13-de-prescritpion-en-spécialité">Exemples PN13 de prescritpion en spécialité</h3>
+<h3 id="exemples-pn13-de-prescription-en-spécialité">Exemples PN13 de prescription en spécialité</h3>
 
 <h4 id="paracetamol-mylan-conseil-1000-mg-en-cas-de-douleur">PARACETAMOL MYLAN CONSEIL 1000 MG en cas de douleur</h4>
 
-<p>Cette prescription PN13 est traduite en FHIR dans l’instance <a href="https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-Paracetamol.html">TradPN13FHIR-Presc-Paracetamol</a>.</p>
+<p>Cette prescription PN13 est traduite en FHIR dans l’instance <a href="./Bundle-TradPN13FHIR-Presc-Paracetamol.html">TradPN13FHIR-Presc-Paracetamol</a>.</p>
 
 <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;</span>
 <span class="nt">&lt;Messages</span> <span class="na">Phast-id_message=</span><span class="s">"10723"</span> <span class="na">Phast-dh_émission=</span><span class="s">"20220411164253"</span> <span class="na">xmlns=</span><span class="s">"http://www.phast.fr/SIPhII"</span><span class="nt">&gt;</span>
@@ -367,8 +357,8 @@ A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pen
 
 <p>Cette prescription PN13 est traduite en FHIR:</p>
 <ul>
-  <li>dans l’instance <a href="https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-DOLIPRANE.html">TradPN13FHIR-Presc-DOLIPRANE</a> sans interpétation de la terminologie locale de fréquence;</li>
-  <li>dans l’instance <a href="https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.html">TradPN13FHIR-Presc-DOLIPRANE-Interpret</a> avec interprétation de la terminologie locale de fréquence.</li>
+  <li>dans l’instance <a href="./Bundle-TradPN13FHIR-Presc-DOLIPRANE.html">TradPN13FHIR-Presc-DOLIPRANE</a> sans interprétation de la terminologie locale de fréquence;</li>
+  <li>dans l’instance <a href="./Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.html">TradPN13FHIR-Presc-DOLIPRANE-Interpret</a> avec interprétation de la terminologie locale de fréquence.</li>
 </ul>
 
 <div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
@@ -577,7 +567,7 @@ A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pen
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 25, 2025 08:22+0000">2025-11-25</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 16, 2026 18:04+0000">2026-01-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

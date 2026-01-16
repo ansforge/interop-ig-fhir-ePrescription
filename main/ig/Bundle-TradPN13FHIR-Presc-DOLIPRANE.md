@@ -6,49 +6,6 @@
 
 ## Example Bundle: TradPN13FHIR-Presc-DOLIPRANE
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle TradPN13FHIR-Presc-DOLIPRANE de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:DOLIPRANE 1 000 mg, cpr efferv
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**identifier**:`https://somehospital.fr/PrescrptionLine-ID`/id1**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/IdentifiantAttribuePourLaTraductionEnFHIR**status**: Active**intent**: Order**priority**: Routine**subject**: Identifier:`https://somehospital.fr/IPP`/123456**encounter**: Identifier:`https://somehospital.fr/Sejour`/234567**supportingInformation**: Identifier:`https://somehospital.fr/UF`/2571**authoredOn**: 2007-12-27 10:33:00+0100**requester**: Identifier:`https://somehospital.fr/EI`/345678**note**:
-> 
-
-Prescription textuelle: Doliprane cpr 3x1g/j x 3j
-
-
-> **dosageInstruction****timing**: Code , Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Comprimé(Détails : code EDQM Standard Terms15036000 = 'Patch') |
-
-
-
 
 
 ## Resource Content

@@ -9,14 +9,15 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrSimpleQuantityMedication |
+| Draft as of 2026-01-16 | *Computable Name*:FrSimpleQuantityMedication |
 
  
-simple quantity datatype requiring a UCUM or EDQM code or no code (only unti) 
+Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit) 
+SimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé. 
 
-**Usages:**
+**Utilisations:**
 
-* Use this DataType Profile: [Range with UCUM or EDQM codes if code is used](StructureDefinition-FrRangeMedication.md), [Ratio with UCUM or EDQM codes if code is used](StructureDefinition-FrRatioMedication.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+* Utiliser ce Profil de type de données: [Range with UCUM or EDQM codes if code is used](StructureDefinition-FrRangeMedication.md), [Ratio with UCUM or EDQM codes if code is used](StructureDefinition-FrRatioMedication.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/FrSimpleQuantityMedication)
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
   "name" : "FrSimpleQuantityMedication",
   "title" : "SimpleQuantity with UCUM or EDQM codes or code not used",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
       ]
     }
   ],
-  "description" : "simple quantity datatype requiring a UCUM or EDQM code or no code (only unti)",
+  "description" : "Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit)\r\n\nSimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé.",
   "jurisdiction" : [
     {
       "coding" : [

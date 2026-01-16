@@ -9,14 +9,15 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FRMPSubstance |
+| Draft as of 2026-01-16 | *Computable Name*:FRMPSubstance |
 
  
-code for the medicinal product substance 
+A FHIR CodeableConcept profile representing a coded medicinal product substance 
+Profil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l’ANS). 
 
-**Usages:**
+**Utilisations:**
 
-* Use this DataType Profile: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
+* Utiliser ce Profil de type de données: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-mp-substance)
 
@@ -42,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
   "title" : "FR Medicinal Product Substance",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -68,7 +69,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
       ]
     }
   ],
-  "description" : "code for the medicinal product substance",
+  "description" : "A FHIR CodeableConcept profile representing a coded medicinal product substance \r\n\nProfil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l'ANS).",
   "jurisdiction" : [
     {
       "coding" : [

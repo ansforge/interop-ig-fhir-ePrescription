@@ -6,52 +6,6 @@
 
 ## Example Bundle: Presc-EFFERALGAN
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-EFFERALGAN de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:EFFERALGAN® 1 000 mg, cpr
-
-### Ingredients
-
-| | |
-| :--- | :--- |
-| - | **IsActive** |
-| * | true |
-
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14624**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-07-28 14:52:40+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | | |
-| :--- | :--- | :--- |
-| - | **Type** | **Dose[x]** |
-| * | Ordered | 1 Comprimé(Détails : code EDQM Standard Terms15054000 = 'Tablet') |
-
-
-
 
 
 ## Resource Content

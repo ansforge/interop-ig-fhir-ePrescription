@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"4"}
-    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.2"}
+    h3,h4,h5,h6{--heading-prefix:"2.2"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -139,27 +139,17 @@
       <li>
         <a href="transformation-FHIR-vers-PN13.html">Transformation FHIR vers PN13</a>
       </li>
-    </ul>
-  </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Fichiers PN13 exemples
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
       <li>
-        <a href="PN13-exemples-intro.html">Inroduction</a>
+        <a href="PN13-prescription-DC.html">Exemple de Prescription PN13 médicament simple en DC</a>
       </li>
       <li>
-        <a href="PN13-prescription-DC.html">Prescription PN13 médicament simple en DC</a>
+        <a href="PN13-prescription-specialite.html">Exemple de Prescription PN13 médicament simple en spécialité</a>
       </li>
       <li>
-        <a href="PN13-prescription-specialite.html">Prescription PN13 médicament simple en spécialité</a>
+        <a href="PN13-prescription-compound.html">Exemple de Prescription PN13 médicament composite</a>
       </li>
       <li>
-        <a href="PN13-prescription-compound.html">Prescription PN13 médicament composite</a>
-      </li>
-      <li>
-        <a href="PN13-prescription-MV.html">Prescritpion PN13 médicament virtuel</a>
+        <a href="PN13-prescription-MV.html">Exemple de Prescription PN13 médicament virtuel</a>
       </li>
     </ul>
   </li>
@@ -200,7 +190,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>La prescription - Cas d'usage</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='prescription-Intro.html'><b>La prescription</b></a></li><li><b>La prescription - Cas d'usage</b></li>
 
           <span style="float:right;">
 
@@ -230,7 +220,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
   <h2>La prescription - Cas d&#39;usage</h2>
   
 
@@ -246,14 +236,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#la-ligne-de-prescription-initiale" id="markdown-toc-la-ligne-de-prescription-initiale">La ligne de prescription initiale</a></li>
+  <li><a href="#les-différentes-variations-de-la-ligne-de-prescription-initiale" id="markdown-toc-les-différentes-variations-de-la-ligne-de-prescription-initiale">Les différentes variations de la ligne de prescription initiale</a></li>
+</ul>
+
 </div>
-<h3 id="cas-dusage">Cas d’usage</h3>
+<div style="background-color: #fff9e6; border-left: 4px solid #ff9800; padding: 15px; margin: 20px 0;">
+<strong>👥 Cas d'usage</strong> – Cette page présente les différents scénarios et types de prescription couverts. Utile pour tous les profils : compréhension des besoins métier et périmètre d'implémentation.
+</div>
 
-<h4 id="la-ligne-de-prescription-initale">La ligne de prescription initale</h4>
+<h3 id="la-ligne-de-prescription-initiale">La ligne de prescription initiale</h3>
 
-<p>En situation réelle, n’émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c’est la base qui permet d’explorer la complexité de la prescription selon deux axes, le médicament prescrit et la posologie.</p>
+<p>En situation réelle, n’émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c’est la base qui permet d’explorer la complexité de la prescription selon deux axes : le médicament prescrit et la posologie.</p>
 
 <p>La complexité du <em>médicament prescrit</em></p>
 
@@ -330,12 +326,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   </li>
 </ul>
 
-<h4 id="les-différentes-variations-de-la-ligne-de-prescription-initiale">Les différentes variations de la ligne de prescription initiale</h4>
+<h3 id="les-différentes-variations-de-la-ligne-de-prescription-initiale">Les différentes variations de la ligne de prescription initiale</h3>
 
 <p>On entend par variation de la ligne prescription toute évolution de celle-ci <strong>prescrite</strong> par le médecin.</p>
 
 <p>Il s’agit donc d’une prescription qui succède à la prescription ayant créé la ligne de prescription initiale et qui en reprend le contenu en modifiant certains paramètres à l’exception de la composition du médicament prescrit.</p>
-
 
 
 
@@ -377,7 +372,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 25, 2025 08:22+0000">2025-11-25</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 16, 2026 18:04+0000">2026-01-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrAdditionalWhenValues |
+| Draft as of 2026-01-16 | *Computable Name*:FrAdditionalWhenValues |
 
 Additional values for Timing.repeat.when
 
@@ -21,9 +21,9 @@ This extension may be used on the following element(s):
 
 **Usage info**
 
-**Usages:**
+**Utilisations:**
 
-* Use this Extension: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+* Utiliser ce Extension: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-additional-when-values)
 
@@ -35,9 +35,9 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
 Other representations of profile: [CSV](StructureDefinition-fr-additional-when-values.csv), [Excel](StructureDefinition-fr-additional-when-values.xlsx), [Schematron](StructureDefinition-fr-additional-when-values.sch) 
 
-#### Terminology Bindings
+#### Bindings terminologiques
 
-#### Constraints
+#### Contraintes
 
 
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-when-v
   "name" : "FrAdditionalWhenValues",
   "title" : "Additional values for when element",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

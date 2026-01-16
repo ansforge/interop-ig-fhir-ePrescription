@@ -6,44 +6,6 @@
 
 ## Example Bundle: Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:PARACETAMOL
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14640**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-08-12 11:59:40+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**additionalInstruction**:Délais minimum entre 2 prises : 4h**timing**: Une fois**route**:Voie orale
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 500 mg(Détails : code UCUMmg = 'mg') |
-
-**maxDosePerPeriod**: 3 g(Détails : code UCUMg = 'g')/24 h(Détails : code UCUMh = 'h')**maxDosePerAdministration**: 1 g(Détails : code UCUMg = 'g')
-
 
 
 ## Resource Content

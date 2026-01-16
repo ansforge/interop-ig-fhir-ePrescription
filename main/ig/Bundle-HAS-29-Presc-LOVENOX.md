@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-29-Presc-LOVENOX
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-29-Presc-LOVENOX de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-1 injection en SC par jour jusqu’à ce que l’INR de l'AVK soit dans la zone thérapeutique cible
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: ENOXAPARINE sodique 6000 UI (LOVENOX®), solution injectable en seringue préremplie : 1 injection en SC par jour jusqu’à ce que l’INR de l'AVK soit dans la zone thérapeutique cible.
-
-
-> **dosageInstruction****additionalInstruction**:jusqu’à ce que l’INR de l'AVK soit dans la zone thérapeutique cible.**timing**: Une fois par 1 day**route**:Voie sous-cutanée
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 Seringue(Détails : code EDQM Standard Terms15052000 = 'Syringe') |
-
-
-
 
 
 ## Resource Content

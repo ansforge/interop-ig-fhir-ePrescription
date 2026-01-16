@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-11-1-Presc-VitamineD
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-11-1-Presc-VitamineD de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-1 ampoule, le premier jour de chaque mois
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: VITAMINE D 100 000 UI solution buvable : 1 ampoule, le premier jour de chaque mois
-
-
-> **dosageInstruction****additionalInstruction**:le premier jour du mois**timing**: Une fois par 1 month
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 ampoule(Détails : code EDQM Standard Terms15002000 = 'Ampoule') |
-
-
-
 
 
 ## Resource Content

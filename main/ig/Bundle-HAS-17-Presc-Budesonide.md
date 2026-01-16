@@ -6,45 +6,6 @@
 
 ## Example Bundle: HAS-17-Presc-Budesonide
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-17-Presc-Budesonide de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-A administrer en 20 min à 8h, 14h, 18h, et 22h
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: BUDESONIDE 1mg/2mL, suspension pour inhalation par nébuliseur en récipient unidose 1 récipient unidose de 1 mg 4 fois par jour selon les modalités d'administration suivantes :
-
-Préparation pour nébuliseur ultrasonique : - 3 mL Eau Pour Préparation Injectable - 1 récipient unidose (soit 2 mL) de BUDESONIDE 1mg/2mL) suspension pour inhalation par nébuliseur
-
-A administrer en 20 min à 8h, 14h, 18h, et 22h à partir du 16/03/2023
-
-
-> **dosageInstruction****timing**: Durée 20?? , Une fois
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 mg(Détails : code UCUMmg = 'mg') |
-
-
-
 
 
 ## Resource Content

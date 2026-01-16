@@ -6,39 +6,6 @@
 
 ## Example Bundle: Presc-Capecitabine-Dose-Calculee
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-Capecitabine-Dose-Calculee de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:CAPECITABINE
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14652**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-10-15 20:06:12+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****timing**: Une fois**route**:Voie orale
-> **doseAndRate****type**:Calculated**dose**: 1000 mg/m²(Détails : code UCUMmg/m2 = 'mg/m2')
-
-> **doseAndRate****type**:Ordered**dose**: 1800 mg(Détails : code UCUMmg = 'mg')
-
-
 
 
 ## Resource Content

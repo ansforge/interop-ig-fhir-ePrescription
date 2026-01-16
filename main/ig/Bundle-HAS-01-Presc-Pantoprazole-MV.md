@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-01-Presc-Pantoprazole-MV
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-01-Presc-Pantoprazole-MV de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-40 mg le soir
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: PANTOPRAZOLE 40 mg comprimé: 40 mg le soir
-
-
-> **dosageInstruction****timing**: Soir, Une fois
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 40 mg(Détails : code UCUMmg = 'mg') |
-
-
-
 
 
 ## Resource Content

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrBasisOfDoseComponent |
+| Draft as of 2026-01-16 | *Computable Name*:FrBasisOfDoseComponent |
 
 When the medication element of the resource in which a dose applies is compound, this extension references the Medication resource component of the medication element which is the Basis of the dose quantity or volume.
 
@@ -23,10 +23,10 @@ This extension may be used on the following element(s):
 
 **Usage info**
 
-**Usages:**
+**Utilisations:**
 
-* Use this Extension: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-* Examples for this Extension: [Bundle/Presc-MiniperfCefotaxime-En20min-Pdt3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.md), [Bundle/Presc-MiniperfCefotaxime-En20min-Pdt4j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.md) and [Bundle/Presc-PerfDobutamine-Qsp40mL](Bundle-Presc-PerfDobutamine-Qsp40mL.md)
+* Utiliser ce Extension: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+* Exemples pour ce Extension: [Bundle/Presc-MiniperfCefotaxime-En20min-Pdt3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.md), [Bundle/Presc-MiniperfCefotaxime-En20min-Pdt4j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.md) and [Bundle/Presc-PerfDobutamine-Qsp40mL](Bundle-Presc-PerfDobutamine-Qsp40mL.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-basis-of-dose-component)
 
@@ -38,7 +38,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
 
 Other representations of profile: [CSV](StructureDefinition-fr-basis-of-dose-component.csv), [Excel](StructureDefinition-fr-basis-of-dose-component.xlsx), [Schematron](StructureDefinition-fr-basis-of-dose-component.sch) 
 
-#### Constraints
+#### Contraintes
 
 
 
@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-basis-of-dose-com
   "name" : "FrBasisOfDoseComponent",
   "title" : "Medication component Basis of dose",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

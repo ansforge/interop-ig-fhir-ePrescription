@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-30-2-Presc-Cetirizine
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-30-2-Presc-Cetirizine de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-1 à 4 comprimés par jour selon les symptômes (urticaire)
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: CETIRIZINE 10 mg : 1 à 4 comprimés par jour selon les symptômes (urticaire)
-
-
-> **dosageInstruction****additionalInstruction**:Selon les symptômes (urticaire)
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1-4 Comprimé |
-
-
-
 
 
 ## Resource Content

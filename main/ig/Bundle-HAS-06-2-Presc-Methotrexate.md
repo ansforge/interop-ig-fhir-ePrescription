@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-06-2-Presc-Methotrexate
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-06-2-Presc-Methotrexate de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-20 mg, 1 fois par semaine, le mardi
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: METHOTREXATE 10 mg comprimé (sécable) : 20 mg, 1 fois par semaine, le mardi
-
-
-> **dosageInstruction****timing**: Une fois par 1 week
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 20 mg(Détails : code UCUMmg = 'mg') |
-
-
-
 
 
 ## Resource Content

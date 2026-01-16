@@ -9,123 +9,10 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-patient-sans-INS-conceptmap | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPatientSansINSConceptMap |
+| Draft as of 2026-01-16 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPatientSansINSConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR d’un patient sans INS qualifiée d’une prescritpion de médicament 
-
-Mapping de https://interopsante.org/pn13/xsd vers [FR Core Patient Profile](https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient.html)
-
-**Groupe 1**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Codes**de: Messages/M_prescription_médicaments/Patient/Ipp
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Patient.identifier.type.coding.code**: Patient.identifier.value
-  * **Patient.identfier.use**: 
-  * **Patient.identifier.type.coding.system**: PI
-  * : usual
-  * ?: http://terminology.hl7.org/CodeSystem/v2-0203
-  * ?: 
-* **Codes**de: Messages/M_prescription_médicaments/Patient/DI
-  * : 
-  * **Codes**de: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Patient.identifier.type.coding.code**: Patient.identifier.system
-  * **Patient.identfier.use**: 
-  * **Patient.identifier.type.coding.system**: 
-  * : 
-  * ?: 
-  * ?: Le domaine d'identification PN13 doit être exprimé sous le format uri pour alimenter patient.identifer.system. Par exemple, les domaines d'identification sous forme d'OID doivent être préfixés par urn:oid:
-
--------
-
-**Groupe 2**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Codes**de: Messages/M_prescription_médicaments/Patient/Nom_naissance
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Patient.name.extension.url**: Patient.name.family
-  * **Patient.name.use**: 
-  * ?: 
-  * ?: official
-* **Codes**de: Messages/M_prescription_médicaments/Patient/Premier_prénom
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Patient.name.extension.url**: Patient.name.given
-  * **Patient.name.use**: 
-  * ?: 
-  * ?: 
-* **Codes**de: Messages/M_prescription_médicaments/Patient/Prénoms
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Patient.name.extension.url**: Patient.name.extension.valueString
-  * **Patient.name.use**: 
-  * ?: https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name
-  * ?: 
-
--------
-
-**Groupe 3**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Codes**de: Messages/M_prescription_médicaments/Patient/Nom_usuel
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Patient.name.use**: Patient.name.family
-  * ?: 
-  * ?: usual
-* **Codes**de: Messages/M_prescription_médicaments/Patient/Prénom_usuel
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Patient.name.use**: Patient.name.given
-  * ?: 
-  * ?: 
-
--------
-
-**Groupe 4**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Code source**: Messages/M_prescription_médicaments/Patient/Date_naissance
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: Patient.birthDate
-  * **Commentaire**: La date doit être transformée du format AAAAMMJJ[HH[MM[SS]]] au format YYYY-MM-DDTHH:MM:SS+ZZ:ZZ. L'offset de fuseau horaire n'est à intégrer que si au moin une heure est fournie.
-* **Code source**: Messages/M_prescription_médicaments/Patient/Sexe
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: Patient.gender
-  * **Commentaire**: le code est à traduire en utilisant la ConceptMap fr-PN13-FHIR-gender-conceptmap
-
--------
-
-**Groupe 5**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Codes**de: Messages/M_prescription_médicaments/Patient/Lieu_naissance
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Patient.extension.url**: Patient.extension.valueAddress.extension.valueCoding.code
-  * **Patient.extension.valueAddress.extension.url**: 
-  * : http://hl7.org/fhir/StructureDefinition/patient-birthPlace
-  * ?: https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code
-  * ?: L'élément FHIR Patient.extension.valueAddress.extension.valueCoding.system dépend de la valeur du code. Pour les codes commençant par 99, le system est https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R13-Pays ; pour le code 01 https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire; pour les autres codes le system est est https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune
-
--------
-
-**Groupe 6**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Codes**de: Messages/M_prescription_médicaments/Patient/Statut_idpat
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **Patient.extension.url**: Patient.extension.extension.valueCoding.code
-  * **Patient.extension.extension.valueCoding.system**: 
-  * **Patient.extension.extension.url**: https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability
-  * ?: https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445
-  * ?: identityStatus
-
--------
-
-**Groupe 7**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Code source**: Messages/M_prescription_médicaments/Patient/Date_lunaire
-  * **relation**: (not mapped)
-  * **Code cible**: Les dates luanires ne sont pas à indiquer dans les ressources FHIR
 
 
 
@@ -140,7 +27,7 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Core Patient Profile](http
   "name" : "FrPN13FHIRMedicationPrescriptionPatientSansINSConceptMap",
   "title" : "Conversion PN13 vers FHIR pour un patient sans INS qualifiée d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

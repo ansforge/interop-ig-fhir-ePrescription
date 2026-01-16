@@ -1,15 +1,16 @@
-# Prescription PN13 médicament simple en spécialité - Guide d'implémentation de la ePrescription v0.1.0
+# Exemple de prescription PN13 médicament simple en spécialité - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
-* **Prescription PN13 médicament simple en spécialité**
+* [**Transformation de PN13 en FHIR**](transformationPN13-FHIR-Intro.md)
+* **Exemple de prescription PN13 médicament simple en spécialité**
 
-## Prescription PN13 médicament simple en spécialité
+## Exemple de prescription PN13 médicament simple en spécialité
 
-### Exemples PN13 de prescritpion en spécialité
+### Exemples PN13 de prescription en spécialité
 
 #### PARACETAMOL MYLAN CONSEIL 1000 MG en cas de douleur
 
-Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Presc-Paracetamol](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-Paracetamol.html).
+Cette prescription PN13 est traduite en FHIR dans l’instance [TradPN13FHIR-Presc-Paracetamol](./Bundle-TradPN13FHIR-Presc-Paracetamol.md).
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -125,8 +126,8 @@ A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pen
 
 Cette prescription PN13 est traduite en FHIR:
 
-* dans l’instance [TradPN13FHIR-Presc-DOLIPRANE](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-DOLIPRANE.html) sans interpétation de la terminologie locale de fréquence;
-* dans l’instance [TradPN13FHIR-Presc-DOLIPRANE-Interpret](https://interop-sante.github.io/hl7.fhir.fr.medication/main/ig/Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.html) avec interprétation de la terminologie locale de fréquence.
+* dans l’instance [TradPN13FHIR-Presc-DOLIPRANE](./Bundle-TradPN13FHIR-Presc-DOLIPRANE.md) sans interprétation de la terminologie locale de fréquence;
+* dans l’instance [TradPN13FHIR-Presc-DOLIPRANE-Interpret](./Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.md) avec interprétation de la terminologie locale de fréquence.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

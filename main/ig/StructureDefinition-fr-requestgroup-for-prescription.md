@@ -9,14 +9,15 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FRRequestGroupForPrescription |
+| Draft as of 2026-01-16 | *Computable Name*:FRRequestGroupForPrescription |
 
  
 RequestGroup for expressing links between lines of a prescription 
+Profil de la ressource RequestGroup pour exprimer les liens entre les lignes d’une prescription. 
 
-**Usages:**
+**Utilisations:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Ce Profil nest utilisé par aucun profil dans ce guide dimplémentation
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-requestgroup-for-prescription)
 
@@ -42,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-requestgroup-for-
   "title" : "FR RequestGroup For Prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -68,7 +69,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-requestgroup-for-
       ]
     }
   ],
-  "description" : "RequestGroup for expressing links between lines of a prescription",
+  "description" : "RequestGroup for expressing links between lines of a prescription\r\n\nProfil de la ressource RequestGroup pour exprimer les liens entre les lignes d'une prescription.",
   "jurisdiction" : [
     {
       "coding" : [

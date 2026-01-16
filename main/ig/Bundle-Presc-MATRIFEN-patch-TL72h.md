@@ -6,52 +6,6 @@
 
 ## Example Bundle: Presc-MATRIFEN-patch-TL72h
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-MATRIFEN-patch-TL72h de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:MATRIFEN® 75 ug/h, dispositif transdermique
-
-### Ingredients
-
-| | |
-| :--- | :--- |
-| - | **IsActive** |
-| * | true |
-
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14629**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-07-29 16:14:13+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Durée 72hours , Une fois par 72 hours**route**:Voie transdermique
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 1 patch(Détails : code EDQM Standard Terms15036000 = 'Patch') |
-
-
-
 
 
 ## Resource Content

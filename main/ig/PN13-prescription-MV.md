@@ -1,9 +1,10 @@
-# Prescription PN13 médicament virtuel - Guide d'implémentation de la ePrescription v0.1.0
+# Exemple de prescription PN13 médicament virtuel - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
-* **Prescription PN13 médicament virtuel**
+* [**Transformation de PN13 en FHIR**](transformationPN13-FHIR-Intro.md)
+* **Exemple de prescription PN13 médicament virtuel**
 
-## Prescription PN13 médicament virtuel
+## Exemple de prescription PN13 médicament virtuel
 
 ### Exemples PN13 de prescription de médicament virtuel
 

@@ -9,14 +9,15 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrRatioMedication |
+| Draft as of 2026-01-16 | *Computable Name*:FrRatioMedication |
 
  
 Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used 
+Ratio avec des unités UCUM ou EDQM si un code est utilisé. 
 
-**Usages:**
+**Utilisations:**
 
-* Use this DataType Profile: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md), [FR Medication](StructureDefinition-fr-medication.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+* Utiliser ce Profil de type de données: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md), [FR Medication](StructureDefinition-fr-medication.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/FrRatioMedication)
 
@@ -41,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRatioMedication.cs
   "name" : "FrRatioMedication",
   "title" : "Ratio with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -67,7 +68,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRatioMedication.cs
       ]
     }
   ],
-  "description" : "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used",
+  "description" : "Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used\r\n\nRatio avec des unités UCUM ou EDQM si un code est utilisé.",
   "jurisdiction" : [
     {
       "coding" : [

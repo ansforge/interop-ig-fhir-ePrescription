@@ -9,22 +9,10 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-patient-id-seul-conceptmap | *Version*:0.1.0 |
-| Draft as of 2025-11-25 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap |
+| Draft as of 2026-01-16 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR du patient d’une prescritpion de médicament avec uniquement un identifiant fourni 
-
-Mapping de https://interopsante.org/pn13/xsd vers [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**Groupe 1**Mapping de `terminologie de référence (CodeSystem) non spécifiée` to `terminologie de référence (CodeSystem) non spécifiée`
-
-* **Codes**de: Messages/M_prescription_médicaments/Patient/IPP
-  * : 
-  * **Codes**de: [is equal to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal)
-  * **MedicationRequest.subject.type**: MedicationRequest.subject.identifier.value
-  * **MedicationRequest.subject.identifier.use**: 
-  * ?: Patient
-  * ?: usual
 
 
 
@@ -39,7 +27,7 @@ Mapping de https://interopsante.org/pn13/xsd vers [FR Inpatient MedicationReques
   "name" : "FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le patient d'une prescription de médicaments avec uniquement un identifiant fourni",
   "status" : "draft",
-  "date" : "2025-11-25T08:22:04+00:00",
+  "date" : "2026-01-16T18:04:25+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

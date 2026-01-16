@@ -6,38 +6,6 @@
 
 ## Example Bundle: HAS-07-Presc-Paracetamol
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-07-Presc-Paracetamol de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-Si douleur -dose max/prise de 1000 mg (soit 2 gélules) -4000 mg maximum par jour (soit 8 gélules)
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: PARACETAMOL 500 mg gélule : Si douleur -dose max/prise de 1000 mg (soit 2 gélules) -4000 mg maximum par jour (soit 8 gélules)
-
-
-### DosageInstructions
-
-| | | |
-| :--- | :--- | :--- |
-| - | **MaxDosePerPeriod** | **MaxDosePerAdministration** |
-| * | 4000 mg(Détails : code UCUMmg = 'mg')/24 h(Détails : code UCUMh = 'h') | 1000 mg(Détails : code UCUMmg = 'mg') |
-
-
 
 
 ## Resource Content

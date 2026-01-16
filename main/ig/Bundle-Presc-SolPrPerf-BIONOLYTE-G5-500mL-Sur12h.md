@@ -6,44 +6,6 @@
 
 ## Example Bundle: Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h de type searchset
-
--------
-
-Entrée 1
-
-Ressource Medication :
-
-> 
-
-Profil: [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md)
-
-**code**:BIONOLYTE® G5, sol pr perf, flac 500 mL
-
--------
-
-Entrée 2
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md)
-
-**groupIdentifier**:`https://somehospital.fr/Prescrption-ID`/Presc-14630**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2021-07-29 17:29:27+0000**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)
-> **dosageInstruction****sequence**: 1**timing**: Une fois**route**:Voie intraveineuse
-
-### DoseAndRates
-
-| | | |
-| :--- | :--- | :--- |
-| - | **Type** | **Rate[x]** |
-| * | Ordered | 1 flacon(Détails : code EDQM Standard Terms15009000 = 'Bottle')/12 h(Détails : code UCUMh = 'h') |
-
-
-
 
 
 ## Resource Content

@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-04a-Presc-Paracetamol
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-04a-Presc-Paracetamol de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-2 gélules toutes les 6 h pendant 10 jours si douleurs
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-06-06 14:48:44+0200**requester**: Identifier: 899999999999**note**:
-> 
-
-Prescription textuelle: Prescription textuelle: PARACETAMOL 500mg gélule - 2 gélules toutes les 6 h pendant 10 jours si douleurs
-
-
-> **dosageInstruction****timing**: Une fois par 6 hours
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 2 gélule ou capsule molle(Détails : code EDQM Standard Terms15012000 = 'Capsule') |
-
-
-
 
 
 ## Resource Content

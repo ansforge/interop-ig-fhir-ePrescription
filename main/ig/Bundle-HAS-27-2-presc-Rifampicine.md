@@ -6,41 +6,6 @@
 
 ## Example Bundle: HAS-27-2-presc-Rifampicine
 
-Profil: [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md)
-
-Bundle HAS-27-2-presc-Rifampicine de type searchset
-
--------
-
-Entrée 1
-
-Ressource MedicationRequest :
-
-> 
-
-Profil: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
-
-**Extension Definition for MedicationRequest.renderedDosageInstruction for Version 5.0**:
-
-2 gélules le matin 30 minutes avant le petit-déjeuner
-
-**status**: Active**intent**: Order**priority**: Routine**subject**:[Patient/14602](Patient/14602)**authoredOn**: 2025-07-23 10:33:00+0100**requester**:[Practitioner/smart-Practitioner-71482713](Practitioner/smart-Practitioner-71482713)**note**:
-> 
-
-Prescription textuelle: RIFAMPICINE 300 mg en gélule 2 gélules le matin 30 minutes avant le petit-déjeuner​
-
-
-> **dosageInstruction****timing**: 30min , avant le petit-déjeuner, Une fois
-
-### DoseAndRates
-
-| | |
-| :--- | :--- |
-| - | **Dose[x]** |
-| * | 2 Gélule ou capsule molle(Détails : code EDQM Standard Terms15012000 = 'Capsule') |
-
-
-
 
 
 ## Resource Content
