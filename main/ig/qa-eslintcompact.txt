@@ -3247,4 +3247,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'expansion-params.xhtml' is 
 /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/ValueSet-fr-substance-code.json: line 0, col 0, Error - Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the value set cannot be expanded (EXCEPTION)
 
 err = 939, warn = 2044, info = 81
-IG Publisher Version: 2.0.29
+IG Publisher Version: 2.0.30

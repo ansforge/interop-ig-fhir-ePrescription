@@ -14,7 +14,7 @@ These define data models that represent the domain covered by this implementatio
 | | |
 | :--- | :--- |
 | [Ligne de prescription](StructureDefinition-fr-ligne-prescription.md) | Structuration d’une ligne de prescription [WIP - à compléter]. |
-| [Posologie](StructureDefinition-fr-posologie.md) | Structuration d’une posologie en fonction des critères de la HAS. Cette structuration a pour objectif de tendre au plus proche du modèle européen[Xt-EHR](https://build.fhir.org/ig/Xt-EHR/xt-ehr-common/StructureDefinition-EHDSDosaging.html)(CI-BUILD) |
+| [Posologie](StructureDefinition-fr-posologie.md) | Structuration d’une posologie en fonction des critères de la HAS. Cette structuration a pour objectif de tendre au plus proche du modèle européen [Xt-EHR](https://build.fhir.org/ig/Xt-EHR/xt-ehr-common/StructureDefinition-EHDSDosaging.html) (CI-BUILD) |
 
 ### Structures: Resource Profiles 
 
@@ -22,14 +22,14 @@ These define constraints on FHIR resources for systems conforming to this implem
 
 | | |
 | :--- | :--- |
-| [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md) | French inpatient medication request profileProfil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier. |
-| [FR Medication](StructureDefinition-fr-medication.md) | French medication profileProfil de la ressource Medication décrivant le médicament. Ce profil peut être référencé dans une ressource MedicationRequest ou MedicationStatement profilée par Interop’Santé afin de décrire le médicament prescrit ou le médicament déclaré dans un bilan médicamenteux ou une conciliation médicamenteuse. |
-| [FR Medication Compound](StructureDefinition-fr-medication-compound.md) | A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.Profil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d’éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound. |
-| [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md) | Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement).Profil de la ressource Medication décrivant un médicament simple (vs médicament composé) dans la ligne de prescription, la dispensation ou l’administration représentée par une MedicationRequest, une MedicationDispense ou une MedicationStatement. Si le médicament est composé de plusieurs substances, la concentration de chaque substance doit être définie (ingredient.strength). |
-| [FR Medication Request](StructureDefinition-fr-medicationrequest.md) | French medication request profileProfil français de modélisation de la ligne de prescription médicamenteuse. |
-| [FR Observation For Prescription](StructureDefinition-fr-observation-for-prescription.md) | French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height…)Profil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille…). |
+| [FR Inpatient MedicationRequest](StructureDefinition-fr-inpatient-medicationrequest.md) | French inpatient medication request profile Profil français de modélisation de la ligne de prescription médicamenteuse en milieu hospitalier. |
+| [FR Medication](StructureDefinition-fr-medication.md) | French medication profile Profil de la ressource Medication décrivant le médicament. Ce profil peut être référencé dans une ressource MedicationRequest ou MedicationStatement profilée par Interop’Santé afin de décrire le médicament prescrit ou le médicament déclaré dans un bilan médicamenteux ou une conciliation médicamenteuse. |
+| [FR Medication Compound](StructureDefinition-fr-medication-compound.md) | A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound. Profil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d’éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound. |
+| [FR Medication Non Compound](StructureDefinition-fr-medication-noncompound.md) | Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement). Profil de la ressource Medication décrivant un médicament simple (vs médicament composé) dans la ligne de prescription, la dispensation ou l’administration représentée par une MedicationRequest, une MedicationDispense ou une MedicationStatement. Si le médicament est composé de plusieurs substances, la concentration de chaque substance doit être définie (ingredient.strength). |
+| [FR Medication Request](StructureDefinition-fr-medicationrequest.md) | French medication request profile Profil français de modélisation de la ligne de prescription médicamenteuse. |
+| [FR Observation For Prescription](StructureDefinition-fr-observation-for-prescription.md) | French observation profile for prescription purposes. Observation provided as context of the prescription (ex. weight, height…) Profil français de modélisation de la ressource Observation pour les besoins de la prescription. Observation fournissant un contexte à la prescription (ex. poids, taille…). |
 | [FR Prescription Bundle For Example](StructureDefinition-fr-prescription-bundle-for-example.md) | Profil de la ressource Bundle pour la constitution d’exemples de prescription. |
-| [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-for-prescription.md) | RequestGroup for expressing links between lines of a prescriptionProfil de la ressource RequestGroup pour exprimer les liens entre les lignes d’une prescription. |
+| [FR RequestGroup For Prescription](StructureDefinition-fr-requestgroup-for-prescription.md) | RequestGroup for expressing links between lines of a prescription Profil de la ressource RequestGroup pour exprimer les liens entre les lignes d’une prescription. |
 
 ### Structures: Data Type Profiles 
 
@@ -37,10 +37,10 @@ These define constraints on FHIR data types for systems conforming to this imple
 
 | | |
 | :--- | :--- |
-| [FR Medicinal Product Substance](StructureDefinition-fr-mp-substance.md) | A FHIR CodeableConcept profile representing a coded medicinal product substanceProfil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l’ANS). |
-| [Range with UCUM or EDQM codes if code is used](StructureDefinition-FrRangeMedication.md) | Range with low and high unit UCUM or EDQM codes if code is usedPlage avec des unités UCUM ou EDQM si un code est utilisé. |
-| [Ratio with UCUM or EDQM codes if code is used](StructureDefinition-FrRatioMedication.md) | Ratio with numerator and denominator unit UCUM or EDQM encoded if code is usedRatio avec des unités UCUM ou EDQM si un code est utilisé. |
-| [SimpleQuantity with UCUM or EDQM codes or code not used](StructureDefinition-FrSimpleQuantityMedication.md) | Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit)SimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé. |
+| [FR Medicinal Product Substance](StructureDefinition-fr-mp-substance.md) | A FHIR CodeableConcept profile representing a coded medicinal product substance Profil FHIR CodeableConcept représentant une substance de produit médicamenteux codée selon le référentiel des substances médicamenteuses RIUM (Répertoire International des Substances Médicamenteuses de l’ANS). |
+| [Range with UCUM or EDQM codes if code is used](StructureDefinition-FrRangeMedication.md) | Range with low and high unit UCUM or EDQM codes if code is used Plage avec des unités UCUM ou EDQM si un code est utilisé. |
+| [Ratio with UCUM or EDQM codes if code is used](StructureDefinition-FrRatioMedication.md) | Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used Ratio avec des unités UCUM ou EDQM si un code est utilisé. |
+| [SimpleQuantity with UCUM or EDQM codes or code not used](StructureDefinition-FrSimpleQuantityMedication.md) | Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit) SimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé. |
 
 ### Structures: Extension Definitions 
 
@@ -63,10 +63,10 @@ These define sets of codes used by systems conforming to this implementation gui
 
 | | |
 | :--- | :--- |
-| [French Medicinal product Dose form](ValueSet-fr-mp-dose-form.md) | Le jeu de valeurs à utiliser pour coder l’élément**doseForm**des ressources**FrMedication**. |
-| [French Method Of Administration](ValueSet-FrMethodOfAdministration.md) | Le jeu de valeurs à utiliser pour coder l’élément**dosageInstruction.method**de la ressource**FRMedicationRequest**. |
-| [French Route of Administration](ValueSet-fr-route-of-administration.md) | Le jeu de valeurs à utiliser pour coder l’élément**dosageInstruction.route**de la ressource**FRMedicationRequest**. |
-| [French overall intention of the treatment](ValueSet-fr-treatment-intent.md) | Le jeu de valeurs à utiliser pour coder l’élément**treatmentIntent**de la ressource**FRInpatientMedicationRequest**. |
+| [French Medicinal product Dose form](ValueSet-fr-mp-dose-form.md) | Le jeu de valeurs à utiliser pour coder l’élément **doseForm** des ressources **FrMedication**. |
+| [French Method Of Administration](ValueSet-FrMethodOfAdministration.md) | Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.method** de la ressource **FRMedicationRequest**. |
+| [French Route of Administration](ValueSet-fr-route-of-administration.md) | Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.route** de la ressource **FRMedicationRequest**. |
+| [French overall intention of the treatment](ValueSet-fr-treatment-intent.md) | Le jeu de valeurs à utiliser pour coder l’élément **treatmentIntent** de la ressource **FRInpatientMedicationRequest**. |
 | [Interop'Santé value set - Additional codes for relationship between action](ValueSet-fr-additional-action-relationship-type-value-set.md) | Codes to specify relationship between action in a RequestGroup that are not in the valueSet http://hl7.org/fhir/ValueSet/action-relationship-type. |
 | [value set Interop'Santé - Codes additionnels pour l'élément when](ValueSet-fr-additional-when-codes.md) | Le jeu de valeurs à utiliser pour coder des périodes d’occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing. |
 | [value set Interop'Santé - Codes identifiant les médicaments](ValueSet-fr-medication-code.md) | Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code |

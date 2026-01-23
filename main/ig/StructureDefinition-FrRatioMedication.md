@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication | *Version*:0.1.0 |
-| Draft as of 2026-01-16 | *Computable Name*:FrRatioMedication |
+| Draft as of 2026-01-23 | *Computable Name*:FrRatioMedication |
 
  
 Ratio with numerator and denominator unit UCUM or EDQM encoded if code is used 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRatioMedication.cs
   "name" : "FrRatioMedication",
   "title" : "Ratio with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2026-01-16T18:04:25+00:00",
+  "date" : "2026-01-23T16:54:57+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
