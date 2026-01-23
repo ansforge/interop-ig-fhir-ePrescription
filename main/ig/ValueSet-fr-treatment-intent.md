@@ -54,7 +54,7 @@ Le jeu de valeurs à utiliser pour coder l’élément **treatmentIntent** de la
   "title" : "French overall intention of the treatment",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-01-23T16:54:57+00:00",
+  "date" : "2026-01-23T16:56:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
