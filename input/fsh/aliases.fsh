@@ -8,6 +8,10 @@ Alias: $DC_Composant = http://phast.fr/fhir/CodeSystem/Pharmacy/CIOdc/DC_Composa
 Alias: $unitsofmeasure = http://unitsofmeasure.org
 Alias: $UCD = http://data.esante.gouv.fr/ansm/medicament/UCD
 Alias: $SMS = http://data.esante.gouv.fr/ansm/medicament/codeSMS
+
+Alias: $CIP = http://data.esante.gouv.fr/ansm/medicament/Presentation
+Alias: $SpecialitePharmaceutique = http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique
+
 Alias: $TechANSM = http://data.esante.gouv.fr/ansm/medicament/substance
 Alias: $EDQM = http://standardterms.edqm.eu
 Alias: $Medicabase = http://BogusSystemMedicabase.com
