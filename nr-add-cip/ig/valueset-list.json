@@ -41,7 +41,6 @@
       "systems" : [
         "http://data.esante.gouv.fr/ansm/medicament/codeSMS",
         "http://data.esante.gouv.fr/ansm/medicament/substance",
-        "http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique",
         "http://data.esante.gouv.fr/ansm/medicament/UCD"
       ]
     },
@@ -83,7 +82,9 @@
       "description" : "Le jeu de valeurs à utiliser pour indiquer un ingrédient composant un médicament dans Medication.ingredient.itemCodeableConcept.coding.code",
       "systems" : [
         "http://data.esante.gouv.fr/ansm/medicament/codeSMS",
-        "http://data.esante.gouv.fr/ansm/medicament/substance"
+        "http://data.esante.gouv.fr/ansm/medicament/substance",
+        "http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique",
+        "http://data.esante.gouv.fr/ansm/medicament/UCD"
       ]
     },
     {

@@ -66,13 +66,12 @@
       "systems" : [
         "http://data.esante.gouv.fr/ansm/medicament/codeSMS",
         "http://data.esante.gouv.fr/ansm/medicament/substance",
-        "http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique",
         "http://data.esante.gouv.fr/ansm/medicament/UCD"
       ],
       "uses" : {
       },
-      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-      "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+      "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
+      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form",
@@ -84,8 +83,8 @@
       "systems" : ["http://standardterms.edqm.eu"],
       "uses" : {
       },
-      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-      "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound"
+      "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
+      "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs",
@@ -122,7 +121,9 @@
       "description" : "Le jeu de valeurs à utiliser pour indiquer un ingrédient composant un médicament dans Medication.ingredient.itemCodeableConcept.coding.code",
       "systems" : [
         "http://data.esante.gouv.fr/ansm/medicament/codeSMS",
-        "http://data.esante.gouv.fr/ansm/medicament/substance"
+        "http://data.esante.gouv.fr/ansm/medicament/substance",
+        "http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique",
+        "http://data.esante.gouv.fr/ansm/medicament/UCD"
       ],
       "uses" : {
       },

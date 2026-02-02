@@ -53,7 +53,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "title" : "value set Interop'Santé - Codes identifiant les substances",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-02-02T15:38:39+00:00",
+  "date" : "2026-02-02T15:38:16+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
@@ -99,6 +99,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       },
       {
         "system" : "http://data.esante.gouv.fr/ansm/medicament/substance"
+      },
+      {
+        "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD"
+      },
+      {
+        "system" : "http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique"
       }
     ]
   }
