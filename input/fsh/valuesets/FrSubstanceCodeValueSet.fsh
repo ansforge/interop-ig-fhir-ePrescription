@@ -7,5 +7,3 @@ Description: "Le jeu de valeurs à utiliser pour indiquer un ingrédient composa
 * ^immutable = false
 * include codes from system $SMS
 * include codes from system $TechANSM
-* include codes from system $UCD
-* include codes from system $SpecialitePharmaceutique
