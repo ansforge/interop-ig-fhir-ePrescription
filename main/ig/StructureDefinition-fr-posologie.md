@@ -9,16 +9,16 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie | *Version*:0.1.0 |
-| Draft as of 2026-01-23 | *Computable Name*:Posologie |
+| Draft as of 2026-02-09 | *Computable Name*:Posologie |
 
  
 Structuration d’une posologie en fonction des critères de la HAS. Cette structuration a pour objectif de tendre au plus proche du modèle européen [Xt-EHR](https://build.fhir.org/ig/Xt-EHR/xt-ehr-common/StructureDefinition-EHDSDosaging.html) (CI-BUILD) 
 
 **Utilisations:**
 
-* Utiliser ce Modèle logique: [Ligne de prescription](StructureDefinition-fr-ligne-prescription.md)
+* Utilise ce/t/te Modèle logique: [Ligne de prescription](StructureDefinition-fr-ligne-prescription.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-posologie)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-posologie)
 
 ### Formal Views of Profile Content
 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
   "name" : "Posologie",
   "title" : "Posologie",
   "status" : "draft",
-  "date" : "2026-01-23T16:56:48+00:00",
+  "date" : "2026-02-09T09:37:19+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {

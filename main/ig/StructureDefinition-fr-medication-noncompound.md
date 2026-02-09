@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound | *Version*:0.1.0 |
-| Draft as of 2026-01-23 | *Computable Name*:FRMedicationNonCompound |
+| Draft as of 2026-02-09 | *Computable Name*:FRMedicationNonCompound |
 
  
 Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement). 
@@ -20,9 +20,9 @@ Simple medication description, include those composed of many substances.
 
 **Utilisations:**
 
-* Référer à ce Profil: [FR Medication Compound](StructureDefinition-fr-medication-compound.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+* Référence ce Profil: [FR Medication Compound](StructureDefinition-fr-medication-compound.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
 
-You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-medication-noncompound)
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/fr-medication-noncompound)
 
 ### Formal Views of Profile Content
 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
   "title" : "FR Medication Non Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-01-23T16:56:48+00:00",
+  "date" : "2026-02-09T09:37:19+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [
     {
