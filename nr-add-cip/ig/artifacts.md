@@ -68,8 +68,9 @@ These define sets of codes used by systems conforming to this implementation gui
 | [French Route of Administration](ValueSet-fr-route-of-administration.md) | Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.route** de la ressource **FRMedicationRequest**. |
 | [French overall intention of the treatment](ValueSet-fr-treatment-intent.md) | Le jeu de valeurs à utiliser pour coder l’élément **treatmentIntent** de la ressource **FRInpatientMedicationRequest**. |
 | [Interop'Santé value set - Additional codes for relationship between action](ValueSet-fr-additional-action-relationship-type-value-set.md) | Codes to specify relationship between action in a RequestGroup that are not in the valueSet http://hl7.org/fhir/ValueSet/action-relationship-type. |
-| [value set Interop'Santé - Codes additionnels pour l'élément when](ValueSet-fr-additional-when-codes.md) | Le jeu de valeurs à utiliser pour coder des périodes d’occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing. |
+| [value set Interop'Santé - Codes additionnels pour l'élément when](ValueSet-fr-additional-when-codes-vs.md) | Le jeu de valeurs à utiliser pour coder des périodes d’occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing. |
 | [value set Interop'Santé - Codes identifiant les médicaments](ValueSet-fr-medication-code.md) | Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code |
+| [value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier](ValueSet-fr-inpatient-medication-code.md) | Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code |
 | [value set Interop'Santé - Codes identifiant les substances](ValueSet-fr-substance-code.md) | Le jeu de valeurs à utiliser pour indiquer un ingrédient composant un médicament dans Medication.ingredient.itemCodeableConcept.coding.code |
 | [value set Interop'Santé - Codes pour le périmètre des notes](ValueSet-fr-note-scope-codes-vs.md) | Le jeu de valeurs à utiliser pour coder le périmètre des notes par exemple lors de la transformation de message PN13 en ressources FHIR |
 | [value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription](ValueSet-fr-uf-role-code-for-prescription.md) | Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF référencée dans Medication.supportingInfo |
@@ -81,7 +82,7 @@ These define new code systems used by systems conforming to this implementation 
 | | |
 | :--- | :--- |
 | [Interop'Santé code system - Additional codes for relationship between action](CodeSystem-fr-additional-action-relationship-type.md) | Codes to specify relationship between action in a RequestGroup that are not in the valueSet http://hl7.org/fhir/ValueSet/action-relationship-type. |
-| [code system Interop'Santé - Codes additionnels pour l'élément when](CodeSystem-fr-additional-when-codes.md) | Le système de codage pour des périodes d’occurrence qui ne sont pas définies dans FHIR. |
+| [code system Interop'Santé - Codes additionnels pour l'élément when](CodeSystem-fr-additional-when-codes-cs.md) | Le système de codage pour des périodes d’occurrence qui ne sont pas définies dans FHIR. |
 | [code system Interop'Santé - Codes pour le périmètre des notes](CodeSystem-fr-note-scope-codes.md) | Le système de codage pour la qualification du périmètre des notes en FHIR. |
 | [code system Interop'Santé - Codes pour typer le rôle des UF par rapport à un séjour patient](CodeSystem-fr-uf-role-codes.md) | Le système de codage pour les types de rôle qu’une UF peut avoir par rapport à un séjour patient. |
 

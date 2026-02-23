@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription | *Version*:0.1.0 |
-| Draft as of 2026-02-02 | *Computable Name*:FrUfRoleCodesForPrescriptionValueSet |
+| Draft as of 2026-02-23 | *Computable Name*:FrUfRoleCodesForPrescriptionValueSet |
 
  
 Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF référencée dans Medication.supportingInfo 
@@ -51,51 +51,39 @@ Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF r�
   "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-02-02T15:38:16+00:00",
+  "date" : "2026-02-23T08:39:26+00:00",
   "publisher" : "Interop'Santé",
-  "contact" : [
-    {
-      "name" : "Interop'Santé",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://interopsante.org/"
-        }
-      ]
+  "contact" : [{
+    "name" : "Interop'Santé",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://interopsante.org/"
+    }]
+  },
+  {
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
     },
     {
-      "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://esante.gouv.fr"
-        },
-        {
-          "system" : "email",
-          "value" : "monserviceclient.annuaire@esante.gouv.fr"
-        }
-      ]
-    }
-  ],
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
   "description" : "Le jeu de valeurs à utiliser dans l'extension pour indiquer le type d'UF référencée dans Medication.supportingInfo",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
   "immutable" : false,
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes"
-      }
-    ]
+    "include" : [{
+      "system" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes"
+    }]
   }
 }
 

@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>code system Interop&#39;Santé - Codes additionnels pour l&#39;élément when - JSON Representation - Guide d'implémentation de la ePrescription v0.1.0</title>
+    <title>value set Interop&#39;Santé - Codes additionnels pour l&#39;élément when - JSON Representation - Guide d'implémentation de la ePrescription v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -44,8 +44,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"6.33"}
-    h3,h4,h5,h6{--heading-prefix:"6.33"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.28"}
+    h3,h4,h5,h6{--heading-prefix:"6.28"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -68,7 +68,7 @@
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  FRANCE
 
 
             </span>
@@ -192,15 +192,15 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>code system Interop'Santé - Codes additionnels pour l'élément when</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>value set Interop'Santé - Codes additionnels pour l'élément when</b></li>
 
           <span style="float:right;">
 
-            <a href="CodeSystem-fr-additional-when-codes.xml.html">&lt;prev</a> | 
+            <a href="ValueSet-fr-additional-when-codes-vs.xml.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="CodeSystem-fr-additional-when-codes.ttl.html">next&gt;</a>
+          | <a href="ValueSet-fr-additional-when-codes-vs.ttl.html">next&gt;</a>
 
           </span>
 
@@ -215,7 +215,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
 
 
 
@@ -228,14 +228,14 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="CodeSystem-fr-additional-when-codes.html">Narrative Content</a>
+    <a href="ValueSet-fr-additional-when-codes-vs.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="CodeSystem-fr-additional-when-codes.xml.html">XML</a>
+      <a href="ValueSet-fr-additional-when-codes-vs.xml.html">XML</a>
     </li>
   
 
@@ -249,7 +249,7 @@
 
   
     <li>
-      <a href="CodeSystem-fr-additional-when-codes.ttl.html">TTL</a>
+      <a href="ValueSet-fr-additional-when-codes-vs.ttl.html">TTL</a>
     </li>
   
 
@@ -261,7 +261,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: code system Interop&#39;Santé - Codes additionnels pour l&#39;élément when - JSON Representation</h2>
+<h2 id="root">: value set Interop&#39;Santé - Codes additionnels pour l&#39;élément when - JSON Representation</h2>
 
   <table class="colsd">
     <tr>
@@ -270,7 +270,7 @@
         
           Draft
           
-            as of 2026-02-02
+            as of 2026-02-23
           
         
       </td>
@@ -279,7 +279,7 @@
   </table>
 
 
-<p><a href="CodeSystem-fr-additional-when-codes.json" no-download="true">Raw json</a> | <a href="CodeSystem-fr-additional-when-codes.json" download>Download</a></p>
+<p><a href="ValueSet-fr-additional-when-codes-vs.json" no-download="true">Raw json</a> | <a href="ValueSet-fr-additional-when-codes-vs.json" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -287,26 +287,26 @@
 
 
   <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">{
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
-  "<a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">id</a>" : "fr-additional-when-codes",
-  "<a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.meta">meta</a>" : {
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">id</a>" : "fr-additional-when-codes-vs",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.meta">meta</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      <a href="http://hl7.org/fhir/R4/shareablecodesystem.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      <a href="http://hl7.org/fhir/R4/shareablevalueset.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
   },
-  "<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">text</a>" : {
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : CodeSystem fr-additional-when-codes&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;fr-additional-when-codes\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcfr-additional-when-codes\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablecodesystem.html\&quot;&gt;Shareable CodeSystem&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;This  code system &lt;code&gt;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Affichage&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AGU&lt;a name=\&quot;fr-additional-when-codes-AGU\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit avant [offset] le levé / event occurs [offset] before getting up&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PGU&lt;a name=\&quot;fr-additional-when-codes-PGU\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit après [offset] le levé / event occurs [offset] after getting up&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AT&lt;a name=\&quot;fr-additional-when-codes-AT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit avant [offset] la toilette / event occurs [offset] before toilette (self grooming/washing)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;T&lt;a name=\&quot;fr-additional-when-codes-T\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit lors de la toilette / event occurs during toilette (self grooming/washing)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PT&lt;a name=\&quot;fr-additional-when-codes-PT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit après [offset] la toilette / event occurs [offset] after toilette (self grooming/washing)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ASK&lt;a name=\&quot;fr-additional-when-codes-ASK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit avant [offset] la collation / event occurs [offset] before snack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SK&lt;a name=\&quot;fr-additional-when-codes-SK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit lors de la collation / event occurs during snack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PSK&lt;a name=\&quot;fr-additional-when-codes-PSK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit après [offset] la collation / event occurs [offset] after snack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AMS&lt;a name=\&quot;fr-additional-when-codes-AMS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit avant [offset] la collation du matin / event occurs [offset] before morning snack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MS&lt;a name=\&quot;fr-additional-when-codes-MS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit lors de la collation du matin / event occurs during morning snack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PMS&lt;a name=\&quot;fr-additional-when-codes-PMS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit après [offset] la collation du matin / event occurs [offset] after morning snack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AAS&lt;a name=\&quot;fr-additional-when-codes-AAS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit avant [offset] la collation de l'après-midi / event occurs [offset] before afternoon snack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AS&lt;a name=\&quot;fr-additional-when-codes-AS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit lors de la collation de l'après-midi / event occurs during afternoon snack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PAS&lt;a name=\&quot;fr-additional-when-codes-PAS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit après [offset] la collation de l'après-midi / event occurs [offset] after afternoon snack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ABT&lt;a name=\&quot;fr-additional-when-codes-ABT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit avant [offset] le coucher / event occurs [offset] before going to bed (bedtime)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PBT&lt;a name=\&quot;fr-additional-when-codes-PBT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;L'événement se produit après [offset] le coucher / event occurs [offset] after going to bed (bedtime)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : EnsembleValeurs fr-additional-when-codes-vs&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;fr-additional-when-codes-vs\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcfr-additional-when-codes-vs\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablevalueset.html\&quot;&gt;Shareable ValueSet&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include tous les codes définis dans &lt;a href=\&quot;CodeSystem-fr-additional-when-codes-cs.html\&quot;&gt;&lt;code&gt;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs&lt;/code&gt;&lt;/a&gt;&lt;span title=\&quot;La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\&quot;&gt; version &amp;#x1F4E6;0.1.0&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   },
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "0.1.0",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "FrAdditionalWhenCodes",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a>" : "code system Interop'Santé - Codes additionnels pour l'élément when",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a>" : false,
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2026-02-02T15:38:16+00:00",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "Interop'Santé",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes-vs",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.1.0",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "FrAdditionalWhenCodesValueSet",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "value set Interop'Santé - Codes additionnels pour l'élément when",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2026-02-23T08:39:26+00:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "Interop'Santé",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "Interop'Santé",
       "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
@@ -330,8 +330,8 @@
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Le système de codage pour des périodes d'occurrence qui ne sont pas définies dans FHIR.",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a>" : "Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing.",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">jurisdiction</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
         {
@@ -342,74 +342,14 @@
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 16,
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AGU",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit avant [offset] le levé / event occurs [offset] before getting up"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PGU",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit après [offset] le levé / event occurs [offset] after getting up"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AT",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit avant [offset] la toilette / event occurs [offset] before toilette (self grooming/washing)"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "T",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit lors de la toilette / event occurs during toilette (self grooming/washing)"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PT",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit après [offset] la toilette / event occurs [offset] after toilette (self grooming/washing)"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ASK",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit avant [offset] la collation / event occurs [offset] before snack"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "SK",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit lors de la collation / event occurs during snack"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PSK",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit après [offset] la collation / event occurs [offset] after snack"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AMS",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit avant [offset] la collation du matin / event occurs [offset] before morning snack"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "MS",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit lors de la collation du matin / event occurs during morning snack"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PMS",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit après [offset] la collation du matin / event occurs [offset] after morning snack"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AAS",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit avant [offset] la collation de l'après-midi / event occurs [offset] before afternoon snack"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "AS",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit lors de la collation de l'après-midi / event occurs during afternoon snack"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PAS",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit après [offset] la collation de l'après-midi / event occurs [offset] after afternoon snack"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "ABT",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit avant [offset] le coucher / event occurs [offset] before going to bed (bedtime)"
-    },
-    {
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "PBT",
-      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "L'événement se produit après [offset] le coucher / event occurs [offset] after going to bed (bedtime)"
-    }
-  ]
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.immutable">immutable</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>" : {
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a>" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs"
+      }
+    ]
+  }
 }</code></pre>
 
 
@@ -438,7 +378,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="CodeSystem-fr-additional-when-codes.xml.html">&lt;prev</a>
+                <a href="ValueSet-fr-additional-when-codes-vs.xml.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -446,7 +386,7 @@
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="CodeSystem-fr-additional-when-codes.ttl.html">next&gt;</a>
+                <a href="ValueSet-fr-additional-when-codes-vs.ttl.html">next&gt;</a>
 
               </td>
             </tr>
@@ -456,7 +396,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Feb 2, 2026 15:38+0000">2026-02-02</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Feb 23, 2026 08:39+0000">2026-02-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

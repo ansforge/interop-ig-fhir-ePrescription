@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for eP</h1>
- <p>Generated Mon Feb 02 15:48:15 UTC 2026, FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/eprescription">https://interop.esante.gouv.fr/ig/fhir/eprescription</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html">history</a>))</p>
+ <p>Generated Mon Feb 23 08:44:33 UTC 2026, FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/eprescription">https://interop.esante.gouv.fr/ig/fhir/eprescription</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -46,6 +46,27 @@
     <td>
       <b>Choices</b>
     </td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://data.esante.gouv.fr/ansm/medicament/UCD</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -6996,6 +7017,20 @@
     <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>http://data.esante.gouv.fr/ansm/medicament/substance</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://data.esante.gouv.fr/ansm/medicament/Presentation</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://data.esante.gouv.fr/ansm/medicament/Presentation</td>
     <td>auth = , candidates=</td>
   </tr>
   <tr>
@@ -7093,8 +7128,8 @@
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -7107,8 +7142,8 @@
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -7128,8 +7163,8 @@
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -7149,22 +7184,22 @@
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -7177,29 +7212,29 @@
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -7212,50 +7247,50 @@
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -7268,57 +7303,57 @@
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -7331,153 +7366,153 @@
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://BogusSystemMedicabase.com, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
@@ -7492,8 +7527,8 @@
     <td>Use primary server for http://snomed.info/sct</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD, http://snomed.info/sct]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://snomed.info/sct]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -7512,14 +7547,14 @@
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
@@ -7554,7 +7589,7 @@
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
@@ -7624,9 +7659,16 @@
   <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code|0.1.0</td>
     <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
     <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+  </tr>
+  <tr>
+    <td>Systems handled by multiple servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|0.1.0</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/Presentation, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
+    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -7639,8 +7681,8 @@
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td>https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code|0.1.0</td>
-    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance, http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique, http://data.esante.gouv.fr/ansm/medicament/UCD]</td>
-    <td>[auth = , candidates=, auth = , candidates=, auth = , candidates=, auth = , candidates=]</td>
+    <td>[http://data.esante.gouv.fr/ansm/medicament/codeSMS, http://data.esante.gouv.fr/ansm/medicament/substance]</td>
+    <td>[auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -7656,38 +7698,10 @@
     <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
     <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4]</td>
   </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td></td>
-    <td>urn:iso:std:iso:3166</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td></td>
-    <td>urn:iso:std:iso:3166</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td></td>
-    <td>urn:iso:std:iso:3166</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td></td>
-    <td>urn:iso:std:iso:3166:-2</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4|https://tx-nordics.fhir.org/fhir/r4</td>
-  </tr>
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 615. Code Systems used: </p>
+<p>Use Count: 617. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -7710,26 +7724,32 @@
     <td></td>
   </tr>
   <tr>
+    <td>http://data.esante.gouv.fr/ansm/medicament/Presentation</td>
+    <td>2</td>
+    <td>36</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique</td>
-    <td>1</td>
-    <td>1</td>
+    <td>2</td>
+    <td>36</td>
     <td></td>
   </tr>
   <tr>
     <td>http://data.esante.gouv.fr/ansm/medicament/UCD</td>
-    <td>3</td>
+    <td>6</td>
     <td>52</td>
     <td></td>
   </tr>
   <tr>
     <td>http://data.esante.gouv.fr/ansm/medicament/codeSMS</td>
-    <td>3</td>
+    <td>6</td>
     <td>52</td>
     <td></td>
   </tr>
   <tr>
     <td>http://data.esante.gouv.fr/ansm/medicament/substance</td>
-    <td>2</td>
+    <td>5</td>
     <td>51</td>
     <td></td>
   </tr>
@@ -7777,7 +7797,7 @@
   </tr>
   <tr>
     <td>urn:iso:std:iso:3166</td>
-    <td>3</td>
+    <td>0</td>
     <td>3</td>
     <td>
       <a href="http://terminology.hl7.org/6.0.2/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>
@@ -7785,7 +7805,7 @@
   </tr>
   <tr>
     <td>urn:iso:std:iso:3166:-2</td>
-    <td>1</td>
+    <td>0</td>
     <td>2</td>
     <td>
       <a href="http://terminology.hl7.org/6.0.2/CodeSystem-v3-iso3166-2.html">ISO 3166-2 Codes for the representation of names of countries and their subdivisions — Part 2: Country subdivision code</a>
@@ -7794,6 +7814,7 @@
 </table>
 <p>ValueSets fetched:</p>
 <ul>
+  <li>http://data.esante.gouv.fr/ansm/medicament/Presentation</li>
   <li>http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique</li>
   <li>http://data.esante.gouv.fr/ansm/medicament/UCD</li>
   <li>http://data.esante.gouv.fr/ansm/medicament/codeSMS</li>

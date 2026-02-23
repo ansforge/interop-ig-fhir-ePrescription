@@ -1,11 +1,9 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>value set Interop&#39;Santé - Codes additionnels pour l&#39;élément when - TTL Representation - Guide d'implémentation de la ePrescription v0.1.0</title>
+    <title>value set Interop&#39;Santé - Codes additionnels pour l&#39;élément when - Testing - Guide d'implémentation de la ePrescription v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -68,7 +66,7 @@
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  FRANCE
 
 
             </span>
@@ -196,11 +194,11 @@
 
           <span style="float:right;">
 
-            <a href="ValueSet-fr-additional-when-codes.json.html">&lt;prev</a> | 
+            <a href="ValueSet-fr-additional-when-codes-vs.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="ValueSet-fr-medication-code.html">next&gt;</a>
+          | <a href="ValueSet-fr-additional-when-codes-vs.xml.html">next&gt;</a>
 
           </span>
 
@@ -214,9 +212,9 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
-
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  
 
 
 
@@ -228,28 +226,28 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="ValueSet-fr-additional-when-codes.html">Narrative Content</a>
+    <a href="ValueSet-fr-additional-when-codes-vs.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="ValueSet-fr-additional-when-codes.xml.html">XML</a>
+      <a href="ValueSet-fr-additional-when-codes-vs.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="ValueSet-fr-additional-when-codes.json.html">JSON</a>
+      <a href="ValueSet-fr-additional-when-codes-vs.json.html">JSON</a>
     </li>
   
 
 
   
-    <li class="active">
-      <a href="#">TTL</a>
+    <li>
+      <a href="ValueSet-fr-additional-when-codes-vs.ttl.html">TTL</a>
     </li>
   
 
@@ -257,11 +255,11 @@
 
 </ul>
 
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: value set Interop&#39;Santé - Codes additionnels pour l&#39;élément when - Testing
 
-<a name="root"> </a>
+  </h2>
 
-
-<h2 id="root">: value set Interop&#39;Santé - Codes additionnels pour l&#39;élément when - TTL Representation</h2>
 
   <table class="colsd">
     <tr>
@@ -270,7 +268,7 @@
         
           Draft
           
-            as of 2026-02-02
+            as of 2026-02-23
           
         
       </td>
@@ -279,81 +277,27 @@
   </table>
 
 
-<p><a href="ValueSet-fr-additional-when-codes.ttl" no-download="true">Raw ttl</a> | <a href="ValueSet-fr-additional-when-codes.ttl" download>Download</a></p>
-
-  <!-- insert intro if present -->
-  
 
 
-
-  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden"><code class="language-turtle">
-@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
-
-# - resource -------------------------------------------------------------------
-
- a fhir:ValueSet ;
-  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;fr-additional-when-codes&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/resource.html#ValueSet.meta">fhir:meta</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/shareablevalueset&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablevalueset&gt;     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : EnsembleValeurs fr-additional-when-codes&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;fr-additional-when-codes\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcfr-additional-when-codes\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablevalueset.html\&quot;&gt;Shareable ValueSet&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Include tous les codes définis dans &lt;a href=\&quot;CodeSystem-fr-additional-when-codes.html\&quot;&gt;&lt;code&gt;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes&lt;/code&gt;&lt;/a&gt;&lt;span title=\&quot;La version nest pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\&quot;&gt; version ?0.1.0&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">fhir:url</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes&gt;
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.1.0&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FrAdditionalWhenCodes&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;value set Interop'Santé - Codes additionnels pour l'élément when&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2026-02-02T15:38:16+00:00&quot;^^xsd:dateTime] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Interop'Santé&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">fhir:contact</a> ( [
-<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Interop'Santé&quot; ] ;
-    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;url&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://interopsante.org/&quot; ]     ] )
-  ] [
-<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris&quot; ] ;
-    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;url&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;https://esante.gouv.fr&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;monserviceclient.annuaire@esante.gouv.fr&quot; ]     ] )
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing.&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">fhir:jurisdiction</a> ( [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:iso:std:iso:3166&gt;       ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;FR&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FRANCE&quot; ]     ] )
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.immutable">fhir:immutable</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
-  <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">fhir:compose</a> [
-    ( <a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">fhir:include</a> [
-<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes&gt;       ]     ] )
-  ] . # 
-
-</code></pre>
+<!-- insert intro if present -->
 
 
 
-  <!-- insert notes if present -->
-  
+
+<h3>Test Plans</h3>
+
+  <p><b>No test plans are currently available for the  ValueSet.</b></p>
+
+
+<h3>Test Scripts</h3>
+
+  <p><b>No test scripts are currently available for the  ValueSet.</b></p>
+
+
+<!-- insert notes if present -->
+
+
+
 
 
 
@@ -377,7 +321,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="ValueSet-fr-additional-when-codes.json.html">&lt;prev</a>
+                <a href="ValueSet-fr-additional-when-codes-vs.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -385,7 +329,7 @@
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="ValueSet-fr-medication-code.html">next&gt;</a>
+                <a href="ValueSet-fr-additional-when-codes-vs.xml.html">next&gt;</a>
 
               </td>
             </tr>
@@ -395,7 +339,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Feb 2, 2026 15:38+0000">2026-02-02</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Feb 23, 2026 08:39+0000">2026-02-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -24,7 +24,7 @@
 ### CodeSystems
 
 * [Interop'Santé code system - Additional codes for relationship between action](CodeSystem-fr-additional-action-relationship-type.md)
-* [code system Interop'Santé - Codes additionnels pour l'élément when](CodeSystem-fr-additional-when-codes.md)
+* [code system Interop'Santé - Codes additionnels pour l'élément when](CodeSystem-fr-additional-when-codes-cs.md)
 * [code system Interop'Santé - Codes pour le périmètre des notes](CodeSystem-fr-note-scope-codes.md)
 * [code system Interop'Santé - Codes pour typer le rôle des UF par rapport à un séjour patient](CodeSystem-fr-uf-role-codes.md)
 
@@ -32,7 +32,8 @@
 
 * [French Method Of Administration](ValueSet-FrMethodOfAdministration.md)
 * [Interop'Santé value set - Additional codes for relationship between action](ValueSet-fr-additional-action-relationship-type-value-set.md)
-* [value set Interop'Santé - Codes additionnels pour l'élément when](ValueSet-fr-additional-when-codes.md)
+* [value set Interop'Santé - Codes additionnels pour l'élément when](ValueSet-fr-additional-when-codes-vs.md)
+* [value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier](ValueSet-fr-inpatient-medication-code.md)
 * [value set Interop'Santé - Codes identifiant les médicaments](ValueSet-fr-medication-code.md)
 * [French Medicinal product Dose form](ValueSet-fr-mp-dose-form.md)
 * [value set Interop'Santé - Codes pour le périmètre des notes](ValueSet-fr-note-scope-codes-vs.md)

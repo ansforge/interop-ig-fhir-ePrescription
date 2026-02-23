@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>code system Interop&#39;Santé - Codes additionnels pour l&#39;élément when - Testing - Guide d'implémentation de la ePrescription v0.1.0</title>
+    <title>code system Interop&#39;Santé - Codes additionnels pour l&#39;élément when - Guide d'implémentation de la ePrescription v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"6.33"}
-    h3,h4,h5,h6{--heading-prefix:"6.33"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.34"}
+    h3,h4,h5,h6{--heading-prefix:"6.34"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -66,7 +66,7 @@
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  FRANCE
 
 
             </span>
@@ -194,11 +194,11 @@
 
           <span style="float:right;">
 
-            <a href="CodeSystem-fr-additional-when-codes.html">&lt;prev</a> | 
+            <a href="ValueSet-fr-uf-role-code-for-prescription.ttl.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="CodeSystem-fr-additional-when-codes.xml.html">next&gt;</a>
+          | <a href="CodeSystem-fr-additional-when-codes-cs-testing.html">next&gt;</a>
 
           </span>
 
@@ -213,7 +213,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
   
 
 
@@ -225,29 +225,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="CodeSystem-fr-additional-when-codes.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="CodeSystem-fr-additional-when-codes.xml.html">XML</a>
+      <a href="CodeSystem-fr-additional-when-codes-cs.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="CodeSystem-fr-additional-when-codes.json.html">JSON</a>
+      <a href="CodeSystem-fr-additional-when-codes-cs.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="CodeSystem-fr-additional-when-codes.ttl.html">TTL</a>
+      <a href="CodeSystem-fr-additional-when-codes-cs.ttl.html">TTL</a>
     </li>
   
 
@@ -256,50 +256,111 @@
 </ul>
 
   <a name="root"> </a>
-  <h2 id="root">CodeSystem: code system Interop&#39;Santé - Codes additionnels pour l&#39;élément when - Testing
+  <h2 id="root">CodeSystem: code system Interop&#39;Santé - Codes additionnels pour l&#39;élément when
 
   </h2>
 
-
   <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs|0.1.0"/></span>
+      </td>
+    </tr>
+
     <tr>
 
-      <td colspan="2">
+
+
+
+
+
+
+      <td colspan="4">
         
           Draft
           
-            as of 2026-02-02
+            as of 2026-02-23
           
         
       </td>
 
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">FrAdditionalWhenCodesCodeSystem</span></td>
     </tr>
+
+
+
+
   </table>
 
+<p>
+<p>Le système de codage pour des périodes d’occurrence qui ne sont pas définies dans FHIR.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
 
 
 
-<!-- insert intro if present -->
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-fr-additional-when-codes-vs.html">FrAdditionalWhenCodesValueSet</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="fr-additional-when-codes-cs"> </a><a name="hcfr-additional-when-codes-cs"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"></p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p>This  code system <code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td></tr>
+<tr><td style="white-space:nowrap">AGU<a name="fr-additional-when-codes-cs-AGU"> </a></td>
+<td>L'événement se produit avant [offset] le levé / event occurs [offset] before getting up</td></tr>
+<tr><td style="white-space:nowrap">PGU<a name="fr-additional-when-codes-cs-PGU"> </a></td>
+<td>L'événement se produit après [offset] le levé / event occurs [offset] after getting up</td></tr>
+<tr><td style="white-space:nowrap">AT<a name="fr-additional-when-codes-cs-AT"> </a></td>
+<td>L'événement se produit avant [offset] la toilette / event occurs [offset] before toilette (self grooming/washing)</td></tr>
+<tr><td style="white-space:nowrap">T<a name="fr-additional-when-codes-cs-T"> </a></td>
+<td>L'événement se produit lors de la toilette / event occurs during toilette (self grooming/washing)</td></tr>
+<tr><td style="white-space:nowrap">PT<a name="fr-additional-when-codes-cs-PT"> </a></td>
+<td>L'événement se produit après [offset] la toilette / event occurs [offset] after toilette (self grooming/washing)</td></tr>
+<tr><td style="white-space:nowrap">ASK<a name="fr-additional-when-codes-cs-ASK"> </a></td>
+<td>L'événement se produit avant [offset] la collation / event occurs [offset] before snack</td></tr>
+<tr><td style="white-space:nowrap">SK<a name="fr-additional-when-codes-cs-SK"> </a></td>
+<td>L'événement se produit lors de la collation / event occurs during snack</td></tr>
+<tr><td style="white-space:nowrap">PSK<a name="fr-additional-when-codes-cs-PSK"> </a></td>
+<td>L'événement se produit après [offset] la collation / event occurs [offset] after snack</td></tr>
+<tr><td style="white-space:nowrap">AMS<a name="fr-additional-when-codes-cs-AMS"> </a></td>
+<td>L'événement se produit avant [offset] la collation du matin / event occurs [offset] before morning snack</td></tr>
+<tr><td style="white-space:nowrap">MS<a name="fr-additional-when-codes-cs-MS"> </a></td>
+<td>L'événement se produit lors de la collation du matin / event occurs during morning snack</td></tr>
+<tr><td style="white-space:nowrap">PMS<a name="fr-additional-when-codes-cs-PMS"> </a></td>
+<td>L'événement se produit après [offset] la collation du matin / event occurs [offset] after morning snack</td></tr>
+<tr><td style="white-space:nowrap">AAS<a name="fr-additional-when-codes-cs-AAS"> </a></td>
+<td>L'événement se produit avant [offset] la collation de l'après-midi / event occurs [offset] before afternoon snack</td></tr>
+<tr><td style="white-space:nowrap">AS<a name="fr-additional-when-codes-cs-AS"> </a></td>
+<td>L'événement se produit lors de la collation de l'après-midi / event occurs during afternoon snack</td></tr>
+<tr><td style="white-space:nowrap">PAS<a name="fr-additional-when-codes-cs-PAS"> </a></td>
+<td>L'événement se produit après [offset] la collation de l'après-midi / event occurs [offset] after afternoon snack</td></tr>
+<tr><td style="white-space:nowrap">ABT<a name="fr-additional-when-codes-cs-ABT"> </a></td>
+<td>L'événement se produit avant [offset] le coucher / event occurs [offset] before going to bed (bedtime)</td></tr>
+<tr><td style="white-space:nowrap">PBT<a name="fr-additional-when-codes-cs-PBT"> </a></td>
+<td>L'événement se produit après [offset] le coucher / event occurs [offset] after going to bed (bedtime)</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
 
 
 
-
-<h3>Test Plans</h3>
-
-  <p><b>No test plans are currently available for the  CodeSystem.</b></p>
-
-
-<h3>Test Scripts</h3>
-
-  <p><b>No test scripts are currently available for the  CodeSystem.</b></p>
-
-
-<!-- insert notes if present -->
-
-
-
-
-
+  
 
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -321,7 +382,7 @@
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="CodeSystem-fr-additional-when-codes.html">&lt;prev</a>
+                <a href="ValueSet-fr-uf-role-code-for-prescription.ttl.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -329,7 +390,7 @@
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="CodeSystem-fr-additional-when-codes.xml.html">next&gt;</a>
+                <a href="CodeSystem-fr-additional-when-codes-cs-testing.html">next&gt;</a>
 
               </td>
             </tr>
@@ -339,7 +400,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Feb 2, 2026 15:38+0000">2026-02-02</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Feb 23, 2026 08:39+0000">2026-02-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form | *Version*:0.1.0 |
-| Draft as of 2026-02-02 | *Computable Name*:FrMpDoseForm |
+| Draft as of 2026-02-23 | *Computable Name*:FrMpDoseForm |
 
  
 Le jeu de valeurs à utiliser pour coder l’élément **doseForm** des ressources **FrMedication**. 
@@ -55,51 +55,39 @@ Le jeu de valeurs à utiliser pour coder l’élément **doseForm** des ressourc
   "title" : "French Medicinal product Dose form",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-02-02T15:38:16+00:00",
+  "date" : "2026-02-23T08:39:26+00:00",
   "publisher" : "Interop'Santé",
-  "contact" : [
-    {
-      "name" : "Interop'Santé",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://interopsante.org/"
-        }
-      ]
+  "contact" : [{
+    "name" : "Interop'Santé",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://interopsante.org/"
+    }]
+  },
+  {
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
     },
     {
-      "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://esante.gouv.fr"
-        },
-        {
-          "system" : "email",
-          "value" : "monserviceclient.annuaire@esante.gouv.fr"
-        }
-      ]
-    }
-  ],
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
   "description" : "Le jeu de valeurs à utiliser pour coder l'élément *doseForm* des ressources *FrMedication*.",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
   "immutable" : false,
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://standardterms.edqm.eu"
-      }
-    ]
+    "include" : [{
+      "system" : "http://standardterms.edqm.eu"
+    }]
   }
 }
 

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code | *Version*:0.1.0 |
-| Draft as of 2026-02-02 | *Computable Name*:FrSubstanceCode |
+| Draft as of 2026-02-23 | *Computable Name*:FrSubstanceCode |
 
  
 Le jeu de valeurs à utiliser pour indiquer un ingrédient composant un médicament dans Medication.ingredient.itemCodeableConcept.coding.code 
@@ -53,60 +53,42 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "title" : "value set Interop'Santé - Codes identifiant les substances",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-02-02T15:38:16+00:00",
+  "date" : "2026-02-23T08:39:26+00:00",
   "publisher" : "Interop'Santé",
-  "contact" : [
-    {
-      "name" : "Interop'Santé",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://interopsante.org/"
-        }
-      ]
+  "contact" : [{
+    "name" : "Interop'Santé",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://interopsante.org/"
+    }]
+  },
+  {
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
     },
     {
-      "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://esante.gouv.fr"
-        },
-        {
-          "system" : "email",
-          "value" : "monserviceclient.annuaire@esante.gouv.fr"
-        }
-      ]
-    }
-  ],
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
   "description" : "Le jeu de valeurs à utiliser pour indiquer un ingrédient composant un médicament dans Medication.ingredient.itemCodeableConcept.coding.code",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
   "immutable" : false,
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
-      },
-      {
-        "system" : "http://data.esante.gouv.fr/ansm/medicament/substance"
-      },
-      {
-        "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD"
-      },
-      {
-        "system" : "http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique"
-      }
-    ]
+    "include" : [{
+      "system" : "http://data.esante.gouv.fr/ansm/medicament/codeSMS"
+    },
+    {
+      "system" : "http://data.esante.gouv.fr/ansm/medicament/substance"
+    }]
   }
 }
 

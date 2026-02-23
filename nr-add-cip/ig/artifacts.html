@@ -66,7 +66,7 @@
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  FRANCE
 
 
             </span>
@@ -220,7 +220,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guide d'implémentation de la ePrescription - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -565,8 +565,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ValueSet-fr-additional-when-codes.html"
-                  title="ValueSet/fr-additional-when-codes">value set Interop'Santé - Codes additionnels pour l'élément when</a>
+               <a href="ValueSet-fr-additional-when-codes-vs.html"
+                  title="ValueSet/fr-additional-when-codes-vs">value set Interop'Santé - Codes additionnels pour l'élément when</a>
             </td>
             <td>
 <p>Le jeu de valeurs à utiliser pour coder des périodes d’occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing.</p>
@@ -576,6 +576,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <td style="column-width:30%">
                <a href="ValueSet-fr-medication-code.html"
                   title="ValueSet/fr-medication-code">value set Interop'Santé - Codes identifiant les médicaments</a>
+            </td>
+            <td>
+<p>Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-fr-inpatient-medication-code.html"
+                  title="ValueSet/fr-inpatient-medication-code">value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier</a>
             </td>
             <td>
 <p>Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code</p>
@@ -627,8 +636,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="CodeSystem-fr-additional-when-codes.html"
-                  title="CodeSystem/fr-additional-when-codes">code system Interop'Santé - Codes additionnels pour l'élément when</a>
+               <a href="CodeSystem-fr-additional-when-codes-cs.html"
+                  title="CodeSystem/fr-additional-when-codes-cs">code system Interop'Santé - Codes additionnels pour l'élément when</a>
             </td>
             <td>
 <p>Le système de codage pour des périodes d’occurrence qui ne sont pas définies dans FHIR.</p>
@@ -1622,7 +1631,7 @@ Avec un maximum de 6 comprimés par jour. QSP 6 mois.</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Feb 2, 2026 15:38+0000">2026-02-02</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Feb 23, 2026 08:39+0000">2026-02-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "ans.fhir.fr.eprescription"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"ans.fhir.fr.eprescription\"> </a><a name=\"hcans.fhir.fr.eprescription\"> </a><h2>eP</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"ans.fhir.fr.eprescription\"> </a><a name=\"hcans.fhir.fr.eprescription\"> </a><h2>eP</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription"^^xsd:anyURI ;
@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "eP"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la ePrescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-02-02T15:38:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-23T08:39:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -1516,8 +1516,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes> ;
-         fhir:reference [ fhir:v "CodeSystem/fr-additional-when-codes" ]
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/fr-additional-when-codes-cs" ]
        ] ;
        fhir:name [ fhir:v "code system Interop'Santé - Codes additionnels pour l'élément when" ] ;
        fhir:description [ fhir:v "Le système de codage pour des périodes d'occurrence qui ne sont pas définies dans FHIR." ] ;
@@ -4310,8 +4310,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes> ;
-         fhir:reference [ fhir:v "ValueSet/fr-additional-when-codes" ]
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes-vs> ;
+         fhir:reference [ fhir:v "ValueSet/fr-additional-when-codes-vs" ]
        ] ;
        fhir:name [ fhir:v "value set Interop'Santé - Codes additionnels pour l'élément when" ] ;
        fhir:description [ fhir:v "Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing." ] ;
@@ -4335,6 +4335,27 @@
          fhir:reference [ fhir:v "ValueSet/fr-medication-code" ]
        ] ;
        fhir:name [ fhir:v "value set Interop'Santé - Codes identifiant les médicaments" ] ;
+       fhir:description [ fhir:v "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code> ;
+         fhir:reference [ fhir:v "ValueSet/fr-inpatient-medication-code" ]
+       ] ;
+       fhir:name [ fhir:v "value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier" ] ;
        fhir:description [ fhir:v "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code" ] ;
        fhir:example [
          a fhir:Boolean ;

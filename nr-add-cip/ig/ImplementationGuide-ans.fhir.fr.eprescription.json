@@ -3,14 +3,14 @@
   "id" : "ans.fhir.fr.eprescription",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"ans.fhir.fr.eprescription\"> </a><a name=\"hcans.fhir.fr.eprescription\"> </a><h2>eP</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"ans.fhir.fr.eprescription\"> </a><a name=\"hcans.fhir.fr.eprescription\"> </a><h2>eP</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
   "version" : "0.1.0",
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-02-02T15:38:16+00:00",
+  "date" : "2026-02-23T08:39:26+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -723,7 +723,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/fr-additional-when-codes"
+        "reference" : "CodeSystem/fr-additional-when-codes-cs"
       },
       "name" : "code system Interop'Santé - Codes additionnels pour l'élément when",
       "description" : "Le système de codage pour des périodes d'occurrence qui ne sont pas définies dans FHIR.",
@@ -2271,7 +2271,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/fr-additional-when-codes"
+        "reference" : "ValueSet/fr-additional-when-codes-vs"
       },
       "name" : "value set Interop'Santé - Codes additionnels pour l'élément when",
       "description" : "Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing.",
@@ -2286,6 +2286,18 @@
         "reference" : "ValueSet/fr-medication-code"
       },
       "name" : "value set Interop'Santé - Codes identifiant les médicaments",
+      "description" : "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/fr-inpatient-medication-code"
+      },
+      "name" : "value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier",
       "description" : "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code",
       "exampleBoolean" : false
     },
