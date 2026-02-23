@@ -13,6 +13,9 @@ Profil français de modélisation de la ligne de prescription médicamenteuse en
 * note.extension[noteScope] ^definition = "States where the content of the note comes from"
 * note.extension[noteScope] ^comment = "Extension used for translating PN13 messages into FHIR in order to discriminate the notes and not concatenate all the PN13 textual information into a single note which would be difficult to understand"
 
+
+* medication[x] from fr-inpatient-medication-code (required) 
+
 * dispenseRequest.dispenseInterval ..0
 * dispenseRequest.validityPeriod.start 1..
 * dispenseRequest.validityPeriod.start ^definition = "DateTime of the first prescribed dose."

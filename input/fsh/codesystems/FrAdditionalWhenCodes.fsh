@@ -1,5 +1,5 @@
-CodeSystem: FrAdditionalWhenCodes
-Id: fr-additional-when-codes
+CodeSystem: FrAdditionalWhenCodesCodeSystem
+Id: fr-additional-when-codes-cs
 Title: "code system Interop'Santé - Codes additionnels pour l'élément when"
 Description: "Le système de codage pour des périodes d'occurrence qui ne sont pas définies dans FHIR."
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
