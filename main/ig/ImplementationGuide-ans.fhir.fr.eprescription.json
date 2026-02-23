@@ -10,7 +10,7 @@
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-02-09T09:37:19+00:00",
+  "date" : "2026-02-23T11:15:05+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -723,7 +723,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/fr-additional-when-codes"
+        "reference" : "CodeSystem/fr-additional-when-codes-cs"
       },
       "name" : "code system Interop'Santé - Codes additionnels pour l'élément when",
       "description" : "Le système de codage pour des périodes d'occurrence qui ne sont pas définies dans FHIR.",
@@ -2271,7 +2271,7 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/fr-additional-when-codes"
+        "reference" : "ValueSet/fr-additional-when-codes-vs"
       },
       "name" : "value set Interop'Santé - Codes additionnels pour l'élément when",
       "description" : "Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing.",
@@ -2286,6 +2286,18 @@
         "reference" : "ValueSet/fr-medication-code"
       },
       "name" : "value set Interop'Santé - Codes identifiant les médicaments",
+      "description" : "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/fr-inpatient-medication-code"
+      },
+      "name" : "value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier",
       "description" : "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code",
       "exampleBoolean" : false
     },

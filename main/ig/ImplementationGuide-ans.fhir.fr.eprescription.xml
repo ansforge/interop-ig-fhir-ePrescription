@@ -10,7 +10,7 @@
   <name value="eP"/>
   <title value="Guide d'implémentation de la ePrescription"/>
   <status value="draft"/>
-  <date value="2026-02-09T09:37:19+00:00"/>
+  <date value="2026-02-23T11:15:05+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -545,7 +545,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/fr-additional-when-codes"/>
+        <reference value="CodeSystem/fr-additional-when-codes-cs"/>
       </reference>
       <name value="code system Interop'Santé - Codes additionnels pour l'élément when"/>
       <description value="Le système de codage pour des périodes d'occurrence qui ne sont pas définies dans FHIR."/>
@@ -1964,7 +1964,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/fr-additional-when-codes"/>
+        <reference value="ValueSet/fr-additional-when-codes-vs"/>
       </reference>
       <name value="value set Interop'Santé - Codes additionnels pour l'élément when"/>
       <description value="Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing."/>
@@ -1978,6 +1978,17 @@
         <reference value="ValueSet/fr-medication-code"/>
       </reference>
       <name value="value set Interop'Santé - Codes identifiant les médicaments"/>
+      <description value="Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/fr-inpatient-medication-code"/>
+      </reference>
+      <name value="value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier"/>
       <description value="Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code"/>
       <exampleBoolean value="false"/>
     </resource>

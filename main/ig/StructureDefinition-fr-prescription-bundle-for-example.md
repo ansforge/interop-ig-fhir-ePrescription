@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example | *Version*:0.1.0 |
-| Draft as of 2026-02-09 | *Computable Name*:FRPrescriptionBundleForExample |
+| Draft as of 2026-02-23 | *Computable Name*:FRPrescriptionBundleForExample |
 
  
 Profil de la ressource Bundle pour la constitution d’exemples de prescription. 
@@ -44,97 +44,83 @@ Other representations of profile: [CSV](StructureDefinition-fr-prescription-bund
   "name" : "FRPrescriptionBundleForExample",
   "title" : "FR Prescription Bundle For Example",
   "status" : "draft",
-  "date" : "2026-02-09T09:37:19+00:00",
+  "date" : "2026-02-23T11:15:05+00:00",
   "publisher" : "Interop'Santé",
-  "contact" : [
-    {
-      "name" : "Interop'Santé",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://interopsante.org/"
-        }
-      ]
+  "contact" : [{
+    "name" : "Interop'Santé",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://interopsante.org/"
+    }]
+  },
+  {
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
     },
     {
-      "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://esante.gouv.fr"
-        },
-        {
-          "system" : "email",
-          "value" : "monserviceclient.annuaire@esante.gouv.fr"
-        }
-      ]
-    }
-  ],
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
   "description" : "Profil de la ressource Bundle pour la constitution d'exemples de prescription.",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
   "purpose" : "Ce profil est utilisé pour la constitution d'exemples de prescription en FHIR. Toutes les prescriptions en FHIR ne sont pas forcément présentées sous la forme de ressource Bundle suivant ce profil, la représentation dépend de l'architecture du (ou des) serveur(s) FHIR interrogé(s). Cf. section 21 de la page sur la transformation PN13 vers FHIR pour plus de détail.",
   "fhirVersion" : "4.0.1",
-  "mapping" : [
-    {
-      "identity" : "v2",
-      "uri" : "http://hl7.org/v2",
-      "name" : "HL7 v2 Mapping"
-    },
-    {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    },
-    {
-      "identity" : "cda",
-      "uri" : "http://hl7.org/v3/cda",
-      "name" : "CDA (R2)"
-    },
-    {
-      "identity" : "w5",
-      "uri" : "http://hl7.org/fhir/fivews",
-      "name" : "FiveWs Pattern Mapping"
-    }
-  ],
+  "mapping" : [{
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 v2 Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "cda",
+    "uri" : "http://hl7.org/v3/cda",
+    "name" : "CDA (R2)"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  }],
   "kind" : "resource",
   "abstract" : false,
   "type" : "Bundle",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Bundle",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [
-      {
-        "id" : "Bundle",
-        "path" : "Bundle",
-        "short" : "Bundle exemple de prescription",
-        "definition" : "Exemple de prescription contenant l'ensemble des ressources issus d'une traduction d'un message PN13 de prescription en FHIR"
-      },
-      {
-        "id" : "Bundle.implicitRules",
-        "path" : "Bundle.implicitRules",
-        "max" : "0"
-      },
-      {
-        "id" : "Bundle.language",
-        "path" : "Bundle.language",
-        "defaultValueCode" : "fr-FR"
-      },
-      {
-        "id" : "Bundle.type",
-        "path" : "Bundle.type",
-        "defaultValueCode" : "searchset"
-      }
-    ]
+    "element" : [{
+      "id" : "Bundle",
+      "path" : "Bundle",
+      "short" : "Bundle exemple de prescription",
+      "definition" : "Exemple de prescription contenant l'ensemble des ressources issus d'une traduction d'un message PN13 de prescription en FHIR"
+    },
+    {
+      "id" : "Bundle.implicitRules",
+      "path" : "Bundle.implicitRules",
+      "max" : "0"
+    },
+    {
+      "id" : "Bundle.language",
+      "path" : "Bundle.language",
+      "defaultValueCode" : "fr-FR"
+    },
+    {
+      "id" : "Bundle.type",
+      "path" : "Bundle.type",
+      "defaultValueCode" : "searchset"
+    }]
   }
 }
 

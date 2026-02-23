@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-encounter-conceptmap | *Version*:0.1.0 |
-| Draft as of 2026-02-09 | *Computable Name*:FrPN13FHIRMedicationPrescriptionEncounterConceptMap |
+| Draft as of 2026-02-23 | *Computable Name*:FrPN13FHIRMedicationPrescriptionEncounterConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR d’un séjour d’une prescritpion de médicament 
@@ -27,71 +27,53 @@ ConceptMap pour la conversion PN13 vers FHIR d’un séjour d’une prescritpion
   "name" : "FrPN13FHIRMedicationPrescriptionEncounterConceptMap",
   "title" : "Conversion PN13 vers FHIR pour un séjour d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2026-02-09T09:37:19+00:00",
+  "date" : "2026-02-23T11:15:05+00:00",
   "publisher" : "Interop'Santé",
-  "contact" : [
-    {
-      "name" : "Interop'Santé",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://interopsante.org/"
-        }
-      ]
+  "contact" : [{
+    "name" : "Interop'Santé",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://interopsante.org/"
+    }]
+  },
+  {
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
     },
     {
-      "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://esante.gouv.fr"
-        },
-        {
-          "system" : "email",
-          "value" : "monserviceclient.annuaire@esante.gouv.fr"
-        }
-      ]
-    }
-  ],
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
   "description" : "ConceptMap pour la conversion PN13 vers FHIR d'un séjour d'une prescritpion de médicament",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
   "sourceUri" : "https://interopsante.org/pn13/xsd",
   "targetUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest",
-  "group" : [
+  "group" : [{
+    "element" : [{
+      "code" : "Messages/M_prescription_médicaments/Séjour/Id_séjour",
+      "target" : [{
+        "code" : "MedicationRequest.encounter.identifier.value",
+        "equivalence" : "equal"
+      }]
+    },
     {
-      "element" : [
-        {
-          "code" : "Messages/M_prescription_médicaments/Séjour/Id_séjour",
-          "target" : [
-            {
-              "code" : "MedicationRequest.encounter.identifier.value",
-              "equivalence" : "equal"
-            }
-          ]
-        },
-        {
-          "code" : "Messages/M_prescription_médicaments/Séjour/DI_séjour",
-          "target" : [
-            {
-              "code" : "MedicationRequest.encounter.identifier.system",
-              "equivalence" : "equivalent",
-              "comment" : "Le domaine d'identification PN13 doit être exprimé sous le format uri pour alimenter patient.identifer.system. Par exemple, les domaines d'identification sous forme d'OID doivent être préfixés par urn:oid:"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+      "code" : "Messages/M_prescription_médicaments/Séjour/DI_séjour",
+      "target" : [{
+        "code" : "MedicationRequest.encounter.identifier.system",
+        "equivalence" : "equivalent",
+        "comment" : "Le domaine d'identification PN13 doit être exprimé sous le format uri pour alimenter patient.identifer.system. Par exemple, les domaines d'identification sous forme d'OID doivent être préfixés par urn:oid:"
+      }]
+    }]
+  }]
 }
 
 ```

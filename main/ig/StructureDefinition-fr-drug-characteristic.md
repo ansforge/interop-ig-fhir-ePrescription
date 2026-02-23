@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic | *Version*:0.1.0 |
-| Draft as of 2026-02-09 | *Computable Name*:FrDrugCharacteristic |
+| Draft as of 2026-02-23 | *Computable Name*:FrDrugCharacteristic |
 
 Specifies descriptive properties of the medicine
 
@@ -52,156 +52,136 @@ Other representations of profile: [CSV](StructureDefinition-fr-drug-characterist
   "name" : "FrDrugCharacteristic",
   "title" : "Medication descriptive properties",
   "status" : "draft",
-  "date" : "2026-02-09T09:37:19+00:00",
+  "date" : "2026-02-23T11:15:05+00:00",
   "publisher" : "Interop'Santé",
-  "contact" : [
-    {
-      "name" : "Interop'Santé",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://interopsante.org/"
-        }
-      ]
+  "contact" : [{
+    "name" : "Interop'Santé",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://interopsante.org/"
+    }]
+  },
+  {
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
     },
     {
-      "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://esante.gouv.fr"
-        },
-        {
-          "system" : "email",
-          "value" : "monserviceclient.annuaire@esante.gouv.fr"
-        }
-      ]
-    }
-  ],
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
   "description" : "Specifies descriptive properties of the medicine",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
   "fhirVersion" : "4.0.1",
-  "mapping" : [
-    {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    }
-  ],
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
   "kind" : "complex-type",
   "abstract" : false,
-  "context" : [
-    {
-      "type" : "element",
-      "expression" : "Medication"
-    }
-  ],
+  "context" : [{
+    "type" : "element",
+    "expression" : "Medication"
+  }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
   "derivation" : "constraint",
   "differential" : {
-    "element" : [
-      {
-        "id" : "Extension",
-        "path" : "Extension",
-        "short" : "Descriptive properties of the medicine",
-        "definition" : "Specifies descriptive properties of the medicine, such as color, shape, imprints, release characteristic, etc."
-      },
-      {
-        "id" : "Extension.extension:type",
-        "path" : "Extension.extension",
-        "sliceName" : "type",
-        "short" : "Type of the drug characteristic",
-        "definition" : "A code specifying which characteristic of the medicine is being described (for example, colour, shape, imprint, release characteristic).",
-        "min" : 0,
-        "max" : "1"
-      },
-      {
-        "id" : "Extension.extension:type.extension",
-        "path" : "Extension.extension.extension",
-        "max" : "0"
-      },
-      {
-        "id" : "Extension.extension:type.url",
-        "path" : "Extension.extension.url",
-        "fixedUri" : "type"
-      },
-      {
-        "id" : "Extension.extension:type.value[x]",
-        "path" : "Extension.extension.value[x]",
-        "short" : "Type of characteristic",
-        "definition" : "A code specifying which characteristic of the medicine is being described.",
-        "type" : [
-          {
-            "code" : "CodeableConcept"
-          }
-        ],
-        "binding" : {
-          "strength" : "example",
-          "valueSet" : "http://hl7.org/fhir/ValueSet/medicationknowledge-characteristic"
-        }
-      },
-      {
-        "id" : "Extension.extension:value",
-        "path" : "Extension.extension",
-        "sliceName" : "value",
-        "short" : "Description of the characteristic",
-        "definition" : "The description should be provided as a CodeableConcept, SimpleQuantity or an image. The description can be a string only when these others are not available.",
-        "min" : 0,
-        "max" : "*"
-      },
-      {
-        "id" : "Extension.extension:value.extension",
-        "path" : "Extension.extension.extension",
-        "max" : "0"
-      },
-      {
-        "id" : "Extension.extension:value.url",
-        "path" : "Extension.extension.url",
-        "fixedUri" : "value"
-      },
-      {
-        "id" : "Extension.extension:value.value[x]",
-        "path" : "Extension.extension.value[x]",
-        "type" : [
-          {
-            "code" : "base64Binary"
-          },
-          {
-            "code" : "string"
-          },
-          {
-            "code" : "Attachment"
-          },
-          {
-            "code" : "CodeableConcept"
-          },
-          {
-            "code" : "Quantity"
-          }
-        ]
-      },
-      {
-        "id" : "Extension.url",
-        "path" : "Extension.url",
-        "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic"
-      },
-      {
-        "id" : "Extension.value[x]",
-        "path" : "Extension.value[x]",
-        "max" : "0"
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "short" : "Descriptive properties of the medicine",
+      "definition" : "Specifies descriptive properties of the medicine, such as color, shape, imprints, release characteristic, etc."
+    },
+    {
+      "id" : "Extension.extension:type",
+      "path" : "Extension.extension",
+      "sliceName" : "type",
+      "short" : "Type of the drug characteristic",
+      "definition" : "A code specifying which characteristic of the medicine is being described (for example, colour, shape, imprint, release characteristic).",
+      "min" : 0,
+      "max" : "1"
+    },
+    {
+      "id" : "Extension.extension:type.extension",
+      "path" : "Extension.extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension:type.url",
+      "path" : "Extension.extension.url",
+      "fixedUri" : "type"
+    },
+    {
+      "id" : "Extension.extension:type.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "short" : "Type of characteristic",
+      "definition" : "A code specifying which characteristic of the medicine is being described.",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "example",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/medicationknowledge-characteristic"
       }
-    ]
+    },
+    {
+      "id" : "Extension.extension:value",
+      "path" : "Extension.extension",
+      "sliceName" : "value",
+      "short" : "Description of the characteristic",
+      "definition" : "The description should be provided as a CodeableConcept, SimpleQuantity or an image. The description can be a string only when these others are not available.",
+      "min" : 0,
+      "max" : "*"
+    },
+    {
+      "id" : "Extension.extension:value.extension",
+      "path" : "Extension.extension.extension",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.extension:value.url",
+      "path" : "Extension.extension.url",
+      "fixedUri" : "value"
+    },
+    {
+      "id" : "Extension.extension:value.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "type" : [{
+        "code" : "base64Binary"
+      },
+      {
+        "code" : "string"
+      },
+      {
+        "code" : "Attachment"
+      },
+      {
+        "code" : "CodeableConcept"
+      },
+      {
+        "code" : "Quantity"
+      }]
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "max" : "0"
+    }]
   }
 }
 
