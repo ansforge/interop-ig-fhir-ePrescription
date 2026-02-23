@@ -22,7 +22,7 @@ Profil français de modélisation de la ligne de prescription médicamenteuse.""
 
 
 * medicationReference only Reference(fr-medication-noncompound or fr-medication-compound)
-* medicationCodeableConcept from fr-medication-code (required) 
+* medication[x] from fr-medication-code (required) 
 
 * subject only Reference($FrCorePatient)
 
