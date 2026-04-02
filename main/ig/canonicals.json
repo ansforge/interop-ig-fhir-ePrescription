@@ -220,7 +220,7 @@
   "type" : "StructureDefinition",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound",
   "version" : "0.1.0",
-  "name" : "FrRedicationCompound"
+  "name" : "FrMedicationCompound"
 },
 {
   "id" : "fr-medication-noncompound",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication | *Version*:0.1.0 |
-| Draft as of 2026-02-23 | *Computable Name*:FRMedication |
+| Draft as of 2026-04-02 | *Computable Name*:FRMedication |
 
  
 French medication profile 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication.csv), 
   "name" : "FRMedication",
   "title" : "FR Medication",
   "status" : "draft",
-  "date" : "2026-02-23T11:15:05+00:00",
+  "date" : "2026-04-02T15:16:30+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

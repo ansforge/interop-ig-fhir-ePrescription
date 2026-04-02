@@ -272,17 +272,17 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-    "http://hl7.org/fhir/R4/valueset-additional-instruction-codes.html" : "SNOMED CT Additional Dosage Instructions",
-    "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
-    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-    "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
-    "http://hl7.org/fhir/R4/valueset-medication-form-codes.html" : "SNOMED CT Form Codes",
-    "http://hl7.org/fhir/R4/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes",
     "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
     "ValueSet-fr-treatment-intent.html" : "French overall intention of the treatment",
-    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods"
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+    "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+    "http://hl7.org/fhir/R4/valueset-additional-instruction-codes.html" : "SNOMED CT Additional Dosage Instructions",
+    "http://hl7.org/fhir/R4/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes",
+    "http://hl7.org/fhir/R4/valueset-medication-form-codes.html" : "SNOMED CT Form Codes"
   },
   {
     "url" : "http://standardterms.edqm.eu",
@@ -294,12 +294,12 @@
     "oids" : ["0.4.0.127.0.16.1.1.2.1"],
     "uses" : {
     },
-    "ConceptMap-PN13-FHIR-FreeSetCIODC-Voie-ConceptMap.html" : "Mapping Free Set CIO-DC VOIE",
     "ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap.html" : "Mapping Free Set CIO-DC UNITE",
+    "ValueSet-fr-route-of-administration.html" : "French Route of Administration",
     "ValueSet-FrMethodOfAdministration.html" : "French Method Of Administration",
     "ValueSet-fr-mp-dose-form.html" : "French Medicinal product Dose form",
-    "ValueSet-fr-route-of-administration.html" : "French Route of Administration",
-    "ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.html" : "Mapping Free Set CIO-DC FORME"
+    "ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.html" : "Mapping Free Set CIO-DC FORME",
+    "ConceptMap-PN13-FHIR-FreeSetCIODC-Voie-ConceptMap.html" : "Mapping Free Set CIO-DC VOIE"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/action-type",
@@ -327,8 +327,8 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/dose-rate-type",
-    "version" : "1.0.0",
-    "status" : "draft",
+    "version" : "2.0.0",
+    "status" : "active",
     "name" : "DoseAndRateType",
     "title" : "DoseAndRateType",
     "description" : "The kind of dose or rate specified.",
@@ -351,8 +351,8 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/medicationrequest-category",
-    "version" : "1.0.0",
-    "status" : "draft",
+    "version" : "2.0.0",
+    "status" : "active",
     "name" : "MedicationRequestCategoryCodes",
     "title" : "MedicationRequest Category Codes",
     "description" : "MedicationRequest Category Codes",
@@ -411,7 +411,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
-    "version" : "3.1.0",
+    "version" : "4.0.0",
     "status" : "active",
     "name" : "ActReason",
     "title" : "ActReason",
@@ -419,11 +419,11 @@
     "oids" : ["2.16.840.1.113883.5.8"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.0.1/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
+    "http://terminology.hl7.org/7.1.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
-    "version" : "3.0.0",
+    "version" : "4.0.0",
     "status" : "active",
     "name" : "GTSAbbreviation",
     "title" : "GTSAbbreviation",
@@ -435,7 +435,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-    "version" : "3.0.0",
+    "version" : "4.0.0",
     "status" : "active",
     "name" : "ObservationInterpretation",
     "title" : "ObservationInterpretation",
@@ -447,7 +447,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
-    "version" : "3.0.0",
+    "version" : "4.0.0",
     "status" : "active",
     "name" : "TimingEvent",
     "title" : "TimingEvent",
@@ -459,7 +459,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
-    "version" : "3.0.0",
+    "version" : "4.0.0",
     "status" : "active",
     "name" : "SubstanceAdminSubstitution",
     "title" : "Substance Admin Substitution",
@@ -467,7 +467,7 @@
     "oids" : ["2.16.840.1.113883.5.1070"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.0.1/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
+    "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
   },
   {
     "url" : "http://unitsofmeasure.org",
@@ -479,8 +479,8 @@
     "oids" : ["2.16.840.1.113883.6.8"],
     "uses" : {
     },
-    "ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap.html" : "Mapping Free Set CIO-DC UNITE",
-    "http://hl7.org/fhir/R4/valueset-units-of-time.html" : "UnitsOfTime"
+    "http://hl7.org/fhir/R4/valueset-units-of-time.html" : "UnitsOfTime",
+    "ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap.html" : "Mapping Free Set CIO-DC UNITE"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type",

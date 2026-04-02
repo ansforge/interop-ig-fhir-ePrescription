@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code | *Version*:0.1.0 |
-| Draft as of 2026-02-23 | *Computable Name*:FRMedicationCodes |
+| Draft as of 2026-04-02 | *Computable Name*:FRMedicationCodes |
 
  
 Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code 
@@ -25,7 +25,7 @@ Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -54,7 +54,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "title" : "value set Interop'Santé - Codes identifiant les médicaments",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-02-23T11:15:05+00:00",
+  "date" : "2026-04-02T15:16:30+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
