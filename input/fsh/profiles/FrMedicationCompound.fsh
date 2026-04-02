@@ -1,4 +1,4 @@
-Profile: FrRedicationCompound
+Profile: FrMedicationCompound
 Parent: Medication
 Id: fr-medication-compound
 Title: "FR Medication Compound"
