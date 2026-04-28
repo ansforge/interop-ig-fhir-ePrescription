@@ -63,7 +63,7 @@ Description:  """Structuration d'une posologie en fonction des critères de la H
   * dureeMax 0..1 decimal "Durée maximale de l'administration"
 
   // Une fréquence par séquence
-* frequence 0..1 Base "Description de fréquence de prise"
+* frequenceAdministration 0..1 Base "Description de fréquence de prise"
   * nombreDeRepetition 0..1 decimal "Nombre de prise de la quantité \"quantitePrescrite\" par période (ex : *une fois* dans une fois tous les trois jours)"
   * periode 0..1 Quantity "Durée sur laquelle la fréquence s'applique (ex : *tous les trois jours* une fois tous les trois jours)"
   * jourSemaine 0..* code "Jour de la semaine de la prise"
@@ -79,7 +79,7 @@ Description:  """Structuration d'une posologie en fonction des critères de la H
 
 * voieAdministration 0..1 code "Voie d'administration du traitement"
 
-* siteAdministration 0..1 code "Région anatomique d'administration du traitement"
+* siteAdministration 0..* code "Région anatomique d'administration du traitement"
 
 
 * doseMaxParPeriode 0..* Base "Dose maximale pour un temps donné (exemple : prise maximale pour 24h)."

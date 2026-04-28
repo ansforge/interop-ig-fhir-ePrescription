@@ -2,6 +2,8 @@
 <strong>👥 Cas d'usage</strong> – Cette page présente les différents scénarios et types de prescription couverts. Utile pour tous les profils : compréhension des besoins métier et périmètre d'implémentation.
 </div>
 
+> **Périmètre** : Les cas d'usage ci-dessous concernent exclusivement la **prescription médicamenteuse**. La prescription de dispositifs médicaux (DM) est hors périmètre de cette version du guide.
+
 ### La ligne de prescription initiale
 
 En situation réelle, n'émettre que des lignes de prescription initiales est rarement suffisant. Néanmoins, c'est la base qui permet d'explorer la complexité de la prescription selon deux axes : le médicament prescrit et la posologie.

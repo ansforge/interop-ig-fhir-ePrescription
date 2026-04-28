@@ -1,11 +1,11 @@
-Instance: HAS-32-2-Presc-ULTIBRO-BREES
+Instance: HAS-32-2-Presc-ULTIBRO-BREEZ
 InstanceOf: fr-prescription-bundle-for-example
 Usage: #example
 Description: "ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois."
 * type = #searchset
-* entry.resource = medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES
+* entry.resource = medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ
 
-Instance: medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES
+Instance: medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ
 InstanceOf: fr-medicationrequest
 Usage: #inline
 * meta.profile = Canonical(fr-medicationrequest)

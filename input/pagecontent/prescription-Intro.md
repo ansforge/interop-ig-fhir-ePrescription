@@ -2,7 +2,7 @@
 <strong>📘 Introduction générale</strong> – Cette page présente les concepts de base et oriente vers les sections métier ou techniques selon votre profil.
 </div>
 
-Une **prescription médicamenteuse** est un ensemble d'un ou plusieurs traitements prescrits, chacun associé à sa posologie. Ce guide spécifie comment représenter ces prescriptions sous forme numérique interopérable en utilisant le standard FHIR.
+Une **prescription médicamenteuse** est un ensemble d'un ou plusieurs médicaments prescrits, chacun associé à sa posologie. Ce guide spécifie comment représenter ces prescriptions sous forme numérique interopérable en utilisant le standard FHIR.
 
 ### Périmètre couvert
 
@@ -46,7 +46,7 @@ Exemple de modélisation d'une prescription
     <img style="height: auto; width: 100%;" src="ExemplePrescriptionAnnotee.jpg" alt="Exemple prescription Annotée" title="Exemple prescription Annotée">
 </div>
 
-Note : cet exemple se concentre sur les données spécifiques à une ligne de prescription (un traitement prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur...) est traitée dans le guide d'intégration FRCore
+Note : cet exemple se concentre sur les données spécifiques à une ligne de prescription (un médicament prescrit associé à sa posologie). La modélisation des autres informations (ex. identité patient, identité prescripteur...) est traitée dans le guide d'intégration FRCore
 
 ### Exemple d'informations portées par une posologie
 

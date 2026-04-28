@@ -8,7 +8,7 @@
   </div>
 {% endif %}
 
-Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilité de la [ePrescription](prescription-Intro.html) en FHIR pour l'écosystème français.
+Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilité de la [ePrescription médicamenteuse](prescription-Intro.html) en FHIR pour l'écosystème français.
 
 ### Guide de lecture
 
@@ -35,8 +35,10 @@ Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilit
 Le paysage français de la prescription électronique s'appuie historiquement sur plusieurs standards :
 
 - **PN-13** : standard de type "message" pour les flux intra-hospitaliers de prescription
-- **CDA ePrescription** : format documentaire pour la prescription de médicaments et dispositifs médicaux
+- **CDA ePrescription** : format documentaire pour la prescription de médicaments et dispositifs médicaux (DM)
 - Les spécifications européennes émergentes dans le cadre de l'Espace Européen des Données de Santé (EEDS)
+
+> **Périmètre de cet IG** : Ce guide couvre uniquement la **prescription médicamenteuse**. La prescription de dispositifs médicaux (DM), couverte par le CDA ePrescription, fera l'objet de travaux ultérieurs afin d'atteindre l'iso-fonctionnalité avec le CDA.
 
 #### Objectifs de convergence
 
@@ -82,8 +84,7 @@ Le guide intègre les recommandations de la HAS pour la structuration de la poso
 - Une **interprétation uniforme** par les différents acteurs du circuit
 - Une **compatibilité** avec les outils d'aide à la prescription et à la dispensation
 
-Pour en savoir plus sur l'interopérabilité en général, une documentation spécifique aux professionnels de santé est accessible [ici](https://ansforge.github.io/IG-documentation/nr-add-ps-doc/ig/doc_ps.html)
-<!-- TODO mettre à jour le lien avec la version publiée -->
+Pour en savoir plus sur l'interopérabilité en général, une documentation spécifique aux professionnels de santé est accessible [ici](https://interop.esante.gouv.fr/ig/documentation/doc_ps.html).
 
 ### Introduction destinée aux développeurs
 
