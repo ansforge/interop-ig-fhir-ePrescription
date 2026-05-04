@@ -25,7 +25,7 @@ Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilit
 <strong>⚙️ Développeurs et intégrateurs</strong>
 <ul style="margin: 10px 0 0 0;">
 <li>Consultez la section <a href="#introduction-destinée-aux-développeurs">Introduction développeurs</a> ci-dessous</li>
-<li>Accédez à la <a href="prescription-VueEnsemble.html">vue d'ensemble technique</a> pour la modélisation FHIR</li>
+<li>Accédez à la <a href="prescription-VueEnsemble.html">vue d'ensemble technique</a> pour l'architecture FHIR et aux <a href="prescription-Modelisation.html">spécifications de modélisation</a> pour les règles d'implémentation détaillées</li>
 <li>Consultez les <a href="transformation-PN13-vers-FHIR.html">spécifications de transformation PN-13</a></li>
 </ul>
 </div>

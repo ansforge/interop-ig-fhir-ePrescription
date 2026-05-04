@@ -32,8 +32,8 @@ Les spécifications sont issues des travaux du groupe de travail Interop'Santé 
 <div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
 <strong>⚙️ Vous êtes développeur ou intégrateur ?</strong>
 <ul>
-<li>Allez directement à la <a href="prescription-VueEnsemble.html">Vue d'ensemble technique</a> pour la modélisation FHIR</li>
-<li>Consultez les profils, ressources et règles de validation détaillés</li>
+<li>Consultez la <a href="prescription-VueEnsemble.html">Vue d'ensemble technique</a> pour l'architecture FHIR (ressources, profils, diagramme)</li>
+<li>Consultez les <a href="prescription-Modelisation.html">Spécifications de modélisation</a> pour les règles d'implémentation détaillées (posologie, dates, perfusions, patchs...)</li>
 <li>Utilisez les <a href="prescription-Exemples.html">instances FHIR</a> comme référence d'implémentation</li>
 </ul>
 </div>
@@ -79,6 +79,7 @@ Ces modèles utilisent le formalisme des **"modèles logiques"** d'HL7, qui perm
 
 ### Sommaire de la partie prescription
 
-- [Vue d'ensemble](prescription-VueEnsemble.html) : modélisation FHIR d'une prescription (ressources, profils, structuration du médicament prescrit et de la posologie)
+- [Vue d'ensemble](prescription-VueEnsemble.html) : architecture FHIR haut niveau (ressources impliquées, profils, diagramme de dépendances)
 - [Cas d'usage](prescription-CasUsage.html) : scénarios de prescription couverts (médicaments simples/composés, spécialité/DC, posologies simples/complexes)
+- [Spécifications de modélisation](prescription-Modelisation.html) : règles d'implémentation détaillées (parties textuelles, terminologies, dates et durée, perfusions, patchs, dose calculée, liens entre lignes)
 - [Exemples](prescription-Exemples.html) : instances FHIR concrètes illustrant les différents cas d'usage, incluant les exemples de la HAS sur la structuration de la posologie
