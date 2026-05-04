@@ -111,7 +111,7 @@
         <a href="prescription-CasUsage.html">Cas d'usage</a>
       </li>
       <li>
-        <a href="prescription-Modelisation.html">Modélisation</a>
+        <a href="prescription-Modelisation.html">Règles de modélisation</a>
       </li>
       <li>
         <a href="prescription-Exemples.html">Exemples</a>
@@ -252,7 +252,7 @@ Ce formalisme n’est pas obligatoire, la manière dont les ressources FHIR cons
 <p>Les travaux de la HAS sur la structuration de la posologie des prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) ont été intégrés aux exemples. Ils sont identifiés par le préfixe HAS et le suffixe entre parenthèses id_poso indiqué dans le document de la HAS.
 Dans le cas où ils représentent des spécificités pour les prescriptions de médecine de ville (qui valent également pour les prescriptions hospitalières à exécution en ville), il sont précédés par la mention <strong><em>spécificité ville</em></strong></p>
 
-<p>Pour les règles de modélisation illustrées par ces exemples (contraintes sur les unités de dose, durée d’administration, perfusions, patchs, dose calculée), consulter la page <a href="prescription-Modelisation.html">Spécifications de modélisation</a>.</p>
+<p>Pour les règles de modélisation illustrées par ces exemples (contraintes sur les unités de dose, durée d’administration, perfusions, patchs, dose calculée), consulter la page <a href="prescription-Modelisation.html">Règles de modélisation</a>.</p>
 
 <h3 id="exemples-généraux">Exemples généraux</h3>
 
@@ -296,7 +296,7 @@ Dans le cas où ils représentent des spécificités pour les prescriptions de m
   <li><a href="Bundle-Presc-ParacetamolCodeine-500mg30mg.html">paracétamol+codéine 500 mg+30 mg, 1 à 7h et 18h per os, pendant 5j</a></li>
   <li><a href="Bundle-Presc-PerfGl-NaCl-KCl-500ml.html">Perfusion Glucose 5% 500 mL avec Sodium chlorure 2g et Potassium chlorure 1g, à 10h et 22h sur 12h, pendant 5j</a></li>
   <li><a href="Bundle-Presc-PerfGl-NaCl-KCl-1l.html">Perfusion Glucose 5% 1L avec Sodium chlorure 3g et Potassium chlorure 2g, à 10h et 22h sur 12h, pendant 5j</a></li>
-  <li>marquer l’un des médicaments composant comme étant le soluté du médicament composé: <a href="Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.html">céfotaxine dans miniperf G5 100 mL, 4g céfotaxine en 20 min toutes les 6h pendant 3j</a> Voir <a href="prescription-Modelisation.html#perfusions-et-seringues-électriques">Spécifications de modélisation</a>, &sect; consacré à l’extension <em>IsVehicle</em></li>
+  <li>marquer l’un des médicaments composant comme étant le soluté du médicament composé: <a href="Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.html">céfotaxine dans miniperf G5 100 mL, 4g céfotaxine en 20 min toutes les 6h pendant 3j</a> Voir <a href="prescription-Modelisation.html#perfusions-et-seringues-électriques">Règles de modélisation des perfusions et seringues électriques</a>, &sect; consacré à l’extension <em>IsVehicle</em></li>
   <li><a href="Bundle-Presc-PerfDobutamine-Qsp40mL.html">dobutamine 200 mg dans soluté=G5 qsp 40 mL, 400 µg/min pendant 1j</a></li>
 </ul>
 
@@ -453,7 +453,7 @@ Les niveaux de complexité supplémentaires adressent</p>
   <li>l’expression de la quantité d’une dose se référant à l’un des médicaments composant du médicament composé prescrit
     <ul>
       <li><a href="Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.html">céfotaxine dans G5 100 mL, 4g (céfotaxine) en 20 min toutes les 6h pendant 4j</a></li>
-      <li>Voir <a href="prescription-Modelisation.html#bodc-basis-of-dose-component">Spécifications de modélisation</a>, &sect; consacré à l’extension <em>Basis of Dose Component</em></li>
+      <li>Voir <a href="prescription-Modelisation.html#bodc-basis-of-dose-component">Règles de modélisation</a>, &sect; consacré à l’extension <em>Basis of Dose Component</em></li>
     </ul>
   </li>
   <li>l’expression d’une dose réelle pertinente à partir d’une dose théorique fonction de paramètres patient
@@ -527,7 +527,7 @@ Les niveaux de complexité supplémentaires adressent</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 4, 2026 14:06+0000">2026-05-04</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 4, 2026 14:08+0000">2026-05-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

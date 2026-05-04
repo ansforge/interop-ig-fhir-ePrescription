@@ -1,12 +1,12 @@
-# La prescription - Modélisation - Guide d'implémentation de la ePrescription v0.1.0
+# La prescription - Règles de modélisation - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**La prescription**](prescription-Intro.md)
-* **La prescription - Modélisation**
+* **La prescription - Règles de modélisation**
 
-## La prescription - Modélisation
+## La prescription - Règles de modélisation
 
-**⚙️ Spécifications de modélisation**– Cette page détaille les règles d'implémentation FHIR pour les cas particuliers de la prescription. Destinée aux développeurs et intégrateurs.
+**⚙️ Règles de modélisation**– Cette page détaille les règles d'implémentation FHIR pour les cas particuliers de la prescription. Destinée aux développeurs et intégrateurs.
 
 ### Médicament prescrit et dose(s)
 
@@ -54,7 +54,12 @@ Ces 4 expressions permettent de déterminer la quantité de(s) principe(s) actif
 * `2 mL` (de produit = un produit qui contient du furosémide en concentration non définie)
  
 
-#### Contraintes entre médicament prescrit et expression de la dose
+#### Contraintes
+
+entre
+
+* propriétés de l’**unité de médicament prescrit**
+* expression de la **quantité de la dose prescrite**
 
 ##### Objectif
 
@@ -378,7 +383,7 @@ De ce fait, le rapport entre les caractéristiques du médicament prescrit compo
 
 Dans un médicament composé, permet d’exprimer à quel médicament composant, quelle ressource **Medication**, se réferre l’expression de la dose.
 
-Ex: Permet de rapporter l’expression de la quantié 4g de la dose, au médicament céfotaxine du médicament composé céfotaxine dans 100 mL de glucose 5%.
+Ex: Permet de rapporter l’expression de la quantité 4g de la dose, au médicament céfotaxine du médicament composé céfotaxine dans 100 mL de glucose 5%.
 
 Cette information est portée par l’extension [**FrBasisOfDoseComponent**](StructureDefinition-fr-basis-of-dose-component.md) de l’élément `doseAndRate` du type complex **Dosage** qui s’applique à l’élément `dosageInstruction`* de la ressource **MedicationRequest**.
 
@@ -434,7 +439,7 @@ En [R5](https://hl7.org/fhir/medication.html), la ressource **Medication** voit 
 
 Voir exemple [HAS - hydrocortisone 10 mg : 1 comprimé matin et 1 comprimé midi. En cas de fièvre, de forte chaleur, d’infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre > 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h. Avec un maximum de 6 comprimés par jour. QSP 6 mois (id_poso=30)](Bundle-HAS-30-1-Presc-Hydrocortisone.md)
 
-### Patchs
+### Précisions sur les patchs
 
 #### Propriétés du patch
 
@@ -458,7 +463,7 @@ Elle **DOIT** être exprimée en tant que telle dans les éléments `dosageInstr
 
 Voir exemple [HAS - EVRA® 203 µg/24h + 33,9µg/24h dispositif transdermique : Pendant 6 mois poser/remplacer un dispositif aux 1er, 8e et 15e jours du cycle ; La quatrième semaine à partir du 22ème jour est un intervalle libre sans dispositif transdermique (id_poso=11)](Bundle-HAS-11-2-Presc-EVRA.md)
 
-### Dose calculée / dose prescrite
+### Précisions sur le lien dose calculée et dose prescrite
 
 Il arrive que la dose prescrite découle d’un dose de référence formulée en quantité de principe actif par unité de poids ou de surface corporelle. La dose effectivement prescrite est arrondie à une valeur réalisable.
 

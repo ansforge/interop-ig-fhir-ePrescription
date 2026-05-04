@@ -33,5 +33,5 @@ Noter qu’un médicament simple peut être une association de plusieurs princip
 
 La **posologie** est représentée par l’élément `dosageInstruction` de la ressource **MedicationRequest**.
 
-Pour les règles d’implémentation détaillées (parties textuelles, terminologies, dates et durée de prescription, perfusions, patchs, dose calculée, liens entre lignes), consulter la page [Spécifications de modélisation](prescription-Modelisation.md).
+Pour les règles d’implémentation détaillées (parties textuelles, terminologies, dates et durée de prescription, perfusions, patchs, dose calculée, liens entre lignes), consulter la page [Règles de modélisation](prescription-Modelisation.md).
 
