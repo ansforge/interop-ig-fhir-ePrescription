@@ -524,6 +524,23 @@ Il y deux façons d’exprimer un débit dans une dose FHIR :</p>
 
 <h3 id="dates-et-durée-de-prescription">Dates et durée de prescription</h3>
 
+<p>Cette information est portée individuellement par chaque ligne de prescription, c’est à dire au niveau de la ressource <em>MedicationRequest</em> profilée par <em>FRMedicationRequest</em> ou <em>FRInpatientMedicationRequest</em>, comme paramètre de la posologie prescrite, dans l’élément <code class="language-plaintext highlighter-rouge">dosageInstruction</code> de type <em>Dosage</em>, sous-élément <code class="language-plaintext highlighter-rouge">timing</code> de type <em>Timing</em></p>
+
+<ul>
+  <li>date de début : <code class="language-plaintext highlighter-rouge">.dosageInstruction.timing.repeat.boundsPeriod.start</code></li>
+  <li>date de fin : <code class="language-plaintext highlighter-rouge">.dosageInstruction.timing.repeat.boundsPeriod.end</code></li>
+  <li>durée : dans FHIR la durée est exclusive des dates de début et date de fin:
+    <ul>
+      <li>Si elle est exprimée dans <code class="language-plaintext highlighter-rouge">.dosageInstruction.timing.repeat.boundsDuration</code>, les date de début et date de fin ne figurent pas dans la ressource (dans le cas des prescriptions de médecine de ville ou des prescriptions hospitalières à exécution en ville).</li>
+      <li>Si les dates de début et de fin sont exprimées, la durée ne peut exister qu’au niveau de l’IHM. Quand elle est saisie, elle permet de calculer la date de fin à partir la date de début. Quand elle est affichée, elle est calculée à partir de la date de début et de la date de fin.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Ces dates de début et de fin de prescription, de même que la durée de prescription, ne sont pas des consignes de dispensation. Elles ne figurent donc pas dans les éléments <code class="language-plaintext highlighter-rouge">.validityPeriod</code> et <code class="language-plaintext highlighter-rouge">.expectedSupplyDuration</code> de l’élément <code class="language-plaintext highlighter-rouge">.dispensationRequest</code>.</p>
+
+<p>En prescription intrahospitalière, il n’y a généralement pas de consigne de dispensation formulée par le prescripteur. Il n’y a donc généralement pas usage de l’élément <code class="language-plaintext highlighter-rouge">.dispensationRequest</code>.</p>
+
 <p>Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource <em>MedicationRequest</em> profilée <em>FRMedicationRequest</em> ou <em>FRInPatientMedicationRequest</em>.</p>
 
 <p>Elles concernent également les règles définissant la <strong>première dose prescrite</strong> et la <strong>dernière dose prescrite</strong>.</p>
@@ -969,7 +986,7 @@ L’utilisation de la ressource <code class="language-plaintext highlighter-roug
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 4, 2026 12:41+0000">2026-05-04</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 4, 2026 12:53+0000">2026-05-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

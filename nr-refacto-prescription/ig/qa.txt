@@ -3,7 +3,7 @@ eP : Validation Results
 
 err = 990, warn = 2068, info = 127
 IG Publisher Version: 2.2.7
-Generated Mon May 04 12:45:04 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
+Generated Mon May 04 12:58:12 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.eprescription#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
  Build Errors : 181 / 3 / 0
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-DC : 11 / 5 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-MV : 7 / 3 / 4

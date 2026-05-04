@@ -225,6 +225,19 @@ Sauf indication contraire dans la prescription via l’élément `MedicationRequ
 
 ### Dates et durée de prescription
 
+Cette information est portée individuellement par chaque ligne de prescription, c’est à dire au niveau de la ressource **MedicationRequest** profilée par **FRMedicationRequest** ou **FRInpatientMedicationRequest**, comme paramètre de la posologie prescrite, dans l’élément `dosageInstruction` de type **Dosage**, sous-élément `timing` de type **Timing**
+
+* date de début : `.dosageInstruction.timing.repeat.boundsPeriod.start`
+* date de fin : `.dosageInstruction.timing.repeat.boundsPeriod.end`
+* durée : dans FHIR la durée est exclusive des dates de début et date de fin: 
+* Si elle est exprimée dans `.dosageInstruction.timing.repeat.boundsDuration`, les date de début et date de fin ne figurent pas dans la ressource (dans le cas des prescriptions de médecine de ville ou des prescriptions hospitalières à exécution en ville).
+* Si les dates de début et de fin sont exprimées, la durée ne peut exister qu’au niveau de l’IHM. Quand elle est saisie, elle permet de calculer la date de fin à partir la date de début. Quand elle est affichée, elle est calculée à partir de la date de début et de la date de fin.
+ 
+
+Ces dates de début et de fin de prescription, de même que la durée de prescription, ne sont pas des consignes de dispensation. Elles ne figurent donc pas dans les éléments `.validityPeriod` et `.expectedSupplyDuration` de l’élément `.dispensationRequest`.
+
+En prescription intrahospitalière, il n’y a généralement pas de consigne de dispensation formulée par le prescripteur. Il n’y a donc généralement pas usage de l’élément `.dispensationRequest`.
+
 Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource **MedicationRequest** profilée **FRMedicationRequest** ou **FRInPatientMedicationRequest**.
 
 Elles concernent également les règles définissant la **première dose prescrite** et la **dernière dose prescrite**.
