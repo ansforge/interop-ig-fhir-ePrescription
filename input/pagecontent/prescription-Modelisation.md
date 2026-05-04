@@ -210,7 +210,9 @@ La seconde implique une **interprétation du code UCUM par le logiciel** pour av
 
 Sauf indication contraire dans la prescription via l'élément `MedicationRequest.dosageInstruction.additionalInstruction.text`, la structuration de la posologie (ex. l'utilisation de l'élément `MedicationRequest.dosageInstruction.timing.repeat.when`) ne doit pas interdire de rattraper une dose qui n'a pas été prise au bon moment.
 
-### Dates et durée de prescription
+### Dates de début, de fin et durée de prescription
+
+Elles traduisent la période d'exécution de la prescription.
 
 Cette information est portée individuellement par chaque ligne de prescription, c'est à dire au niveau de la ressource *MedicationRequest* profilée par *FRMedicationRequest* ou *FRInpatientMedicationRequest*, comme paramètre de la posologie prescrite, dans l'élément `dosageInstruction` de type *Dosage*, sous-élément `timing` de type *Timing*
 
@@ -223,8 +225,6 @@ Cette information est portée individuellement par chaque ligne de prescription,
 Ces dates de début et de fin de prescription, de même que la durée de prescription, ne sont pas des consignes de dispensation. Elles ne figurent donc pas dans les éléments `.validityPeriod` et `.expectedSupplyDuration` de l'élément `.dispensationRequest`.
 
 En prescription intrahospitalière, il n'y a généralement pas de consigne de dispensation formulée par le prescripteur. Il n'y a donc généralement pas usage de l'élément `.dispensationRequest`.
-
-Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource *MedicationRequest* profilée *FRMedicationRequest* ou *FRInPatientMedicationRequest*.
 
 Elles concernent également les règles définissant la **première dose prescrite** et la **dernière dose prescrite**.
 
@@ -274,14 +274,14 @@ Les unités UCUM suivantes sont utilisées :
     - Ce n'est pas le *jour calendaire*.
     - Ainsi, 3 jours à partir de J0 07:12:34 donne comme *date de fin* J3 07:12:33.
     - Et non pas J2 23:59:59 correspondant au décompte de 3 jours calendaires.
-1. *semaine* (code = wk) : égale 7 jours.
-1. *mois* (code = mo) : égale 28, 29, 30 ou 31 jours selon les mois impliqués.
+2. *semaine* (code = wk) : égale 7 jours.
+3. *mois* (code = mo) : égale 28, 29, 30 ou 31 jours selon les mois impliqués.
 
     - Ce n'est pas le *mois julien moyen* de 30,4375 jours défini par UCUM.
     - Ainsi, 3 mois à partir du 2021-02-14T12:34:56 donne comme *date de fin* 2021-05-14T12:34:55.
     - Et non pas 2021-04-16T20:04:55, correspondant à 2021-02-14T12:34:56 + 91 jours 7 heures 30 minutes, découlant de 3*365,25/12=91,3125 jours.
 
-1. *année* (code = a) : égale 1 année *julienne moyenne*, soit 365,25 jours
+4. *année* (code = a) : égale 1 année *julienne moyenne*, soit 365,25 jours
 
 **Garantie du nombre de doses prescrites sur une période donnée**:
 
