@@ -79,7 +79,7 @@ Ces modèles utilisent le formalisme des **"modèles logiques"** d'HL7, qui perm
 
 ### Sommaire de la partie prescription
 
-- [Vue d'ensemble](prescription-VueEnsemble.html) : architecture FHIR haut niveau (ressources impliquées, profils, diagramme de dépendances)
+- [Vue d'ensemble](prescription-VueEnsemble.html) : ressources et profils FHIR impliqués, leurs relations et le diagramme de dépendances
 - [Cas d'usage](prescription-CasUsage.html) : scénarios de prescription couverts (médicaments simples/composés, spécialité/DC, posologies simples/complexes)
 - [Spécifications de modélisation](prescription-Modelisation.html) : règles d'implémentation détaillées (parties textuelles, terminologies, dates et durée, perfusions, patchs, dose calculée, liens entre lignes)
 - [Exemples](prescription-Exemples.html) : instances FHIR concrètes illustrant les différents cas d'usage, incluant les exemples de la HAS sur la structuration de la posologie
