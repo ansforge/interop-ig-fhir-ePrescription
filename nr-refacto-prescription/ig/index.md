@@ -162,7 +162,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-05-04T12:37:28+00:00",
+  "date" : "2026-05-04T12:41:26+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -2545,6 +2545,15 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
           }],
           "nameUrl" : "prescription-Exemples.html",
           "title" : "La prescription - Exemples",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "prescription-Modelisation.html"
+          }],
+          "nameUrl" : "prescription-Modelisation.html",
+          "title" : "La prescription - Spécifications de modélisation",
           "generation" : "markdown"
         },
         {

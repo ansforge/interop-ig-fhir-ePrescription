@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "eP"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la ePrescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-04T12:37:28+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-04T12:41:26+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -4546,6 +4546,25 @@
              fhir:l fhir:prescription-Exemples.html
            ] ;
            fhir:title [ fhir:v "La prescription - Exemples" ] ;
+           fhir:generation [ fhir:v "markdown" ]
+         ] [
+           fhir:extension ( [
+             fhir:url [
+               fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ;
+               fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-page-name>
+             ] ;
+             fhir:value [
+               a fhir:Url ;
+               fhir:v "prescription-Modelisation.html"^^xsd:anyURI ;
+               fhir:l fhir:prescription-Modelisation.html
+             ]
+           ] ) ;
+           fhir:name [
+             a fhir:Url ;
+             fhir:v "prescription-Modelisation.html"^^xsd:anyURI ;
+             fhir:l fhir:prescription-Modelisation.html
+           ] ;
+           fhir:title [ fhir:v "La prescription - Spécifications de modélisation" ] ;
            fhir:generation [ fhir:v "markdown" ]
          ] [
            fhir:extension ( [

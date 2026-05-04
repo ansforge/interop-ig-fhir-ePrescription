@@ -53,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
   "title" : "value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-04T12:37:28+00:00",
+  "date" : "2026-05-04T12:41:26+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

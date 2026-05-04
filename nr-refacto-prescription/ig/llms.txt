@@ -3,6 +3,7 @@
 ## Pages
 
 * [Accueil](index.md)
+* [La prescription - Spécifications de modélisation](prescription-Modelisation.md)
 * [La prescription - Cas d'usage](prescription-CasUsage.md)
 * [Téléchargements et usages](downloads.md)
 * [La prescription - Vue d'ensemble de la modélisation FHIR](prescription-VueEnsemble.md)
