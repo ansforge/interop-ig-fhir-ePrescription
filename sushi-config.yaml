@@ -35,7 +35,7 @@ pages:
       prescription-CasUsage.md:
         title: La prescription - Cas d'usage
       prescription-Modelisation.md:
-        title: La prescription - Modélisation
+        title: La prescription - Règles de modélisation
       prescription-Exemples.md:
         title: La prescription - Exemples
       prescription-Document.md:
@@ -66,7 +66,7 @@ menu:
       Introduction: prescription-Intro.html
       Vue d'ensemble: prescription-VueEnsemble.html
       Cas d'usage: prescription-CasUsage.html
-      Modélisation: prescription-Modelisation.html
+      Règles de modélisation: prescription-Modelisation.html
       Exemples: prescription-Exemples.html
   Prescription Document:
       Prescription document: prescription-Document.html

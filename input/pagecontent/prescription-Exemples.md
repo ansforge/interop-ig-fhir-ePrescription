@@ -8,7 +8,7 @@ Ce formalisme n'est pas obligatoire, la manière dont les ressources FHIR consti
 Les travaux de la HAS sur la structuration de la posologie des prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) ont été intégrés aux exemples. Ils sont identifiés par le préfixe HAS et le suffixe entre parenthèses id_poso indiqué dans le document de la HAS.
 Dans le cas où ils représentent des spécificités pour les prescriptions de médecine de ville (qui valent également pour les prescriptions hospitalières à exécution en ville), il sont précédés par la mention ***spécificité ville***
 
-Pour les règles de modélisation illustrées par ces exemples (contraintes sur les unités de dose, durée d'administration, perfusions, patchs, dose calculée), consulter la page [Spécifications de modélisation](prescription-Modelisation.html).
+Pour les règles de modélisation illustrées par ces exemples (contraintes sur les unités de dose, durée d'administration, perfusions, patchs, dose calculée), consulter la page [Règles de modélisation](prescription-Modelisation.html).
 
 ### Exemples généraux
 
@@ -47,7 +47,7 @@ Pour les règles de modélisation illustrées par ces exemples (contraintes sur 
 - [paracétamol+codéine 500 mg+30 mg, 1 à 7h et 18h per os, pendant 5j](Bundle-Presc-ParacetamolCodeine-500mg30mg.html)
 - [Perfusion Glucose 5% 500 mL avec Sodium chlorure 2g et Potassium chlorure 1g, à 10h et 22h sur 12h, pendant 5j](Bundle-Presc-PerfGl-NaCl-KCl-500ml.html)
 - [Perfusion Glucose 5% 1L avec Sodium chlorure 3g et Potassium chlorure 2g, à 10h et 22h sur 12h, pendant 5j](Bundle-Presc-PerfGl-NaCl-KCl-1l.html)
-- marquer l'un des médicaments composant comme étant le soluté du médicament composé: [céfotaxine dans miniperf G5 100 mL, 4g céfotaxine en 20 min toutes les 6h pendant 3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.html) Voir [Spécifications de modélisation](prescription-Modelisation.html#perfusions-et-seringues-électriques), § consacré à l'extension *IsVehicle*
+- marquer l'un des médicaments composant comme étant le soluté du médicament composé: [céfotaxine dans miniperf G5 100 mL, 4g céfotaxine en 20 min toutes les 6h pendant 3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.html) Voir [Règles de modélisation des perfusions et seringues électriques](prescription-Modelisation.html#perfusions-et-seringues-électriques), § consacré à l'extension *IsVehicle*
 - [dobutamine 200 mg dans soluté=G5 qsp 40 mL, 400 µg/min pendant 1j](Bundle-Presc-PerfDobutamine-Qsp40mL.html)
 
 ##### Médicament virtuel
@@ -139,7 +139,7 @@ Les niveaux de complexité supplémentaires adressent
   - [HAS - amiodarone 200 mg comprimé: 1 comprimé pendant 5 jours (du lundi au vendredi), et puis arrêt 2 jours (samedi, dimanche). Recommencer le cycle de 7 jours, à répéter sur le mois (id_poso=23)](Bundle-HAS-23-2-Presc-Amiodarone)
 - l'expression de la quantité d'une dose se référant à l'un des médicaments composant du médicament composé prescrit
   - [céfotaxine dans G5 100 mL, 4g (céfotaxine) en 20 min toutes les 6h pendant 4j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.html)
-  - Voir [Spécifications de modélisation](prescription-Modelisation.html#bodc-basis-of-dose-component), § consacré à l'extension *Basis of Dose Component*
+  - Voir [Règles de modélisation](prescription-Modelisation.html#bodc-basis-of-dose-component), § consacré à l'extension *Basis of Dose Component*
 - l'expression d'une dose réelle pertinente à partir d'une dose théorique fonction de paramètres patient
   - [capécitabine 1800 mg (1000 mg/m²), 7h et 18h per os, pendant 14j](Bundle-Presc-Capecitabine-Dose-Calculee.html)
   - ***spécificité ville*** La dose réelle pertinente (valeur absolue) doit être la seule indiquée dans la partie structurée de la posologie. La dose théorique en fonction de paramètres patient (valeur relative) peut être exprimée dans une partie textuelle (i.e. dans `MedicationRequest.dosageInstruction.additionalInstruction.text`)
