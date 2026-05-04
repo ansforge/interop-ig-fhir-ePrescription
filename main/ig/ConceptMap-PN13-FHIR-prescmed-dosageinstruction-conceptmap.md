@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’une posologie d’une prescritp
   "name" : "FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap",
   "title" : "Conversion PN13 vers FHIR pour la posologie d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2026-05-04T12:24:40+00:00",
+  "date" : "2026-05-04T13:30:13+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -52,7 +52,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’une posologie d’une prescritp
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "sourceUri" : "https://interopsante.org/pn13/xsd/M_prescription_medicaments/Prescription/Element_prescr_medic/Element_posologie",

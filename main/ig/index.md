@@ -162,7 +162,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-05-04T12:24:40+00:00",
+  "date" : "2026-05-04T13:30:13+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -186,7 +186,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "packageId" : "ans.fhir.fr.eprescription",

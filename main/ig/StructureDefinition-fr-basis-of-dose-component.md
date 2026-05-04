@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-basis-of-dose-com
   "name" : "FrBasisOfDoseComponent",
   "title" : "Medication component Basis of dose",
   "status" : "draft",
-  "date" : "2026-05-04T12:24:40+00:00",
+  "date" : "2026-05-04T13:30:13+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -78,7 +78,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-basis-of-dose-com
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "purpose" : "When To reference the Medication resource component which is the Basis of the dose quantity or volume",

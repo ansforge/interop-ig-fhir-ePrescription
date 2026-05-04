@@ -53,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
   "title" : "value set Interop'Santé - Codes identifiant les substances",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-04T12:24:40+00:00",
+  "date" : "2026-05-04T13:30:13+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -78,7 +78,7 @@ No Expansion for this valueset (Unknown Code System)
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "immutable" : false,

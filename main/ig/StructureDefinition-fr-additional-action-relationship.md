@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-action
   "name" : "FrAdditionalActionRelationship",
   "title" : "Additional relatedAction relationship",
   "status" : "draft",
-  "date" : "2026-05-04T12:24:40+00:00",
+  "date" : "2026-05-04T13:30:13+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -78,7 +78,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-action
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "fhirVersion" : "4.0.1",

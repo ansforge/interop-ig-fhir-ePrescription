@@ -53,7 +53,7 @@ ConceptMap pour la conversion des codes de forme de médicaments entre CIO et te
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "group" : [{

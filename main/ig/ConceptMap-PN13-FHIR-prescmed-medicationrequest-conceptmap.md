@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’une ligne de prescription d’u
   "name" : "FrPN13FHIRMedicationPrescriptionMedicationRequestConceptMap",
   "title" : "Conversion PN13 vers FHIR pour la ligne de prescription d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2026-05-04T12:24:40+00:00",
+  "date" : "2026-05-04T13:30:13+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -52,7 +52,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’une ligne de prescription d’u
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "FR",
-      "display" : "FRANCE"
+      "display" : "France (la)"
     }]
   }],
   "sourceUri" : "https://interopsante.org/pn13/xsd",
