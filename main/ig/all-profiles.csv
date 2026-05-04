@@ -176,7 +176,8 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "fr-inpatient-medicationrequest","MedicationRequest.extension:renderedDosageInstruction","MedicationRequest.extension","renderedDosageInstruction","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction]]} {[]}
-","Full representation of the dosage instructions","Optional Extension Element - found in all resources.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Full representation of the dosage instructions","R5: `MedicationRequest.renderedDosageInstruction` (new:markdown)","Element `MedicationRequest.renderedDosageInstruction` has a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.
+Element `MedicationRequest.renderedDosageInstruction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "fr-inpatient-medicationrequest","MedicationRequest.extension:treatmentIntent","MedicationRequest.extension","treatmentIntent","","",0,1,"","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent]]} {[]}
@@ -673,9 +674,9 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "fr-ligne-prescription","fr-ligne-prescription.traitement.dosage","fr-ligne-prescription.traitement.dosage","","","",0,*,"","","","Base {[]} {[]}
 ","Quantité de substance active dans une unité de dispensation","Quantité de substance active dans une unité de dispensation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage",0,*,"",""
 "fr-ligne-prescription","fr-ligne-prescription.traitement.dosage.valeur","fr-ligne-prescription.traitement.dosage.valeur","","","",0,1,"","","","decimal {[]} {[]}
-","Valeur du dosage dans une unité de dispensiation","Valeur du dosage dans une unité de dispensiation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage.valeur",0,1,"",""
+","Valeur du dosage dans une unité de dispensation","Valeur du dosage dans une unité de dispensation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage.valeur",0,1,"",""
 "fr-ligne-prescription","fr-ligne-prescription.traitement.dosage.unite","fr-ligne-prescription.traitement.dosage.unite","","","",0,1,"","","","code {[]} {[]}
-","Unité du dosage dans une unité de dispensiation","Unité du dosage dans une unité de dispensiation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage.unite",0,1,"",""
+","Unité du dosage dans une unité de dispensation","Unité du dosage dans une unité de dispensation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage.unite",0,1,"",""
 "fr-ligne-prescription","fr-ligne-prescription.traitement.forme","fr-ligne-prescription.traitement.forme","","","",0,1,"","","","code {[]} {[]}
 ","Forme galénique de l'unité de dispensation","Forme galénique de l'unité de dispensation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.forme",0,1,"",""
 "fr-ligne-prescription","fr-ligne-prescription.dateDebut","fr-ligne-prescription.dateDebut","","","",0,1,"","","","dateTime {[]} {[]}
@@ -1052,7 +1053,8 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "fr-medicationrequest","MedicationRequest.extension:renderedDosageInstruction","MedicationRequest.extension","renderedDosageInstruction","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction]]} {[]}
-","Full representation of the dosage instructions","Optional Extension Element - found in all resources.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Full representation of the dosage instructions","R5: `MedicationRequest.renderedDosageInstruction` (new:markdown)","Element `MedicationRequest.renderedDosageInstruction` has a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.
+Element `MedicationRequest.renderedDosageInstruction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "fr-medicationrequest","MedicationRequest.extension:treatmentIntent","MedicationRequest.extension","treatmentIntent","","",0,1,"","","","Extension {[CanonicalType[https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent]]} {[]}

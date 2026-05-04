@@ -1,7 +1,7 @@
 eP : Validation Results
 =========================================
 
-err = 991, warn = 2066, info = 126
+err = 990, warn = 2068, info = 127
 $--
 Generated $--. FHIR version $-- for ans.fhir.fr.eprescription#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
  Build Errors : 183 / 3 / 0
@@ -50,7 +50,7 @@ Generated $--. FHIR version $-- for ans.fhir.fr.eprescription#$-- (canonical = h
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-30-2-Presc-Cetirizine : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-31-Presc-DUROGESIC : 6 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-32-1-Presc-LOVENOX : 7 / 4 / 4
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-32-2-Presc-ULTIBRO-BREES : 7 / 4 / 4
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-32-2-Presc-ULTIBRO-BREEZ : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-33-Presc-VERSATIS : 6 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE : 25 / 9 / 7
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE : 24 / 9 / 7
@@ -80,11 +80,11 @@ Generated $--. FHIR version $-- for ans.fhir.fr.eprescription#$-- (canonical = h
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Paracetamol-TL6h : 11 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-ParacetamolCodeine-500mg30mg : 11 / 5 / 7
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-PerfDobutamine-Qsp40mL : 19 / 7 / 11
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-PerfGl-NaCl-KCl-1l : 26 / 7 / 14
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-PerfGl-NaCl-KCl-1l : 25 / 9 / 14
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-PerfGl-NaCl-KCl-500ml : 23 / 8 / 14
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h : 12 / 4 / 7
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE : 21 / 20 / 13
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-DOLIPRANE : 6 / 10 / 6
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-DOLIPRANE : 6 / 10 / 7
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret : 6 / 9 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-Morphine-PCA : 8 / 12 / 9
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-TradPN13FHIR-Presc-Paracetamol : 23 / 13 / 20
@@ -234,8 +234,8 @@ ERROR: Bundle-HAS-31-Presc-DUROGESIC.html#/html/body/div/div/div/div/div/div/blo
 ERROR: Bundle-HAS-31-Presc-DUROGESIC.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 274, column 229: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
 ERROR: Bundle-HAS-32-1-Presc-LOVENOX.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 274, column 113: The link 'Patient/14602' for "Patient/14602" cannot be resolved
 ERROR: Bundle-HAS-32-1-Presc-LOVENOX.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 274, column 229: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
-ERROR: Bundle-HAS-32-2-Presc-ULTIBRO-BREES.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 274, column 113: The link 'Patient/14602' for "Patient/14602" cannot be resolved
-ERROR: Bundle-HAS-32-2-Presc-ULTIBRO-BREES.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 274, column 229: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
+ERROR: Bundle-HAS-32-2-Presc-ULTIBRO-BREEZ.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 274, column 113: The link 'Patient/14602' for "Patient/14602" cannot be resolved
+ERROR: Bundle-HAS-32-2-Presc-ULTIBRO-BREEZ.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 274, column 229: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
 ERROR: Bundle-HAS-33-Presc-VERSATIS.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 274, column 113: The link 'Patient/14602' for "Patient/14602" cannot be resolved
 ERROR: Bundle-HAS-33-Presc-VERSATIS.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 274, column 229: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
 ERROR: Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 273, column 1583: The link 'Patient/30002' for "Patient/30002" cannot be resolved
@@ -919,19 +919,19 @@ WARNING: Bundle/HAS-32-1-Presc-LOVENOX: Bundle.entry[0].resource/*MedicationRequ
 WARNING: Bundle/HAS-32-1-Presc-LOVENOX: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/HAS-32-1-Presc-LOVENOX: Bundle: SearchSet bundles should have search modes on the entries
 ERROR: Bundle/HAS-32-1-Presc-LOVENOX: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
-== fsh-generated/resources/Bundle-HAS-32-2-Presc-ULTIBRO-BREES.json ==
-WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.medication.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0]: Bundle entry missing fullUrl
-ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
-ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.subject: Unable to resolve resource with reference 'Patient/14602'
-ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
-ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
-ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie inhalée' for http://standardterms.edqm.eu#20020000. Valid display is 'Inhalation use' (for the language(s) 'fr-FR')
-INFORMATION: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.medication.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
-WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREES*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
-WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle: SearchSet Bundles should have a self link that specifies what the search was
-WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle: SearchSet bundles should have search modes on the entries
-ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREES: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
+== fsh-generated/resources/Bundle-HAS-32-2-Presc-ULTIBRO-BREEZ.json ==
+WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ*/.medication.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
+ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0]: Bundle entry missing fullUrl
+ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ*/.subject: Unable to resolve resource with reference 'Patient/14602'
+ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
+ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
+ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie inhalée' for http://standardterms.edqm.eu#20020000. Valid display is 'Inhalation use' (for the language(s) 'fr-FR')
+INFORMATION: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ*/.medication.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest|0.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
+WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle: SearchSet Bundles should have a self link that specifies what the search was
+WARNING: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle: SearchSet bundles should have search modes on the entries
+ERROR: Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ: Bundle.entry[0]: Except for transactions and batches, each entry in a Bundle must have a fullUrl which is the identity of the resource in the entry
 == fsh-generated/resources/Bundle-HAS-33-Presc-VERSATIS.json ==
 WARNING: Bundle/HAS-33-Presc-VERSATIS: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-33-Presc-VERSATIS*/.medication.ofType(CodeableConcept).coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
 ERROR: Bundle/HAS-33-Presc-VERSATIS: Bundle.entry[0]: Bundle entry missing fullUrl
@@ -1534,8 +1534,9 @@ WARNING: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[0].resource/*Medication/m
 ERROR: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[0].resource/*Medication/medication-1-Presc-PerfGl-NaCl-KCl-1l*/.form.coding[0].display: Wrong Display Name 'solution pour perfusion' for http://standardterms.edqm.eu#11210000. Valid display is 'Solution for infusion' (for the language(s) 'fr-FR')
 ERROR: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[0].resource/*Medication/medication-1-Presc-PerfGl-NaCl-KCl-1l*/.code.coding[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'coding.system' in profile 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound' on element 'Medication.code.coding:nonCompoundCode', looking in profile 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound' (@char 1)
 INFORMATION: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[0].resource/*Medication/medication-1-Presc-PerfGl-NaCl-KCl-1l*/.code: Medication.code.coding:nonCompoundCode: Found 0 match, but unable to check minimum required (Medication.code.coding) due to lack of slicing validation (from https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound|0.1.0)
-WARNING: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[0].resource/*Medication/medication-1-Presc-PerfGl-NaCl-KCl-1l*/.ingredient[0].item.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated
-ERROR: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[0].resource/*Medication/medication-1-Presc-PerfGl-NaCl-KCl-1l*/.ingredient[0].item.ofType(CodeableConcept).coding[0]: The code provided (http://snomed.info/sct#67079006) was not found in the value set 'value set Interop'Santé - Codes identifiant les substances' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code|0.1.0), and a code from this value set is required: A definition for CodeSystem 'http://snomed.info/sct' could not be found, so the code cannot be validated; The provided code 'http://snomed.info/sct#67079006 ('glucose')' was not found in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code|0.1.0'
+WARNING: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[0].resource/*Medication/medication-1-Presc-PerfGl-NaCl-KCl-1l*/.ingredient[0].item.ofType(CodeableConcept).coding[0]: Unable to check whether the code is in the value set 'https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code|0.1.0' because the code system http://snomed.info/sct was not found
+WARNING: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[0].resource/*Medication/medication-1-Presc-PerfGl-NaCl-KCl-1l*/.ingredient[0].item.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
+WARNING: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[0].resource/*Medication/medication-1-Presc-PerfGl-NaCl-KCl-1l*/.ingredient[0].item.ofType(CodeableConcept).coding[0]: Error begin -1, end 57, length 57 validating Coding
 WARNING: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[1].resource/*Medication/medication-2-Presc-PerfGl-NaCl-KCl-1l*/.code.coding[0]: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/codeSMS' could not be found, so the code cannot be validated
 ERROR: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[1].resource/*Medication/medication-2-Presc-PerfGl-NaCl-KCl-1l*/.form.coding[0].display: Wrong Display Name 'solution injectable' for http://standardterms.edqm.eu#11201000. Valid display is 'Solution for injection' (for the language(s) 'fr-FR')
 ERROR: Bundle/Presc-PerfGl-NaCl-KCl-1l: Bundle.entry[1].resource/*Medication/medication-2-Presc-PerfGl-NaCl-KCl-1l*/.code.coding[0]: Slicing cannot be evaluated: Unable to resolve discriminator in definitions: 'coding.system' in profile 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound' on element 'Medication.code.coding:nonCompoundCode', looking in profile 'https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound' (@char 1)
@@ -1679,6 +1680,7 @@ WARNING: Bundle/TradPN13FHIR-Presc-DOLIPRANE: Bundle.entry[1].resource/*Medicati
 WARNING: Bundle/TradPN13FHIR-Presc-DOLIPRANE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-TradPN13FHIR-Presc-DOLIPRANE*/.requester.identifier.system: No definition could be found for URL value 'https://somehospital.fr/EI'
 WARNING: Bundle/TradPN13FHIR-Presc-DOLIPRANE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-TradPN13FHIR-Presc-DOLIPRANE*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 WARNING: Bundle/TradPN13FHIR-Presc-DOLIPRANE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-TradPN13FHIR-Presc-DOLIPRANE*/.dosageInstruction[0].timing.code.coding[0].system: A definition for CodeSystem 'https://CH-Biorel.fr/Frequence' could not be found, so the code cannot be validated
+INFORMATION: Bundle/TradPN13FHIR-Presc-DOLIPRANE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-TradPN13FHIR-Presc-DOLIPRANE*/.dosageInstruction[0].timing.code: None of the codings provided are in the value set 'TimingAbbreviation' (http://hl7.org/fhir/ValueSet/timing-abbreviation|4.0.1), and a coding is recommended to come from this value set (codes = https://CH-Biorel.fr/Frequence#3)
 ERROR: Bundle/TradPN13FHIR-Presc-DOLIPRANE: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-TradPN13FHIR-Presc-DOLIPRANE*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/TradPN13FHIR-Presc-DOLIPRANE: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/TradPN13FHIR-Presc-DOLIPRANE: Bundle: SearchSet bundles should have search modes on the entries

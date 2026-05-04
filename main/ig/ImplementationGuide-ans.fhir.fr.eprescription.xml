@@ -10,7 +10,7 @@
   <name value="eP"/>
   <title value="Guide d'implémentation de la ePrescription"/>
   <status value="draft"/>
-  <date value="2026-04-02T15:16:30+00:00"/>
+  <date value="2026-05-04T12:24:40+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -60,6 +60,11 @@
     <uri value="https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core"/>
     <packageId value="hl7.fhir.fr.core"/>
     <version value="2.1.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_xver_r5_r4">
+    <uri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <packageId value="hl7.fhir.uv.xver-r5.r4"/>
+    <version value="0.1.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -1348,9 +1353,9 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/HAS-32-2-Presc-ULTIBRO-BREES"/>
+        <reference value="Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ"/>
       </reference>
-      <name value="HAS-32-2-Presc-ULTIBRO-BREES"/>
+      <name value="HAS-32-2-Presc-ULTIBRO-BREEZ"/>
       <description value="ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois."/>
       <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
     </resource>

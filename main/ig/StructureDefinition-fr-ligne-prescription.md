@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-ligne-prescription | *Version*:0.1.0 |
-| Draft as of 2026-04-02 | *Computable Name*:LignePrescription |
+| Draft as of 2026-05-04 | *Computable Name*:LignePrescription |
 
  
 Structuration d’une ligne de prescription [WIP - à compléter]. 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-ligne-prescriptio
   "name" : "LignePrescription",
   "title" : "Ligne de prescription",
   "status" : "draft",
-  "date" : "2026-04-02T15:16:30+00:00",
+  "date" : "2026-05-04T12:24:40+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -118,8 +118,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-ligne-prescriptio
     {
       "id" : "fr-ligne-prescription.traitement.dosage.valeur",
       "path" : "fr-ligne-prescription.traitement.dosage.valeur",
-      "short" : "Valeur du dosage dans une unité de dispensiation",
-      "definition" : "Valeur du dosage dans une unité de dispensiation",
+      "short" : "Valeur du dosage dans une unité de dispensation",
+      "definition" : "Valeur du dosage dans une unité de dispensation",
       "min" : 0,
       "max" : "1",
       "type" : [{
@@ -129,8 +129,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-ligne-prescriptio
     {
       "id" : "fr-ligne-prescription.traitement.dosage.unite",
       "path" : "fr-ligne-prescription.traitement.dosage.unite",
-      "short" : "Unité du dosage dans une unité de dispensiation",
-      "definition" : "Unité du dosage dans une unité de dispensiation",
+      "short" : "Unité du dosage dans une unité de dispensation",
+      "definition" : "Unité du dosage dans une unité de dispensation",
       "min" : 0,
       "max" : "1",
       "type" : [{

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie | *Version*:0.1.0 |
-| Draft as of 2026-04-02 | *Computable Name*:Posologie |
+| Draft as of 2026-05-04 | *Computable Name*:Posologie |
 
  
 Structuration d’une posologie en fonction des critères de la HAS. Cette structuration a pour objectif de tendre au plus proche du modèle européen [Xt-EHR](https://build.fhir.org/ig/Xt-EHR/xt-ehr-common/StructureDefinition-EHDSDosaging.html) (CI-BUILD) 
@@ -41,7 +41,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
   "name" : "Posologie",
   "title" : "Posologie",
   "status" : "draft",
-  "date" : "2026-04-02T15:16:30+00:00",
+  "date" : "2026-05-04T12:24:40+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -279,8 +279,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
       }]
     },
     {
-      "id" : "fr-posologie.frequence",
-      "path" : "fr-posologie.frequence",
+      "id" : "fr-posologie.frequenceAdministration",
+      "path" : "fr-posologie.frequenceAdministration",
       "short" : "Description de fréquence de prise",
       "definition" : "Description de fréquence de prise",
       "min" : 0,
@@ -290,8 +290,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
       }]
     },
     {
-      "id" : "fr-posologie.frequence.nombreDeRepetition",
-      "path" : "fr-posologie.frequence.nombreDeRepetition",
+      "id" : "fr-posologie.frequenceAdministration.nombreDeRepetition",
+      "path" : "fr-posologie.frequenceAdministration.nombreDeRepetition",
       "short" : "Nombre de prise de la quantité \"quantitePrescrite\" par période (ex : *une fois* dans une fois tous les trois jours)",
       "definition" : "Nombre de prise de la quantité \"quantitePrescrite\" par période (ex : *une fois* dans une fois tous les trois jours)",
       "min" : 0,
@@ -301,8 +301,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
       }]
     },
     {
-      "id" : "fr-posologie.frequence.periode",
-      "path" : "fr-posologie.frequence.periode",
+      "id" : "fr-posologie.frequenceAdministration.periode",
+      "path" : "fr-posologie.frequenceAdministration.periode",
       "short" : "Durée sur laquelle la fréquence s'applique (ex : *tous les trois jours* une fois tous les trois jours)",
       "definition" : "Durée sur laquelle la fréquence s'applique (ex : *tous les trois jours* une fois tous les trois jours)",
       "min" : 0,
@@ -312,8 +312,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
       }]
     },
     {
-      "id" : "fr-posologie.frequence.jourSemaine",
-      "path" : "fr-posologie.frequence.jourSemaine",
+      "id" : "fr-posologie.frequenceAdministration.jourSemaine",
+      "path" : "fr-posologie.frequenceAdministration.jourSemaine",
       "short" : "Jour de la semaine de la prise",
       "definition" : "Jour de la semaine de la prise",
       "min" : 0,
@@ -323,8 +323,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
       }]
     },
     {
-      "id" : "fr-posologie.frequence.heurePrise",
-      "path" : "fr-posologie.frequence.heurePrise",
+      "id" : "fr-posologie.frequenceAdministration.heurePrise",
+      "path" : "fr-posologie.frequenceAdministration.heurePrise",
       "short" : "Heure de la prise",
       "definition" : "Heure de la prise",
       "min" : 0,
@@ -334,8 +334,8 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
       }]
     },
     {
-      "id" : "fr-posologie.frequence.instructionAdditionnelle",
-      "path" : "fr-posologie.frequence.instructionAdditionnelle",
+      "id" : "fr-posologie.frequenceAdministration.instructionAdditionnelle",
+      "path" : "fr-posologie.frequenceAdministration.instructionAdditionnelle",
       "short" : "Instruction additionnelle",
       "definition" : "Instruction additionnelle",
       "min" : 0,
@@ -405,7 +405,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
       "short" : "Région anatomique d'administration du traitement",
       "definition" : "Région anatomique d'administration du traitement",
       "min" : 0,
-      "max" : "1",
+      "max" : "*",
       "type" : [{
         "code" : "code"
       }]

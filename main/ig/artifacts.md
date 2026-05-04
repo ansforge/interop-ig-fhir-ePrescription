@@ -159,7 +159,7 @@ These are example instances that show what data produced and consumed by systems
 | [HAS-30-2-Presc-Cetirizine](Bundle-HAS-30-2-Presc-Cetirizine.md) | CETIRIZINE 10 mg : 1 à 4 comprimés par jour selon les symptômes (urticaire) |
 | [HAS-31-Presc-DUROGESIC](Bundle-HAS-31-Presc-DUROGESIC.md) | DUROGESIC® dispositif transdermique 25 μg : un dispositif transdermique de vingt-cinq microgrammes à changer toutes les soixante-douze heures, pendant deux semaines. |
 | [HAS-32-1-Presc-LOVENOX](Bundle-HAS-32-1-Presc-LOVENOX.md) | ENOXAPARINE sodique 4 000 UI (40 mg)/0,4 mL, solution injectable en seringue préremplie (LOVENOX®): 1 injection en sous-cutanée par jour pendant 1 semaine. |
-| [HAS-32-2-Presc-ULTIBRO-BREES](Bundle-HAS-32-2-Presc-ULTIBRO-BREES.md) | ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois. |
+| [HAS-32-2-Presc-ULTIBRO-BREEZ](Bundle-HAS-32-2-Presc-ULTIBRO-BREEZ.md) | ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois. |
 | [HAS-33-Presc-VERSATIS](Bundle-HAS-33-Presc-VERSATIS.md) | VERSATIS® 700 mg emplâtre médicamenteux: 1 emplâtre par jour à 20 h, à laisser pendant 12h sur la peau |
 | [MultiLine-Presc-METFORMINE-GLICLAZIDE](Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.md) | METFORMINE® ou GLICLAZIDE® en cas d’intolérance digestive à la METFORMINE |
 | [MultiLine-Presc-METHOTREXATE-LEDERFOLINE](Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.md) | METHOTREX® et LEDERFOLINE® à prendre en même temps |

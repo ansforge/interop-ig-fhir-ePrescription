@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "eP"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la ePrescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-04-02T15:16:30+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-04T12:24:40+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -96,6 +96,14 @@
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.fr.core" ] ;
      fhir:version [ fhir:v "2.1.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_uv_xver_r5_r4" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.uv.xver-r5.r4" ] ;
+     fhir:version [ fhir:v "0.1.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -3094,10 +3102,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-32-2-Presc-ULTIBRO-BREES> ;
-         fhir:reference [ fhir:v "Bundle/HAS-32-2-Presc-ULTIBRO-BREES" ]
+         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ> ;
+         fhir:reference [ fhir:v "Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ" ]
        ] ;
-       fhir:name [ fhir:v "HAS-32-2-Presc-ULTIBRO-BREES" ] ;
+       fhir:name [ fhir:v "HAS-32-2-Presc-ULTIBRO-BREEZ" ] ;
        fhir:description [ fhir:v "ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois." ] ;
        fhir:example [
          a fhir:Canonical ;

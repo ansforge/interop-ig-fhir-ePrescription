@@ -10,7 +10,7 @@
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-04-02T15:16:30+00:00",
+  "date" : "2026-05-04T12:24:40+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -65,6 +65,12 @@
     "uri" : "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core",
     "packageId" : "hl7.fhir.fr.core",
     "version" : "2.1.0"
+  },
+  {
+    "id" : "hl7_fhir_uv_xver_r5_r4",
+    "uri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "packageId" : "hl7.fhir.uv.xver-r5.r4",
+    "version" : "0.1.0"
   }],
   "definition" : {
     "extension" : [{
@@ -1599,9 +1605,9 @@
         "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "Bundle/HAS-32-2-Presc-ULTIBRO-BREES"
+        "reference" : "Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ"
       },
-      "name" : "HAS-32-2-Presc-ULTIBRO-BREES",
+      "name" : "HAS-32-2-Presc-ULTIBRO-BREEZ",
       "description" : "ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois.",
       "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"
     },

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope | *Version*:0.1.0 |
-| Draft as of 2026-04-02 | *Computable Name*:FRMedicationRequestNoteScope |
+| Draft as of 2026-05-04 | *Computable Name*:FRMedicationRequestNoteScope |
 
 Scope of a note associated in a MedicationRequest resource
 
@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
   "name" : "FRMedicationRequestNoteScope",
   "title" : "Scope for note element in MedicationRequest",
   "status" : "draft",
-  "date" : "2026-04-02T15:16:30+00:00",
+  "date" : "2026-05-04T12:24:40+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

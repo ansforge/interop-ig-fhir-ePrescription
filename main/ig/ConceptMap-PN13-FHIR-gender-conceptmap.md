@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-gender-conceptmap | *Version*:0.1.0 |
-| Draft as of 2026-04-02 | *Computable Name*:FrPN13FHIRGenderConceptMap |
+| Draft as of 2026-05-04 | *Computable Name*:FrPN13FHIRGenderConceptMap |
 
  
 ConceptMap pour la conversion des codes de sexe administratif entre PN13 et FHIR 
@@ -27,7 +27,7 @@ ConceptMap pour la conversion des codes de sexe administratif entre PN13 et FHIR
   "name" : "FrPN13FHIRGenderConceptMap",
   "title" : "Conversion PN13 FHIR des code de sexe administratif",
   "status" : "draft",
-  "date" : "2026-04-02T15:16:30+00:00",
+  "date" : "2026-05-04T12:24:40+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

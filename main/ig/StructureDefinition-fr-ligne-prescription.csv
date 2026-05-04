@@ -8,9 +8,9 @@
 "fr-ligne-prescription.traitement.dosage","fr-ligne-prescription.traitement.dosage","","","",0,*,"","","","Base {[]} {[]}
 ","Quantité de substance active dans une unité de dispensation","Quantité de substance active dans une unité de dispensation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage",0,*,"",""
 "fr-ligne-prescription.traitement.dosage.valeur","fr-ligne-prescription.traitement.dosage.valeur","","","",0,1,"","","","decimal {[]} {[]}
-","Valeur du dosage dans une unité de dispensiation","Valeur du dosage dans une unité de dispensiation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage.valeur",0,1,"",""
+","Valeur du dosage dans une unité de dispensation","Valeur du dosage dans une unité de dispensation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage.valeur",0,1,"",""
 "fr-ligne-prescription.traitement.dosage.unite","fr-ligne-prescription.traitement.dosage.unite","","","",0,1,"","","","code {[]} {[]}
-","Unité du dosage dans une unité de dispensiation","Unité du dosage dans une unité de dispensiation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage.unite",0,1,"",""
+","Unité du dosage dans une unité de dispensation","Unité du dosage dans une unité de dispensation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.dosage.unite",0,1,"",""
 "fr-ligne-prescription.traitement.forme","fr-ligne-prescription.traitement.forme","","","",0,1,"","","","code {[]} {[]}
 ","Forme galénique de l'unité de dispensation","Forme galénique de l'unité de dispensation","","","","","","","","","",,,,,"",,,,"fr-ligne-prescription.traitement.forme",0,1,"",""
 "fr-ligne-prescription.dateDebut","fr-ligne-prescription.dateDebut","","","",0,1,"","","","dateTime {[]} {[]}

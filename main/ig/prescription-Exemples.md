@@ -33,7 +33,7 @@ Les travaux de la HAS sur la structuration de la posologie des prescriptions de 
 * [HAS - enoxaparine sodique 6000 UI (LOVENOX®), solution injectable en seringue préremplie : 1 injection en SC par jour jusqu’à ce que l’INR de l’AVK soit dans la zone thérapeutique cible (id_poso=29)](Bundle-HAS-29-Presc-LOVENOX.md)
 * [HAS - DUROGESIC® dispositif transdermique 25 μg : un dispositif transdermique de vingt-cinq microgrammes à changer toutes les soixante-douze heures, pendant deux semaines (id_poso=31)](Bundle-HAS-31-Presc-DUROGESIC.md)
 * [HAS - enoxaparine sodique 4 000 UI (40 mg)/0,4 mL, solution injectable en seringue préremplie (LOVENOX®): 1 injection en sous-cutanée par jour pendant 1 semaine (id_poso=32)](Bundle-HAS-32-1-Presc-LOVENOX.md)
-* [HAS - ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois (id_poso=32)](Bundle-HAS-32-2-Presc-ULTIBRO-BREES.md)
+* [HAS - ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois (id_poso=32)](Bundle-HAS-32-2-Presc-ULTIBRO-BREEZ.md)
 * [HAS - VERSATIS ® 700 mg emplâtre médicamenteux: 1 emplâtre par jour à 20 h, à laisser pendant 12h sur la peau (id_poso=33)](Bundle-HAS-33-Presc-VERSATIS.md)
 
 ##### Médicament simple en DC
@@ -152,7 +152,7 @@ Un premier niveau de complexité est adressé par les cas d’usage précédents
 * les doses progessives ou dégressives par palier 
 * [méthylpredinosolone, 6 mg pendant 2j, puis 4 mg pendant 2j, puis 2 mg pendant 2j](Bundle-Presc-Methylpredinosolone-DosesEvolutives.md)
 * [HAS - prednisolone 20 mg comprimé (sécable) : 60 mg jusqu’à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l’arrêt selon évolution (id_poso=21)](Bundle-HAS-21-Presc-Prednisolone.md)
-* [HAS - prednisolone 20 mg comprimé (sécable) : 60 mg jusqu’à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l’arrêt selon évolution (id_poso=22)](Bundle-HAS-22-Presc-Prednisolone.md)
+* [HAS - prednisolone 20 mg comprimé (sécable) : 60 mg jusqu’à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 2 semaines, puis revoir pour l’arrêt selon évolution (id_poso=22)](Bundle-HAS-22-Presc-Prednisolone.md)
  
 * les alternances de doses 
 * [HAS - fluindione 20 mg comprimé quadrisécable: 0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours, à répéter sur le mois (id_poso=23)](Bundle-HAS-23-1-Presc-Fluindione)

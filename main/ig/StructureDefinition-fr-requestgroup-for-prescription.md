@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription | *Version*:0.1.0 |
-| Draft as of 2026-04-02 | *Computable Name*:FRRequestGroupForPrescription |
+| Draft as of 2026-05-04 | *Computable Name*:FRRequestGroupForPrescription |
 
  
 RequestGroup for expressing links between lines of a prescription 
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-requestgroup-for-
   "title" : "FR RequestGroup For Prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-04-02T15:16:30+00:00",
+  "date" : "2026-05-04T12:24:40+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
