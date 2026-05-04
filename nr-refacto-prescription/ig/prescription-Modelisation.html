@@ -246,7 +246,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><a href="#terminologies-utilisables-pour-les-unités" id="markdown-toc-terminologies-utilisables-pour-les-unités">Terminologies utilisables pour les unités</a></li>
   <li><a href="#durée-dadministration" id="markdown-toc-durée-dadministration">Durée d’administration</a></li>
   <li><a href="#rattrapage-de-dose" id="markdown-toc-rattrapage-de-dose">Rattrapage de dose</a></li>
-  <li><a href="#dates-et-durée-de-prescription" id="markdown-toc-dates-et-durée-de-prescription">Dates et durée de prescription</a></li>
+  <li><a href="#dates-de-début-de-fin-et-durée-de-prescription" id="markdown-toc-dates-de-début-de-fin-et-durée-de-prescription">Dates de début, de fin et durée de prescription</a></li>
   <li><a href="#perfusions-et-seringues-électriques" id="markdown-toc-perfusions-et-seringues-électriques">Perfusions et seringues électriques</a></li>
   <li><a href="#précisions-sur-les-patchs" id="markdown-toc-précisions-sur-les-patchs">Précisions sur les patchs</a></li>
   <li><a href="#précisions-sur-le-lien-dose-calculée-et-dose-prescrite" id="markdown-toc-précisions-sur-le-lien-dose-calculée-et-dose-prescrite">Précisions sur le lien dose calculée et dose prescrite</a></li>
@@ -529,7 +529,9 @@ Il y deux façons d’exprimer un débit dans une dose FHIR :</p>
 
 <p>Sauf indication contraire dans la prescription via l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>, la structuration de la posologie (ex. l’utilisation de l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.timing.repeat.when</code>) ne doit pas interdire de rattraper une dose qui n’a pas été prise au bon moment.</p>
 
-<h3 id="dates-et-durée-de-prescription">Dates et durée de prescription</h3>
+<h3 id="dates-de-début-de-fin-et-durée-de-prescription">Dates de début, de fin et durée de prescription</h3>
+
+<p>Elles traduisent la période d’exécution de la prescription.</p>
 
 <p>Cette information est portée individuellement par chaque ligne de prescription, c’est à dire au niveau de la ressource <em>MedicationRequest</em> profilée par <em>FRMedicationRequest</em> ou <em>FRInpatientMedicationRequest</em>, comme paramètre de la posologie prescrite, dans l’élément <code class="language-plaintext highlighter-rouge">dosageInstruction</code> de type <em>Dosage</em>, sous-élément <code class="language-plaintext highlighter-rouge">timing</code> de type <em>Timing</em></p>
 
@@ -547,8 +549,6 @@ Il y deux façons d’exprimer un débit dans une dose FHIR :</p>
 <p>Ces dates de début et de fin de prescription, de même que la durée de prescription, ne sont pas des consignes de dispensation. Elles ne figurent donc pas dans les éléments <code class="language-plaintext highlighter-rouge">.validityPeriod</code> et <code class="language-plaintext highlighter-rouge">.expectedSupplyDuration</code> de l’élément <code class="language-plaintext highlighter-rouge">.dispensationRequest</code>.</p>
 
 <p>En prescription intrahospitalière, il n’y a généralement pas de consigne de dispensation formulée par le prescripteur. Il n’y a donc généralement pas usage de l’élément <code class="language-plaintext highlighter-rouge">.dispensationRequest</code>.</p>
-
-<p>Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource <em>MedicationRequest</em> profilée <em>FRMedicationRequest</em> ou <em>FRInPatientMedicationRequest</em>.</p>
 
 <p>Elles concernent également les règles définissant la <strong>première dose prescrite</strong> et la <strong>dernière dose prescrite</strong>.</p>
 
@@ -993,7 +993,7 @@ L’utilisation de la ressource <code class="language-plaintext highlighter-roug
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 4, 2026 14:08+0000">2026-05-04</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 4, 2026 14:21+0000">2026-05-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

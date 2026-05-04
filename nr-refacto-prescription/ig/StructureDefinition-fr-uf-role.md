@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-uf-role.csv), [Ex
   "name" : "FrUFRole",
   "title" : "UF Role",
   "status" : "draft",
-  "date" : "2026-05-04T14:08:33+00:00",
+  "date" : "2026-05-04T14:21:51+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

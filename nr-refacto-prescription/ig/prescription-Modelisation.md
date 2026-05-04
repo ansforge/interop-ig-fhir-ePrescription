@@ -228,7 +228,9 @@ La seconde implique une **interprétation du code UCUM par le logiciel** pour av
 
 Sauf indication contraire dans la prescription via l’élément `MedicationRequest.dosageInstruction.additionalInstruction.text`, la structuration de la posologie (ex. l’utilisation de l’élément `MedicationRequest.dosageInstruction.timing.repeat.when`) ne doit pas interdire de rattraper une dose qui n’a pas été prise au bon moment.
 
-### Dates et durée de prescription
+### Dates de début, de fin et durée de prescription
+
+Elles traduisent la période d’exécution de la prescription.
 
 Cette information est portée individuellement par chaque ligne de prescription, c’est à dire au niveau de la ressource **MedicationRequest** profilée par **FRMedicationRequest** ou **FRInpatientMedicationRequest**, comme paramètre de la posologie prescrite, dans l’élément `dosageInstruction` de type **Dosage**, sous-élément `timing` de type **Timing**
 
@@ -242,8 +244,6 @@ Cette information est portée individuellement par chaque ligne de prescription,
 Ces dates de début et de fin de prescription, de même que la durée de prescription, ne sont pas des consignes de dispensation. Elles ne figurent donc pas dans les éléments `.validityPeriod` et `.expectedSupplyDuration` de l’élément `.dispensationRequest`.
 
 En prescription intrahospitalière, il n’y a généralement pas de consigne de dispensation formulée par le prescripteur. Il n’y a donc généralement pas usage de l’élément `.dispensationRequest`.
-
-Ces précisions concernent les dates et durée de prescription de la ligne de prescription représentée par une ressource **MedicationRequest** profilée **FRMedicationRequest** ou **FRInPatientMedicationRequest**.
 
 Elles concernent également les règles définissant la **première dose prescrite** et la **dernière dose prescrite**.
 
