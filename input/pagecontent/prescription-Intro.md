@@ -32,7 +32,7 @@ Les spécifications sont issues des travaux du groupe de travail Interop'Santé 
 <div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
 <strong>⚙️ Vous êtes développeur ou intégrateur ?</strong>
 <ul>
-<li>Consultez la <a href="prescription-VueEnsemble.html">Vue d'ensemble technique</a> pour l'architecture FHIR (ressources, profils, diagramme)</li>
+<li>Consultez la <a href="prescription-VueEnsemble.html">Vue d'ensemble technique</a> pour comprendre les ressources et profils FHIR impliqués et leurs relations</li>
 <li>Consultez les <a href="prescription-Modelisation.html">Spécifications de modélisation</a> pour les règles d'implémentation détaillées (posologie, dates, perfusions, patchs...)</li>
 <li>Utilisez les <a href="prescription-Exemples.html">instances FHIR</a> comme référence d'implémentation</li>
 </ul>
