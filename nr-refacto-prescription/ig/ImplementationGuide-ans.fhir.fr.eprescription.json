@@ -10,7 +10,7 @@
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-05-04T12:53:37+00:00",
+  "date" : "2026-05-04T13:11:55+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -2389,19 +2389,19 @@
         {
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "prescription-Exemples.html"
+            "valueUrl" : "prescription-Modelisation.html"
           }],
-          "nameUrl" : "prescription-Exemples.html",
-          "title" : "La prescription - Exemples",
+          "nameUrl" : "prescription-Modelisation.html",
+          "title" : "La prescription - Modélisation",
           "generation" : "markdown"
         },
         {
           "extension" : [{
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "prescription-Modelisation.html"
+            "valueUrl" : "prescription-Exemples.html"
           }],
-          "nameUrl" : "prescription-Modelisation.html",
-          "title" : "La prescription - Spécifications de modélisation",
+          "nameUrl" : "prescription-Exemples.html",
+          "title" : "La prescription - Exemples",
           "generation" : "markdown"
         },
         {

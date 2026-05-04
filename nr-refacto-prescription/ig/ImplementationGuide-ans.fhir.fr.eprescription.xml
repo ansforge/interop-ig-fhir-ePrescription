@@ -10,7 +10,7 @@
   <name value="eP"/>
   <title value="Guide d'implémentation de la ePrescription"/>
   <status value="draft"/>
-  <date value="2026-05-04T12:53:37+00:00"/>
+  <date value="2026-05-04T13:11:55+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -2070,18 +2070,18 @@
         </page>
         <page>
           <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-            <valueUrl value="prescription-Exemples.html"/>
+            <valueUrl value="prescription-Modelisation.html"/>
           </extension>
-          <nameUrl value="prescription-Exemples.html"/>
-          <title value="La prescription - Exemples"/>
+          <nameUrl value="prescription-Modelisation.html"/>
+          <title value="La prescription - Modélisation"/>
           <generation value="markdown"/>
         </page>
         <page>
           <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-            <valueUrl value="prescription-Modelisation.html"/>
+            <valueUrl value="prescription-Exemples.html"/>
           </extension>
-          <nameUrl value="prescription-Modelisation.html"/>
-          <title value="La prescription - Spécifications de modélisation"/>
+          <nameUrl value="prescription-Exemples.html"/>
+          <title value="La prescription - Exemples"/>
           <generation value="markdown"/>
         </page>
         <page>

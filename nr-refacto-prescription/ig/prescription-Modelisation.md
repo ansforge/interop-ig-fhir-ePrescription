@@ -1,10 +1,10 @@
-# La prescription - Spécifications de modélisation - Guide d'implémentation de la ePrescription v0.1.0
+# La prescription - Modélisation - Guide d'implémentation de la ePrescription v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**La prescription**](prescription-Intro.md)
-* **La prescription - Spécifications de modélisation**
+* **La prescription - Modélisation**
 
-## La prescription - Spécifications de modélisation
+## La prescription - Modélisation
 
 **⚙️ Spécifications de modélisation**– Cette page détaille les règles d'implémentation FHIR pour les cas particuliers de la prescription. Destinée aux développeurs et intégrateurs.
 
