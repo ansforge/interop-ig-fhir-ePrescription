@@ -17,7 +17,7 @@ Ce guide d'implémentation (IG) a pour vocation à spécifier l'interopérabilit
 <ul style="margin: 10px 0 0 0;">
 <li>Consultez la section <a href="#introduction-destinée-aux-professionnels-de-santé">Introduction professionnels de santé</a> ci-dessous</li>
 <li>Explorez les <a href="prescription-CasUsage.html">cas d'usage</a> pour comprendre les scénarios couverts</li>
-<li>Parcourez les <a href="prescription-Exemples.html">exemples concrets</a> basés sur les travaux de la HAS</li>
+<li>Parcourez les <a href="prescription-Exemples.html">exemples concrets</a> basés sur les <a href="https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments">travaux de structuration de la posologie de la HAS</a></li>
 </ul>
 </div>
 
@@ -49,7 +49,7 @@ Ce guide d'implémentation s'inscrit dans une démarche de convergence des trava
 - **S'harmoniser** avec les travaux de [structuration de la posologie](https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments) de la Haute Autorité de Santé (HAS)
 - **Faciliter la transition** depuis les standards existants (PN-13, CDA) vers FHIR
 
-Cette convergence est le fruit d'une collaboration étroite entre l'ANS, Interop'Santé, les entreprises du numérique en santé et les professionnels de santé, avec un alignement sur les orientations européennes.
+Cette convergence est le fruit d'une collaboration étroite entre l'ANS, Interop'Santé, la HAS, les entreprises du numérique en santé et les professionnels de santé, avec un alignement sur les orientations européennes.
 
 ### Introduction destinée aux professionnels de santé
 
@@ -78,7 +78,11 @@ Ce guide concerne l'ensemble des acteurs impliqués dans le circuit du médicame
 
 #### Conformité et structuration de la posologie
 
-Le guide intègre les recommandations de la HAS pour la structuration de la posologie, ayant pour objectif :
+Aujourd'hui, la posologie est souvent rédigée en **texte libre** (ex. : *"1 comprimé matin et soir pendant 5 jours"*). Si ce format est naturel pour le prescripteur, il reste difficile à exploiter automatiquement : un système informatique ne peut pas « lire » une instruction libre pour déclencher une alerte, calculer une dose ou assurer une continuité de soins.
+
+La **donnée structurée** consiste à exprimer ces mêmes informations dans un format normalisé et compréhensible par les logiciels : dose, unité, fréquence, voie d'administration, durée… chacun encodé séparément. Cela ouvre la voie aux **contrôles automatiques** (interactions, allergies, surdosages), à la **continuité numérique** entre ville et hôpital, et à l'exploitation des données à des fins de santé publique.
+
+Le guide intègre les recommandations de la [HAS pour la structuration de la posologie](https://www.has-sante.fr/jcms/p_3555137/fr/structuration-de-la-posologie-des-medicaments), ayant pour objectif :
 
 - Une **expression standardisée** de la posologie (dose, fréquence, durée, ...)
 - Une **interprétation uniforme** par les différents acteurs du circuit
