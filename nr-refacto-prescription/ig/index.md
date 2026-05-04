@@ -23,7 +23,7 @@ Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérab
 
 **⚙️ Développeurs et intégrateurs**
 * Consultez la section [Introduction développeurs](#introduction-destinée-aux-développeurs) ci-dessous
-* Accédez à la [vue d'ensemble technique](prescription-VueEnsemble.md) pour la modélisation FHIR
+* Accédez à la [vue d'ensemble technique](prescription-VueEnsemble.md) pour l'architecture FHIR et aux [spécifications de modélisation](prescription-Modelisation.md) pour les règles d'implémentation détaillées
 * Consultez les [spécifications de transformation PN-13](transformation-PN13-vers-FHIR.md)
 
 ### Contexte et enjeux
@@ -162,7 +162,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-05-04T13:11:55+00:00",
+  "date" : "2026-05-04T13:17:58+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
