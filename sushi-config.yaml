@@ -36,6 +36,8 @@ pages:
         title: La prescription - Cas d'usage
       prescription-Exemples.md:
         title: La prescription - Exemples
+      prescription-Modelisation.md:
+        title: La prescription - Spécifications de modélisation
       prescription-Document.md:
         title: La prescription au format document
     transformationPN13-FHIR-Intro.md:
@@ -65,6 +67,7 @@ menu:
       Vue d'ensemble: prescription-VueEnsemble.html
       Cas d'usage: prescription-CasUsage.html
       Exemples: prescription-Exemples.html
+      Spécifications de modélisation: prescription-Modelisation.html
   Prescription Document:
       Prescription document: prescription-Document.html
   Transformation PN13-FHIR:
