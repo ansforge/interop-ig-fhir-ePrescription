@@ -1,7 +1,7 @@
 {
     "package-id" : "ans.fhir.fr.eprescription",
-    "version" : "0.1.0-ballot",
-    "path" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/0.1.0-ballot",
+    "version" : "1.1.0-ballot",
+    "path" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/1.1.0-ballot",
     "mode" : "working",
     "status" : "ballot",
     "sequence" : "STU 1",

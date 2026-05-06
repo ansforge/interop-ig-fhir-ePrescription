@@ -1,6 +1,6 @@
 ### Suivi des versions
 
-#### [0.1.0-ballot](https://interop.esante.gouv.fr/ig/fhir/eprescription/0.1.0-ballot)
+#### Version 1.1.0
 
 Les travaux du GT PN13 - FHIR sur la prescription se sont déroulés de janvier 2024 à septembre 2025
 La concertation publique a lieu du XXX au XXX
