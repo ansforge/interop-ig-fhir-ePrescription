@@ -271,13 +271,13 @@
     "uses" : {
     },
     "StructureDefinition-fr-medication.html" : "FR Medication",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
-    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example",
     "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example",
+    "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription",
+    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -526,8 +526,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.59"],
     "uses" : {
     },
-    "StructureDefinition-FrSimpleQuantityMedication.html" : "SimpleQuantity with UCUM or EDQM codes or code not used",
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-FrSimpleQuantityMedication.html" : "SimpleQuantity with UCUM or EDQM codes or code not used"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",

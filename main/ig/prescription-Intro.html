@@ -111,6 +111,9 @@
         <a href="prescription-CasUsage.html">Cas d&apos;usage</a>
       </li>
       <li>
+        <a href="prescription-Modelisation.html">Règles de modélisation</a>
+      </li>
+      <li>
         <a href="prescription-Exemples.html">Exemples</a>
       </li>
     </ul>
@@ -286,8 +289,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div style="background-color: #f0f0f0; border-left: 4px solid #666; padding: 15px; margin: 20px 0;">
 <strong>⚙️ Vous êtes développeur ou intégrateur ?</strong>
 <ul>
-<li>Allez directement à la <a href="prescription-VueEnsemble.html">Vue d'ensemble technique</a> pour la modélisation FHIR</li>
-<li>Consultez les profils, ressources et règles de validation détaillés</li>
+<li>Consultez la <a href="prescription-VueEnsemble.html">Vue d'ensemble technique</a> pour comprendre les ressources et profils FHIR impliqués et leurs relations</li>
+<li>Consultez les <a href="prescription-Modelisation.html">Règles de modélisation</a> pour les règles d'implémentation détaillées (posologie, dates, perfusions, patchs...)</li>
 <li>Utilisez les <a href="prescription-Exemples.html">instances FHIR</a> comme référence d'implémentation</li>
 </ul>
 </div>
@@ -338,8 +341,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <h3 id="sommaire-de-la-partie-prescription">Sommaire de la partie prescription</h3>
 
 <ul>
-  <li><a href="prescription-VueEnsemble.html">Vue d’ensemble</a> : modélisation FHIR d’une prescription (ressources, profils, structuration du médicament prescrit et de la posologie)</li>
+  <li><a href="prescription-VueEnsemble.html">Vue d’ensemble</a> : ressources et profils FHIR impliqués, leurs relations et le diagramme de dépendances</li>
   <li><a href="prescription-CasUsage.html">Cas d’usage</a> : scénarios de prescription couverts (médicaments simples/composés, spécialité/DC, posologies simples/complexes)</li>
+  <li><a href="prescription-Modelisation.html">Règles de modélisation</a> : règles d’implémentation détaillées (parties textuelles, terminologies, dates et durée, perfusions, patchs, dose calculée, liens entre lignes)</li>
   <li><a href="prescription-Exemples.html">Exemples</a> : instances FHIR concrètes illustrant les différents cas d’usage, incluant les exemples de la HAS sur la structuration de la posologie</li>
 </ul>
 
@@ -384,7 +388,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 4, 2026 13:30+0000">2026-05-04</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 6, 2026 13:16+0000">2026-05-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

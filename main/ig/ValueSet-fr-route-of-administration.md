@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration | *Version*:0.1.0 |
-| Draft as of 2026-05-04 | *Computable Name*:FrRouteOfAdministration |
+| Draft as of 2026-05-06 | *Computable Name*:FrRouteOfAdministration |
 
  
 Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.route** de la ressource **FRMedicationRequest**. 
@@ -54,7 +54,7 @@ Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.route
   "title" : "French Route of Administration",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-04T13:30:13+00:00",
+  "date" : "2026-05-06T13:16:54+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

@@ -42,8 +42,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script src="assets/js/mermaid.js" type="text/javascript"></script>
     <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
-    <style type="text/css">h2{--heading-prefix:"2.3"}
-    h3,h4,h5,h6{--heading-prefix:"2.3"}</style>
+    <style type="text/css">h2{--heading-prefix:"2.4"}
+    h3,h4,h5,h6{--heading-prefix:"2.4"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -109,6 +109,9 @@
       </li>
       <li>
         <a href="prescription-CasUsage.html">Cas d'usage</a>
+      </li>
+      <li>
+        <a href="prescription-Modelisation.html">Règles de modélisation</a>
       </li>
       <li>
         <a href="prescription-Exemples.html">Exemples</a>
@@ -194,7 +197,7 @@
 
           <span style="float:right;">
 
-            <a href="prescription-CasUsage.html">&lt;prev</a> | 
+            <a href="prescription-Modelisation.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
@@ -236,16 +239,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p>  <!-- white space is critical inside of capture --></p>
-<div class="markdown-toc">
-<ul id="markdown-toc">
-  <li><a href="#exemples-généraux" id="markdown-toc-exemples-généraux">Exemples généraux</a></li>
-  <li><a href="#médicament-prescrit-et-doses" id="markdown-toc-médicament-prescrit-et-doses">Médicament prescrit et dose(s)</a></li>
-  <li><a href="#précisions-sur-la-durée-dadministration" id="markdown-toc-précisions-sur-la-durée-dadministration">Précisions sur la durée d’administration</a></li>
-  <li><a href="#précisions-sur-les-perfusions-et-seringues-électriques" id="markdown-toc-précisions-sur-les-perfusions-et-seringues-électriques">Précisions sur les perfusions et seringues électriques</a></li>
-  <li><a href="#précisions-sur-les-patchs" id="markdown-toc-précisions-sur-les-patchs">Précisions sur les patchs</a></li>
-  <li><a href="#précisions-sur-le-lien-dose-calculée-et-dose-prescrite" id="markdown-toc-précisions-sur-le-lien-dose-calculée-et-dose-prescrite">Précisions sur le lien dose calculée et dose prescrite</a></li>
-</ul>
-
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
 </div>
 <div style="background-color: #fff9e6; border-left: 4px solid #ff9800; padding: 15px; margin: 20px 0;">
 <strong>&#x1F4DA; Exemples FHIR</strong> – Cette page présente des instances FHIR concrètes illustrant les cas d'usage. Utile pour tous les profils : compréhension métier et référence d'implémentation.
@@ -256,6 +251,8 @@ Ce formalisme n’est pas obligatoire, la manière dont les ressources FHIR cons
 
 <p>Les travaux de la HAS sur la structuration de la posologie des prescriptions de médecine de ville (lien à venir lorsque ces travaux seront publiés) ont été intégrés aux exemples. Ils sont identifiés par le préfixe HAS et le suffixe entre parenthèses id_poso indiqué dans le document de la HAS.
 Dans le cas où ils représentent des spécificités pour les prescriptions de médecine de ville (qui valent également pour les prescriptions hospitalières à exécution en ville), il sont précédés par la mention <strong><em>spécificité ville</em></strong></p>
+
+<p>Pour les règles de modélisation illustrées par ces exemples (contraintes sur les unités de dose, durée d’administration, perfusions, patchs, dose calculée), consulter la page <a href="prescription-Modelisation.html">Règles de modélisation</a>.</p>
 
 <h3 id="exemples-généraux">Exemples généraux</h3>
 
@@ -299,7 +296,7 @@ Dans le cas où ils représentent des spécificités pour les prescriptions de m
   <li><a href="Bundle-Presc-ParacetamolCodeine-500mg30mg.html">paracétamol+codéine 500 mg+30 mg, 1 à 7h et 18h per os, pendant 5j</a></li>
   <li><a href="Bundle-Presc-PerfGl-NaCl-KCl-500ml.html">Perfusion Glucose 5% 500 mL avec Sodium chlorure 2g et Potassium chlorure 1g, à 10h et 22h sur 12h, pendant 5j</a></li>
   <li><a href="Bundle-Presc-PerfGl-NaCl-KCl-1l.html">Perfusion Glucose 5% 1L avec Sodium chlorure 3g et Potassium chlorure 2g, à 10h et 22h sur 12h, pendant 5j</a></li>
-  <li><a name="l595">​</a>marquer l’un des médicaments composant comme étant le soluté du médicament composé: <a href="Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.html">céfotaxine dans miniperf G5 100 mL, 4g céfotaxine en 20 min toutes les 6h pendant 3j</a> Voir <a href="prescription-Exemples.html#perfusion-et-seringues-électriques">Perfusions et seringues électriques</a>, &sect; concacré à l’extension <em>IsVehicle</em></li>
+  <li>marquer l’un des médicaments composant comme étant le soluté du médicament composé: <a href="Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.html">céfotaxine dans miniperf G5 100 mL, 4g céfotaxine en 20 min toutes les 6h pendant 3j</a> Voir <a href="prescription-Modelisation.html#perfusions-et-seringues-électriques">Règles de modélisation des perfusions et seringues électriques</a>, &sect; consacré à l’extension <em>IsVehicle</em></li>
   <li><a href="Bundle-Presc-PerfDobutamine-Qsp40mL.html">dobutamine 200 mg dans soluté=G5 qsp 40 mL, 400 µg/min pendant 1j</a></li>
 </ul>
 
@@ -312,7 +309,7 @@ Dans le cas où ils représentent des spécificités pour les prescriptions de m
   <li><a href="Bundle-HAS-17-Presc-Budesonide.html">HAS - budesonide  1mg/2mL, suspension pour inhalation par nébuliseur en récipient unidose : 1 récipient unidose de 1 mg 4 fois par jour selon les modalités d’administration suivantes (Préparation pour nébuliseur ultrasonique : 3 mL Eau Pour Préparation Injectable + 1 récipient unidose (soit 2 mL) de BUDESONIDE 1mg/2mL) suspension pour inhalation par nébuliseur) A administrer en 20 min à 8h, 14h, 18h, et 22h à partir du 16/03/2023 (id_poso=17)</a></li>
   <li><a href="Bundle-HAS-18-Presc-Budesonide-MV.html">HAS - budesonide  1mg/2mL, suspension pour inhalation par nébuliseur en récipient unidose : 1 récipient unidose de 1 mg 4 fois par jour selon les modalités d’administration suivantes (Préparation pour nébuliseur ultrasonique : 3 mL Eau Pour Préparation Injectable + 1 récipient unidose (soit 2 mL) de BUDESONIDE 1mg/2mL) suspension pour inhalation par nébuliseur) A administrer en 20 min à 8h, 14h, 18h, et 22h  jusqu’au 26/03/2023 (id_poso=18)</a></li>
   <li><a href="Bundle-HAS-15-Presc-Morphine.html">HAS - morphine sulfate LP 10 mg gélule microgranule à libération prolongée: une gélule le soir (à 20h) pendant huit jours (id_poso=15)</a></li>
-  <li><a name="l640">​</a><a href="Bundle-HAS-24-1-Topiramate.html">HAS - topiramate 15 mg gélule: 1 gélule par jour. Si difficulté à prendre la gélule, l’ouvrir et en administrer le contenu avec un peu de compote (id_poso=24)</a></li>
+  <li><a name="l627">​</a><a href="Bundle-HAS-24-1-Topiramate.html">HAS - topiramate 15 mg gélule: 1 gélule par jour. Si difficulté à prendre la gélule, l’ouvrir et en administrer le contenu avec un peu de compote (id_poso=24)</a></li>
   <li><a href="Bundle-HAS-30-1-Presc-Hydrocortisone.html">HAS - hydrocortisone 10 mg : 1 comprimé matin et 1 comprimé midi. En cas de fièvre, de forte chaleur, d’infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre &gt; 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h. Avec un maximum de 6 comprimés par jour. QSP 6 mois (id_poso=30)</a></li>
   <li><a href="Bundle-HAS-30-2-Presc-Cetirizine.html">HAS - cetirizine 10 mg : 1 à 4 comprimés par jour selon les symptômes (urticaire) (id_poso=30)</a></li>
   <li><a href="Bundle-Presc-MV-PerfGl-NaCl-KCl.html">glucose 5%+sodium chlorure 2g+potassium chlorure 1g x 500mL, 1 à 10h et 22h sur 12h, pendant 5j</a>
@@ -360,9 +357,9 @@ Les niveaux de complexité supplémentaires adressent</p>
     <ul>
       <li><a href="Bundle-HAS-27-1-presc-GLUCOPHAGE.html">HAS - GLUCOPHAGE&reg; 500 mg comprimé : 1 comprimé matin et 1 comprimé soir, au cours ou à la fin des repas (id_poso=27)</a></li>
       <li><a href="Bundle-HAS-27-2-presc-Rifampicine.html">HAS - rifampicine 300 mg en gélule 2 gélules le matin 30 minutes avant le petit-déjeuner (id_poso=27)</a></li>
-      <li>Note: l’élément utilisé en FHIR (<code class="language-plaintext highlighter-rouge">when</code>) est associé à un vocabulaire limité et obligatoire. L’extension <em>FrAdditionalWhenValues</em> a été créée pour référencer les moments de prises les plus usuels qui ne sont pas dans le vocabulaire FHIR. Cependant, tous les moments de prise n’ont pas pu être listé. Dans le cas d’un moment de prise non présent dans le vocabulaire FHIR ni dans le vocabulaire associé à l’extension <em>FrAdditionalWhenValues</em>, le moment de prise est à exprimer en toutes lettres dans une partie textuelle (i.e. dans <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>)
+      <li>Note: l’élément utilisé en FHIR (<code class="language-plaintext highlighter-rouge">when</code>) est associé à un vocabulaire limité et obligatoire. L’extension <em>FrAdditionalWhenValues</em> a été créée pour référencer les moments de prises les plus usuels qui ne sont pas dans le vocabulaire FHIR. Cependant, tous les moments de prise n’ont pas pu être listés. Dans le cas d’un moment de prise non présent dans le vocabulaire FHIR ni dans le vocabulaire associé à l’extension <em>FrAdditionalWhenValues</em>, le moment de prise est à exprimer en toutes lettres dans une partie textuelle (i.e. dans <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>)
         <ul>
-          <li><a name="l773">​</a><a href="Bundle-HAS-28-Presc-LOVENOX">HAS - enoxaparine sodique 4 000 UI (40 mg)/0,4 mL (LOVENOX&reg;), solution injectable en seringue préremplie: 1 seringue, 1 fois par jour en sous-cutanée, à débuter 12 heures avant l’intervention chirurgicale. à poursuivre pendant 10 jours après l’intervention. (id_poso=28)</a></li>
+          <li><a name="l760">​</a><a href="Bundle-HAS-28-Presc-LOVENOX">HAS - enoxaparine sodique 4 000 UI (40 mg)/0,4 mL (LOVENOX&reg;), solution injectable en seringue préremplie: 1 seringue, 1 fois par jour en sous-cutanée, à débuter 12 heures avant l’intervention chirurgicale. à poursuivre pendant 10 jours après l’intervention. (id_poso=28)</a></li>
         </ul>
       </li>
     </ul>
@@ -419,13 +416,13 @@ Les niveaux de complexité supplémentaires adressent</p>
       <li>Le type complexe <em>Timing</em> est normatif, il est en pratique impossible de le faire évoluer.
         <ul>
           <li>Il est nécessaire pour l’instant de “calculer” les dates correspondantes à la fréquence calendaire et de les indiquer dans autant de dosageInstruction.</li>
-          <li><strong><em>specificité ville</em></strong> dans le cas de contraintes calendaires ne pouvant pas être exprimées en FHIR, celles-ci doivent être indiquées en toutes lettres dans une partie textuelle (i.e. dans <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>)
-            <ul>
-              <li><a href="Bundle-HAS-11-1-Presc-VitamineD.html">HAS - vitamine D 100 000 UI solution buvable : 1 ampoule, le premier jour de chaque mois (id_poso=11)</a></li>
-              <li><a href="Bundle-HAS-11-2-Presc-EVRA.html">HAS - EVRA&reg; 203 µg/24h + 33,9µg/24h dispositif transdermique : Pendant 6 mois poser/remplacer un dispositif aux 1er, 8e et 15e jours du cycle ; La quatrième semaine à partir du 22ème jour est un intervalle libre sans dispositif transdermique (id_poso=11)</a></li>
-            </ul>
-          </li>
           <li>Note: l’extension standard <a href="https://hl7.org/fhir/R4/extension-timing-dayofmonth.html">dayOfMonth</a> existe en FHIR R4 (maturité 1), mais elle n’est pas reprise en FHIR R5. Son utilisation n’est donc pas conseillée.</li>
+        </ul>
+      </li>
+      <li><strong><em>specificité ville</em></strong> dans le cas de contraintes calendaires ne pouvant pas être exprimées en FHIR, celles-ci doivent être indiquées en toutes lettres dans une partie textuelle (i.e. dans <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>)
+        <ul>
+          <li><a href="Bundle-HAS-11-1-Presc-VitamineD.html">HAS - vitamine D 100 000 UI solution buvable : 1 ampoule, le premier jour de chaque mois (id_poso=11)</a></li>
+          <li><a href="Bundle-HAS-11-2-Presc-EVRA.html">HAS - EVRA&reg; 203 µg/24h + 33,9µg/24h dispositif transdermique : Pendant 6 mois poser/remplacer un dispositif aux 1er, 8e et 15e jours du cycle ; La quatrième semaine à partir du 22ème jour est un intervalle libre sans dispositif transdermique (id_poso=11)</a></li>
         </ul>
       </li>
     </ul>
@@ -449,14 +446,14 @@ Les niveaux de complexité supplémentaires adressent</p>
   </li>
   <li>les alternances de doses
     <ul>
-      <li><a name="l998">​</a><a href="Bundle-HAS-23-1-Presc-Fluindione">HAS - fluindione 20 mg comprimé quadrisécable: 0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours, à répéter sur le mois (id_poso=23)</a></li>
-      <li><a name="l1002">​</a><a href="Bundle-HAS-23-2-Presc-Amiodarone">HAS - amiodarone 200 mg comprimé: 1 comprimé pendant 5 jours (du lundi au vendredi), et puis arrêt 2 jours (samedi, dimanche). Recommencer le cycle de 7 jours, à répéter sur le mois (id_poso=23)</a></li>
+      <li><a name="l985">​</a><a href="Bundle-HAS-23-1-Presc-Fluindione">HAS - fluindione 20 mg comprimé quadrisécable: 0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours, à répéter sur le mois (id_poso=23)</a></li>
+      <li><a name="l989">​</a><a href="Bundle-HAS-23-2-Presc-Amiodarone">HAS - amiodarone 200 mg comprimé: 1 comprimé pendant 5 jours (du lundi au vendredi), et puis arrêt 2 jours (samedi, dimanche). Recommencer le cycle de 7 jours, à répéter sur le mois (id_poso=23)</a></li>
     </ul>
   </li>
   <li>l’expression de la quantité d’une dose se référant à l’un des médicaments composant du médicament composé prescrit
     <ul>
       <li><a href="Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.html">céfotaxine dans G5 100 mL, 4g (céfotaxine) en 20 min toutes les 6h pendant 4j</a></li>
-      <li><a name="l1016">​</a>Voir <a href="prescription-Exemples.html#perfusion-et-seringues-électriques">Perfusions et seringues électriques</a> &sect; concacré à l’extension <em>Basis of Dose Component</em>.</li>
+      <li>Voir <a href="prescription-Modelisation.html#bodc-basis-of-dose-component">Règles de modélisation</a>, &sect; consacré à l’extension <em>Basis of Dose Component</em></li>
     </ul>
   </li>
   <li>l’expression d’une dose réelle pertinente à partir d’une dose théorique fonction de paramètres patient
@@ -489,348 +486,6 @@ Les niveaux de complexité supplémentaires adressent</p>
 
 <p>Il n’y a pas d’exemple, pour l’instant.</p>
 
-<h3 id="médicament-prescrit-et-doses">Médicament prescrit et dose(s)</h3>
-
-<h4 id="ex-lasilix-20-mg-sol-inj-amp-2-ml-xx-à-7h-et-18h-iv-pendant-5j">Ex: LASILIX&reg; 20 mg, sol inj amp 2 mL, XX à 7h et 18h IV, pendant 5j</h4>
-
-<ul>
-  <li><strong>unité de médicament prescrit</strong> ➟ <code class="language-plaintext highlighter-rouge">MedicationRequest.medication</code>
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">LASILIX&reg;</code> → marque ➟ <code class="language-plaintext highlighter-rouge">code.coding.display</code> dans le libellé correspondant au code UCD provenant du <a href="https://smt.esante.gouv.fr/terminologie-ref_interop_med/">Référentiel Unique d’Interopérabilité du Médicament - RUIM</a></li>
-      <li><code class="language-plaintext highlighter-rouge">furosémide</code> → principe actif ➟ <code class="language-plaintext highlighter-rouge">.ingredient().item\[x\]</code></li>
-      <li><code class="language-plaintext highlighter-rouge">20 mg</code> → dosage ➟ optionnellement dans <code class="language-plaintext highlighter-rouge">.ingredient().strength</code></li>
-      <li><code class="language-plaintext highlighter-rouge">sol inj</code> → forme ➟ <code class="language-plaintext highlighter-rouge">.form</code></li>
-      <li><code class="language-plaintext highlighter-rouge">amp</code> → présentation ➟ code EDQM dans le dénominateur du ratio du dosage et/ou du volume</li>
-      <li><code class="language-plaintext highlighter-rouge">2 mL</code> → volume ➟ <code class="language-plaintext highlighter-rouge">.amount</code></li>
-    </ul>
-  </li>
-  <li>dose prescrite → <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction</code>
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">XX</code> → quantité ➟ <code class="language-plaintext highlighter-rouge">.doseAndRate</code></li>
-      <li><code class="language-plaintext highlighter-rouge">à 7h et 18h</code> → horaire de prise ➟ <code class="language-plaintext highlighter-rouge">.timing.repeat.timeOfDay()</code></li>
-      <li><code class="language-plaintext highlighter-rouge">per os</code> → voie d’administration ➟ <code class="language-plaintext highlighter-rouge">.route</code></li>
-      <li><code class="language-plaintext highlighter-rouge">pendant 5j</code> → début (maintenant) et fin (début + 5j) ➟ <code class="language-plaintext highlighter-rouge">.timing.boundsPeriod</code></li>
-    </ul>
-  </li>
-  <li>La quantité <code class="language-plaintext highlighter-rouge">XX</code> de la dose prescrite peut s’exprimer de 4 façons différentes, par exemple :
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">1 Ampoule</code>(code EDQM <code class="language-plaintext highlighter-rouge">15002000</code>)</li>
-      <li><code class="language-plaintext highlighter-rouge">1</code> (unité [de présentation de l’unité de médicament prescrit] = ampoule contenant 20 mg de furosémide)</li>
-      <li><code class="language-plaintext highlighter-rouge">20 mg</code> (de principe actif = furosémide)</li>
-      <li><code class="language-plaintext highlighter-rouge">2 mL</code> (de produit = solution injectable contenant 20 mg de furosémide)</li>
-    </ul>
-  </li>
-</ul>
-
-<p>Ces 4 expressions permettent de déterminer la quantité de(s) principe(s) actif(s) à partir de caratéristiques du médicament prescrit. Cependant, pour des raisons de simplicité de dispensation et d’administration, dans le cas des prescriptions en spécialité pour lesquelles la présentation est définie par le code UCD utilisé, la première expression en unité de présentation est préférée si possible.</p>
-
-<h4 id="ex-furosemide-xx-à-7h-et-18h-iv-pendant-5j">Ex: Furosemide XX à 7h et 18h IV, pendant 5j</h4>
-
-<ul>
-  <li><strong>unité de médicament prescrit</strong> ➟ <code class="language-plaintext highlighter-rouge">MedicationRequest.medication</code>
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">Furosemide</code> → médicament en DC ➟ <code class="language-plaintext highlighter-rouge">code.coding.display</code> dans le libellé correspondant au code de substance (code SMS ou code technique ANSM) provenant du <a href="https://smt.esante.gouv.fr/terminologie-ref_interop_med/">Référentiel Unique d’Interopérabilité du Médicament - RUIM</a></li>
-      <li><code class="language-plaintext highlighter-rouge">furosémide</code> → principe actif ➟ <code class="language-plaintext highlighter-rouge">.ingredient().item\[x\]</code> (optionnel dans le cas d’un médicament simple préscrit en DC dans la mesure où le le principe actif est identique au médicament)</li>
-      <li>les autres caractéristiques ne sont pas contraintes par le prescripteur</li>
-    </ul>
-  </li>
-  <li><strong>dose prescrite</strong> → <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction</code>
-    <ul>
-      <li>caractéristiques identiques à celles de l’exemple de ligne de prescription en spécialité</li>
-    </ul>
-  </li>
-  <li>La <strong>quantité</strong> <code class="language-plaintext highlighter-rouge">XX</code> de la dose prescrite ne peut plus s’exprimer que d’1 façon :
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">20 mg</code> (de principe actif = furosémide)</li>
-    </ul>
-  </li>
-  <li>Les 3 autres ne permettent pas de déterminer la quantité de(s) prinicipe(s) actif(s)
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">1 [unité de présentation]</code>(unité de présentation non définie dans <code class="language-plaintext highlighter-rouge">medication</code>ni dans le RUIM)</li>
-      <li><code class="language-plaintext highlighter-rouge">1</code> (unité [de présentation de l’unité de médicament prescrit] = furosémide en quantité non définie)</li>
-      <li><code class="language-plaintext highlighter-rouge">2 mL</code> (de produit = un produit qui contient du furosémide en concentration non définie)</li>
-    </ul>
-  </li>
-</ul>
-
-<h4 id="contraintes">Contraintes</h4>
-
-<p>entre</p>
-
-<ul>
-  <li>propriétés de l’<strong>unité de médicament prescrit</strong></li>
-  <li>expression de la <strong>quantité de la dose prescrite</strong></li>
-</ul>
-
-<h5 id="objectif">Objectif</h5>
-
-<ul>
-  <li>La quantité de principes actifs de la dose doit être déterminée,</li>
-  <li>Sauf pour les unités de prescription à volume indéterminé (ex : application), la concentration de principes actifs de la dose doit être déterminée.</li>
-</ul>
-
-<h5 id="contrainte-sur-le-médicament-prescrit-medicationrequestmedication">Contrainte sur le Médicament prescrit (<code class="language-plaintext highlighter-rouge">MedicationRequest.medication</code>)</h5>
-
-<p>Le dosage (<code class="language-plaintext highlighter-rouge">.ingredient[].strength</code>) est exigé quand le médicament prescrit est un médicament composé:</p>
-
-<ul>
-  <li>une association de principes actifs (ex : paracétamol + codéine)</li>
-  <li>un médicament extemporané (ex : perfusion composée de plusieurs médicaments)</li>
-</ul>
-
-<h5 id="contraintes-sur-lunité-de-la-dose-prescrite-medicationrequestdosageinstructiondoseandrate">Contraintes sur l’Unité de la dose prescrite (<code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.doseAndRate</code>)</h5>
-
-<p>L’unité est pertinente (donc autorisée), en fonction de son type,</p>
-
-<ul>
-  <li><strong>unité de quantité</strong> de principe actif, si le médicament prescrit n’est composé que d’<strong>un seul principe actif</strong> ;</li>
-  <li><strong>unité de volume</strong> du médicament prescrit, si le médicament prescrit a un <strong>dosage en concentration</strong> défini ;</li>
-  <li><strong>unité de dénombrement</strong> du médicament prescrit, si le médicament prescrit a un <strong>dosage en quantité</strong> défini.</li>
-</ul>
-
-<p>On inclut dans définie, la possibilité de calcul à partir des propriétés connues.
-Par exemple, quantité connue 20 mg et volume connu 2 ml, implique que la concentration est définie, 10 mg/mL et que l’unité mL pour exprimer la quantité de la dose, par exemple 3 mL, est pertinente parce qu’elle détermine sa quantité de principe actif, 30 mg.</p>
-
-<h3 id="précisions-sur-la-durée-dadministration">Précisions sur la durée d’administration</h3>
-
-<p>Quand elle n’est pas négligeable, sa valeur exprimée <strong>DOIT</strong> figurer au dénominateur de la dose prescrite.</p>
-
-<p>Cf. <a href="https://hl7.org/fhir/R4/dosage-definitions.html#Dosage.doseAndRate.rate_x_">Requirements</a> de l’élément <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.doseAndRate.rateRatio</code></p>
-
-<p>Si une durée d’administration n’est pas spécifiée par le prescripteur, cela signifie qu’elle est négligeable. Par exemple pour l’administration d’un comprimé ou l’injection direct d’une solution.</p>
-
-<h4 id="cas-particuliers">Cas particuliers</h4>
-
-<h5 id="ivl-intraveineuse-lente--ivd-intraveineuse-directe">IVL (intraveineuse lente) / IVD (intraveineuse directe)</h5>
-
-<p>Intraveineuse lente et intraveineuse directe ne sont pas des voies d’administration, quand bien même ces concepts s’y invitent régulièrement dans les listes locales des voies d’administration. Ce sont des méthodes, dont la principale différence porte sur la durée d’administration, qui n’est dans ce cas pas quantifée mais simplement qualifiée.</p>
-
-<p>Si le prescripteur souhaite ne pas donner une durée d’administration explicite quantifiée, cette distinction qualitative DOIT être portée dans l’élément <code class="language-plaintext highlighter-rouge">method</code> de <code class="language-plaintext highlighter-rouge">dosageInstruction</code>de la ressource <em>MedicationRequest</em>. La voie d’administration, élément <code class="language-plaintext highlighter-rouge">route</code>, prend dans les deux cas la valeur voie intraveineuse.</p>
-
-<p>Ni l’EDQM, ni SNOMED CT ne fournissent de codes pour nuancer la méthode d’administration <em>injection</em>. La distinction qualitative est donc à exprimer dans l’élément <code class="language-plaintext highlighter-rouge">.text</code>de <code class="language-plaintext highlighter-rouge">method</code></p>
-
-<h5 id="injection-continue">Injection continue</h5>
-
-<p>Les injections continues sans mention de durée d’administration parce qu’elle est indéterminée au moment de la prescription sans pour autant être négligeable, se traduisent par une expression de la dose en débit, sans mention de quantité, ni de durée d’administration.</p>
-
-<p>Elles se distinguent des expressions de doses à durée d’administration négligeable par l’absence de quantité.</p>
-
-<p>exemple</p>
-
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"doseAndRate"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-     </span><span class="err">...</span><span class="w">
-     </span><span class="nl">"rateRatio"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">700</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"unit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"µg"</span><span class="w">
-      </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://unitsofmeasure.org"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ug"</span><span class="w">
-    </span><span class="p">},</span><span class="w">
-    </span><span class="nl">"denominator"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"unit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"min"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://unitsofmeasure.org"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"min"</span><span class="w">
-    </span><span class="p">}</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">]</span><span class="w">
-</span></code></pre></div></div>
-
-<p>ou</p>
-
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"doseAndRate"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-    </span><span class="err">...</span><span class="w">
-    </span><span class="nl">"rateQuantity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">700</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"unit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"µg/min"</span><span class="w">
-      </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://unitsofmeasure.org"</span><span class="p">,</span><span class="w">
-      </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ug/min"</span><span class="w">
-    </span><span class="p">}</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">]</span><span class="w">
-</span></code></pre></div></div>
-
-<p><strong>Note</strong>:
-Il y deux façons d’exprimer un débit dans une dose FHIR :</p>
-
-<ul>
-  <li>une unité UCUM de temps (ex: <code class="language-plaintext highlighter-rouge">min</code>) au dénominateur (<code class="language-plaintext highlighter-rouge">deniminator.code</code>) dans un type de donnée <em>ratio</em> (<code class="language-plaintext highlighter-rouge">rateRatio</code>)</li>
-  <li>une unité UCUM de débit (ex: <code class="language-plaintext highlighter-rouge">ug/min</code>) dans un type de donnée <em>quantity</em> (<code class="language-plaintext highlighter-rouge">rateQuantity</code>)</li>
-</ul>
-
-<p>La seconde implique une <strong>interprétation du code UCUM par le logiciel</strong> pour avoir connaissance de la notion de débit (savoir reconnaitre une unité de débit UCUM).</p>
-
-<h3 id="précisions-sur-les-perfusions-et-seringues-électriques">Précisions sur les perfusions et seringues électriques</h3>
-
-<p>Elles présentent la particularité d’avoir un médicament prescrit composé de plusieurs médicaments simples, exprimés en spécialité et/ou en DC.</p>
-
-<p>De ce fait, le rapport entre les caractéristiques du médicament prescrit composé et l’expression de la quantité des doses prescrites présente quelques particularités.</p>
-
-<h4 id="bodc-basis-of-dose-component">BoDC (Basis of Dose Component)</h4>
-
-<p>Dans un médicament composé, permet d’exprimer à quel médicament composant, quelle ressource <em>Medication</em>, se réferre l’expression de la dose.</p>
-
-<p>Ex: Permet de rapporter l’expression de la quantié 4g de la dose, au médicament céfotaxine du médicament composé céfotaxine dans 100 mL de glucose 5%.</p>
-
-<p>Cette information est portée par l’extension <a href="StructureDefinition-fr-basis-of-dose-component.html"><em>FrBasisOfDoseComponent</em></a> de l’élément <code class="language-plaintext highlighter-rouge">doseAndRate</code> du type complex <em>Dosage</em> qui s’applique à l’élément <code class="language-plaintext highlighter-rouge">dosageInstruction</code>* de la ressource <em>MedicationRequest</em>.</p>
-
-<p>Voir exemple <a href="Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.html">céfotaxine dans G5 100 mL, 4g céfotaxine en 20 min toutes les 6h pendant 4j</a></p>
-
-<p>Note PN13:</p>
-
-<ul>
-  <li>Dans PN13, c’est le <em>COMPOSANT PRESCRIT</em> qui est marqué comme <em>est_Référent_poso</em>, et non pas les <em>ELEMENT DE POSOLOGIE</em> qui doivent tenir compte de ce marquage d’un <em>COMPOSANT PRESCRIT</em>.</li>
-  <li>Dans FHIR, c’est l’élément <em>dosageInstruction</em> qui est marqué par la référence à la ressources <em>Medication</em> sur laquelle se fonde l’expression de la quantité du dosage.</li>
-</ul>
-
-<h4 id="isvehicle">IsVehicle</h4>
-
-<p>Dans un médicament composé, permet d’exprimer quel composant, quelle ressource <em>Medication</em>, est le soluté.</p>
-
-<p>Ex: Permet de marquer le glucose 5% comme étant le soluté dans le médicament composé céfotaxine dans 100 mL de glucose 5%.</p>
-
-<p>Cette information est portée par l’extension <a href="StructureDefinition-fr-is-vehicle.html"><em>FrIsVehicle</em></a>.</p>
-
-<p>Cette extension est appliquée à l’élément <code class="language-plaintext highlighter-rouge">ingredient</code> de la ressource <em>Medication</em> composée.</p>
-
-<p>Voir l’exemple <a href="Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.html">céfotaxine dans miniperf G5 100 mL, 4g céfotaxine en 20 min toutes les 6h pendant 3j</a></p>
-
-<p>Note PN13:</p>
-
-<ul>
-  <li>Dans PN13, le marqueur <em>est_véhicule</em> est porté par le <em>COMPOSANT PRESCRIT</em>.</li>
-  <li>Dans PN13, l’alernative proposée n’est pas possible parce que la collection de <em>COMPOSANT PRESCRIT</em> est directement portée par l’<em>ELEMENT DE PRESCRIPTION</em>, l’équivalent de la ressource <em>MedicationRequest</em>. Il n’y a pas d’élément XML container intermédiaire équivalent de la ressource <em>Medication</em> composé (profil <em>FrMedicationCompound</em>).</li>
-</ul>
-
-<h4 id="qsp-quantité-suffisante-pour-">Q.S.P. (quantité suffisante pour …)</h4>
-
-<p>Cette expression est utilisée dans la prescription des injectables en seringue électrique pour déclarer le volume de soluté composant le médicament prescrit en <em>quantité suffisante pour</em> atteindre le volume du médicament composé, c’est-à-dire le volume final de la seringue.</p>
-
-<p>L’application de la règle suivante répond à ce cas d’usage :</p>
-
-<ul>
-  <li>repérer l’<em>ingredient</em> représentant le médicament composant qui joue le rôle de soluté avec l’extension <em>IsVehicule</em> ;</li>
-  <li>ne pas mettre de volume à ce médicament composant jouant le rôle de soluté (absence d’élément amount dans la ressource <em>Medication</em> représentant le médicament soluté) ;</li>
-  <li>mettre le volume cible dans l’élément amount de la ressource <em>Medication</em> représentant le médicament composé.</li>
-</ul>
-
-<p>Cette règle impose l’utilisation de l’extension <em>IsVehicule</em>.
-Voir exemple <a href="Bundle-Presc-PerfDobutamine-Qsp40mL.html">dobutamine 200 mg dans soluté=G5 qsp 40 mL, 400 µg/min pendant 1j</a></p>
-
-<p>En <a href="https://hl7.org/fhir/medication.html">R5</a>, la ressource <em>Medication</em> voit l’élément <code class="language-plaintext highlighter-rouge">ingredient.strength</code> passer de type exclusivement <em>Ratio</em> en type alternatif <em>Ratio</em>, <em>Quantity</em> ou <em>CodeableConcept</em> avec jeu de valeurs préferré contenant la valeur qs (quantité suffisante pour).</p>
-
-<ul>
-  <li>En mettant dans
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">.totalVolume</code> : le volume cible de la seringue,</li>
-      <li><code class="language-plaintext highlighter-rouge">.ingredient\[soluté\].strengthCodeableConcept</code> : le code qs
-il est prescrit explicitement que le soluté est en Q.S.P. le volume cible de la seringue.</li>
-    </ul>
-  </li>
-</ul>
-
-<p><strong>Note</strong>:
-En R5 l’élément amount est renommé <strong>totalVolume</strong> pour lever toute ambiguité avec les volumes pouvant figurer dans les <code class="language-plaintext highlighter-rouge">ingredient.strength\[x\]</code>.</p>
-
-<p><strong><em>spécificité ville</em></strong> La Q.S.P que l’on peut retrouver sur certaines ordonances de ville n’a pas la même signification qu’à l’hôpital, elle est à comprendre comme une durée de traitement. De ce fait, elle est traduite:</p>
-
-<ul>
-  <li>soit par <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.timing.repeat.bondsDuration</code>si aucune date de début n’est mentionée</li>
-  <li>soit par <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.timing.repeat.bondsPeriod.end</code> si une date de début est mentionnée</li>
-</ul>
-
-<p>Voir exemple <a href="Bundle-HAS-30-1-Presc-Hydrocortisone.html">HAS - hydrocortisone 10 mg : 1 comprimé matin et 1 comprimé midi. En cas de fièvre, de forte chaleur, d’infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre &gt; 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h. Avec un maximum de 6 comprimés par jour. QSP 6 mois (id_poso=30)</a></p>
-
-<h3 id="précisions-sur-les-patchs">Précisions sur les patchs</h3>
-
-<h4 id="propriétés-du-patch">Propriétés du patch</h4>
-
-<p>Un patch est un médicament incluant un dispositif intégré garantissant</p>
-
-<ul>
-  <li>une durée maximale de diffusion (ex: 16h, 72h)</li>
-  <li>et
-    <ul>
-      <li>une quantité (15 mg)
- ou</li>
-      <li>un débit (75 ug/h)
-délivré de principe(s) actif(s).</li>
-    </ul>
-  </li>
-</ul>
-
-<p>Ces informations sont des propriétés du médicament prescrit.</p>
-
-<p>Soit elles font partie intégrante du médicament prescrit dans le cas d’une prescription en spécialité ou d’une prescription de médicament virtuel, soit s’expriment dans la ressource <em>Medication</em> référencée par l’élément medication qui décrit l’unité de médicament prescrit dans la ressource <em>MedicationRequest</em>.</p>
-
-<h4 id="propriété-de-la-dose">Propriété de la dose</h4>
-
-<p>La durée d’administration du patch est un choix du prescipteur.</p>
-
-<p>Elle <strong>DOIT</strong> être exprimée en tant que telle dans les éléments <code class="language-plaintext highlighter-rouge">dosageInstruction.timing.repeat.duration</code> et <code class="language-plaintext highlighter-rouge">dosageInstruction.timing.repeat.durationUnit</code>, même si elle est identique à la durée maximale garantie par le dispositif intégré.</p>
-
-<p>Voir exemple <a href="Bundle-HAS-11-2-Presc-EVRA.html">HAS - EVRA&reg; 203 µg/24h + 33,9µg/24h dispositif transdermique : Pendant 6 mois poser/remplacer un dispositif aux 1er, 8e et 15e jours du cycle ; La quatrième semaine à partir du 22ème jour est un intervalle libre sans dispositif transdermique (id_poso=11)</a></p>
-
-<h3 id="précisions-sur-le-lien-dose-calculée-et-dose-prescrite">Précisions sur le lien dose calculée et dose prescrite</h3>
-
-<p>Il arrive que la dose prescrite découle d’un dose de référence formulée en quantité de principe actif par unité de poids ou de surface corporelle. La dose effectivement prescrite est arrondie à une valeur réalisable.</p>
-
-<p>Ex: capécitabime 1000 mg/m².</p>
-
-<ul>
-  <li>Pour un patient de 1,85 m² (1,75 m et 70 kg), la dose calculée est 1850 mg.</li>
-  <li>Les formes orales sèches disponibles ont un dosage de 150 mg ou 500 mg.</li>
-  <li>Le médecin prescrit une dose effective de 1800 mg.</li>
-</ul>
-
-<p>Ces deux valeurs de la dose prescrite sont transmises dans deux éléments doseAndRate distingués par leur type</p>
-
-<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nl">"doseAndRate"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-   </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-         </span><span class="nl">"coding"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-            </span><span class="p">{</span><span class="w">
-               </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://terminology.hl7.org/CodeSystem/dose-rate-type"</span><span class="p">,</span><span class="w">
-               </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"calculated"</span><span class="p">,</span><span class="w">
-               </span><span class="nl">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Calculated"</span><span class="w">
-            </span><span class="p">}</span><span class="w">
-         </span><span class="p">]</span><span class="w">
-      </span><span class="p">},</span><span class="w">
-      </span><span class="nl">"doseQuantity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-         </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">1000</span><span class="p">,</span><span class="w">
-         </span><span class="nl">"unit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mg/m²"</span><span class="p">,</span><span class="w">
-         </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://unitsofmeasure.org"</span><span class="p">,</span><span class="w">
-         </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mg/m2"</span><span class="w">
-      </span><span class="p">}</span><span class="w">
-   </span><span class="p">},</span><span class="w">
-   </span><span class="p">{</span><span class="w">
-      </span><span class="nl">"type"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-         </span><span class="nl">"coding"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
-            </span><span class="p">{</span><span class="w">
-               </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://terminology.hl7.org/CodeSystem/dose-rate-type"</span><span class="p">,</span><span class="w">
-               </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"ordered"</span><span class="p">,</span><span class="w">
-               </span><span class="nl">"display"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Ordered"</span><span class="w">
-            </span><span class="p">}</span><span class="w">
-         </span><span class="p">]</span><span class="w">
-      </span><span class="p">},</span><span class="w">
-      </span><span class="nl">"doseQuantity"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
-         </span><span class="nl">"value"</span><span class="p">:</span><span class="w"> </span><span class="mi">1800</span><span class="p">,</span><span class="w">
-         </span><span class="nl">"unit"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mg"</span><span class="p">,</span><span class="w">
-         </span><span class="nl">"system"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://unitsofmeasure.org"</span><span class="p">,</span><span class="w">
-         </span><span class="nl">"code"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mg"</span><span class="w">
-      </span><span class="p">}</span><span class="w">
-   </span><span class="p">}</span><span class="w">
-</span><span class="p">]</span><span class="w">
-</span></code></pre></div></div>
-
-<p>Voir exemple <a href="Bundle-Presc-Capecitabine-Dose-Calculee.html">capécitabine 1800 mg (1000 mg/m²), 7h et 18h per os, pendant 14j</a></p>
-
-<p><strong><em>spécifité ville</em></strong> La dose réélle pertinente (valeur absolue) doit être la seule indiquée dans la partie structurée de la posologie. La dose théorique en fonction de paramètres patient (valeur relative) peut être exprimée dans la partie textuelle (i.e. dans <code class="language-plaintext highlighter-rouge">MedicationRequest.dosageInstruction.additionalInstruction.text</code>). Voir exemple <a href="Bundle-HAS-03-Presc-INNOHEP.html">HAS - INNOHEP&reg; 14 000 UI anti-Xa/0,7 ml (tinzaparine sodique) solution injectable : 12 000UI anti-Xa (soit 170 UI anti-Xa /kg) , 1 fois/jour - voie sous-cutanée (id_poso=3)</a></p>
-
-<p><strong>Note</strong>:
-Il est tout à fait possible de prescrire plus simplement capécitabine 1000 mg/m², accompagnée de la <code class="language-plaintext highlighter-rouge">surface corporelle</code> (1,85 m²), voire seulement de la <code class="language-plaintext highlighter-rouge">taille</code> (1,75 m) et du <code class="language-plaintext highlighter-rouge">poids</code> (70 kg) du patient dans des ressources <em>Observation</em> référencées par <code class="language-plaintext highlighter-rouge">MedicationRequest.supportingInformation</code>.
-Mais c’est un autre cas d’usage, qui, quand bien même il déboucherait sur la même délivrance, <em>capécitabine 1800 mg</em>, laisserait au pharmacien l’arbitrage de l’arrondi par rapport à la dose prescrite. C’est un cas d’usage différent parce que l’acteur et le temps où se fait l’arrondi ne sont pas les mêmes.</p>
-
 
 
 
@@ -854,7 +509,7 @@ Mais c’est un autre cas d’usage, qui, quand bien même il déboucherait sur 
             <tr>
               <td style="text-align:left">&nbsp;
 
-                <a href="prescription-CasUsage.html">&lt;prev</a>
+                <a href="prescription-Modelisation.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -872,7 +527,7 @@ Mais c’est un autre cas d’usage, qui, quand bien même il déboucherait sur 
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 4, 2026 13:30+0000">2026-05-04</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>.  Package ans.fhir.fr.eprescription#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, May 6, 2026 13:16+0000">2026-05-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
