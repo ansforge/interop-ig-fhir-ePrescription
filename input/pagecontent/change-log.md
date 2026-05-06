@@ -1,8 +1,6 @@
 ### Suivi des versions
 
-#### Version 1.1 - Version en cours
-
-##### La prescription v1.1
+#### [0.1.0-ballot](https://interop.esante.gouv.fr/ig/fhir/eprescription/0.1.0-ballot)
 
 Les travaux du GT PN13 - FHIR sur la prescription se sont déroulés de janvier 2024 à septembre 2025
 La concertation publique a lieu du XXX au XXX
@@ -12,6 +10,16 @@ L'intégration des extensions FrIsVehicle et  FrBasisOfDoseComponent dans les pr
 Prise en compte du [Référentiel Unique d'Interopérabilité du Médicament](https://smt.esante.gouv.fr/explorer-les-concepts/terminologie-ref_interop_med)
 La prise en compte des travaux de la HAS sur la structuration de la posologie
 
+* Suppression de toutes les parties sauf ePrescription [#1](https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/1)
+* Correction exemples HAS [#2](https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/2)
+* Description métier [#3](https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/3)
+* Mise à jour de la page index et de l'ordre des pages dans le menu [#4](https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/4)
+* Suppression de la partie conciliation et dispensation de suivitravaux.md [#5](https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/5)
+* Ajout des terminologies CIP et SpecialitePharmaceutique au ValueSet de MedicationRequest.medication [#6](https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/6)
+* Fix profile name from FrRedicationCompound to FrMedicationCompound [#7](https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/7)
+* fix: corrections éditoriales et typos [#12](https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/12)
+* Enrichissement de la page index [#13](https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/13)
+* 
 #### Version 1.0 - Version Initiale publiée en janvier 2022
 
 ##### La prescription v1.0
