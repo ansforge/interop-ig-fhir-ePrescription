@@ -1,7 +1,7 @@
 {
   "codeSystems" : [{
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type",
-    "version" : "0.1.0-ballot",
+    "version" : "1.1.0-ballot",
     "status" : "draft",
     "name" : "FrAdditionalActionRelationshipType",
     "title" : "Interop'Santé code system - Additional codes for relationship between action",
@@ -9,7 +9,7 @@
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs",
-    "version" : "0.1.0-ballot",
+    "version" : "1.1.0-ballot",
     "status" : "draft",
     "name" : "FrAdditionalWhenCodesCodeSystem",
     "title" : "code system Interop'Santé - Codes additionnels pour l'élément when",
@@ -17,7 +17,7 @@
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-note-scope-codes",
-    "version" : "0.1.0-ballot",
+    "version" : "1.1.0-ballot",
     "status" : "draft",
     "name" : "FrNoteScopeCodes",
     "title" : "code system Interop'Santé - Codes pour le périmètre des notes",
@@ -25,7 +25,7 @@
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes",
-    "version" : "0.1.0-ballot",
+    "version" : "1.1.0-ballot",
     "status" : "draft",
     "name" : "FrUFRoleCodes",
     "title" : "code system Interop'Santé - Codes pour typer le rôle des UF par rapport à un séjour patient",

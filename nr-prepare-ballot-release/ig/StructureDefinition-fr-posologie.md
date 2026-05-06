@@ -1,4 +1,4 @@
-# Posologie - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# Posologie - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie | *Version*:0.1.0-ballot |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie | *Version*:1.1.0-ballot |
 | Draft as of 2026-05-06 | *Computable Name*:Posologie |
 
  
@@ -37,11 +37,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
   "resourceType" : "StructureDefinition",
   "id" : "fr-posologie",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie",
-  "version" : "0.1.0-ballot",
+  "version" : "1.1.0-ballot",
   "name" : "Posologie",
   "title" : "Posologie",
   "status" : "draft",
-  "date" : "2026-05-06T13:17:36+00:00",
+  "date" : "2026-05-06T13:22:23+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

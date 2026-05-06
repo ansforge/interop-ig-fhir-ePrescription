@@ -1,4 +1,4 @@
-# La prescription - Vue d'ensemble de la modélisation FHIR - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# La prescription - Vue d'ensemble de la modélisation FHIR - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**La prescription**](prescription-Intro.md)

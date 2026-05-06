@@ -1,4 +1,4 @@
-# value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription | *Version*:0.1.0-ballot |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription | *Version*:1.1.0-ballot |
 | Draft as of 2026-05-06 | *Computable Name*:FrUfRoleCodesForPrescriptionValueSet |
 
  
@@ -46,12 +46,12 @@ Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF r�
   "resourceType" : "ValueSet",
   "id" : "fr-uf-role-code-for-prescription",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription",
-  "version" : "0.1.0-ballot",
+  "version" : "1.1.0-ballot",
   "name" : "FrUfRoleCodesForPrescriptionValueSet",
   "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-06T13:17:36+00:00",
+  "date" : "2026-05-06T13:22:23+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

@@ -1,4 +1,4 @@
-# Conversion PN13 vers FHIR pour la posologie d'une prescription de médicaments - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# Conversion PN13 vers FHIR pour la posologie d'une prescription de médicaments - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap | *Version*:0.1.0-ballot |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap | *Version*:1.1.0-ballot |
 | Draft as of 2026-05-06 | *Computable Name*:FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap |
 
  
@@ -23,11 +23,11 @@ ConceptMap pour la conversion PN13 vers FHIR d’une posologie d’une prescritp
   "resourceType" : "ConceptMap",
   "id" : "PN13-FHIR-prescmed-dosageinstruction-conceptmap",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap",
-  "version" : "0.1.0-ballot",
+  "version" : "1.1.0-ballot",
   "name" : "FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap",
   "title" : "Conversion PN13 vers FHIR pour la posologie d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2026-05-06T13:17:36+00:00",
+  "date" : "2026-05-06T13:22:23+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

@@ -1,4 +1,4 @@
-# value set Interop'Santé - Codes identifiant les substances - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# value set Interop'Santé - Codes identifiant les substances - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code | *Version*:0.1.0-ballot |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code | *Version*:1.1.0-ballot |
 | Draft as of 2026-05-06 | *Computable Name*:FrSubstanceCode |
 
  
@@ -48,12 +48,12 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "fr-substance-code",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code",
-  "version" : "0.1.0-ballot",
+  "version" : "1.1.0-ballot",
   "name" : "FrSubstanceCode",
   "title" : "value set Interop'Santé - Codes identifiant les substances",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-06T13:17:36+00:00",
+  "date" : "2026-05-06T13:22:23+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

@@ -1,4 +1,4 @@
-# HAS-24-1-presc-Doxycyline - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# HAS-24-1-presc-Doxycyline - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

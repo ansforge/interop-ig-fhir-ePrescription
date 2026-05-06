@@ -11,18 +11,18 @@
   fhir:id [ fhir:v "fr-uf-role-code-for-prescription"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-uf-role-code-for-prescription</b></p><a name=\"fr-uf-role-code-for-prescription\"> </a><a name=\"hcfr-uf-role-code-for-prescription\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-fr-uf-role-codes.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?0.1.0-ballot</span></li></ul></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs fr-uf-role-code-for-prescription</b></p><a name=\"fr-uf-role-code-for-prescription\"> </a><a name=\"hcfr-uf-role-code-for-prescription\"> </a><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-fr-uf-role-codes.html\"><code>https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes</code></a><span title=\"La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version ?1.1.0-ballot</span></li></ul></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription"^^xsd:anyURI ;
      fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0-ballot"] ; # 
+  fhir:version [ fhir:v "1.1.0-ballot"] ; # 
   fhir:name [ fhir:v "FrUfRoleCodesForPrescriptionValueSet"] ; # 
   fhir:title [ fhir:v "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-05-06T13:17:36+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-06T13:22:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;

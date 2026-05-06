@@ -1,4 +1,4 @@
-# FR RequestGroup For Prescription - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# FR RequestGroup For Prescription - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription | *Version*:0.1.0-ballot |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription | *Version*:1.1.0-ballot |
 | Draft as of 2026-05-06 | *Computable Name*:FRRequestGroupForPrescription |
 
  
@@ -38,12 +38,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-requestgroup-for-
   "resourceType" : "StructureDefinition",
   "id" : "fr-requestgroup-for-prescription",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription",
-  "version" : "0.1.0-ballot",
+  "version" : "1.1.0-ballot",
   "name" : "FRRequestGroupForPrescription",
   "title" : "FR RequestGroup For Prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-06T13:17:36+00:00",
+  "date" : "2026-05-06T13:22:23+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

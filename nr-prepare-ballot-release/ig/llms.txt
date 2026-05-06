@@ -1,4 +1,4 @@
-# ans.fhir.fr.eprescription#0.1.0-ballot: Guide d'implémentation de la ePrescription
+# ans.fhir.fr.eprescription#1.1.0-ballot: Guide d'implémentation de la ePrescription
 
 ## Pages
 

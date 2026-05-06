@@ -1,4 +1,4 @@
-# Medication descriptive properties - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# Medication descriptive properties - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic | *Version*:0.1.0-ballot |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic | *Version*:1.1.0-ballot |
 | Draft as of 2026-05-06 | *Computable Name*:FrDrugCharacteristic |
 
 Specifies descriptive properties of the medicine
@@ -48,11 +48,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-drug-characterist
   "resourceType" : "StructureDefinition",
   "id" : "fr-drug-characteristic",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic",
-  "version" : "0.1.0-ballot",
+  "version" : "1.1.0-ballot",
   "name" : "FrDrugCharacteristic",
   "title" : "Medication descriptive properties",
   "status" : "draft",
-  "date" : "2026-05-06T13:17:36+00:00",
+  "date" : "2026-05-06T13:22:23+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

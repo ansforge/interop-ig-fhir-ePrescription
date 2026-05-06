@@ -1,4 +1,4 @@
-# Transformation de PN13 en FHIR - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# Transformation de PN13 en FHIR - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Transformation de PN13 en FHIR**

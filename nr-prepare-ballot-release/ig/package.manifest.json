@@ -1,7 +1,7 @@
 {
-  "version" : "0.1.0-ballot",
+  "version" : "1.1.0-ballot",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20260506131736",
+  "date" : "20260506132223",
   "name" : "ans.fhir.fr.eprescription",
   "jurisdiction" : "urn:iso:std:iso:3166#FR"
 }

@@ -1,4 +1,4 @@
-# Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

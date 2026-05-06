@@ -1,4 +1,4 @@
-# Mapping Free Set CIO-DC FORME - Guide d'implémentation de la ePrescription v0.1.0-ballot
+# Mapping Free Set CIO-DC FORME - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap | *Version*:0.1.0-ballot |
+| *Official URL*:https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap | *Version*:1.1.0-ballot |
 | Draft as of 2025-02-10 | *Computable Name*:FrPN13FHIRFreeSetCIODCFormeConceptMap |
 
  
@@ -24,7 +24,7 @@ ConceptMap pour la conversion des codes de forme de médicaments entre CIO et te
   "id" : "PN13-FHIR-FreeSetCIODC-Forme-ConceptMap",
   "language" : "fr-FR",
   "url" : "https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap",
-  "version" : "0.1.0-ballot",
+  "version" : "1.1.0-ballot",
   "name" : "FrPN13FHIRFreeSetCIODCFormeConceptMap",
   "title" : "Mapping Free Set CIO-DC FORME",
   "status" : "draft",
