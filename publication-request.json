@@ -14,5 +14,5 @@
     "registry-country" : "fr",
     "registry-authority" : "ANS",
     "category" : "Pharmacy",
-    "introduction" : "Ce guide définit les spécifications FHIR pour les échanges liés à la prescription électronique de médicaments en France, en convergence avec les travaux d'Interop'Santé, de la HAS et des standards européens (IHE MPD, eHN)."
+    "introduction" : "Ce guide définit les spécifications FHIR pour les échanges liés à la prescription électronique de médicaments en France, de la HAS et des standards européens (IHE MPD, eHN)."
 }
