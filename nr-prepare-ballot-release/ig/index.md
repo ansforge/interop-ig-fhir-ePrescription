@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-06 | *Computable Name*:eP |
+| Draft as of 2026-05-07 | *Computable Name*:eP |
 
 Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription médicamenteuse](prescription-Intro.md) en FHIR pour l’écosystème français.
 
@@ -160,7 +160,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-05-06T13:29:35+00:00",
+  "date" : "2026-05-07T06:03:21+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

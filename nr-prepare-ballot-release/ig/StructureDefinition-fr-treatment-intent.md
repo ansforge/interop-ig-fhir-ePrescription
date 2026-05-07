@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-06 | *Computable Name*:FrTeatmentIntent |
+| Draft as of 2026-05-07 | *Computable Name*:FrTeatmentIntent |
 
 The overall intention of the treatment
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-treatment-intent.
   "name" : "FrTeatmentIntent",
   "title" : "MedicationRequest overall treatment intent",
   "status" : "draft",
-  "date" : "2026-05-06T13:29:35+00:00",
+  "date" : "2026-05-07T06:03:21+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

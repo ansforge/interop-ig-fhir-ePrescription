@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-06 | *Computable Name*:FrTreatmentIntent |
+| Draft as of 2026-05-07 | *Computable Name*:FrTreatmentIntent |
 
  
 Le jeu de valeurs à utiliser pour coder l’élément **treatmentIntent** de la ressource **FRInpatientMedicationRequest**. 
@@ -54,7 +54,7 @@ Le jeu de valeurs à utiliser pour coder l’élément **treatmentIntent** de la
   "title" : "French overall intention of the treatment",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-06T13:29:35+00:00",
+  "date" : "2026-05-07T06:03:21+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

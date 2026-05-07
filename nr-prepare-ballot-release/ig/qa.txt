@@ -1,21 +1,21 @@
 eP : Validation Results
 =========================================
 
-err = 937, warn = 2068, info = 127
+err = 942, warn = 2068, info = 127
 IG Publisher Version: 2.2.7
-Generated Wed May 06 13:33:56 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.eprescription#1.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
+Generated Thu May 07 06:06:58 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.eprescription#1.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
  Build Errors : 183 / 3 / 0
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-DC : 11 / 5 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-MV : 7 / 3 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-02-Presc-Fluindione : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-03-Presc-INNOHEP : 7 / 3 / 4
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-04a-Presc-Paracetamol : 5 / 4 / 4
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-04a-Presc-Paracetamol : 6 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-04b-Presc-DAFALGANCODEINE : 4 / 5 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-05a-Presc-Fluindione : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-05b-Presc-ACTISKENAN : 6 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-06-1-Presc-Methotrexate : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-06-2-Presc-Methotrexate : 7 / 4 / 4
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-07-Presc-Paracetamol : 7 / 4 / 4
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-07-Presc-Paracetamol : 8 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-08-1-Presc-Betamethasone : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-08-2-Presc-Paracetamol : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-09-Presc-Ropinirole : 7 / 4 / 4
@@ -26,7 +26,7 @@ Generated Wed May 06 13:33:56 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.epres
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-12-2-Presc-Methotrexate : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-12-3-Presc-Enoxaparine : 12 / 5 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-13-Presc-Desloratadine : 7 / 4 / 4
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-14-1-Presc-CODOLIPRANE : 6 / 4 / 4
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-14-1-Presc-CODOLIPRANE : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-14-2-Presc-Betamethasone : 7 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-15-Presc-Morphine : 8 / 4 / 4
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-16-Presc-Racecadotril : 8 / 4 / 4
@@ -58,7 +58,7 @@ Generated Wed May 06 13:33:56 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.epres
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-BISOPROLOL-SANDOZ-DosesRationnelles : 13 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Betamethasone-ApplCut : 11 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-DoseDiffParHoraire : 9 / 5 / 3
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin : 8 / 5 / 3
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin : 9 / 5 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-TL6h-MedCodeableConcept : 8 / 5 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CLARADOL-TLMardisVendredis : 8 / 5 / 3
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-CODOLIPRANE-MedCodeableConcept : 8 / 5 / 4
@@ -76,7 +76,7 @@ Generated Wed May 06 13:33:56 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.epres
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Nicotine-15mgPar16h : 11 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Paracetamol : 11 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Paracetamol-DoseEvolutive : 12 / 4 / 6
- /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin : 12 / 4 / 6
+ /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin : 13 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-Paracetamol-TL6h : 11 / 4 / 6
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-ParacetamolCodeine-500mg30mg : 11 / 5 / 7
  /home/runner/work/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-Presc-PerfDobutamine-Qsp40mL : 19 / 7 / 11
@@ -391,6 +391,7 @@ WARNING: Bundle/HAS-04a-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationR
 ERROR: Bundle/HAS-04a-Presc-Paracetamol: Bundle.entry[0]: Bundle entry missing fullUrl
 ERROR: Bundle/HAS-04a-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4a-Presc-Paracetamol*/.subject: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-04a-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4a-Presc-Paracetamol*/.subject: Unable to resolve resource with reference 'Patient/14602'
+ERROR: Bundle/HAS-04a-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4a-Presc-Paracetamol*/.dosageInstruction[0].asNeeded.ofType(CodeableConcept): Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 INFORMATION: Bundle/HAS-04a-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4a-Presc-Paracetamol*/.medication.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest|1.1.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/HAS-04a-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4a-Presc-Paracetamol*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated
 ERROR: Bundle/HAS-04a-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-4a-Presc-Paracetamol*/.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|1.1.0-ballot), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00000557)
@@ -466,6 +467,7 @@ ERROR: Bundle/HAS-07-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequ
 ERROR: Bundle/HAS-07-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-7-Presc-Paracetamol*/.subject: Unable to resolve resource with reference 'Patient/14602'
 ERROR: Bundle/HAS-07-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-7-Presc-Paracetamol*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-07-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-7-Presc-Paracetamol*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
+ERROR: Bundle/HAS-07-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-7-Presc-Paracetamol*/.dosageInstruction[0].asNeeded.ofType(CodeableConcept): Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 INFORMATION: Bundle/HAS-07-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-7-Presc-Paracetamol*/.medication.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest|1.1.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/HAS-07-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-7-Presc-Paracetamol*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://BogusSystemMedicabase.com' could not be found, so the code cannot be validated
 ERROR: Bundle/HAS-07-Presc-Paracetamol: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-7-Presc-Paracetamol*/.medication.ofType(CodeableConcept): None of the codings provided are in the value set 'value set Interop'Santé - Codes identifiant les médicaments' (https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code|1.1.0-ballot), and a coding from this value set is required) (codes = http://BogusSystemMedicabase.com#MV00000557)
@@ -613,6 +615,7 @@ ERROR: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRe
 ERROR: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.subject: Unable to resolve resource with reference 'Patient/14602'
 ERROR: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
+ERROR: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.dosageInstruction[0].asNeeded.ofType(CodeableConcept): Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 INFORMATION: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.medication.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest|1.1.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-HAS-14-1-Presc-CODOLIPRANE*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
 WARNING: Bundle/HAS-14-1-Presc-CODOLIPRANE: Bundle: SearchSet Bundles should have a self link that specifies what the search was
@@ -1106,6 +1109,7 @@ ERROR: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resou
 ERROR: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.requester: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
+ERROR: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.dosageInstruction[0].asNeeded.ofType(CodeableConcept): Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 ERROR: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 ERROR: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.medication.ofType(CodeableConcept): This element does not match any known slice defined in the profile https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest|1.1.0-ballot and slicing is CLOSED: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.medication.ofType(CodeableConcept): Does not match slice 'medicationReference' (discriminator: ($this is Reference))
 WARNING: Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[0].resource/*MedicationRequest/medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin*/.medication.ofType(CodeableConcept).coding[0].system: A definition for CodeSystem 'http://data.esante.gouv.fr/ansm/medicament/UCD' could not be found, so the code cannot be validated
@@ -1459,6 +1463,7 @@ ERROR: Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[1].re
 ERROR: Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin*/.requester: Unable to resolve resource with reference 'Practitioner/smart-Practitioner-71482713'
 WARNING: Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin*/.groupIdentifier.system: No definition could be found for URL value 'https://somehospital.fr/Prescrption-ID'
 ERROR: Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin*/.dosageInstruction[0].timing.repeat: Constraint failed: tim-6: 'If there's a periodMax, there must be a period (periodMax.empty() or period.exists())'
+ERROR: Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin*/.dosageInstruction[0].asNeeded.ofType(CodeableConcept): Error from https://smt.esante.gouv.fr/fhir: 502 Bad Gateway Bad Gateway The proxy server received an invalid response from an upstream server.
 ERROR: Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin: Bundle.entry[1].resource/*MedicationRequest/medicationrequest-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin*/.dosageInstruction[0].route.coding[0].display: Wrong Display Name 'Voie orale' for http://standardterms.edqm.eu#20053000. Valid display is 'Oral use' (for the language(s) 'fr-FR')
 WARNING: Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin: Bundle: SearchSet Bundles should have a self link that specifies what the search was
 WARNING: Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin: Bundle: SearchSet bundles should have search modes on the entries

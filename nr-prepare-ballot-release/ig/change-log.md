@@ -50,7 +50,7 @@ Les travaux ont été initiés également au sein de la communauté SIPh en 2019
 
 #### Liste des contributeurs
 
-##### Version 1.1
+##### Version 1.1.0
 
 Chair : Manuel Metz
 

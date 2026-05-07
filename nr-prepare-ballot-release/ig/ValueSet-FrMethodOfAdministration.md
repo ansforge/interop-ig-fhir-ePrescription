@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-06 | *Computable Name*:FrMethodOfAdministration |
+| Draft as of 2026-05-07 | *Computable Name*:FrMethodOfAdministration |
 
  
 Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.method** de la ressource **FRMedicationRequest**. 
@@ -54,7 +54,7 @@ Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.metho
   "title" : "French Method Of Administration",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-06T13:29:35+00:00",
+  "date" : "2026-05-07T06:03:21+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

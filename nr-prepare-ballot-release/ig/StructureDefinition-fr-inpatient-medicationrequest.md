@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-06 | *Computable Name*:FRInpatientMedicationRequest |
+| Draft as of 2026-05-07 | *Computable Name*:FRInpatientMedicationRequest |
 
  
 French inpatient medication request profile 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-inpatient-medicat
   "name" : "FRInpatientMedicationRequest",
   "title" : "FR Inpatient MedicationRequest",
   "status" : "draft",
-  "date" : "2026-05-06T13:29:35+00:00",
+  "date" : "2026-05-07T06:03:21+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
