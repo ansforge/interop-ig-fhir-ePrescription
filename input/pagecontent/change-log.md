@@ -45,7 +45,7 @@ Toute remarque, commentaire ou suggestion est bienvenu sur la [mailing list PN13
 
 #### Liste des contributeurs
 
-##### Version 1.1
+##### Version 1.1.0
 
 Chair : Manuel Metz
 
