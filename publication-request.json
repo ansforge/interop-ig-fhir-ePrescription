@@ -1,0 +1,18 @@
+{
+    "package-id" : "ans.fhir.fr.eprescription",
+    "version" : "1.1.0-ballot",
+    "path" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/1.1.0-ballot",
+    "mode" : "working",
+    "status" : "ballot",
+    "sequence" : "STU 1",
+    "desc" : "Première publication en concertation publique de ce guide d'implémentation sur la prescription électronique de médicaments",
+    "changes" : "change-log.html",
+    "first" : true,
+    "title" : "Guide d'implémentation de la ePrescription",
+    "ci-build" : "https://ansforge.github.io/interop-ig-fhir-ePrescription/main/ig",
+    "registry-description" : "Guide d'implémentation FHIR pour la prescription électronique de médicaments en France",
+    "registry-country" : "fr",
+    "registry-authority" : "ANS",
+    "category" : "Pharmacy",
+    "introduction" : "Ce guide définit les spécifications FHIR pour les échanges liés à la prescription électronique de médicaments en France, de la HAS et des standards européens (IHE MPD, eHN)."
+}

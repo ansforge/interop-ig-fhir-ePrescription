@@ -9,10 +9,10 @@ publisher:
     url: https://esante.gouv.fr
     email: monserviceclient.annuaire@esante.gouv.fr
 status: draft
-version: 0.1.0
+version: 1.1.0-ballot
 fhirVersion: 4.0.1
 copyrightYear: 2020+
-releaseLabel: ci-build
+releaseLabel: ballot
 jurisdiction: urn:iso:std:iso:3166#FR "France (la)"
 
 #La liste des paramètres ainsi que leur explication est disponible ici : https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html
@@ -56,7 +56,7 @@ pages:
         title: Exemple de prescription PN13 médicament virtuel
     downloads.md:
       title: Téléchargements et usages
-    suivitravaux.md:
+    change-log.md:
       title: Historique des travaux
 
 
@@ -82,7 +82,7 @@ menu:
   Ressources de conformité: artifacts.html
   Autres ressources:
       Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/
-      Historique des travaux: suivitravaux.html
+      Historique des travaux: change-log.html
       Téléchargements et usages: downloads.html
       "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
       "Site HL7 ": new-tab https://hl7.fr
