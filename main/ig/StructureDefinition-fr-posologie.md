@@ -1,4 +1,4 @@
-# Posologie - Guide d'implémentation de la ePrescription v0.1.0
+# Posologie - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:Posologie |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:Posologie |
 
  
 Structuration d’une posologie en fonction des critères de la HAS. Cette structuration a pour objectif de tendre au plus proche du modèle européen [Xt-EHR](https://build.fhir.org/ig/Xt-EHR/xt-ehr-common/StructureDefinition-EHDSDosaging.html) (CI-BUILD) 
@@ -37,11 +37,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-posologie.csv), [
   "resourceType" : "StructureDefinition",
   "id" : "fr-posologie",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "Posologie",
   "title" : "Posologie",
   "status" : "draft",
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

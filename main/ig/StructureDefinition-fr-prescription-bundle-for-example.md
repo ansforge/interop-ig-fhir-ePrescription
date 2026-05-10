@@ -1,4 +1,4 @@
-# FR Prescription Bundle For Example - Guide d'implémentation de la ePrescription v0.1.0
+# FR Prescription Bundle For Example - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:FRPrescriptionBundleForExample |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:FRPrescriptionBundleForExample |
 
  
 Profil de la ressource Bundle pour la constitution d’exemples de prescription. 
@@ -40,11 +40,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-prescription-bund
   "resourceType" : "StructureDefinition",
   "id" : "fr-prescription-bundle-for-example",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FRPrescriptionBundleForExample",
   "title" : "FR Prescription Bundle For Example",
   "status" : "draft",
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

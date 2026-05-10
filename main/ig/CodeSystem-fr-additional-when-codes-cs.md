@@ -1,4 +1,4 @@
-# code system Interop'Santé - Codes additionnels pour l'élément when - Guide d'implémentation de la ePrescription v0.1.0
+# code system Interop'Santé - Codes additionnels pour l'élément when - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:FrAdditionalWhenCodesCodeSystem |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:FrAdditionalWhenCodesCodeSystem |
 
  
 Le système de codage pour des périodes d’occurrence qui ne sont pas définies dans FHIR. 
@@ -30,12 +30,12 @@ Le système de codage pour des périodes d’occurrence qui ne sont pas définie
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FrAdditionalWhenCodesCodeSystem",
   "title" : "code system Interop'Santé - Codes additionnels pour l'élément when",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

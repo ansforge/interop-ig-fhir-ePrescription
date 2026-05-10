@@ -1,4 +1,4 @@
-# ans.fhir.fr.eprescription#0.1.0: Guide d'implémentation de la ePrescription
+# ans.fhir.fr.eprescription#1.1.0-ballot: Guide d'implémentation de la ePrescription
 
 ## Pages
 
@@ -9,9 +9,9 @@
 * [La prescription - Vue d'ensemble de la modélisation FHIR](prescription-VueEnsemble.md)
 * [Transformation de PN13 en FHIR](transformationPN13-FHIR-Intro.md)
 * [La prescription - Exemples](prescription-Exemples.md)
+* [Historique des travaux](change-log.md)
 * [Artifacts Summary](artifacts.md)
 * [La prescription au format document](prescription-Document.md)
-* [Historique des travaux](suivitravaux.md)
 * [La prescription](prescription-Intro.md)
 * [Exemple de prescription PN13 médicament composite](PN13-prescription-compound.md)
 * [Exemple de prescription PN13 médicament simple en DC](PN13-prescription-DC.md)

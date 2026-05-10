@@ -1,4 +1,4 @@
-# HAS-11-1-Presc-VitamineD - Guide d'implémentation de la ePrescription v0.1.0
+# HAS-11-1-Presc-VitamineD - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"ans.fhir.fr.eprescription\"> </a><a name=\"hcans.fhir.fr.eprescription\"> </a><h2>eP</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -91,7 +91,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -409,7 +409,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -2489,9 +2489,9 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "suivitravaux.html"
+          "valueUrl" : "change-log.html"
         }],
-        "nameUrl" : "suivitravaux.html",
+        "nameUrl" : "change-log.html",
         "title" : "Historique des travaux",
         "generation" : "markdown"
       }]

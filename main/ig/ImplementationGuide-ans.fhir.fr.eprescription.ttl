@@ -17,11 +17,11 @@
      fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription"^^xsd:anyURI ;
      fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "1.1.0-ballot"] ; # 
   fhir:name [ fhir:v "eP"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la ePrescription"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-06T13:16:54+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-10T16:39:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;
@@ -147,7 +147,7 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ci-build"
+           fhir:v "ballot"
          ]
        ] ) ;
        fhir:url [
@@ -838,7 +838,7 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ci-build"
+           fhir:v "ballot"
          ]
        ] ) ;
        fhir:url [
@@ -4747,14 +4747,14 @@
            ] ;
            fhir:value [
              a fhir:Url ;
-             fhir:v "suivitravaux.html"^^xsd:anyURI ;
-             fhir:l fhir:suivitravaux.html
+             fhir:v "change-log.html"^^xsd:anyURI ;
+             fhir:l fhir:change-log.html
            ]
          ] ) ;
          fhir:name [
            a fhir:Url ;
-           fhir:v "suivitravaux.html"^^xsd:anyURI ;
-           fhir:l fhir:suivitravaux.html
+           fhir:v "change-log.html"^^xsd:anyURI ;
+           fhir:l fhir:change-log.html
          ] ;
          fhir:title [ fhir:v "Historique des travaux" ] ;
          fhir:generation [ fhir:v "markdown" ]

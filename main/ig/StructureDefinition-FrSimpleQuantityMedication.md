@@ -1,4 +1,4 @@
-# SimpleQuantity with UCUM or EDQM codes or code not used - Guide d'implémentation de la ePrescription v0.1.0
+# SimpleQuantity with UCUM or EDQM codes or code not used - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:FrSimpleQuantityMedication |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:FrSimpleQuantityMedication |
 
  
 Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit) 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
   "resourceType" : "StructureDefinition",
   "id" : "FrSimpleQuantityMedication",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FrSimpleQuantityMedication",
   "title" : "SimpleQuantity with UCUM or EDQM codes or code not used",
   "status" : "draft",
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

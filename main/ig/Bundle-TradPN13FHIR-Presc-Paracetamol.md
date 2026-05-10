@@ -1,4 +1,4 @@
-# TradPN13FHIR-Presc-Paracetamol - Guide d'implémentation de la ePrescription v0.1.0
+# TradPN13FHIR-Presc-Paracetamol - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

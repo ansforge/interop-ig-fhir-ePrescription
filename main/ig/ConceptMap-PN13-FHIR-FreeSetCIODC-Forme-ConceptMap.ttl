@@ -18,7 +18,7 @@
      fhir:v "https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap"^^xsd:anyURI ;
      fhir:l <https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "1.1.0-ballot"] ; # 
   fhir:name [ fhir:v "FrPN13FHIRFreeSetCIODCFormeConceptMap"] ; # 
   fhir:title [ fhir:v "Mapping Free Set CIO-DC FORME"] ; # 
   fhir:status [ fhir:v "draft"] ; # 

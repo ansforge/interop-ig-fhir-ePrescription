@@ -1,4 +1,4 @@
-# Accueil - Guide d'implémentation de la ePrescription v0.1.0
+# Accueil - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Accueil**
@@ -7,10 +7,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:eP |
-
->  **Attention !** Ce guide d'implémentation n'est pas en version courante. La version courante sera accessible via l'URL canonique (https://interop.esante.gouv.fr/ig/fhir/eprescription) lorsque celui-ci sera publié. 
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:eP |
 
 Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription médicamenteuse](prescription-Intro.md) en FHIR pour l’écosystème français.
 
@@ -158,11 +156,11 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "resourceType" : "ImplementationGuide",
   "id" : "ans.fhir.fr.eprescription",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -243,7 +241,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -561,7 +559,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -2641,9 +2639,9 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "suivitravaux.html"
+          "valueUrl" : "change-log.html"
         }],
-        "nameUrl" : "suivitravaux.html",
+        "nameUrl" : "change-log.html",
         "title" : "Historique des travaux",
         "generation" : "markdown"
       }]

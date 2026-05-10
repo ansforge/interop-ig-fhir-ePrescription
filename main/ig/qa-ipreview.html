@@ -227,7 +227,7 @@ Unless otherwise indicated, reproduction of material posted on Council of Europe
     <ul>
       <li>
 
-          IG &copy; 2020+ Interop'Santé.  Package ans.fhir.fr.eprescription#0.1.0 based on FHIR 4.0.1. Generated 2026-05-06
+          IG &copy; 2020+ Interop'Santé.  Package ans.fhir.fr.eprescription#1.1.0-ballot based on FHIR 4.0.1. Generated 2026-05-10
           
           
             Liens: Table des matières  |
@@ -356,7 +356,7 @@ GLUCOPHAGE&reg; 500 mg comprimé : 1 comprimé matin et 1 comprimé soir, au cou
 )
       </li>
       <li>
-Guide d'implémentation de la ePrescription - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7&reg; FHIR&reg; Standard). Voir le répertoire des versions publiées (        <a href="transformationPN13-FHIR-Intro.html">src</a>
+Guide d'implémentation de la ePrescription - version de développement local (intégration continue v1.1.0-ballot) construite par les outils de publication FHIR (HL7&reg; FHIR&reg; Standard). Voir le répertoire des versions publiées (        <a href="transformationPN13-FHIR-Intro.html">src</a>
 )
       </li>
       <li>
@@ -643,8 +643,8 @@ VERSATIS&reg; 700 mg emplâtre médicamenteux: 1 emplâtre par jour à 20 h, à 
         <td>
 
           IG &copy; 2020+           <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop'Santé</a>
-.  Package ans.fhir.fr.eprescription#0.1.0 based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>
-. Generated           <span title="Wed, May 6, 2026 13:16+0000">2026-05-06</span>
+.  Package ans.fhir.fr.eprescription#1.1.0-ballot based on           <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>
+. Generated           <span title="Sun, May 10, 2026 16:39+0000">2026-05-10</span>
 
                     <br/>
 
@@ -914,6 +914,138 @@ Both Bundle.link and Bundle.entry.link are defined to support providing addition
       </tr>
       <tr>
         <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://smt.esante.gouv.fr/explorer-les-concepts/terminologie-ref_interop_med">smt.esante.gouv.fr</a>
+        </td>
+        <td>
+Les travaux du GT PN13 - FHIR sur la prescription se sont déroulés de janvier 2024 à septembre 2025
+La concertation publique a lieu du XXX au XXX
+Ils ont porté sur :
+Le mapping des données PN13 - FHIR
+L’intégration des extensions FrIsVehicle et  FrBasisOfDoseComponent dans les profils
+Prise en compte du           <a href="https://smt.esante.gouv.fr/explorer-les-concepts/terminologie-ref_interop_med">Référentiel Unique d’Interopérabilité du Médicament</a>
+
+La prise en compte des travaux de la HAS sur la structuration de la posologie
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/1">github.com</a>
+        </td>
+        <td>
+Suppression de toutes les parties sauf ePrescription           <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/1">#1</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/2">github.com</a>
+        </td>
+        <td>
+Correction exemples HAS           <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/2">#2</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/3">github.com</a>
+        </td>
+        <td>
+Description métier           <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/3">#3</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/4">github.com</a>
+        </td>
+        <td>
+Mise à jour de la page index et de l’ordre des pages dans le menu           <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/4">#4</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/5">github.com</a>
+        </td>
+        <td>
+Suppression de la partie conciliation et dispensation de suivitravaux.md           <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/5">#5</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/6">github.com</a>
+        </td>
+        <td>
+Ajout des terminologies CIP et SpecialitePharmaceutique au ValueSet de MedicationRequest.medication           <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/6">#6</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/7">github.com</a>
+        </td>
+        <td>
+Fix profile name from FrRedicationCompound to FrMedicationCompound           <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/7">#7</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/12">github.com</a>
+        </td>
+        <td>
+fix: corrections éditoriales et typos           <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/12">#12</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/13">github.com</a>
+        </td>
+        <td>
+Enrichissement de la page index           <a href="https://github.com/ansforge/interop-ig-fhir-ePrescription/pull/13">#13</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="change-log.html">web</a>
+        </td>
+        <td>
+          <a href="https://groups.google.com/g/pn13-is---interopsante">groups.google.com</a>
+        </td>
+        <td>
+Les travaux ont été initiés également au sein de la communauté SIPh en 2019. Mais ils n’ont pas abouti à un premier niveau de ressources FHIR livrables.
+En 2021 le groupe Pharmacie d’InterOp’Santé a repris le projet pour aboutir à un profilage de la ressource MedicationRequest et de la ressource Medication adapté à la prescription en DC et en spécialité identifiée par le code UCD.
+Cette première version, en date du 31 janvier 2022, voit ses ressources publiées au statut draft, en attente de retours des premières implémentations.
+Toute remarque, commentaire ou suggestion est bienvenu sur la           <a href="https://groups.google.com/g/pn13-is---interopsante">mailing list PN13-FHIR</a>
+ animée par InterOp’Santé.
+        </td>
+      </tr>
+      <tr>
+        <td>
           <a href="downloads.html">web</a>
         </td>
         <td>
@@ -982,6 +1114,7 @@ Pour en savoir plus sur l’interopérabilité en général, une documentation s
           <a href="https://groups.google.com/g/pn13-is---interopsante">groups.google.com</a>
         </td>
         <td>
+          <a name="l788">​</a>
 Ce domaine est pris en charge par le           <a href="https://groups.google.com/g/pn13-is---interopsante">GT pharmacie</a>
  d’HL7 France au sein de l’association           <a href="https://www.interopsante.org">Interop’Santé</a>
  après une première version développée au sein de la communauté SIPh.
@@ -997,6 +1130,7 @@ L’historique des versions et des travaux est détaillé dans la page de       
           <a href="https://www.interopsante.org">www.interopsante.org</a>
         </td>
         <td>
+          <a name="l788">​</a>
 Ce domaine est pris en charge par le           <a href="https://groups.google.com/g/pn13-is---interopsante">GT pharmacie</a>
  d’HL7 France au sein de l’association           <a href="https://www.interopsante.org">Interop’Santé</a>
  après une première version développée au sein de la communauté SIPh.
@@ -1135,7 +1269,7 @@ Les profils européens pour la           <a href="http://hl7.eu/fhir/mpd">prescr
 
 
       <div id="ig-status">
-        <p><span style="font-size:12pt;font-weight:bold">Recherche sur Guide d'implémentation de la ePrescription (Current Build)</span>
+        <p><a name="l85">​</a><span style="font-size:12pt;font-weight:bold">Recherche sur Guide d'implémentation de la ePrescription (Current Build)</span>
   
 <img src="assets/images/fra.svg" alt="France flag" title="France" height="16">
 
@@ -1546,39 +1680,6 @@ Les profils européens pour la           <a href="http://hl7.eu/fhir/mpd">prescr
 
 
 </img>          </a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="suivitravaux.html">web</a>
-        </td>
-        <td>
-          <a href="https://smt.esante.gouv.fr/explorer-les-concepts/terminologie-ref_interop_med">smt.esante.gouv.fr</a>
-        </td>
-        <td>
-Les travaux du GT PN13 - FHIR sur la prescription se sont déroulés de janvier 2024 à septembre 2025
-La concertation publique a lieu du XXX au XXX
-Ils ont porté sur :
-Le mapping des données PN13 - FHIR
-L’intégration des extensions FrIsVehicle et  FrBasisOfDoseComponent dans les profils
-Prise en compte du           <a href="https://smt.esante.gouv.fr/explorer-les-concepts/terminologie-ref_interop_med">Référentiel Unique d’Interopérabilité du Médicament</a>
-
-La prise en compte des travaux de la HAS sur la structuration de la posologie
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="suivitravaux.html">web</a>
-        </td>
-        <td>
-          <a href="https://groups.google.com/g/pn13-is---interopsante">groups.google.com</a>
-        </td>
-        <td>
-Les travaux ont été initiés également au sein de la communauté SIPh en 2019. Mais ils n’ont pas abouti à un premier niveau de ressources FHIR livrables.
-En 2021 le groupe Pharmacie d’InterOp’Santé a repris le projet pour aboutir à un profilage de la ressource MedicationRequest et de la ressource Medication adapté à la prescription en DC et en spécialité identifiée par le code UCD.
-Cette première version, en date du 31 janvier 2022, voit ses ressources publiées au statut draft, en attente de retours des premières implémentations.
-Toute remarque, commentaire ou suggestion est bienvenu sur la           <a href="https://groups.google.com/g/pn13-is---interopsante">mailing list PN13-FHIR</a>
- animée par InterOp’Santé.
         </td>
       </tr>
       <tr>

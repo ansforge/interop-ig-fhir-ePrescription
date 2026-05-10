@@ -1,4 +1,4 @@
-# Scope for note element in MedicationRequest - Guide d'implémentation de la ePrescription v0.1.0
+# Scope for note element in MedicationRequest - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:FRMedicationRequestNoteScope |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:FRMedicationRequestNoteScope |
 
 Scope of a note associated in a MedicationRequest resource
 
@@ -49,11 +49,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-medicationrequest
   "resourceType" : "StructureDefinition",
   "id" : "fr-medicationrequest-note-scope",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FRMedicationRequestNoteScope",
   "title" : "Scope for note element in MedicationRequest",
   "status" : "draft",
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

@@ -1,4 +1,4 @@
-# FR Medication - Guide d'implémentation de la ePrescription v0.1.0
+# FR Medication - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:FRMedication |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:FRMedication |
 
  
 French medication profile 
@@ -41,11 +41,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication.csv), 
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FRMedication",
   "title" : "FR Medication",
   "status" : "draft",
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

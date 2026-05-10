@@ -1,4 +1,4 @@
-# Mapping Free Set CIO-DC UNITE - Guide d'implémentation de la ePrescription v0.1.0
+# Mapping Free Set CIO-DC UNITE - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-unite-conceptmap | *Version*:0.1.0 |
+| *Official URL*:https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-unite-conceptmap | *Version*:1.1.0-ballot |
 | Draft as of 2025-02-10 | *Computable Name*:FrPN13FHIRFreeSetCIODCUniteConceptMap |
 
  
@@ -24,7 +24,7 @@ ConceptMap pour la conversion des codes d’unité d’administration de médica
   "id" : "PN13-FHIR-FreeSetCIODC-Unite-ConceptMap",
   "language" : "fr-FR",
   "url" : "https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-unite-conceptmap",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FrPN13FHIRFreeSetCIODCUniteConceptMap",
   "title" : "Mapping Free Set CIO-DC UNITE",
   "status" : "draft",

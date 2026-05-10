@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name="ans.fhir.fr.eprescription"> </a><a name="hcans.fhir.fr.eprescription"> </a><h2>eP</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription"/>
-  <version value="0.1.0"/>
+  <version value="1.1.0-ballot"/>
   <name value="eP"/>
   <title value="Guide d'implémentation de la ePrescription"/>
   <status value="draft"/>
-  <date value="2026-05-06T13:16:54+00:00"/>
+  <date value="2026-05-10T16:39:38+00:00"/>
   <publisher value="Interop'Santé"/>
   <contact>
     <name value="Interop'Santé"/>
@@ -80,7 +80,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="ballot"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -312,7 +312,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="ballot"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -2159,9 +2159,9 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="suivitravaux.html"/>
+          <valueUrl value="change-log.html"/>
         </extension>
-        <nameUrl value="suivitravaux.html"/>
+        <nameUrl value="change-log.html"/>
         <title value="Historique des travaux"/>
         <generation value="markdown"/>
       </page>

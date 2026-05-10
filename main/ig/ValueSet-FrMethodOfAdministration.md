@@ -1,4 +1,4 @@
-# French Method Of Administration - Guide d'implémentation de la ePrescription v0.1.0
+# French Method Of Administration - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:FrMethodOfAdministration |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:FrMethodOfAdministration |
 
  
 Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.method** de la ressource **FRMedicationRequest**. 
@@ -49,12 +49,12 @@ Le jeu de valeurs à utiliser pour coder l’élément **dosageInstruction.metho
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FrMethodOfAdministration",
   "title" : "French Method Of Administration",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

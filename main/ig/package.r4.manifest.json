@@ -1,6 +1,6 @@
 {
-  "version" : "0.1.0",
-  "date" : "20260506131654",
+  "version" : "1.1.0-ballot",
+  "date" : "20260510163938",
   "notForPublication" : true,
   "name" : "ans.fhir.fr.eprescription.r4"
 }

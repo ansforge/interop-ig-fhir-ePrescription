@@ -17,11 +17,11 @@
      fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-medicationnoncompound-conceptmap"^^xsd:anyURI ;
      fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-medicationnoncompound-conceptmap>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "1.1.0-ballot"] ; # 
   fhir:name [ fhir:v "FrPN13FHIRMedicationNonCompoundConceptMap"] ; # 
   fhir:title [ fhir:v "Conversion PN13 vers FHIR pour un médicament non composé d'une prescription de médicaments"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-06T13:16:54+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-10T16:39:38+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;

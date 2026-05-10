@@ -1,4 +1,4 @@
-# Range with UCUM or EDQM codes if code is used - Guide d'implémentation de la ePrescription v0.1.0
+# Range with UCUM or EDQM codes if code is used - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:FrRangeMedication |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:FrRangeMedication |
 
  
 Range with low and high unit UCUM or EDQM codes if code is used 
@@ -38,11 +38,11 @@ Other representations of profile: [CSV](StructureDefinition-FrRangeMedication.cs
   "resourceType" : "StructureDefinition",
   "id" : "FrRangeMedication",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FrRangeMedication",
   "title" : "Range with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

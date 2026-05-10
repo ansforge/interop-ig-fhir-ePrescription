@@ -1,4 +1,4 @@
-# FR Medication Non Compound - Guide d'implémentation de la ePrescription v0.1.0
+# FR Medication Non Compound - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:FRMedicationNonCompound |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:FRMedicationNonCompound |
 
  
 Simple prescribed, dispensed, administered or used medication composed of one to many substances. If composed of many substance, the strengh SHALL be defined. This ressource is profiled for describing a simple medication (vs compound medication) in the presription line represented by a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement). 
@@ -41,12 +41,12 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-noncom
   "resourceType" : "StructureDefinition",
   "id" : "fr-medication-noncompound",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FRMedicationNonCompound",
   "title" : "FR Medication Non Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

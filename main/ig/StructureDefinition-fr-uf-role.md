@@ -1,4 +1,4 @@
-# UF Role - Guide d'implémentation de la ePrescription v0.1.0
+# UF Role - Guide d'implémentation de la ePrescription v1.1.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role | *Version*:0.1.0 |
-| Draft as of 2026-05-06 | *Computable Name*:FrUFRole |
+| *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role | *Version*:1.1.0-ballot |
+| Draft as of 2026-05-10 | *Computable Name*:FrUFRole |
 
 Caracterization of the role of a functionnal unit for the patient encounter
 
@@ -49,11 +49,11 @@ Other representations of profile: [CSV](StructureDefinition-fr-uf-role.csv), [Ex
   "resourceType" : "StructureDefinition",
   "id" : "fr-uf-role",
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
-  "version" : "0.1.0",
+  "version" : "1.1.0-ballot",
   "name" : "FrUFRole",
   "title" : "UF Role",
   "status" : "draft",
-  "date" : "2026-05-06T13:16:54+00:00",
+  "date" : "2026-05-10T16:39:38+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
