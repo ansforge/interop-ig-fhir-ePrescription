@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-patient-id-seul-conceptmap | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-10 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap |
+| Draft as of 2026-05-11 | *Computable Name*:FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR du patient d’une prescritpion de médicament avec uniquement un identifiant fourni 
@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR du patient d’une prescritpion de 
   "name" : "FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap",
   "title" : "Conversion PN13 vers FHIR pour le patient d'une prescription de médicaments avec uniquement un identifiant fourni",
   "status" : "draft",
-  "date" : "2026-05-10T16:47:08+00:00",
+  "date" : "2026-05-11T06:03:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

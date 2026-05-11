@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-10 | *Computable Name*:FrMedicationCompound |
+| Draft as of 2026-05-11 | *Computable Name*:FrMedicationCompound |
 
  
 A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound. 
@@ -46,7 +46,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-medication-compou
   "title" : "FR Medication Compound",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-10T16:47:08+00:00",
+  "date" : "2026-05-11T06:03:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

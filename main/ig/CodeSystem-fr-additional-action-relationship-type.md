@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-10 | *Computable Name*:FrAdditionalActionRelationshipType |
+| Draft as of 2026-05-11 | *Computable Name*:FrAdditionalActionRelationshipType |
 
  
 Codes to specify relationship between action in a RequestGroup that are not in the valueSet http://hl7.org/fhir/ValueSet/action-relationship-type. 
@@ -35,7 +35,7 @@ Codes to specify relationship between action in a RequestGroup that are not in t
   "title" : "Interop'Santé code system - Additional codes for relationship between action",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-10T16:47:08+00:00",
+  "date" : "2026-05-11T06:03:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

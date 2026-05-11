@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-10 | *Computable Name*:eP |
+| Draft as of 2026-05-11 | *Computable Name*:eP |
 
 Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription médicamenteuse](prescription-Intro.md) en FHIR pour l’écosystème français.
 
@@ -160,7 +160,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-05-10T16:47:08+00:00",
+  "date" : "2026-05-11T06:03:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -275,6 +275,28 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       {
         "url" : "value",
         "valueString" : "pin-multiples"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "fr-FR"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -414,17 +436,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "code",
         "valueString" : "apply-copyright"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "apply-jurisdiction"
       },
       {
         "url" : "value",
@@ -599,6 +610,28 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
     {
       "extension" : [{
         "url" : "code",
+        "valueCode" : "i18n-default-lang"
+      },
+      {
+        "url" : "value",
+        "valueString" : "fr-FR"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueCode" : "autoload-resources"
       },
       {
@@ -732,17 +765,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "code",
         "valueCode" : "apply-copyright"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-jurisdiction"
       },
       {
         "url" : "value",

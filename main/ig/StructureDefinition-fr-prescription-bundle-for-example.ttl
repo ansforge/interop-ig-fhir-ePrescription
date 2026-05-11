@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "FRPrescriptionBundleForExample"] ; # 
   fhir:title [ fhir:v "FR Prescription Bundle For Example"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-10T16:47:08+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-11T06:03:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Interop'Santé"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Interop'Santé" ] ;

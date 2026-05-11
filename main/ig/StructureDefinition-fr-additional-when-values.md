@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-10 | *Computable Name*:FrAdditionalWhenValues |
+| Draft as of 2026-05-11 | *Computable Name*:FrAdditionalWhenValues |
 
 Additional values for Timing.repeat.when
 
@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-when-v
   "name" : "FrAdditionalWhenValues",
   "title" : "Additional values for when element",
   "status" : "draft",
-  "date" : "2026-05-10T16:47:08+00:00",
+  "date" : "2026-05-11T06:03:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

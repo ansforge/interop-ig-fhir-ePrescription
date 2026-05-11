@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-10 | *Computable Name*:FrBasisOfDoseComponent |
+| Draft as of 2026-05-11 | *Computable Name*:FrBasisOfDoseComponent |
 
 When the medication element of the resource in which a dose applies is compound, this extension references the Medication resource component of the medication element which is the Basis of the dose quantity or volume.
 
@@ -53,7 +53,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-basis-of-dose-com
   "name" : "FrBasisOfDoseComponent",
   "title" : "Medication component Basis of dose",
   "status" : "draft",
-  "date" : "2026-05-10T16:47:08+00:00",
+  "date" : "2026-05-11T06:03:48+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
