@@ -271,13 +271,13 @@
     "uses" : {
     },
     "StructureDefinition-fr-medication.html" : "FR Medication",
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
+    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example",
+    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
     "StructureDefinition-fr-observation-for-prescription.html" : "FR Observation For Prescription",
     "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-    "StructureDefinition-fr-prescription-bundle-for-example.html" : "FR Prescription Bundle For Example"
+    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -307,8 +307,8 @@
     "uses" : {
     },
     "StructureDefinition-fr-medication.html" : "FR Medication",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-form-codes",
@@ -337,8 +337,8 @@
     "uses" : {
     },
     "StructureDefinition-fr-medication.html" : "FR Medication",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medicationknowledge-characteristic",
@@ -584,8 +584,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.115"],
     "uses" : {
     },
-    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
     "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-requestgroup-for-prescription.html" : "FR RequestGroup For Prescription",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
   },
   {
@@ -768,8 +768,8 @@
     "systems" : ["http://standardterms.edqm.eu"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs",

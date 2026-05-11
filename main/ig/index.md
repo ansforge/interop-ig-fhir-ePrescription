@@ -160,7 +160,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-05-11T06:03:48+00:00",
+  "date" : "2026-05-11T06:11:37+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

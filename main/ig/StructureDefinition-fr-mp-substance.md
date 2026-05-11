@@ -43,7 +43,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-mp-substance.csv)
   "title" : "FR Medicinal Product Substance",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-11T06:03:48+00:00",
+  "date" : "2026-05-11T06:11:37+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
