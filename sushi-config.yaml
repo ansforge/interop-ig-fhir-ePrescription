@@ -22,6 +22,10 @@ parameters:
   pin-canonicals: pin-multiples # Avoid raising many warnings when there are no version for URLs. "pin-multiples": pinning the canonical reference will only happen if there is multiple versions found in the package dependencies
   i18n-default-lang: fr-FR # Default language
   apply-jurisdiction: true
+  i18n-lang:
+    - en
+  translation-sources:
+    - input/translations/en
 
 dependencies:
   hl7.fhir.fr.core: 2.1.0
@@ -60,6 +64,8 @@ pages:
       title: Téléchargements et usages
     change-log.md:
       title: Historique des travaux
+    translationinfo.md:
+      title: Informations sur la traduction
 
 
 menu:
