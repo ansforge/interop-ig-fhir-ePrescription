@@ -1,0 +1,342 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "Patient",
+      "id" : "patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE",
+      "meta" : {
+        "profile" : ["https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "extension" : [{
+        "extension" : [{
+          "url" : "identityStatus",
+          "valueCoding" : {
+            "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445",
+            "code" : "VALI"
+          }
+        }],
+        "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/patient-birthPlace",
+        "valueAddress" : {
+          "extension" : [{
+            "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code",
+            "valueCoding" : {
+              "system" : "https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune",
+              "code" : "29134"
+            }
+          }]
+        }
+      }],
+      "identifier" : [{
+        "use" : "official",
+        "type" : {
+          "coding" : [{
+            "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+            "code" : "INS-NIR",
+            "display" : "NIR définitif"
+          }]
+        },
+        "system" : "urn:oid:1.2.250.1.213.1.4.8",
+        "value" : "289062913400149"
+      },
+      {
+        "use" : "usual",
+        "type" : {
+          "coding" : [{
+            "system" : "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203",
+            "code" : "INTRN",
+            "display" : "Identifiant interne"
+          }]
+        },
+        "system" : "urn:oid:1.2.250.1.507454354.43654.2346659",
+        "value" : "6032486"
+      }],
+      "name" : [{
+        "use" : "usual",
+        "family" : "ARASGAIN"
+      },
+      {
+        "extension" : [{
+          "url" : "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name",
+          "valueString" : "MARSALI MORAG MAIREAD"
+        }],
+        "use" : "official",
+        "family" : "CUIMEANACH",
+        "given" : ["MARSALI"]
+      }],
+      "gender" : "female",
+      "birthDate" : "1989-01-02"
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Trad-Presc-Alt-METFORMINE",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "identifier" : [{
+        "value" : "https://somehospital.fr/Medication-ID"
+      }],
+      "status" : "active",
+      "intent" : "option",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400890020275",
+          "display" : "METFORMINE ACC 1000MG CPR"
+        }]
+      },
+      "subject" : {
+        "reference" : "#patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE"
+      },
+      "encounter" : {
+        "identifier" : {
+          "system" : "https://somehospital.fr/Sejour",
+          "value" : "765093464568"
+        }
+      },
+      "supportingInformation" : [{
+        "extension" : [{
+          "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+          "valueCode" : "UFHEB"
+        }],
+        "type" : "Organization",
+        "identifier" : {
+          "system" : "https://somehospital.fr/UF",
+          "value" : "603"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+          "valueCode" : "UFMED"
+        }],
+        "type" : "Organization",
+        "identifier" : {
+          "system" : "https://somehospital.fr/UF",
+          "value" : "506"
+        }
+      }],
+      "authoredOn" : "2025-05-02T14:48:44+02:00",
+      "requester" : {
+        "identifier" : {
+          "system" : "urn:oid:1.2.250.1.71.4.2.1",
+          "value" : "899999999999"
+        }
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "10543744"
+      },
+      "note" : [{
+        "extension" : [{
+          "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+          "valueCode" : "LIPRESCTXT"
+        }],
+        "text" : "Prescription textuelle: Par voie orale : METFORMINE 1000MG 0,5 comprimé 2 fois par jour avec les repas -- À partir du 02/05/2025 à 19:00 jusqu'au 31/05/2025 à 19h00"
+      }],
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2025-05-02T19:00:00+02:00",
+              "end" : "2025-05-31T18:59:59+02:00"
+            },
+            "frequency" : 2,
+            "periodUnit" : "d",
+            "when" : ["C"]
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 0.5,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Trad-Presc-Alt-GLICLAZIDE",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "identifier" : [{
+        "value" : "https://somehospital.fr/Medication-ID"
+      }],
+      "status" : "active",
+      "intent" : "option",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400893541364",
+          "display" : "GLICLAZIDE ARW 30MG CPR LM"
+        }]
+      },
+      "subject" : {
+        "reference" : "#patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE"
+      },
+      "encounter" : {
+        "identifier" : {
+          "system" : "https://somehospital.fr/Sejour",
+          "value" : "765093464568"
+        }
+      },
+      "supportingInformation" : [{
+        "extension" : [{
+          "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+          "valueCode" : "UFHEB"
+        }],
+        "type" : "Organization",
+        "identifier" : {
+          "system" : "https://somehospital.fr/UF",
+          "value" : "603"
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+          "valueCode" : "UFMED"
+        }],
+        "type" : "Organization",
+        "identifier" : {
+          "system" : "https://somehospital.fr/UF",
+          "value" : "506"
+        }
+      }],
+      "authoredOn" : "2025-05-02T14:48:44+02:00",
+      "requester" : {
+        "identifier" : {
+          "system" : "urn:oid:1.2.250.1.71.4.2.1",
+          "value" : "899999999999"
+        }
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "10543744"
+      },
+      "note" : [{
+        "extension" : [{
+          "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+          "valueCode" : "LIPRESCTXT"
+        }],
+        "text" : "Prescription textuelle: Par voie orale : GLICLAZIDE 30MG 3 comprimés au petit déjeuner -- À partir du 02/05/2025 à 19:00 jusqu'au 31/05/2025 à 19h00"
+      }],
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2025-05-02T19:00:00+02:00",
+              "end" : "2025-05-31T18:59:59+02:00"
+            },
+            "when" : ["CM"]
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 3,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "RequestGroup",
+      "id" : "requestgroup-Trad-Presc-Alt-METFORMINE-GLICLAZIDE",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "10543744"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "subject" : {
+        "reference" : "#patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE"
+      },
+      "action" : [{
+        "id" : "20250502144844570",
+        "description" : "En cas d'intolérance digestive au METFORMINE",
+        "relatedAction" : [{
+          "extension" : [{
+            "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
+            "valueCode" : "ALT"
+          }],
+          "actionId" : "20250502144844569",
+          "relationship" : "concurrent"
+        }],
+        "resource" : {
+          "reference" : "#medicationrequest-Trad-Presc-Alt-GLICLAZIDE"
+        }
+      },
+      {
+        "id" : "20250502144844569",
+        "description" : "Sans intolérance digestive au METFORMINE",
+        "relatedAction" : [{
+          "extension" : [{
+            "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
+            "valueCode" : "ALT"
+          }],
+          "actionId" : "20250502144844570",
+          "relationship" : "concurrent"
+        }],
+        "resource" : {
+          "reference" : "#medicationrequest-Trad-Presc-Alt-METFORMINE"
+        }
+      }]
+    }
+  }]
+}

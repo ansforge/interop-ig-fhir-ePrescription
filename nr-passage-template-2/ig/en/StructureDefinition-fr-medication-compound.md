@@ -1,0 +1,171 @@
+# FR Medication Compound - Guide d'implémentation de la ePrescription v1.1.0-ballot
+
+## Resource Profile: FR Medication Compound 
+
+ 
+A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound. 
+Profil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d'éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound. 
+
+**Usages:**
+
+* Refer to this Profile: [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/ans.fhir.fr.eprescription|current/StructureDefinition/StructureDefinition-fr-medication-compound.json)
+
+### Formal Views of Profile Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-fr-medication-compound.csv), [Excel](../StructureDefinition-fr-medication-compound.xlsx), [Schematron](../StructureDefinition-fr-medication-compound.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "fr-medication-compound",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound",
+  "version" : "1.1.0-ballot",
+  "name" : "FrMedicationCompound",
+  "title" : "FR Medication Compound",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-07-10T14:48:11+00:00",
+  "publisher" : "Interop'Santé",
+  "contact" : [{
+    "name" : "Interop'Santé",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://interopsante.org/"
+    }]
+  },
+  {
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    },
+    {
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
+  "description" : "A complex medication composed of two to many simple medication. The simple medications component are described in as many ingredient.itemReference referencing a Medication resource profiled fr-medication-non-compound.\r\n\nProfil de la ressource Medication décrivant un médicament composé de deux à plusieurs médicaments simples. Les composants médicaments simples sont décrits dans autant d'éléments ingredient.itemReference référencant une ressource Medication profilée fr-medication-non-compound.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "purpose" : "Compound medication description",
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "script10.6",
+    "uri" : "http://ncpdp.org/SCRIPT10_6",
+    "name" : "Mapping to NCPDP SCRIPT 10.6"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 v2 Mapping"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Medication",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Medication",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Medication",
+      "path" : "Medication",
+      "short" : "Definition of a Medication compound of a MedicinalRequest, Dispense or Usage",
+      "definition" : "Medication compound of a Medication representing the composition of a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement). For instance, Glucose 5% 1L part of an infusion made of 3 compounds, Glucose 5% 1L + Sodium chloride 3g + Potassium chloride 2g."
+    },
+    {
+      "id" : "Medication.form",
+      "path" : "Medication.form",
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form"
+      }
+    },
+    {
+      "id" : "Medication.ingredient",
+      "path" : "Medication.ingredient",
+      "short" : "Medication component of compound medication",
+      "definition" : "Identifies a medicinal component of the compound medicinal product",
+      "comment" : "The Medication SHALL contain ALL the items of the item element list AND ONLY the items of the item element list.",
+      "min" : 1
+    },
+    {
+      "id" : "Medication.ingredient.extension",
+      "path" : "Medication.ingredient.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      }
+    },
+    {
+      "id" : "Medication.ingredient.extension:IsVehicle",
+      "path" : "Medication.ingredient.extension",
+      "sliceName" : "IsVehicle",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle"]
+      }]
+    },
+    {
+      "id" : "Medication.ingredient.item[x]",
+      "path" : "Medication.ingredient.item[x]",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "type",
+          "path" : "$this"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "short" : "The actual compound",
+      "definition" : "The actual compound, either nonproprietary named medication or branded named medication identified by a UCD code."
+    },
+    {
+      "id" : "Medication.ingredient.item[x]:itemReference",
+      "path" : "Medication.ingredient.item[x]",
+      "sliceName" : "itemReference",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"]
+      }]
+    },
+    {
+      "id" : "Medication.batch",
+      "path" : "Medication.batch",
+      "max" : "0"
+    }]
+  }
+}
+
+```

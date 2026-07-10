@@ -1,0 +1,195 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-Methylpredinosolone-DosesEvolutives> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Presc-Methylpredinosolone-DosesEvolutives"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index 0 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index 0 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Medication ;
+       fhir:Resource.id [ fhir:value "medication-Presc-Methylpredinosolone-DosesEvolutives" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound" ;
+           fhir:index 0 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+         ]
+       ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr-FR\" lang=\"fr-FR\"><hr/><p><b>French (France)</b></p><hr/><a name=\"Medication_medication-Presc-Methylpredinosolone-DosesEvolutives\"> </a><p class=\"res-header-id\"><b>Narratif généré : Médication medication-Presc-Methylpredinosolone-DosesEvolutives</b></p><a name=\"medication-Presc-Methylpredinosolone-DosesEvolutives\"> </a><a name=\"hcmedication-Presc-Methylpredinosolone-DosesEvolutives\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medication-noncompound.html\">FR Medication Non Compound</a></p></div><p><b>code</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000091803}\">METHYLPREDNISOLONE</span></p></div></div>"
+       ] ;
+       fhir:Medication.code [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/codeSMS" ] ;
+           fhir:Coding.code [ fhir:value "100000091803" ] ;
+           fhir:Coding.display [ fhir:value "méthylprednisolone" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "METHYLPREDNISOLONE" ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:MedicationRequest ;
+       fhir:Resource.id [ fhir:value "medicationrequest-Presc-Methylpredinosolone-DosesEvolutives" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest" ;
+           fhir:index 0 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
+         ]
+       ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr-FR\" lang=\"fr-FR\"><hr/><p><b>French (France)</b></p><hr/><a name=\"MedicationRequest_medicationrequest-Presc-Methylpredinosolone-DosesEvolutives\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-Presc-Methylpredinosolone-DosesEvolutives</b></p><a name=\"medicationrequest-Presc-Methylpredinosolone-DosesEvolutives\"> </a><a name=\"hcmedicationrequest-Presc-Methylpredinosolone-DosesEvolutives\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-inpatient-medicationrequest.html\">FR Inpatient MedicationRequest</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <code>#medication-Presc-Methylpredinosolone-DosesEvolutives</code></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2021-08-14 18:17:26+0000</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>groupIdentifier</b>: <code>https://somehospital.fr/Prescrption-ID</code>/Presc-14647</p><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 1</p><p><b>timing</b>: Une fois</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20053000}\">Voie orale</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>6 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 2</p><p><b>timing</b>: Une fois</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20053000}\">Voie orale</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>4 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 3</p><p><b>timing</b>: Une fois</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20053000}\">Voie orale</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>2 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table></blockquote></div></div>"
+       ] ;
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationReference [
+         fhir:Reference.reference [ fhir:value "#medication-Presc-Methylpredinosolone-DosesEvolutives" ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2021-08-14T18:17:26.372Z"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/smart-Practitioner-71482713" ]
+       ] ;
+       fhir:MedicationRequest.groupIdentifier [
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/Prescrption-ID" ] ;
+         fhir:Identifier.value [ fhir:value "Presc-14647" ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index 0 ;
+         fhir:Dosage.sequence [ fhir:value "1"^^xsd:integer ] ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsDuration [
+               fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "jour" ] ;
+               fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+               fhir:Quantity.code [ fhir:value "d" ]
+             ] ;
+             fhir:Timing.repeat.timeOfDay [
+               fhir:value "07:00:00"^^xsd:time ;
+               fhir:index 0
+             ]
+           ]
+         ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index 0 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20053000" ] ;
+             fhir:Coding.display [ fhir:value "Voie orale" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "Voie orale" ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index 0 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "6"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "mg" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "mg" ]
+           ]
+         ]
+       ], [
+         fhir:index 1 ;
+         fhir:Dosage.sequence [ fhir:value "2"^^xsd:integer ] ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsDuration [
+               fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "jour" ] ;
+               fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+               fhir:Quantity.code [ fhir:value "d" ]
+             ] ;
+             fhir:Timing.repeat.timeOfDay [
+               fhir:value "07:00:00"^^xsd:time ;
+               fhir:index 0
+             ]
+           ]
+         ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index 0 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20053000" ] ;
+             fhir:Coding.display [ fhir:value "Voie orale" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "Voie orale" ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index 0 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "4"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "mg" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "mg" ]
+           ]
+         ]
+       ], [
+         fhir:index 2 ;
+         fhir:Dosage.sequence [ fhir:value "3"^^xsd:integer ] ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsDuration [
+               fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "jour" ] ;
+               fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+               fhir:Quantity.code [ fhir:value "d" ]
+             ] ;
+             fhir:Timing.repeat.timeOfDay [
+               fhir:value "07:00:00"^^xsd:time ;
+               fhir:index 0
+             ]
+           ]
+         ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index 0 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20053000" ] ;
+             fhir:Coding.display [ fhir:value "Voie orale" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "Voie orale" ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index 0 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "mg" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "mg" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-Methylpredinosolone-DosesEvolutives.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

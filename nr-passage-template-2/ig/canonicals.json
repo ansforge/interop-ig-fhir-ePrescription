@@ -1,0 +1,371 @@
+[{
+  "id" : "PN13-FHIR-FreeSetCIODC-Forme-ConceptMap",
+  "type" : "ConceptMap",
+  "url" : "https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-forme-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRFreeSetCIODCFormeConceptMap"
+},
+{
+  "id" : "PN13-FHIR-FreeSetCIODC-Unite-ConceptMap",
+  "type" : "ConceptMap",
+  "url" : "https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-unite-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRFreeSetCIODCUniteConceptMap"
+},
+{
+  "id" : "PN13-FHIR-FreeSetCIODC-Voie-ConceptMap",
+  "type" : "ConceptMap",
+  "url" : "https://hl7.fr/fhir/fr/medication/ConceptMap/PN13-FHIR-voie-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRFreeSetCIODCVoieConceptMap"
+},
+{
+  "id" : "fr-additional-action-relationship-type",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type",
+  "version" : "1.1.0-ballot",
+  "name" : "FrAdditionalActionRelationshipType"
+},
+{
+  "id" : "fr-additional-when-codes-cs",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs",
+  "version" : "1.1.0-ballot",
+  "name" : "FrAdditionalWhenCodesCodeSystem"
+},
+{
+  "id" : "fr-note-scope-codes",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-note-scope-codes",
+  "version" : "1.1.0-ballot",
+  "name" : "FrNoteScopeCodes"
+},
+{
+  "id" : "fr-uf-role-codes",
+  "type" : "CodeSystem",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes",
+  "version" : "1.1.0-ballot",
+  "name" : "FrUFRoleCodes"
+},
+{
+  "id" : "PN13-FHIR-gender-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-gender-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRGenderConceptMap"
+},
+{
+  "id" : "PN13-FHIR-observation-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-observation-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRObservationConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-dosageinstruction-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationPrescriptionDosageInstructiontConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-encounter-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-encounter-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationPrescriptionEncounterConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-medicationcomp-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-medicationcomp-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-medicationnoncompound-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-medicationnoncompound-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationNonCompoundConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-medicationrequest-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-medicationrequest-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationPrescriptionMedicationRequestConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-patient-avec-INS-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-patient-avec-INS-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationPrescriptionPatientINSConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-patient-id-seul-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-patient-id-seul-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-patient-sans-INS-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-patient-sans-INS-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationPrescriptionPatientSansINSConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-practitioner-id-seul-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-practitioner-id-seul-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationPrescriptionPractitionerIdSeulConceptMap"
+},
+{
+  "id" : "PN13-FHIR-prescmed-practitioner-identite-conceptmap",
+  "type" : "ConceptMap",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-practitioner-identite-conceptmap",
+  "version" : "1.1.0-ballot",
+  "name" : "FrPN13FHIRMedicationPrescriptionPractitionerIdentiteConceptMap"
+},
+{
+  "id" : "ans.fhir.fr.eprescription",
+  "type" : "ImplementationGuide",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
+  "version" : "1.1.0-ballot",
+  "name" : "eP"
+},
+{
+  "id" : "FrRangeMedication",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRangeMedication",
+  "version" : "1.1.0-ballot",
+  "name" : "FrRangeMedication"
+},
+{
+  "id" : "FrRatioMedication",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrRatioMedication",
+  "version" : "1.1.0-ballot",
+  "name" : "FrRatioMedication"
+},
+{
+  "id" : "FrSimpleQuantityMedication",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication",
+  "version" : "1.1.0-ballot",
+  "name" : "FrSimpleQuantityMedication"
+},
+{
+  "id" : "fr-additional-action-relationship",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
+  "version" : "1.1.0-ballot",
+  "name" : "FrAdditionalActionRelationship"
+},
+{
+  "id" : "fr-additional-when-values",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-when-values",
+  "version" : "1.1.0-ballot",
+  "name" : "FrAdditionalWhenValues"
+},
+{
+  "id" : "fr-basis-of-dose-component",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-basis-of-dose-component",
+  "version" : "1.1.0-ballot",
+  "name" : "FrBasisOfDoseComponent"
+},
+{
+  "id" : "fr-drug-characteristic",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-drug-characteristic",
+  "version" : "1.1.0-ballot",
+  "name" : "FrDrugCharacteristic"
+},
+{
+  "id" : "fr-inpatient-medicationrequest",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest",
+  "version" : "1.1.0-ballot",
+  "name" : "FRInpatientMedicationRequest"
+},
+{
+  "id" : "fr-is-vehicle",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle",
+  "version" : "1.1.0-ballot",
+  "name" : "FrIsVehicle"
+},
+{
+  "id" : "fr-ligne-prescription",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-ligne-prescription",
+  "version" : "1.1.0-ballot",
+  "name" : "LignePrescription"
+},
+{
+  "id" : "fr-medication",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication",
+  "version" : "1.1.0-ballot",
+  "name" : "FRMedication"
+},
+{
+  "id" : "fr-medication-compound",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound",
+  "version" : "1.1.0-ballot",
+  "name" : "FrMedicationCompound"
+},
+{
+  "id" : "fr-medication-noncompound",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound",
+  "version" : "1.1.0-ballot",
+  "name" : "FRMedicationNonCompound"
+},
+{
+  "id" : "fr-medicationrequest",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest",
+  "version" : "1.1.0-ballot",
+  "name" : "FRMedicationRequest"
+},
+{
+  "id" : "fr-medicationrequest-note-scope",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+  "version" : "1.1.0-ballot",
+  "name" : "FRMedicationRequestNoteScope"
+},
+{
+  "id" : "fr-mp-substance",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-mp-substance",
+  "version" : "1.1.0-ballot",
+  "name" : "FRMPSubstance"
+},
+{
+  "id" : "fr-observation-for-prescription",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-observation-for-prescription",
+  "version" : "1.1.0-ballot",
+  "name" : "FRObservationForPrescription"
+},
+{
+  "id" : "fr-posologie",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-posologie",
+  "version" : "1.1.0-ballot",
+  "name" : "Posologie"
+},
+{
+  "id" : "fr-prescription-bundle-for-example",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example",
+  "version" : "1.1.0-ballot",
+  "name" : "FRPrescriptionBundleForExample"
+},
+{
+  "id" : "fr-requestgroup-for-prescription",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription",
+  "version" : "1.1.0-ballot",
+  "name" : "FRRequestGroupForPrescription"
+},
+{
+  "id" : "fr-treatment-intent",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-treatment-intent",
+  "version" : "1.1.0-ballot",
+  "name" : "FrTeatmentIntent"
+},
+{
+  "id" : "fr-uf-role",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+  "version" : "1.1.0-ballot",
+  "name" : "FrUFRole"
+},
+{
+  "id" : "FrMethodOfAdministration",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration",
+  "version" : "1.1.0-ballot",
+  "name" : "FrMethodOfAdministration"
+},
+{
+  "id" : "fr-additional-action-relationship-type-value-set",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-action-relationship-type-value-set",
+  "version" : "1.1.0-ballot",
+  "name" : "FrAdditionalRequestGroupRelationshipValueSet"
+},
+{
+  "id" : "fr-additional-when-codes-vs",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes-vs",
+  "version" : "1.1.0-ballot",
+  "name" : "FrAdditionalWhenCodesValueSet"
+},
+{
+  "id" : "fr-inpatient-medication-code",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code",
+  "version" : "1.1.0-ballot",
+  "name" : "FRInpatientMedicationCodes"
+},
+{
+  "id" : "fr-medication-code",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code",
+  "version" : "1.1.0-ballot",
+  "name" : "FRMedicationCodes"
+},
+{
+  "id" : "fr-mp-dose-form",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form",
+  "version" : "1.1.0-ballot",
+  "name" : "FrMpDoseForm"
+},
+{
+  "id" : "fr-note-scope-codes-vs",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs",
+  "version" : "1.1.0-ballot",
+  "name" : "FrNoteScopeCodeValueSet"
+},
+{
+  "id" : "fr-route-of-administration",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration",
+  "version" : "1.1.0-ballot",
+  "name" : "FrRouteOfAdministration"
+},
+{
+  "id" : "fr-substance-code",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code",
+  "version" : "1.1.0-ballot",
+  "name" : "FrSubstanceCode"
+},
+{
+  "id" : "fr-treatment-intent",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent",
+  "version" : "1.1.0-ballot",
+  "name" : "FrTreatmentIntent"
+},
+{
+  "id" : "fr-uf-role-code-for-prescription",
+  "type" : "ValueSet",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription",
+  "version" : "1.1.0-ballot",
+  "name" : "FrUfRoleCodesForPrescriptionValueSet"
+}]

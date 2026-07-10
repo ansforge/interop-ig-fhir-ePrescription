@@ -1,0 +1,79 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-32-2-Presc-ULTIBRO-BREEZ",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-32-2-Presc-ULTIBRO-BREEZ",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois."
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400893964361",
+          "display" : "ULTIBRO BREEZ.85/43 GELU+INH"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "Prescription textuelle: ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois."
+      }],
+      "dosageInstruction" : [{
+        "additionalInstruction" : [{
+          "text" : "à la même heure chaque jour"
+        }],
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 1,
+              "unit" : "mois",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "mo"
+            },
+            "frequency" : 1,
+            "period" : 1,
+            "periodUnit" : "d"
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20020000",
+            "display" : "Voie inhalée"
+          }]
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "Gélule ou capsule molle",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15012000"
+          }
+        }]
+      }]
+    }
+  }]
+}

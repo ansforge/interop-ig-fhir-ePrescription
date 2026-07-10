@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="HAS-17-Presc-Budesonide"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-HAS-17-Presc-Budesonide"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="extensions"/>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction">
+          <valueMarkdown value="A administrer en 20 min à 8h, 14h, 18h, et 22h"/>
+        </extension>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://BogusSystemMedicabase.com"/>
+            <code value="MV00004231"/>
+            <display value="Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2025-07-23T10:33:00+01:00"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-71482713"/>
+        </requester>
+        <note>
+          <text value="Prescription textuelle: BUDESONIDE  1mg/2mL, suspension pour inhalation par nébuliseur en récipient unidose &#xA;1 récipient unidose de 1 mg 4 fois par jour selon les modalités d'administration  suivantes : &#xA;&#xA;Préparation pour nébuliseur ultrasonique : &#xA;     - 3 mL Eau Pour Préparation Injectable &#xA;     - 1 récipient unidose (soit 2 mL) de BUDESONIDE  1mg/2mL) suspension pour inhalation par nébuliseur&#xA;&#xA;A administrer en 20 min à 8h, 14h, 18h, et 22h à partir du 16/03/2023"/>
+        </note>
+        <dosageInstruction>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2023-03-16"/>
+              </boundsPeriod>
+              <duration value="20"/>
+              <durationUnit value="min"/>
+              <timeOfDay value="08:00:00"/>
+              <timeOfDay value="14:00:00"/>
+              <timeOfDay value="18:00:00"/>
+              <timeOfDay value="22:00:00"/>
+            </repeat>
+          </timing>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="1"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

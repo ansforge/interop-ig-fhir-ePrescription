@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="HAS-27-1-presc-GLUCOPHAGE"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-HAS-27-1-presc-GLUCOPHAGE"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="extensions"/>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction">
+          <valueMarkdown value="1 comprimé le matin et 1 comprimé soir, au cours ou à la fin des repas"/>
+        </extension>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/UCD"/>
+            <code value="3400890387606"/>
+            <display value="GLUCOPHAGE 500MG CPR"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2025-07-23T10:33:00+01:00"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-71482713"/>
+        </requester>
+        <note>
+          <text value="Prescription textuelle: GLUCOPHAGE® 500 mg comprimé : 1 comprimé matin et 1 comprimé soir, au cours ou à la fin des repas​"/>
+        </note>
+        <dosageInstruction>
+          <additionalInstruction>
+            <text value="au cours ou à la fin du repas"/>
+          </additionalInstruction>
+          <timing>
+            <repeat>
+              <when value="MORN"/>
+              <when value="EVE"/>
+            </repeat>
+          </timing>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="1"/>
+              <unit value="comprimé"/>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="15054000"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

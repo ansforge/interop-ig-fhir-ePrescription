@@ -1,0 +1,126 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "TradPN13FHIR-Presc-DOLIPRANE",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "medication-TradPN13FHIR-Presc-DOLIPRANE",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400892169026",
+          "display" : "DOLIPRANE 1000MG CPR EFFV"
+        }],
+        "text" : "DOLIPRANE 1 000 mg, cpr efferv"
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-TradPN13FHIR-Presc-DOLIPRANE",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "identifier" : [{
+        "system" : "https://somehospital.fr/PrescrptionLine-ID",
+        "value" : "id1"
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationReference" : {
+        "reference" : "#medication-TradPN13FHIR-Presc-DOLIPRANE"
+      },
+      "subject" : {
+        "identifier" : {
+          "system" : "https://somehospital.fr/IPP",
+          "value" : "123456"
+        }
+      },
+      "encounter" : {
+        "identifier" : {
+          "system" : "https://somehospital.fr/Sejour",
+          "value" : "234567"
+        }
+      },
+      "supportingInformation" : [{
+        "extension" : [{
+          "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role",
+          "valueCode" : "UFMED"
+        }],
+        "type" : "Organization",
+        "identifier" : {
+          "system" : "https://somehospital.fr/UF",
+          "value" : "2571"
+        }
+      }],
+      "authoredOn" : "2007-12-27T10:33:00+01:00",
+      "requester" : {
+        "identifier" : {
+          "system" : "https://somehospital.fr/EI",
+          "value" : "345678"
+        }
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "IdentifiantAttribuePourLaTraductionEnFHIR"
+      },
+      "note" : [{
+        "extension" : [{
+          "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope",
+          "valueCode" : "LIPRESCTXT"
+        }],
+        "text" : "Prescription textuelle: Doliprane cpr 3x1g/j x 3j"
+      }],
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2007-12-28T07:00:00+01:00",
+              "end" : "2007-12-30T18:00:00+01:00"
+            }
+          },
+          "code" : {
+            "coding" : [{
+              "system" : "https://CH-Biorel.fr/Frequence",
+              "code" : "3",
+              "display" : "Trois fois par jour"
+            }]
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }]
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15036000"
+          }
+        }]
+      }]
+    }
+  }]
+}

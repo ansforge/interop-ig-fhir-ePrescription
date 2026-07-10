@@ -1,0 +1,121 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "medication-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/codeSMS",
+          "code" : "100000090270",
+          "display" : "paracétamol"
+        }],
+        "text" : "PARACETAMOL"
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationReference" : {
+        "reference" : "#medication-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin"
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2021-08-12T11:59:40.552Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "Presc-14640"
+      },
+      "dosageInstruction" : [{
+        "sequence" : 1,
+        "additionalInstruction" : [{
+          "text" : "Délais minimum entre 2 prises : 4h"
+        }],
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2021-08-12T11:59:00Z",
+              "end" : "2021-08-17T11:58:59Z"
+            },
+            "frequencyMax" : 1,
+            "periodMax" : 4,
+            "periodUnit" : "h"
+          }
+        },
+        "asNeededCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "22253000",
+            "display" : "douleur"
+          }],
+          "text" : "Si douleurs"
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 500,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }],
+        "maxDosePerPeriod" : {
+          "numerator" : {
+            "value" : 3,
+            "unit" : "g",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "g"
+          },
+          "denominator" : {
+            "value" : 24,
+            "unit" : "h",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "h"
+          }
+        },
+        "maxDosePerAdministration" : {
+          "value" : 1,
+          "unit" : "g",
+          "system" : "http://unitsofmeasure.org",
+          "code" : "g"
+        }
+      }]
+    }
+  }]
+}

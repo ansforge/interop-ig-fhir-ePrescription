@@ -1,0 +1,132 @@
+# SimpleQuantity with UCUM or EDQM codes or code not used - Guide d'implémentation de la ePrescription v1.1.0-ballot
+
+## : SimpleQuantity with UCUM or EDQM codes or code not used 
+
+ 
+Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit) 
+SimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé. 
+
+**Utilisations:**
+
+* Utilise ce/t/te profil de type de données: [Range with UCUM or EDQM codes if code is used](StructureDefinition-FrRangeMedication.md), [Ratio with UCUM or EDQM codes if code is used](StructureDefinition-FrRatioMedication.md) and [FR Medication Request](StructureDefinition-fr-medicationrequest.md)
+
+Vous pouvez également vérifier [les usages dans le FHIR IG Statistics](https://packages2.fhir.org/xig/ans.fhir.fr.eprescription|current/StructureDefinition/FrSimpleQuantityMedication)
+
+### 
+
+ . 
+
+*   
+*   
+*   
+*   
+
+#### Contraintes
+
+#### Contraintes
+
+** Résumé **
+
+#### Contraintes
+
+ **View** 
+
+#### Contraintes
+
+** Résumé **
+
+ 
+
+ ,  
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "FrSimpleQuantityMedication",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication",
+  "version" : "1.1.0-ballot",
+  "name" : "FrSimpleQuantityMedication",
+  "title" : "SimpleQuantity with UCUM or EDQM codes or code not used",
+  "status" : "draft",
+  "date" : "2026-07-10T14:48:11+00:00",
+  "publisher" : "Interop'Santé",
+  "contact" : [{
+    "name" : "Interop'Santé",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://interopsante.org/"
+    }]
+  },
+  {
+    "name" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    },
+    {
+      "system" : "email",
+      "value" : "monserviceclient.annuaire@esante.gouv.fr"
+    }]
+  }],
+  "description" : "Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit)\r\n\nSimpleQuantity avec des unités UCUM ou EDQM si un code est utilisé.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 v2 Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "type" : "Quantity",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/SimpleQuantity",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Quantity",
+      "path" : "Quantity",
+      "short" : "A fixed quantity (no comparator) with UCUM or EDQM code or no code",
+      "definition" : "The comparator is not used on a SimpleQuantity. The code SHALL be a UCUM or EDQM code if used.",
+      "comment" : "The context of use may frequently define what kind of quantity this is and therefore what kind of units can be used. The context of use explicitely excludes the use of the simpleQuantity \"comparator\" element.",
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "Quantity"
+      },
+      {
+        "key" : "fr-med-smpl-quant-1",
+        "severity" : "error",
+        "human" : "system SHALL be UCUM or EDQM if code is used",
+        "expression" : "code.exists() implies (system.exists() and (system = 'http://standardterms.edqm.eu' or system = 'http://unitsofmeasure.org'))",
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+      },
+      {
+        "key" : "fr-med-smpl-quant-2",
+        "severity" : "error",
+        "human" : "system SHALL not be used if code is not used",
+        "expression" : "code.empty() implies system.empty()",
+        "source" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication"
+      }]
+    }]
+  }
+}
+
+```

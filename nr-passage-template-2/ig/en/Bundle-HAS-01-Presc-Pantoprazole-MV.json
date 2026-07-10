@@ -1,0 +1,61 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-01-Presc-Pantoprazole-MV",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-1-Presc-Pantoprazole-MV",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "40 mg le soir"
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://BogusSystemMedicabase.com",
+          "code" : "MV00000792",
+          "display" : "PANTOPRAZOLE 40 mg comprimé"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "Prescription textuelle: PANTOPRAZOLE 40 mg comprimé: 40 mg le soir"
+      }],
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "when" : ["EVE"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 40,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      }]
+    }
+  }]
+}

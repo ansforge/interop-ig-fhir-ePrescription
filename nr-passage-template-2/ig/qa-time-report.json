@@ -1,0 +1,6864 @@
+{
+  "date" : "Fri, 10 Jul, 2026 14:48:11 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.eprescription.json",
+    "size" : 64165,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 210
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 19
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 57
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 3450
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 31
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 226
+    },
+    {
+      "activity" : "generate2",
+      "start" : 96,
+      "length" : 773
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 8
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-DC.json",
+    "size" : 3299,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 81
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 66
+    },
+    {
+      "activity" : "validate",
+      "start" : 68,
+      "length" : 92
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 19
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 97,
+      "length" : 131
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-MV.json",
+    "size" : 2018,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 68,
+      "length" : 132
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 97,
+      "length" : 47
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-02-Presc-Fluindione.json",
+    "size" : 2082,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 22
+    },
+    {
+      "activity" : "validate",
+      "start" : 68,
+      "length" : 22
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 97,
+      "length" : 95
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-03-Presc-INNOHEP.json",
+    "size" : 2541,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 68,
+      "length" : 188
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 97,
+      "length" : 86
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-04a-Presc-Paracetamol.json",
+    "size" : 2688,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 68,
+      "length" : 31
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 97,
+      "length" : 201
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-04b-Presc-DAFALGANCODEINE.json",
+    "size" : 3755,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 303
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 162
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 56
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-05a-Presc-Fluindione.json",
+    "size" : 2142,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 26
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 42
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-05b-Presc-ACTISKENAN.json",
+    "size" : 2313,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 87
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 43
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 71
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-06-1-Presc-Methotrexate.json",
+    "size" : 2204,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 20
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 37
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-06-2-Presc-Methotrexate.json",
+    "size" : 2175,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 20
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 38
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-07-Presc-Paracetamol.json",
+    "size" : 2675,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 27
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 53
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 35
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-08-1-Presc-Betamethasone.json",
+    "size" : 2264,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 22
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 36
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-08-2-Presc-Paracetamol.json",
+    "size" : 2406,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 25
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 160
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 36
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-09-Presc-Ropinirole.json",
+    "size" : 2113,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 24
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 43
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-10-Presc-Methotrexate.json",
+    "size" : 2185,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 28
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 56
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-11-1-Presc-VitamineD.json",
+    "size" : 2325,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 28
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 38
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-11-2-Presc-EVRA.json",
+    "size" : 3013,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 87
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 86
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-12-1-Presc-BEPANTHEN.json",
+    "size" : 2157,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 52,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 81
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 31
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-12-2-Presc-Methotrexate.json",
+    "size" : 2158,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 19
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 22
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 107
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-12-3-Presc-Enoxaparine.json",
+    "size" : 3808,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 35
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 76,
+      "length" : 309
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 29
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-13-Presc-Desloratadine.json",
+    "size" : 2360,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 20
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 96
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 117,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-14-1-Presc-CODOLIPRANE.json",
+    "size" : 3298,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 107
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 23
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-14-2-Presc-Betamethasone.json",
+    "size" : 2712,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 28
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 94
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-15-Presc-Morphine.json",
+    "size" : 2451,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 21
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 98,
+      "length" : 60
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-16-Presc-Racecadotril.json",
+    "size" : 2558,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 21
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-17-Presc-Budesonide.json",
+    "size" : 2796,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 25
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 41
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-18-Presc-Budesonide-MV.json",
+    "size" : 2794,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 31
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-19-Presc-Paracetamol.json",
+    "size" : 2601,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 69,
+      "length" : 60
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 24
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-20-Presc-Hydrocortisone.json",
+    "size" : 2521,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 76
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 25
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-21-Presc-Prednisolone.json",
+    "size" : 6388,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 74
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 83
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 27
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-22-Presc-Prednisolone.json",
+    "size" : 6390,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 59
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 25
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-23-1-Presc-Fluindione.json",
+    "size" : 3496,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 32
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 300
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 114
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-23-2-Presc-Amiodarone.json",
+    "size" : 2714,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 27
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 22
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-24-1-presc-Doxycyline.json",
+    "size" : 2439,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 16
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 22
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-24-1-presc-Topiramate.json",
+    "size" : 2485,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 18
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 121
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-25-NOVORAPID.json",
+    "size" : 3408,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 172
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 104
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-26-Diazepam.json",
+    "size" : 2443,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 25
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 76
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-27-1-presc-GLUCOPHAGE.json",
+    "size" : 2328,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 93
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-27-2-presc-Rifampicine.json",
+    "size" : 2163,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 23
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-28-Presc-LOVENOX.json",
+    "size" : 4003,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 107
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 28
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 22
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-29-Presc-LOVENOX.json",
+    "size" : 2745,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 85
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-30-1-Presc-Hydrocortisone.json",
+    "size" : 6091,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 62
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 28
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-30-2-Presc-Cetirizine.json",
+    "size" : 2394,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 38
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 83
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-31-Presc-DUROGESIC.json",
+    "size" : 2595,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 70,
+      "length" : 86
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 23
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-32-1-Presc-LOVENOX.json",
+    "size" : 2699,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 93
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-32-2-Presc-ULTIBRO-BREEZ.json",
+    "size" : 2857,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 99
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-HAS-33-Presc-VERSATIS.json",
+    "size" : 2205,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 81
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.json",
+    "size" : 5771,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 186
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 21
+    },
+    {
+      "activity" : "generate2",
+      "start" : 99,
+      "length" : 57
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.json",
+    "size" : 5548,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 177
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 20
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 49
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-MultiLine-Presc-Sucralfate-Paracetamol.json",
+    "size" : 6070,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 193
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 21
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 335
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-BISOPROLOL-SANDOZ-DosesRationnelles.json",
+    "size" : 4029,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 37
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 63
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 26
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-Betamethasone-ApplCut.json",
+    "size" : 2971,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 30
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 30
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-CLARADOL-DoseDiffParHoraire.json",
+    "size" : 3307,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 92
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin.json",
+    "size" : 3497,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 71,
+      "length" : 95
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 81
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 48
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-CLARADOL-TL6h-MedCodeableConcept.json",
+    "size" : 2354,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 93
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 77,
+      "length" : 79
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 121
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-CLARADOL-TLMardisVendredis.json",
+    "size" : 2456,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 84
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-CODOLIPRANE-MedCodeableConcept.json",
+    "size" : 2753,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 98
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 39
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-Capecitabine-Dose-Calculee.json",
+    "size" : 3689,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 29
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-DIPROSONE-AppCut.json",
+    "size" : 4056,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 29
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 13
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 24
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-DOLIPRANE-20DoseParKG.json",
+    "size" : 3960,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 30
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 113
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 23
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-EFFERALGAN.json",
+    "size" : 4062,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 30
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 24
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-Fentanyl-patch72h-TL3j.json",
+    "size" : 3819,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 40
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 29
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-MATRIFEN-patch-TL72h.json",
+    "size" : 4014,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 37
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 105
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-MV-PerfGl-NaCl-KCl.json",
+    "size" : 2606,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 26
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 8
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-Methylpredinosolone-DosesEvolutives.json",
+    "size" : 4807,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 45
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 22
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.json",
+    "size" : 6225,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 56
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 100,
+      "length" : 154
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.json",
+    "size" : 5969,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 62
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 25
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 23
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-NICORETTESKIN-patch.json",
+    "size" : 4091,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 43
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 39
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-Nicotine-15mgPar16h.json",
+    "size" : 2782,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 47
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 21
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-Paracetamol-DoseEvolutive.json",
+    "size" : 3666,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 35
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 34
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin.json",
+    "size" : 3874,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 82
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 31
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 20
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-Paracetamol-TL6h.json",
+    "size" : 2678,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 24
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 84
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-Paracetamol.json",
+    "size" : 2693,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 26
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 20
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 137,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-ParacetamolCodeine-500mg30mg.json",
+    "size" : 4153,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 31
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 121
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-PerfDobutamine-Qsp40mL.json",
+    "size" : 6338,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 72,
+      "length" : 54
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 77
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 25
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-PerfGl-NaCl-KCl-1l.json",
+    "size" : 7390,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 73,
+      "length" : 374
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 21
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 23
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-PerfGl-NaCl-KCl-500ml.json",
+    "size" : 7164,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 7
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 73,
+      "length" : 45
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 24
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 24
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 137,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.json",
+    "size" : 3768,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 73,
+      "length" : 24
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 10
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 80
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE.json",
+    "size" : 12611,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 8
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 51,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 40
+    },
+    {
+      "activity" : "validate",
+      "start" : 73,
+      "length" : 312
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 102
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 119
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.json",
+    "size" : 4068,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 73,
+      "length" : 41
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 20
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-TradPN13FHIR-Presc-DOLIPRANE.json",
+    "size" : 4209,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 73,
+      "length" : 159
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 18
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-TradPN13FHIR-Presc-Morphine-PCA.json",
+    "size" : 7852,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 73,
+      "length" : 184
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 177
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 73
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.json",
+    "size" : 9471,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 74,
+      "length" : 106
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 40
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 166
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-TradPN13FHIR-Presc-Paracetamol.json",
+    "size" : 9727,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 74,
+      "length" : 136
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 26
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 35
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Bundle-TradPN13FHIR-Presc-perfusion-6-composants.json",
+    "size" : 16026,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 8
+    },
+    {
+      "activity" : "checkURLsUnique",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 74,
+      "length" : 163
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 44
+    },
+    {
+      "activity" : "generate2",
+      "start" : 101,
+      "length" : 194
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-fr-additional-action-relationship-type.json",
+    "size" : 866,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "scan",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 66
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 11
+    },
+    {
+      "activity" : "generate2",
+      "start" : 102,
+      "length" : 86
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-fr-additional-when-codes-cs.json",
+    "size" : 3090,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 41
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 78,
+      "length" : 37
+    },
+    {
+      "activity" : "generate2",
+      "start" : 102,
+      "length" : 98
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-fr-note-scope-codes.json",
+    "size" : 1617,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 108
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 79,
+      "length" : 129
+    },
+    {
+      "activity" : "generate2",
+      "start" : 102,
+      "length" : 106
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-fr-uf-role-codes.json",
+    "size" : 875,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 16
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 79,
+      "length" : 92
+    },
+    {
+      "activity" : "generate2",
+      "start" : 102,
+      "length" : 108
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.json",
+    "size" : 147667,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 15
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 54
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 39
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 64
+    },
+    {
+      "activity" : "validate",
+      "start" : 56,
+      "length" : 814
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 79,
+      "length" : 473
+    },
+    {
+      "activity" : "generate2",
+      "start" : 102,
+      "length" : 549
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 13
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap.json",
+    "size" : 25921,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 21
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 8
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 20
+    },
+    {
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 140
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 8
+    },
+    {
+      "activity" : "generate1",
+      "start" : 79,
+      "length" : 146
+    },
+    {
+      "activity" : "generate2",
+      "start" : 103,
+      "length" : 165
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-FreeSetCIODC-Voie-ConceptMap.json",
+    "size" : 32090,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 15
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 11
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 27
+    },
+    {
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 173
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 79,
+      "length" : 342
+    },
+    {
+      "activity" : "generate2",
+      "start" : 103,
+      "length" : 150
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-gender-conceptmap.json",
+    "size" : 1938,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 21
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 80,
+      "length" : 12
+    },
+    {
+      "activity" : "generate2",
+      "start" : 103,
+      "length" : 53
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-observation-conceptmap.json",
+    "size" : 18349,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 12
+    },
+    {
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 91
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 80,
+      "length" : 172
+    },
+    {
+      "activity" : "generate2",
+      "start" : 103,
+      "length" : 169
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-dosageinstruction-conceptmap.json",
+    "size" : 170319,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 11
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 31
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 20
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 73
+    },
+    {
+      "activity" : "validate",
+      "start" : 57,
+      "length" : 1008
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 10
+    },
+    {
+      "activity" : "generate1",
+      "start" : 80,
+      "length" : 1030
+    },
+    {
+      "activity" : "generate2",
+      "start" : 103,
+      "length" : 330
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 12
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-encounter-conceptmap.json",
+    "size" : 1691,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 19
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 81,
+      "length" : 500
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 72
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-medicationcomp-conceptmap.json",
+    "size" : 3424,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 19
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 81,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 134
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-medicationnoncompound-conceptmap.json",
+    "size" : 22889,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 5
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 59
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 81,
+      "length" : 86
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 75
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-medicationrequest-conceptmap.json",
+    "size" : 45463,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 7
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 6
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 18
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 168
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 82,
+      "length" : 378
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 190
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 4
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-patient-avec-INS-conceptmap.json",
+    "size" : 9677,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 40
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 82,
+      "length" : 167
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 56
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-patient-id-seul-conceptmap.json",
+    "size" : 1587,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 10
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 82,
+      "length" : 124
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 39
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-patient-sans-INS-conceptmap.json",
+    "size" : 7372,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 27
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 82,
+      "length" : 541
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 214
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-practitioner-id-seul-conceptmap.json",
+    "size" : 1543,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "scan",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 9
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 83,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 34
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-PN13-FHIR-prescmed-practitioner-identite-conceptmap.json",
+    "size" : 4965,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 18
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 83,
+      "length" : 25
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 46
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-FrRangeMedication.json",
+    "size" : 1966,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 12
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 44
+    },
+    {
+      "activity" : "validate",
+      "start" : 58,
+      "length" : 149
+    },
+    {
+      "activity" : "generate1",
+      "start" : 83,
+      "length" : 114
+    },
+    {
+      "activity" : "generate2",
+      "start" : 104,
+      "length" : 668
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 118
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-FrRatioMedication.json",
+    "size" : 1623,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 59,
+      "length" : 67
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 83,
+      "length" : 76
+    },
+    {
+      "activity" : "generate2",
+      "start" : 105,
+      "length" : 265
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 55
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-FrSimpleQuantityMedication.json",
+    "size" : 2408,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 59,
+      "length" : 145
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 83,
+      "length" : 51
+    },
+    {
+      "activity" : "generate2",
+      "start" : 105,
+      "length" : 281
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 61
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-additional-action-relationship.json",
+    "size" : 1766,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 8
+    },
+    {
+      "activity" : "validate",
+      "start" : 59,
+      "length" : 1581
+    },
+    {
+      "activity" : "generate1",
+      "start" : 83,
+      "length" : 87
+    },
+    {
+      "activity" : "generate2",
+      "start" : 106,
+      "length" : 249
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 23
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-additional-when-values.json",
+    "size" : 1621,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 60,
+      "length" : 44
+    },
+    {
+      "activity" : "generate1",
+      "start" : 83,
+      "length" : 951
+    },
+    {
+      "activity" : "generate2",
+      "start" : 106,
+      "length" : 348
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 22
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-basis-of-dose-component.json",
+    "size" : 1973,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 60,
+      "length" : 44
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 84,
+      "length" : 48
+    },
+    {
+      "activity" : "generate2",
+      "start" : 106,
+      "length" : 228
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 22
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-drug-characteristic.json",
+    "size" : 3532,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 32
+    },
+    {
+      "activity" : "validate",
+      "start" : 60,
+      "length" : 229
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 84,
+      "length" : 125
+    },
+    {
+      "activity" : "generate2",
+      "start" : 106,
+      "length" : 527
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 31
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-inpatient-medicationrequest.json",
+    "size" : 3655,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 121
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 35
+    },
+    {
+      "activity" : "validate",
+      "start" : 61,
+      "length" : 1007
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 2
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 84,
+      "length" : 619
+    },
+    {
+      "activity" : "generate2",
+      "start" : 107,
+      "length" : 852
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 226
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 11
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-is-vehicle.json",
+    "size" : 1463,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 11
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 6
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 50
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 85,
+      "length" : 59
+    },
+    {
+      "activity" : "generate2",
+      "start" : 108,
+      "length" : 223
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 13
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-ligne-prescription.json",
+    "size" : 5230,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 9
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 11
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 150
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 85,
+      "length" : 80
+    },
+    {
+      "activity" : "generate2",
+      "start" : 108,
+      "length" : 235
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 17
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-medication-compound.json",
+    "size" : 4087,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 18
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 228
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 85,
+      "length" : 177
+    },
+    {
+      "activity" : "generate2",
+      "start" : 108,
+      "length" : 399
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 45
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-medication-noncompound.json",
+    "size" : 8096,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 20
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 17
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 250
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 85,
+      "length" : 210
+    },
+    {
+      "activity" : "generate2",
+      "start" : 109,
+      "length" : 449
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 82
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-medication.json",
+    "size" : 4361,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 16
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 62,
+      "length" : 176
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 85,
+      "length" : 149
+    },
+    {
+      "activity" : "generate2",
+      "start" : 109,
+      "length" : 320
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 43
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-medicationrequest-note-scope.json",
+    "size" : 1637,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 4
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 36
+    },
+    {
+      "activity" : "generate1",
+      "start" : 85,
+      "length" : 52
+    },
+    {
+      "activity" : "generate2",
+      "start" : 109,
+      "length" : 211
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 12
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-medicationrequest.json",
+    "size" : 11713,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 42
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 658
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 86,
+      "length" : 580
+    },
+    {
+      "activity" : "generate2",
+      "start" : 110,
+      "length" : 937
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 148
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 11
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-mp-substance.json",
+    "size" : 2194,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 150
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 86,
+      "length" : 47
+    },
+    {
+      "activity" : "generate2",
+      "start" : 111,
+      "length" : 303
+    },
+    {
+      "activity" : "generate2",
+      "start" : 116,
+      "length" : 15
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-observation-for-prescription.json",
+    "size" : 1213,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 24
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 13
+    },
+    {
+      "activity" : "validate",
+      "start" : 63,
+      "length" : 274
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 86,
+      "length" : 150
+    },
+    {
+      "activity" : "generate2",
+      "start" : 111,
+      "length" : 520
+    },
+    {
+      "activity" : "generate2",
+      "start" : 116,
+      "length" : 63
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-posologie.json",
+    "size" : 15623,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 8
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 53,
+      "length" : 26
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 230
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 86,
+      "length" : 324
+    },
+    {
+      "activity" : "generate2",
+      "start" : 111,
+      "length" : 348
+    },
+    {
+      "activity" : "generate2",
+      "start" : 116,
+      "length" : 11
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-prescription-bundle-for-example.json",
+    "size" : 1669,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 19
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 10
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 249
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 87,
+      "length" : 307
+    },
+    {
+      "activity" : "generate2",
+      "start" : 112,
+      "length" : 450
+    },
+    {
+      "activity" : "generate2",
+      "start" : 116,
+      "length" : 53
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 3
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-requestgroup-for-prescription.json",
+    "size" : 1933,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 343
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 87,
+      "length" : 386
+    },
+    {
+      "activity" : "generate2",
+      "start" : 112,
+      "length" : 400
+    },
+    {
+      "activity" : "generate2",
+      "start" : 116,
+      "length" : 61
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 4
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 176,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-treatment-intent.json",
+    "size" : 1858,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 7
+    },
+    {
+      "activity" : "validate",
+      "start" : 64,
+      "length" : 48
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 87,
+      "length" : 109
+    },
+    {
+      "activity" : "generate2",
+      "start" : 113,
+      "length" : 203
+    },
+    {
+      "activity" : "generate2",
+      "start" : 116,
+      "length" : 10
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-fr-uf-role.json",
+    "size" : 1543,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 51,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 12
+    },
+    {
+      "activity" : "validate",
+      "start" : 65,
+      "length" : 38
+    },
+    {
+      "activity" : "generate1",
+      "start" : 87,
+      "length" : 132
+    },
+    {
+      "activity" : "generate2",
+      "start" : 113,
+      "length" : 237
+    },
+    {
+      "activity" : "generate2",
+      "start" : 116,
+      "length" : 10
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-FrMethodOfAdministration.json",
+    "size" : 673,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 13
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 404
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 22
+    },
+    {
+      "activity" : "translate",
+      "start" : 74,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 49
+    },
+    {
+      "activity" : "generate2",
+      "start" : 113,
+      "length" : 571
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-additional-action-relationship-type-value-set.json",
+    "size" : 887,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 3
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 12
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 99
+    },
+    {
+      "activity" : "generate2",
+      "start" : 114,
+      "length" : 84
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-additional-when-codes-vs.json",
+    "size" : 814,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 24
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 30
+    },
+    {
+      "activity" : "generate2",
+      "start" : 114,
+      "length" : 160
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-inpatient-medication-code.json",
+    "size" : 827,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 48
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 114,
+      "length" : 69
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-medication-code.json",
+    "size" : 945,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 10
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 33
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 19
+    },
+    {
+      "activity" : "generate2",
+      "start" : 114,
+      "length" : 115
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-mp-dose-form.json",
+    "size" : 622,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 27
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 3
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 114,
+      "length" : 222
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-note-scope-codes-vs.json",
+    "size" : 774,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 11
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 114,
+      "length" : 47
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 138,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-route-of-administration.json",
+    "size" : 674,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 13
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 114,
+      "length" : 215
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-substance-code.json",
+    "size" : 708,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 27
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 141
+    },
+    {
+      "activity" : "generate2",
+      "start" : 114,
+      "length" : 64
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-treatment-intent.json",
+    "size" : 868,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 54,
+      "length" : 1346
+    },
+    {
+      "activity" : "checkConformanceResources3",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 65
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-fr-uf-role-code-for-prescription.json",
+    "size" : 724,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 50,
+      "length" : 1
+    },
+    {
+      "activity" : "load",
+      "start" : 50,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 54,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 56,
+      "length" : 8
+    },
+    {
+      "activity" : "translate",
+      "start" : 75,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 88,
+      "length" : 7
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 62
+    }]
+  },
+  {
+    "name" : "/input/includes/markdown-link-references.md",
+    "size" : 104,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 3710,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 10439,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/data/features.yml",
+    "size" : 176
+  },
+  {
+    "name" : "/input/pagecontent/PN13-prescription-compound.md",
+    "size" : 7297,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/PN13-prescription-specialite.md",
+    "size" : 13208,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/PN13-prescription-MV.md",
+    "size" : 104
+  },
+  {
+    "name" : "/input/pagecontent/prescription-Intro.md",
+    "size" : 5689,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/transformation-FHIR-vers-PN13.md",
+    "size" : 250
+  },
+  {
+    "name" : "/input/pagecontent/prescription-CasUsage.md",
+    "size" : 3295,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/PN13-prescription-DC.md",
+    "size" : 8144,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/transformation-PN13-vers-FHIR.md",
+    "size" : 26077,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/prescription-VueEnsemble.md",
+    "size" : 3363,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/prescription-Modelisation.md",
+    "size" : 40802,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/downloads.md",
+    "size" : 1039
+  },
+  {
+    "name" : "/input/pagecontent/prescription-Exemples.md",
+    "size" : 21824,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/change-log.md",
+    "size" : 6271,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/translationinfo.md",
+    "size" : 467
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 8724,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/transformationPN13-FHIR-Intro.md",
+    "size" : 1567
+  },
+  {
+    "name" : "/input/pagecontent/prescription-Document.md",
+    "size" : 100
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0
+  },
+  {
+    "name" : "/input/images/Conciliation1.jpg",
+    "size" : 134555,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/Dispensation1.png",
+    "size" : 78270
+  },
+  {
+    "name" : "/input/images/ExemplePrescriptionAnnotee.jpg",
+    "size" : 175332,
+    "processes" : [{
+      "activity" : "scan",
+      "start" : 52,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/Conciliation2.jpg",
+    "size" : 185958
+  },
+  {
+    "name" : "/input/images/LOGO_IS.png",
+    "size" : 64824
+  },
+  {
+    "name" : "/input/images/Prescription5.jpg",
+    "size" : 61306,
+    "processes" : [{
+      "activity" : "scanForUsageStats",
+      "start" : 68,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/Prescription3.jpg",
+    "size" : 40031
+  },
+  {
+    "name" : "/input/images/Prescription2.jpg",
+    "size" : 40900
+  },
+  {
+    "name" : "/input/images/Prescription6.jpg",
+    "size" : 65626
+  },
+  {
+    "name" : "/input/images/PosologieAnnotee2.jpg",
+    "size" : 80010,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/Conciliation3.jpg",
+    "size" : 39545
+  },
+  {
+    "name" : "/input/images/PosologieAnnotee1.jpg",
+    "size" : 40707
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 92371,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 115,
+      "length" : 4
+    }]
+  }]
+}

@@ -1,0 +1,63 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-33-Presc-VERSATIS",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-33-Presc-VERSATIS",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "1 emplâtre par jour à 20 h, à laisser pendant 12h sur la peau"
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400892981079",
+          "display" : "VERSATIS 700MG EMPL MEDIC"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "VERSATIS® 700 mg emplâtre médicamenteux: 1 emplâtre par jour à 20 h, à laisser pendant 12h sur la peau"
+      }],
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "duration" : 12,
+            "durationUnit" : "h",
+            "timeOfDay" : ["20:00:00"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "Emplâtre",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15042000"
+          }
+        }]
+      }]
+    }
+  }]
+}

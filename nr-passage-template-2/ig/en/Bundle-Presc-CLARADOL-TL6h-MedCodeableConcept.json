@@ -1,0 +1,73 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "Presc-CLARADOL-TL6h-MedCodeableConcept",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Presc-CLARADOL-TL6h-MedCodeableConcept",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400891705256",
+          "display" : "CLARADOL 500MG CPR"
+        }],
+        "text" : "CLARADOL® 500 mg, cpr séc"
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2021-08-12T14:48:44.461Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "Presc-14643"
+      },
+      "dosageInstruction" : [{
+        "sequence" : 1,
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2021-08-12T14:48:00Z",
+              "end" : "2021-08-17T14:47:59Z"
+            },
+            "period" : 6,
+            "periodUnit" : "h"
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }]
+      }]
+    }
+  }]
+}

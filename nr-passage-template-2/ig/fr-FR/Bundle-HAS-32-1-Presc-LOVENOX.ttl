@@ -1,0 +1,108 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-32-1-Presc-LOVENOX> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "HAS-32-1-Presc-LOVENOX"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index -1 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:MedicationRequest ;
+       fhir:Resource.id [ fhir:value "medicationrequest-HAS-32-1-Presc-LOVENOX" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr-FR" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "extensions" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr-FR\" lang=\"fr-FR\"><hr/><p><b>French (France)</b></p><hr/><a name=\"MedicationRequest_medicationrequest-HAS-32-1-Presc-LOVENOX\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-32-1-Presc-LOVENOX</b></p><a name=\"medicationrequest-HAS-32-1-Presc-LOVENOX\"> </a><a name=\"hcmedicationrequest-HAS-32-1-Presc-LOVENOX\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medicationrequest.html\">FR Medication Request</a></p></div><p><b>R5: Full representation of the dosage instructions (new)</b>: </p><div><p>1 injection en sous-cutanée par jour pendant 1 semaine.</p>\n</div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400892669236}\">LOVENOX 4000UI SRG0,4ML +ERIS</span></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2025-07-23 10:33:00+0100</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>note</b>: </p><blockquote><div><p>Prescription textuelle: ENOXAPARINE sodique 4 000 UI (40 mg)/0,4 mL, solution injectable en seringue préremplie (LOVENOX®): 1 injection en sous-cutanée par jour pendant 1 semaine.</p>\n</div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>timing</b>: Une fois par 1 day</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20066000}\">Voie sous-cutanée</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1 Seringue<span style=\"background: LightGoldenRodYellow\"> (Détails : code EDQM Standard Terms15052000 = 'Syringe')</span></td></tr></table></blockquote></div>"
+       ] ;
+       fhir:DomainResource.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction" ] ;
+         fhir:Extension.valueMarkdown [ fhir:value "1 injection en sous-cutanée par jour pendant 1 semaine." ]
+       ] ;
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/UCD" ] ;
+           fhir:Coding.code [ fhir:value "3400892669236" ] ;
+           fhir:Coding.display [ fhir:value "LOVENOX 4000UI SRG0,4ML +ERIS" ]
+         ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2025-07-23T10:33:00+01:00"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/smart-Practitioner-71482713" ]
+       ] ;
+       fhir:MedicationRequest.note [
+         fhir:index -1 ;
+         fhir:Annotation.text [ fhir:value "Prescription textuelle: ENOXAPARINE sodique 4 000 UI (40 mg)/0,4 mL, solution injectable en seringue préremplie (LOVENOX®): 1 injection en sous-cutanée par jour pendant 1 semaine." ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index -1 ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsDuration [
+               fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "semaines" ] ;
+               fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+               fhir:Quantity.code [ fhir:value "wk" ]
+             ] ;
+             fhir:Timing.repeat.frequency [ fhir:value "1"^^xsd:positiveInteger ] ;
+             fhir:Timing.repeat.period [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Timing.repeat.periodUnit [ fhir:value "d" ]
+           ]
+         ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20066000" ] ;
+             fhir:Coding.display [ fhir:value "Voie sous-cutanée" ]
+           ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index -1 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "Seringue" ] ;
+             fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Quantity.code [ fhir:value "15052000" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-32-1-Presc-LOVENOX.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

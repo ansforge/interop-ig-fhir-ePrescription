@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="HAS-05b-Presc-ACTISKENAN"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-HAS-5b-Presc-ACTISKENAN"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="extensions"/>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction">
+          <valueMarkdown value="dix milligrammes par jour pendant sept jours"/>
+        </extension>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/UCD"/>
+            <code value="3400892083926"/>
+            <display value="ACTISKENAN 10MG GELU"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2025-07-23T10:33:00+01:00"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-71482713"/>
+        </requester>
+        <note>
+          <text value="Prescription textuelle: ACTISKENAN® 10 mg gélule : dix milligrammes par jour pendant sept jours"/>
+        </note>
+        <dosageInstruction>
+          <timing>
+            <repeat>
+              <boundsDuration>
+                <value value="7"/>
+                <unit value="jour"/>
+                <system value="http://unitsofmeasure.org"/>
+                <code value="d"/>
+              </boundsDuration>
+              <frequency value="1"/>
+              <period value="1"/>
+              <periodUnit value="d"/>
+            </repeat>
+          </timing>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="10"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

@@ -1,0 +1,105 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400891705256",
+          "display" : "CLARADOL 500MG CPR"
+        }],
+        "text" : "CLARADOL® 500 mg, cpr séc"
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2021-08-11T18:21:20.641Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "Presc-14639"
+      },
+      "dosageInstruction" : [{
+        "sequence" : 1,
+        "additionalInstruction" : [{
+          "text" : "Délais minimum entre 2 prises : 4h"
+        }],
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2021-08-11T18:21:00Z",
+              "end" : "2021-08-17T18:20:59Z"
+            },
+            "frequencyMax" : 1,
+            "period" : 4,
+            "periodUnit" : "h"
+          }
+        },
+        "asNeededCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://snomed.info/sct",
+            "code" : "22253000",
+            "display" : "douleur"
+          }],
+          "text" : "Si douleurs"
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }],
+        "maxDosePerPeriod" : {
+          "numerator" : {
+            "value" : 6,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          },
+          "denominator" : {
+            "value" : 24,
+            "unit" : "h",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "h"
+          }
+        },
+        "maxDosePerAdministration" : {
+          "value" : 2,
+          "unit" : "Comprimé",
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "15054000"
+        }
+      }]
+    }
+  }]
+}

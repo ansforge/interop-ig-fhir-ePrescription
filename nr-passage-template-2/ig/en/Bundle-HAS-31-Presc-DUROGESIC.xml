@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="HAS-31-Presc-DUROGESIC"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-HAS-31-Presc-DUROGESIC"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="extensions"/>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction">
+          <valueMarkdown value="un dispositif transdermique de vingt-cinq microgrammes à changer toutes les soixante-douze heures, pendant deux semaines"/>
+        </extension>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/UCD"/>
+            <code value="3400891937626"/>
+            <display value="DUROGESIC 25µG/H DISP TRANS"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2025-07-23T10:33:00+01:00"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-71482713"/>
+        </requester>
+        <note>
+          <text value="Prescription textuelle: DUROGESIC® dispositif transdermique 25 μg : un dispositif transdermique de vingt-cinq microgrammes à changer toutes les soixante-douze heures, pendant deux semaines."/>
+        </note>
+        <dosageInstruction>
+          <timing>
+            <repeat>
+              <boundsDuration>
+                <value value="2"/>
+                <unit value="semaines"/>
+                <system value="http://unitsofmeasure.org"/>
+                <code value="wk"/>
+              </boundsDuration>
+              <duration value="72"/>
+              <durationUnit value="h"/>
+              <frequency value="1"/>
+              <period value="72"/>
+              <periodUnit value="h"/>
+            </repeat>
+          </timing>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="1"/>
+              <unit value="dispositif transdermique"/>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="15036000"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

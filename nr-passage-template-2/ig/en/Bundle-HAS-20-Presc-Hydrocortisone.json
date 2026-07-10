@@ -1,0 +1,76 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-20-Presc-Hydrocortisone",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-20-Presc-Hydrocortisone",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "20 mg à 8h et 10 mg à 12h"
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://BogusSystemMedicabase.com",
+          "code" : "MV00000089",
+          "display" : "HYDROCORTISONE 10 mg comprimé"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "Prescription textuelle: HYDROCORTISONE 10 mg comprimé: 20 mg à 8h et 10 mg à 12h"
+      }],
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "timeOfDay" : ["08:00:00"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 20,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      },
+      {
+        "timing" : {
+          "repeat" : {
+            "timeOfDay" : ["12:00:00"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 10,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      }]
+    }
+  }]
+}

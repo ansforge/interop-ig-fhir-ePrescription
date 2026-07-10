@@ -1,0 +1,62 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-27-2-presc-Rifampicine",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-27-2-presc-Rifampicine",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "2 gélules le matin 30 minutes avant le petit-déjeuner"
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://BogusSystemMedicabase.com",
+          "code" : "MV00002500",
+          "display" : "RIFAMPICINE 300 mg en gélule"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "Prescription textuelle: RIFAMPICINE 300 mg en gélule 2 gélules le matin 30 minutes avant le petit-déjeuner​"
+      }],
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "when" : ["ACM"],
+            "offset" : 30
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 2,
+            "unit" : "Gélule ou capsule molle",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15012000"
+          }
+        }]
+      }]
+    }
+  }]
+}

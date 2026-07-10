@@ -1,0 +1,115 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-23-2-Presc-Amiodarone> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "HAS-23-2-Presc-Amiodarone"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index -1 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:MedicationRequest ;
+       fhir:Resource.id [ fhir:value "medicationrequest-HAS-23-2-Presc-Amiodarone" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "en" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "extensions" ]
+       ] ;
+       fhir:DomainResource.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction" ] ;
+         fhir:Extension.valueMarkdown [ fhir:value "1 comprimé pendant 5 jours (du lundi au vendredi), et puis arrêt 2 jours (samedi, dimanche). Recommencer le cycle de 7 jours, à répéter sur le mois" ]
+       ] ;
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://BogusSystemMedicabase.com" ] ;
+           fhir:Coding.code [ fhir:value "MV00002542" ] ;
+           fhir:Coding.display [ fhir:value "AMIODARONE 200 mg comprimé" ]
+         ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2025-07-23T10:33:00+01:00"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/smart-Practitioner-71482713" ]
+       ] ;
+       fhir:MedicationRequest.note [
+         fhir:index -1 ;
+         fhir:Annotation.text [ fhir:value "Prescription textuelle: AMIODARONE 200 mg comprimé: 1 comprimé pendant 5 jours (du lundi au vendredi), et puis arrêt 2 jours (samedi, dimanche). Recommencer le cycle de 7 jours, à répéter sur le mois." ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index -1 ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsDuration [
+               fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "mois" ] ;
+               fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+               fhir:Quantity.code [ fhir:value "mo" ]
+             ] ;
+             fhir:Timing.repeat.frequency [ fhir:value "5"^^xsd:positiveInteger ] ;
+             fhir:Timing.repeat.period [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Timing.repeat.periodUnit [ fhir:value "wk" ] ;
+             fhir:Timing.repeat.dayOfWeek [
+               fhir:value "mon" ;
+               fhir:index -1
+             ], [
+               fhir:value "tue" ;
+               fhir:index -1
+             ], [
+               fhir:value "wed" ;
+               fhir:index -1
+             ], [
+               fhir:value "thu" ;
+               fhir:index -1
+             ], [
+               fhir:value "fri" ;
+               fhir:index -1
+             ]
+           ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index -1 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "Comprimé" ] ;
+             fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Quantity.code [ fhir:value "15054000" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-23-2-Presc-Amiodarone.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

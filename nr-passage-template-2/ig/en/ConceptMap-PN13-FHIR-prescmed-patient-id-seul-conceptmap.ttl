@@ -1,0 +1,84 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-patient-id-seul-conceptmap> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "PN13-FHIR-prescmed-patient-id-seul-conceptmap"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap PN13-FHIR-prescmed-patient-id-seul-conceptmap</b></p><a name=\"en-PN13-FHIR-prescmed-patient-id-seul-conceptmap\"> </a><a name=\"en-hcPN13-FHIR-prescmed-patient-id-seul-conceptmap\"> </a><p>Mapping from https://interopsante.org/pn13/xsd to <a href=\"StructureDefinition-fr-inpatient-medicationrequest.html\">FR Inpatient MedicationRequest</a></p><br/><p>Mapping from <code>unspecified code system</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"4\"><b>Target Concept Details</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from </td><td/><td colspan=\"2\"><b>Codes</b> from </td><td><b>MedicationRequest.subject.type</b></td><td><b>MedicationRequest.subject.identifier.use</b></td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Patient/IPP</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">MedicationRequest.subject.identifier.value</td><td style=\"border-left-width: 0px\"/><td>Patient</td><td>usual</td></tr></table></div>"
+  ] ;
+  fhir:ConceptMap.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-patient-id-seul-conceptmap"] ;
+  fhir:ConceptMap.version [ fhir:value "1.1.0-ballot"] ;
+  fhir:ConceptMap.name [ fhir:value "FrPN13FHIRMedicationPrescriptionPatientIdSeulConceptMap"] ;
+  fhir:ConceptMap.title [ fhir:value "Conversion PN13 vers FHIR pour le patient d'une prescription de médicaments avec uniquement un identifiant fourni"] ;
+  fhir:ConceptMap.status [ fhir:value "draft"] ;
+  fhir:ConceptMap.date [ fhir:value "2026-07-10T14:48:11+00:00"^^xsd:dateTime] ;
+  fhir:ConceptMap.publisher [ fhir:value "Interop'Santé"] ;
+  fhir:ConceptMap.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Interop'Santé" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://interopsante.org/" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://esante.gouv.fr" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "monserviceclient.annuaire@esante.gouv.fr" ]
+     ]
+  ] ;
+  fhir:ConceptMap.description [ fhir:value "ConceptMap pour la conversion PN13 vers FHIR du patient d'une prescritpion de médicament avec uniquement un identifiant fourni"] ;
+  fhir:ConceptMap.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:ConceptMap.sourceUri [ fhir:value "https://interopsante.org/pn13/xsd"] ;
+  fhir:ConceptMap.targetUri [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"] ;
+  fhir:ConceptMap.group [
+     fhir:index -1 ;
+     fhir:ConceptMap.group.element [
+       fhir:index -1 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Patient/IPP" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index -1 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "MedicationRequest.subject.identifier.value" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index -1 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "MedicationRequest.subject.identifier.use" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "usual" ]
+         ], [
+           fhir:index -1 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "MedicationRequest.subject.type" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "Patient" ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-patient-id-seul-conceptmap.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

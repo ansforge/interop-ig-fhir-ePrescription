@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Presc-Paracetamol"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <Medication>
+        <id value="medication-Presc-Paracetamol"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <code>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/codeSMS"/>
+            <code value="100000090270"/>
+            <display value="paracétamol"/>
+          </coding>
+          <text value="PARACETAMOL"/>
+        </code>
+      </Medication>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-Presc-Paracetamol"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationReference>
+          <reference value="#medication-Presc-Paracetamol"/>
+        </medicationReference>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2021-07-13T08:48:39.825Z"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-71482713"/>
+        </requester>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="Presc-14618"/>
+        </groupIdentifier>
+        <dosageInstruction>
+          <sequence value="1"/>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2021-07-13T08:48:00Z"/>
+                <end value="2021-07-18T08:47:59Z"/>
+              </boundsPeriod>
+              <timeOfDay value="07:00:00"/>
+              <timeOfDay value="12:00:00"/>
+              <timeOfDay value="18:00:00"/>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20053000"/>
+              <display value="Voie orale"/>
+            </coding>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="1"/>
+              <unit value="g"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="g"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

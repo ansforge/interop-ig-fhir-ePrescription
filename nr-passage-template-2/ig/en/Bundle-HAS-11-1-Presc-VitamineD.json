@@ -1,0 +1,66 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-11-1-Presc-VitamineD",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-11-1-Presc-VitamineD",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "1 ampoule, le premier jour de chaque mois"
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://BogusSystemMedicabase.com",
+          "code" : "MV00000507",
+          "display" : "VITAMINE D 100 000 UI solution buvable (colécalciférol * 100 000 UI/2 ml ; voie orale ; sol buv)"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "Prescription textuelle: VITAMINE D 100 000 UI solution buvable : 1 ampoule, le premier jour de chaque mois"
+      }],
+      "dosageInstruction" : [{
+        "additionalInstruction" : [{
+          "text" : "le premier jour du mois"
+        }],
+        "timing" : {
+          "repeat" : {
+            "frequency" : 1,
+            "period" : 1,
+            "periodUnit" : "mo"
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "ampoule",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15002000"
+          }
+        }]
+      }]
+    }
+  }]
+}

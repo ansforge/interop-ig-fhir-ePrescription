@@ -1,0 +1,125 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "Presc-MATRIFEN-patch-TL72h",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "medication-Presc-MATRIFEN-patch-TL72h",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400893183014",
+          "display" : "MATRIFEN 75µG/H DISP TRANS"
+        }],
+        "text" : "MATRIFEN® 75 ug/h, dispositif transdermique"
+      },
+      "form" : {
+        "coding" : [{
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "10517500",
+          "display" : "patch cutané"
+        }],
+        "text" : "dispositif cutané"
+      },
+      "ingredient" : [{
+        "itemCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://data.esante.gouv.fr/ansm/medicament/codeSMS",
+            "code" : "100000090377",
+            "display" : "fentanyl"
+          }],
+          "text" : "FENTANYL"
+        },
+        "isActive" : true,
+        "strength" : {
+          "numerator" : {
+            "value" : 75,
+            "unit" : "µg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "ug"
+          },
+          "denominator" : {
+            "unit" : "h",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "h"
+          }
+        }
+      }]
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Presc-MATRIFEN-patch-TL72h",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationReference" : {
+        "reference" : "#medication-Presc-MATRIFEN-patch-TL72h"
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2021-07-29T16:14:13.817Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "Presc-14629"
+      },
+      "dosageInstruction" : [{
+        "sequence" : 1,
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2021-07-29T16:14:00Z",
+              "end" : "2021-08-06T16:13:59Z"
+            },
+            "duration" : 72,
+            "durationUnit" : "h",
+            "frequency" : 1,
+            "period" : 72,
+            "periodUnit" : "h",
+            "timeOfDay" : ["07:00:00"]
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20070000",
+            "display" : "Voie transdermique"
+          }],
+          "text" : "Voie transdermique"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "patch",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15036000"
+          }
+        }]
+      }]
+    }
+  }]
+}

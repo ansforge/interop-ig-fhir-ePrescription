@@ -1,0 +1,124 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "Presc-BISOPROLOL-SANDOZ-DosesRationnelles",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "medication-Presc-BISOPROLOL-SANDOZ-DosesRationnelles",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400893320921",
+          "display" : "BISOPROLOL SDZ 7,5MG CPR"
+        }],
+        "text" : "BISOPROLOL® 7.5 mg SANDOZ, cpr séc"
+      },
+      "form" : {
+        "coding" : [{
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "10219000",
+          "display" : "comprimé"
+        }],
+        "text" : "comprimé"
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Presc-BISOPROLOL-SANDOZ-DosesRationnelles",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationReference" : {
+        "reference" : "#medication-Presc-BISOPROLOL-SANDOZ-DosesRationnelles"
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2021-08-13T13:40:33.162Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "Presc-14646"
+      },
+      "dosageInstruction" : [{
+        "sequence" : 1,
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2021-08-13T13:40:00Z",
+              "end" : "2021-11-20T13:39:59Z"
+            },
+            "timeOfDay" : ["07:00:00"]
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 0.3333333,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }]
+      },
+      {
+        "sequence" : 1,
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2021-08-13T13:40:00Z",
+              "end" : "2021-11-20T13:39:59Z"
+            },
+            "timeOfDay" : ["18:00:00"]
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 0.666667,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }]
+      }]
+    }
+  }]
+}

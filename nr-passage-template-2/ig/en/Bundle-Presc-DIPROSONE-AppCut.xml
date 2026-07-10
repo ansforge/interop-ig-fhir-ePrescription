@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Presc-DIPROSONE-AppCut"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <Medication>
+        <id value="medication-Presc-DIPROSONE-AppCut"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <code>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/UCD"/>
+            <code value="3400890277334"/>
+            <display value="DIPROSONE 0,05% CR TB30G"/>
+          </coding>
+          <text value="DIPROSONE® 0.05%, crème, tube 30 g"/>
+        </code>
+        <form>
+          <coding>
+            <system value="http://standardterms.edqm.eu"/>
+            <code value="0071"/>
+            <display value="crème"/>
+          </coding>
+          <text value="crème"/>
+        </form>
+        <ingredient>
+          <itemCodeableConcept>
+            <coding>
+              <system value="http://data.esante.gouv.fr/ansm/medicament/codeSMS"/>
+              <code value="100000091947"/>
+              <display value="bétaméthasone"/>
+            </coding>
+            <text value="BETAMETHASONE"/>
+          </itemCodeableConcept>
+          <isActive value="true"/>
+          <strength>
+            <numerator>
+              <value value="0.5"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </numerator>
+            <denominator>
+              <unit value="g"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="g"/>
+            </denominator>
+          </strength>
+        </ingredient>
+      </Medication>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-Presc-DIPROSONE-AppCut"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationReference>
+          <reference value="#medication-Presc-DIPROSONE-AppCut"/>
+        </medicationReference>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2021-07-29T13:04:23.435Z"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-71482713"/>
+        </requester>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="Presc-14627"/>
+        </groupIdentifier>
+        <dosageInstruction>
+          <sequence value="1"/>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2021-07-29T13:04:00Z"/>
+                <end value="2021-08-03T13:03:59Z"/>
+              </boundsPeriod>
+              <timeOfDay value="08:00:00"/>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20003000"/>
+              <display value="Voie cutanée"/>
+            </coding>
+            <text value="Voie cutanée"/>
+          </route>
+          <doseAndRate>
+            <type>
+              <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/dose-rate-type"/>
+                <code value="ordered"/>
+                <display value="Ordered"/>
+              </coding>
+              <text value="Ordered"/>
+            </type>
+            <doseQuantity>
+              <value value="1"/>
+              <unit value="application"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

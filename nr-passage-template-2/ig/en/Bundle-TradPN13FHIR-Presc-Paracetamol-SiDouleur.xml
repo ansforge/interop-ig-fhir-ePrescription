@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <Patient>
+        <id value="patient-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        <meta>
+          <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+              <code value="INTRN"/>
+              <display value="Identifiant interne"/>
+            </coding>
+          </type>
+          <system value="https://somehospital.fr/IPP"/>
+          <value value="5000001820"/>
+        </identifier>
+        <name>
+          <use value="usual"/>
+          <family value="AVION"/>
+        </name>
+        <name>
+          <use value="official"/>
+          <family value="AVION"/>
+          <given value="JAUNE"/>
+        </name>
+        <birthDate value="1961-11-25"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <Practitioner>
+        <id value="practitioner-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        <meta>
+          <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <identifier>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+              <code value="EI"/>
+            </coding>
+          </type>
+          <system value="https://somehospital.fr/EI"/>
+          <value value="P082443"/>
+        </identifier>
+        <name>
+          <use value="usual"/>
+          <family value="LUIGGI"/>
+          <given value="DENIS"/>
+        </name>
+        <name>
+          <use value="official"/>
+          <family value="LUIGGI"/>
+          <given value="DENIS"/>
+        </name>
+      </Practitioner>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <Medication>
+        <id value="medication-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <code>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/codeSMS"/>
+            <code value="100000090270"/>
+            <display value="paracétamol"/>
+          </coding>
+          <text value="PARACETAMOL"/>
+        </code>
+      </Medication>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <Observation>
+        <id value="observation-1-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        <meta>
+          <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="8302-2"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="#patient-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        </subject>
+        <effectiveDateTime value="2018-10-25T11:06:06+02:00"/>
+        <valueQuantity>
+          <value value="189"/>
+          <unit value="cm"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="cm"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <Observation>
+        <id value="observation-2-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        <meta>
+          <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <status value="final"/>
+        <category>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+          </coding>
+        </category>
+        <code>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="29463-7"/>
+          </coding>
+        </code>
+        <subject>
+          <reference value="#patient-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        </subject>
+        <effectiveDateTime value="2018-06-21T16:05:10+02:00"/>
+        <valueQuantity>
+          <value value="120"/>
+          <unit value="kg"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="kg"/>
+        </valueQuantity>
+      </Observation>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <identifier>
+          <system value="https://somehospital.fr/PrescrptionLine-ID"/>
+          <value value="31626"/>
+        </identifier>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationReference>
+          <reference value="#medication-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        </medicationReference>
+        <subject>
+          <reference value="#patient-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        </subject>
+        <encounter>
+          <identifier>
+            <system value="https://somehospital.fr/Sejour"/>
+            <value value="70101274"/>
+          </identifier>
+        </encounter>
+        <supportingInformation>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role">
+            <valueCode value="UFMED"/>
+          </extension>
+          <identifier>
+            <system value="https://somehospital.fr/UF"/>
+            <value value="2571"/>
+          </identifier>
+        </supportingInformation>
+        <supportingInformation>
+          <reference value="#observation-1-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        </supportingInformation>
+        <supportingInformation>
+          <reference value="#observation-2-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        </supportingInformation>
+        <authoredOn value="2022-04-11T16:42:53+02:00"/>
+        <requester>
+          <reference value="#practitioner-TradPN13FHIR-Presc-Paracetamol-SiDouleur"/>
+        </requester>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="10723"/>
+        </groupIdentifier>
+        <note>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope">
+            <valueCode value="LIPRESCTXT"/>
+          </extension>
+          <text value="Prescription textuelle: PARACETAMOL (Voie orale) A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pendant 2 jours"/>
+        </note>
+        <note>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope">
+            <valueCode value="LIPRESCIND"/>
+          </extension>
+          <text value="Indication: En cas de douleur"/>
+        </note>
+        <note>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope">
+            <valueCode value="LIPRESCCOMM"/>
+          </extension>
+          <text value="Commentaire: Test paracetamol DC 2 (à la demande)"/>
+        </note>
+        <dosageInstruction>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2022-04-12T06:00:00+02:00"/>
+                <end value="2022-04-15T00:00:00+02:00"/>
+              </boundsPeriod>
+              <frequencyMax value="1"/>
+              <period value="6"/>
+              <periodUnit value="h"/>
+            </repeat>
+          </timing>
+          <asNeededBoolean value="true"/>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20053000"/>
+              <display value="Voie orale"/>
+            </coding>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="1000"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </doseQuantity>
+          </doseAndRate>
+          <maxDosePerPeriod>
+            <numerator>
+              <value value="4"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </numerator>
+            <denominator>
+              <value value="1"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="d"/>
+            </denominator>
+          </maxDosePerPeriod>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

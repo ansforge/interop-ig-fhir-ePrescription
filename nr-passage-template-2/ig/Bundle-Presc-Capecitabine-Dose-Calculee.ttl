@@ -1,0 +1,151 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-Capecitabine-Dose-Calculee> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Presc-Capecitabine-Dose-Calculee"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index 0 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index 0 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Medication ;
+       fhir:Resource.id [ fhir:value "medication-Presc-Capecitabine-Dose-Calculee" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound" ;
+           fhir:index 0 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+         ]
+       ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr-FR\" lang=\"fr-FR\"><hr/><p><b>French (France)</b></p><hr/><a name=\"Medication_medication-Presc-Capecitabine-Dose-Calculee\"> </a><p class=\"res-header-id\"><b>Narratif généré : Médication medication-Presc-Capecitabine-Dose-Calculee</b></p><a name=\"medication-Presc-Capecitabine-Dose-Calculee\"> </a><a name=\"hcmedication-Presc-Capecitabine-Dose-Calculee\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medication-noncompound.html\">FR Medication Non Compound</a></p></div><p><b>code</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000089303}\">CAPECITABINE</span></p></div></div>"
+       ] ;
+       fhir:Medication.code [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/codeSMS" ] ;
+           fhir:Coding.code [ fhir:value "100000089303" ] ;
+           fhir:Coding.display [ fhir:value "capécitabine" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "CAPECITABINE" ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:MedicationRequest ;
+       fhir:Resource.id [ fhir:value "medicationrequest-Presc-Capecitabine-Dose-Calculee" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest" ;
+           fhir:index 0 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
+         ]
+       ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr-FR\" lang=\"fr-FR\"><hr/><p><b>French (France)</b></p><hr/><a name=\"MedicationRequest_medicationrequest-Presc-Capecitabine-Dose-Calculee\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-Presc-Capecitabine-Dose-Calculee</b></p><a name=\"medicationrequest-Presc-Capecitabine-Dose-Calculee\"> </a><a name=\"hcmedicationrequest-Presc-Capecitabine-Dose-Calculee\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-inpatient-medicationrequest.html\">FR Inpatient MedicationRequest</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <code>#medication-Presc-Capecitabine-Dose-Calculee</code></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2021-10-15 20:06:12+0000</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>groupIdentifier</b>: <code>https://somehospital.fr/Prescrption-ID</code>/Presc-14652</p><blockquote><p><b>dosageInstruction</b></p><p><b>timing</b>: Une fois</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20053000}\">Voie orale</span></p><blockquote><p><b>doseAndRate</b></p><p><b>type</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/dose-rate-type calculated}\">Calculated</span></p><p><b>dose</b>: 1000 mg/m²<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg/m2 = 'mg/m2')</span></p></blockquote><blockquote><p><b>doseAndRate</b></p><p><b>type</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/dose-rate-type ordered}\">Ordered</span></p><p><b>dose</b>: 1800 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></p></blockquote></blockquote></div></div>"
+       ] ;
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationReference [
+         fhir:Reference.reference [ fhir:value "#medication-Presc-Capecitabine-Dose-Calculee" ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2021-10-15T20:06:12.345Z"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/smart-Practitioner-71482713" ]
+       ] ;
+       fhir:MedicationRequest.groupIdentifier [
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/Prescrption-ID" ] ;
+         fhir:Identifier.value [ fhir:value "Presc-14652" ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index 0 ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsPeriod [
+               fhir:Period.start [ fhir:value "2021-10-15T20:06:00Z"^^xsd:dateTime ] ;
+               fhir:Period.end [ fhir:value "2021-10-29T20:05:59Z"^^xsd:dateTime ]
+             ] ;
+             fhir:Timing.repeat.timeOfDay [
+               fhir:value "07:00:00"^^xsd:time ;
+               fhir:index 0
+             ], [
+               fhir:value "18:00:00"^^xsd:time ;
+               fhir:index 1
+             ]
+           ]
+         ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index 0 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20053000" ] ;
+             fhir:Coding.display [ fhir:value "Voie orale" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "Voie orale" ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index 0 ;
+           fhir:Dosage.doseAndRate.type [
+             fhir:CodeableConcept.coding [
+               fhir:index 0 ;
+               fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/dose-rate-type" ] ;
+               fhir:Coding.code [ fhir:value "calculated" ] ;
+               fhir:Coding.display [ fhir:value "Calculated" ]
+             ] ;
+             fhir:CodeableConcept.text [ fhir:value "Calculated" ]
+           ] ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "1000"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "mg/m²" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "mg/m2" ]
+           ]
+         ], [
+           fhir:index 1 ;
+           fhir:Dosage.doseAndRate.type [
+             fhir:CodeableConcept.coding [
+               fhir:index 0 ;
+               fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/dose-rate-type" ] ;
+               fhir:Coding.code [ fhir:value "ordered" ] ;
+               fhir:Coding.display [ fhir:value "Ordered" ]
+             ] ;
+             fhir:CodeableConcept.text [ fhir:value "Ordered" ]
+           ] ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "1800"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "mg" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "mg" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-Capecitabine-Dose-Calculee.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="MultiLine-Presc-METHOTREXATE-LEDERFOLINE"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-Presc-METHOTREXATE"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <status value="active"/>
+        <intent value="option"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/UCD"/>
+            <code value="3400894357391"/>
+            <display value="METHOTREX.ACC 25MG/ML FL2ML"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/30003"/>
+        </subject>
+        <authoredOn value="2025-05-02T14:48:44.461Z"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-3003"/>
+        </requester>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="Presc-30003"/>
+        </groupIdentifier>
+        <dosageInstruction>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2025-05-02T14:49:00Z"/>
+                <end value="2025-05-30T14:48:59Z"/>
+              </boundsPeriod>
+              <frequency value="1"/>
+              <periodUnit value="wk"/>
+              <dayOfWeek value="fri"/>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20035000"/>
+              <display value="Voie intramusculaire"/>
+            </coding>
+            <text value="Voie intramusculaire"/>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="2"/>
+              <unit value="Flacon"/>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="15009000"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-Presc-LEDERFOLINE"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <status value="active"/>
+        <intent value="option"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/UCD"/>
+            <code value="3400891463088"/>
+            <display value="LEDERFOLINE 25MG CPR"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/30003"/>
+        </subject>
+        <authoredOn value="2025-05-02T14:48:44.461Z"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-3003"/>
+        </requester>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="Presc-30003"/>
+        </groupIdentifier>
+        <dosageInstruction>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2025-05-02T14:49:00Z"/>
+                <end value="2025-05-30T14:48:59Z"/>
+              </boundsPeriod>
+              <frequency value="1"/>
+              <periodUnit value="wk"/>
+              <dayOfWeek value="fri"/>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20053000"/>
+              <display value="Voie orale"/>
+            </coding>
+            <text value="Voie orale"/>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="2"/>
+              <unit value="Comprimé"/>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="15054000"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <RequestGroup>
+        <id value="requestgroup-Presc-METHOTREXATE-LEDERFOLINE"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="Presc-30003"/>
+        </groupIdentifier>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <subject>
+          <reference value="Patient/30003"/>
+        </subject>
+        <action id="Action1">
+          <relatedAction>
+            <actionId value="Action2"/>
+            <relationship value="concurrent"/>
+          </relatedAction>
+          <resource>
+            <reference value="#medicationrequest-Presc-LEDERFOLINE"/>
+          </resource>
+        </action>
+        <action id="Action2">
+          <resource>
+            <reference value="#medicationrequest-Presc-METHOTREXATE"/>
+          </resource>
+        </action>
+      </RequestGroup>
+    </resource>
+  </entry>
+</Bundle>

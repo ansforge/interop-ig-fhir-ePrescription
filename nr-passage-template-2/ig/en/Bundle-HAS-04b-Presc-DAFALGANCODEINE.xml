@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="HAS-04b-Presc-DAFALGANCODEINE"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-HAS-4b-Presc-DAFALGANCODEINE"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="extensions"/>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction">
+          <valueMarkdown value="un à deux comprimés toutes les 12 h pendant 10 jours, selon l’intensité de la douleur, avec un maximum à 2 comprimés par prise et de 4 comprimés par jour. STOP SI NAUSEES"/>
+        </extension>
+        <status value="active"/>
+        <intent value="option"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/UCD"/>
+            <code value="3400891479287"/>
+            <display value="DAFALGAN CODEINE CPR"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2025-07-23T10:33:00+01:00"/>
+        <requester>
+          <identifier>
+            <system value="urn:oid:1.2.250.1.71.4.2.1"/>
+            <value value="899999999999"/>
+          </identifier>
+        </requester>
+        <note>
+          <text value="Prescription textuelle: DAFALGAN CODEINE®, comprimé un à deux comprimés toutes les 12 h pendant 10 jours, selon l’intensité de la douleur, avec un maximum à 2 comprimés par prise et de 4 comprimés par jour. STOP SI NAUSEES"/>
+        </note>
+        <dosageInstruction>
+          <additionalInstruction>
+            <text value="Selon l'intensité des douleurs. STOP SI NAUSEE"/>
+          </additionalInstruction>
+          <timing>
+            <repeat>
+              <boundsDuration>
+                <value value="10"/>
+                <unit value="jour"/>
+                <system value="http://unitsofmeasure.org"/>
+                <code value="d"/>
+              </boundsDuration>
+              <frequency value="1"/>
+              <period value="12"/>
+              <periodUnit value="h"/>
+            </repeat>
+          </timing>
+          <doseAndRate>
+            <doseRange>
+              <low>
+                <value value="1"/>
+                <unit value="Comprimé"/>
+                <system value="http://standardterms.edqm.eu"/>
+                <code value="15054000"/>
+              </low>
+              <high>
+                <value value="2"/>
+                <unit value="Comprimé"/>
+                <system value="http://standardterms.edqm.eu"/>
+                <code value="15054000"/>
+              </high>
+            </doseRange>
+          </doseAndRate>
+          <maxDosePerPeriod>
+            <numerator>
+              <value value="4"/>
+              <unit value="Comprimé"/>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="15054000"/>
+            </numerator>
+            <denominator>
+              <value value="1"/>
+              <unit value="Jour"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="d"/>
+            </denominator>
+          </maxDosePerPeriod>
+          <maxDosePerAdministration>
+            <value value="2"/>
+            <unit value="Comprimé"/>
+            <system value="http://standardterms.edqm.eu"/>
+            <code value="15054000"/>
+          </maxDosePerAdministration>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

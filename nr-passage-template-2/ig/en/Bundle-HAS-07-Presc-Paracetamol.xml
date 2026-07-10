@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="HAS-07-Presc-Paracetamol"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-HAS-7-Presc-Paracetamol"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="extensions"/>
+        </text>
+        <extension url="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction">
+          <valueMarkdown value="Si douleur -dose max/prise de 1000 mg (soit 2 gélules) -4000 mg maximum par jour (soit 8 gélules)"/>
+        </extension>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://BogusSystemMedicabase.com"/>
+            <code value="MV00000557"/>
+            <display value="PARACETAMOL 500 mg gélule"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2025-07-23T10:33:00+01:00"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-71482713"/>
+        </requester>
+        <note>
+          <text value="Prescription textuelle: PARACETAMOL 500 mg gélule : Si douleur -dose max/prise de 1000 mg (soit 2 gélules) -4000 mg maximum par jour (soit 8 gélules)"/>
+        </note>
+        <dosageInstruction>
+          <asNeededCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="22253000"/>
+              <display value="douleur"/>
+            </coding>
+            <text value="Si douleurs"/>
+          </asNeededCodeableConcept>
+          <maxDosePerPeriod>
+            <numerator>
+              <value value="4000"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </numerator>
+            <denominator>
+              <value value="24"/>
+              <unit value="h"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="h"/>
+            </denominator>
+          </maxDosePerPeriod>
+          <maxDosePerAdministration>
+            <value value="1000"/>
+            <unit value="mg"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg"/>
+          </maxDosePerAdministration>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>
