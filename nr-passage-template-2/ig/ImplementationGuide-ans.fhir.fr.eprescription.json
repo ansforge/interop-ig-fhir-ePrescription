@@ -1,17 +1,17 @@
 {
   "resourceType" : "ImplementationGuide",
   "id" : "ans.fhir.fr.eprescription",
-  "language" : "fr-FR",
+  "language" : "fr",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr-FR\" lang=\"fr-FR\"><hr/><p><b>French (France)</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"ans.fhir.fr.eprescription\"> </a><a name=\"hcans.fhir.fr.eprescription\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><h2>eP</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"en-ans.fhir.fr.eprescription\"> </a><a name=\"en-hcans.fhir.fr.eprescription\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-FR</p></div><h2>eP</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"ans.fhir.fr.eprescription\"> </a><a name=\"hcans.fhir.fr.eprescription\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr</p></div><h2>eP</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"en-ans.fhir.fr.eprescription\"> </a><a name=\"en-hcans.fhir.fr.eprescription\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr</p></div><h2>eP</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
   "version" : "1.1.0-ballot",
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-07-10T14:48:11+00:00",
+  "date" : "2026-07-10T14:57:52+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -136,7 +136,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "fr-FR"
+        "valueString" : "fr"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -487,7 +487,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "fr-FR"
+        "valueString" : "fr"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

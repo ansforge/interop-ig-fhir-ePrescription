@@ -1,0 +1,385 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/TradPN13FHIR-Presc-Paracetamol> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "TradPN13FHIR-Presc-Paracetamol"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index -1 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Patient ;
+       fhir:Resource.id [ fhir:value "patient-TradPN13FHIR-Presc-Paracetamol" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient" ;
+           fhir:index -1 ;
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Patient_patient-TradPN13FHIR-Presc-Paracetamol\"> </a><p class=\"res-header-id\"><b>Narratif généré : Patient patient-TradPN13FHIR-Presc-Paracetamol</b></p><a name=\"patient-TradPN13FHIR-Presc-Paracetamol\"> </a><a name=\"hcpatient-TradPN13FHIR-Presc-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient.html\">FR Core Patient Profile</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">AVION  (sexe non précisé), Date de Naissance :1961-11-25 ( Identifiant interne: 5000001820 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Noms alternatifs (voir plus bas)\">Nom alternatif :</td><td colspan=\"3\">JAUNE AVION (Official)</td></tr></table></div>"
+       ] ;
+       fhir:Patient.identifier [
+         fhir:index -1 ;
+         fhir:Identifier.use [ fhir:value "usual" ] ;
+         fhir:Identifier.type [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203" ] ;
+             fhir:Coding.code [ fhir:value "INTRN" ] ;
+             fhir:Coding.display [ fhir:value "Identifiant interne" ]
+           ]
+         ] ;
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/IPP" ] ;
+         fhir:Identifier.value [ fhir:value "5000001820" ]
+       ] ;
+       fhir:Patient.name [
+         fhir:index -1 ;
+         fhir:HumanName.use [ fhir:value "usual" ] ;
+         fhir:HumanName.family [ fhir:value "AVION" ]
+       ], [
+         fhir:index -1 ;
+         fhir:HumanName.use [ fhir:value "official" ] ;
+         fhir:HumanName.family [ fhir:value "AVION" ] ;
+         fhir:HumanName.given [
+           fhir:value "JAUNE" ;
+           fhir:index -1
+         ]
+       ] ;
+       fhir:Patient.birthDate [ fhir:value "1961-11-25"^^xsd:date ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Practitioner ;
+       fhir:Resource.id [ fhir:value "practitioner-TradPN13FHIR-Presc-Paracetamol" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner" ;
+           fhir:index -1 ;
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Practitioner_practitioner-TradPN13FHIR-Presc-Paracetamol\"> </a><p class=\"res-header-id\"><b>Narratif généré : Praticien practitioner-TradPN13FHIR-Presc-Paracetamol</b></p><a name=\"practitioner-TradPN13FHIR-Presc-Paracetamol\"> </a><a name=\"hcpractitioner-TradPN13FHIR-Presc-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-practitioner.html\">FR Core Practitioner Profile</a></p></div><p><b>identifier</b>: Employee number/P082443</p><p><b>name</b>: DENIS LUIGGI , DENIS LUIGGI (Official)</p></div>"
+       ] ;
+       fhir:Practitioner.identifier [
+         fhir:index -1 ;
+         fhir:Identifier.type [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0203" ] ;
+             fhir:Coding.code [ fhir:value "EI" ]
+           ]
+         ] ;
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/EI" ] ;
+         fhir:Identifier.value [ fhir:value "P082443" ]
+       ] ;
+       fhir:Practitioner.name [
+         fhir:index -1 ;
+         fhir:HumanName.use [ fhir:value "usual" ] ;
+         fhir:HumanName.family [ fhir:value "LUIGGI" ] ;
+         fhir:HumanName.given [
+           fhir:value "DENIS" ;
+           fhir:index -1
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:HumanName.use [ fhir:value "official" ] ;
+         fhir:HumanName.family [ fhir:value "LUIGGI" ] ;
+         fhir:HumanName.given [
+           fhir:value "DENIS" ;
+           fhir:index -1
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Medication ;
+       fhir:Resource.id [ fhir:value "medication-TradPN13FHIR-Presc-Paracetamol" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+         ], [
+           fhir:value "https://hl7.fr/fhir/fr/medication/StructureDefinition/fr-medication-noncompound" ;
+           fhir:index -1 ;
+           fhir:link <https://hl7.fr/fhir/fr/medication/StructureDefinition/fr-medication-noncompound>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Medication_medication-TradPN13FHIR-Presc-Paracetamol\"> </a><p class=\"res-header-id\"><b>Narratif généré : Médication medication-TradPN13FHIR-Presc-Paracetamol</b></p><a name=\"medication-TradPN13FHIR-Presc-Paracetamol\"> </a><a name=\"hcmedication-TradPN13FHIR-Presc-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profils: <a href=\"StructureDefinition-fr-medication-noncompound.html\">FR Medication Non Compound</a>, <code>https://hl7.fr/fhir/fr/medication/StructureDefinition/fr-medication-noncompound</code></p></div><p><b>code</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400890006262}\">PARACETAMOL MYLAN CONSEIL 1000 MG, COMPRIME</span></p><p><b>form</b>: <span title=\"Codes :{http://standardterms.edqm.eu 10219000}\">Comprimé</span></p></div>"
+       ] ;
+       fhir:Medication.code [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/UCD" ] ;
+           fhir:Coding.code [ fhir:value "3400890006262" ] ;
+           fhir:Coding.display [ fhir:value "PARACETAMOL VIC 1000MG CPR" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "PARACETAMOL MYLAN CONSEIL 1000 MG, COMPRIME" ]
+       ] ;
+       fhir:Medication.form [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+           fhir:Coding.code [ fhir:value "10219000" ] ;
+           fhir:Coding.display [ fhir:value "Comprimé" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Observation ;
+       fhir:Resource.id [ fhir:value "observation-1-TradPN13FHIR-Presc-Paracetamol" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height" ;
+           fhir:index -1 ;
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Observation_observation-1-TradPN13FHIR-Presc-Paracetamol\"> </a><p class=\"res-header-id\"><b>Narratif généré : Observation observation-1-TradPN13FHIR-Presc-Paracetamol</b></p><a name=\"observation-1-TradPN13FHIR-Presc-Paracetamol\"> </a><a name=\"hcobservation-1-TradPN13FHIR-Presc-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-observation-body-height.html\">FR Core Observation Body Height Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 8302-2}\">Taille du patient [Longueur] Patient ; Numérique</span></p><p><b>subject</b>: <code>#patient-TradPN13FHIR-Presc-Paracetamol</code></p><p><b>effective</b>: 2018-10-25 11:06:06+0200</p><p><b>value</b>: 189 cm<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMcm = 'cm')</span></p></div>"
+       ] ;
+       fhir:Observation.status [ fhir:value "final" ] ;
+       fhir:Observation.category [
+         fhir:index -1 ;
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ] ;
+           fhir:Coding.code [ fhir:value "vital-signs" ]
+         ]
+       ] ;
+       fhir:Observation.code [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           a loinc:8302-2 ;
+           fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+           fhir:Coding.code [ fhir:value "8302-2" ]
+         ]
+       ] ;
+       fhir:Observation.subject [
+         fhir:Reference.reference [ fhir:value "#patient-TradPN13FHIR-Presc-Paracetamol" ]
+       ] ;
+       fhir:Observation.effectiveDateTime [ fhir:value "2018-10-25T11:06:06+02:00"^^xsd:dateTime ] ;
+       fhir:Observation.valueQuantity [
+         fhir:Quantity.value [ fhir:value "189"^^xsd:decimal ] ;
+         fhir:Quantity.unit [ fhir:value "cm" ] ;
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+         fhir:Quantity.code [ fhir:value "cm" ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Observation ;
+       fhir:Resource.id [ fhir:value "observation-2-TradPN13FHIR-Presc-Paracetamol" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight" ;
+           fhir:index -1 ;
+           fhir:link <https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Observation_observation-2-TradPN13FHIR-Presc-Paracetamol\"> </a><p class=\"res-header-id\"><b>Narratif généré : Observation observation-2-TradPN13FHIR-Presc-Paracetamol</b></p><a name=\"observation-2-TradPN13FHIR-Presc-Paracetamol\"> </a><a name=\"hcobservation-2-TradPN13FHIR-Presc-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-observation-body-weight.html\">FR Core Observation Body Weight Profile</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 29463-7}\">Poids corporel [Masse] Patient ; Numérique</span></p><p><b>subject</b>: <code>#patient-TradPN13FHIR-Presc-Paracetamol</code></p><p><b>effective</b>: 2018-06-21 16:05:10+0200</p><p><b>value</b>: 120 kg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMkg = 'kg')</span></p></div>"
+       ] ;
+       fhir:Observation.status [ fhir:value "final" ] ;
+       fhir:Observation.category [
+         fhir:index -1 ;
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ] ;
+           fhir:Coding.code [ fhir:value "vital-signs" ]
+         ]
+       ] ;
+       fhir:Observation.code [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           a loinc:29463-7 ;
+           fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+           fhir:Coding.code [ fhir:value "29463-7" ]
+         ]
+       ] ;
+       fhir:Observation.subject [
+         fhir:Reference.reference [ fhir:value "#patient-TradPN13FHIR-Presc-Paracetamol" ]
+       ] ;
+       fhir:Observation.effectiveDateTime [ fhir:value "2018-06-21T16:05:10+02:00"^^xsd:dateTime ] ;
+       fhir:Observation.valueQuantity [
+         fhir:Quantity.value [ fhir:value "120"^^xsd:decimal ] ;
+         fhir:Quantity.unit [ fhir:value "kg" ] ;
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+         fhir:Quantity.code [ fhir:value "kg" ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:MedicationRequest ;
+       fhir:Resource.id [ fhir:value "medicationrequest-TradPN13FHIR-Presc-Paracetamol" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"MedicationRequest_medicationrequest-TradPN13FHIR-Presc-Paracetamol\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-TradPN13FHIR-Presc-Paracetamol</b></p><a name=\"medicationrequest-TradPN13FHIR-Presc-Paracetamol\"> </a><a name=\"hcmedicationrequest-TradPN13FHIR-Presc-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-inpatient-medicationrequest.html\">FR Inpatient MedicationRequest</a></p></div><p><b>identifier</b>: <code>https://somehospital.fr/PrescrptionLine-ID</code>/31626</p><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <code>#medication-TradPN13FHIR-Presc-Paracetamol</code></p><p><b>subject</b>: <code>#patient-TradPN13FHIR-Presc-Paracetamol</code></p><p><b>encounter</b>: Identifier: <code>https://somehospital.fr/Sejour</code>/70101274</p><p><b>supportingInformation</b>: </p><ul><li>Identifier: <code>https://somehospital.fr/UF</code>/2571</li><li><code>#observation-1-TradPN13FHIR-Presc-Paracetamol</code></li><li><code>#observation-2-TradPN13FHIR-Presc-Paracetamol</code></li></ul><p><b>authoredOn</b>: 2022-04-11 16:42:53+0200</p><p><b>requester</b>: <code>#practitioner-TradPN13FHIR-Presc-Paracetamol</code></p><p><b>groupIdentifier</b>: <code>https://somehospital.fr/Prescrption-ID</code>/10723</p><p><b>note</b>: , , </p><blockquote><div><p><strong>Prescritpion textuelle:</strong> PARACETAMOL MYLAN CONSEIL 1000 MG, COMPRIME  (Voie orale) - A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pendant 2 jours</p>\n</div></blockquote><blockquote><div><p><strong>Indication:</strong> Si douleur</p>\n</div></blockquote><blockquote><div><p><strong>Commentaire:</strong> Test paracetamol 2 (à la demande)</p>\n</div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>timing</b>: Une fois par 6 hours</p><p><b>asNeeded</b>: true</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20053000}\">Voie orale</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1000 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span></td></tr></table><p><b>maxDosePerPeriod</b>: 4000 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span>/1 d<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMd = 'd')</span></p></blockquote></div>"
+       ] ;
+       fhir:MedicationRequest.identifier [
+         fhir:index -1 ;
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/PrescrptionLine-ID" ] ;
+         fhir:Identifier.value [ fhir:value "31626" ]
+       ] ;
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationReference [
+         fhir:Reference.reference [ fhir:value "#medication-TradPN13FHIR-Presc-Paracetamol" ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:Reference.reference [ fhir:value "#patient-TradPN13FHIR-Presc-Paracetamol" ]
+       ] ;
+       fhir:MedicationRequest.encounter [
+         fhir:Reference.identifier [
+           fhir:Identifier.system [ fhir:value "https://somehospital.fr/Sejour" ] ;
+           fhir:Identifier.value [ fhir:value "70101274" ]
+         ]
+       ] ;
+       fhir:MedicationRequest.supportingInformation [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role" ] ;
+           fhir:Extension.valueCode [ fhir:value "UFMED" ]
+         ] ;
+         fhir:Reference.identifier [
+           fhir:Identifier.system [ fhir:value "https://somehospital.fr/UF" ] ;
+           fhir:Identifier.value [ fhir:value "2571" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:Reference.reference [ fhir:value "#observation-1-TradPN13FHIR-Presc-Paracetamol" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Reference.reference [ fhir:value "#observation-2-TradPN13FHIR-Presc-Paracetamol" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2022-04-11T16:42:53+02:00"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:Reference.reference [ fhir:value "#practitioner-TradPN13FHIR-Presc-Paracetamol" ]
+       ] ;
+       fhir:MedicationRequest.groupIdentifier [
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/Prescrption-ID" ] ;
+         fhir:Identifier.value [ fhir:value "10723" ]
+       ] ;
+       fhir:MedicationRequest.note [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope" ] ;
+           fhir:Extension.valueCode [ fhir:value "LIPRESCTXT" ]
+         ] ;
+         fhir:Annotation.text [ fhir:value "**Prescritpion textuelle:** PARACETAMOL MYLAN CONSEIL 1000 MG, COMPRIME  (Voie orale) - A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pendant 2 jours" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope" ] ;
+           fhir:Extension.valueCode [ fhir:value "LIPRESCIND" ]
+         ] ;
+         fhir:Annotation.text [ fhir:value "**Indication:** Si douleur" ]
+       ], [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope" ] ;
+           fhir:Extension.valueCode [ fhir:value "LIPRESCCOMM" ]
+         ] ;
+         fhir:Annotation.text [ fhir:value "**Commentaire:** Test paracetamol 2 (à la demande)" ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index -1 ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsPeriod [
+               fhir:Period.start [ fhir:value "2022-04-12T06:00:00+02:00"^^xsd:dateTime ] ;
+               fhir:Period.end [ fhir:value "2022-04-15T00:00:00+02:00"^^xsd:dateTime ]
+             ] ;
+             fhir:Timing.repeat.frequencyMax [ fhir:value "1"^^xsd:positiveInteger ] ;
+             fhir:Timing.repeat.period [ fhir:value "6"^^xsd:decimal ] ;
+             fhir:Timing.repeat.periodUnit [ fhir:value "h" ]
+           ]
+         ] ;
+         fhir:Dosage.asNeededBoolean [ fhir:value "true"^^xsd:boolean ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20053000" ] ;
+             fhir:Coding.display [ fhir:value "Voie orale" ]
+           ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index -1 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "1000"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "mg" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "mg" ]
+           ]
+         ] ;
+         fhir:Dosage.maxDosePerPeriod [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "4000"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "mg" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "mg" ]
+           ] ;
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "d" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/TradPN13FHIR-Presc-Paracetamol.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

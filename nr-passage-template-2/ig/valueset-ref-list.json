@@ -23,8 +23,8 @@
     "systems" : ["http://standardterms.edqm.eu"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-action-relationship-type-value-set",
@@ -78,8 +78,8 @@
     "http://data.esante.gouv.fr/ansm/medicament/UCD"],
     "uses" : {
     },
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form",
@@ -116,8 +116,8 @@
     "systems" : ["http://standardterms.edqm.eu"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code",
@@ -142,9 +142,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest",
+    "StructureDefinition-fr-treatment-intent.html" : "MedicationRequest overall treatment intent",
     "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-treatment-intent.html" : "MedicationRequest overall treatment intent"
+    "StructureDefinition-fr-inpatient-medicationrequest.html" : "FR Inpatient MedicationRequest"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription",

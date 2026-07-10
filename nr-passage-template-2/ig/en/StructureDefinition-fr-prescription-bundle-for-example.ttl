@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "FRPrescriptionBundleForExample"] ;
   fhir:StructureDefinition.title [ fhir:value "FR Prescription Bundle For Example"] ;
   fhir:StructureDefinition.status [ fhir:value "draft"] ;
-  fhir:StructureDefinition.date [ fhir:value "2026-07-10T14:48:11+00:00"^^xsd:dateTime] ;
+  fhir:StructureDefinition.date [ fhir:value "2026-07-10T14:57:52+00:00"^^xsd:dateTime] ;
   fhir:StructureDefinition.publisher [ fhir:value "Interop'Santé"] ;
   fhir:StructureDefinition.contact [
      fhir:index -1 ;

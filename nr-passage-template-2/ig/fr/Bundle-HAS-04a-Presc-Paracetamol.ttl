@@ -1,0 +1,112 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-04a-Presc-Paracetamol> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "HAS-04a-Presc-Paracetamol"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index -1 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:MedicationRequest ;
+       fhir:Resource.id [ fhir:value "medicationrequest-HAS-4a-Presc-Paracetamol" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "extensions" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"MedicationRequest_medicationrequest-HAS-4a-Presc-Paracetamol\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-4a-Presc-Paracetamol</b></p><a name=\"medicationrequest-HAS-4a-Presc-Paracetamol\"> </a><a name=\"hcmedicationrequest-HAS-4a-Presc-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medicationrequest.html\">FR Medication Request</a></p></div><p><b>R5: Full representation of the dosage instructions (new)</b>: </p><div><p>2 gélules toutes les 6 h pendant 10 jours si douleurs</p>\n</div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <span title=\"Codes :{http://BogusSystemMedicabase.com MV00000557}\">PARACETAMOL 500 mg gélule</span></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2025-06-06 14:48:44+0200</p><p><b>requester</b>: Identifier: 899999999999</p><p><b>note</b>: </p><blockquote><div><p>Prescription textuelle: Prescription textuelle: PARACETAMOL 500mg gélule - 2 gélules toutes les 6 h pendant 10 jours si douleurs</p>\n</div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>timing</b>: Une fois par 6 hours</p><p><b>asNeeded</b>: <span title=\"Codes :{http://snomed.info/sct 22253000}\">Si douleurs</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>2 gélule ou capsule molle<span style=\"background: LightGoldenRodYellow\"> (Détails : code EDQM Standard Terms15012000 = 'Capsule')</span></td></tr></table></blockquote></div>"
+       ] ;
+       fhir:DomainResource.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction" ] ;
+         fhir:Extension.valueMarkdown [ fhir:value "2 gélules toutes les 6 h pendant 10 jours si douleurs" ]
+       ] ;
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://BogusSystemMedicabase.com" ] ;
+           fhir:Coding.code [ fhir:value "MV00000557" ] ;
+           fhir:Coding.display [ fhir:value "PARACETAMOL 500 mg gélule" ]
+         ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2025-06-06T14:48:44+02:00"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:Reference.identifier [
+           fhir:Identifier.value [ fhir:value "899999999999" ]
+         ]
+       ] ;
+       fhir:MedicationRequest.note [
+         fhir:index -1 ;
+         fhir:Annotation.text [ fhir:value "Prescription textuelle: Prescription textuelle: PARACETAMOL 500mg gélule - 2 gélules toutes les 6 h pendant 10 jours si douleurs" ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index -1 ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsDuration [
+               fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "jour" ] ;
+               fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+               fhir:Quantity.code [ fhir:value "d" ]
+             ] ;
+             fhir:Timing.repeat.frequency [ fhir:value "1"^^xsd:positiveInteger ] ;
+             fhir:Timing.repeat.period [ fhir:value "6"^^xsd:decimal ] ;
+             fhir:Timing.repeat.periodUnit [ fhir:value "h" ]
+           ]
+         ] ;
+         fhir:Dosage.asNeededCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             a sct:22253000 ;
+             fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+             fhir:Coding.code [ fhir:value "22253000" ] ;
+             fhir:Coding.display [ fhir:value "douleur" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "Si douleurs" ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index -1 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "gélule ou capsule molle" ] ;
+             fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Quantity.code [ fhir:value "15012000" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-04a-Presc-Paracetamol.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

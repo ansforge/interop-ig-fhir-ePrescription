@@ -36,7 +36,7 @@ Le jeu de valeurs à utiliser pour coder le périmètre des notes par exemple lo
   "title" : "value set Interop'Santé - Codes pour le périmètre des notes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-07-10T14:48:11+00:00",
+  "date" : "2026-07-10T14:57:52+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

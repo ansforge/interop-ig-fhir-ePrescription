@@ -18,7 +18,7 @@
   fhir:ConceptMap.name [ fhir:value "FrPN13FHIRMedicationPrescriptionPractitionerIdSeulConceptMap"] ;
   fhir:ConceptMap.title [ fhir:value "Conversion PN13 vers FHIR pour le professionnel prescripteur d'une prescription de médicaments avec uniquement un identifiant fourni"] ;
   fhir:ConceptMap.status [ fhir:value "draft"] ;
-  fhir:ConceptMap.date [ fhir:value "2026-07-10T14:48:11+00:00"^^xsd:dateTime] ;
+  fhir:ConceptMap.date [ fhir:value "2026-07-10T14:57:52+00:00"^^xsd:dateTime] ;
   fhir:ConceptMap.publisher [ fhir:value "Interop'Santé"] ;
   fhir:ConceptMap.contact [
      fhir:index -1 ;

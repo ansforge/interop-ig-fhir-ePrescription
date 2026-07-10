@@ -1,0 +1,301 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-PerfGl-NaCl-KCl-500ml> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Presc-PerfGl-NaCl-KCl-500ml"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index -1 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Medication ;
+       fhir:Resource.id [ fhir:value "medication-1-Presc-PerfGl-NaCl-KCl-500ml" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Medication_medication-1-Presc-PerfGl-NaCl-KCl-500ml\"> </a><p class=\"res-header-id\"><b>Narratif généré : Médication medication-1-Presc-PerfGl-NaCl-KCl-500ml</b></p><a name=\"medication-1-Presc-PerfGl-NaCl-KCl-500ml\"> </a><a name=\"hcmedication-1-Presc-PerfGl-NaCl-KCl-500ml\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medication-noncompound.html\">FR Medication Non Compound</a></p></div><p><b>code</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000078171}\">GLUCOSE</span></p><p><b>form</b>: <span title=\"Codes :{http://standardterms.edqm.eu 11210000}\">solution pour perfusion</span></p><p><b>amount</b>: 500 mL<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmL = 'mL')</span>/1</p><h3>Ingredients</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000078171}\">GLUCOSE</span></td><td>50 mg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmg = 'mg')</span>/1 mL<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmL = 'mL')</span></td></tr></table></div>"
+       ] ;
+       fhir:Medication.code [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/codeSMS" ] ;
+           fhir:Coding.code [ fhir:value "100000078171" ] ;
+           fhir:Coding.display [ fhir:value "glucose" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "GLUCOSE" ]
+       ] ;
+       fhir:Medication.form [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+           fhir:Coding.code [ fhir:value "11210000" ] ;
+           fhir:Coding.display [ fhir:value "solution pour perfusion" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "solution pour perfusion" ]
+       ] ;
+       fhir:Medication.amount [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "500"^^xsd:decimal ] ;
+           fhir:Quantity.unit [ fhir:value "mL" ] ;
+           fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+           fhir:Quantity.code [ fhir:value "mL" ]
+         ] ;
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ]
+         ]
+       ] ;
+       fhir:Medication.ingredient [
+         fhir:index -1 ;
+         fhir:Medication.ingredient.itemCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/codeSMS" ] ;
+             fhir:Coding.code [ fhir:value "100000078171" ] ;
+             fhir:Coding.display [ fhir:value "glucose" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "GLUCOSE" ]
+         ] ;
+         fhir:Medication.ingredient.strength [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "50"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "mg" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "mg" ]
+           ] ;
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "mL" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "mL" ]
+           ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Medication ;
+       fhir:Resource.id [ fhir:value "medication-2-Presc-PerfGl-NaCl-KCl-500ml" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Medication_medication-2-Presc-PerfGl-NaCl-KCl-500ml\"> </a><p class=\"res-header-id\"><b>Narratif généré : Médication medication-2-Presc-PerfGl-NaCl-KCl-500ml</b></p><a name=\"medication-2-Presc-PerfGl-NaCl-KCl-500ml\"> </a><a name=\"hcmedication-2-Presc-PerfGl-NaCl-KCl-500ml\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medication-noncompound.html\">FR Medication Non Compound</a></p></div><p><b>code</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000092115}\">SODIUM CHLORURE</span></p><p><b>amount</b>: 2 g<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMg = 'g')</span>/1</p></div>"
+       ] ;
+       fhir:Medication.code [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/codeSMS" ] ;
+           fhir:Coding.code [ fhir:value "100000092115" ] ;
+           fhir:Coding.display [ fhir:value "chlorure de sodium" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "SODIUM CHLORURE" ]
+       ] ;
+       fhir:Medication.amount [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ] ;
+           fhir:Quantity.unit [ fhir:value "g" ] ;
+           fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+           fhir:Quantity.code [ fhir:value "g" ]
+         ] ;
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Medication ;
+       fhir:Resource.id [ fhir:value "medication-3-Presc-PerfGl-NaCl-KCl-500ml" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Medication_medication-3-Presc-PerfGl-NaCl-KCl-500ml\"> </a><p class=\"res-header-id\"><b>Narratif généré : Médication medication-3-Presc-PerfGl-NaCl-KCl-500ml</b></p><a name=\"medication-3-Presc-PerfGl-NaCl-KCl-500ml\"> </a><a name=\"hcmedication-3-Presc-PerfGl-NaCl-KCl-500ml\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medication-noncompound.html\">FR Medication Non Compound</a></p></div><p><b>code</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000091807}\">POTASSIUM CHLORURE</span></p><p><b>amount</b>: 1 g<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMg = 'g')</span>/1</p></div>"
+       ] ;
+       fhir:Medication.code [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/codeSMS" ] ;
+           fhir:Coding.code [ fhir:value "100000091807" ] ;
+           fhir:Coding.display [ fhir:value "chlorure de potassium" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "POTASSIUM CHLORURE" ]
+       ] ;
+       fhir:Medication.amount [
+         fhir:Ratio.numerator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+           fhir:Quantity.unit [ fhir:value "g" ] ;
+           fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+           fhir:Quantity.code [ fhir:value "g" ]
+         ] ;
+         fhir:Ratio.denominator [
+           fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Medication ;
+       fhir:Resource.id [ fhir:value "medication-C-Presc-PerfGl-NaCl-KCl-500ml" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "extensions" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Medication_medication-C-Presc-PerfGl-NaCl-KCl-500ml\"> </a><p class=\"res-header-id\"><b>Narratif généré : Médication medication-C-Presc-PerfGl-NaCl-KCl-500ml</b></p><a name=\"medication-C-Presc-PerfGl-NaCl-KCl-500ml\"> </a><a name=\"hcmedication-C-Presc-PerfGl-NaCl-KCl-500ml\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medication-compound.html\">FR Medication Compound</a></p></div><p><b>code</b>: <span title=\"Codes :\">G5 500mL + NaCl 2g + KCl 1g</span></p><blockquote><p><b>ingredient</b></p><p><b>Medication component which is the vehicle of the compound Medication</b>: true</p><p><b>item</b>: <code>#medication-1-Presc-PerfGl-NaCl-KCl-500ml</code></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: <code>#medication-2-Presc-PerfGl-NaCl-KCl-500ml</code></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: <code>#medication-3-Presc-PerfGl-NaCl-KCl-500ml</code></p></blockquote></div>"
+       ] ;
+       fhir:Medication.code [
+         fhir:CodeableConcept.text [ fhir:value "G5 500mL + NaCl 2g + KCl 1g" ]
+       ] ;
+       fhir:Medication.ingredient [
+         fhir:index -1 ;
+         fhir:Element.extension [
+           fhir:index -1 ;
+           fhir:Extension.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle" ] ;
+           fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+         ] ;
+         fhir:Medication.ingredient.itemReference [
+           fhir:Reference.reference [ fhir:value "#medication-1-Presc-PerfGl-NaCl-KCl-500ml" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:Medication.ingredient.itemReference [
+           fhir:Reference.reference [ fhir:value "#medication-2-Presc-PerfGl-NaCl-KCl-500ml" ]
+         ]
+       ], [
+         fhir:index -1 ;
+         fhir:Medication.ingredient.itemReference [
+           fhir:Reference.reference [ fhir:value "#medication-3-Presc-PerfGl-NaCl-KCl-500ml" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:MedicationRequest ;
+       fhir:Resource.id [ fhir:value "medicationrequest-Presc-PerfGl-NaCl-KCl-500ml" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"MedicationRequest_medicationrequest-Presc-PerfGl-NaCl-KCl-500ml\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-Presc-PerfGl-NaCl-KCl-500ml</b></p><a name=\"medicationrequest-Presc-PerfGl-NaCl-KCl-500ml\"> </a><a name=\"hcmedicationrequest-Presc-PerfGl-NaCl-KCl-500ml\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-inpatient-medicationrequest.html\">FR Inpatient MedicationRequest</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <code>#medication-C-Presc-PerfGl-NaCl-KCl-500ml</code></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2021-08-02 16:27:47+0000</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>groupIdentifier</b>: <code>https://somehospital.fr/Prescrption-ID</code>/Presc-14637</p><blockquote><p><b>dosageInstruction</b></p><p><b>sequence</b>: 1</p><p><b>timing</b>: Une fois</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20045000}\">Voie intraveineuse</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Rate[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1 Poche<span style=\"background: LightGoldenRodYellow\"> (Détails : code EDQM Standard Terms15005000 = 'Bag')</span>/12 h<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMh = 'h')</span></td></tr></table></blockquote></div>"
+       ] ;
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationReference [
+         fhir:Reference.reference [ fhir:value "#medication-C-Presc-PerfGl-NaCl-KCl-500ml" ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2021-08-02T16:27:47.623Z"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/smart-Practitioner-71482713" ]
+       ] ;
+       fhir:MedicationRequest.groupIdentifier [
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/Prescrption-ID" ] ;
+         fhir:Identifier.value [ fhir:value "Presc-14637" ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index -1 ;
+         fhir:Dosage.sequence [ fhir:value "1"^^xsd:integer ] ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsPeriod [
+               fhir:Period.start [ fhir:value "2021-08-02T16:27:00Z"^^xsd:dateTime ] ;
+               fhir:Period.end [ fhir:value "2021-08-07T16:26:59Z"^^xsd:dateTime ]
+             ] ;
+             fhir:Timing.repeat.timeOfDay [
+               fhir:value "10:00:00"^^xsd:time ;
+               fhir:index -1
+             ], [
+               fhir:value "22:00:00"^^xsd:time ;
+               fhir:index -1
+             ]
+           ]
+         ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20045000" ] ;
+             fhir:Coding.display [ fhir:value "Voie intraveineuse" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "Voie intraveineuse" ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index -1 ;
+           fhir:Dosage.doseAndRate.rateRatio [
+             fhir:Ratio.numerator [
+               fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "Poche" ] ;
+               fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+               fhir:Quantity.code [ fhir:value "15005000" ]
+             ] ;
+             fhir:Ratio.denominator [
+               fhir:Quantity.value [ fhir:value "12"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "h" ] ;
+               fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+               fhir:Quantity.code [ fhir:value "h" ]
+             ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-PerfGl-NaCl-KCl-500ml.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

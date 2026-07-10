@@ -8,17 +8,17 @@
 <https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "ans.fhir.fr.eprescription"] ;
-  fhir:Resource.language [ fhir:value "fr-FR"] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr-FR\" lang=\"fr-FR\"><hr/><p><b>French (France)</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"ans.fhir.fr.eprescription\"> </a><a name=\"hcans.fhir.fr.eprescription\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><h2>eP</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"en-ans.fhir.fr.eprescription\"> </a><a name=\"en-hcans.fhir.fr.eprescription\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr-FR</p></div><h2>eP</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"ans.fhir.fr.eprescription\"> </a><a name=\"hcans.fhir.fr.eprescription\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr</p></div><h2>eP</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.eprescription</b></p><a name=\"en-ans.fhir.fr.eprescription\"> </a><a name=\"en-hcans.fhir.fr.eprescription\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: fr</p></div><h2>eP</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription</pre></div></div>"
   ] ;
   fhir:ImplementationGuide.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription"] ;
   fhir:ImplementationGuide.version [ fhir:value "1.1.0-ballot"] ;
   fhir:ImplementationGuide.name [ fhir:value "eP"] ;
   fhir:ImplementationGuide.title [ fhir:value "Guide d'implémentation de la ePrescription"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-07-10T14:48:11+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-07-10T14:57:52+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Interop'Santé"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;
@@ -173,7 +173,7 @@
        ], [
          fhir:index 1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "fr-FR" ]
+         fhir:Extension.valueString [ fhir:value "fr" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -556,7 +556,7 @@
        ], [
          fhir:index 1 ;
          fhir:Extension.url [ fhir:value "value" ] ;
-         fhir:Extension.valueString [ fhir:value "fr-FR" ]
+         fhir:Extension.valueString [ fhir:value "fr" ]
        ] ;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [

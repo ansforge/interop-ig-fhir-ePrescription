@@ -30,7 +30,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "Interop'Santé code system - Additional codes for relationship between action",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-07-10T14:48:11+00:00",
+  "date" : "2026-07-10T14:57:52+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
