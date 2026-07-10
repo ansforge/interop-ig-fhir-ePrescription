@@ -10,7 +10,7 @@
   "name" : "FrPN13FHIRObservationConceptMap",
   "title" : "Conversion PN13 vers FHIR pour les renseignements complémentaires d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2026-05-11T06:11:37+00:00",
+  "date" : "2026-07-10T14:23:51+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

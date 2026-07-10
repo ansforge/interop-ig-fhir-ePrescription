@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,106 +7,106 @@
 
 <https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-MV-PerfGl-NaCl-KCl> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "Presc-MV-PerfGl-NaCl-KCl"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
-     ] )
-  ] ; # 
-  fhir:type [ fhir:v "searchset"] ; # 
-  fhir:entry ( [
-     fhir:resource ( [
+  fhir:Resource.id [ fhir:value "Presc-MV-PerfGl-NaCl-KCl"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index 0 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index 0 ;
+     fhir:Bundle.entry.resource [
        a fhir:MedicationRequest ;
-       fhir:id [ fhir:v "medicationrequest-Presc-MV-PerfGl-NaCl-KCl" ] ;
-       fhir:meta [
-         fhir:profile ( [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
-         ] )
+       fhir:Resource.id [ fhir:value "medicationrequest-Presc-MV-PerfGl-NaCl-KCl" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest" ;
+           fhir:index 0 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
+         ]
        ] ;
-       fhir:text [
-         fhir:status [ fhir:v "generated" ] ;
-         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_medicationrequest-Presc-MV-PerfGl-NaCl-KCl\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-Presc-MV-PerfGl-NaCl-KCl</b></p><a name=\"medicationrequest-Presc-MV-PerfGl-NaCl-KCl\"> </a><a name=\"hcmedicationrequest-Presc-MV-PerfGl-NaCl-KCl\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-inpatient-medicationrequest.html\">FR Inpatient MedicationRequest</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <span title=\"Codes :{http://BogusSystemMedicabase.com MV00004216}\">GLUCOSE 5 % + POTASSIUM CHLORURE 0,2 % + SODIUM CHLORURE 0,4 % sol p perf</span></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2021-07-30 11:42:16+0000</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>groupIdentifier</b>: <code>https://somehospital.fr/Prescrption-ID</code>/Presc-14631</p><blockquote><p><b>dosageInstruction</b></p><p><b>timing</b>: Une fois</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20045000}\">Voie intraveineuse</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Rate[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>500 ml<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmL = 'mL')</span>/12 h<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMh = 'h')</span></td></tr></table></blockquote></div>"^^rdf:XMLLiteral ]
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_medicationrequest-Presc-MV-PerfGl-NaCl-KCl\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-Presc-MV-PerfGl-NaCl-KCl</b></p><a name=\"medicationrequest-Presc-MV-PerfGl-NaCl-KCl\"> </a><a name=\"hcmedicationrequest-Presc-MV-PerfGl-NaCl-KCl\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-inpatient-medicationrequest.html\">FR Inpatient MedicationRequest</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <span title=\"Codes :{http://BogusSystemMedicabase.com MV00004216}\">GLUCOSE 5 % + POTASSIUM CHLORURE 0,2 % + SODIUM CHLORURE 0,4 % sol p perf</span></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2021-07-30 11:42:16+0000</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>groupIdentifier</b>: <code>https://somehospital.fr/Prescrption-ID</code>/Presc-14631</p><blockquote><p><b>dosageInstruction</b></p><p><b>timing</b>: Une fois</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20045000}\">Voie intraveineuse</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Rate[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>500 ml<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMmL = 'mL')</span>/12 h<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMh = 'h')</span></td></tr></table></blockquote></div>"
        ] ;
-       fhir:status [ fhir:v "active" ] ;
-       fhir:intent [ fhir:v "order" ] ;
-       fhir:priority [ fhir:v "routine" ] ;
-       fhir:medication [
-         a fhir:CodeableConcept ;
-         fhir:coding ( [
-           fhir:system [
-             fhir:v "http://BogusSystemMedicabase.com"^^xsd:anyURI ;
-             fhir:l <http://BogusSystemMedicabase.com>
-           ] ;
-           fhir:code [ fhir:v "MV00004216" ] ;
-           fhir:display [ fhir:v "GLUCOSE 5 % + POTASSIUM CHLORURE 0,2 % + SODIUM CHLORURE 0,4 % sol p perf" ]
-         ] )
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://BogusSystemMedicabase.com" ] ;
+           fhir:Coding.code [ fhir:value "MV00004216" ] ;
+           fhir:Coding.display [ fhir:value "GLUCOSE 5 % + POTASSIUM CHLORURE 0,2 % + SODIUM CHLORURE 0,4 % sol p perf" ]
+         ]
        ] ;
-       fhir:subject [
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
-         fhir:reference [ fhir:v "Patient/14602" ]
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
        ] ;
-       fhir:authoredOn [ fhir:v "2021-07-30T11:42:16.592Z"^^xsd:dateTime ] ;
-       fhir:requester [
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
-         fhir:reference [ fhir:v "Practitioner/smart-Practitioner-71482713" ]
+       fhir:MedicationRequest.authoredOn [ fhir:value "2021-07-30T11:42:16.592Z"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/smart-Practitioner-71482713" ]
        ] ;
-       fhir:groupIdentifier [
-         fhir:system [
-           fhir:v "https://somehospital.fr/Prescrption-ID"^^xsd:anyURI ;
-           fhir:l <https://somehospital.fr/Prescrption-ID>
-         ] ;
-         fhir:value [ fhir:v "Presc-14631" ]
+       fhir:MedicationRequest.groupIdentifier [
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/Prescrption-ID" ] ;
+         fhir:Identifier.value [ fhir:value "Presc-14631" ]
        ] ;
-       fhir:dosageInstruction ( [
-         fhir:timing [
-           fhir:repeat [
-             fhir:bounds [
-               a fhir:Period ;
-               fhir:start [ fhir:v "2021-07-30T11:42:00Z"^^xsd:dateTime ] ;
-               fhir:end [ fhir:v "2021-08-04T11:41:59Z"^^xsd:dateTime ]
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index 0 ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsPeriod [
+               fhir:Period.start [ fhir:value "2021-07-30T11:42:00Z"^^xsd:dateTime ] ;
+               fhir:Period.end [ fhir:value "2021-08-04T11:41:59Z"^^xsd:dateTime ]
              ] ;
-             fhir:timeOfDay ( [ fhir:v "10:00:00"^^xsd:time ] [ fhir:v "22:00:00"^^xsd:time ] )
-           ]
-         ] ;
-         fhir:route [
-           fhir:coding ( [
-             fhir:system [
-               fhir:v "http://standardterms.edqm.eu"^^xsd:anyURI ;
-               fhir:l <http://standardterms.edqm.eu>
-             ] ;
-             fhir:code [ fhir:v "20045000" ] ;
-             fhir:display [ fhir:v "Voie intraveineuse" ]
-           ] ) ;
-           fhir:text [ fhir:v "Voie intraveineuse" ]
-         ] ;
-         fhir:doseAndRate ( [
-           fhir:rate [
-             a fhir:Ratio ;
-             fhir:numerator [
-               fhir:value [ fhir:v "500"^^xsd:decimal ] ;
-               fhir:unit [ fhir:v "ml" ] ;
-               fhir:system [
-                 fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-                 fhir:l <http://unitsofmeasure.org>
-               ] ;
-               fhir:code [ fhir:v "mL" ]
-             ] ;
-             fhir:denominator [
-               fhir:value [ fhir:v "12"^^xsd:decimal ] ;
-               fhir:unit [ fhir:v "h" ] ;
-               fhir:system [
-                 fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-                 fhir:l <http://unitsofmeasure.org>
-               ] ;
-               fhir:code [ fhir:v "h" ]
+             fhir:Timing.repeat.timeOfDay [
+               fhir:value "10:00:00"^^xsd:time ;
+               fhir:index 0
+             ], [
+               fhir:value "22:00:00"^^xsd:time ;
+               fhir:index 1
              ]
            ]
-         ] )
-       ] )
-     ] )
-  ] ) . # 
+         ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index 0 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20045000" ] ;
+             fhir:Coding.display [ fhir:value "Voie intraveineuse" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "Voie intraveineuse" ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index 0 ;
+           fhir:Dosage.doseAndRate.rateRatio [
+             fhir:Ratio.numerator [
+               fhir:Quantity.value [ fhir:value "500"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "ml" ] ;
+               fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+               fhir:Quantity.code [ fhir:value "mL" ]
+             ] ;
+             fhir:Ratio.denominator [
+               fhir:Quantity.value [ fhir:value "12"^^xsd:decimal ] ;
+               fhir:Quantity.unit [ fhir:value "h" ] ;
+               fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+               fhir:Quantity.code [ fhir:value "h" ]
+             ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-MV-PerfGl-NaCl-KCl.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

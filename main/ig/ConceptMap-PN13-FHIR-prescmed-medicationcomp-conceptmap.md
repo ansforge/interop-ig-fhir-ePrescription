@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-prescmed-medicationcomp-conceptmap | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-11 | *Computable Name*:FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap |
+| Draft as of 2026-07-10 | *Computable Name*:FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap |
 
  
 ConceptMap pour la conversion PN13 vers FHIR d’un médicament composé d’une prescritpion de médicament 
@@ -27,7 +27,7 @@ ConceptMap pour la conversion PN13 vers FHIR d’un médicament composé d’une
   "name" : "FrPN13FHIRMedicationPrescriptionMedicationCompConceptMap",
   "title" : "Conversion PN13 vers FHIR pour un médicament composé d'une prescription de médicaments",
   "status" : "draft",
-  "date" : "2026-05-11T06:11:37+00:00",
+  "date" : "2026-07-10T14:23:51+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

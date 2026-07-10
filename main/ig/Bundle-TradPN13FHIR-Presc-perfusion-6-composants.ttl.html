@@ -68,7 +68,7 @@
 
 
 
-  <span title="">FR</span>
+  <img alt="France (la) flag" src="assets/images/fra.svg" height="16" title="France (la)"/>
 
 
             </span>
@@ -274,500 +274,624 @@
 
   <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
-@prefix loinc: &lt;https://loinc.org/rdf/&gt; .
+@prefix loinc: &lt;http://loinc.org/rdf#&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
 
- a fhir:Bundle ;
+&lt;http://hl7.org/fhir/Bundle/TradPN13FHIR-Presc-perfusion-6-composants&gt; a fhir:Bundle ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/resource.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;TradPN13FHIR-Presc-perfusion-6-composants&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/resource.html#Bundle.meta">fhir:meta</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example&gt;     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;searchset&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">fhir:entry</a> ( [
-    ( <a href="http://hl7.org/fhir/R4/patient.html#Patient">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/patient.html">a</a> fhir:Patient ;
-<a href="http://hl7.org/fhir/R4/resource.html#Patient.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Patient.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Patient.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Patient_patient-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Patient patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;patient-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcpatient-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient.html\&quot;&gt;FR Core Patient Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;HENRY  Male, Date de Naissance :2000-01-01 ( Identifiant interne: 1234567891235000001820 (use: usual, ))&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Noms alternatifs (voir plus bas)\&quot;&gt;Nom alternatif :&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;Jean (Official)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-      ( <a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">fhir:identifier</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;usual&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">fhir:type</a> [
-          ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;INTRN&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Identifiant interne&quot; ]           ] )         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://somehospital.fr/IPP&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://somehospital.fr/IPP&gt;         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;1234567891235000001820&quot; ]       ] ) ;
-      ( <a href="http://hl7.org/fhir/R4/patient.html#Patient.name">fhir:name</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;usual&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;HENRY&quot; ]       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;official&quot; ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Jean&quot; ] )       ] ) ;
-<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">fhir:gender</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;male&quot; ] ;
-<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">fhir:birthDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:v</a> &quot;2000-01-01&quot;^^xsd:date ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/practitioner.html">a</a> fhir:Practitioner ;
-<a href="http://hl7.org/fhir/R4/resource.html#Practitioner.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;practitioner-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Practitioner.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Practitioner.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Practitioner_practitioner-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Praticien practitioner-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;practitioner-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcpractitioner-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-practitioner.html\&quot;&gt;FR Core Practitioner Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: Employee number/12345678910&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Charles DUPONT , Charles (Official)&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-      ( <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">fhir:identifier</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">fhir:type</a> [
-          ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/v2-0203&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;EI&quot; ]           ] )         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://somehospital.fr/EI&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://somehospital.fr/EI&gt;         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;12345678910&quot; ]       ] ) ;
-      ( <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">fhir:name</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;usual&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;DUPONT&quot; ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Charles&quot; ] )       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;official&quot; ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Charles&quot; ] )       ] )     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;medication-1-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-1-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400894061175}\&quot;&gt;NUTRYELT, sol à diluer pr perf, amp 10 mL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Ampoule&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15002000 = 'Ampoule')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:code</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://data.esante.gouv.fr/ansm/medicament/UCD&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;3400894061175&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NUTRYELT PERF AMP10ML&quot; ]         ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NUTRYELT, sol à diluer pr perf, amp 10 mL&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:amount</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:numerator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ampoule&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://standardterms.edqm.eu&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://standardterms.edqm.eu&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;15002000&quot; ]         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:denominator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ]         ]       ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;medication-2-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-2-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400892834719}\&quot;&gt;POTASSIUM CHLORURE 1 g (10% Labo COOPER), sol à diluer pr perf, amp 10 mL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Ampoule&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15002000 = 'Ampoule')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:code</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://data.esante.gouv.fr/ansm/medicament/UCD&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;3400892834719&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;POTASSIUM 10% CPF AB10ML&quot; ]         ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;POTASSIUM CHLORURE 1 g (10% Labo COOPER), sol à diluer pr perf, amp 10 mL&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:amount</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:numerator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ampoule&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://standardterms.edqm.eu&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://standardterms.edqm.eu&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;15002000&quot; ]         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:denominator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ]         ]       ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;medication-3-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-3-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400892614236}\&quot;&gt;MAGNESIUM CHLORURE 1 g (Labo LAVOISIER), sol inj, IV, amp 10 mL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Ampoule&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15002000 = 'Ampoule')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:code</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://data.esante.gouv.fr/ansm/medicament/UCD&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;3400892614236&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MAGNESIUM C.10% LAV AB10ML&quot; ]         ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MAGNESIUM CHLORURE 1 g (Labo LAVOISIER), sol inj, IV, amp 10 mL&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:amount</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:numerator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ampoule&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://standardterms.edqm.eu&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://standardterms.edqm.eu&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;15002000&quot; ]         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:denominator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ]         ]       ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;medication-4-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-4-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-4-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-4-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-4-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400893149416}\&quot;&gt;LEVOFOLINATE DE CALCIUM 25 mg (Labo ZENTIVA), sol inj, IM IV, flac 2.5 mL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Flacon&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15060000 = 'Vial')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:code</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://data.esante.gouv.fr/ansm/medicament/UCD&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;3400893149416&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CALCIUM LEV.ZEN 25MG/2,5ML FL&quot; ]         ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;LEVOFOLINATE DE CALCIUM 25 mg (Labo ZENTIVA), sol inj, IM IV, flac 2.5 mL&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:amount</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:numerator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Flacon&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://standardterms.edqm.eu&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://standardterms.edqm.eu&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;15060000&quot; ]         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:denominator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ]         ]       ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;medication-5-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-5-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-5-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-5-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-5-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400891343281}\&quot;&gt;CERNEVIT, pdr pr sol inj ou pr perf&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Flacon&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15060000 = 'Vial')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:code</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://data.esante.gouv.fr/ansm/medicament/UCD&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;3400891343281&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CERNEVIT INJ FL&quot; ]         ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;CERNEVIT, pdr pr sol inj ou pr perf&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:amount</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:numerator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Flacon&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://standardterms.edqm.eu&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://standardterms.edqm.eu&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;15060000&quot; ]         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:denominator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ]         ]       ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;medication-6-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-6-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-6-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-6-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-6-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400891780475}\&quot;&gt;SODIUM CHLORURE 0.9% (Labo B BRAUN), sol pr perf, poche 500 mL (ECOFLAC)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Poche&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15005000 = 'Bag')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:code</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://data.esante.gouv.fr/ansm/medicament/UCD&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;3400891780475&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SODIUM 0,9% BBM INJ P.E500ML&quot; ]         ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SODIUM CHLORURE 0.9% (Labo B BRAUN), sol pr perf, poche 500 mL (ECOFLAC)&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:amount</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:numerator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Poche&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://standardterms.edqm.eu&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://standardterms.edqm.eu&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;15005000&quot; ]         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:denominator</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ]         ]       ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;medication-C-prescr-perf-6-exemple&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;extensions&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-C-prescr-perf-6-exemple\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-C-prescr-perf-6-exemple&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-C-prescr-perf-6-exemple\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-C-prescr-perf-6-exemple\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-compound.html\&quot;&gt;FR Medication Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :\&quot;&gt;NUTRYELT, sol à diluer pr perf, amp 10 mL + POTASSIUM CHLORURE 1 g (10% Labo COOPER), sol à diluer pr perf, amp 10 mL + MAGNESIUM CHLORURE 1 g (Labo LAVOISIER), sol inj, IV, amp 10 mL + LEVOFOLINATE DE CALCIUM 25 mg (Labo ZENTIVA), sol inj, IM IV, flac 2.5 mL + CERNEVIT, pdr pr sol inj ou pr perf + SODIUM CHLORURE 0.9% (Labo B BRAUN), sol pr perf, poche 500 mL (ECOFLAC)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-1-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-2-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-3-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-4-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-5-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Medication component which is the vehicle of the compound Medication&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-6-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:code</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NUTRYELT, sol à diluer pr perf, amp 10 mL + POTASSIUM CHLORURE 1 g (10% Labo COOPER), sol à diluer pr perf, amp 10 mL + MAGNESIUM CHLORURE 1 g (Labo LAVOISIER), sol inj, IV, amp 10 mL + LEVOFOLINATE DE CALCIUM 25 mg (Labo ZENTIVA), sol inj, IM IV, flac 2.5 mL + CERNEVIT, pdr pr sol inj ou pr perf + SODIUM CHLORURE 0.9% (Labo B BRAUN), sol pr perf, poche 500 mL (ECOFLAC)&quot; ]       ] ;
-      ( <a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient">fhir:ingredient</a> [
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:item</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#medication-1-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#medication-1-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]         ]       ] [
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:item</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#medication-2-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#medication-2-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]         ]       ] [
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:item</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#medication-3-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#medication-3-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]         ]       ] [
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:item</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#medication-4-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#medication-4-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]         ]       ] [
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:item</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#medication-5-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#medication-5-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]         ]       ] [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Element#Medication.ingredient.extension">fhir:extension</a> [
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#boolean">a</a> fhir:Boolean ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true           ]         ] ) ;
-<a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:item</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#medication-6-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#medication-6-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]         ]       ] )     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/observation.html#Observation">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/observation.html">a</a> fhir:Observation ;
-<a href="http://hl7.org/fhir/R4/resource.html#Observation.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;observation-1-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Observation.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Observation.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_observation-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Observation observation-1-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;observation-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcobservation-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-observation-body-height.html\&quot;&gt;FR Core Observation Body Height Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://loinc.org 8302-2}\&quot;&gt;Taille du patient [Longueur] Patient ; Numérique&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;code&gt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-05-03 11:30:00+0200&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 181 cm&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMcm = 'cm')&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;final&quot; ] ;
-      ( <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:category</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/observation-category&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;vital-signs&quot; ]         ] )       ] ) ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:code</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a loinc:8302-2 ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://loinc.org&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;8302-2&quot; ]         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:subject</a> [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective_x_">fhir:effective</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-05-03T11:30:00+02:00&quot;^^xsd:dateTime       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;181&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;cm&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;cm&quot; ]       ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/observation.html#Observation">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/observation.html">a</a> fhir:Observation ;
-<a href="http://hl7.org/fhir/R4/resource.html#Observation.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;observation-2-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#Observation.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Observation.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_observation-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Observation observation-2-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;observation-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcobservation-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-observation-body-weight.html\&quot;&gt;FR Core Observation Body Weight Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://loinc.org 29463-7}\&quot;&gt;Poids corporel [Masse] Patient ; Numérique&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;code&gt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-05-03 11:30:00+0200&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 79 kg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMkg = 'kg')&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;final&quot; ] ;
-      ( <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:category</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/observation-category&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;vital-signs&quot; ]         ] )       ] ) ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:code</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a loinc:29463-7 ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://loinc.org&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;29463-7&quot; ]         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:subject</a> [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective_x_">fhir:effective</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-05-03T11:30:00+02:00&quot;^^xsd:dateTime       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;79&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;kg&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;kg&quot; ]       ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/observation.html#Observation">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/observation.html">a</a> fhir:Observation ;
-<a href="http://hl7.org/fhir/R4/resource.html#Observation.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;observation-3-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#Observation.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_observation-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Observation observation-3-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;observation-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcobservation-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://loinc.org 33558-8}\&quot;&gt;Créatinine clairance [Volume/Temps] Temps non précisé ; Urine+Sérum/Plasma ; Numérique&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;code&gt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-05-03 11:30:00+0200&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 0 µmol/l&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMumol/L = 'umol/L')&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;final&quot; ] ;
-      ( <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:category</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/observation-category&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;vital-signs&quot; ]         ] )       ] ) ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:code</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a loinc:33558-8 ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://loinc.org&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;33558-8&quot; ]         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:subject</a> [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.effective_x_">fhir:effective</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-05-03T11:30:00+02:00&quot;^^xsd:dateTime       ] ;
-<a href="http://hl7.org/fhir/R4/observation.html#Observation.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;0&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;µmol/l&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;umol/L&quot; ]       ]     ] )
-  ] [
-    ( <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/medicationrequest.html">a</a> fhir:MedicationRequest ;
-<a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#MedicationRequest.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MedicationRequest_medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedicationrequest-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-inpatient-medicationrequest.html\&quot;&gt;FR Inpatient MedicationRequest&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://somehospital.fr/PrescrptionLine-ID&lt;/code&gt;/6166&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: Order&lt;/p&gt;&lt;p&gt;&lt;b&gt;priority&lt;/b&gt;: Routine&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: &lt;code&gt;#medication-C-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;code&gt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: Identifier: &lt;code&gt;https://somehospital.fr/Sejour&lt;/code&gt;/3&lt;/p&gt;&lt;p&gt;&lt;b&gt;supportingInformation&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;#observation-1-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;#observation-2-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;#observation-3-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;authoredOn&lt;/b&gt;: 2023-05-03 11:30:00+0200&lt;/p&gt;&lt;p&gt;&lt;b&gt;requester&lt;/b&gt;: &lt;code&gt;#practitioner-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;groupIdentifier&lt;/b&gt;: &lt;code&gt;https://somehospital.fr/Prescrption-ID&lt;/code&gt;/IdentifiantAttribuéPourLaTraductionEnFHIR&lt;/p&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: &lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;Prescription textuelle:&lt;/strong&gt; 1 préparation en continu sur 12h00 par jour&lt;/p&gt;\n&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Durée 720hours , Une fois par 12 hours&lt;/p&gt;&lt;p&gt;&lt;b&gt;route&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://standardterms.edqm.eu 20045000}\&quot;&gt;Voie intraveineuse&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;1 Poche&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15005000 = 'Bag')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-      ( <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.identifier">fhir:identifier</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://somehospital.fr/PrescrptionLine-ID&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://somehospital.fr/PrescrptionLine-ID&gt;         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;6166&quot; ]       ] ) ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot; ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.intent">fhir:intent</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;order&quot; ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.priority">fhir:priority</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;routine&quot; ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.medication_x_">fhir:medication</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference">a</a> fhir:Reference ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#medication-C-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#medication-C-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.subject">fhir:subject</a> [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.encounter">fhir:encounter</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">fhir:identifier</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://somehospital.fr/Sejour&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://somehospital.fr/Sejour&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;3&quot; ]         ]       ] ;
-      ( <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.supportingInformation">fhir:supportingInformation</a> [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#observation-1-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#observation-1-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]       ] [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#observation-2-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#observation-2-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]       ] [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#observation-3-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#observation-3-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]       ] ) ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.authoredOn">fhir:authoredOn</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-05-03T11:30:00+02:00&quot;^^xsd:dateTime ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.requester">fhir:requester</a> [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> &lt;#practitioner-TradPN13FHIR-Presc-perfusion-6-composants&gt; ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;#practitioner-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.groupIdentifier">fhir:groupIdentifier</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://somehospital.fr/Prescrption-ID&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://somehospital.fr/Prescrption-ID&gt;         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;IdentifiantAttribuéPourLaTraductionEnFHIR&quot; ]       ] ;
-      ( <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.note">fhir:note</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Element#Annotation.extension">fhir:extension</a> [
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;LIPRESCTXT&quot;           ]         ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;**Prescription textuelle:** 1 préparation en continu sur 12h00 par jour&quot; ]       ] ) ;
-      ( <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.dosageInstruction">fhir:dosageInstruction</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:timing</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:repeat</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:bounds</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Period">a</a> fhir:Period ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2023-05-03T10:00:00+02:00&quot;^^xsd:dateTime ]             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.duration">fhir:duration</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;720&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.durationUnit">fhir:durationUnit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;min&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.frequency">fhir:frequency</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">fhir:v</a> &quot;1&quot;^^xsd:positiveInteger ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.period">fhir:period</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;12&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.periodUnit">fhir:periodUnit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;h&quot; ] ;
-            ( <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.timeOfDay">fhir:timeOfDay</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#time">fhir:v</a> &quot;10:00:00&quot;^^xsd:time ] )           ]         ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.route">fhir:route</a> [
-          ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://standardterms.edqm.eu&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://standardterms.edqm.eu&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;20045000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Voie intraveineuse&quot; ]           ] )         ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:doseAndRate</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:dose</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Poche&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://standardterms.edqm.eu&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://standardterms.edqm.eu&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;15005000&quot; ]           ]         ] )       ] )     ] )
-  ] ) . # 
+  <a href="http://hl7.org/fhir/R4/resource.html#Bundle.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;TradPN13FHIR-Presc-perfusion-6-composants&quot;] ;
+  <a href="http://hl7.org/fhir/R4/resource.html#Bundle.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example&quot; ;
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example&gt;
+     ]
+  ] ;
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">fhir:Bundle.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;searchset&quot;] ;
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">fhir:Bundle.entry</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+     <a href="http://hl7.org/fhir/R4/patient.html#Patient">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/patient.html">a</a> fhir:Patient ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Patient.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Patient.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Patient.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Patient_patient-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Patient patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;patient-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcpatient-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-patient.html\&quot;&gt;FR Core Patient Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;HENRY  Male, Date de Naissance :2000-01-01 ( Identifiant interne: 1234567891235000001820 (use: usual, ))&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Noms alternatifs (voir plus bas)\&quot;&gt;Nom alternatif :&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;Jean (Official)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">fhir:Patient.identifier</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">fhir:Identifier.use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;usual&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">fhir:Identifier.type</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;INTRN&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Identifiant interne&quot; ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://somehospital.fr/IPP&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;1234567891235000001820&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/patient.html#Patient.name">fhir:Patient.name</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:HumanName.use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;usual&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:HumanName.family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;HENRY&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:HumanName.use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;official&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:HumanName.given</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Jean&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">fhir:Patient.gender</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;male&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">fhir:Patient.birthDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:value</a> &quot;2000-01-01&quot;^^xsd:date ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+     <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/practitioner.html">a</a> fhir:Practitioner ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Practitioner.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;practitioner-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Practitioner.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-practitioner&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Practitioner.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Practitioner_practitioner-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Praticien practitioner-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;practitioner-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcpractitioner-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-practitioner.html\&quot;&gt;FR Core Practitioner Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: Employee number/12345678910&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Charles DUPONT , Charles (Official)&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">fhir:Practitioner.identifier</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">fhir:Identifier.type</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;EI&quot; ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://somehospital.fr/EI&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;12345678910&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">fhir:Practitioner.name</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:HumanName.use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;usual&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:HumanName.family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;DUPONT&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:HumanName.given</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Charles&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:HumanName.use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;official&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:HumanName.given</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Charles&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+         ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
+     <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;medication-1-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-1-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400894061175}\&quot;&gt;NUTRYELT, sol à diluer pr perf, amp 10 mL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Ampoule&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15002000 = 'Ampoule')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:Medication.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;3400894061175&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;NUTRYELT PERF AMP10ML&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;NUTRYELT, sol à diluer pr perf, amp 10 mL&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:Medication.amount</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:Ratio.numerator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ampoule&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://standardterms.edqm.eu&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;15002000&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:Ratio.denominator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ]
+         ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3 ;
+     <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;medication-2-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-2-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400892834719}\&quot;&gt;POTASSIUM CHLORURE 1 g (10% Labo COOPER), sol à diluer pr perf, amp 10 mL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Ampoule&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15002000 = 'Ampoule')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:Medication.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;3400892834719&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;POTASSIUM 10% CPF AB10ML&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;POTASSIUM CHLORURE 1 g (10% Labo COOPER), sol à diluer pr perf, amp 10 mL&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:Medication.amount</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:Ratio.numerator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ampoule&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://standardterms.edqm.eu&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;15002000&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:Ratio.denominator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ]
+         ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4 ;
+     <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;medication-3-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-3-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400892614236}\&quot;&gt;MAGNESIUM CHLORURE 1 g (Labo LAVOISIER), sol inj, IV, amp 10 mL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Ampoule&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15002000 = 'Ampoule')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:Medication.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;3400892614236&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;MAGNESIUM C.10% LAV AB10ML&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;MAGNESIUM CHLORURE 1 g (Labo LAVOISIER), sol inj, IV, amp 10 mL&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:Medication.amount</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:Ratio.numerator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ampoule&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://standardterms.edqm.eu&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;15002000&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:Ratio.denominator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ]
+         ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5 ;
+     <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;medication-4-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-4-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-4-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-4-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-4-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400893149416}\&quot;&gt;LEVOFOLINATE DE CALCIUM 25 mg (Labo ZENTIVA), sol inj, IM IV, flac 2.5 mL&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Flacon&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15060000 = 'Vial')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:Medication.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;3400893149416&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CALCIUM LEV.ZEN 25MG/2,5ML FL&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;LEVOFOLINATE DE CALCIUM 25 mg (Labo ZENTIVA), sol inj, IM IV, flac 2.5 mL&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:Medication.amount</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:Ratio.numerator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Flacon&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://standardterms.edqm.eu&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;15060000&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:Ratio.denominator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ]
+         ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6 ;
+     <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;medication-5-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-5-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-5-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-5-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-5-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400891343281}\&quot;&gt;CERNEVIT, pdr pr sol inj ou pr perf&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Flacon&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15060000 = 'Vial')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:Medication.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;3400891343281&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CERNEVIT INJ FL&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;CERNEVIT, pdr pr sol inj ou pr perf&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:Medication.amount</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:Ratio.numerator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Flacon&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://standardterms.edqm.eu&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;15060000&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:Ratio.denominator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ]
+         ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7 ;
+     <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;medication-6-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-6-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-6-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-6-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-6-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-noncompound.html\&quot;&gt;FR Medication Non Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://data.esante.gouv.fr/ansm/medicament/UCD 3400891780475}\&quot;&gt;SODIUM CHLORURE 0.9% (Labo B BRAUN), sol pr perf, poche 500 mL (ECOFLAC)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amount&lt;/b&gt;: 1 Poche&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15005000 = 'Bag')&lt;/span&gt;/1&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:Medication.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://data.esante.gouv.fr/ansm/medicament/UCD&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;3400891780475&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SODIUM 0,9% BBM INJ P.E500ML&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SODIUM CHLORURE 0.9% (Labo B BRAUN), sol pr perf, poche 500 mL (ECOFLAC)&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.amount">fhir:Medication.amount</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.numerator">fhir:Ratio.numerator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Poche&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://standardterms.edqm.eu&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;15005000&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Ratio#Ratio.denominator">fhir:Ratio.denominator</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ]
+         ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8 ;
+     <a href="http://hl7.org/fhir/R4/medication.html#Medication">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/medication.html">a</a> fhir:Medication ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;medication-C-prescr-perf-6-exemple&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Medication.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-compound&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Medication.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;extensions&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Medication_medication-C-prescr-perf-6-exemple\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Médication medication-C-prescr-perf-6-exemple&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medication-C-prescr-perf-6-exemple\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedication-C-prescr-perf-6-exemple\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medication-compound.html\&quot;&gt;FR Medication Compound&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :\&quot;&gt;NUTRYELT, sol à diluer pr perf, amp 10 mL + POTASSIUM CHLORURE 1 g (10% Labo COOPER), sol à diluer pr perf, amp 10 mL + MAGNESIUM CHLORURE 1 g (Labo LAVOISIER), sol inj, IV, amp 10 mL + LEVOFOLINATE DE CALCIUM 25 mg (Labo ZENTIVA), sol inj, IM IV, flac 2.5 mL + CERNEVIT, pdr pr sol inj ou pr perf + SODIUM CHLORURE 0.9% (Labo B BRAUN), sol pr perf, poche 500 mL (ECOFLAC)&lt;/span&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-1-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-2-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-3-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-4-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-5-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;ingredient&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Medication component which is the vehicle of the compound Medication&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;item&lt;/b&gt;: &lt;code&gt;#medication-6-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.code">fhir:Medication.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;NUTRYELT, sol à diluer pr perf, amp 10 mL + POTASSIUM CHLORURE 1 g (10% Labo COOPER), sol à diluer pr perf, amp 10 mL + MAGNESIUM CHLORURE 1 g (Labo LAVOISIER), sol inj, IV, amp 10 mL + LEVOFOLINATE DE CALCIUM 25 mg (Labo ZENTIVA), sol inj, IM IV, flac 2.5 mL + CERNEVIT, pdr pr sol inj ou pr perf + SODIUM CHLORURE 0.9% (Labo B BRAUN), sol pr perf, poche 500 mL (ECOFLAC)&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient">fhir:Medication.ingredient</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:Medication.ingredient.itemReference</a> [
+           <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#medication-1-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+         <a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:Medication.ingredient.itemReference</a> [
+           <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#medication-2-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
+         <a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:Medication.ingredient.itemReference</a> [
+           <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#medication-3-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3 ;
+         <a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:Medication.ingredient.itemReference</a> [
+           <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#medication-4-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4 ;
+         <a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:Medication.ingredient.itemReference</a> [
+           <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#medication-5-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Element#Medication.ingredient.extension">fhir:Element.extension</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-is-vehicle&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:Extension.valueBoolean</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;true&quot;^^xsd:boolean ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/medication.html#Medication.ingredient.item_x_">fhir:Medication.ingredient.itemReference</a> [
+           <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#medication-6-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+         ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9 ;
+     <a href="http://hl7.org/fhir/R4/observation.html#Observation">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/observation.html">a</a> fhir:Observation ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Observation.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;observation-1-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Observation.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Observation.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_observation-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Observation observation-1-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;observation-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcobservation-1-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-observation-body-height.html\&quot;&gt;FR Core Observation Body Height Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://loinc.org 8302-2}\&quot;&gt;Taille du patient [Longueur] Patient ; Numérique&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;code&gt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-05-03 11:30:00+0200&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 181 cm&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMcm = 'cm')&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:Observation.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;final&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:Observation.category</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;vital-signs&quot; ]
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:Observation.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           a loinc:8302-2 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://loinc.org&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;8302-2&quot; ]
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:Observation.subject</a> [
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.effective_x_">fhir:Observation.effectiveDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2023-05-03T11:30:00+02:00&quot;^^xsd:dateTime ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.value_x_">fhir:Observation.valueQuantity</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;181&quot;^^xsd:decimal ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;cm&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;cm&quot; ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10 ;
+     <a href="http://hl7.org/fhir/R4/observation.html#Observation">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/observation.html">a</a> fhir:Observation ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Observation.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;observation-2-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Observation.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Observation.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_observation-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Observation observation-2-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;observation-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcobservation-2-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;https://hl7.fr/ig/fhir/core/2.1.0/StructureDefinition-fr-core-observation-body-weight.html\&quot;&gt;FR Core Observation Body Weight Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://loinc.org 29463-7}\&quot;&gt;Poids corporel [Masse] Patient ; Numérique&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;code&gt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-05-03 11:30:00+0200&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 79 kg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMkg = 'kg')&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:Observation.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;final&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:Observation.category</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;vital-signs&quot; ]
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:Observation.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           a loinc:29463-7 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://loinc.org&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;29463-7&quot; ]
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:Observation.subject</a> [
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.effective_x_">fhir:Observation.effectiveDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2023-05-03T11:30:00+02:00&quot;^^xsd:dateTime ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.value_x_">fhir:Observation.valueQuantity</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;79&quot;^^xsd:decimal ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;kg&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;kg&quot; ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 11 ;
+     <a href="http://hl7.org/fhir/R4/observation.html#Observation">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/observation.html">a</a> fhir:Observation ;
+       <a href="http://hl7.org/fhir/R4/resource.html#Observation.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;observation-3-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#Observation.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Observation_observation-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : Observation observation-3-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;observation-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcobservation-3-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\&quot;&gt;Vital Signs&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://loinc.org 33558-8}\&quot;&gt;Créatinine clairance [Volume/Temps] Temps non précisé ; Urine+Sérum/Plasma ; Numérique&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;code&gt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-05-03 11:30:00+0200&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 0 µmol/l&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMumol/L = 'umol/L')&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.status">fhir:Observation.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;final&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.category">fhir:Observation.category</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;vital-signs&quot; ]
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.code">fhir:Observation.code</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           a loinc:33558-8 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://loinc.org&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;33558-8&quot; ]
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.subject">fhir:Observation.subject</a> [
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.effective_x_">fhir:Observation.effectiveDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2023-05-03T11:30:00+02:00&quot;^^xsd:dateTime ] ;
+       <a href="http://hl7.org/fhir/R4/observation.html#Observation.value_x_">fhir:Observation.valueQuantity</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;0&quot;^^xsd:decimal ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;µmol/l&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;umol/L&quot; ]
+       ]
+     ]
+  ], [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 12 ;
+     <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html">a</a> fhir:MedicationRequest ;
+       <a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#MedicationRequest.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MedicationRequest_medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medicationrequest-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedicationrequest-TradPN13FHIR-Presc-perfusion-6-composants\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-inpatient-medicationrequest.html\&quot;&gt;FR Inpatient MedicationRequest&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://somehospital.fr/PrescrptionLine-ID&lt;/code&gt;/6166&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: Order&lt;/p&gt;&lt;p&gt;&lt;b&gt;priority&lt;/b&gt;: Routine&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: &lt;code&gt;#medication-C-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;code&gt;#patient-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: Identifier: &lt;code&gt;https://somehospital.fr/Sejour&lt;/code&gt;/3&lt;/p&gt;&lt;p&gt;&lt;b&gt;supportingInformation&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;code&gt;#observation-1-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;#observation-2-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/li&gt;&lt;li&gt;&lt;code&gt;#observation-3-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;authoredOn&lt;/b&gt;: 2023-05-03 11:30:00+0200&lt;/p&gt;&lt;p&gt;&lt;b&gt;requester&lt;/b&gt;: &lt;code&gt;#practitioner-TradPN13FHIR-Presc-perfusion-6-composants&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;groupIdentifier&lt;/b&gt;: &lt;code&gt;https://somehospital.fr/Prescrption-ID&lt;/code&gt;/IdentifiantAttribuéPourLaTraductionEnFHIR&lt;/p&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: &lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;&lt;strong&gt;Prescription textuelle:&lt;/strong&gt; 1 préparation en continu sur 12h00 par jour&lt;/p&gt;\n&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Durée 720hours , Une fois par 12 hours&lt;/p&gt;&lt;p&gt;&lt;b&gt;route&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://standardterms.edqm.eu 20045000}\&quot;&gt;Voie intraveineuse&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;1 Poche&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code EDQM Standard Terms15005000 = 'Bag')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.identifier">fhir:MedicationRequest.identifier</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://somehospital.fr/PrescrptionLine-ID&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;6166&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.status">fhir:MedicationRequest.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.intent">fhir:MedicationRequest.intent</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;order&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.priority">fhir:MedicationRequest.priority</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;routine&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.medication_x_">fhir:MedicationRequest.medicationReference</a> [
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#medication-C-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.subject">fhir:MedicationRequest.subject</a> [
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#patient-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.encounter">fhir:MedicationRequest.encounter</a> [
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">fhir:Reference.identifier</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://somehospital.fr/Sejour&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;3&quot; ]
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.supportingInformation">fhir:MedicationRequest.supportingInformation</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#observation-1-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#observation-2-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#observation-3-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.authoredOn">fhir:MedicationRequest.authoredOn</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2023-05-03T11:30:00+02:00&quot;^^xsd:dateTime ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.requester">fhir:MedicationRequest.requester</a> [
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;#practitioner-TradPN13FHIR-Presc-perfusion-6-composants&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.groupIdentifier">fhir:MedicationRequest.groupIdentifier</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://somehospital.fr/Prescrption-ID&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;IdentifiantAttribuéPourLaTraductionEnFHIR&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.note">fhir:MedicationRequest.note</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Element#Annotation.extension">fhir:Element.extension</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:Extension.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;LIPRESCTXT&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">fhir:Annotation.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;**Prescription textuelle:** 1 préparation en continu sur 12h00 par jour&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.dosageInstruction">fhir:MedicationRequest.dosageInstruction</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:Dosage.timing</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:Timing.repeat</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:Timing.repeat.boundsPeriod</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:Period.start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2023-05-03T10:00:00+02:00&quot;^^xsd:dateTime ]
+             ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.duration">fhir:Timing.repeat.duration</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;720&quot;^^xsd:decimal ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.durationUnit">fhir:Timing.repeat.durationUnit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;min&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.frequency">fhir:Timing.repeat.frequency</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">fhir:value</a> &quot;1&quot;^^xsd:positiveInteger ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.period">fhir:Timing.repeat.period</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;12&quot;^^xsd:decimal ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.periodUnit">fhir:Timing.repeat.periodUnit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;h&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.timeOfDay">fhir:Timing.repeat.timeOfDay</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#time">fhir:value</a> &quot;10:00:00&quot;^^xsd:time ;
+               <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+             ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.route">fhir:Dosage.route</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+             <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://standardterms.edqm.eu&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;20045000&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Voie intraveineuse&quot; ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:Dosage.doseAndRate</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:Dosage.doseAndRate.doseQuantity</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Poche&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://standardterms.edqm.eu&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;15005000&quot; ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+&lt;http://hl7.org/fhir/Bundle/TradPN13FHIR-Presc-perfusion-6-composants.ttl&gt; a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI &lt;http://build.fhir.org/Bundle/TradPN13FHIR-Presc-perfusion-6-composants.ttl&gt; .
 
 </pre>
 
@@ -816,13 +940,13 @@ a loinc:33558-8 ;
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#1.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 11, 2026 06:11+0000">2026-05-11</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#1.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 10, 2026 14:23+0000">2026-07-10</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html">Historique des versions </a>
-
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/interop-ig-fhir-ePrescription/issues/new">New Issue</a>
 
           </span>
         </p>

@@ -68,7 +68,7 @@
 
 
 
-  <span title="">FR</span>
+  <img alt="France (la) flag" src="assets/images/fra.svg" height="16" title="France (la)"/>
 
 
             </span>
@@ -277,184 +277,241 @@
   <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
 
- a fhir:Bundle ;
+&lt;http://hl7.org/fhir/Bundle/HAS-21-Presc-Prednisolone&gt; a fhir:Bundle ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/resource.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;HAS-21-Presc-Prednisolone&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/resource.html#Bundle.meta">fhir:meta</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example&gt;     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;searchset&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">fhir:entry</a> ( [
-    ( <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest">fhir:resource</a> [
-<a href="http://hl7.org/fhir/R4/medicationrequest.html">a</a> fhir:MedicationRequest ;
-<a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;medicationrequest-HAS-21-Presc-Prednisolone&quot; ] ;
-<a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.meta">fhir:meta</a> [
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest&gt;         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/domainresource.html#MedicationRequest.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;extensions&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MedicationRequest_medicationrequest-HAS-21-Presc-Prednisolone\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-21-Presc-Prednisolone&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medicationrequest-HAS-21-Presc-Prednisolone\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedicationrequest-HAS-21-Presc-Prednisolone\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medicationrequest.html\&quot;&gt;FR Medication Request&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;R5: Full representation of the dosage instructions (new)&lt;/b&gt;: &lt;/p&gt;&lt;div&gt;&lt;p&gt;en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: Order&lt;/p&gt;&lt;p&gt;&lt;b&gt;priority&lt;/b&gt;: Routine&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://BogusSystemMedicabase.com MV00002248}\&quot;&gt;PREDNISOLONE 20 mg comprimé&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient/14602\&quot;&gt;Patient/14602&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;authoredOn&lt;/b&gt;: 2025-07-23 10:33:00+0100&lt;/p&gt;&lt;p&gt;&lt;b&gt;requester&lt;/b&gt;: &lt;a href=\&quot;Practitioner/smart-Practitioner-71482713\&quot;&gt;Practitioner/smart-Practitioner-71482713&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: &lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution&lt;/p&gt;\n&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;additionalInstruction&lt;/b&gt;: &lt;span title=\&quot;Codes :\&quot;&gt;Jusqu'à obtenir 3 bandelettes urinaires négatives&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;60 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 2&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;50 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 3&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;40 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 4&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;30 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 5&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;20 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 6&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;10 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 7&lt;/p&gt;&lt;p&gt;&lt;b&gt;additionalInstruction&lt;/b&gt;: &lt;span title=\&quot;Codes :\&quot;&gt;Revoir pour l'arrêt selon évolution&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]       ] ;
-      ( <a href="http://hl7.org/fhir/R4/domainresource.html#MedicationRequest.extension">fhir:extension</a> [
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction&gt;         ] ;
-<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#markdown">a</a> fhir:Markdown ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution&quot;         ]       ] ) ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot; ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.intent">fhir:intent</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;order&quot; ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.priority">fhir:priority</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;routine&quot; ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.medication_x_">fhir:medication</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://BogusSystemMedicabase.com&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://BogusSystemMedicabase.com&gt;           ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MV00002248&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;PREDNISOLONE 20 mg comprimé&quot; ]         ] )       ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.subject">fhir:subject</a> [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> fhir:Patient/14602 ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/14602&quot; ]       ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.authoredOn">fhir:authoredOn</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-07-23T10:33:00+01:00&quot;^^xsd:dateTime ] ;
-<a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.requester">fhir:requester</a> [
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:l</a> fhir:Practitioner/smart-Practitioner-71482713 ;
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Practitioner/smart-Practitioner-71482713&quot; ]       ] ;
-      ( <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.note">fhir:note</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution&quot; ]       ] ) ;
-      ( <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.dosageInstruction">fhir:dosageInstruction</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 1 ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.additionalInstruction">fhir:additionalInstruction</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Jusqu'à obtenir 3 bandelettes urinaires négatives&quot; ]         ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:timing</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:repeat</a> [
-            ( <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:when</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MORN&quot; ] )           ]         ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:doseAndRate</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:dose</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;60&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mg&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;mg&quot; ]           ]         ] )       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 2 ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:timing</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:repeat</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:bounds</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Duration">a</a> fhir:Duration ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;semaine&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;               ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;wk&quot; ]             ] ;
-            ( <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:when</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MORN&quot; ] )           ]         ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:doseAndRate</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:dose</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;50&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mg&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;mg&quot; ]           ]         ] )       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 3 ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:timing</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:repeat</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:bounds</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Duration">a</a> fhir:Duration ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;semaine&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;               ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;wk&quot; ]             ] ;
-            ( <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:when</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MORN&quot; ] )           ]         ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:doseAndRate</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:dose</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;40&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mg&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;mg&quot; ]           ]         ] )       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 4 ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:timing</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:repeat</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:bounds</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Duration">a</a> fhir:Duration ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;semaine&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;               ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;wk&quot; ]             ] ;
-            ( <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:when</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MORN&quot; ] )           ]         ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:doseAndRate</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:dose</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;30&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mg&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;mg&quot; ]           ]         ] )       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 5 ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:timing</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:repeat</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:bounds</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Duration">a</a> fhir:Duration ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;semaine&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;               ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;wk&quot; ]             ] ;
-            ( <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:when</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MORN&quot; ] )           ]         ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:doseAndRate</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:dose</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;20&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mg&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;mg&quot; ]           ]         ] )       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 6 ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:timing</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:repeat</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:bounds</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Duration">a</a> fhir:Duration ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;1&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;semaine&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;               ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;wk&quot; ]             ] ;
-            ( <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:when</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MORN&quot; ] )           ]         ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:doseAndRate</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:dose</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:v</a> &quot;10&quot;^^xsd:decimal ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mg&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:system</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unitsofmeasure.org&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unitsofmeasure.org&gt;             ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;mg&quot; ]           ]         ] )       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:v</a> 7 ] ;
-        ( <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.additionalInstruction">fhir:additionalInstruction</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Revoir pour l'arrêt selon évolution&quot; ]         ] )       ] )     ] )
-  ] ) . # 
+  <a href="http://hl7.org/fhir/R4/resource.html#Bundle.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;HAS-21-Presc-Prednisolone&quot;] ;
+  <a href="http://hl7.org/fhir/R4/resource.html#Bundle.meta">fhir:Resource.meta</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example&quot; ;
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example&gt;
+     ]
+  ] ;
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">fhir:Bundle.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;searchset&quot;] ;
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">fhir:Bundle.entry</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+     <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest">fhir:Bundle.entry.resource</a> [
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html">a</a> fhir:MedicationRequest ;
+       <a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;medicationrequest-HAS-21-Presc-Prednisolone&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/resource.html#MedicationRequest.meta">fhir:Resource.meta</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest&quot; ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest&gt;
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#MedicationRequest.text">fhir:DomainResource.text</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;extensions&quot; ] ;
+         fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;MedicationRequest_medicationrequest-HAS-21-Presc-Prednisolone\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-21-Presc-Prednisolone&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;medicationrequest-HAS-21-Presc-Prednisolone\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcmedicationrequest-HAS-21-Presc-Prednisolone\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;StructureDefinition-fr-medicationrequest.html\&quot;&gt;FR Medication Request&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;R5: Full representation of the dosage instructions (new)&lt;/b&gt;: &lt;/p&gt;&lt;div&gt;&lt;p&gt;en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: Order&lt;/p&gt;&lt;p&gt;&lt;b&gt;priority&lt;/b&gt;: Routine&lt;/p&gt;&lt;p&gt;&lt;b&gt;medication&lt;/b&gt;: &lt;span title=\&quot;Codes :{http://BogusSystemMedicabase.com MV00002248}\&quot;&gt;PREDNISOLONE 20 mg comprimé&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient/14602\&quot;&gt;Patient/14602&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;authoredOn&lt;/b&gt;: 2025-07-23 10:33:00+0100&lt;/p&gt;&lt;p&gt;&lt;b&gt;requester&lt;/b&gt;: &lt;a href=\&quot;Practitioner/smart-Practitioner-71482713\&quot;&gt;Practitioner/smart-Practitioner-71482713&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;note&lt;/b&gt;: &lt;/p&gt;&lt;blockquote&gt;&lt;div&gt;&lt;p&gt;Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution&lt;/p&gt;\n&lt;/div&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 1&lt;/p&gt;&lt;p&gt;&lt;b&gt;additionalInstruction&lt;/b&gt;: &lt;span title=\&quot;Codes :\&quot;&gt;Jusqu'à obtenir 3 bandelettes urinaires négatives&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;60 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 2&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;50 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 3&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;40 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 4&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;30 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 5&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;20 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 6&lt;/p&gt;&lt;p&gt;&lt;b&gt;timing&lt;/b&gt;: Matin, Une fois&lt;/p&gt;&lt;h3&gt;DoseAndRates&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Dose[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;10 mg&lt;span style=\&quot;background: LightGoldenRodYellow\&quot;&gt; (Détails : code UCUMmg = 'mg')&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;dosageInstruction&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;sequence&lt;/b&gt;: 7&lt;/p&gt;&lt;p&gt;&lt;b&gt;additionalInstruction&lt;/b&gt;: &lt;span title=\&quot;Codes :\&quot;&gt;Revoir pour l'arrêt selon évolution&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
+       ] ;
+       <a href="http://hl7.org/fhir/R4/domainresource.html#MedicationRequest.extension">fhir:DomainResource.extension</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction&quot; ] ;
+         <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:Extension.valueMarkdown</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.status">fhir:MedicationRequest.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.intent">fhir:MedicationRequest.intent</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;order&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.priority">fhir:MedicationRequest.priority</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;routine&quot; ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.medication_x_">fhir:MedicationRequest.medicationCodeableConcept</a> [
+         <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://BogusSystemMedicabase.com&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MV00002248&quot; ] ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;PREDNISOLONE 20 mg comprimé&quot; ]
+         ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.subject">fhir:MedicationRequest.subject</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/Patient/14602&gt; ;
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Patient/14602&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.authoredOn">fhir:MedicationRequest.authoredOn</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2025-07-23T10:33:00+01:00&quot;^^xsd:dateTime ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.requester">fhir:MedicationRequest.requester</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/Practitioner/smart-Practitioner-71482713&gt; ;
+         <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Practitioner/smart-Practitioner-71482713&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.note">fhir:MedicationRequest.note</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Annotation#Annotation.text">fhir:Annotation.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution&quot; ]
+       ] ;
+       <a href="http://hl7.org/fhir/R4/medicationrequest.html#MedicationRequest.dosageInstruction">fhir:MedicationRequest.dosageInstruction</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:Dosage.sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:value</a> &quot;1&quot;^^xsd:integer ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.additionalInstruction">fhir:Dosage.additionalInstruction</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Jusqu'à obtenir 3 bandelettes urinaires négatives&quot; ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:Dosage.timing</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:Timing.repeat</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:Timing.repeat.when</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MORN&quot; ;
+               <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+             ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:Dosage.doseAndRate</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:Dosage.doseAndRate.doseQuantity</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;60&quot;^^xsd:decimal ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mg&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;mg&quot; ]
+           ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:Dosage.sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:value</a> &quot;2&quot;^^xsd:integer ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:Dosage.timing</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:Timing.repeat</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:Timing.repeat.boundsDuration</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;semaine&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;wk&quot; ]
+             ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:Timing.repeat.when</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MORN&quot; ;
+               <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+             ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:Dosage.doseAndRate</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:Dosage.doseAndRate.doseQuantity</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;50&quot;^^xsd:decimal ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mg&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;mg&quot; ]
+           ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:Dosage.sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:value</a> &quot;3&quot;^^xsd:integer ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:Dosage.timing</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:Timing.repeat</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:Timing.repeat.boundsDuration</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;semaine&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;wk&quot; ]
+             ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:Timing.repeat.when</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MORN&quot; ;
+               <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+             ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:Dosage.doseAndRate</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:Dosage.doseAndRate.doseQuantity</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;40&quot;^^xsd:decimal ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mg&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;mg&quot; ]
+           ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:Dosage.sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:value</a> &quot;4&quot;^^xsd:integer ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:Dosage.timing</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:Timing.repeat</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:Timing.repeat.boundsDuration</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;semaine&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;wk&quot; ]
+             ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:Timing.repeat.when</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MORN&quot; ;
+               <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+             ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:Dosage.doseAndRate</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:Dosage.doseAndRate.doseQuantity</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;30&quot;^^xsd:decimal ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mg&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;mg&quot; ]
+           ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:Dosage.sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:value</a> &quot;5&quot;^^xsd:integer ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:Dosage.timing</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:Timing.repeat</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:Timing.repeat.boundsDuration</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;semaine&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;wk&quot; ]
+             ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:Timing.repeat.when</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MORN&quot; ;
+               <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+             ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:Dosage.doseAndRate</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:Dosage.doseAndRate.doseQuantity</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;20&quot;^^xsd:decimal ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mg&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;mg&quot; ]
+           ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:Dosage.sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:value</a> &quot;6&quot;^^xsd:integer ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.timing">fhir:Dosage.timing</a> [
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat">fhir:Timing.repeat</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.bounds_x_">fhir:Timing.repeat.boundsDuration</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;1&quot;^^xsd:decimal ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;semaine&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+               <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Duration.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;wk&quot; ]
+             ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Timing#Timing.repeat.when">fhir:Timing.repeat.when</a> [
+               <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MORN&quot; ;
+               <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
+             ]
+           ]
+         ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate">fhir:Dosage.doseAndRate</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.doseAndRate.dose_x_">fhir:Dosage.doseAndRate.doseQuantity</a> [
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#decimal">fhir:value</a> &quot;10&quot;^^xsd:decimal ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;mg&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.system">fhir:Quantity.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://unitsofmeasure.org&quot; ] ;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#Quantity#Quantity.code">fhir:Quantity.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;mg&quot; ]
+           ]
+         ]
+       ], [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6 ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.sequence">fhir:Dosage.sequence</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#integer">fhir:value</a> &quot;7&quot;^^xsd:integer ] ;
+         <a href="http://hl7.org/fhir/R4/datatypes.html#Dosage#Dosage.additionalInstruction">fhir:Dosage.additionalInstruction</a> [
+           <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
+           <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Revoir pour l'arrêt selon évolution&quot; ]
+         ]
+       ]
+     ]
+  ] .
+
+&lt;http://hl7.org/fhir/Patient/14602&gt; a fhir:Patient .
+
+&lt;http://hl7.org/fhir/Practitioner/smart-Practitioner-71482713&gt; a fhir:Practitioner .
+
+# - ontology header ------------------------------------------------------------
+
+&lt;http://hl7.org/fhir/Bundle/HAS-21-Presc-Prednisolone.ttl&gt; a owl:Ontology ;
+  owl:imports fhir:fhir.ttl ;
+  owl:versionIRI &lt;http://build.fhir.org/Bundle/HAS-21-Presc-Prednisolone.ttl&gt; .
 
 </code></pre>
 
@@ -503,13 +560,13 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#1.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 11, 2026 06:11+0000">2026-05-11</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="http://interopsante.org/">Interop&#39;Santé</a>.  Package ans.fhir.fr.eprescription#1.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jul 10, 2026 14:23+0000">2026-07-10</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/fhir/eprescription/history.html">Historique des versions </a>
-
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/interop-ig-fhir-ePrescription/issues/new">New Issue</a>
 
           </span>
         </p>

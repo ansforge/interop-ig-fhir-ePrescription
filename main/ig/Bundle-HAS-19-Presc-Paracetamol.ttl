@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,107 +7,100 @@
 
 <https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-19-Presc-Paracetamol> a fhir:Bundle ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "HAS-19-Presc-Paracetamol"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"^^xsd:anyURI ;
-       fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
-     ] )
-  ] ; # 
-  fhir:type [ fhir:v "searchset"] ; # 
-  fhir:entry ( [
-     fhir:resource ( [
+  fhir:Resource.id [ fhir:value "HAS-19-Presc-Paracetamol"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index 0 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index 0 ;
+     fhir:Bundle.entry.resource [
        a fhir:MedicationRequest ;
-       fhir:id [ fhir:v "medicationrequest-HAS-19-Presc-Paracetamol" ] ;
-       fhir:meta [
-         fhir:profile ( [
-           fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"^^xsd:anyURI ;
-           fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest>
-         ] )
-       ] ;
-       fhir:text [
-         fhir:status [ fhir:v "extensions" ] ;
-         fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_medicationrequest-HAS-19-Presc-Paracetamol\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-19-Presc-Paracetamol</b></p><a name=\"medicationrequest-HAS-19-Presc-Paracetamol\"> </a><a name=\"hcmedicationrequest-HAS-19-Presc-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medicationrequest.html\">FR Medication Request</a></p></div><p><b>R5: Full representation of the dosage instructions (new)</b>: </p><div><p>1 comprimé,  3 prises par jour, espacés d’au moins 4 heures.</p>\n</div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <span title=\"Codes :{http://BogusSystemMedicabase.com MV00002414}\">PARACETAMOL 1000 mg comprimé</span></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2025-07-23 10:33:00+0100</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>note</b>: </p><blockquote><div><p>Prescription textuelle: PARACETAMOL 1000 mg comprimé: 1 comprimé,  3 prises par jour, espacés d’au moins 4 heures.</p>\n</div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>timing</b>: 3 par 1 day</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1 Comprimé<span style=\"background: LightGoldenRodYellow\"> (Détails : code EDQM Standard Terms15054000 = 'Tablet')</span></td></tr></table><p><b>maxDosePerPeriod</b>: 1 Comprimé<span style=\"background: LightGoldenRodYellow\"> (Détails : code EDQM Standard Terms15054000 = 'Tablet')</span>/4 heure<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMh = 'h')</span></p></blockquote></div>"^^rdf:XMLLiteral ]
-       ] ;
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction>
-         ] ;
-         fhir:value [
-           a fhir:Markdown ;
-           fhir:v "1 comprimé,  3 prises par jour, espacés d’au moins 4 heures."
+       fhir:Resource.id [ fhir:value "medicationrequest-HAS-19-Presc-Paracetamol" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest" ;
+           fhir:index 0 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest>
          ]
-       ] ) ;
-       fhir:status [ fhir:v "active" ] ;
-       fhir:intent [ fhir:v "order" ] ;
-       fhir:priority [ fhir:v "routine" ] ;
-       fhir:medication [
-         a fhir:CodeableConcept ;
-         fhir:coding ( [
-           fhir:system [
-             fhir:v "http://BogusSystemMedicabase.com"^^xsd:anyURI ;
-             fhir:l <http://BogusSystemMedicabase.com>
-           ] ;
-           fhir:code [ fhir:v "MV00002414" ] ;
-           fhir:display [ fhir:v "PARACETAMOL 1000 mg comprimé" ]
-         ] )
        ] ;
-       fhir:subject [
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
-         fhir:reference [ fhir:v "Patient/14602" ]
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "extensions" ] ;
+         fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_medicationrequest-HAS-19-Presc-Paracetamol\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-HAS-19-Presc-Paracetamol</b></p><a name=\"medicationrequest-HAS-19-Presc-Paracetamol\"> </a><a name=\"hcmedicationrequest-HAS-19-Presc-Paracetamol\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medicationrequest.html\">FR Medication Request</a></p></div><p><b>R5: Full representation of the dosage instructions (new)</b>: </p><div><p>1 comprimé,  3 prises par jour, espacés d’au moins 4 heures.</p>\n</div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <span title=\"Codes :{http://BogusSystemMedicabase.com MV00002414}\">PARACETAMOL 1000 mg comprimé</span></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2025-07-23 10:33:00+0100</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>note</b>: </p><blockquote><div><p>Prescription textuelle: PARACETAMOL 1000 mg comprimé: 1 comprimé,  3 prises par jour, espacés d’au moins 4 heures.</p>\n</div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>timing</b>: 3 par 1 day</p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1 Comprimé<span style=\"background: LightGoldenRodYellow\"> (Détails : code EDQM Standard Terms15054000 = 'Tablet')</span></td></tr></table><p><b>maxDosePerPeriod</b>: 1 Comprimé<span style=\"background: LightGoldenRodYellow\"> (Détails : code EDQM Standard Terms15054000 = 'Tablet')</span>/4 heure<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMh = 'h')</span></p></blockquote></div>"
        ] ;
-       fhir:authoredOn [ fhir:v "2025-07-23T10:33:00+01:00"^^xsd:dateTime ] ;
-       fhir:requester [
-         fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
-         fhir:reference [ fhir:v "Practitioner/smart-Practitioner-71482713" ]
+       fhir:DomainResource.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction" ] ;
+         fhir:Extension.valueMarkdown [ fhir:value "1 comprimé,  3 prises par jour, espacés d’au moins 4 heures." ]
        ] ;
-       fhir:note ( [
-         fhir:text [ fhir:v "Prescription textuelle: PARACETAMOL 1000 mg comprimé: 1 comprimé,  3 prises par jour, espacés d’au moins 4 heures." ]
-       ] ) ;
-       fhir:dosageInstruction ( [
-         fhir:timing [
-           fhir:repeat [
-             fhir:frequency [ fhir:v "3"^^xsd:positiveInteger ] ;
-             fhir:period [ fhir:v "1"^^xsd:decimal ] ;
-             fhir:periodUnit [ fhir:v "d" ]
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://BogusSystemMedicabase.com" ] ;
+           fhir:Coding.code [ fhir:value "MV00002414" ] ;
+           fhir:Coding.display [ fhir:value "PARACETAMOL 1000 mg comprimé" ]
+         ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2025-07-23T10:33:00+01:00"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/smart-Practitioner-71482713" ]
+       ] ;
+       fhir:MedicationRequest.note [
+         fhir:index 0 ;
+         fhir:Annotation.text [ fhir:value "Prescription textuelle: PARACETAMOL 1000 mg comprimé: 1 comprimé,  3 prises par jour, espacés d’au moins 4 heures." ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index 0 ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.frequency [ fhir:value "3"^^xsd:positiveInteger ] ;
+             fhir:Timing.repeat.period [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Timing.repeat.periodUnit [ fhir:value "d" ]
            ]
          ] ;
-         fhir:doseAndRate ( [
-           fhir:dose [
-             a fhir:Quantity ;
-             fhir:value [ fhir:v "1"^^xsd:decimal ] ;
-             fhir:unit [ fhir:v "Comprimé" ] ;
-             fhir:system [
-               fhir:v "http://standardterms.edqm.eu"^^xsd:anyURI ;
-               fhir:l <http://standardterms.edqm.eu>
-             ] ;
-             fhir:code [ fhir:v "15054000" ]
+         fhir:Dosage.doseAndRate [
+           fhir:index 0 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "Comprimé" ] ;
+             fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Quantity.code [ fhir:value "15054000" ]
            ]
-         ] ) ;
-         fhir:maxDosePerPeriod [
-           fhir:numerator [
-             fhir:value [ fhir:v "1"^^xsd:decimal ] ;
-             fhir:unit [ fhir:v "Comprimé" ] ;
-             fhir:system [
-               fhir:v "http://standardterms.edqm.eu"^^xsd:anyURI ;
-               fhir:l <http://standardterms.edqm.eu>
-             ] ;
-             fhir:code [ fhir:v "15054000" ]
+         ] ;
+         fhir:Dosage.maxDosePerPeriod [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "Comprimé" ] ;
+             fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Quantity.code [ fhir:value "15054000" ]
            ] ;
-           fhir:denominator [
-             fhir:value [ fhir:v "4"^^xsd:decimal ] ;
-             fhir:unit [ fhir:v "heure" ] ;
-             fhir:system [
-               fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
-               fhir:l <http://unitsofmeasure.org>
-             ] ;
-             fhir:code [ fhir:v "h" ]
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "4"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "heure" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "h" ]
            ]
          ]
-       ] )
-     ] )
-  ] ) . # 
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/HAS-19-Presc-Paracetamol.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

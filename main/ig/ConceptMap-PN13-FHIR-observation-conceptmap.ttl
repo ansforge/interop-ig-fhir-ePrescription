@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,471 +7,489 @@
 
 <https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-observation-conceptmap> a fhir:ConceptMap ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "PN13-FHIR-observation-conceptmap"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts PN13-FHIR-observation-conceptmap</b></p><a name=\"PN13-FHIR-observation-conceptmap\"> </a><a name=\"hcPN13-FHIR-observation-conceptmap\"> </a><p>Mapping de https://interopsante.org/pn13/xsd vers https://hl7.org/fhir/R4/observation</p><br/><p><b>Groupe 1 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"4\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.status</b></td><td><b>Observation.subject.reference</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Observation</td><td style=\"border-left-width: 0px\"/><td>final</td><td>{Référence vers la ressource Patient sujet de la prescription}</td><td>Groupe pour initialiser les éléments nécessaires à la ressource Observation qui ne viennent pas de PN13</td></tr></table><hr/><p><b>Groupe 2 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"7\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.meta.profile</b></td><td><b>Observation.category.coding.system</b></td><td><b>Observation.code.coding.code</b></td><td><b>Observation.category.coding.code</b></td><td><b>Observation.code.coding.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_1</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td>https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight</td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>29463-7</td><td>vital-signs</td><td>http://loinc.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_2</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td>https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height</td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>8302-2</td><td>vital-signs</td><td>http://loinc.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_3</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td>8277-6</td><td/><td>http://loinc.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_4</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_5</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td>33558-8</td><td/><td>http://loinc.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_6</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_7</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_8</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_9</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_10</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 3 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Dh_enreg_rens_compl</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Observation.issued</td><td>La date et l'heure sont à mettre au format FHIR avec offset</td></tr></table><hr/><p><b>Groupe 4 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Dh_rens_compl</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Observation.effectiveDateTime</td><td>La date et l'heure sont à mettre au format FHIR avec offset</td></tr></table><hr/><p><b>Groupe 5 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"4\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"3\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td><b>Unité</b></td><td><b>Unité@Phastnomenclature</b></td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.valueQuantity.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Nombre</td><td style=\"border-left-width: 0px\"/><td/><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.value</td><td style=\"border-left-width: 0px\"/><td/><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité</td><td style=\"border-left-width: 0px\"/><td>UCUM</td><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.code</td><td style=\"border-left-width: 0px\"/><td>http://unitsofmeasure.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité</td><td style=\"border-left-width: 0px\"/><td/><td>{Absent}/{Différent de UCUM}</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.unit</td><td style=\"border-left-width: 0px\"/><td/><td>Traduire Rens_compl/Valeur_rens_compl_1/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13</td></tr></table><hr/><p><b>Groupe 6 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"4\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"3\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td><b>Unité@Phastnomenclature1</b></td><td><b>Unité1</b></td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.valueQuantity.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Nombre</td><td style=\"border-left-width: 0px\"/><td/><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.value</td><td style=\"border-left-width: 0px\"/><td/><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité</td><td style=\"border-left-width: 0px\"/><td/><td>UCUM</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.code</td><td style=\"border-left-width: 0px\"/><td>http://unitsofmeasure.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité</td><td style=\"border-left-width: 0px\"/><td>{Absent}/{Différent de UCUM}</td><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.unit</td><td style=\"border-left-width: 0px\"/><td/><td>Traduire Rens_compl/Valeur_rens_compl_2/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13</td></tr></table><hr/><p><b>Groupe 7 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"4\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"3\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td><b>Unité@Phastnomenclature2</b></td><td><b>Unité2</b></td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.valueQuantity.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Nombre</td><td style=\"border-left-width: 0px\"/><td/><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.value</td><td style=\"border-left-width: 0px\"/><td/><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité</td><td style=\"border-left-width: 0px\"/><td/><td>UCUM</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.code</td><td style=\"border-left-width: 0px\"/><td>http://unitsofmeasure.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité</td><td style=\"border-left-width: 0px\"/><td>{Absent}/{Différent de UCUM}</td><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.unit</td><td style=\"border-left-width: 0px\"/><td/><td>Traduire Rens_compl/Valeur_rens_compl_3/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13</td></tr></table><hr/><p><b>Groupe 8 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_4/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 9 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"4\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"3\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td><b>Unité@Phastnomenclature3</b></td><td><b>Unité3</b></td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.valueQuantity.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Nombre</td><td style=\"border-left-width: 0px\"/><td/><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.value</td><td style=\"border-left-width: 0px\"/><td/><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité</td><td style=\"border-left-width: 0px\"/><td/><td>UCUM</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.code</td><td style=\"border-left-width: 0px\"/><td>http://unitsofmeasure.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité</td><td style=\"border-left-width: 0px\"/><td>{Absent}/{Différent de UCUM}</td><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.unit</td><td style=\"border-left-width: 0px\"/><td/><td>Traduire Rens_compl/Valeur_rens_compl_5/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13</td></tr></table><hr/><p><b>Groupe 10 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_6/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 11 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_7/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 12 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_8/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 13 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_9/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 14 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_10/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-observation-conceptmap"^^xsd:anyURI ;
-     fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-observation-conceptmap>
-  ] ; # 
-  fhir:version [ fhir:v "1.1.0-ballot"] ; # 
-  fhir:name [ fhir:v "FrPN13FHIRObservationConceptMap"] ; # 
-  fhir:title [ fhir:v "Conversion PN13 vers FHIR pour les renseignements complémentaires d'une prescription de médicaments"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2026-05-11T06:11:37+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Interop'Santé"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "Interop'Santé" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://interopsante.org/" ]
-     ] )
-  ] [
-     fhir:name [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://esante.gouv.fr" ]
-     ] [
-       fhir:system [ fhir:v "email" ] ;
-       fhir:value [ fhir:v "monserviceclient.annuaire@esante.gouv.fr" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "ConceptMap pour la conversion PN13 vers FHIR d'un renseignement complémentare d'une prescritpion de médicament"] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
-       fhir:code [ fhir:v "FR" ] ;
-       fhir:display [ fhir:v "France (la)" ]
-     ] )
-  ] ) ; # 
-  fhir:source [
-     a fhir:Uri ;
-     fhir:v "https://interopsante.org/pn13/xsd"^^xsd:anyURI ;
-     fhir:l <https://interopsante.org/pn13/xsd>
-  ] ; # 
-  fhir:target [
-     a fhir:Uri ;
-     fhir:v "https://hl7.org/fhir/R4/observation"^^xsd:anyURI ;
-     fhir:l <https://hl7.org/fhir/R4/observation>
-  ] ; # 
-  fhir:group ( [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation" ] ;
-         fhir:equivalence [ fhir:v "relatedto" ] ;
-         fhir:comment [ fhir:v "Groupe pour initialiser les éléments nécessaires à la ressource Observation qui ne viennent pas de PN13" ] ;
-         fhir:product ( [
-           fhir:property [
-             fhir:v "Observation.status"^^xsd:anyURI ;
-             fhir:l fhir:Observation.status
-           ] ;
-           fhir:value [ fhir:v "final" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.subject.reference"^^xsd:anyURI ;
-             fhir:l fhir:Observation.subject.reference
-           ] ;
-           fhir:value [ fhir:v "{Référence vers la ressource Patient sujet de la prescription}" ]
-         ] )
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_1" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:product ( [
-           fhir:property [
-             fhir:v "Observation.meta.profile"^^xsd:anyURI ;
-             fhir:l fhir:Observation.meta.profile
-           ] ;
-           fhir:value [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.code.coding.code"^^xsd:anyURI ;
-             fhir:l fhir:Observation.code.coding.code
-           ] ;
-           fhir:value [ fhir:v "29463-7" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.code.coding.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.code.coding.system
-           ] ;
-           fhir:value [ fhir:v "http://loinc.org" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.category.coding.code"^^xsd:anyURI ;
-             fhir:l fhir:Observation.category.coding.code
-           ] ;
-           fhir:value [ fhir:v "vital-signs" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.category.coding.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.category.coding.system
-           ] ;
-           fhir:value [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category" ]
-         ] )
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_2" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:product ( [
-           fhir:property [
-             fhir:v "Observation.meta.profile"^^xsd:anyURI ;
-             fhir:l fhir:Observation.meta.profile
-           ] ;
-           fhir:value [ fhir:v "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.code.coding.code"^^xsd:anyURI ;
-             fhir:l fhir:Observation.code.coding.code
-           ] ;
-           fhir:value [ fhir:v "8302-2" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.code.coding.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.code.coding.system
-           ] ;
-           fhir:value [ fhir:v "http://loinc.org" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.category.coding.code"^^xsd:anyURI ;
-             fhir:l fhir:Observation.category.coding.code
-           ] ;
-           fhir:value [ fhir:v "vital-signs" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.category.coding.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.category.coding.system
-           ] ;
-           fhir:value [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category" ]
-         ] )
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_3" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:product ( [
-           fhir:property [
-             fhir:v "Observation.code.coding.code"^^xsd:anyURI ;
-             fhir:l fhir:Observation.code.coding.code
-           ] ;
-           fhir:value [ fhir:v "8277-6" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.code.coding.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.code.coding.system
-           ] ;
-           fhir:value [ fhir:v "http://loinc.org" ]
-         ] )
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_4" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_5" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:product ( [
-           fhir:property [
-             fhir:v "Observation.code.coding.code"^^xsd:anyURI ;
-             fhir:l fhir:Observation.code.coding.code
-           ] ;
-           fhir:value [ fhir:v "33558-8" ]
-         ] [
-           fhir:property [
-             fhir:v "Observation.code.coding.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.code.coding.system
-           ] ;
-           fhir:value [ fhir:v "http://loinc.org" ]
-         ] )
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_6" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_7" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_8" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_9" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_10" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.code.coding.code" ] ;
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Dh_enreg_rens_compl" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.issued" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:comment [ fhir:v "La date et l'heure sont à mettre au format FHIR avec offset" ]
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Dh_rens_compl" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.effectiveDateTime" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:comment [ fhir:v "La date et l'heure sont à mettre au format FHIR avec offset" ]
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Nombre" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.value" ] ;
-         fhir:equivalence [ fhir:v "equal" ]
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.code" ] ;
-         fhir:equivalence [ fhir:v "equal" ] ;
-         fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité"^^xsd:anyURI ;
-             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité>
-           ] ;
-           fhir:value [ fhir:v "UCUM" ]
-         ] ) ;
-         fhir:product ( [
-           fhir:property [
-             fhir:v "Observation.valueQuantity.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.valueQuantity.system
-           ] ;
-           fhir:value [ fhir:v "http://unitsofmeasure.org" ]
-         ] )
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.unit" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:comment [ fhir:v "Traduire Rens_compl/Valeur_rens_compl_1/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13" ] ;
-         fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité@Phast-nomenclature"^^xsd:anyURI ;
-             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité@Phast-nomenclature>
-           ] ;
-           fhir:value [ fhir:v "{Absent}/{Différent de UCUM}" ]
-         ] )
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Nombre" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.value" ] ;
-         fhir:equivalence [ fhir:v "equal" ]
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.code" ] ;
-         fhir:equivalence [ fhir:v "equal" ] ;
-         fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité"^^xsd:anyURI ;
-             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité>
-           ] ;
-           fhir:value [ fhir:v "UCUM" ]
-         ] ) ;
-         fhir:product ( [
-           fhir:property [
-             fhir:v "Observation.valueQuantity.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.valueQuantity.system
-           ] ;
-           fhir:value [ fhir:v "http://unitsofmeasure.org" ]
-         ] )
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.unit" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:comment [ fhir:v "Traduire Rens_compl/Valeur_rens_compl_2/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13" ] ;
-         fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité@Phast-nomenclature"^^xsd:anyURI ;
-             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité@Phast-nomenclature>
-           ] ;
-           fhir:value [ fhir:v "{Absent}/{Différent de UCUM}" ]
-         ] )
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Nombre" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.value" ] ;
-         fhir:equivalence [ fhir:v "equal" ]
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.code" ] ;
-         fhir:equivalence [ fhir:v "equal" ] ;
-         fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité"^^xsd:anyURI ;
-             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité>
-           ] ;
-           fhir:value [ fhir:v "UCUM" ]
-         ] ) ;
-         fhir:product ( [
-           fhir:property [
-             fhir:v "Observation.valueQuantity.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.valueQuantity.system
-           ] ;
-           fhir:value [ fhir:v "http://unitsofmeasure.org" ]
-         ] )
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.unit" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:comment [ fhir:v "Traduire Rens_compl/Valeur_rens_compl_3/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13" ] ;
-         fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité@Phast-nomenclature"^^xsd:anyURI ;
-             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité@Phast-nomenclature>
-           ] ;
-           fhir:value [ fhir:v "{Absent}/{Différent de UCUM}" ]
-         ] )
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_4/Nombre" ] ;
-       fhir:target ( [
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Nombre" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.value" ] ;
-         fhir:equivalence [ fhir:v "equal" ]
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.code" ] ;
-         fhir:equivalence [ fhir:v "equal" ] ;
-         fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité"^^xsd:anyURI ;
-             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité>
-           ] ;
-           fhir:value [ fhir:v "UCUM" ]
-         ] ) ;
-         fhir:product ( [
-           fhir:property [
-             fhir:v "Observation.valueQuantity.system"^^xsd:anyURI ;
-             fhir:l fhir:Observation.valueQuantity.system
-           ] ;
-           fhir:value [ fhir:v "http://unitsofmeasure.org" ]
-         ] )
-       ] )
-     ] [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité" ] ;
-       fhir:target ( [
-         fhir:code [ fhir:v "Observation.valueQuantity.unit" ] ;
-         fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:comment [ fhir:v "Traduire Rens_compl/Valeur_rens_compl_5/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13" ] ;
-         fhir:dependsOn ( [
-           fhir:property [
-             fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité@Phast-nomenclature"^^xsd:anyURI ;
-             fhir:l <https://interop.esante.gouv.fr/ig/fhir/eprescription/Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité@Phast-nomenclature>
-           ] ;
-           fhir:value [ fhir:v "{Absent}/{Différent de UCUM}" ]
-         ] )
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_6/Nombre" ] ;
-       fhir:target ( [
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_7/Nombre" ] ;
-       fhir:target ( [
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_8/Nombre" ] ;
-       fhir:target ( [
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_9/Nombre" ] ;
-       fhir:target ( [
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] )
-  ] [
-     fhir:element ( [
-       fhir:code [ fhir:v "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_10/Nombre" ] ;
-       fhir:target ( [
-         fhir:equivalence [ fhir:v "disjoint" ] ;
-         fhir:comment [ fhir:v "Cet élément n'est pas mappé pour l'instant" ]
-       ] )
-     ] )
-  ] ) . # 
+  fhir:Resource.id [ fhir:value "PN13-FHIR-observation-conceptmap"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts PN13-FHIR-observation-conceptmap</b></p><a name=\"PN13-FHIR-observation-conceptmap\"> </a><a name=\"hcPN13-FHIR-observation-conceptmap\"> </a><p>Mapping de https://interopsante.org/pn13/xsd vers https://hl7.org/fhir/R4/observation</p><br/><p><b>Groupe 1 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"4\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.status</b></td><td><b>Observation.subject.reference</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Observation</td><td style=\"border-left-width: 0px\"/><td>final</td><td>{Référence vers la ressource Patient sujet de la prescription}</td><td>Groupe pour initialiser les éléments nécessaires à la ressource Observation qui ne viennent pas de PN13</td></tr></table><hr/><p><b>Groupe 2 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"7\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.meta.profile</b></td><td><b>Observation.category.coding.system</b></td><td><b>Observation.code.coding.code</b></td><td><b>Observation.category.coding.code</b></td><td><b>Observation.code.coding.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_1</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td>https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight</td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>29463-7</td><td>vital-signs</td><td>http://loinc.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_2</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td>https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height</td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>8302-2</td><td>vital-signs</td><td>http://loinc.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_3</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td>8277-6</td><td/><td>http://loinc.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_4</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_5</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td>33558-8</td><td/><td>http://loinc.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_6</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_7</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_8</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_9</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_10</td><td style=\"border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td style=\"border-right-width: 0px\">Observation.code.coding.code</td><td style=\"border-left-width: 0px\"/><td/><td/><td/><td/><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 3 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Dh_enreg_rens_compl</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Observation.issued</td><td>La date et l'heure sont à mettre au format FHIR avec offset</td></tr></table><hr/><p><b>Groupe 4 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Dh_rens_compl</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Observation.effectiveDateTime</td><td>La date et l'heure sont à mettre au format FHIR avec offset</td></tr></table><hr/><p><b>Groupe 5 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"4\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"3\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td><b>Unité</b></td><td><b>Unité@Phastnomenclature</b></td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.valueQuantity.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Nombre</td><td style=\"border-left-width: 0px\"/><td/><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.value</td><td style=\"border-left-width: 0px\"/><td/><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité</td><td style=\"border-left-width: 0px\"/><td>UCUM</td><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.code</td><td style=\"border-left-width: 0px\"/><td>http://unitsofmeasure.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité</td><td style=\"border-left-width: 0px\"/><td/><td>{Absent}/{Différent de UCUM}</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.unit</td><td style=\"border-left-width: 0px\"/><td/><td>Traduire Rens_compl/Valeur_rens_compl_1/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13</td></tr></table><hr/><p><b>Groupe 6 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"4\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"3\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td><b>Unité@Phastnomenclature1</b></td><td><b>Unité1</b></td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.valueQuantity.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Nombre</td><td style=\"border-left-width: 0px\"/><td/><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.value</td><td style=\"border-left-width: 0px\"/><td/><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité</td><td style=\"border-left-width: 0px\"/><td/><td>UCUM</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.code</td><td style=\"border-left-width: 0px\"/><td>http://unitsofmeasure.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité</td><td style=\"border-left-width: 0px\"/><td>{Absent}/{Différent de UCUM}</td><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.unit</td><td style=\"border-left-width: 0px\"/><td/><td>Traduire Rens_compl/Valeur_rens_compl_2/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13</td></tr></table><hr/><p><b>Groupe 7 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"4\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"3\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td><b>Unité@Phastnomenclature2</b></td><td><b>Unité2</b></td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.valueQuantity.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Nombre</td><td style=\"border-left-width: 0px\"/><td/><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.value</td><td style=\"border-left-width: 0px\"/><td/><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité</td><td style=\"border-left-width: 0px\"/><td/><td>UCUM</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.code</td><td style=\"border-left-width: 0px\"/><td>http://unitsofmeasure.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité</td><td style=\"border-left-width: 0px\"/><td>{Absent}/{Différent de UCUM}</td><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.unit</td><td style=\"border-left-width: 0px\"/><td/><td>Traduire Rens_compl/Valeur_rens_compl_3/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13</td></tr></table><hr/><p><b>Groupe 8 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_4/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 9 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td colspan=\"4\"><b>Détails du concept source</b></td><td><b>relation</b></td><td colspan=\"3\"><b>Détails du concept cible</b></td><td><b>Commentaire</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> de </td><td><b>Unité@Phastnomenclature3</b></td><td><b>Unité3</b></td><td/><td colspan=\"2\"><b>Codes</b> de </td><td><b>Observation.valueQuantity.system</b></td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Nombre</td><td style=\"border-left-width: 0px\"/><td/><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.value</td><td style=\"border-left-width: 0px\"/><td/><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité</td><td style=\"border-left-width: 0px\"/><td/><td>UCUM</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equal\" title=\"equal\">is equal to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.code</td><td style=\"border-left-width: 0px\"/><td>http://unitsofmeasure.org</td><td/></tr><tr><td style=\"border-right-width: 0px\">Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité</td><td style=\"border-left-width: 0px\"/><td>{Absent}/{Différent de UCUM}</td><td/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Observation.valueQuantity.unit</td><td style=\"border-left-width: 0px\"/><td/><td>Traduire Rens_compl/Valeur_rens_compl_5/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13</td></tr></table><hr/><p><b>Groupe 10 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_6/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 11 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_7/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 12 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_8/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 13 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_9/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table><hr/><p><b>Groupe 14 </b>Mapping de <code>terminologie de référence (CodeSystem) non spécifiée</code> to <code>terminologie de référence (CodeSystem) non spécifiée</code></p><table class=\"grid\"><tr><td><b>Code source</b></td><td><b>relation</b></td><td><b>Code cible</b></td><td><b>Commentaire</b></td></tr><tr><td>Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_10/Nombre</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#disjoint\" title=\"disjoint\">is not related to</a></td><td/><td>Cet élément n'est pas mappé pour l'instant</td></tr></table></div>"
+  ] ;
+  fhir:ConceptMap.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-observation-conceptmap"] ;
+  fhir:ConceptMap.version [ fhir:value "1.1.0-ballot"] ;
+  fhir:ConceptMap.name [ fhir:value "FrPN13FHIRObservationConceptMap"] ;
+  fhir:ConceptMap.title [ fhir:value "Conversion PN13 vers FHIR pour les renseignements complémentaires d'une prescription de médicaments"] ;
+  fhir:ConceptMap.status [ fhir:value "draft"] ;
+  fhir:ConceptMap.date [ fhir:value "2026-07-10T14:23:51+00:00"^^xsd:dateTime] ;
+  fhir:ConceptMap.publisher [ fhir:value "Interop'Santé"] ;
+  fhir:ConceptMap.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Interop'Santé" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://interopsante.org/" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://esante.gouv.fr" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "monserviceclient.annuaire@esante.gouv.fr" ]
+     ]
+  ] ;
+  fhir:ConceptMap.description [ fhir:value "ConceptMap pour la conversion PN13 vers FHIR d'un renseignement complémentare d'une prescritpion de médicament"] ;
+  fhir:ConceptMap.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "France (la)" ]
+     ]
+  ] ;
+  fhir:ConceptMap.sourceUri [ fhir:value "https://interopsante.org/pn13/xsd"] ;
+  fhir:ConceptMap.targetUri [ fhir:value "https://hl7.org/fhir/R4/observation"] ;
+  fhir:ConceptMap.group [
+     fhir:index 0 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "relatedto" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Groupe pour initialiser les éléments nécessaires à la ressource Observation qui ne viennent pas de PN13" ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.status" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "final" ]
+         ], [
+           fhir:index 1 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.subject.reference" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "{Référence vers la ressource Patient sujet de la prescription}" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_1" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.meta.profile" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-weight" ]
+         ], [
+           fhir:index 1 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.code.coding.code" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "29463-7" ]
+         ], [
+           fhir:index 2 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.code.coding.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://loinc.org" ]
+         ], [
+           fhir:index 3 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.category.coding.code" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "vital-signs" ]
+         ], [
+           fhir:index 4 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.category.coding.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_2" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.meta.profile" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-observation-body-height" ]
+         ], [
+           fhir:index 1 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.code.coding.code" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "8302-2" ]
+         ], [
+           fhir:index 2 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.code.coding.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://loinc.org" ]
+         ], [
+           fhir:index 3 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.category.coding.code" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "vital-signs" ]
+         ], [
+           fhir:index 4 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.category.coding.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_3" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.code.coding.code" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "8277-6" ]
+         ], [
+           fhir:index 1 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.code.coding.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://loinc.org" ]
+         ]
+       ]
+     ], [
+       fhir:index 3 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_4" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ], [
+       fhir:index 4 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_5" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.code.coding.code" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "33558-8" ]
+         ], [
+           fhir:index 1 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.code.coding.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://loinc.org" ]
+         ]
+       ]
+     ], [
+       fhir:index 5 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_6" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ], [
+       fhir:index 6 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_7" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ], [
+       fhir:index 7 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_8" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ], [
+       fhir:index 8 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_9" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ], [
+       fhir:index 9 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Code_rens_compl_10" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.code.coding.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Dh_enreg_rens_compl" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.issued" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "La date et l'heure sont à mettre au format FHIR avec offset" ]
+       ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Dh_rens_compl" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.effectiveDateTime" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "La date et l'heure sont à mettre au format FHIR avec offset" ]
+       ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.value" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ] ;
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "UCUM" ]
+         ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.valueQuantity.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://unitsofmeasure.org" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.unit" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Traduire Rens_compl/Valeur_rens_compl_1/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13" ] ;
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_1/Unité@Phast-nomenclature" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "{Absent}/{Différent de UCUM}" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.value" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ] ;
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "UCUM" ]
+         ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.valueQuantity.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://unitsofmeasure.org" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.unit" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Traduire Rens_compl/Valeur_rens_compl_2/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13" ] ;
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_2/Unité@Phast-nomenclature" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "{Absent}/{Différent de UCUM}" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.value" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ] ;
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "UCUM" ]
+         ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.valueQuantity.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://unitsofmeasure.org" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.unit" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Traduire Rens_compl/Valeur_rens_compl_3/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13" ] ;
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_3/Unité@Phast-nomenclature" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "{Absent}/{Différent de UCUM}" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_4/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.value" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.code" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equal" ] ;
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "UCUM" ]
+         ] ;
+         fhir:ConceptMap.group.element.target.product [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Observation.valueQuantity.system" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "http://unitsofmeasure.org" ]
+         ]
+       ]
+     ], [
+       fhir:index 2 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.code [ fhir:value "Observation.valueQuantity.unit" ] ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "equivalent" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Traduire Rens_compl/Valeur_rens_compl_5/Unité en UCUM si possible soit en utilisant le mapping SIPh_CIO si applicable, soit par mapping de la terminologie locale utilisée et utiliser le code dans Observation.valueQuantity.code avec Observation.valueQuantity.system renseigné à http://unitsofmeasure.org. Si ce n'est pas possible Observation.valueQuantity.unit peut être renseigné avec la valeur dans PN13" ] ;
+         fhir:ConceptMap.group.element.target.dependsOn [
+           fhir:index 0 ;
+           fhir:ConceptMap.group.element.target.dependsOn.property [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_5/Unité@Phast-nomenclature" ] ;
+           fhir:ConceptMap.group.element.target.dependsOn.value [ fhir:value "{Absent}/{Différent de UCUM}" ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_6/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_7/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_8/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_9/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:ConceptMap.group.element [
+       fhir:index 0 ;
+       fhir:ConceptMap.group.element.code [ fhir:value "Messages/M_prescription_médicaments/Prescription/Rens_compl/Valeur_rens_compl_10/Nombre" ] ;
+       fhir:ConceptMap.group.element.target [
+         fhir:index 0 ;
+         fhir:ConceptMap.group.element.target.equivalence [ fhir:value "disjoint" ] ;
+         fhir:ConceptMap.group.element.target.comment [ fhir:value "Cet élément n'est pas mappé pour l'instant" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/ConceptMap/PN13-FHIR-observation-conceptmap.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

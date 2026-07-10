@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/FrSimpleQuantityMedication | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-11 | *Computable Name*:FrSimpleQuantityMedication |
+| Draft as of 2026-07-10 | *Computable Name*:FrSimpleQuantityMedication |
 
  
 Simple quantity datatype requiring a UCUM or EDQM code or no code (only unit) 
@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrSimpleQuantityMedi
   "name" : "FrSimpleQuantityMedication",
   "title" : "SimpleQuantity with UCUM or EDQM codes or code not used",
   "status" : "draft",
-  "date" : "2026-05-11T06:11:37+00:00",
+  "date" : "2026-07-10T14:23:51+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

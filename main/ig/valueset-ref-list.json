@@ -77,8 +77,8 @@
     "http://data.esante.gouv.fr/ansm/medicament/UCD"],
     "uses" : {
     },
-    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request",
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
+    "StructureDefinition-fr-medicationrequest.html" : "FR Medication Request"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form",
@@ -90,8 +90,8 @@
     "systems" : ["http://standardterms.edqm.eu"],
     "uses" : {
     },
-    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound",
-    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound"
+    "StructureDefinition-fr-medication-compound.html" : "FR Medication Compound",
+    "StructureDefinition-fr-medication-noncompound.html" : "FR Medication Non Compound"
   },
   {
     "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs",

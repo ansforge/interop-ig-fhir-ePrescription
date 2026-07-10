@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-note-scope-codes | *Version*:1.1.0-ballot |
-| Draft as of 2026-05-11 | *Computable Name*:FrNoteScopeCodes |
+| Draft as of 2026-07-10 | *Computable Name*:FrNoteScopeCodes |
 
  
 Le système de codage pour la qualification du périmètre des notes en FHIR. 
@@ -35,7 +35,7 @@ Le système de codage pour la qualification du périmètre des notes en FHIR.
   "title" : "code system Interop'Santé - Codes pour le périmètre des notes",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-05-11T06:11:37+00:00",
+  "date" : "2026-07-10T14:23:51+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

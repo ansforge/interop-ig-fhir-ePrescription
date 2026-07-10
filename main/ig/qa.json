@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "ans.fhir.fr.eprescription",
   "ig-ver" : "1.1.0-ballot",
-  "date" : "Mon, 11 May, 2026 06:11:37 +0000",
-  "dateISO8601" : "2026-05-11T06:11:37+00:00",
+  "date" : "Fri, 10 Jul, 2026 14:23:51 +0000",
+  "dateISO8601" : "2026-07-10T14:23:51+00:00",
   "errs" : 937,
-  "warnings" : 2068,
-  "hints" : 127,
+  "warnings" : 2082,
+  "hints" : 157,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 3356847904
+  "maxMemory" : 4486956544
 }
