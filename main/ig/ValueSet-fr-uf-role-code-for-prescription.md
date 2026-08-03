@@ -51,7 +51,7 @@ Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF r�
   "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-08-03T12:01:42+00:00",
+  "date" : "2026-08-03T12:24:05+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

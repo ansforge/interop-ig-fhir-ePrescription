@@ -42,7 +42,7 @@ Other representations of profile: [CSV](StructureDefinition-FrRatioMedication.cs
   "name" : "FrRatioMedication",
   "title" : "Ratio with UCUM or EDQM codes if code is used",
   "status" : "draft",
-  "date" : "2026-08-03T12:01:42+00:00",
+  "date" : "2026-08-03T12:24:05+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

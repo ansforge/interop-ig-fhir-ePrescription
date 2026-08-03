@@ -52,7 +52,7 @@ Other representations of profile: [CSV](StructureDefinition-fr-additional-when-v
   "name" : "FrAdditionalWhenValues",
   "title" : "Additional values for when element",
   "status" : "draft",
-  "date" : "2026-08-03T12:01:42+00:00",
+  "date" : "2026-08-03T12:24:05+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

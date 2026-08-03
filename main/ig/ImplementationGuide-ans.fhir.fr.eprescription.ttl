@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "eP"] ;
   fhir:ImplementationGuide.title [ fhir:value "Guide d'implémentation de la ePrescription"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-08-03T12:01:42+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-08-03T12:24:05+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "Interop'Santé"] ;
   fhir:ImplementationGuide.contact [
      fhir:index 0 ;

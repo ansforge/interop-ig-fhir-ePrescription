@@ -2,8 +2,8 @@ eP : Validation Results
 =========================================
 
 err = 937, warn = 2082, info = 157
-IG Publisher Version: 2.2.11 Out of date - current version is 2.3.0
-Generated Mon Aug 03 12:06:59 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.eprescription#1.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
+IG Publisher Version: 2.3.0
+Generated Mon Aug 03 12:26:52 UTC 2026. FHIR version 4.0.1 for ans.fhir.fr.eprescription#1.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/fhir/eprescription)
  Build Errors : 181 / 3 / 0
  /__w/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-DC : 11 / 5 / 6
  /__w/interop-ig-fhir-ePrescription/interop-ig-fhir-ePrescription/igSource/fsh-generated/resources/Bundle-HAS-01-Presc-Pantoprazole-MV : 7 / 3 / 4
@@ -240,14 +240,14 @@ ERROR: Bundle-HAS-33-Presc-VERSATIS.html#/html/body/div/div/div/div/div/div/bloc
 ERROR: Bundle-HAS-33-Presc-VERSATIS.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 277, column 229: The link 'Practitioner/smart-Practitioner-71482713' for "Practitioner/smart-Practitioner-71482713" cannot be resolved
 ERROR: Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 1583: The link 'Patient/30002' for "Patient/30002" cannot be resolved
 ERROR: Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 1699: The link 'Practitioner/smart-Practitioner-3002' for "Practitioner/smart-Practitioner-3002" cannot be resolved
-ERROR: Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 3380: The link 'Patient/30002' for "Patient/30002" cannot be resolved
-ERROR: Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 3496: The link 'Practitioner/smart-Practitioner-3002' for "Practitioner/smart-Practitioner-3002" cannot be resolved
-ERROR: Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 5141: The link 'Patient/30002' for "Patient/30002" cannot be resolved
+ERROR: Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 3382: The link 'Patient/30002' for "Patient/30002" cannot be resolved
+ERROR: Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 3498: The link 'Practitioner/smart-Practitioner-3002' for "Practitioner/smart-Practitioner-3002" cannot be resolved
+ERROR: Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 5145: The link 'Patient/30002' for "Patient/30002" cannot be resolved
 ERROR: Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 1604: The link 'Patient/30003' for "Patient/30003" cannot be resolved
 ERROR: Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 1720: The link 'Practitioner/smart-Practitioner-3003' for "Practitioner/smart-Practitioner-3003" cannot be resolved
-ERROR: Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 3402: The link 'Patient/30003' for "Patient/30003" cannot be resolved
-ERROR: Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 3518: The link 'Practitioner/smart-Practitioner-3003' for "Practitioner/smart-Practitioner-3003" cannot be resolved
-ERROR: Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 5159: The link 'Patient/30003' for "Patient/30003" cannot be resolved
+ERROR: Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 3404: The link 'Patient/30003' for "Patient/30003" cannot be resolved
+ERROR: Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 3520: The link 'Practitioner/smart-Practitioner-3003' for "Practitioner/smart-Practitioner-3003" cannot be resolved
+ERROR: Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 5163: The link 'Patient/30003' for "Patient/30003" cannot be resolved
 ERROR: Bundle-MultiLine-Presc-Sucralfate-Paracetamol.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 1624: The link 'Patient/30004' for "Patient/30004" cannot be resolved
 ERROR: Bundle-MultiLine-Presc-Sucralfate-Paracetamol.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 1740: The link 'Practitioner/smart-Practitioner-3004' for "Practitioner/smart-Practitioner-3004" cannot be resolved
 ERROR: Bundle-MultiLine-Presc-Sucralfate-Paracetamol.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 276, column 3474: The link 'Patient/30004' for "Patient/30004" cannot be resolved
