@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription | *Version*:1.1.0-ballot |
-| Draft as of 2026-07-10 | *Computable Name*:FrUfRoleCodesForPrescriptionValueSet |
+| Draft as of 2026-08-03 | *Computable Name*:FrUfRoleCodesForPrescriptionValueSet |
 
  
 Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF référencée dans Medication.supportingInfo 
@@ -51,7 +51,7 @@ Le jeu de valeurs à utiliser dans l’extension pour indiquer le type d’UF r�
   "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-07-10T14:23:51+00:00",
+  "date" : "2026-08-03T12:01:42+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

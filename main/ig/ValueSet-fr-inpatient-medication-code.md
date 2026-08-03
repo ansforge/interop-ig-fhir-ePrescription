@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code | *Version*:1.1.0-ballot |
-| Draft as of 2026-07-10 | *Computable Name*:FRInpatientMedicationCodes |
+| Draft as of 2026-08-03 | *Computable Name*:FRInpatientMedicationCodes |
 
  
 Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code 
@@ -53,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
   "title" : "value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2026-07-10T14:23:51+00:00",
+  "date" : "2026-08-03T12:01:42+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",

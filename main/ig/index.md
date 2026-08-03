@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription | *Version*:1.1.0-ballot |
-| Draft as of 2026-07-10 | *Computable Name*:eP |
+| Draft as of 2026-08-03 | *Computable Name*:eP |
 
 Ce guide d’implémentation (IG) a pour vocation à spécifier l’interopérabilité de la [ePrescription médicamenteuse](prescription-Intro.md) en FHIR pour l’écosystème français.
 
@@ -137,10 +137,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
 
-* [DoseAndRateType](http://terminology.hl7.org/7.2.0/CodeSystem-dose-rate-type.html): [Bundle/Presc-CODOLIPRANE-MedCodeableConcept](Bundle-Presc-CODOLIPRANE-MedCodeableConcept.md), [Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md)... Show 5 more, [Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md), [Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md), [Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md), [Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md) and [Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md)
-* [MedicationKnowledge Characteristic Codes](http://terminology.hl7.org/7.2.0/CodeSystem-medicationknowledge-characteristic.html): [FrDrugCharacteristic](StructureDefinition-fr-drug-characteristic.md)
-* [Observation Category Codes](http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
-* [identifierType](http://terminology.hl7.org/7.2.0/CodeSystem-v2-0203.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
+* [DoseAndRateType](http://terminology.hl7.org/7.3.0/CodeSystem-dose-rate-type.html): [Bundle/Presc-CODOLIPRANE-MedCodeableConcept](Bundle-Presc-CODOLIPRANE-MedCodeableConcept.md), [Bundle/Presc-Capecitabine-Dose-Calculee](Bundle-Presc-Capecitabine-Dose-Calculee.md)... Show 5 more, [Bundle/Presc-DIPROSONE-AppCut](Bundle-Presc-DIPROSONE-AppCut.md), [Bundle/Presc-DOLIPRANE-20DoseParKG](Bundle-Presc-DOLIPRANE-20DoseParKG.md), [Bundle/Presc-EFFERALGAN](Bundle-Presc-EFFERALGAN.md), [Bundle/Presc-NICORETTESKIN-patch](Bundle-Presc-NICORETTESKIN-patch.md) and [Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h](Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.md)
+* [MedicationKnowledge Characteristic Codes](http://terminology.hl7.org/7.3.0/CodeSystem-medicationknowledge-characteristic.html): [FrDrugCharacteristic](StructureDefinition-fr-drug-characteristic.md)
+* [Observation Category Codes](http://terminology.hl7.org/7.3.0/CodeSystem-observation-category.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
+* [identifierType](http://terminology.hl7.org/7.3.0/CodeSystem-v2-0203.html): [Bundle/TradPN13FHIR-Presc-Paracetamol](Bundle-TradPN13FHIR-Presc-Paracetamol.md), [Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur](Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.md) and [Bundle/TradPN13FHIR-Presc-perfusion-6-composants](Bundle-TradPN13FHIR-Presc-perfusion-6-composants.md)
 
 
 * Unless otherwise indicated, reproduction of material posted on Council of Europe websites, and reproduction of photographs for which the Council of Europe holds copyright – see legal notice \“photo credits\” – is authorised for private use and for informational and educational uses relating to the Council of Europe’s work. This authorisation is subject to the condition that the source be indicated and no charge made for reproduction. Persons wishing to make some other use than those specified above, including commercial use, of information and text posted on these sites are asked to apply for prior written authorisation to the Council of Europe, Directorate of Communication.
@@ -161,7 +161,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
   "name" : "eP",
   "title" : "Guide d'implémentation de la ePrescription",
   "status" : "draft",
-  "date" : "2026-07-10T14:23:51+00:00",
+  "date" : "2026-08-03T12:01:42+00:00",
   "publisher" : "Interop'Santé",
   "contact" : [{
     "name" : "Interop'Santé",
@@ -199,7 +199,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.2.0"
+    "version" : "7.3.0"
   },
   {
     "id" : "hl7ext",
@@ -876,6 +876,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-additional-action-relationship.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-additional-action-relationship"
@@ -888,6 +892,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-additional-when-values.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-additional-when-values"
@@ -900,6 +908,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-fr-additional-when-codes-cs.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/fr-additional-when-codes-cs"
@@ -912,6 +924,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-fr-note-scope-codes.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/fr-note-scope-codes"
@@ -924,6 +940,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-fr-uf-role-codes.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/fr-uf-role-codes"
@@ -936,6 +956,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-gender-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-gender-conceptmap"
@@ -948,6 +972,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-medicationrequest-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-medicationrequest-conceptmap"
@@ -960,6 +988,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-dosageinstruction-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-dosageinstruction-conceptmap"
@@ -972,6 +1004,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-patient-id-seul-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-patient-id-seul-conceptmap"
@@ -984,6 +1020,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-practitioner-identite-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-practitioner-identite-conceptmap"
@@ -996,6 +1036,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-practitioner-id-seul-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-practitioner-id-seul-conceptmap"
@@ -1008,6 +1052,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-observation-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-observation-conceptmap"
@@ -1020,6 +1068,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-medicationcomp-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-medicationcomp-conceptmap"
@@ -1032,6 +1084,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-medicationnoncompound-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-medicationnoncompound-conceptmap"
@@ -1044,6 +1100,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-patient-avec-INS-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-patient-avec-INS-conceptmap"
@@ -1056,6 +1116,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-patient-sans-INS-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-patient-sans-INS-conceptmap"
@@ -1068,6 +1132,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-prescmed-encounter-conceptmap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-prescmed-encounter-conceptmap"
@@ -1080,6 +1148,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-inpatient-medicationrequest.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-inpatient-medicationrequest"
@@ -1092,6 +1164,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medication.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medication"
@@ -1104,6 +1180,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medication-compound.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medication-compound"
@@ -1116,6 +1196,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medication-noncompound.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medication-noncompound"
@@ -1128,6 +1212,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medicationrequest.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medicationrequest"
@@ -1140,6 +1228,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-mp-substance.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-mp-substance"
@@ -1152,6 +1244,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-observation-for-prescription.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-observation-for-prescription"
@@ -1164,6 +1260,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-prescription-bundle-for-example.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-prescription-bundle-for-example"
@@ -1176,6 +1276,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-requestgroup-for-prescription.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-requestgroup-for-prescription"
@@ -1188,6 +1292,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-mp-dose-form.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-mp-dose-form"
@@ -1200,6 +1308,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-FrMethodOfAdministration.html"
       }],
       "reference" : {
         "reference" : "ValueSet/FrMethodOfAdministration"
@@ -1212,6 +1324,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-treatment-intent.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-treatment-intent"
@@ -1224,6 +1340,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-route-of-administration.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-route-of-administration"
@@ -1236,6 +1356,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-01-Presc-Pantoprazole-DC.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-01-Presc-Pantoprazole-DC"
@@ -1248,6 +1372,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-01-Presc-Pantoprazole-MV.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-01-Presc-Pantoprazole-MV"
@@ -1260,6 +1388,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-02-Presc-Fluindione.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-02-Presc-Fluindione"
@@ -1272,6 +1404,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-03-Presc-INNOHEP.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-03-Presc-INNOHEP"
@@ -1284,6 +1420,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-04a-Presc-Paracetamol.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-04a-Presc-Paracetamol"
@@ -1296,6 +1436,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-04b-Presc-DAFALGANCODEINE.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-04b-Presc-DAFALGANCODEINE"
@@ -1308,6 +1452,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-05a-Presc-Fluindione.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-05a-Presc-Fluindione"
@@ -1320,6 +1468,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-05b-Presc-ACTISKENAN.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-05b-Presc-ACTISKENAN"
@@ -1332,6 +1484,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-06-1-Presc-Methotrexate.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-06-1-Presc-Methotrexate"
@@ -1344,6 +1500,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-06-2-Presc-Methotrexate.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-06-2-Presc-Methotrexate"
@@ -1356,6 +1516,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-07-Presc-Paracetamol.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-07-Presc-Paracetamol"
@@ -1368,6 +1532,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-08-1-Presc-Betamethasone.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-08-1-Presc-Betamethasone"
@@ -1380,6 +1548,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-08-2-Presc-Paracetamol.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-08-2-Presc-Paracetamol"
@@ -1392,6 +1564,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-09-Presc-Ropinirole.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-09-Presc-Ropinirole"
@@ -1404,6 +1580,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-10-Presc-Methotrexate.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-10-Presc-Methotrexate"
@@ -1416,6 +1596,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-11-1-Presc-VitamineD.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-11-1-Presc-VitamineD"
@@ -1428,6 +1612,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-11-2-Presc-EVRA.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-11-2-Presc-EVRA"
@@ -1440,6 +1628,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-12-1-Presc-BEPANTHEN.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-12-1-Presc-BEPANTHEN"
@@ -1452,6 +1644,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-12-2-Presc-Methotrexate.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-12-2-Presc-Methotrexate"
@@ -1464,6 +1660,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-12-3-Presc-Enoxaparine.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-12-3-Presc-Enoxaparine"
@@ -1476,6 +1676,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-13-Presc-Desloratadine.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-13-Presc-Desloratadine"
@@ -1488,6 +1692,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-14-1-Presc-CODOLIPRANE.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-14-1-Presc-CODOLIPRANE"
@@ -1500,6 +1708,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-14-2-Presc-Betamethasone.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-14-2-Presc-Betamethasone"
@@ -1512,6 +1724,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-15-Presc-Morphine.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-15-Presc-Morphine"
@@ -1524,6 +1740,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-16-Presc-Racecadotril.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-16-Presc-Racecadotril"
@@ -1536,6 +1756,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-17-Presc-Budesonide.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-17-Presc-Budesonide"
@@ -1548,6 +1772,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-18-Presc-Budesonide-MV.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-18-Presc-Budesonide-MV"
@@ -1560,6 +1788,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-19-Presc-Paracetamol.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-19-Presc-Paracetamol"
@@ -1572,6 +1804,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-20-Presc-Hydrocortisone.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-20-Presc-Hydrocortisone"
@@ -1584,6 +1820,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-21-Presc-Prednisolone.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-21-Presc-Prednisolone"
@@ -1596,6 +1836,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-22-Presc-Prednisolone.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-22-Presc-Prednisolone"
@@ -1608,6 +1852,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-23-1-Presc-Fluindione.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-23-1-Presc-Fluindione"
@@ -1620,6 +1868,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-23-2-Presc-Amiodarone.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-23-2-Presc-Amiodarone"
@@ -1632,6 +1884,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-24-1-presc-Doxycyline.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-24-1-presc-Doxycyline"
@@ -1644,6 +1900,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-24-1-presc-Topiramate.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-24-1-presc-Topiramate"
@@ -1656,6 +1916,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-25-NOVORAPID.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-25-NOVORAPID"
@@ -1668,6 +1932,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-26-Diazepam.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-26-Diazepam"
@@ -1680,6 +1948,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-27-1-presc-GLUCOPHAGE.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-27-1-presc-GLUCOPHAGE"
@@ -1692,6 +1964,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-27-2-presc-Rifampicine.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-27-2-presc-Rifampicine"
@@ -1704,6 +1980,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-28-Presc-LOVENOX.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-28-Presc-LOVENOX"
@@ -1716,6 +1996,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-29-Presc-LOVENOX.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-29-Presc-LOVENOX"
@@ -1728,6 +2012,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-30-1-Presc-Hydrocortisone.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-30-1-Presc-Hydrocortisone"
@@ -1740,6 +2028,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-30-2-Presc-Cetirizine.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-30-2-Presc-Cetirizine"
@@ -1752,6 +2044,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-31-Presc-DUROGESIC.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-31-Presc-DUROGESIC"
@@ -1764,6 +2060,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-32-1-Presc-LOVENOX.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-32-1-Presc-LOVENOX"
@@ -1776,6 +2076,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-32-2-Presc-ULTIBRO-BREEZ.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-32-2-Presc-ULTIBRO-BREEZ"
@@ -1788,6 +2092,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-HAS-33-Presc-VERSATIS.html"
       }],
       "reference" : {
         "reference" : "Bundle/HAS-33-Presc-VERSATIS"
@@ -1800,6 +2108,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-fr-additional-action-relationship-type.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/fr-additional-action-relationship-type"
@@ -1812,6 +2124,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-additional-action-relationship-type-value-set.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-additional-action-relationship-type-value-set"
@@ -1824,6 +2140,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:logical"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-ligne-prescription.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-ligne-prescription"
@@ -1836,6 +2156,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-FreeSetCIODC-Forme-ConceptMap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-FreeSetCIODC-Forme-ConceptMap"
@@ -1848,6 +2172,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-FreeSetCIODC-Unite-ConceptMap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-FreeSetCIODC-Unite-ConceptMap"
@@ -1860,6 +2188,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ConceptMap-PN13-FHIR-FreeSetCIODC-Voie-ConceptMap.html"
       }],
       "reference" : {
         "reference" : "ConceptMap/PN13-FHIR-FreeSetCIODC-Voie-ConceptMap"
@@ -1872,6 +2204,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-basis-of-dose-component.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-basis-of-dose-component"
@@ -1884,6 +2220,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-is-vehicle.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-is-vehicle"
@@ -1896,6 +2236,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-drug-characteristic.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-drug-characteristic"
@@ -1908,6 +2252,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-treatment-intent.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-treatment-intent"
@@ -1920,6 +2268,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-MultiLine-Presc-METFORMINE-GLICLAZIDE.html"
       }],
       "reference" : {
         "reference" : "Bundle/MultiLine-Presc-METFORMINE-GLICLAZIDE"
@@ -1932,6 +2284,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-MultiLine-Presc-METHOTREXATE-LEDERFOLINE.html"
       }],
       "reference" : {
         "reference" : "Bundle/MultiLine-Presc-METHOTREXATE-LEDERFOLINE"
@@ -1944,6 +2300,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-MultiLine-Presc-Sucralfate-Paracetamol.html"
       }],
       "reference" : {
         "reference" : "Bundle/MultiLine-Presc-Sucralfate-Paracetamol"
@@ -1956,6 +2316,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:logical"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-posologie.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-posologie"
@@ -1968,6 +2332,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-Betamethasone-ApplCut.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-Betamethasone-ApplCut"
@@ -1980,6 +2348,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-BISOPROLOL-SANDOZ-DosesRationnelles.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-BISOPROLOL-SANDOZ-DosesRationnelles"
@@ -1992,6 +2364,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-Capecitabine-Dose-Calculee.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-Capecitabine-Dose-Calculee"
@@ -2004,6 +2380,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-CLARADOL-DoseDiffParHoraire.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-CLARADOL-DoseDiffParHoraire"
@@ -2016,6 +2396,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-CLARADOL-SiDouleur-MaxPrise-DelaisMin"
@@ -2028,6 +2412,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-CLARADOL-TL6h-MedCodeableConcept.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-CLARADOL-TL6h-MedCodeableConcept"
@@ -2040,6 +2428,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-CLARADOL-TLMardisVendredis.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-CLARADOL-TLMardisVendredis"
@@ -2052,6 +2444,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-CODOLIPRANE-MedCodeableConcept.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-CODOLIPRANE-MedCodeableConcept"
@@ -2064,6 +2460,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-DIPROSONE-AppCut.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-DIPROSONE-AppCut"
@@ -2076,6 +2476,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-DOLIPRANE-20DoseParKG.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-DOLIPRANE-20DoseParKG"
@@ -2088,6 +2492,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-EFFERALGAN.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-EFFERALGAN"
@@ -2100,6 +2508,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-Fentanyl-patch72h-TL3j.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-Fentanyl-patch72h-TL3j"
@@ -2112,6 +2524,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-MATRIFEN-patch-TL72h.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-MATRIFEN-patch-TL72h"
@@ -2124,6 +2540,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-Methylpredinosolone-DosesEvolutives.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-Methylpredinosolone-DosesEvolutives"
@@ -2136,6 +2556,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-MiniperfCefotaxime-En20min-Pdt3j"
@@ -2148,6 +2572,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-MiniperfCefotaxime-En20min-Pdt4j.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-MiniperfCefotaxime-En20min-Pdt4j"
@@ -2160,6 +2588,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-MV-PerfGl-NaCl-KCl.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-MV-PerfGl-NaCl-KCl"
@@ -2172,6 +2604,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-NICORETTESKIN-patch.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-NICORETTESKIN-patch"
@@ -2184,6 +2620,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-Nicotine-15mgPar16h.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-Nicotine-15mgPar16h"
@@ -2196,6 +2636,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-Paracetamol.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-Paracetamol"
@@ -2208,6 +2652,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-Paracetamol-DoseEvolutive.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-Paracetamol-DoseEvolutive"
@@ -2220,6 +2668,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin"
@@ -2232,6 +2684,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-Paracetamol-TL6h.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-Paracetamol-TL6h"
@@ -2244,6 +2700,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-ParacetamolCodeine-500mg30mg.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-ParacetamolCodeine-500mg30mg"
@@ -2256,6 +2716,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-PerfDobutamine-Qsp40mL.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-PerfDobutamine-Qsp40mL"
@@ -2268,6 +2732,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-PerfGl-NaCl-KCl-1l.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-PerfGl-NaCl-KCl-1l"
@@ -2280,6 +2748,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-PerfGl-NaCl-KCl-500ml.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-PerfGl-NaCl-KCl-500ml"
@@ -2292,6 +2764,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h.html"
       }],
       "reference" : {
         "reference" : "Bundle/Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h"
@@ -2304,6 +2780,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-FrRangeMedication.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/FrRangeMedication"
@@ -2316,6 +2796,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-FrRatioMedication.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/FrRatioMedication"
@@ -2328,6 +2812,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-medicationrequest-note-scope.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-medicationrequest-note-scope"
@@ -2340,6 +2828,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:complex-type"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-FrSimpleQuantityMedication.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/FrSimpleQuantityMedication"
@@ -2352,6 +2844,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE.html"
       }],
       "reference" : {
         "reference" : "Bundle/TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE"
@@ -2364,6 +2860,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-TradPN13FHIR-Presc-DOLIPRANE.html"
       }],
       "reference" : {
         "reference" : "Bundle/TradPN13FHIR-Presc-DOLIPRANE"
@@ -2376,6 +2876,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-TradPN13FHIR-Presc-DOLIPRANE-Interpret.html"
       }],
       "reference" : {
         "reference" : "Bundle/TradPN13FHIR-Presc-DOLIPRANE-Interpret"
@@ -2388,6 +2892,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-TradPN13FHIR-Presc-Morphine-PCA.html"
       }],
       "reference" : {
         "reference" : "Bundle/TradPN13FHIR-Presc-Morphine-PCA"
@@ -2400,6 +2908,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-TradPN13FHIR-Presc-Paracetamol.html"
       }],
       "reference" : {
         "reference" : "Bundle/TradPN13FHIR-Presc-Paracetamol"
@@ -2412,6 +2924,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-TradPN13FHIR-Presc-Paracetamol-SiDouleur.html"
       }],
       "reference" : {
         "reference" : "Bundle/TradPN13FHIR-Presc-Paracetamol-SiDouleur"
@@ -2424,6 +2940,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Bundle-TradPN13FHIR-Presc-perfusion-6-composants.html"
       }],
       "reference" : {
         "reference" : "Bundle/TradPN13FHIR-Presc-perfusion-6-composants"
@@ -2436,6 +2956,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-fr-uf-role.html"
       }],
       "reference" : {
         "reference" : "StructureDefinition/fr-uf-role"
@@ -2448,6 +2972,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-additional-when-codes-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-additional-when-codes-vs"
@@ -2460,6 +2988,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-medication-code.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-medication-code"
@@ -2472,6 +3004,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-inpatient-medication-code.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-inpatient-medication-code"
@@ -2484,6 +3020,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-substance-code.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-substance-code"
@@ -2496,6 +3036,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-note-scope-codes-vs.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-note-scope-codes-vs"
@@ -2508,6 +3052,10 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-fr-uf-role-code-for-prescription.html"
       }],
       "reference" : {
         "reference" : "ValueSet/fr-uf-role-code-for-prescription"
