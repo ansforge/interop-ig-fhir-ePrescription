@@ -26,6 +26,7 @@ parameters:
 dependencies:
   hl7.fhir.fr.core: 2.1.0
   hl7.fhir.extensions.r5: 4.0.1
+  ans.fr.document-core: current
 
 pages:
     index.md: 
@@ -41,6 +42,8 @@ pages:
       prescription-Exemples.md:
         title: La prescription - Exemples
       prescription-Document.md:
+        title: La prescription au format document
+      prescription-ModeleMetier.md:
         title: La prescription au format document
     transformationPN13-FHIR-Intro.md:
       title: Transformation de PN13 en FHIR
@@ -72,6 +75,7 @@ menu:
       Exemples: prescription-Exemples.html
   Prescription Document:
       Prescription document: prescription-Document.html
+      Modèle logique métier: prescription-ModeleMetier.html
   Transformation PN13-FHIR:
       Introduction: transformationPN13-FHIR-Intro.html
       Transformation PN13 vers FHIR: transformation-PN13-vers-FHIR.html

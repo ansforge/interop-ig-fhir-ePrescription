@@ -74,8 +74,8 @@ Ces modèles utilisent le formalisme des **"modèles logiques"** d'HL7, qui perm
 - Référentiel métier pour valider que tous les besoins sont bien couverts
 
 **Modèles disponibles :**
-- [Modélisation d'une ligne de prescription](StructureDefinition-fr-ligne-prescription.html)
-- [Modélisation d'une posologie](StructureDefinition-fr-posologie.html)
+- [Modélisation d'une ligne de prescription](https://ansforge.github.io/interop-IG-metier-document-core/main/ig/fr/StructureDefinition-FRLMPrescriptionItem.html)
+- [Modélisation d'une posologie](https://ansforge.github.io/interop-IG-metier-document-core/main/ig/fr/StructureDefinition-FRLMDosageInstructions.html)
 
 ### Sommaire de la partie prescription
 
