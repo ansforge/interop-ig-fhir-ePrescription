@@ -1,0 +1,181 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-21-Presc-Prednisolone",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-21-Presc-Prednisolone",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution"
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://BogusSystemMedicabase.com",
+          "code" : "MV00002248",
+          "display" : "PREDNISOLONE 20 mg comprimé"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "Prescription textuelle: PREDNISOLONE 20 mg comprimé (sécable) : en une prise le matin 60 mg jusqu'à obtenir 3 bandelettes urinaires négatives, puis 50 mg pendant 1 semaine, puis 40 mg pendant 1 semaine, puis 30 mg pendant 1 semaine, puis 20 mg pendant 1 semaine, puis 10 mg pendant 1 semaine, puis revoir pour l'arrêt selon évolution"
+      }],
+      "dosageInstruction" : [{
+        "sequence" : 1,
+        "additionalInstruction" : [{
+          "text" : "Jusqu'à obtenir 3 bandelettes urinaires négatives"
+        }],
+        "timing" : {
+          "repeat" : {
+            "when" : ["MORN"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 60,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      },
+      {
+        "sequence" : 2,
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 1,
+              "unit" : "semaine",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "wk"
+            },
+            "when" : ["MORN"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 50,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      },
+      {
+        "sequence" : 3,
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 1,
+              "unit" : "semaine",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "wk"
+            },
+            "when" : ["MORN"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 40,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      },
+      {
+        "sequence" : 4,
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 1,
+              "unit" : "semaine",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "wk"
+            },
+            "when" : ["MORN"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 30,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      },
+      {
+        "sequence" : 5,
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 1,
+              "unit" : "semaine",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "wk"
+            },
+            "when" : ["MORN"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 20,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      },
+      {
+        "sequence" : 6,
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 1,
+              "unit" : "semaine",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "wk"
+            },
+            "when" : ["MORN"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 10,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      },
+      {
+        "sequence" : 7,
+        "additionalInstruction" : [{
+          "text" : "Revoir pour l'arrêt selon évolution"
+        }]
+      }]
+    }
+  }]
+}

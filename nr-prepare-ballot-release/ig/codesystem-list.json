@@ -1,0 +1,34 @@
+{
+  "codeSystems" : [{
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrAdditionalActionRelationshipType",
+    "title" : "Interop'Santé code system - Additional codes for relationship between action",
+    "description" : "Codes to specify relationship between action in a RequestGroup that are not in the valueSet http://hl7.org/fhir/ValueSet/action-relationship-type."
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrAdditionalWhenCodesCodeSystem",
+    "title" : "code system Interop'Santé - Codes additionnels pour l'élément when",
+    "description" : "Le système de codage pour des périodes d'occurrence qui ne sont pas définies dans FHIR."
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-note-scope-codes",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrNoteScopeCodes",
+    "title" : "code system Interop'Santé - Codes pour le périmètre des notes",
+    "description" : "Le système de codage pour la qualification du périmètre des notes en FHIR."
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrUFRoleCodes",
+    "title" : "code system Interop'Santé - Codes pour typer le rôle des UF par rapport à un séjour patient",
+    "description" : "Le système de codage pour les types de rôle qu'une UF peut avoir par rapport à un séjour patient."
+  }]
+}

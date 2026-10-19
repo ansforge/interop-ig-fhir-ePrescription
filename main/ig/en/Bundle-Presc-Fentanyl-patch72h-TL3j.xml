@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Presc-Fentanyl-patch72h-TL3j"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <Medication>
+        <id value="medication-Presc-Fentanyl-patch72h-TL3j"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <code>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/codeSMS"/>
+            <code value="100000090377"/>
+            <display value="fentanyl"/>
+          </coding>
+          <text value="FENTANYL"/>
+        </code>
+        <form>
+          <coding>
+            <system value="http://standardterms.edqm.eu"/>
+            <code value="0061"/>
+            <display value="Patch"/>
+          </coding>
+        </form>
+        <ingredient>
+          <itemCodeableConcept>
+            <coding>
+              <system value="http://data.esante.gouv.fr/ansm/medicament/codeSMS"/>
+              <code value="100000090377"/>
+              <display value="fentanyl"/>
+            </coding>
+            <text value="FENTANYL"/>
+          </itemCodeableConcept>
+          <strength>
+            <numerator>
+              <value value="75"/>
+              <unit value="µg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="ug"/>
+            </numerator>
+            <denominator>
+              <value value="1"/>
+              <unit value="h"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="h"/>
+            </denominator>
+          </strength>
+        </ingredient>
+      </Medication>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-Presc-Fentanyl-patch72h-TL3j"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationReference>
+          <reference value="#medication-Presc-Fentanyl-patch72h-TL3j"/>
+        </medicationReference>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2021-07-20T19:05:30.603Z"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-71482713"/>
+        </requester>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="Presc-14622"/>
+        </groupIdentifier>
+        <dosageInstruction>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2021-07-20T19:05:00Z"/>
+                <end value="2021-07-28T19:04:59Z"/>
+              </boundsPeriod>
+              <frequency value="1"/>
+              <period value="3"/>
+              <periodUnit value="d"/>
+              <timeOfDay value="07:00:00"/>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20070000"/>
+              <display value="Voie transdermique"/>
+            </coding>
+            <text value="Voie transdermique"/>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="1"/>
+              <unit value="Patch"/>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="15036000"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

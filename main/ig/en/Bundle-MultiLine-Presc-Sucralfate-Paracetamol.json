@@ -1,0 +1,194 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "MultiLine-Presc-Sucralfate-Paracetamol",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-MultiLine-Presc-Sucralfate",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "option",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/codeSMS",
+          "code" : "100000091545",
+          "display" : "sucralfate"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/30004"
+      },
+      "authoredOn" : "2025-05-02T14:48:44.461Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-3004"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescription-ID",
+        "value" : "Presc-30004"
+      },
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2025-05-02T14:49:00Z",
+              "end" : "2025-05-31T14:48:59Z"
+            },
+            "when" : ["ACM",
+            "ACV"],
+            "offset" : 60
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "g",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "g"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-MultiLine-Presc-Paracetamol",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "option",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/codeSMS",
+          "code" : "100000090270",
+          "display" : "paracétamol"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/30004"
+      },
+      "authoredOn" : "2025-05-02T14:48:44.461Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-3004"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescription-ID",
+        "value" : "Presc-30004"
+      },
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2025-05-02T14:49:00Z",
+              "end" : "2025-05-31T14:48:59Z"
+            },
+            "frequency" : 1,
+            "period" : 4,
+            "periodUnit" : "h"
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 500,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }],
+        "maxDosePerPeriod" : {
+          "numerator" : {
+            "value" : 3,
+            "unit" : "g",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "g"
+          },
+          "denominator" : {
+            "value" : 1,
+            "unit" : "d",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "d"
+          }
+        }
+      }]
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "RequestGroup",
+      "id" : "requestgroup-Presc-Sucralfate-Paracetamol",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescription-ID",
+        "value" : "Presc-30004"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "subject" : {
+        "reference" : "Patient/30004"
+      },
+      "action" : [{
+        "id" : "Action1",
+        "relatedAction" : [{
+          "actionId" : "Action2",
+          "relationship" : "after",
+          "offsetDuration" : {
+            "value" : 2,
+            "unit" : "h",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "h"
+          }
+        }],
+        "resource" : {
+          "reference" : "#medicationrequest-MultiLine-Presc-Paracetamol"
+        }
+      },
+      {
+        "id" : "Action2",
+        "resource" : {
+          "reference" : "#medicationrequest-MultiLinePresc-Sucralfate"
+        }
+      }]
+    }
+  }]
+}

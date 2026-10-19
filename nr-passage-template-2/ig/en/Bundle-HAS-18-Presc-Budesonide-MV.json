@@ -1,0 +1,69 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-18-Presc-Budesonide-MV",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-18-Presc-Budesonide",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "A administrer en 20 min à 8h, 14h, 18h, et 22h"
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://BogusSystemMedicabase.com",
+          "code" : "MV00004231",
+          "display" : "Budésonide 1 mg/2 ml (0,5 mg/ml) suspension pour inhalation par nébuliseur en récipient unidose"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "Prescription textuelle: BUDESONIDE  1mg/2mL, suspension pour inhalation par nébuliseur en récipient unidose \n1 récipient unidose de 1 mg 4 fois par jour selon les modalités d'administration  suivantes : \n\nPréparation pour nébuliseur ultrasonique : \n     - 3 mL Eau Pour Préparation Injectable \n     - 1 récipient unidose (soit 2 mL) de BUDESONIDE  1mg/2mL) suspension pour inhalation par nébuliseur\n\nA administrer en 20 min à 8h, 14h, 18h, et 22h  jusqu'au 26/03/2023"
+      }],
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "end" : "2023-03-26"
+            },
+            "duration" : 20,
+            "durationUnit" : "min",
+            "timeOfDay" : ["08:00:00",
+            "14:00:00",
+            "18:00:00",
+            "22:00:00"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "mg",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "mg"
+          }
+        }]
+      }]
+    }
+  }]
+}

@@ -1,0 +1,161 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-30-1-Presc-Hydrocortisone",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-30-1-Presc-Hydrocortisone",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "1 comprimé matin et 1 comprimé midi \nEn cas de fièvre, de forte chaleur, d'infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre > 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h.\nAvec un maximum de 6 comprimés par jour."
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://BogusSystemMedicabase.com",
+          "code" : "MV00000089",
+          "display" : "HYDROCORTISONE 10 mg comprimé"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "Prescription textuelle: HYDROCORTISONE 10 mg : 1 comprimé matin et 1 comprimé midi \nEn cas de fièvre, de forte chaleur, d'infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre > 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h.\nAvec un maximum de 6 comprimés par jour. QSP 6 mois."
+      }],
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 6,
+              "unit" : "mois",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "mo"
+            },
+            "when" : ["MORN",
+            "NOON"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 1,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }],
+        "maxDosePerPeriod" : {
+          "numerator" : {
+            "value" : 6,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          },
+          "denominator" : {
+            "value" : 1,
+            "unit" : "jour",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "d"
+          }
+        }
+      },
+      {
+        "additionalInstruction" : [{
+          "text" : "En cas de fièvre, de forte chaleur, d'infection, de diarrhée, de stress important"
+        }],
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 6,
+              "unit" : "mois",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "mo"
+            },
+            "when" : ["MORN",
+            "NOON"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 2,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }],
+        "maxDosePerPeriod" : {
+          "numerator" : {
+            "value" : 6,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          },
+          "denominator" : {
+            "value" : 1,
+            "unit" : "jour",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "d"
+          }
+        }
+      },
+      {
+        "additionalInstruction" : [{
+          "text" : "En cas de fièvre > 40°C"
+        }],
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 6,
+              "unit" : "mois",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "mo"
+            },
+            "timeOfDay" : ["16:00:00"],
+            "when" : ["MORN",
+            "NOON"]
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 2,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }],
+        "maxDosePerPeriod" : {
+          "numerator" : {
+            "value" : 6,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          },
+          "denominator" : {
+            "value" : 1,
+            "unit" : "jour",
+            "system" : "http://unitsofmeasure.org",
+            "code" : "d"
+          }
+        }
+      }]
+    }
+  }]
+}

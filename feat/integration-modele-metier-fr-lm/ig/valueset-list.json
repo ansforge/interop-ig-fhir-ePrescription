@@ -1,0 +1,108 @@
+{
+  "codeSystems" : [{
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/FrMethodOfAdministration",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrMethodOfAdministration",
+    "title" : "French Method Of Administration",
+    "description" : "Le jeu de valeurs à utiliser pour coder l'élément *dosageInstruction.method* de la ressource *FRMedicationRequest*.",
+    "systems" : ["http://standardterms.edqm.eu"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-action-relationship-type-value-set",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrAdditionalRequestGroupRelationshipValueSet",
+    "title" : "Interop'Santé value set - Additional codes for relationship between action",
+    "description" : "Codes to specify relationship between action in a RequestGroup that are not in the valueSet http://hl7.org/fhir/ValueSet/action-relationship-type.",
+    "systems" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-action-relationship-type"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-additional-when-codes-vs",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrAdditionalWhenCodesValueSet",
+    "title" : "value set Interop'Santé - Codes additionnels pour l'élément when",
+    "description" : "Le jeu de valeurs à utiliser pour coder des périodes d'occurrence qui ne sont pas dans le jeu de valeurs http://hl7.org/fhir/ValueSet/event-timing.",
+    "systems" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-additional-when-codes-cs"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-inpatient-medication-code",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FRInpatientMedicationCodes",
+    "title" : "value set Interop'Santé - Codes identifiant les médicaments destinés à être prescrits en milieu hospitalier",
+    "description" : "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code",
+    "systems" : ["http://data.esante.gouv.fr/ansm/medicament/codeSMS",
+    "http://data.esante.gouv.fr/ansm/medicament/substance",
+    "http://data.esante.gouv.fr/ansm/medicament/UCD"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-medication-code",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FRMedicationCodes",
+    "title" : "value set Interop'Santé - Codes identifiant les médicaments",
+    "description" : "Le jeu de valeurs à utiliser pour indiquer le médicament dans Medication.code.coding.code",
+    "systems" : ["http://data.esante.gouv.fr/ansm/medicament/codeSMS",
+    "http://data.esante.gouv.fr/ansm/medicament/substance",
+    "http://data.esante.gouv.fr/ansm/medicament/Presentation",
+    "http://data.esante.gouv.fr/ansm/medicament/SpecialitePharmaceutique",
+    "http://data.esante.gouv.fr/ansm/medicament/UCD"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-mp-dose-form",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrMpDoseForm",
+    "title" : "French Medicinal product Dose form",
+    "description" : "Le jeu de valeurs à utiliser pour coder l'élément *doseForm* des ressources *FrMedication*.",
+    "systems" : ["http://standardterms.edqm.eu"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-note-scope-codes-vs",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrNoteScopeCodeValueSet",
+    "title" : "value set Interop'Santé - Codes pour le périmètre des notes",
+    "description" : "Le jeu de valeurs à utiliser pour coder le périmètre des notes par exemple lors de la transformation de message PN13 en ressources FHIR",
+    "systems" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-note-scope-codes"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-route-of-administration",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrRouteOfAdministration",
+    "title" : "French Route of Administration",
+    "description" : "Le jeu de valeurs à utiliser pour coder l'élément *dosageInstruction.route* de la ressource *FRMedicationRequest*.",
+    "systems" : ["http://standardterms.edqm.eu"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-substance-code",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrSubstanceCode",
+    "title" : "value set Interop'Santé - Codes identifiant les substances",
+    "description" : "Le jeu de valeurs à utiliser pour indiquer un ingrédient composant un médicament dans Medication.ingredient.itemCodeableConcept.coding.code",
+    "systems" : ["http://data.esante.gouv.fr/ansm/medicament/codeSMS",
+    "http://data.esante.gouv.fr/ansm/medicament/substance"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-treatment-intent",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrTreatmentIntent",
+    "title" : "French overall intention of the treatment",
+    "description" : "Le jeu de valeurs à utiliser pour coder l'élément *treatmentIntent* de la ressource *FRInpatientMedicationRequest*.",
+    "systems" : ["http://snomed.info/sct"]
+  },
+  {
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ValueSet/fr-uf-role-code-for-prescription",
+    "version" : "1.1.0-ballot",
+    "status" : "draft",
+    "name" : "FrUfRoleCodesForPrescriptionValueSet",
+    "title" : "value set Interop'Santé - Types de rôle d’une UF par rapport à un séjour patient dans une prescription",
+    "description" : "Le jeu de valeurs à utiliser dans l'extension pour indiquer le type d'UF référencée dans Medication.supportingInfo",
+    "systems" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/CodeSystem/fr-uf-role-codes"]
+  }]
+}

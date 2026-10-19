@@ -1,0 +1,113 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "Medication",
+      "id" : "medication-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "code" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400893093542",
+          "display" : "BIONOLYTE G5 INJ FPE500ML"
+        }],
+        "text" : "BIONOLYTE® G5, sol pr perf, flac 500 mL"
+      },
+      "form" : {
+        "coding" : [{
+          "system" : "http://standardterms.edqm.eu",
+          "code" : "11210000",
+          "display" : "solution pour perfusion"
+        }],
+        "text" : "solution pour perfusion"
+      }
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationReference" : {
+        "reference" : "#medicationrequest-Presc-SolPrPerf-BIONOLYTE-G5-500mL-Sur12h"
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2021-07-29T17:29:27.603Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "Presc-14630"
+      },
+      "dosageInstruction" : [{
+        "sequence" : 1,
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2021-07-29T17:29:00Z",
+              "end" : "2021-08-03T17:28:59Z"
+            },
+            "timeOfDay" : ["10:00:00",
+            "22:00:00"]
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20045000",
+            "display" : "Voie intraveineuse"
+          }],
+          "text" : "Voie intraveineuse"
+        },
+        "doseAndRate" : [{
+          "type" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/dose-rate-type",
+              "code" : "ordered",
+              "display" : "Ordered"
+            }],
+            "text" : "Ordered"
+          },
+          "rateRatio" : {
+            "numerator" : {
+              "value" : 1,
+              "unit" : "flacon",
+              "system" : "http://standardterms.edqm.eu",
+              "code" : "15009000"
+            },
+            "denominator" : {
+              "value" : 12,
+              "unit" : "h",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "h"
+            }
+          }
+        }]
+      }]
+    }
+  }]
+}
