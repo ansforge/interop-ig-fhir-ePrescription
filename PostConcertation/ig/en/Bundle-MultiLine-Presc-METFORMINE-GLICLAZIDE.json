@@ -1,0 +1,177 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "MultiLine-Presc-METFORMINE-GLICLAZIDE",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Presc-METFORMINE",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "option",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400890020275",
+          "display" : "METFORMINE ACC 1000MG CPR"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/30002"
+      },
+      "authoredOn" : "2025-05-02T14:48:44.461Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-3002"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "Presc-30002"
+      },
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2025-05-02T14:49:00Z",
+              "end" : "2025-05-31T14:48:59Z"
+            },
+            "frequency" : 2,
+            "periodUnit" : "d",
+            "when" : ["C"]
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 0.5,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-Presc-GLICLAZIDE",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "status" : "active",
+      "intent" : "option",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://data.esante.gouv.fr/ansm/medicament/UCD",
+          "code" : "3400893541364",
+          "display" : "GLICLAZIDE ARW 30MG CPR LM"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/30002"
+      },
+      "authoredOn" : "2025-05-02T14:48:44.461Z",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-3002"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "Presc-30002"
+      },
+      "dosageInstruction" : [{
+        "timing" : {
+          "repeat" : {
+            "boundsPeriod" : {
+              "start" : "2025-05-02T14:49:00Z",
+              "end" : "2025-05-31T14:48:59Z"
+            },
+            "when" : ["CM"]
+          }
+        },
+        "route" : {
+          "coding" : [{
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "20053000",
+            "display" : "Voie orale"
+          }],
+          "text" : "Voie orale"
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 3,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "resource" : {
+      "resourceType" : "RequestGroup",
+      "id" : "requestgroup-Presc-METFORMINE-GLICLAZIDE",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated"
+      },
+      "groupIdentifier" : {
+        "system" : "https://somehospital.fr/Prescrption-ID",
+        "value" : "Presc-30002"
+      },
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "subject" : {
+        "reference" : "Patient/30002"
+      },
+      "action" : [{
+        "id" : "Action1",
+        "description" : "En cas d'intolérance digestive",
+        "relatedAction" : [{
+          "extension" : [{
+            "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship",
+            "valueCode" : "ALT"
+          }],
+          "actionId" : "Action2",
+          "relationship" : "concurrent"
+        }],
+        "resource" : {
+          "reference" : "#medicationrequest-Presc-GLICLAZIDE"
+        }
+      },
+      {
+        "id" : "Action2",
+        "resource" : {
+          "reference" : "#medicationrequest-Presc-METFORMINE"
+        }
+      }]
+    }
+  }]
+}

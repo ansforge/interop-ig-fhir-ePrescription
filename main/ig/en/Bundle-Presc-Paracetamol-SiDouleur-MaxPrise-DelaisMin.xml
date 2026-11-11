@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <Medication>
+        <id value="medication-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <code>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/codeSMS"/>
+            <code value="100000090270"/>
+            <display value="paracétamol"/>
+          </coding>
+          <text value="PARACETAMOL"/>
+        </code>
+      </Medication>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <medicationReference>
+          <reference value="#medication-Presc-Paracetamol-SiDouleur-MaxPrise-DelaisMin"/>
+        </medicationReference>
+        <subject>
+          <reference value="Patient/14602"/>
+        </subject>
+        <authoredOn value="2021-08-12T11:59:40.552Z"/>
+        <requester>
+          <reference value="Practitioner/smart-Practitioner-71482713"/>
+        </requester>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="Presc-14640"/>
+        </groupIdentifier>
+        <dosageInstruction>
+          <sequence value="1"/>
+          <additionalInstruction>
+            <text value="Délais minimum entre 2 prises : 4h"/>
+          </additionalInstruction>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2021-08-12T11:59:00Z"/>
+                <end value="2021-08-17T11:58:59Z"/>
+              </boundsPeriod>
+              <frequencyMax value="1"/>
+              <periodMax value="4"/>
+              <periodUnit value="h"/>
+            </repeat>
+          </timing>
+          <asNeededCodeableConcept>
+            <coding>
+              <system value="http://snomed.info/sct"/>
+              <code value="22253000"/>
+              <display value="douleur"/>
+            </coding>
+            <text value="Si douleurs"/>
+          </asNeededCodeableConcept>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20053000"/>
+              <display value="Voie orale"/>
+            </coding>
+            <text value="Voie orale"/>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="500"/>
+              <unit value="mg"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </doseQuantity>
+          </doseAndRate>
+          <maxDosePerPeriod>
+            <numerator>
+              <value value="3"/>
+              <unit value="g"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="g"/>
+            </numerator>
+            <denominator>
+              <value value="24"/>
+              <unit value="h"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="h"/>
+            </denominator>
+          </maxDosePerPeriod>
+          <maxDosePerAdministration>
+            <value value="1"/>
+            <unit value="g"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="g"/>
+          </maxDosePerAdministration>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+</Bundle>

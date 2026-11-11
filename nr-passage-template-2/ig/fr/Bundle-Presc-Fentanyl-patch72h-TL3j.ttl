@@ -1,0 +1,162 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-Fentanyl-patch72h-TL3j> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Presc-Fentanyl-patch72h-TL3j"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index -1 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "fr"] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Medication ;
+       fhir:Resource.id [ fhir:value "medication-Presc-Fentanyl-patch72h-TL3j" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"Medication_medication-Presc-Fentanyl-patch72h-TL3j\"> </a><p class=\"res-header-id\"><b>Narratif généré : Médication medication-Presc-Fentanyl-patch72h-TL3j</b></p><a name=\"medication-Presc-Fentanyl-patch72h-TL3j\"> </a><a name=\"hcmedication-Presc-Fentanyl-patch72h-TL3j\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-medication-noncompound.html\">FR Medication Non Compound</a></p></div><p><b>code</b>: <span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000090377}\">FENTANYL</span></p><p><b>form</b>: <span title=\"Codes :{http://standardterms.edqm.eu 0061}\">Patch</span></p><h3>Ingredients</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Item[x]</b></td><td><b>Strength</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes :{http://data.esante.gouv.fr/ansm/medicament/codeSMS 100000090377}\">FENTANYL</span></td><td>75 µg<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMug = 'ug')</span>/1 h<span style=\"background: LightGoldenRodYellow\"> (Détails : code UCUMh = 'h')</span></td></tr></table></div>"
+       ] ;
+       fhir:Medication.code [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/codeSMS" ] ;
+           fhir:Coding.code [ fhir:value "100000090377" ] ;
+           fhir:Coding.display [ fhir:value "fentanyl" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "FENTANYL" ]
+       ] ;
+       fhir:Medication.form [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+           fhir:Coding.code [ fhir:value "0061" ] ;
+           fhir:Coding.display [ fhir:value "Patch" ]
+         ]
+       ] ;
+       fhir:Medication.ingredient [
+         fhir:index -1 ;
+         fhir:Medication.ingredient.itemCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/codeSMS" ] ;
+             fhir:Coding.code [ fhir:value "100000090377" ] ;
+             fhir:Coding.display [ fhir:value "fentanyl" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "FENTANYL" ]
+         ] ;
+         fhir:Medication.ingredient.strength [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "75"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "µg" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "ug" ]
+           ] ;
+           fhir:Ratio.denominator [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "h" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "h" ]
+           ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:MedicationRequest ;
+       fhir:Resource.id [ fhir:value "medicationrequest-Presc-Fentanyl-patch72h-TL3j" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "fr" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ] ;
+         fhir:Narrative.div "<div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><a name=\"MedicationRequest_medicationrequest-Presc-Fentanyl-patch72h-TL3j\"> </a><p class=\"res-header-id\"><b>Narratif généré : PrescriptionMédicamenteuseTODO medicationrequest-Presc-Fentanyl-patch72h-TL3j</b></p><a name=\"medicationrequest-Presc-Fentanyl-patch72h-TL3j\"> </a><a name=\"hcmedicationrequest-Presc-Fentanyl-patch72h-TL3j\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-fr-inpatient-medicationrequest.html\">FR Inpatient MedicationRequest</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>medication</b>: <code>#medication-Presc-Fentanyl-patch72h-TL3j</code></p><p><b>subject</b>: <a href=\"Patient/14602\">Patient/14602</a></p><p><b>authoredOn</b>: 2021-07-20 19:05:30+0000</p><p><b>requester</b>: <a href=\"Practitioner/smart-Practitioner-71482713\">Practitioner/smart-Practitioner-71482713</a></p><p><b>groupIdentifier</b>: <code>https://somehospital.fr/Prescrption-ID</code>/Presc-14622</p><blockquote><p><b>dosageInstruction</b></p><p><b>timing</b>: Une fois par 3 days</p><p><b>route</b>: <span title=\"Codes :{http://standardterms.edqm.eu 20070000}\">Voie transdermique</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>1 Patch<span style=\"background: LightGoldenRodYellow\"> (Détails : code EDQM Standard Terms15036000 = 'Patch')</span></td></tr></table></blockquote></div>"
+       ] ;
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationReference [
+         fhir:Reference.reference [ fhir:value "#medication-Presc-Fentanyl-patch72h-TL3j" ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2021-07-20T19:05:30.603Z"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/smart-Practitioner-71482713" ]
+       ] ;
+       fhir:MedicationRequest.groupIdentifier [
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/Prescrption-ID" ] ;
+         fhir:Identifier.value [ fhir:value "Presc-14622" ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index -1 ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsPeriod [
+               fhir:Period.start [ fhir:value "2021-07-20T19:05:00Z"^^xsd:dateTime ] ;
+               fhir:Period.end [ fhir:value "2021-07-28T19:04:59Z"^^xsd:dateTime ]
+             ] ;
+             fhir:Timing.repeat.frequency [ fhir:value "1"^^xsd:positiveInteger ] ;
+             fhir:Timing.repeat.period [ fhir:value "3"^^xsd:decimal ] ;
+             fhir:Timing.repeat.periodUnit [ fhir:value "d" ] ;
+             fhir:Timing.repeat.timeOfDay [
+               fhir:value "07:00:00"^^xsd:time ;
+               fhir:index -1
+             ]
+           ]
+         ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20070000" ] ;
+             fhir:Coding.display [ fhir:value "Voie transdermique" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "Voie transdermique" ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index -1 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "Patch" ] ;
+             fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Quantity.code [ fhir:value "15036000" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-Fentanyl-patch72h-TL3j.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,164 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-MATRIFEN-patch-TL72h> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Presc-MATRIFEN-patch-TL72h"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example" ;
+       fhir:index -1 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example>
+     ]
+  ] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:Bundle.type [ fhir:value "searchset"] ;
+  fhir:Bundle.entry [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:Medication ;
+       fhir:Resource.id [ fhir:value "medication-Presc-MATRIFEN-patch-TL72h" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medication-noncompound>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "en" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ]
+       ] ;
+       fhir:Medication.code [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/UCD" ] ;
+           fhir:Coding.code [ fhir:value "3400893183014" ] ;
+           fhir:Coding.display [ fhir:value "MATRIFEN 75µG/H DISP TRANS" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "MATRIFEN® 75 ug/h, dispositif transdermique" ]
+       ] ;
+       fhir:Medication.form [
+         fhir:CodeableConcept.coding [
+           fhir:index -1 ;
+           fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+           fhir:Coding.code [ fhir:value "10517500" ] ;
+           fhir:Coding.display [ fhir:value "patch cutané" ]
+         ] ;
+         fhir:CodeableConcept.text [ fhir:value "dispositif cutané" ]
+       ] ;
+       fhir:Medication.ingredient [
+         fhir:index -1 ;
+         fhir:Medication.ingredient.itemCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "http://data.esante.gouv.fr/ansm/medicament/codeSMS" ] ;
+             fhir:Coding.code [ fhir:value "100000090377" ] ;
+             fhir:Coding.display [ fhir:value "fentanyl" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "FENTANYL" ]
+         ] ;
+         fhir:Medication.ingredient.isActive [ fhir:value "true"^^xsd:boolean ] ;
+         fhir:Medication.ingredient.strength [
+           fhir:Ratio.numerator [
+             fhir:Quantity.value [ fhir:value "75"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "µg" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "ug" ]
+           ] ;
+           fhir:Ratio.denominator [
+             fhir:Quantity.unit [ fhir:value "h" ] ;
+             fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ] ;
+             fhir:Quantity.code [ fhir:value "h" ]
+           ]
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Bundle.entry.resource [
+       a fhir:MedicationRequest ;
+       fhir:Resource.id [ fhir:value "medicationrequest-Presc-MATRIFEN-patch-TL72h" ] ;
+       fhir:Resource.meta [
+         fhir:Meta.profile [
+           fhir:value "https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest" ;
+           fhir:index -1 ;
+           fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest>
+         ]
+       ] ;
+       fhir:Resource.language [ fhir:value "en" ] ;
+       fhir:DomainResource.text [
+         fhir:Narrative.status [ fhir:value "generated" ]
+       ] ;
+       fhir:MedicationRequest.status [ fhir:value "active" ] ;
+       fhir:MedicationRequest.intent [ fhir:value "order" ] ;
+       fhir:MedicationRequest.priority [ fhir:value "routine" ] ;
+       fhir:MedicationRequest.medicationReference [
+         fhir:Reference.reference [ fhir:value "#medication-Presc-MATRIFEN-patch-TL72h" ]
+       ] ;
+       fhir:MedicationRequest.subject [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Patient/14602> ;
+         fhir:Reference.reference [ fhir:value "Patient/14602" ]
+       ] ;
+       fhir:MedicationRequest.authoredOn [ fhir:value "2021-07-29T16:14:13.817Z"^^xsd:dateTime ] ;
+       fhir:MedicationRequest.requester [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/eprescription/Practitioner/smart-Practitioner-71482713> ;
+         fhir:Reference.reference [ fhir:value "Practitioner/smart-Practitioner-71482713" ]
+       ] ;
+       fhir:MedicationRequest.groupIdentifier [
+         fhir:Identifier.system [ fhir:value "https://somehospital.fr/Prescrption-ID" ] ;
+         fhir:Identifier.value [ fhir:value "Presc-14629" ]
+       ] ;
+       fhir:MedicationRequest.dosageInstruction [
+         fhir:index -1 ;
+         fhir:Dosage.sequence [ fhir:value "1"^^xsd:integer ] ;
+         fhir:Dosage.timing [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.boundsPeriod [
+               fhir:Period.start [ fhir:value "2021-07-29T16:14:00Z"^^xsd:dateTime ] ;
+               fhir:Period.end [ fhir:value "2021-08-06T16:13:59Z"^^xsd:dateTime ]
+             ] ;
+             fhir:Timing.repeat.duration [ fhir:value "72"^^xsd:decimal ] ;
+             fhir:Timing.repeat.durationUnit [ fhir:value "h" ] ;
+             fhir:Timing.repeat.frequency [ fhir:value "1"^^xsd:positiveInteger ] ;
+             fhir:Timing.repeat.period [ fhir:value "72"^^xsd:decimal ] ;
+             fhir:Timing.repeat.periodUnit [ fhir:value "h" ] ;
+             fhir:Timing.repeat.timeOfDay [
+               fhir:value "07:00:00"^^xsd:time ;
+               fhir:index -1
+             ]
+           ]
+         ] ;
+         fhir:Dosage.route [
+           fhir:CodeableConcept.coding [
+             fhir:index -1 ;
+             fhir:Coding.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Coding.code [ fhir:value "20070000" ] ;
+             fhir:Coding.display [ fhir:value "Voie transdermique" ]
+           ] ;
+           fhir:CodeableConcept.text [ fhir:value "Voie transdermique" ]
+         ] ;
+         fhir:Dosage.doseAndRate [
+           fhir:index -1 ;
+           fhir:Dosage.doseAndRate.doseQuantity [
+             fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ] ;
+             fhir:Quantity.unit [ fhir:value "patch" ] ;
+             fhir:Quantity.system [ fhir:value "http://standardterms.edqm.eu" ] ;
+             fhir:Quantity.code [ fhir:value "15036000" ]
+           ]
+         ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/eprescription/Bundle/Presc-MATRIFEN-patch-TL72h.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

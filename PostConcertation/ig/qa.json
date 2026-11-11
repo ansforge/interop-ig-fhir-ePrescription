@@ -1,0 +1,20 @@
+{
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/eprescription/ImplementationGuide/ans.fhir.fr.eprescription",
+  "name" : "eP",
+  "title" : "Guide d'implémentation de la ePrescription",
+  "description" : "",
+  "status" : "draft",
+  "package-id" : "ans.fhir.fr.eprescription",
+  "ig-ver" : "1.1.0-ballot",
+  "date" : "Wed, 11 Nov, 2026 16:12:46 +0000",
+  "dateISO8601" : "2026-11-11T16:12:46+00:00",
+  "errs" : 896,
+  "warnings" : 3741,
+  "hints" : 115,
+  "broken-links" : 378,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 2799061408
+}

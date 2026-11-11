@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="TradPN13FHIR-MultiLine-Presc-Alt-METFORMINE-GLICLAZIDE"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"/>
+  </meta>
+  <language value="en"/>
+  <type value="searchset"/>
+  <entry>
+    <resource>
+      <Patient>
+        <id value="patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE"/>
+        <meta>
+          <profile value="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-identity-reliability">
+          <extension url="identityStatus">
+            <valueCoding>
+              <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445"/>
+              <code value="VALI"/>
+            </valueCoding>
+          </extension>
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthPlace">
+          <valueAddress>
+            <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-address-insee-code">
+              <valueCoding>
+                <system value="https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune"/>
+                <code value="29134"/>
+              </valueCoding>
+            </extension>
+          </valueAddress>
+        </extension>
+        <identifier>
+          <use value="official"/>
+          <type>
+            <coding>
+              <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+              <code value="INS-NIR"/>
+              <display value="NIR définitif"/>
+            </coding>
+          </type>
+          <system value="urn:oid:1.2.250.1.213.1.4.8"/>
+          <value value="289062913400149"/>
+        </identifier>
+        <identifier>
+          <use value="usual"/>
+          <type>
+            <coding>
+              <system value="https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203"/>
+              <code value="INTRN"/>
+              <display value="Identifiant interne"/>
+            </coding>
+          </type>
+          <system value="urn:oid:1.2.250.1.507454354.43654.2346659"/>
+          <value value="6032486"/>
+        </identifier>
+        <name>
+          <use value="usual"/>
+          <family value="ARASGAIN"/>
+        </name>
+        <name>
+          <extension url="https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-birth-list-given-name">
+            <valueString value="MARSALI MORAG MAIREAD"/>
+          </extension>
+          <use value="official"/>
+          <family value="CUIMEANACH"/>
+          <given value="MARSALI"/>
+        </name>
+        <gender value="female"/>
+        <birthDate value="1989-01-02"/>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-Trad-Presc-Alt-METFORMINE"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <identifier>
+          <value value="https://somehospital.fr/Medication-ID"/>
+        </identifier>
+        <status value="active"/>
+        <intent value="option"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/UCD"/>
+            <code value="3400890020275"/>
+            <display value="METFORMINE ACC 1000MG CPR"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="#patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE"/>
+        </subject>
+        <encounter>
+          <identifier>
+            <system value="https://somehospital.fr/Sejour"/>
+            <value value="765093464568"/>
+          </identifier>
+        </encounter>
+        <supportingInformation>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role">
+            <valueCode value="UFHEB"/>
+          </extension>
+          <type value="Organization"/>
+          <identifier>
+            <system value="https://somehospital.fr/UF"/>
+            <value value="603"/>
+          </identifier>
+        </supportingInformation>
+        <supportingInformation>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role">
+            <valueCode value="UFMED"/>
+          </extension>
+          <type value="Organization"/>
+          <identifier>
+            <system value="https://somehospital.fr/UF"/>
+            <value value="506"/>
+          </identifier>
+        </supportingInformation>
+        <authoredOn value="2025-05-02T14:48:44+02:00"/>
+        <requester>
+          <identifier>
+            <system value="urn:oid:1.2.250.1.71.4.2.1"/>
+            <value value="899999999999"/>
+          </identifier>
+        </requester>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="10543744"/>
+        </groupIdentifier>
+        <note>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope">
+            <valueCode value="LIPRESCTXT"/>
+          </extension>
+          <text value="Prescription textuelle: Par voie orale : METFORMINE 1000MG 0,5 comprimé 2 fois par jour avec les repas -- À partir du 02/05/2025 à 19:00 jusqu'au 31/05/2025 à 19h00"/>
+        </note>
+        <dosageInstruction>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2025-05-02T19:00:00+02:00"/>
+                <end value="2025-05-31T18:59:59+02:00"/>
+              </boundsPeriod>
+              <frequency value="2"/>
+              <periodUnit value="d"/>
+              <when value="C"/>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20053000"/>
+              <display value="Voie orale"/>
+            </coding>
+            <text value="Voie orale"/>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="0.5"/>
+              <unit value="Comprimé"/>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="15054000"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <MedicationRequest>
+        <id value="medicationrequest-Trad-Presc-Alt-GLICLAZIDE"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-inpatient-medicationrequest"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <identifier>
+          <value value="https://somehospital.fr/Medication-ID"/>
+        </identifier>
+        <status value="active"/>
+        <intent value="option"/>
+        <priority value="routine"/>
+        <medicationCodeableConcept>
+          <coding>
+            <system value="http://data.esante.gouv.fr/ansm/medicament/UCD"/>
+            <code value="3400893541364"/>
+            <display value="GLICLAZIDE ARW 30MG CPR LM"/>
+          </coding>
+        </medicationCodeableConcept>
+        <subject>
+          <reference value="#patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE"/>
+        </subject>
+        <encounter>
+          <identifier>
+            <system value="https://somehospital.fr/Sejour"/>
+            <value value="765093464568"/>
+          </identifier>
+        </encounter>
+        <supportingInformation>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role">
+            <valueCode value="UFHEB"/>
+          </extension>
+          <type value="Organization"/>
+          <identifier>
+            <system value="https://somehospital.fr/UF"/>
+            <value value="603"/>
+          </identifier>
+        </supportingInformation>
+        <supportingInformation>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-uf-role">
+            <valueCode value="UFMED"/>
+          </extension>
+          <type value="Organization"/>
+          <identifier>
+            <system value="https://somehospital.fr/UF"/>
+            <value value="506"/>
+          </identifier>
+        </supportingInformation>
+        <authoredOn value="2025-05-02T14:48:44+02:00"/>
+        <requester>
+          <identifier>
+            <system value="urn:oid:1.2.250.1.71.4.2.1"/>
+            <value value="899999999999"/>
+          </identifier>
+        </requester>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="10543744"/>
+        </groupIdentifier>
+        <note>
+          <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest-note-scope">
+            <valueCode value="LIPRESCTXT"/>
+          </extension>
+          <text value="Prescription textuelle: Par voie orale : GLICLAZIDE 30MG 3 comprimés au petit déjeuner -- À partir du 02/05/2025 à 19:00 jusqu'au 31/05/2025 à 19h00"/>
+        </note>
+        <dosageInstruction>
+          <timing>
+            <repeat>
+              <boundsPeriod>
+                <start value="2025-05-02T19:00:00+02:00"/>
+                <end value="2025-05-31T18:59:59+02:00"/>
+              </boundsPeriod>
+              <when value="CM"/>
+            </repeat>
+          </timing>
+          <route>
+            <coding>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="20053000"/>
+              <display value="Voie orale"/>
+            </coding>
+            <text value="Voie orale"/>
+          </route>
+          <doseAndRate>
+            <doseQuantity>
+              <value value="3"/>
+              <unit value="Comprimé"/>
+              <system value="http://standardterms.edqm.eu"/>
+              <code value="15054000"/>
+            </doseQuantity>
+          </doseAndRate>
+        </dosageInstruction>
+      </MedicationRequest>
+    </resource>
+  </entry>
+  <entry>
+    <resource>
+      <RequestGroup>
+        <id value="requestgroup-Trad-Presc-Alt-METFORMINE-GLICLAZIDE"/>
+        <meta>
+          <profile value="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-requestgroup-for-prescription"/>
+        </meta>
+        <language value="en"/>
+        <text>
+          <status value="generated"/>
+        </text>
+        <groupIdentifier>
+          <system value="https://somehospital.fr/Prescrption-ID"/>
+          <value value="10543744"/>
+        </groupIdentifier>
+        <status value="active"/>
+        <intent value="order"/>
+        <priority value="routine"/>
+        <subject>
+          <reference value="#patient-Trad-Presc-Alt-METFORMINE-GLICLAZIDE"/>
+        </subject>
+        <action id="20250502144844570">
+          <description value="En cas d'intolérance digestive au METFORMINE"/>
+          <relatedAction>
+            <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship">
+              <valueCode value="ALT"/>
+            </extension>
+            <actionId value="20250502144844569"/>
+            <relationship value="concurrent"/>
+          </relatedAction>
+          <resource>
+            <reference value="#medicationrequest-Trad-Presc-Alt-GLICLAZIDE"/>
+          </resource>
+        </action>
+        <action id="20250502144844569">
+          <description value="Sans intolérance digestive au METFORMINE"/>
+          <relatedAction>
+            <extension url="https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-additional-action-relationship">
+              <valueCode value="ALT"/>
+            </extension>
+            <actionId value="20250502144844570"/>
+            <relationship value="concurrent"/>
+          </relatedAction>
+          <resource>
+            <reference value="#medicationrequest-Trad-Presc-Alt-METFORMINE"/>
+          </resource>
+        </action>
+      </RequestGroup>
+    </resource>
+  </entry>
+</Bundle>

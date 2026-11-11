@@ -1,0 +1,98 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "HAS-23-1-Presc-Fluindione",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-prescription-bundle-for-example"]
+  },
+  "language" : "en",
+  "type" : "searchset",
+  "entry" : [{
+    "resource" : {
+      "resourceType" : "MedicationRequest",
+      "id" : "medicationrequest-HAS-23-1-Presc-Fluindione",
+      "meta" : {
+        "profile" : ["https://interop.esante.gouv.fr/ig/fhir/eprescription/StructureDefinition/fr-medicationrequest"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions"
+      },
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "valueMarkdown" : "0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours, à répéter sur le mois"
+      }],
+      "status" : "active",
+      "intent" : "order",
+      "priority" : "routine",
+      "medicationCodeableConcept" : {
+        "coding" : [{
+          "system" : "http://BogusSystemMedicabase.com",
+          "code" : "MV00001070",
+          "display" : "FLUINDIONE 20 mg comprimé quadrisécable"
+        }]
+      },
+      "subject" : {
+        "reference" : "Patient/14602"
+      },
+      "authoredOn" : "2025-07-23T10:33:00+01:00",
+      "requester" : {
+        "reference" : "Practitioner/smart-Practitioner-71482713"
+      },
+      "note" : [{
+        "text" : "Prescription textuelle: FLUINDIONE 20 mg comprimé quadrisécable: 0,5 comprimé au jour 1, et puis 0,75 comprimé au jour 2. Recommencer le cycle de 2 jours, à répéter sur le mois."
+      }],
+      "dosageInstruction" : [{
+        "additionalInstruction" : [{
+          "text" : "le premier jour du cycle de 2 jours"
+        }],
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 1,
+              "unit" : "mois",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "mo"
+            },
+            "frequency" : 1,
+            "period" : 2,
+            "periodUnit" : "d"
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 0.5,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }]
+      },
+      {
+        "additionalInstruction" : [{
+          "text" : "le second jour du cycle de 2 jours"
+        }],
+        "timing" : {
+          "repeat" : {
+            "boundsDuration" : {
+              "value" : 1,
+              "unit" : "mois",
+              "system" : "http://unitsofmeasure.org",
+              "code" : "mo"
+            },
+            "frequency" : 1,
+            "period" : 2,
+            "periodUnit" : "d"
+          }
+        },
+        "doseAndRate" : [{
+          "doseQuantity" : {
+            "value" : 0.75,
+            "unit" : "Comprimé",
+            "system" : "http://standardterms.edqm.eu",
+            "code" : "15054000"
+          }
+        }]
+      }]
+    }
+  }]
+}
