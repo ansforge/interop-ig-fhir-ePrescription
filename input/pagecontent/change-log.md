@@ -126,10 +126,8 @@ Chair : Manuel Metz
   - Cassandre Piraud
 - Maincare
   - Emmanuel Delvas
-- APHM 
-  - Marjorie Roudot
 - SNPHPU
-  - Marjorie Roudot
+  - Marjorie Roudot (Pharmacien à l’AP-HM)
 - Normand'e-Santé
   - Thomas Hacquet
 - Unicancer
