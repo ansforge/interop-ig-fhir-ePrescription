@@ -14,6 +14,20 @@ Pour les règles de modélisation illustrées par ces exemples (contraintes sur 
 
 #### La ligne de prescription initiale, complexité du médicament prescrit
 
+##### Médicament virtuel (cible)
+
+- [HAS - pantoprazole 40 mg comprimé: 40 mg le soir en MV (id_poso=1)](Bundle-HAS-01-Presc-Pantoprazole-MV.html)
+- [HAS - fluindione 20 mg comprimé : 0,5 comprimé par jour (id_poso=2)](Bundle-HAS-02-Presc-Fluindione.html)
+- [HAS - ropinirole comprimé 1mg : 1 comprimé à 7h, 12h 18h (id_poso=9)](Bundle-HAS-09-Presc-Ropinirole.html)
+- [HAS - budesonide  1mg/2mL, suspension pour inhalation par nébuliseur en récipient unidose : 1 récipient unidose de 1 mg 4 fois par jour selon les modalités d'administration suivantes (Préparation pour nébuliseur ultrasonique : 3 mL Eau Pour Préparation Injectable + 1 récipient unidose (soit 2 mL) de BUDESONIDE 1mg/2mL) suspension pour inhalation par nébuliseur) A administrer en 20 min à 8h, 14h, 18h, et 22h à partir du 16/03/2023 (id_poso=17)](Bundle-HAS-17-Presc-Budesonide.html)
+- [HAS - budesonide  1mg/2mL, suspension pour inhalation par nébuliseur en récipient unidose : 1 récipient unidose de 1 mg 4 fois par jour selon les modalités d'administration suivantes (Préparation pour nébuliseur ultrasonique : 3 mL Eau Pour Préparation Injectable + 1 récipient unidose (soit 2 mL) de BUDESONIDE 1mg/2mL) suspension pour inhalation par nébuliseur) A administrer en 20 min à 8h, 14h, 18h, et 22h  jusqu'au 26/03/2023 (id_poso=18)](Bundle-HAS-18-Presc-Budesonide-MV.html)
+- [HAS - morphine sulfate LP 10 mg gélule microgranule à libération prolongée: une gélule le soir (à 20h) pendant huit jours (id_poso=15)](Bundle-HAS-15-Presc-Morphine.html)
+- [HAS - topiramate 15 mg gélule: 1 gélule par jour. Si difficulté à prendre la gélule, l'ouvrir et en administrer le contenu avec un peu de compote (id_poso=24)](Bundle-HAS-24-1-Topiramate.html)
+- [HAS - hydrocortisone 10 mg : 1 comprimé matin et 1 comprimé midi. En cas de fièvre, de forte chaleur, d'infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre > 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h. Avec un maximum de 6 comprimés par jour. QSP 6 mois (id_poso=30)](Bundle-HAS-30-1-Presc-Hydrocortisone.html)
+- [HAS - cetirizine 10 mg : 1 à 4 comprimés par jour selon les symptômes (urticaire) (id_poso=30)](Bundle-HAS-30-2-Presc-Cetirizine.html)
+- [glucose 5%+sodium chlorure 2g+potassium chlorure 1g x 500mL, 1 à 10h et 22h sur 12h, pendant 5j](Bundle-Presc-MV-PerfGl-NaCl-KCl.html)
+  - Note : Il s'agit de la prescription d'une perfusion préfabriquée, prête à l'emploi, d'un médicament associant deux électrolytes à du glucose 5%. C'est une association de substances. À la différence du médicament composé qui est un assemblage extemporané de médicaments simples.
+
 ##### Médicament simple en spécialité
 
 - [EFFERALGAN® 1 000 mg, cpr, 1 à 7h, 12h et 18h per os, pendant 5j](Bundle-Presc-EFFERALGAN.html)
@@ -49,20 +63,6 @@ Pour les règles de modélisation illustrées par ces exemples (contraintes sur 
 - [Perfusion Glucose 5% 1L avec Sodium chlorure 3g et Potassium chlorure 2g, à 10h et 22h sur 12h, pendant 5j](Bundle-Presc-PerfGl-NaCl-KCl-1l.html)
 - marquer l'un des médicaments composant comme étant le soluté du médicament composé: [céfotaxine dans miniperf G5 100 mL, 4g céfotaxine en 20 min toutes les 6h pendant 3j](Bundle-Presc-MiniperfCefotaxime-En20min-Pdt3j.html) Voir [Règles de modélisation des perfusions et seringues électriques](prescription-Modelisation.html#perfusions-et-seringues-électriques), § consacré à l'extension *IsVehicle*
 - [dobutamine 200 mg dans soluté=G5 qsp 40 mL, 400 µg/min pendant 1j](Bundle-Presc-PerfDobutamine-Qsp40mL.html)
-
-##### Médicament virtuel
-
-- [HAS - pantoprazole 40 mg comprimé: 40 mg le soir en MV (id_poso=1)](Bundle-HAS-01-Presc-Pantoprazole-MV.html)
-- [HAS - fluindione 20 mg comprimé : 0,5 comprimé par jour (id_poso=2)](Bundle-HAS-02-Presc-Fluindione.html)
-- [HAS - ropinirole comprimé 1mg : 1 comprimé à 7h, 12h 18h (id_poso=9)](Bundle-HAS-09-Presc-Ropinirole.html)
-- [HAS - budesonide  1mg/2mL, suspension pour inhalation par nébuliseur en récipient unidose : 1 récipient unidose de 1 mg 4 fois par jour selon les modalités d'administration suivantes (Préparation pour nébuliseur ultrasonique : 3 mL Eau Pour Préparation Injectable + 1 récipient unidose (soit 2 mL) de BUDESONIDE 1mg/2mL) suspension pour inhalation par nébuliseur) A administrer en 20 min à 8h, 14h, 18h, et 22h à partir du 16/03/2023 (id_poso=17)](Bundle-HAS-17-Presc-Budesonide.html)
-- [HAS - budesonide  1mg/2mL, suspension pour inhalation par nébuliseur en récipient unidose : 1 récipient unidose de 1 mg 4 fois par jour selon les modalités d'administration suivantes (Préparation pour nébuliseur ultrasonique : 3 mL Eau Pour Préparation Injectable + 1 récipient unidose (soit 2 mL) de BUDESONIDE 1mg/2mL) suspension pour inhalation par nébuliseur) A administrer en 20 min à 8h, 14h, 18h, et 22h  jusqu'au 26/03/2023 (id_poso=18)](Bundle-HAS-18-Presc-Budesonide-MV.html)
-- [HAS - morphine sulfate LP 10 mg gélule microgranule à libération prolongée: une gélule le soir (à 20h) pendant huit jours (id_poso=15)](Bundle-HAS-15-Presc-Morphine.html)
-- [HAS - topiramate 15 mg gélule: 1 gélule par jour. Si difficulté à prendre la gélule, l'ouvrir et en administrer le contenu avec un peu de compote (id_poso=24)](Bundle-HAS-24-1-Topiramate.html)
-- [HAS - hydrocortisone 10 mg : 1 comprimé matin et 1 comprimé midi. En cas de fièvre, de forte chaleur, d'infection, de diarrhée, de stress important, augmenter la quantité pour passer à : 2 comprimés matin et 2 comprimés midi. En cas de fièvre > 40°C passer à : 2 comprimés matin, 2 comprimés midi et 2 comprimés à 16h. Avec un maximum de 6 comprimés par jour. QSP 6 mois (id_poso=30)](Bundle-HAS-30-1-Presc-Hydrocortisone.html)
-- [HAS - cetirizine 10 mg : 1 à 4 comprimés par jour selon les symptômes (urticaire) (id_poso=30)](Bundle-HAS-30-2-Presc-Cetirizine.html)
-- [glucose 5%+sodium chlorure 2g+potassium chlorure 1g x 500mL, 1 à 10h et 22h sur 12h, pendant 5j](Bundle-Presc-MV-PerfGl-NaCl-KCl.html)
-  - Note : Il s'agit de la prescription d'une perfusion préfabriquée, prête à l'emploi, d'un médicament associant deux électrolytes à du glucose 5%. C'est une association de substances. À la différence du médicament composé qui est un assemblage extemporané de médicaments simples.
 
 #### La prescription initiale, complexité de la posologie
 

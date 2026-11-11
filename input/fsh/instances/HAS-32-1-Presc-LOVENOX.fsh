@@ -14,7 +14,7 @@ Usage: #inline
 * intent = #order
 * priority = #routine
 * note.text = "Prescription textuelle: ENOXAPARINE sodique 4 000 UI (40 mg)/0,4 mL, solution injectable en seringue préremplie (LOVENOX®): 1 injection en sous-cutanée par jour pendant 1 semaine."
-* medicationCodeableConcept = $UCD#3400892669236 "LOVENOX 4000UI SRG0,4ML +ERIS"
+* medicationCodeableConcept = $SpecialitePharmaceutique#60782303 "LOVENOX 4 000 UI (40 mg)/0,4 ml, solution injectable en seringue préremplie"
 * subject.reference = "Patient/14602"
 * authoredOn = "2025-07-23T10:33:00+01:00"
 * requester.reference = "Practitioner/smart-Practitioner-71482713"

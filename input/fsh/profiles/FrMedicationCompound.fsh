@@ -11,8 +11,6 @@ Profil de la ressource Medication décrivant un médicament composé de deux à 
 * . ^short = "Definition of a Medication compound of a MedicinalRequest, Dispense or Usage"
 * . ^definition = "Medication compound of a Medication representing the composition of a MedicationRequest, a MedicationDispense or a MedicationUsage (pka MedicationStatement). For instance, Glucose 5% 1L part of an infusion made of 3 compounds, Glucose 5% 1L + Sodium chloride 3g + Potassium chloride 2g."
 
-* form from FrMpDoseForm (extensible)
-
 * ingredient 1..
 * ingredient ^short = "Medication component of compound medication"
 * ingredient ^definition = "Identifies a medicinal component of the compound medicinal product"
@@ -22,4 +20,4 @@ Profil de la ressource Medication décrivant un médicament composé de deux à 
 * ingredient.item[x] ^short = "The actual compound"
 * ingredient.item[x] ^definition = "The actual compound, either nonproprietary named medication or branded named medication identified by a UCD code."
 * ingredient.itemReference only Reference(fr-medication-noncompound)
-* batch ..0
+//* batch ..0

@@ -14,7 +14,7 @@ Usage: #inline
 * intent = #order
 * priority = #routine
 * note.text = "Prescription textuelle: ULTIBRO BREEZ® 85/43 µg gélule : 1 gélule à administrer par voie inhalée à la même heure chaque jour pendant 1 mois."
-* medicationCodeableConcept = $UCD#3400893964361 "ULTIBRO BREEZ.85/43 GELU+INH"
+* medicationCodeableConcept = $SpecialitePharmaceutique#62553246 "ULTIBRO BREEZHALER 85 microgrammes/43 microgrammes, poudre pour inhalation en gélule"
 * subject.reference = "Patient/14602"
 * authoredOn = "2025-07-23T10:33:00+01:00"
 * requester.reference = "Practitioner/smart-Practitioner-71482713"

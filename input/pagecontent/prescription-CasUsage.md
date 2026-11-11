@@ -10,7 +10,7 @@ En situation réelle, n'émettre que des lignes de prescription initiales est ra
 
 La complexité du *médicament prescrit*
 
-- Une spécialité
+- Médicament virtuel (cible) ou à défaut en spécialité
   - monosubstance dosée en quantité sous forme comprimé
   - bisubstance dosée en quantité sous forme comprimé
   - monosubstance dosée en concentration et prescrite en dose-kg
@@ -22,7 +22,7 @@ La complexité du *médicament prescrit*
   - on retrouve le pendant des prescriptions en spécialité
   - mais en ne spécifiant que les contraintes du prescripteur
     - la DC
-    - dans certains cas, la forme, le dosage
+    - dans certains cas, la forme ou le dosage
 - Extemporané
   - Ce sont des médicaments fabriqués à la demande
     - par assemblage de médicaments simples

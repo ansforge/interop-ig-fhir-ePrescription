@@ -14,7 +14,7 @@ Usage: #inline
 * intent = #order
 * priority = #routine
 * note.text = "Prescription textuelle: DUROGESIC® dispositif transdermique 25 μg : un dispositif transdermique de vingt-cinq microgrammes à changer toutes les soixante-douze heures, pendant deux semaines."
-* medicationCodeableConcept = $UCD#3400891937626 "DUROGESIC 25µG/H DISP TRANS"
+* medicationCodeableConcept = $SpecialitePharmaceutique#60914025 "DUROGESIC 25 microgrammes/heure, dispositif transdermique"
 * subject.reference = "Patient/14602"
 * authoredOn = "2025-07-23T10:33:00+01:00"
 * requester.reference = "Practitioner/smart-Practitioner-71482713"

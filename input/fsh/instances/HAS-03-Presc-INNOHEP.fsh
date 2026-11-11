@@ -14,7 +14,7 @@ Usage: #inline
 * intent = #order
 * priority = #routine
 * note.text = "Prescription textuelle: INNOHEP® 14 000 UI anti-Xa/0,7 ml (tinzaparine sodique) solution injectable : 12 000UI anti-Xa (soit 170 UI anti-Xa /kg) , 1 fois/jour - voie sous-cutanée"
-* medicationCodeableConcept = $UCD#3400891846515 "INNOHEP 14000 INJ SRG0,7ML"
+* medicationCodeableConcept = $SpecialitePharmaceutique#65547106 "INNOHEP 14 000 UI anti-Xa/0,7 ml, solution injectable en seringue préremplie"
 * subject.reference = "Patient/14602"
 * authoredOn = "2025-07-23T10:33:00+01:00"
 * requester.reference = "Practitioner/smart-Practitioner-71482713"

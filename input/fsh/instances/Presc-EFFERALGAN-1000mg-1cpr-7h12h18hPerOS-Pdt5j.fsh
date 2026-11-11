@@ -11,8 +11,8 @@ InstanceOf: fr-medication-noncompound
 Usage: #inline
 * id = "medication-Presc-EFFERALGAN"
 * meta.profile = Canonical(fr-medication-noncompound)
-* code = $UCD#3400893766521 "EFFERALGANMED 1000MG CPR"
-* code.text = "EFFERALGAN® 1 000 mg, cpr"
+* code = $SpecialitePharmaceutique#60025403 "EFFERALGAN 1000 mg, comprimé pelliculé"
+* code.text = "EFFERALGAN 1000 mg, comprimé pelliculé"
 * form = $EDQM#10219000 "Comprimé"
 * ingredient.itemCodeableConcept = $SMS#100000090270 "paracétamol"
 * ingredient.itemCodeableConcept.text = "PARACETAMOL"

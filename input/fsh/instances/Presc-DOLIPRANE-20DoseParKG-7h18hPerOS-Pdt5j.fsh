@@ -11,8 +11,8 @@ InstanceOf: fr-medication-noncompound
 Usage: #inline
 * id = "medication-Presc-DOLIPRANE-20DoseParKG"
 * meta.profile = Canonical(fr-medication-noncompound)
-* code = $UCD#3400892028057 "DOLIPRANE 2,4% BUV FV100ML"
-* code.text = "DOLIPRANE® 2.4% ss sucre, susp buv"
+* code = $SpecialitePharmaceutique#66477582 "DOLIPRANE 2,4 POUR CENT, suspension buvable"
+* code.text = "DOLIPRANE 2,4 POUR CENT, suspension buvable"
 * form = $EDQM#10106000 "suspension buvable"
 * form.text = "suspension buvable"
 * ingredient.itemCodeableConcept = $SMS#100000090270 "paracétamol"

@@ -11,7 +11,7 @@ InstanceOf: fr-medication-noncompound
 Usage: #inline
 * id = "medication-Presc-MATRIFEN-patch-TL72h"
 * meta.profile = Canonical(fr-medication-noncompound)
-* code = $UCD#3400893183014 "MATRIFEN 75µG/H DISP TRANS"
+* code = $SpecialitePharmaceutique#60356727 "MATRIFEN 75 microgrammes/heure, dispositif transdermique"
 * code.text = "MATRIFEN® 75 ug/h, dispositif transdermique"
 * form = $EDQM#10517500 "patch cutané"
 * form.text = "dispositif cutané"

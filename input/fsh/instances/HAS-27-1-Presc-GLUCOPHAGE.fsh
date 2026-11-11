@@ -14,7 +14,7 @@ Usage: #inline
 * intent = #order
 * priority = #routine
 * note.text = "Prescription textuelle: GLUCOPHAGE® 500 mg comprimé : 1 comprimé matin et 1 comprimé soir, au cours ou à la fin des repas​"
-* medicationCodeableConcept = $UCD#3400890387606 "GLUCOPHAGE 500MG CPR"
+* medicationCodeableConcept = $SpecialitePharmaceutique#68583940 "GLUCOPHAGE 500 mg, comprimé pelliculé"
 * subject.reference = "Patient/14602"
 * authoredOn = "2025-07-23T10:33:00+01:00"
 * requester.reference = "Practitioner/smart-Practitioner-71482713"

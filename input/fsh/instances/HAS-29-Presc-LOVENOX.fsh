@@ -14,7 +14,7 @@ Usage: #inline
 * intent = #order
 * priority = #routine
 * note.text = "Prescription textuelle: ENOXAPARINE sodique 6000 UI (LOVENOX®), solution injectable en seringue préremplie : 1 injection en SC par jour jusqu’à ce que l’INR de l'AVK soit dans la zone thérapeutique cible."
-* medicationCodeableConcept = $UCD#3400892669465 "LOVENOX 6000UI SRG0,6ML +ERIS"
+* medicationCodeableConcept = $SpecialitePharmaceutique#61937233 "LOVENOX 6 000 UI (60 mg)/0,6 ml, solution injectable en seringue préremplie"
 * subject.reference = "Patient/14602"
 * authoredOn = "2025-07-23T10:33:00+01:00"
 * requester.reference = "Practitioner/smart-Practitioner-71482713"

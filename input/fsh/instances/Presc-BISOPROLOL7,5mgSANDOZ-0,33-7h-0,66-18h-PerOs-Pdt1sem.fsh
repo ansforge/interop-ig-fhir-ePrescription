@@ -11,8 +11,8 @@ InstanceOf: fr-medication-noncompound
 Usage: #inline
 * id = "medication-Presc-BISOPROLOL-SANDOZ-DosesRationnelles"
 * meta.profile = Canonical(fr-medication-noncompound)
-* code = $UCD#3400893320921 "BISOPROLOL SDZ 7,5MG CPR"
-* code.text = "BISOPROLOL® 7.5 mg SANDOZ, cpr séc"
+* code = $SpecialitePharmaceutique#68380153 "BISOPROLOL SANDOZ 7,5 mg, comprimé pelliculé sécable"
+* code.text = "BISOPROLOL SANDOZ 7,5 mg, comprimé pelliculé sécable"
 * form = $EDQM#10219000 "comprimé"
 * form.text = "comprimé"
 

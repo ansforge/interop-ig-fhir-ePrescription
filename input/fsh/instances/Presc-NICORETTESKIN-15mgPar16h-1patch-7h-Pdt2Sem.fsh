@@ -11,8 +11,8 @@ InstanceOf: fr-medication-noncompound
 Usage: #inline
 * id = "medication-Presc-NICORETTESKIN-patch"
 * meta.profile = Canonical(fr-medication-noncompound)
-* code = $UCD#3400893539354 "NICORETTESKIN 15MG/16H DISP"
-* code.text = "NICORETTESKIN® 15MG/16H DISP"
+* code = $SpecialitePharmaceutique#62616878 "NICORETTESKIN 15 mg/16 heures, dispositif transdermique"
+* code.text = "NICORETTESKIN® 15MG/16H patch"
 * form = $EDQM#10519000 "Patch transdermique"
 * form.text = "dispositif transdermique"
 * ingredient.itemCodeableConcept = $SMS#100000079991 "nicotine"

@@ -13,9 +13,12 @@ Le **médicament prescrit** est représenté par l'élément `MedicationRequest.
 Selon qu'un médicament prescrit référencé est un **médicament simple** ou un **médicament composé** de plusieurs médicaments simples, le **médicament prescrit** est représenté par deux variantes de ressource *Medication*:
 
 - *FRMedicationNonCompound*: médicament simple exprimé: 
-  - en spécialité identifié par son **code UCD**. Ex: *EFFERALGAN 1 000 mg, cpr dont le code UCD est 3400893766521*
-  - en DC (dénomination commune) identifié par son **code SMS** ou son **code technique ANSM** (dans l'attente de l'attribution d'un code SMS). Ex: *paracétamol dont le code SMS est 100000090270*
-  - en MV (médicament virtuel) identifié par son **code Medicabase**. Ex. *BETAMETHASONE 0,05% voie cutanée pom dont le code Medicabase est MV00000063*
+   - prioritairement:
+     -  en MV (médicament virtuel) identifié par son **code Medicabase**. Ex. *BETAMETHASONE 0,05% voie cutanée pom dont le code Medicabase est MV00000063*
+   - à défaut:
+     - en spécialité identifiée par son **code CIS**. Ex: *EFFERALGAN 1 000 mg, cpr dont le code CIS est 60025403* ou, pour des raisons historiques, identifiée par son **code UCD** (dans le cas d'une transformation PN13 => FHIR notamment); Ex. *EFFERALGAN 1000MG CPR dont le code UCD est 3400893766521* 
+     - en DC (dénomination commune) identifiée par son **code SMS** ou son **code technique ANSM** (dans l'attente de l'attribution d'un code SMS). Ex: *paracétamol dont le code SMS est 100000090270*
+ 
 - *FRMedicationCompound*: médicament composé de plusieurs médicaments simples exprimés en DC ou en spécialité. Ex: *glucose 5% 1L + sodium chlorure 3g + potassium chlorure 2g, composé de 3 médicaments simples, glucose, sodium chlorure et potassium chlorure, en quantités de 1L, 3g et 2g*.
 
 Dépendance des ressources profilées par Interop'Santé
@@ -26,7 +29,7 @@ Dépendance des ressources profilées par Interop'Santé
   </p>
 </div>
 
-Noter qu'un médicament simple peut être une association de plusieurs principes actifs. Ce n'en est pas moins un médicament simple représenté par une ressource *FRMedicationNonCompound*. Ex : *CODOLIPRANE 500 mg/30 mg, cpr dont le code UCD est 3400893936047* contenant 500 mg de paracétamol et 30 mg de codéine*
+Noter qu'un médicament simple peut être une association de plusieurs principes actifs. Ce n'en est pas moins un médicament simple représenté par une ressource *FRMedicationNonCompound*. Ex : *CODOLIPRANE 500 mg/30 mg, cpr dont le code CIS est 60904643* contenant 500 mg de paracétamol et 30 mg de codéine*
 
 La **posologie** est représentée par l'élément `dosageInstruction` de la ressource *MedicationRequest*.
 

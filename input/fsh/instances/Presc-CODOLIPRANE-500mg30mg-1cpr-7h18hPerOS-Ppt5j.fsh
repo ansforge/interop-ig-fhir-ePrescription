@@ -12,8 +12,8 @@ Usage: #inline
 * status = #active
 * intent = #order
 * priority = #routine
-* medicationCodeableConcept = $UCD#3400893936047 "CODOLIPRANE 500/30MG CPR"
-* medicationCodeableConcept.text = "CODOLIPRANE® 500 mg/30 mg, cpr"
+* medicationCodeableConcept = $SpecialitePharmaceutique#60904643 "CODOLIPRANE 500 mg/30 mg, comprimé"
+* medicationCodeableConcept.text = "CODOLIPRANE 500 mg/30 mg, comprimé"
 * subject.reference = "Patient/14602"
 * authoredOn = "2021-07-28T15:12:37.603Z"
 * requester.reference = "Practitioner/smart-Practitioner-71482713"

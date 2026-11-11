@@ -8,3 +8,6 @@ Description: "Le jeu de valeurs à utiliser pour indiquer le médicament dans Me
 * include codes from system $UCD
 * include codes from system $SMS
 * include codes from system $TechANSM
+* include codes from system $SpecialitePharmaceutique
+* include codes from system $Medicabase
+* include codes from system $NUVA

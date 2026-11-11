@@ -11,8 +11,8 @@ InstanceOf: fr-medication-noncompound
 Usage: #inline
 * id = "medication-Presc-DIPROSONE-AppCut"
 * meta.profile = Canonical(fr-medication-noncompound)
-* code = $UCD#3400890277334 "DIPROSONE 0,05% CR TB30G"
-* code.text = "DIPROSONE® 0.05%, crème, tube 30 g"
+* code = $SpecialitePharmaceutique#61938997 "DIPROSONE 0,05 %, crème"
+* code.text = "DIPROSONE® 0.05%, crème"
 * form = $EDQM#0071 "crème"
 * form.text = "crème"
 * ingredient.itemCodeableConcept = $SMS#100000091947 "bétaméthasone"

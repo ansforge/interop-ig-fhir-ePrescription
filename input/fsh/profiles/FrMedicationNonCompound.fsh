@@ -36,14 +36,6 @@ Profil de la ressource Medication décrivant un médicament simple (vs médicame
 * code.coding[nonCompoundCode] ^definition = "Codes that identify this simple medication"
 * code.coding[nonCompoundCode] ^binding.description = "UCD, SMS or ANSM code"
 
-* form from FrMpDoseForm (extensible)
-* form ^comment = "When branded medication is referenced from MedicationRequest, this is the ordered form.  When Medication is referenced within MedicationDispense, this is the dispensed form.  When branded medication is referenced within MedicationAdministration, this is administered form."
-
-// A modifier pour que ce ne soit plus la base de la dose
-//* amount only FrRatioMedication
-//* amount ^short = "Amount of drug in the MRequest, MDispense or MUsage"
-//* amount ^definition = "The quantity of the only substance or the volume (liquid) or mass (ointment) in the Medication of the MedicationRequest, Dispense or Use (pka MedicationStatement)."
-// Si la contrainte d'avoir au moins un composant est levée (notamment parce que code du médicament porte cette information) le commentaire est à mettre à jour
 * amount ^comment = "If the strenght of the ingredients is a concentration, it is the volume (liquid) or mass (ointment) in the Medication of the MedicationRequest, Dispense or Use (pka MedicationStatement).\r\nIf there is only one ingredient and the strenght is not defined, it is the quantity of the substance."
 * ingredient ^definition = "Identifies a particular constituent in the product."
 

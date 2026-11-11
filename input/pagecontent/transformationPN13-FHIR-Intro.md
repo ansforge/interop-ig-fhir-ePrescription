@@ -15,7 +15,8 @@ Les transformations exemples PN13-FHIR utilisent les fichiers de mapping entre l
 
 #### Détail
 
+- [Prescription PN13 médicament virtuel](PN13-prescription-MV)
 - [Prescription PN13 médicament simple en DC](PN13-prescription-DC.html)
 - [Prescription PN13 médicament simple en spécialité](PN13-prescription-specialite.html)
 - [Prescription PN13 médicament composite](PN13-prescription-compound.html)
-- [Prescription PN13 médicament virtuel](PN13-prescription-MV)
+

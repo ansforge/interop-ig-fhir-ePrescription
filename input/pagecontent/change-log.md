@@ -126,7 +126,9 @@ Chair : Manuel Metz
   - Cassandre Piraud
 - Maincare
   - Emmanuel Delvas
-- APHM
+- APHM 
+  - Marjorie Roudot
+- SNPHPU
   - Marjorie Roudot
 - Normand'e-Santé
   - Thomas Hacquet

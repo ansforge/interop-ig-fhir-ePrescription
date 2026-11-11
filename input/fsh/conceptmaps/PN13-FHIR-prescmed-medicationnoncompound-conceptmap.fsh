@@ -83,27 +83,28 @@ Usage: #definition
 * group[=].element[+].code = $PN13Schema#Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Composant_prescrit/Code_composant_9
 * group[=].element[=].target[0].code = #Medication.code.coding.code
 * group[=].element[=].target[=].equivalence = #inexact
-* group[=].element[=].target[=].comment = "Les codes locaux des bases médicamenteuses ne sont pas à utiliser seuls dans les prescription FHIR, ils peuvent être utiliser en complément d'un code SMS ou d'un code technique ANSM dans une autre occurrence de Medication.code.coding mais un code SMS ou un code technique ANSM doit être fourni dans la ressource FHIR"
+* group[=].element[=].target[=].comment = "Les codes locaux des bases médicamenteuses ne sont plus utilisés dans la version de PN13 en cours. Si ce type de composant est utilisé, la traduction en FHIR doit s'accompagner d'une traduction du code en code médicabase"
 * group[=].element[+].code = $PN13Schema#Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Composant_prescrit/Code_composant_10
 * group[=].element[=].target[0].code = #Medication.code.coding.code
 * group[=].element[=].target[=].equivalence = #inexact
-* group[=].element[=].target[=].comment = "Les codes locaux des bases médicamenteuses ne sont pas à utiliser seuls dans les prescription FHIR, ils peuvent être utiliser en complément d'un code SMS ou d'un code technique ANSM dans une autre occurrence de Medication.code.coding mais un code SMS ou un code technique ANSM doit être fourni dans la ressource FHIR"
+* group[=].element[=].target[=].comment = "Les codes locaux des bases médicamenteuses ne sont plus utilisés dans la version de PN13 en cours. Si ce type de composant est utilisé, la traduction en FHIR doit s'accompagner d'une traduction du code en code médicabase"
 * group[=].element[+].code = $PN13Schema#Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Composant_prescrit/Code_composant_11
 * group[=].element[=].target[0].code = #Medication.code.coding.code
 * group[=].element[=].target[=].equivalence = #inexact
-* group[=].element[=].target[=].comment = "Les codes locaux des bases médicamenteuses ne sont pas à utiliser seuls dans les prescription FHIR, ils peuvent être utiliser en complément d'un code SMS ou d'un code technique ANSM dans une autre occurrence de Medication.code.coding mais un code SMS ou un code technique ANSM doit être fourni dans la ressource FHIR"
+* group[=].element[=].target[=].comment = "Les codes locaux des bases médicamenteuses ne sont plus utilisés dans la version de PN13 en cours. Si ce type de composant est utilisé, la traduction en FHIR doit s'accompagner d'une traduction du code en code médicabase"
 * group[=].element[+].code = $PN13Schema#Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Composant_prescrit/Code_composant_12
 * group[=].element[=].target[0].code = #Medication.code.coding.code
 * group[=].element[=].target[=].equivalence = #inexact
-* group[=].element[=].target[=].comment = "Les codes locaux des bases médicamenteuses ne sont pas à utiliser seuls dans les prescription FHIR, ils peuvent être utiliser en complément d'un code SMS ou d'un code technique ANSM dans une autre occurrence de Medication.code.coding mais un code SMS ou un code technique ANSM doit être fourni dans la ressource FHIR"
+* group[=].element[=].target[=].comment = "Les codes locaux des bases médicamenteuses ne sont plus utilisés dans la version de PN13 en cours. Si ce type de composant est utilisé, la traduction en FHIR doit s'accompagner d'une traduction du code en code médicabase"
 * group[=].element[+].code = $PN13Schema#Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Composant_prescrit/Code_composant_13
 * group[=].element[=].target[0].code = #Medication.code.coding.code
 * group[=].element[=].target[=].equivalence = #equivalent
 * group[=].element[=].target[=].comment = "Le code à utiliser en FHIR est un code SMS s'il existe ou un code technique ANSM dans l'attente de l'attribution d'un code SMS, ce qui veut dire que si le code fournit n'est pas un code SMS, il convient de vérifier que c'est un code technique ANSM pour lequel il n'existe pas de code SMS ou, dans le cas contraitre, de traduire le code en code SMS. Le système à utiliser est soit http://data.esante.gouv.fr/ansm/medicament/CodeSMS pour les codes SMS, soit http://data.esante.gouv.fr/ansm/medicament/Substance pour les codes techniques ANSM"
 * group[=].element[+].code = $PN13Schema#Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Composant_prescrit/Code_composant_14
 * group[=].element[=].target[0].code = #Medication.code.coding.code
-* group[=].element[=].target[=].equivalence = #inexact
-* group[=].element[=].target[=].comment = "Les codes medicabase ne sont pas à utiliser seuls dans les prescription FHIR, ils peuvent être utiliser en complément d'un code SMS ou d'un code technique ANSM dans une autre occurrence de Medication.code.coding mais un code SMS ou un code technique ANSM doit être fourni dans la ressource FHIR"
+* group[=].element[=].target[=].equivalence = #equal
+* group[=].element[=].target[=].product[0].property = #Medication.code.coding.system
+* group[=].element[=].target[=].product[=].value = "http://data.esante.gouv.fr/assoc_medicabase/MEDICABASE"
 * group[+].element[0].code = $PN13Schema#Messages/M_prescription_médicaments/Prescription/Elément_prescr_médic/Composant_prescrit/Libellé_composant
 * group[=].element[=].target[0].code = #Medication.code.text
 * group[=].element[=].target[=].equivalence = #equal

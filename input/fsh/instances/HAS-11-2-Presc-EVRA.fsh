@@ -14,7 +14,7 @@ Usage: #inline
 * intent = #order
 * priority = #routine
 * note.text = "Prescription textuelle: EVRA® 203 µg/24h + 33,9µg/24h dispositif transdermique : Pendant 6 mois poser/remplacer un dispositif aux 1er, 8e et 15e jours du cycle ; La quatrième semaine à partir du 22ème jour est un intervalle libre sans dispositif transdermique"
-* medicationCodeableConcept = $UCD#3400892571720 "EVRA 203µG/33,9µG DISP TRANS"
+* medicationCodeableConcept = $SpecialitePharmaceutique#69729088 "EVRA 203 microgrammes/24 heures + 33,9 microgrammes/24 heures, dispositif transdermique"
 * subject.reference = "Patient/14602"
 * authoredOn = "2025-07-23T10:33:00+01:00"
 * requester.reference = "Practitioner/smart-Practitioner-71482713"

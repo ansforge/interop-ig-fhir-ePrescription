@@ -14,7 +14,8 @@ Alias: $SpecialitePharmaceutique = http://data.esante.gouv.fr/ansm/medicament/Sp
 
 Alias: $TechANSM = http://data.esante.gouv.fr/ansm/medicament/substance
 Alias: $EDQM = http://standardterms.edqm.eu
-Alias: $Medicabase = http://BogusSystemMedicabase.com
+Alias: $Medicabase = http://data.esante.gouv.fr/assoc_medicabase/MEDICABASE
+Alias: $NUVA = http://data.esante.gouv.fr/NUVA
 
 Alias: $fr-document-type = https://hl7.fr/fhir/fr/medication/CodeSystem/fr-document-type
 

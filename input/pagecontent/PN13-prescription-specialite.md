@@ -44,7 +44,7 @@ Cette prescription PN13 est traduite en FHIR dans l'instance [TradPN13FHIR-Presc
                 <Id_élément_prescr>31626</Id_élément_prescr>
                 <Type_élément_prescr>0</Type_élément_prescr>
                 <Forme>29</Forme>
-                <Libellé_élément_prescr>PARACETAMOL MYLAN CONSEIL 1000 MG, COMPRIME  (Voie orale)
+                <Libellé_élément_prescr>PARACETAMOL VIATRIS CONSEIL 1000 MG, COMPRIME  (Voie orale)
 A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pendant 2 jours </Libellé_élément_prescr>
                 <Cré_arr_mod_val>C</Cré_arr_mod_val>
                 <Urgent/>
@@ -65,7 +65,7 @@ A la demande :  1000 mg /prise,  4000 mg max/j,  respecter 6h entre 2 prises pen
                 <Composant_prescrit>
                     <Type_composant_1>1</Type_composant_1>
                     <Code_composant_1>3400890006262</Code_composant_1>
-                    <Libellé_composant>PARACETAMOL MYLAN CONSEIL 1000 MG, COMPRIME</Libellé_composant>
+                    <Libellé_composant>PARACETAMOL VIC 1000MG CPR</Libellé_composant>
                     <Quantité_composant_prescrite>
                         <Nombre>1000.0</Nombre>
                         <Unité>mg</Unité>
@@ -144,8 +144,8 @@ Cette prescription PN13 est traduite en FHIR:
                 <Dh_fin>20071230180000</Dh_fin>
                 <Composant_prescrit>
                     <Type_composant_1>1</Type_composant_1>
-                    <Code_composant_1>9216902</Code_composant_1>
-                    <Libellé_composant>DOLIPRANE 1 000 mg, cpr efferv</Libellé_composant>
+                    <Code_composant_1>3400892169026</Code_composant_1>
+                    <Libellé_composant>DOLIPRANE 1000MG CPR EFFV</Libellé_composant>
                     <Quantité_composant_prescrite>
                         <Nombre>1</Nombre>
                         <Unité>cpr</Unité>

@@ -9,6 +9,10 @@ Profil de la ressource Medication décrivant le médicament. Ce profil peut êtr
 * ^purpose = "décrit le médicament figurant dans une ressource Interop'Santé (fr) MedicationStatement (Bilan Médicamenteux, Conciliation) ou MedicationRequest (prescription)"
 
 * implicitRules ..0
+
+* form from FrMpDoseForm (extensible)
+* form ^comment = "When branded medication is referenced from MedicationRequest, this is the ordered form.  When Medication is referenced within MedicationDispense, this is the dispensed form.  When branded medication is referenced within MedicationAdministration, this is administered form."
+
 * amount ..0 MS
 * amount ^requirements = "Le médicament d'une MedicationRequest ou MedicationStatement n'est pas une boite contenant plusieurs unités"
 * ingredient.item[x] only CodeableConcept
@@ -21,4 +25,4 @@ Profil de la ressource Medication décrivant le médicament. Ce profil peut êtr
 * ingredient.strength ^comment = "The Ratio datatype should only be used to express a relationship of two numbers if the relationship cannot be suitably expressed using a Quantity and a common unit.  Where the denominator value is known to be fixed to \"1\", Quantity should be used instead of Ratio.\r\nNo use of element 'comparator' in the simpleQuantity definitions."
 * ingredient.strength ^requirements = "unit SHALL be UCUM or EDQM encoded"
 
-* batch ..0
+//* batch ..0
